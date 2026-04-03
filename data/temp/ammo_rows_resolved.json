@@ -1,0 +1,5325 @@
+[
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0001",
+    "reference": "MIG-0001",
+    "name": "OLIVGRUN OPT.1",
+    "definition": "RAL 6003",
+    "equivalents": [
+      {
+        "brand": "TAMIYA",
+        "code": "XF61"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.888"
+      }
+    ],
+    "hex": "#353a2d",
+    "confidence": 0.8177809291930267,
+    "resolved_hex": "#3b4b3b",
+    "resolved_from": "RAL 6003"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0002",
+    "reference": "MIG-0002",
+    "name": "OLIVGRUN OPT.2",
+    "definition": "FS34082-RAL 6003",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H48"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C52"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF65"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.890"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.092"
+      }
+    ],
+    "hex": "#525c37",
+    "confidence": 0.8039895164911844,
+    "resolved_hex": "#3b4b3b",
+    "resolved_from": "RAL 6003"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "A.MIG-0003",
+    "reference": "MIG-0003",
+    "name": "RESEDAGRUN",
+    "definition": "FS34227-RAL 6011",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H312"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C312"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.891"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.126"
+      }
+    ],
+    "hex": "#66764f",
+    "confidence": 0.8947584006661146,
+    "resolved_hex": "#6b7b5a",
+    "resolved_from": "RAL 6011"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0004",
+    "reference": "MIG-0004",
+    "name": "RESEDAGRUN B",
+    "definition": "RAL 6011",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H340"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C340"
+      }
+    ],
+    "hex": "#4c5630",
+    "confidence": 0.9856195091800695,
+    "resolved_hex": "#6b7b5a",
+    "resolved_from": "RAL 6011"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "A.MIG-0005",
+    "reference": "MIG-0005",
+    "name": "GRAUGRUN",
+    "definition": "RAL 7008",
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.116"
+      }
+    ],
+    "hex": "#5b533b",
+    "confidence": 0.8003193650396019,
+    "resolved_hex": "#6e6355",
+    "resolved_from": "RAL 7008"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "A.MIG-0006",
+    "reference": "MIG-0006",
+    "name": "GRAUGRUN OPT2",
+    "definition": "RAL 7008",
+    "equivalents": [],
+    "hex": "#827d51",
+    "confidence": 0.7670371401430021,
+    "resolved_hex": "#6e6355",
+    "resolved_from": "RAL 7008"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0007",
+    "reference": "MIG-0007",
+    "name": "DUNKELBRAUN",
+    "definition": "RAL 7017",
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.347"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.248"
+      }
+    ],
+    "hex": "#4d3f32",
+    "confidence": 0.7917988360441458,
+    "resolved_hex": "#4a5458",
+    "resolved_from": "RAL 7017"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0008",
+    "reference": "MIG-0008",
+    "name": "DUNKELGRAU",
+    "definition": "RAL 7021",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H401"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.862"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.056"
+      }
+    ],
+    "hex": "#272d33",
+    "confidence": 0.8499897063847718,
+    "resolved_hex": "#2f2f2f",
+    "resolved_from": "RAL 7021"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-000g",
+    "reference": "MIG-0009",
+    "name": "SANDGRAU",
+    "definition": "RAL 7027",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H321"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C321"
+      }
+    ],
+    "hex": "#b8a78e",
+    "confidence": 0.8349307573567286,
+    "resolved_hex": "#9ea1a0",
+    "resolved_from": "RAL 7027"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0010",
+    "reference": "MIG-0010",
+    "name": "DUNKELGELB (MID WAR)",
+    "definition": "RAL 7028",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H403"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF60"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.025"
+      }
+    ],
+    "hex": "#978745",
+    "confidence": 0.8168112119803048,
+    "resolved_hex": "#6e5d3a",
+    "resolved_from": "RAL 7028"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0011",
+    "reference": "MIG-0011",
+    "name": "DUNKELGELB AUS '44 DG",
+    "definition": "FS33440-RAL 7028",
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.978"
+      }
+    ],
+    "hex": "#c3b788",
+    "confidence": 0.8339979683199066,
+    "resolved_hex": "#6e5d3a",
+    "resolved_from": "RAL 7028"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0012",
+    "reference": "MIG-0012",
+    "name": "DUNKELGELB AUS '44 DG IIl",
+    "definition": "RAL 7028",
+    "equivalents": [],
+    "hex": "#ccbf99",
+    "confidence": 0.7657345843303225,
+    "resolved_hex": "#6e5d3a",
+    "resolved_from": "RAL 7028"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0013",
+    "reference": "MIG-0013",
+    "name": "GELBBRAUN",
+    "definition": "RAL 8000",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H27"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C44"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF57"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.879"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.272"
+      }
+    ],
+    "hex": "#aa947c",
+    "confidence": 0.8872687640316922,
+    "resolved_hex": "#8a6a3a",
+    "resolved_from": "RAL 8000"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "A.MIG-0014",
+    "reference": "MIG-0014",
+    "name": "ROTBRAUN",
+    "definition": "RAL 8012",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H47 /H460"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C41"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF64"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.814"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.271"
+      }
+    ],
+    "hex": "#76341f",
+    "confidence": 0.8992119208345375,
+    "resolved_hex": "#7e3b2e",
+    "resolved_from": "RAL 8012"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0015",
+    "reference": "MIG-0015",
+    "name": "SCHOKOBRAUN",
+    "definition": "FS30059-RAL 8017",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H406"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF10"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.985"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.041"
+      }
+    ],
+    "hex": "#4e3933",
+    "confidence": 0.9348090516885534,
+    "resolved_hex": "#4f2d24",
+    "resolved_from": "RAL 8017"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0016",
+    "reference": "MIG-0016",
+    "name": "GELBBRAUN",
+    "definition": "RAL 8020",
+    "equivalents": [],
+    "hex": "#dbbe7b",
+    "confidence": 0.9993808796690595,
+    "resolved_hex": "#7e5e2a",
+    "resolved_from": "RAL 8020"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0017",
+    "reference": "MIG-0017",
+    "name": "CREMEWEISS",
+    "definition": "RAL 9001",
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.918"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.270"
+      }
+    ],
+    "hex": "#e5e1bd",
+    "confidence": 0.8029262908088419,
+    "resolved_hex": "#f2e7c9",
+    "resolved_from": "RAL 9001"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0018",
+    "reference": "MIG-0018",
+    "name": "POLIZEI GRUN",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#38594f",
+    "confidence": 0.9511629782158229,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0019",
+    "reference": "MIG-0019",
+    "name": "RUSSIAN GREEN",
+    "definition": "4B0",
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.924"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.017"
+      }
+    ],
+    "hex": "#494929",
+    "confidence": 0.8321812082584463,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0020",
+    "reference": "MIG-0020",
+    "name": "RUSSIAN BROWN",
+    "definition": "6K",
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.941"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.282"
+      }
+    ],
+    "hex": "#7c7673",
+    "confidence": 0.7137058847217022,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0021",
+    "reference": "MIG-0021",
+    "name": "RUSSIAN TAN",
+    "definition": "7K",
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.310"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.283"
+      }
+    ],
+    "hex": "#918773",
+    "confidence": 0.7629879281522803,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0022",
+    "reference": "MIG-0022",
+    "name": "BASIC PROTECTOR ALKIDNO-URETANOVAYA",
+    "definition": "3B AU",
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.337"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.281"
+      }
+    ],
+    "hex": "#39301c",
+    "confidence": 0.8987457852144007,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0023",
+    "reference": "MIG-0023",
+    "name": "PROTECTIVE GREEN",
+    "definition": "FS34227",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H312"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C312"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF71"
+      }
+    ],
+    "hex": "#829e96",
+    "confidence": 0.9196678210854866,
+    "resolved_hex": null,
+    "resolved_from": "FS 34227"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0024",
+    "reference": "MIG-0024",
+    "name": "WASHABLE WHITE CAMO",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#5e8379",
+    "confidence": 0.9052755254606667,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0025",
+    "reference": "MIG-0025",
+    "name": "US MODERN VEHICLES",
+    "definition": "FS 33446",
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.819"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.140"
+      }
+    ],
+    "hex": "#bf9e7b",
+    "confidence": 0.8692486542406496,
+    "resolved_hex": null,
+    "resolved_from": "FS 33446"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0026",
+    "reference": "MIG-0026",
+    "name": "SAND BROWN",
+    "definition": "RAL 8031 F9",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H44"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C51"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.977"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.117"
+      }
+    ],
+    "hex": "#c09d88",
+    "confidence": 0.9164332207636301,
+    "resolved_hex": "#6f4b3a",
+    "resolved_from": "RAL 8031"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0027",
+    "reference": "MIG-0027",
+    "name": "GERMAN SAND BEIGE",
+    "definition": "RAL1039 F9",
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.917"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.244"
+      }
+    ],
+    "hex": "#bca672",
+    "confidence": 0.8798570935583429,
+    "resolved_hex": "#c89b3a",
+    "resolved_from": "RAL 1039"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "A.MIG-0028",
+    "reference": "MIG-0028",
+    "name": "GERMAN GREY BEIGE",
+    "definition": "RAL 1039 F7",
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.821"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.131"
+      }
+    ],
+    "hex": "#766f61",
+    "confidence": 0.8090848617483088,
+    "resolved_hex": "#c89b3a",
+    "resolved_from": "RAL 1039"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0029",
+    "reference": "MIG-0029",
+    "name": "DESERT SAND",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#bda470",
+    "confidence": 0.787442521611621,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0030",
+    "reference": "MIG-0030",
+    "name": "SAND YELLOW",
+    "definition": "BS 381c 361",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H459"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.143"
+      }
+    ],
+    "hex": "#c89a56",
+    "confidence": 0.9324596726683503,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0031",
+    "reference": "MIG-0031",
+    "name": "SPANISH GREEN-KHAKI",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.314"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.247"
+      }
+    ],
+    "hex": "#484128",
+    "confidence": 0.8459947472041995,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0032",
+    "reference": "MIG-0032",
+    "name": "SATIN BLACK",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H2"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C2/C92"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.861"
+      }
+    ],
+    "hex": "#150b0a",
+    "confidence": 0.8917614400012452,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0033",
+    "reference": "MIG-0033",
+    "name": "RUBBER & TIRES",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H77"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C137"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.306"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.315"
+      }
+    ],
+    "hex": "#333134",
+    "confidence": 0.836836936323343,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "A.MIG-0034",
+    "reference": "MIG-0034",
+    "name": "RUST TRACKS",
+    "definition": "FS 30111-BS435",
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.343"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.080"
+      }
+    ],
+    "hex": "#382924",
+    "confidence": 0.7435102949166156,
+    "resolved_hex": null,
+    "resolved_from": "FS 30111"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "A.MIG-0035",
+    "reference": "MIG-0035",
+    "name": "DARK TRACKS",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H84"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C42"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.302"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.039"
+      }
+    ],
+    "hex": "#030101",
+    "confidence": 0.8973972933351481,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "A.MIG-0036",
+    "reference": "MIG-0036",
+    "name": "OLD WOOD",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.075"
+      }
+    ],
+    "hex": "#b19568",
+    "confidence": 0.809361553813807,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0037",
+    "reference": "MIG-0037",
+    "name": "NEW WOOD",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.321"
+      }
+    ],
+    "hex": "#b39d69",
+    "confidence": 0.863479496649831,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0038",
+    "reference": "MIG-0038",
+    "name": "LIGHT WOOD",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H79"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C39"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF78"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.028"
+      }
+    ],
+    "hex": "#ac9c76",
+    "confidence": 0.9427238757825807,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0039",
+    "reference": "MIG-0039",
+    "name": "LIGHT RUST",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H24"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C58"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.911"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.130"
+      }
+    ],
+    "hex": "#d4872f",
+    "confidence": 0.9282607019975198,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0040",
+    "reference": "MIG-0040",
+    "name": "MEDIUM RUST",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H453"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.981"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.129"
+      }
+    ],
+    "hex": "#a24f33",
+    "confidence": 0.8954606846917166,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0041",
+    "reference": "MIG-0041",
+    "name": "DARK RUST",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.818"
+      }
+    ],
+    "hex": "#773824",
+    "confidence": 0.8499781332422497,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0042",
+    "reference": "MIG-0042",
+    "name": "OLD RUST",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.859"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.040"
+      }
+    ],
+    "hex": "#39221f",
+    "confidence": 0.8789476818943736,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0043",
+    "reference": "MIG-0043",
+    "name": "SHADOW RUST",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.307"
+      }
+    ],
+    "hex": "#2a1615",
+    "confidence": 0.9205747100613538,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0044",
+    "reference": "MIG-0044",
+    "name": "CHIPPING",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.304"
+      }
+    ],
+    "hex": "#080606",
+    "confidence": 0.8498092133883416,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0045",
+    "reference": "MIG-0045",
+    "name": "GUN METAL",
+    "definition": "FS37200-RAL 9007-RLM 03",
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.863"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.072"
+      }
+    ],
+    "hex": "#605e61",
+    "confidence": 0.8737723453154455,
+    "resolved_hex": "#8e8f8e",
+    "resolved_from": "RAL 9007"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0046",
+    "reference": "MIG-0046",
+    "name": "MATT BLACK",
+    "definition": "FS37038-RAL 9005-RLM 22-MS17",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H12"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C33"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF1"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.950"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.057"
+      }
+    ],
+    "hex": "#332e2b",
+    "confidence": 0.8570865947864038,
+    "resolved_hex": "#0a0a0a",
+    "resolved_from": "RAL 9005"
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0047",
+    "reference": "MIG-0047",
+    "name": "SATIN WHITE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H1"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C1"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.842"
+      }
+    ],
+    "hex": "#332e2b",
+    "confidence": 0.8672637126562037,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "01 ammo.png",
+    "raw_reference": "AMIG-0048",
+    "reference": "MIG-0048",
+    "name": "YELLOW",
+    "definition": "RAL 1023",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H4"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C4"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF3"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.915"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.002"
+      }
+    ],
+    "hex": "#ddb43b",
+    "confidence": 0.934655640927621,
+    "resolved_hex": "#f6a800",
+    "resolved_from": "RAL 1023"
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": null,
+    "reference": null,
+    "name": null,
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "RALZRLM/FS"
+      }
+    ],
+    "hex": "#98adb8",
+    "confidence": 0.5248401383908357,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0049",
+    "reference": "MIG-0049",
+    "name": "RED",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS31302RAL 3020RLM 23"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C3/C79/C114"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF7"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.909"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.003"
+      }
+    ],
+    "hex": "#cbcac9",
+    "confidence": 0.8014277567061185,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0050",
+    "reference": "MIG-0050",
+    "name": "MATT WHITE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS37925RAL 9016RLM 21"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C62"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF2"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.951"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.001"
+      }
+    ],
+    "hex": "#969696",
+    "confidence": 0.8372847648043484,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0051",
+    "reference": "MIG-0051",
+    "name": "MEDIUM LIGHT GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.336"
+      }
+    ],
+    "hex": "#b29e3b",
+    "confidence": 0.8281505122645617,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0052",
+    "reference": "MIG-0052",
+    "name": "DEEP GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.970"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.007"
+      }
+    ],
+    "hex": "#ebddad",
+    "confidence": 0.9964637124611926,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0053",
+    "reference": "MIG-0053",
+    "name": "PROTECTIVE MC 1200",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "TAMIYA",
+        "code": "XF70"
+      }
+    ],
+    "hex": "#969493",
+    "confidence": 0.9726537949618328,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0054",
+    "reference": "MIG-0054",
+    "name": "SIGNAL GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H26"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C66"
+      }
+    ],
+    "hex": "#939293",
+    "confidence": 0.9847203618978193,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0055",
+    "reference": "MIG-0055",
+    "name": "OIL OCHRE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.916"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.033"
+      }
+    ],
+    "hex": "#b39f3b",
+    "confidence": 0.930895596587857,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0056",
+    "reference": "MIG-0056",
+    "name": "GREEN KHAKI",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "KHS5146RLM 83"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C123"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF51"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.318"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.011"
+      }
+    ],
+    "hex": "#807e6e",
+    "confidence": 0.9608122313778981,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0057",
+    "reference": "MIG-0057",
+    "name": "YELLOW GREY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "PKHV4"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.326"
+      }
+    ],
+    "hex": "#d9ceb9",
+    "confidence": 0.9775998938721474,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0058",
+    "reference": "MIG-0058",
+    "name": "LIGHT GREEN KHAKI",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "PKHV512"
+      }
+    ],
+    "hex": "#af9d3c",
+    "confidence": 0.9871109260765161,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0059",
+    "reference": "MIG-0059",
+    "name": "GREY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS36251KHV16"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.050"
+      }
+    ],
+    "hex": "#b29e3b",
+    "confidence": 0.9411111966537143,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0060",
+    "reference": "MIG-0060",
+    "name": "PALE GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "TAMIYA",
+        "code": "XF5"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.967"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.006"
+      }
+    ],
+    "hex": "#37572a",
+    "confidence": 0.9467085868352917,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0061",
+    "reference": "MIG-0061",
+    "name": "WARM SAND-YELLOW",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.074"
+      }
+    ],
+    "hex": "#b09d3c",
+    "confidence": 0.8463997462383033,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "A.MIG-0062",
+    "reference": "MIG-0062",
+    "name": "FRENCH BLUE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H42"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C72"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF18"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.900"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.113"
+      }
+    ],
+    "hex": "#b29e3b",
+    "confidence": 0.9184653049139424,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0063",
+    "reference": "MIG-0063",
+    "name": "PALE GREY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS36480RLM 76"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C117"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF23"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.907"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.257"
+      }
+    ],
+    "hex": "#e7e6e6",
+    "confidence": 0.8658123838614128,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0064",
+    "reference": "MIG-0064",
+    "name": "EARTH BROWN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.303"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.037"
+      }
+    ],
+    "hex": "#703e28",
+    "confidence": 0.9837365180695232,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0065",
+    "reference": "MIG-0065",
+    "name": "FOREST GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS34102RLM 62"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C303"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF58"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.348"
+      }
+    ],
+    "hex": "#ecdeae",
+    "confidence": 0.9356953779100797,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0066",
+    "reference": "MIG-0066",
+    "name": "FADED SINAI GREY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.142"
+      }
+    ],
+    "hex": "#e8623a",
+    "confidence": 0.8278991200893875,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0067",
+    "reference": "MIG-0067",
+    "name": "LIGHT SAND GREY",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#c3c2c2",
+    "confidence": 0.9974240365736942,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0068",
+    "reference": "MIG-0068",
+    "name": "IDF GREEN",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#3c4732",
+    "confidence": 0.9922431025664218,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0069",
+    "reference": "MIG-0069",
+    "name": "BLUE GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H36 /H5g"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C15"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF11"
+      }
+    ],
+    "hex": "#bbb9b8",
+    "confidence": 0.9262027553657098,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0070",
+    "reference": "MIG-0070",
+    "name": "MEDIUM BROWN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "BS 450"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.312"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.035"
+      }
+    ],
+    "hex": "#848279",
+    "confidence": 0.8615730033744174,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0071",
+    "reference": "MIG-0071",
+    "name": "KHAKI",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H404"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF49"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.339"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.136"
+      }
+    ],
+    "hex": "#c8c7c6",
+    "confidence": 0.97767656569203,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0072",
+    "reference": "MIG-0072",
+    "name": "DUST",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "TAMIYA",
+        "code": "XF55"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.315"
+      }
+    ],
+    "hex": "#f5f3ee",
+    "confidence": 0.9995478281374524,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0073",
+    "reference": "MIG-0073",
+    "name": "EARTH",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H457"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF52"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.874"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.024"
+      }
+    ],
+    "hex": "#bfbebd",
+    "confidence": 0.8492684078181832,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0074",
+    "reference": "MIG-0074",
+    "name": "GREEN MOSS",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.328"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.010"
+      }
+    ],
+    "hex": "#9f9f89",
+    "confidence": 0.9338919846243201,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0075",
+    "reference": "MIG-0075",
+    "name": "STONE GREY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "TAMIYA",
+        "code": "XF80"
+      }
+    ],
+    "hex": "#b5a03a",
+    "confidence": 0.9932639853106073,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0076",
+    "reference": "MIG-0076",
+    "name": "BROWN SOIL",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H456"
+      }
+    ],
+    "hex": "#868585",
+    "confidence": 0.8541788854679364,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0077",
+    "reference": "MIG-0077",
+    "name": "DULL GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.267"
+      }
+    ],
+    "hex": "#374d44",
+    "confidence": 0.9285093489893438,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0078",
+    "reference": "MIG-0078",
+    "name": "OCHRE EARTH",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.927"
+      }
+    ],
+    "hex": "#adaeae",
+    "confidence": 0.9613027556858031,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0079",
+    "reference": "MIG-0079",
+    "name": "CLAY BROWN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H37"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C43"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.034"
+      }
+    ],
+    "hex": "#5a3722",
+    "confidence": 0.7882887497994469,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0080",
+    "reference": "MIG-0080",
+    "name": "BRIGHT GREEN AMT-4",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.301"
+      }
+    ],
+    "hex": "#bbbcbd",
+    "confidence": 0.861669516463427,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0081",
+    "reference": "MIG-0081",
+    "name": "US OLIVE DRAB VIETNAM ERA",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H304 /H405"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C304"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF73"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.289"
+      }
+    ],
+    "hex": "#b7b6b5",
+    "confidence": 0.8028652609619911,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0082",
+    "reference": "MIG-0082",
+    "name": "APC INTERIOR LIGHT GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.331"
+      }
+    ],
+    "hex": "#aeaeaf",
+    "confidence": 0.9571110150340097,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0083",
+    "reference": "MIG-0083",
+    "name": "ZASHCHITNIY ZELENO (RUSSIAN POSTWAR GREEN)",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "XB 518"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C320"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.326"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.285"
+      }
+    ],
+    "hex": "#c5c3c2",
+    "confidence": 0.8958494608123064,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0084",
+    "reference": "MIG-0084",
+    "name": "NATO GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H80"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C54"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF67"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.093"
+      }
+    ],
+    "hex": "#b09d3c",
+    "confidence": 0.8327220718523675,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0085",
+    "reference": "MIG-0085",
+    "name": "NATO BROWN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 30051RAL 8027"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF68"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.871"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.249"
+      }
+    ],
+    "hex": "#6f6360",
+    "confidence": 0.8702370321461032,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0086",
+    "reference": "MIG-0086",
+    "name": "BLUE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "RAL 5019"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C323"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.844"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.089"
+      }
+    ],
+    "hex": "#768994",
+    "confidence": 0.8615796211153134,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0087",
+    "reference": "MIG-0087",
+    "name": "GELBOLIV",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "RAL 6014"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.877"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.012"
+      }
+    ],
+    "hex": "#c0bfbf",
+    "confidence": 0.99059904339648,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0088",
+    "reference": "MIG-0088",
+    "name": "KHAKI BROWN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.860"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.077"
+      }
+    ],
+    "hex": "#b19e3b",
+    "confidence": 0.883840711691383,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0089",
+    "reference": "MIG-0089",
+    "name": "MATT VARNISH",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H20"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C182"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.520"
+      }
+    ],
+    "hex": "#edecec",
+    "confidence": 0.9365932900930533,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0090",
+    "reference": "MIG-0090",
+    "name": "SATIN VARNISH",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.522"
+      }
+    ],
+    "hex": "#b29e3b",
+    "confidence": 0.8767596569238972,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0091",
+    "reference": "MIG-0091",
+    "name": "GLOSSY VARNISH",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H30"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C46"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.510"
+      }
+    ],
+    "hex": "#b8b7b6",
+    "confidence": 0.9742067443344173,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0092",
+    "reference": "MIG-0092",
+    "name": "CRYSTAL GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H94"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C138"
+      }
+    ],
+    "hex": "#b29f3b",
+    "confidence": 0.6984088858454973,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0093",
+    "reference": "MIG-0093",
+    "name": "CRYSTAL RED",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H90"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C47"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.934"
+      }
+    ],
+    "hex": "#c7c6c5",
+    "confidence": 0.9205328346016644,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0094",
+    "reference": "MIG-0094",
+    "name": "CRYSTAL GLASS",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#b29e3b",
+    "confidence": 0.9727945589774374,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0095",
+    "reference": "MIG-0095",
+    "name": "CRYSTAL SMOKE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H95"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C101"
+      }
+    ],
+    "hex": "#c6c5c4",
+    "confidence": 0.8906064053655613,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "02 ammo.png",
+    "raw_reference": "AMIG-0096",
+    "reference": "MIG-0096",
+    "name": "CRYSTAL GREEN PERISCOPE  (AND TAIL LIGHT ON)",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.936"
+      }
+    ],
+    "hex": "#728776",
+    "confidence": 0.7589436776439763,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": null,
+    "reference": null,
+    "name": null,
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "RALZRLM/FS"
+      }
+    ],
+    "hex": "#40657a",
+    "confidence": 0.4677690122221647,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0097",
+    "reference": "MIG-0097",
+    "name": "CRYSTAL ORANGE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H92"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C49"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.935"
+      }
+    ],
+    "hex": "#e37d2b",
+    "confidence": 0.7497995829692808,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0098",
+    "reference": "MIG-0098",
+    "name": "CRYSTAL LIGHT BLUE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H93"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C50"
+      }
+    ],
+    "hex": "#eabf2d",
+    "confidence": 0.8297718755438612,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-009g",
+    "reference": "MIG-0099",
+    "name": "CRYSTAL BLACK BLUE (AND TAIL LIGHT OFF)",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.938"
+      }
+    ],
+    "hex": "#8d8b8a",
+    "confidence": 0.8152706936419881,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0102",
+    "reference": "MIG-0102",
+    "name": "OCHRE BROWN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.856"
+      }
+    ],
+    "hex": "#ebbf2b",
+    "confidence": 0.8471426397304338,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0103",
+    "reference": "MIG-0103",
+    "name": "MEDIUM BLUE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H15"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C65"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.839"
+      }
+    ],
+    "hex": "#545f61",
+    "confidence": 0.8944438151718564,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0104",
+    "reference": "MIG-0104",
+    "name": "WASHABLE BLACK",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#010101",
+    "confidence": 0.9987781031677035,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0105",
+    "reference": "MIG-0105",
+    "name": "WASHABLE DUST",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "RAL 8000"
+      }
+    ],
+    "hex": "#edc234",
+    "confidence": 0.8728225982112743,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0106",
+    "reference": "MIG-0106",
+    "name": "WASHABLE SAND",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "RAL 8020"
+      }
+    ],
+    "hex": "#ebbe29",
+    "confidence": 0.8594621429713374,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0107",
+    "reference": "MIG-0107",
+    "name": "WASHABLE EARTH",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#5c472f",
+    "confidence": 0.8412225718317116,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0108",
+    "reference": "MIG-0108",
+    "name": "WASHABLE MUD",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#432d21",
+    "confidence": 0.9135881818148004,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-010g",
+    "reference": "MIG-0109",
+    "name": "WASHABLE RUST",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#934d35",
+    "confidence": 0.7064259965514421,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0110",
+    "reference": "MIG-0110",
+    "name": "(BRITISH BROWN 1941-42)",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "SCC 1ARLM 61"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.042"
+      }
+    ],
+    "hex": "#34271f",
+    "confidence": 0.8642437433324729,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0111",
+    "reference": "MIG-0111",
+    "name": "(BRITISH 1941-42 SERVICE DRAB)",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "SCC 2"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C22"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF72"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.921"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.290"
+      }
+    ],
+    "hex": "#eebc34",
+    "confidence": 0.8853752217853302,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0112",
+    "reference": "MIG-0112",
+    "name": "(BRITISH 1944-45 OLIVE DRAB)",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "SCC 15"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.892"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.250"
+      }
+    ],
+    "hex": "#31351a",
+    "confidence": 0.8598696417109728,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0113",
+    "reference": "MIG-0113",
+    "name": "KHAKI GREEN N\"3 (BRITISH 1939-42)",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.988"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.023"
+      }
+    ],
+    "hex": "#ecc02e",
+    "confidence": 0.7746512463445405,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0114",
+    "reference": "MIG-0114",
+    "name": "ZIMMERIT OCHRE COLOR",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.246"
+      }
+    ],
+    "hex": "#ecbf29",
+    "confidence": 0.7696331119278986,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0115",
+    "reference": "MIG-0115",
+    "name": "LIGHT SKIN TONE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "TAMIYA",
+        "code": "XF15"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.837"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.076"
+      }
+    ],
+    "hex": "#eccdac",
+    "confidence": 0.8592625028047671,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0116",
+    "reference": "MIG-0116",
+    "name": "BASIC SKIN TONE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS31670"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.928"
+      }
+    ],
+    "hex": "#8c8b8b",
+    "confidence": 0.9066342955354658,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0117",
+    "reference": "MIG-0117",
+    "name": "WARM SKIN TONE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.815"
+      }
+    ],
+    "hex": "#ecbc2b",
+    "confidence": 0.9041523134829693,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0118",
+    "reference": "MIG-0118",
+    "name": "BURNT SAND",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#836749",
+    "confidence": 0.7982697142038759,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0119",
+    "reference": "MIG-0119",
+    "name": "COLD GRAY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS17865"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.993"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.279"
+      }
+    ],
+    "hex": "#ebbf29",
+    "confidence": 0.793385404494725,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0120",
+    "reference": "MIG-0120",
+    "name": "LIGHT BROWN-GRAY",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#dfdfde",
+    "confidence": 0.775983582977249,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0121",
+    "reference": "MIG-0121",
+    "name": "BLOOD RED",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FSI1136RAL 3002"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C327"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.908"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.084"
+      }
+    ],
+    "hex": "#b3b2b1",
+    "confidence": 0.8211672627628939,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0122",
+    "reference": "MIG-0122",
+    "name": "BONE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.847"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.288"
+      }
+    ],
+    "hex": "#949494",
+    "confidence": 0.8858280846803659,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0123",
+    "reference": "MIG-0123",
+    "name": "MARINE BLUE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "TAMIYA",
+        "code": "XF8"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.930"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.004"
+      }
+    ],
+    "hex": "#ebbe28",
+    "confidence": 0.8908087042943987,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0124",
+    "reference": "MIG-0124",
+    "name": "LIME GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.094"
+      }
+    ],
+    "hex": "#eaeded",
+    "confidence": 0.8920375959542528,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0125",
+    "reference": "MIG-0125",
+    "name": "GOLD YELLOW",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS33655RAL 1003RLM 04"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C113"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.953"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.078"
+      }
+    ],
+    "hex": "#cf9f25",
+    "confidence": 0.8955866957620541,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0126",
+    "reference": "MIG-0126",
+    "name": "VIOLET",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H49"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.960"
+      }
+    ],
+    "hex": "#ecc234",
+    "confidence": 0.8267237128837679,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0127",
+    "reference": "MIG-0127",
+    "name": "PURPLE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS37142RAL 4008"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C67"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.959"
+      }
+    ],
+    "hex": "#e3bf2c",
+    "confidence": 0.9422239885343666,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0128",
+    "reference": "MIG-0128",
+    "name": "CYAN",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#eabf2c",
+    "confidence": 0.9882341386151849,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0129",
+    "reference": "MIG-0129",
+    "name": "ORANGE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS32246"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C59"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.956"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.083"
+      }
+    ],
+    "hex": "#db8031",
+    "confidence": 0.9685904865858688,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0130",
+    "reference": "MIG-0130",
+    "name": "FADED YELLOW",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H318"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C318"
+      }
+    ],
+    "hex": "#ebbf2b",
+    "confidence": 0.8937694973027386,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0131",
+    "reference": "MIG-0131",
+    "name": "REAL IDF SINAI GREY 82",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.142"
+      }
+    ],
+    "hex": "#595332",
+    "confidence": 0.7867125935783406,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0132",
+    "reference": "MIG-0132",
+    "name": "REAL IDF SAND GREY 73",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H85"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C45"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.141"
+      }
+    ],
+    "hex": "#d7bf30",
+    "confidence": 0.8228814962443571,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0133",
+    "reference": "MIG-0133",
+    "name": "RED LEATHER",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.301"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.105"
+      }
+    ],
+    "hex": "#e6c137",
+    "confidence": 0.727240725895424,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0134",
+    "reference": "MIG-0134",
+    "name": "BURNT BROWN RED",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.984"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.036"
+      }
+    ],
+    "hex": "#2e210a",
+    "confidence": 0.7427338750900795,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0135",
+    "reference": "MIG-0135",
+    "name": "CINNAMON",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.112"
+      }
+    ],
+    "hex": "#ebbe35",
+    "confidence": 0.9251571571278215,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0138",
+    "reference": "MIG-0138",
+    "name": "DESERT YELLOW",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS20400"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.912"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.291"
+      }
+    ],
+    "hex": "#ebbe29",
+    "confidence": 0.8865730794144966,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0139",
+    "reference": "MIG-0139",
+    "name": "RED EARTH",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H463"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.293"
+      }
+    ],
+    "hex": "#edc335",
+    "confidence": 0.8180035648783133,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0187",
+    "reference": "MIG-0187",
+    "name": "JET EXHAUST BURNT IRON",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H76"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C61"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF84"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.073"
+      }
+    ],
+    "hex": "#5a3f2b",
+    "confidence": 0.8575878891904916,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0188",
+    "reference": "MIG-0188",
+    "name": "METALLIC RED",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H87"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C75"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.070"
+      }
+    ],
+    "hex": "#ce8c7f",
+    "confidence": 0.891549839123146,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0189",
+    "reference": "MIG-0189",
+    "name": "METALLIC ORANGE",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#d29555",
+    "confidence": 0.9287659170307836,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0190",
+    "reference": "MIG-0190",
+    "name": "OLD BRASS",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.801"
+      }
+    ],
+    "hex": "#6a4921",
+    "confidence": 0.9907250528069831,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0191",
+    "reference": "MIG-0191",
+    "name": "STEEL",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "RAL 9006"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C28"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.864"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.065"
+      }
+    ],
+    "hex": "#8d8880",
+    "confidence": 0.9274483912075923,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0192",
+    "reference": "MIG-0192",
+    "name": "POLISHED METAL",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "TAMIYA",
+        "code": "XF56"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.865"
+      }
+    ],
+    "hex": "#504d46",
+    "confidence": 0.9990058724560956,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0193",
+    "reference": "MIG-0193",
+    "name": "BLUISH TITANIUM",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#45504e",
+    "confidence": 0.7928819966822164,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "AMIG-0194",
+    "reference": "MIG-0194",
+    "name": "MATT ALUMINUM",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "TAMIYA",
+        "code": "XF16"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.062"
+      }
+    ],
+    "hex": "#8b8982",
+    "confidence": 0.894011613325767,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "03 ammo.png",
+    "raw_reference": "A.MIG-0195",
+    "reference": "MIG-0195",
+    "name": "SILVER",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 17178RLM 01"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C8 / C90"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.997"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.063"
+      }
+    ],
+    "hex": "#86847c",
+    "confidence": 0.7902175857543879,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": null,
+    "reference": null,
+    "name": null,
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "RAL/RLWFS"
+      }
+    ],
+    "hex": "#8da4b1",
+    "confidence": 0.6019010204759685,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0196",
+    "reference": "MIG-0196",
+    "name": "WARHEAD METALLIC BLUE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H88"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C76"
+      }
+    ],
+    "hex": "#003a76",
+    "confidence": 0.9197162954207065,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0197",
+    "reference": "MIG-0197",
+    "name": "BRASS",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.067"
+      }
+    ],
+    "hex": "#b18544",
+    "confidence": 0.9534540055081072,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0198",
+    "reference": "MIG-0198",
+    "name": "GOLD",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 17043"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C9"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.996"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.066"
+      }
+    ],
+    "hex": "#cdcccc",
+    "confidence": 0.92688923187814,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-019g",
+    "reference": "MIG-0199",
+    "name": "COPPER",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H10"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C10"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF6"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.999"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.068"
+      }
+    ],
+    "hex": "#833326",
+    "confidence": 0.8237058073199752,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0200",
+    "reference": "MIG-0200",
+    "name": "MIDDLESTONE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 33531"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C313"
+      }
+    ],
+    "hex": "#dadad9",
+    "confidence": 0.9193693684197886,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0201",
+    "reference": "MIG-0201",
+    "name": "LIGHT GRAY GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 34424"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.885"
+      }
+    ],
+    "hex": "#d8d9d0",
+    "confidence": 0.9008848593269944,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0202",
+    "reference": "MIG-0202",
+    "name": "TAN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 30219"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C310"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF59"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.843"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.125"
+      }
+    ],
+    "hex": "#f56832",
+    "confidence": 0.8800032423890085,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0203",
+    "reference": "MIG-0203",
+    "name": "LIGHT COMPASS GHOST GRAY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 36375RALZOOI"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C308"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.990"
+      }
+    ],
+    "hex": "#cad1d1",
+    "confidence": 0.8390081379903065,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0204",
+    "reference": "MIG-0204",
+    "name": "MEDIUM GUNSHIP GRAY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 36118"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C305"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF77"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.868"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.047"
+      }
+    ],
+    "hex": "#c0bfbe",
+    "confidence": 0.8934437391383656,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0205",
+    "reference": "MIG-0205",
+    "name": "(BS 638)",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 26231"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C317 /C331"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.991"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.051"
+      }
+    ],
+    "hex": "#6f7d81",
+    "confidence": 0.8725405118474789,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0206",
+    "reference": "MIG-0206",
+    "name": "(BS 641)",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 34079RLM 81"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C309"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.893"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.294"
+      }
+    ],
+    "hex": "#bfbebd",
+    "confidence": 0.798460380724997,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0207",
+    "reference": "MIG-0207",
+    "name": "(BS 626)",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 36314"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C334"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF19"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.989"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.046"
+      }
+    ],
+    "hex": "#939795",
+    "confidence": 0.867600244541856,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0208",
+    "reference": "MIG-0208",
+    "name": "DARK COMPASS GHOST GRAY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 36320"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C307"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.120"
+      }
+    ],
+    "hex": "#c8c7c7",
+    "confidence": 0.8366784338147509,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0209",
+    "reference": "MIG-0209",
+    "name": "LIGHT GRAY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H51 /H338"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C11 /C338"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.276"
+      }
+    ],
+    "hex": "#c7c8c7",
+    "confidence": 0.8778009060973544,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0210",
+    "reference": "MIG-0210",
+    "name": "BLUE GRAY AMT-11",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 35237"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C337"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.905"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.304"
+      }
+    ],
+    "hex": "#d8d7d7",
+    "confidence": 0.8946457075381994,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0211",
+    "reference": "MIG-0211",
+    "name": "MEDIUM GRAY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 36270"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C306"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.275"
+      }
+    ],
+    "hex": "#838a8f",
+    "confidence": 0.8529820277835607,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0212",
+    "reference": "MIG-0212",
+    "name": "SILVER GREY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 26373BS 627"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C332"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.119"
+      }
+    ],
+    "hex": "#c0c5c5",
+    "confidence": 0.9033397148616233,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0213",
+    "reference": "MIG-0213",
+    "name": "GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 24277"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.305"
+      }
+    ],
+    "hex": "#819288",
+    "confidence": 0.8868396725036539,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0217",
+    "reference": "MIG-0217",
+    "name": "GREEN SLATE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "RAL 7002RLM 02"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C60"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF22"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.886"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.044"
+      }
+    ],
+    "hex": "#d8d7d7",
+    "confidence": 0.9281674748099877,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0218",
+    "reference": "MIG-0218",
+    "name": "SCHWARTZGRAU",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "RLM66"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C116"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF63"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.866"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.055"
+      }
+    ],
+    "hex": "#424743",
+    "confidence": 0.8628795342849195,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0219",
+    "reference": "MIG-0219",
+    "name": "INTERIOR GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 34226"
+      }
+    ],
+    "hex": "#9aaaa2",
+    "confidence": 0.9816150393351395,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0220",
+    "reference": "MIG-0220",
+    "name": "ZINC CHROMATE GREEN (INTERIOR GREEN)",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 34151"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.850"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.137"
+      }
+    ],
+    "hex": "#b7b9ba",
+    "confidence": 0.886428097137454,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0221",
+    "reference": "MIG-0221",
+    "name": "ZINC CHROMATE YELLOW",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 33481"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C27"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF4"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.107"
+      }
+    ],
+    "hex": "#bfbebd",
+    "confidence": 0.9076233760177331,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0222",
+    "reference": "MIG-0222",
+    "name": "SANDGELB",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "RLM 79"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C119"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.876"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.278"
+      }
+    ],
+    "hex": "#b2b3b3",
+    "confidence": 0.8857738543171263,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0223",
+    "reference": "MIG-0223",
+    "name": "INTERIOR TURQUOISE GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H46"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.838"
+      }
+    ],
+    "hex": "#acabaa",
+    "confidence": 0.7962923251570936,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0224",
+    "reference": "MIG-0224",
+    "name": "SKY LINE BLUE AIl",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 35260"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.961"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.317"
+      }
+    ],
+    "hex": "#b2b3b3",
+    "confidence": 0.895024946615834,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0226",
+    "reference": "MIG-0226",
+    "name": "GRAY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 36622"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C311"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.883"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.296"
+      }
+    ],
+    "hex": "#d2d1d1",
+    "confidence": 0.868659702645936,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0227",
+    "reference": "MIG-0227",
+    "name": "SEA BLUE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 25042"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C14"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF50"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.898"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.005"
+      }
+    ],
+    "hex": "#b2b3b3",
+    "confidence": 0.9313813768303291,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0228",
+    "reference": "MIG-0228",
+    "name": "INTERMEDIATE BLUE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 35164RAL 7031ANA 608"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF66"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.903"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.299"
+      }
+    ],
+    "hex": "#c3c2c1",
+    "confidence": 0.8663839018430063,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0229",
+    "reference": "MIG-0229",
+    "name": "DARK GRAY BLUE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 15102"
+      }
+    ],
+    "hex": "#a8a9aa",
+    "confidence": 0.852233831567699,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0230",
+    "reference": "MIG-0230",
+    "name": "CAMO GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS34095RAL 6020RLM 82"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C122"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.823"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.022"
+      }
+    ],
+    "hex": "#c9c7c7",
+    "confidence": 0.9141218922171743,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0231",
+    "reference": "MIG-0231",
+    "name": "HELLBLAU",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS35352RLM 65"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C115"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF25"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.906"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.255"
+      }
+    ],
+    "hex": "#afb0b0",
+    "confidence": 0.8927021811461511,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0232",
+    "reference": "MIG-0232",
+    "name": "SCHWARTZGRUN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS34052RAL 7022RLM 70"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C18"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF27"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.897"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.021"
+      }
+    ],
+    "hex": "#b6b4b4",
+    "confidence": 0.9048616336408191,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0233",
+    "reference": "MIG-0233",
+    "name": "DUNKELGRUN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "RLM 71"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C17"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.015"
+      }
+    ],
+    "hex": "#c6c8c9",
+    "confidence": 0.8912640077824654,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0235",
+    "reference": "MIG-0235",
+    "name": "DARK GREY AMT-12",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 36152RAL 7012"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C32"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF75"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.308"
+      }
+    ],
+    "hex": "#7e8386",
+    "confidence": 0.8680218291948723,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0236",
+    "reference": "MIG-0236",
+    "name": "FS 36293",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H82"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C31"
+      }
+    ],
+    "hex": "#bbbfc0",
+    "confidence": 0.8598243337552997,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0237",
+    "reference": "MIG-0237",
+    "name": "DARK OLIVE DRAB",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 23070"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C12"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF62"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.016"
+      }
+    ],
+    "hex": "#c6c5c4",
+    "confidence": 0.8557264116717185,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0238",
+    "reference": "MIG-0238",
+    "name": "MEDIUM GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 34092ANA 612"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C302"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF26"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.895"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.124"
+      }
+    ],
+    "hex": "#526150",
+    "confidence": 0.8083728341002254,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0239",
+    "reference": "MIG-0239",
+    "name": "NEUTRAL GRAY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 36122"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C13"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.274"
+      }
+    ],
+    "hex": "#c8c7c7",
+    "confidence": 0.857601127969972,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0240",
+    "reference": "MIG-0240",
+    "name": "FS 34086 (ANA 613)",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 34086RAL 7009"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.830"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.325"
+      }
+    ],
+    "hex": "#e1e4e5",
+    "confidence": 0.8399688910102552,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0241",
+    "reference": "MIG-0241",
+    "name": "FS 36440",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS 36440 RAL 7038"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C315 / C325"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.986"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.121"
+      }
+    ],
+    "hex": "#a9a6a5",
+    "confidence": 0.7485331617193154,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0242",
+    "reference": "MIG-0242",
+    "name": "FS 37886",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#9c9c9c",
+    "confidence": 0.8329136118612882,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0243",
+    "reference": "MIG-0243",
+    "name": "SKY TYPE S",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "BS 210"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF21"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.302"
+      }
+    ],
+    "hex": "#d8d7d7",
+    "confidence": 0.8404760131043758,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0244",
+    "reference": "MIG-0244",
+    "name": "DUCK EGG GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "BS 216"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C26"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.009"
+      }
+    ],
+    "hex": "#9da779",
+    "confidence": 0.9352971859683431,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0245",
+    "reference": "MIG-0245",
+    "name": "OCEAN GREY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "BS 629"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF82"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.273"
+      }
+    ],
+    "hex": "#d8d7d7",
+    "confidence": 0.8056788906949448,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "A.MIG-0246",
+    "reference": "MIG-0246",
+    "name": "MEDIUM SEA GREY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "BS 637"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C335"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF83"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.870"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.307"
+      }
+    ],
+    "hex": "#b6b7b7",
+    "confidence": 0.924763437768302,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0247",
+    "reference": "MIG-0247",
+    "name": "HELLBLAU",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "RLM 78"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C118"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.972"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.101"
+      }
+    ],
+    "hex": "#bab8b7",
+    "confidence": 0.8983691804931845,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "04 ammo.png",
+    "raw_reference": "AMIG-0248",
+    "reference": "MIG-0248",
+    "name": "OLIVGRUN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "FS34083RLM 80"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C120"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.894"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.265"
+      }
+    ],
+    "hex": "#babcbd",
+    "confidence": 0.7965294175992109,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "AMIG-0249",
+    "reference": "MIG-0249",
+    "name": "LIGHT BLUE",
+    "definition": "FS35550",
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.306"
+      }
+    ],
+    "hex": "#7f9cac",
+    "confidence": 0.7803487301618899,
+    "resolved_hex": null,
+    "resolved_from": "FS 35550"
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0250",
+    "reference": "MIG-0250",
+    "name": "NIGHT BLUE GREY",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.964"
+      }
+    ],
+    "hex": "#454b54",
+    "confidence": 0.8741815638103215,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0251",
+    "reference": "MIG-0251",
+    "name": "RUSSIAN BLUE AMT-7",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.318"
+      }
+    ],
+    "hex": "#49626a",
+    "confidence": 0.7555936403249037,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "AMIG-0252",
+    "reference": "MIG-0252",
+    "name": "GREY BROWN AMT-1",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.320"
+      }
+    ],
+    "hex": "#726c64",
+    "confidence": 0.9090732888864995,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0253",
+    "reference": "MIG-0253",
+    "name": "GRAUGRUN",
+    "definition": "RLM 74",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H68"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C36"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.867"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.258"
+      }
+    ],
+    "hex": "#3f473f",
+    "confidence": 0.8834400853569574,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0254",
+    "reference": "MIG-0254",
+    "name": "GRAUVIOLETT",
+    "definition": "RLM 75",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H69"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C37"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.869"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.259"
+      }
+    ],
+    "hex": "#717471",
+    "confidence": 0.9106443045157963,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0255",
+    "reference": "MIG-0255",
+    "name": "BRAUNVIOLETT",
+    "definition": "RLM 81",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H421"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C121"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.264"
+      }
+    ],
+    "hex": "#605149",
+    "confidence": 0.7499521337361823,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0256",
+    "reference": "MIG-0256",
+    "name": "GRAUBLAU",
+    "definition": "RLM 84",
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.103"
+      }
+    ],
+    "hex": "#b2b17b",
+    "confidence": 0.9268932208399017,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0257",
+    "reference": "MIG-0257",
+    "name": "AZURE BLUE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MR.COLOR",
+        "code": "C370"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.902"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.108"
+      }
+    ],
+    "hex": "#697da3",
+    "confidence": 0.9471973522157665,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0900",
+    "reference": "MIG-0900",
+    "name": "DUNKELGELB SHADOW",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#796d4c",
+    "confidence": 0.7272282981594806,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0901",
+    "reference": "MIG-0901",
+    "name": "DUNKELGELB DARK BASE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.030"
+      }
+    ],
+    "hex": "#817446",
+    "confidence": 0.9062280939234656,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0902",
+    "reference": "MIG-0902",
+    "name": "DUNKELGELB BASE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H71"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C21"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.882"
+      }
+    ],
+    "hex": "#9d8d55",
+    "confidence": 0.8220302426462638,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "AMIG-0903",
+    "reference": "MIG-0903",
+    "name": "DUNKELGELB LIGHT BASE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.976"
+      }
+    ],
+    "hex": "#c9c491",
+    "confidence": 0.8428702147141084,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0904",
+    "reference": "MIG-0904",
+    "name": "DUNKELGELB HIGH LIGHT",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#dcd7be",
+    "confidence": 0.8485521254820276,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0905",
+    "reference": "MIG-0905",
+    "name": "DUNKELGELB SHINE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.344"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.132"
+      }
+    ],
+    "hex": "#282c2d",
+    "confidence": 0.8780883184609205,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0906",
+    "reference": "MIG-0906",
+    "name": "GREY SHADOW",
+    "definition": "BS 640",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H333"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C333"
+      }
+    ],
+    "hex": "#383a43",
+    "confidence": 0.8745041402208195,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0907",
+    "reference": "MIG-0907",
+    "name": "GREY DARK BASE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "TAMIYA",
+        "code": "XF69"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.333"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.049"
+      }
+    ],
+    "hex": "#3d404c",
+    "confidence": 0.949921652111673,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0908",
+    "reference": "MIG-0908",
+    "name": "GREY BASE",
+    "definition": "FS 26081",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H301 /H339"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C301 / €339"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.995"
+      }
+    ],
+    "hex": "#686c72",
+    "confidence": 0.8633515246946015,
+    "resolved_hex": null,
+    "resolved_from": "FS 26081"
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "AMIG-0909",
+    "reference": "MIG-0909",
+    "name": "GREY LIGHT BASE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H458"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF24"
+      }
+    ],
+    "hex": "#71737b",
+    "confidence": 0.8222477669505035,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0910",
+    "reference": "MIG-0910",
+    "name": "GREY HIGH LIGHT",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H75"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C25"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF54"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.836"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.277"
+      }
+    ],
+    "hex": "#9799a3",
+    "confidence": 0.8539030310453084,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "AMIG-0911",
+    "reference": "MIG-0911",
+    "name": "GREY SHINE",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#6f6465",
+    "confidence": 0.7576044998619913,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "AMIG-0912",
+    "reference": "MIG-0912",
+    "name": "RED BROWN SHADOW",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H17"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C29"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF9"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.038"
+      }
+    ],
+    "hex": "#5c2e1f",
+    "confidence": 0.8178093371136871,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0913",
+    "reference": "MIG-0913",
+    "name": "RED BROWN BASE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H7"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C7"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF79"
+      }
+    ],
+    "hex": "#935c4c",
+    "confidence": 0.8590788955439629,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0914",
+    "reference": "MIG-0914",
+    "name": "RED BROWN LIGHT",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#222a15",
+    "confidence": 0.699103321093624,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "AMIG-0915",
+    "reference": "MIG-0915",
+    "name": "DARK GREEN",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "TAMIYA",
+        "code": "XF81"
+      }
+    ],
+    "hex": "#495838",
+    "confidence": 0.8150263227019304,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0916",
+    "reference": "MIG-0916",
+    "name": "GREEN BASE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.827"
+      }
+    ],
+    "hex": "#88aa71",
+    "confidence": 0.9048715180969291,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "AMIG-0917",
+    "reference": "MIG-0917",
+    "name": "LIGHT GREEN",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#2e1d1e",
+    "confidence": 0.7111308670651891,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0918",
+    "reference": "MIG-0918",
+    "name": "RED PRIMER SHADOW",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.822"
+      }
+    ],
+    "hex": "#250d06",
+    "confidence": 0.8534386974176416,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "AMIG-0919",
+    "reference": "MIG-0919",
+    "name": "RED PRIMER DARK BASE",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#2f0c08",
+    "confidence": 0.8467759867291498,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "AMIG-0920",
+    "reference": "MIG-0920",
+    "name": "RED PRIMER",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#531e10",
+    "confidence": 0.9949858112779257,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "AMIG-0921",
+    "reference": "MIG-0921",
+    "name": "RED PRIMER LIGHT BASE",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#744227",
+    "confidence": 0.7298524827258333,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0922",
+    "reference": "MIG-0922",
+    "name": "RED PRIMER HIGH LIGHTS",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#935b33",
+    "confidence": 0.5868953056006352,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0923",
+    "reference": "MIG-0923",
+    "name": "RED PRIMER SHINE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.341"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.026"
+      }
+    ],
+    "hex": "#222012",
+    "confidence": 0.9113780705914201,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0924",
+    "reference": "MIG-0924",
+    "name": "OLIVE DRAB SHADOW",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#3a3821",
+    "confidence": 0.817856968386717,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0925",
+    "reference": "MIG-0925",
+    "name": "OLIVE DRAB DARK BASE",
+    "definition": "RLM 83",
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H78"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C38"
+      },
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.889"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.043"
+      }
+    ],
+    "hex": "#4a492f",
+    "confidence": 0.93528645036541,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0926",
+    "reference": "MIG-0926",
+    "name": "OLIVE DRAB BASE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H304"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C304"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.286"
+      }
+    ],
+    "hex": "#6e6a51",
+    "confidence": 0.6900440853719834,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0927",
+    "reference": "MIG-0927",
+    "name": "OLIVE DRAB LIGHT BASE",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#64624c",
+    "confidence": 0.6839416052540065,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "AMIG-0928",
+    "reference": "MIG-0928",
+    "name": "OLIVE DRAB HIGH LIGHTS",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.139"
+      }
+    ],
+    "hex": "#817e62",
+    "confidence": 0.7922575503100266,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "AMIG-0929",
+    "reference": "MIG-0929",
+    "name": "OLIVE DRAB SHINE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL COLOR",
+        "code": "70.332"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.138"
+      }
+    ],
+    "hex": "#282811",
+    "confidence": 0.8705124360683892,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0930",
+    "reference": "MIG-0930",
+    "name": "RUSSIAN SHADOW",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#535231",
+    "confidence": 0.6086305720533189,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "AMIG-0931",
+    "reference": "MIG-0931",
+    "name": "RUSSIAN DARK BASE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "TAMIYA",
+        "code": "XF74"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.020"
+      }
+    ],
+    "hex": "#54521f",
+    "confidence": 0.8904515833877904,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0932",
+    "reference": "MIG-0932",
+    "name": "RUSSIAN BASE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "MODEL AIR",
+        "code": "71.303"
+      }
+    ],
+    "hex": "#6f6640",
+    "confidence": 0.8893380124932111,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "AMIG-0933",
+    "reference": "MIG-0933",
+    "name": "RUSSIAN LIGHT BASE",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#7f7751",
+    "confidence": 0.7769954922393281,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0934",
+    "reference": "MIG-0934",
+    "name": "RUSSIAN HIGH LIGHT",
+    "definition": null,
+    "equivalents": [],
+    "hex": "#8f8762",
+    "confidence": 0.841087432505913,
+    "resolved_hex": null,
+    "resolved_from": null
+  },
+  {
+    "image": "05 ammo.png",
+    "raw_reference": "A.MIG-0935",
+    "reference": "MIG-0935",
+    "name": "RUSSIAN SHINE",
+    "definition": null,
+    "equivalents": [
+      {
+        "brand": "HOBBY COLOR",
+        "code": "H62"
+      },
+      {
+        "brand": "MR.COLOR",
+        "code": "C56"
+      },
+      {
+        "brand": "TAMIYA",
+        "code": "XF14"
+      },
+      {
+        "brand": "MODEL AIR",
+        "code": "71.321"
+      }
+    ],
+    "hex": "#908863",
+    "confidence": 0.8928458356622903,
+    "resolved_hex": null,
+    "resolved_from": null
+  }
+]

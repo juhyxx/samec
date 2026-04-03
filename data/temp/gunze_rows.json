@@ -1,0 +1,1334 @@
+[
+  {
+    "image": "01.png",
+    "raw_reference": "GUNZE SANGYO CONVERSION COLOR CHART",
+    "reference": "GUNZE SANGYO CONVERSION COLOR CHART",
+    "name": "",
+    "equivalents": [],
+    "hex": "#5b5b5b",
+    "confidence": 0.7829894611264051
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "GUNZE 10 ml ACRYLIC PAINTS",
+    "reference": "GUNZE 10 ml ACRYLIC PAINTS",
+    "name": "COLOR GUNZE TAMIYA HUMBROL",
+    "equivalents": [],
+    "hex": "#cd9d9a",
+    "confidence": 0.9157061752625808
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss White",
+    "reference": "IGloss White",
+    "name": "HI X2 22 4",
+    "equivalents": [],
+    "hex": "#a6514d",
+    "confidence": 0.8714669204891528
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Black",
+    "reference": "(Gloss Black",
+    "name": "H2 X-1 21 7",
+    "equivalents": [],
+    "hex": "#020308",
+    "confidence": 0.8509100057970157
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Red",
+    "reference": "IGloss Red",
+    "name": "H3 X-7 19 31",
+    "equivalents": [],
+    "hex": "#bf3823",
+    "confidence": 0.954891919422784
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Yellow",
+    "reference": "(Gloss Yellow",
+    "name": "H4 X-8 69 12",
+    "equivalents": [],
+    "hex": "#ebda6b",
+    "confidence": 0.964758809172449
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Blue",
+    "reference": "IGloss Blue",
+    "name": "H5 X3 15 52",
+    "equivalents": [],
+    "hex": "#0e1644",
+    "confidence": 0.9380175838002837
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Green",
+    "reference": "IGloss Green",
+    "name": "H6 3 62",
+    "equivalents": [],
+    "hex": "#1a275a",
+    "confidence": 0.8712887030933207
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Brown",
+    "reference": "IGloss Brown",
+    "name": "H7 X-9 10 80",
+    "equivalents": [],
+    "hex": "#ae422d",
+    "confidence": 0.9389629744805414
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Metallic Silver",
+    "reference": "Metallic Silver",
+    "name": "H8 X-I1 11 90",
+    "equivalents": [],
+    "hex": "#b8b8b6",
+    "confidence": 0.9395590003261868
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Metallic Gold",
+    "reference": "Metallic Gold",
+    "name": "H9 X-12 16 94",
+    "equivalents": [],
+    "hex": "#c3a04b",
+    "confidence": 0.9094035929783536
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Metallic Copper",
+    "reference": "Metallic Copper",
+    "name": "H1o XF-6 12 93",
+    "equivalents": [],
+    "hex": "#ac5b3c",
+    "confidence": 0.8534464369421138
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Flat White",
+    "reference": "Flat White",
+    "name": "HI1 XF-2 33 301 / 5",
+    "equivalents": [],
+    "hex": "#ac5b3c",
+    "confidence": 0.7557764612497655
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Flat Black",
+    "reference": "Flat Black",
+    "name": "H12 XF-1 34 302 / 8",
+    "equivalents": [],
+    "hex": "#010202",
+    "confidence": 0.8789590293593545
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Flat Red",
+    "reference": "Flat Red",
+    "name": "H13 XF-7 60 1550",
+    "equivalents": [],
+    "hex": "#c23926",
+    "confidence": 0.8732593563027424
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Orange",
+    "reference": "(Gloss Orange",
+    "name": "H14 X-6 18 30",
+    "equivalents": [],
+    "hex": "#c9412d",
+    "confidence": 0.912161610829243
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss Bright Blue",
+    "reference": "Gloss Bright Blue",
+    "name": "H15 X-4 14 51",
+    "equivalents": [],
+    "hex": "#da4727",
+    "confidence": 0.8931509204219978
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Yellow Green",
+    "reference": "IGloss Yellow Green",
+    "name": "H16 X-15 38 60",
+    "equivalents": [],
+    "hex": "#3d6741",
+    "confidence": 0.9453954793294315
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Cocoa Brown",
+    "reference": "IGloss Cocoa Brown",
+    "name": "H17 XF-10 10 1533",
+    "equivalents": [],
+    "hex": "#201720",
+    "confidence": 0.9739341882460252
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Metallic Steel",
+    "reference": "Metallic Steel",
+    "name": "Grey H18 X-10 53",
+    "equivalents": [],
+    "hex": "#040404",
+    "confidence": 0.9325344227869685
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Pink",
+    "reference": "IGloss Pink",
+    "name": "H19 X-17 200",
+    "equivalents": [],
+    "hex": "#df6979",
+    "confidence": 0.8745150525520711
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Flat Clear",
+    "reference": "Flat Clear",
+    "name": "H2O 49 2 1560",
+    "equivalents": [],
+    "hex": "#df6979",
+    "confidence": 0.8183460964176309
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Off White",
+    "reference": "IGloss Off White",
+    "name": "H21 10 1745",
+    "equivalents": [],
+    "hex": "#3e3e4e",
+    "confidence": 0.9350283092350262
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss Grey",
+    "reference": "Gloss Grey",
+    "name": "H22 XF-53 5",
+    "equivalents": [],
+    "hex": "#3e3e4e",
+    "confidence": 0.9469549406685496
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Shine Red",
+    "reference": "(Gloss Shine Red",
+    "name": "H23 60 1590",
+    "equivalents": [],
+    "hex": "#d34025",
+    "confidence": 0.854867467541968
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "lGloss Orange Yellow",
+    "reference": "lGloss Orange Yellow",
+    "name": "H24 197 310",
+    "equivalents": [],
+    "hex": "#d35b38",
+    "confidence": 0.8396955961566706
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss Sky Blue",
+    "reference": "Gloss Sky Blue",
+    "name": "H25 X-14 50",
+    "equivalents": [],
+    "hex": "#d35b38",
+    "confidence": 0.9603220230487715
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Bright Green",
+    "reference": "IGloss Bright Green",
+    "name": "H26 2 61 1524",
+    "equivalents": [],
+    "hex": "#235d44",
+    "confidence": 0.877561860287364
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Tan",
+    "reference": "IGloss Tan",
+    "name": "H27 9 11",
+    "equivalents": [],
+    "hex": "#988560",
+    "confidence": 0.9651942569557734
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Metallic Black",
+    "reference": "Metallic Black",
+    "name": "H28 201 2713",
+    "equivalents": [],
+    "hex": "#151b23",
+    "confidence": 0.8914687659888069
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Salmon Pink",
+    "reference": "(Gloss Salmon Pink",
+    "name": "H29",
+    "equivalents": [],
+    "hex": "#dc5b3e",
+    "confidence": 0.7427978363374996
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Clear",
+    "reference": "IGloss Clear",
+    "name": "H3O X-22 35 1561",
+    "equivalents": [],
+    "hex": "#dc5b3e",
+    "confidence": 0.8160351118712131
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss White-Green",
+    "reference": "IGloss White-Green",
+    "name": "H31 90",
+    "equivalents": [],
+    "hex": "#131b29",
+    "confidence": 0.936439900844155
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss German Field Gray-1",
+    "reference": "Gloss German Field Gray-1",
+    "name": "H32 XF-63 67",
+    "equivalents": [],
+    "hex": "#131b29",
+    "confidence": 0.8293069971696377
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Russet",
+    "reference": "IGloss Russet",
+    "name": "H33 107 383 1501",
+    "equivalents": [],
+    "hex": "#4c2c37",
+    "confidence": 0.9668004899873546
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Cream Yellow",
+    "reference": "(Gloss Cream Yellow",
+    "name": "H34 24 311",
+    "equivalents": [],
+    "hex": "#ecc054",
+    "confidence": 0.9094051935806542
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Cobalt Blue",
+    "reference": "IGloss Cobalt Blue",
+    "name": "H35 25 56",
+    "equivalents": [],
+    "hex": "#141f53",
+    "confidence": 0.9730888353456523
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss Dark Green",
+    "reference": "Gloss Dark Green",
+    "name": "H36 75",
+    "equivalents": [],
+    "hex": "#111a49",
+    "confidence": 0.9391171338673178
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Wood Brown",
+    "reference": "IGloss Wood Brown",
+    "name": "H37 9 85 1735",
+    "equivalents": [],
+    "hex": "#432d24",
+    "confidence": 0.9289715715004508
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Metallic Steel Red",
+    "reference": "Metallic Steel Red",
+    "name": "H38",
+    "equivalents": [],
+    "hex": "#1e1c28",
+    "confidence": 0.9011629941808867
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss Purple",
+    "reference": "Gloss Purple",
+    "name": "H39 X-16 68 353",
+    "equivalents": [],
+    "hex": "#151f56",
+    "confidence": 0.8720103080130542
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Flat Base",
+    "reference": "Flat Base",
+    "name": "H4O X-21 206",
+    "equivalents": [],
+    "hex": "#151f56",
+    "confidence": 0.7916561263731235
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Pale Green",
+    "reference": "(Gloss Pale Green",
+    "name": "H41",
+    "equivalents": [],
+    "hex": "#a7c8bd",
+    "confidence": 0.8785712021875549
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss Blue Gray",
+    "reference": "Gloss Blue Gray",
+    "name": "H42 XF-8 144 79",
+    "equivalents": [],
+    "hex": "#142335",
+    "confidence": 0.9221174952046535
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Wine Red",
+    "reference": "(Gloss Wine Red",
+    "name": "H43 20",
+    "equivalents": [],
+    "hex": "#a1362d",
+    "confidence": 0.9200517886507321
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Semi Gloss Flesh",
+    "reference": "Semi Gloss Flesh",
+    "name": "H44 XF-15 61 35",
+    "equivalents": [],
+    "hex": "#e2c591",
+    "confidence": 0.9151589904607748
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "lGloss Light Blue",
+    "reference": "lGloss Light Blue",
+    "name": "H45 47 1508",
+    "equivalents": [],
+    "hex": "#e2c591",
+    "confidence": 0.8571188450827122
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Emerald Green",
+    "reference": "IGloss Emerald Green",
+    "name": "H46 2",
+    "equivalents": [],
+    "hex": "#256453",
+    "confidence": 0.9589439933739337
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Red Brown",
+    "reference": "IGloss Red Brown",
+    "name": "H47 XF-9 73 32 / 38",
+    "equivalents": [],
+    "hex": "#2b1e26",
+    "confidence": 0.8894924171281782
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss German Field Gray-2",
+    "reference": "Gloss German Field Gray-2",
+    "name": "H48 XF-65",
+    "equivalents": [],
+    "hex": "#1d2d37",
+    "confidence": 0.9658505240183528
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Violet",
+    "reference": "IGloss Violet",
+    "name": "H49",
+    "equivalents": [],
+    "hex": "#1d2d37",
+    "confidence": 0.9500696212408974
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "(Gloss Lime Green",
+    "reference": "(Gloss Lime Green",
+    "name": "H5o X-15 38",
+    "equivalents": [],
+    "hex": "#606060",
+    "confidence": 0.7727194646811532
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Light Gull Gray",
+    "reference": "Gloss Light Gull Gray",
+    "name": "H51 XF-12 / XF19 64",
+    "equivalents": [],
+    "hex": "#676767",
+    "confidence": 0.8519068560999552
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Olive Drab-1",
+    "reference": "Semi Gloss Olive Drab-1",
+    "name": "H52 XF-62 155 66",
+    "equivalents": [],
+    "hex": "#c4c4c4",
+    "confidence": 0.8243822224126379
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Neutral Grey",
+    "reference": "Semi Gloss Neutral Grey",
+    "name": "H53 XF-66 128",
+    "equivalents": [],
+    "hex": "#999999",
+    "confidence": 0.8245034224360104
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss",
+    "reference": "Semi Gloss",
+    "name": "Navy Blue H54 XF-17",
+    "equivalents": [],
+    "hex": "#797979",
+    "confidence": 0.9799323475925045
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Moonlight Blue",
+    "reference": "Gloss Moonlight Blue",
+    "name": "H55 181",
+    "equivalents": [],
+    "hex": "#8e8e8e",
+    "confidence": 0.973462689504684
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss intermediate Blue",
+    "reference": "Semi Gloss intermediate Blue",
+    "name": "H56 XF-18 144 1720",
+    "equivalents": [],
+    "hex": "#797979",
+    "confidence": 0.9483159933737236
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Aircraft Grey",
+    "reference": "Gloss Aircraft Grey",
+    "name": "H57 147 1731",
+    "equivalents": [],
+    "hex": "#8e8e8e",
+    "confidence": 0.905027468479052
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Interior Green",
+    "reference": "Semi Gloss Interior Green",
+    "name": "H58 151",
+    "equivalents": [],
+    "hex": "#ababab",
+    "confidence": 0.8982239251664885
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss IJN Green",
+    "reference": "Gloss IJN Green",
+    "name": "H59 XF-11 75",
+    "equivalents": [],
+    "hex": "#797979",
+    "confidence": 0.8910174214804661
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss IJA Green",
+    "reference": "Semi Gloss IJA Green",
+    "name": "H6o XF-13 195 363",
+    "equivalents": [],
+    "hex": "#999999",
+    "confidence": 0.7942594253378296
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "lGloss IJN Gray",
+    "reference": "lGloss IJN Gray",
+    "name": "H61 146 70",
+    "equivalents": [],
+    "hex": "#878787",
+    "confidence": 0.7299044112970314
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss IJA Gray",
+    "reference": "Semi Gloss IJA Gray",
+    "name": "H62 XF-14 147",
+    "equivalents": [],
+    "hex": "#999999",
+    "confidence": 0.9216793361547106
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Metallic Blue-Green",
+    "reference": "Metallic Blue-Green",
+    "name": "H63",
+    "equivalents": [],
+    "hex": "#ababab",
+    "confidence": 0.8362089592324333
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Dark Green RLM-71",
+    "reference": "Semi Gloss Dark Green RLM-71",
+    "name": "H64 116",
+    "equivalents": [],
+    "hex": "#ababab",
+    "confidence": 0.909279704005426
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Black Green RLM-70",
+    "reference": "Semi Gloss Black Green RLM-70",
+    "name": "H65",
+    "equivalents": [],
+    "hex": "#797979",
+    "confidence": 0.6640488980201733
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Sandy Brown RLM-79",
+    "reference": "Semi Gloss Sandy Brown RLM-79",
+    "name": "H66 XF-57 63 88",
+    "equivalents": [],
+    "hex": "#797979",
+    "confidence": 0.9537809645916628
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Light Blue RLM-65",
+    "reference": "Semi Gloss Light Blue RLM-65",
+    "name": "H67 65",
+    "equivalents": [],
+    "hex": "#848484",
+    "confidence": 0.8169515941296749
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Dark Grey RLM-74",
+    "reference": "Semi Gloss Dark Grey RLM-74",
+    "name": "H68 27",
+    "equivalents": [],
+    "hex": "#848484",
+    "confidence": 0.7341754056161524
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Grey RLM-75",
+    "reference": "Semi Gloss Grey RLM-75",
+    "name": "H6g",
+    "equivalents": [],
+    "hex": "#ababab",
+    "confidence": 0.6971008921515797
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Grey RLM-02",
+    "reference": "Semi Gloss Grey RLM-02",
+    "name": "H7O",
+    "equivalents": [],
+    "hex": "#ababab",
+    "confidence": 0.6438521897522935
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Middle Stone",
+    "reference": "Semi Gloss Middle Stone",
+    "name": "H71 94",
+    "equivalents": [],
+    "hex": "#ababab",
+    "confidence": 0.9857346437943095
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Dark Earth",
+    "reference": "Semi Gloss Dark Earth",
+    "name": "H72 29 86 380",
+    "equivalents": [],
+    "hex": "#797979",
+    "confidence": 0.9039304734908405
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Dark Green",
+    "reference": "Semi Gloss Dark Green",
+    "name": "H73 XF-61 30",
+    "equivalents": [],
+    "hex": "#797979",
+    "confidence": 0.7806955702028328
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Duck Egg Green",
+    "reference": "Semi Gloss Duck Egg Green",
+    "name": "H74 23",
+    "equivalents": [],
+    "hex": "#7e7e7e",
+    "confidence": 0.9344235745206103
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Dark Sea Gray",
+    "reference": "Semi Gloss Dark Sea Gray",
+    "name": "H75 XF-54 27",
+    "equivalents": [],
+    "hex": "#d9d9d9",
+    "confidence": 0.9412418678705701
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Metallic Burnt Iron",
+    "reference": "Metallic Burnt Iron",
+    "name": "H76 53 1795",
+    "equivalents": [],
+    "hex": "#626262",
+    "confidence": 0.9905355002570317
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Flat Tire Black",
+    "reference": "Flat Tire Black",
+    "name": "H77 X-18 85 1583",
+    "equivalents": [],
+    "hex": "#bebebe",
+    "confidence": 0.8968863823169743
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Olive Drab(2)",
+    "reference": "Semi Gloss Olive Drab(2)",
+    "name": "H78 XF-58 66",
+    "equivalents": [],
+    "hex": "#797979",
+    "confidence": 0.9178350287955853
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "ISemi Gloss Sandy Yellow",
+    "reference": "ISemi Gloss Sandy Yellow",
+    "name": "H79 XF-59 93 16",
+    "equivalents": [],
+    "hex": "#999999",
+    "confidence": 0.9070723891076032
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Flat Khaki Green",
+    "reference": "Flat Khaki Green",
+    "name": "H8O XF-51",
+    "equivalents": [],
+    "hex": "#797979",
+    "confidence": 0.9429789838647831
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Flat Khaki",
+    "reference": "Flat Khaki",
+    "name": "H81 XF-49 26",
+    "equivalents": [],
+    "hex": "#c4c4c4",
+    "confidence": 0.9755602889650504
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Dark Grey(t)",
+    "reference": "Semi Gloss Dark Grey(t)",
+    "name": "H82 XF-2O 126 47",
+    "equivalents": [],
+    "hex": "#5a5a5a",
+    "confidence": 0.8380409475262427
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Dark Grey(2)",
+    "reference": "Semi Gloss Dark Grey(2)",
+    "name": "H83 XF-24 112 57 / 378",
+    "equivalents": [],
+    "hex": "#c4c4c4",
+    "confidence": 0.9019304721785697
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Mahogany",
+    "reference": "Semi Gloss Mahogany",
+    "name": "H84",
+    "equivalents": [],
+    "hex": "#8c8c8c",
+    "confidence": 0.9900655326355797
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Flat Sail Color",
+    "reference": "Flat Sail Color",
+    "name": "H85 2709",
+    "equivalents": [],
+    "hex": "#8c8c8c",
+    "confidence": 0.9019385135700514
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Red Madder",
+    "reference": "Gloss Red Madder",
+    "name": "H86 34 2719",
+    "equivalents": [],
+    "hex": "#ababab",
+    "confidence": 0.8144298729813135
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Metallic Red",
+    "reference": "Metallic Red",
+    "name": "H87 51 96",
+    "equivalents": [],
+    "hex": "#ababab",
+    "confidence": 0.9851859946233068
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Metallic Blue",
+    "reference": "Metallic Blue",
+    "name": "H88 X-13 52 98",
+    "equivalents": [],
+    "hex": "#c7c7c7",
+    "confidence": 0.97594298389838
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Metallic Green",
+    "reference": "Metallic Green",
+    "name": "H8g 50 97",
+    "equivalents": [],
+    "hex": "#ababab",
+    "confidence": 0.8955595148819857
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Clear Red",
+    "reference": "Gloss Clear Red",
+    "name": "H9O X-27 1321 531",
+    "equivalents": [],
+    "hex": "#9c9c9c",
+    "confidence": 0.7683678053627585
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Clear Yellow",
+    "reference": "Gloss Clear Yellow",
+    "name": "H91 X-24 512",
+    "equivalents": [],
+    "hex": "#606060",
+    "confidence": 0.9628576456104986
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Clear Orange",
+    "reference": "Gloss Clear Orange",
+    "name": "H92 X-26 1322 530",
+    "equivalents": [],
+    "hex": "#585858",
+    "confidence": 0.7964541956718649
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Clear Blue",
+    "reference": "Gloss Clear Blue",
+    "name": "H93 X23 552",
+    "equivalents": [],
+    "hex": "#9c9c9c",
+    "confidence": 0.8867321447474941
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Clear Green",
+    "reference": "Gloss Clear Green",
+    "name": "H94 X26 1325 561",
+    "equivalents": [],
+    "hex": "#686868",
+    "confidence": 0.939574629541495
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Smoke Gray",
+    "reference": "Gloss Smoke Gray",
+    "name": "H95 X-19",
+    "equivalents": [],
+    "hex": "#c7c7c7",
+    "confidence": 0.8116963051882208
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Blue Smoke",
+    "reference": "Gloss Blue Smoke",
+    "name": "H96",
+    "equivalents": [],
+    "hex": "#ababab",
+    "confidence": 0.9211949504137269
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Fluo Yellow",
+    "reference": "Gloss Fluo Yellow",
+    "name": "H97 194 312",
+    "equivalents": [],
+    "hex": "#ababab",
+    "confidence": 0.8271704082954806
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Fluo Orange",
+    "reference": "Gloss Fluo Orange",
+    "name": "H98 209",
+    "equivalents": [],
+    "hex": "#ababab",
+    "confidence": 0.9603417751158203
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Fluo Pink",
+    "reference": "Gloss Fluo Pink",
+    "name": "H9g 207",
+    "equivalents": [],
+    "hex": "#ababab",
+    "confidence": 0.5964807966081138
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Fluo Green",
+    "reference": "Gloss Fluo Green",
+    "name": "H1OO 203",
+    "equivalents": [],
+    "hex": "#ababab",
+    "confidence": 0.8930746411846286
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Gray FS-36081",
+    "reference": "Semi Gloss Gray FS-36081",
+    "name": "H301 32",
+    "equivalents": [],
+    "hex": "#aaaaaa",
+    "confidence": 0.767440490822846
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "ISemi Gloss Green FS-34092",
+    "reference": "ISemi Gloss Green FS-34092",
+    "name": "H302 149 1764",
+    "equivalents": [],
+    "hex": "#9a9a9a",
+    "confidence": 0.8301248737013345
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Green FS-34102",
+    "reference": "Semi Gloss Green FS-34102",
+    "name": "H303 151 1713",
+    "equivalents": [],
+    "hex": "#616161",
+    "confidence": 0.9846797794527731
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Olive Drab FS-34087",
+    "reference": "Semi Gloss Olive Drab FS-34087",
+    "name": "H304 155 1711",
+    "equivalents": [],
+    "hex": "#8d8d8d",
+    "confidence": 0.8245046657363825
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Grey FS-36118",
+    "reference": "Semi Gloss Grey FS-36118",
+    "name": "H305 125",
+    "equivalents": [],
+    "hex": "#656565",
+    "confidence": 0.9270873566917476
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Grey FS-36270",
+    "reference": "Semi Gloss Grey FS-36270",
+    "name": "H306 126",
+    "equivalents": [],
+    "hex": "#a2a2a2",
+    "confidence": 0.6183256255368569
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Grey FS-36320",
+    "reference": "Semi Gloss Grey FS-36320",
+    "name": "H307 128 1741",
+    "equivalents": [],
+    "hex": "#656565",
+    "confidence": 0.9208099861904259
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Grey FS-36375",
+    "reference": "Semi Gloss Grey FS-36375",
+    "name": "H308 127 1728",
+    "equivalents": [],
+    "hex": "#bcbcbc",
+    "confidence": 0.9014365476324535
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Green FS-34079",
+    "reference": "Semi Gloss Green FS-34079",
+    "name": "H309 116 1710",
+    "equivalents": [],
+    "hex": "#929292",
+    "confidence": 0.9106773384428539
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Brown FS-30219",
+    "reference": "Semi Gloss Brown FS-30219",
+    "name": "H310 XF-52 119 85",
+    "equivalents": [],
+    "hex": "#515151",
+    "confidence": 0.9030333632431075
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Grey FS-36622",
+    "reference": "Semi Gloss Grey FS-36622",
+    "name": "H311 28",
+    "equivalents": [],
+    "hex": "#a2a2a2",
+    "confidence": 0.866671226054246
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Green FS-34227",
+    "reference": "Semi Gloss Green FS-34227",
+    "name": "H312 XF-26 120 1716",
+    "equivalents": [],
+    "hex": "#b6b6b6",
+    "confidence": 0.8637889547596483
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Yellow FS-33531",
+    "reference": "Semi Gloss Yellow FS-33531",
+    "name": "H313 XF-60 121 1706",
+    "equivalents": [],
+    "hex": "#acacac",
+    "confidence": 0.961802334502493
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Blue FS-35622",
+    "reference": "Semi Gloss Blue FS-35622",
+    "name": "H314 XF-21 122",
+    "equivalents": [],
+    "hex": "#979797",
+    "confidence": 0.7417444360102969
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Gloss Gray FS-16440",
+    "reference": "Gloss Gray FS-16440",
+    "name": "H315 XF-54 183 1729",
+    "equivalents": [],
+    "hex": "#414141",
+    "confidence": 0.9527067543946754
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Gloss White FS-17875",
+    "reference": "Gloss White FS-17875",
+    "name": "H316 22",
+    "equivalents": [],
+    "hex": "#686868",
+    "confidence": 0.9859647361828864
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Flat Grey FS- 36231",
+    "reference": "Flat Grey FS- 36231",
+    "name": "H317 140 1740",
+    "equivalents": [],
+    "hex": "#a2a2a2",
+    "confidence": 0.9417956014743559
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Radome",
+    "reference": "Semi Gloss Radome",
+    "name": "H318 148 1709",
+    "equivalents": [],
+    "hex": "#a2a2a2",
+    "confidence": 0.9351796533953964
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Light Green",
+    "reference": "Semi Gloss Light Green",
+    "name": "H319",
+    "equivalents": [],
+    "hex": "#676767",
+    "confidence": 0.8874919396190499
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Dark Green",
+    "reference": "Semi Gloss Dark Green",
+    "name": "H320 XF-27 30 360",
+    "equivalents": [],
+    "hex": "#a4a4a4",
+    "confidence": 0.924513037451394
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Light Brown",
+    "reference": "Semi Gloss Light Brown",
+    "name": "H321",
+    "equivalents": [],
+    "hex": "#575757",
+    "confidence": 0.993535579469498
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Gloss Phthal 0 Yanne Blue",
+    "reference": "Gloss Phthal 0 Yanne Blue",
+    "name": "H322 53 1594",
+    "equivalents": [],
+    "hex": "#575757",
+    "confidence": 0.9176674087391645
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "lGloss Light Blue",
+    "reference": "lGloss Light Blue",
+    "name": "H323 XF-23",
+    "equivalents": [],
+    "hex": "#959595",
+    "confidence": 0.837752303704796
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Flat Light Grey",
+    "reference": "Flat Light Grey",
+    "name": "H324",
+    "equivalents": [],
+    "hex": "#b5b5b5",
+    "confidence": 0.9453722845455044
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Grey FS-26440",
+    "reference": "Semi Gloss Grey FS-26440",
+    "name": "H325 129 1730",
+    "equivalents": [],
+    "hex": "#b5b5b5",
+    "confidence": 0.7799911370574526
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "(Gloss Blue FS-15044",
+    "reference": "(Gloss Blue FS-15044",
+    "name": "H326 189 1719",
+    "equivalents": [],
+    "hex": "#414141",
+    "confidence": 0.8230312015541648
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Gloss Red FS-11136",
+    "reference": "Gloss Red FS-11136",
+    "name": "H327 153 1705",
+    "equivalents": [],
+    "hex": "#cc0000",
+    "confidence": 0.7951029528323322
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Gloss Blue FS-15050",
+    "reference": "Gloss Blue FS-15050",
+    "name": "H328 190 350 1772",
+    "equivalents": [],
+    "hex": "#000066",
+    "confidence": 0.9077150842515462
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Gloss Yellow FS-13538",
+    "reference": "Gloss Yellow FS-13538",
+    "name": "H329 XF 3 154 /188 310",
+    "equivalents": [],
+    "hex": "#ffff00",
+    "confidence": 0.8138623714580625
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Dark Green BS381/C641",
+    "reference": "Semi Gloss Dark Green BS381/C641",
+    "name": "H330 163",
+    "equivalents": [],
+    "hex": "#2f4f4f",
+    "confidence": 0.8959326920547798
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Dark Sea Grey BS381/C638",
+    "reference": "Semi Gloss Dark Sea Grey BS381/C638",
+    "name": "H331 164",
+    "equivalents": [],
+    "hex": "#575757",
+    "confidence": 0.882720575082152
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Light Aircraft Grey BS381/C627",
+    "reference": "Semi Gloss Light Aircraft Grey BS381/C627",
+    "name": "H332 XF-25 166",
+    "equivalents": [],
+    "hex": "#808080",
+    "confidence": 0.8118676361845464
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Extra Dark Sea Gray BS381/C640",
+    "reference": "Semi Gloss Extra Dark Sea Gray BS381/C640",
+    "name": "H333 123 351",
+    "equivalents": [],
+    "hex": "#2f4f4f",
+    "confidence": 0.9097878345893817
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Barley Gray BS4800/18B21",
+    "reference": "Semi Gloss Barley Gray BS4800/18B21",
+    "name": "H334 167",
+    "equivalents": [],
+    "hex": "#8b7355",
+    "confidence": 0.8536179339053753
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Medium Sea Gray BS381/C637",
+    "reference": "Semi Gloss Medium Sea Gray BS381/C637",
+    "name": "H335 123",
+    "equivalents": [],
+    "hex": "#6b6b6b",
+    "confidence": 0.7994186311090801
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Hemp BS4800/10B21",
+    "reference": "Semi Gloss Hemp BS4800/10B21",
+    "name": "H336 168",
+    "equivalents": [],
+    "hex": "#a0826d",
+    "confidence": 0.9655285904354579
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Grayish Blue FS-35237",
+    "reference": "Semi Gloss Grayish Blue FS-35237",
+    "name": "H337 145 79 1721",
+    "equivalents": [],
+    "hex": "#556b7d",
+    "confidence": 0.8574017431311424
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Light Grey FS-36495",
+    "reference": "Semi Gloss Light Grey FS-36495",
+    "name": "H338 147",
+    "equivalents": [],
+    "hex": "#c0c0c0",
+    "confidence": 0.949716625432322
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Gloss Engine Gray FS-16081",
+    "reference": "Gloss Engine Gray FS-16081",
+    "name": "H339 123 1592",
+    "equivalents": [],
+    "hex": "#5a5a5a",
+    "confidence": 0.8395176966381962
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Field Green FS-34097",
+    "reference": "Semi Gloss Field Green FS-34097",
+    "name": "H340 362 1712",
+    "equivalents": [],
+    "hex": "#4a7023",
+    "confidence": 0.8896450824534378
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "FFlat Mud",
+    "reference": "FFlat Mud",
+    "name": "H341",
+    "equivalents": [],
+    "hex": "#a1a1a1",
+    "confidence": 0.9171458584187677
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Gloss Oil Black",
+    "reference": "Gloss Oil Black",
+    "name": "H342",
+    "equivalents": [],
+    "hex": "#4a4a4a",
+    "confidence": 0.9986927289207587
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Flat Soot",
+    "reference": "Flat Soot",
+    "name": "H343 33 1785",
+    "equivalents": [],
+    "hex": "#4a4a4a",
+    "confidence": 0.818254814037278
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Flat Rust",
+    "reference": "Flat Rust",
+    "name": "H344 113 83",
+    "equivalents": [],
+    "hex": "#939393",
+    "confidence": 0.9752376960903005
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Flat Rough",
+    "reference": "Flat Rough",
+    "name": "Gray H345",
+    "equivalents": [],
+    "hex": "#6e6e6e",
+    "confidence": 0.9340247927760271
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "FFlat Rough Sand",
+    "reference": "FFlat Rough Sand",
+    "name": "H346 93",
+    "equivalents": [],
+    "hex": "#6d6d6d",
+    "confidence": 0.7422060897187783
+  }
+]

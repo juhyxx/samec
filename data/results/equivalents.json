@@ -1,0 +1,5902 @@
+{
+  "gunze": {
+    "H1": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0913"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0040"
+      }
+    ],
+    "H2": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0044"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0035"
+      }
+    ],
+    "H3": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0040"
+      }
+    ],
+    "H4": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0016"
+      }
+    ],
+    "H5": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0008"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0905"
+      }
+    ],
+    "H6": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H7": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0040"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0109"
+      }
+    ],
+    "H8": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H9": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H10": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0040"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0922"
+      }
+    ],
+    "H11": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0040"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0922"
+      }
+    ],
+    "H12": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0104"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0035"
+      }
+    ],
+    "H13": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0040"
+      }
+    ],
+    "H14": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0040"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0066"
+      }
+    ],
+    "H15": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0066"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0202"
+      }
+    ],
+    "H16": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0018"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0915"
+      }
+    ],
+    "H17": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0043"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0917"
+      }
+    ],
+    "H19": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0188"
+      }
+    ],
+    "H20": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0188"
+      }
+    ],
+    "H21": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0907"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0906"
+      }
+    ],
+    "H22": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0907"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0906"
+      }
+    ],
+    "H23": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0066"
+      }
+    ],
+    "H24": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0066"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0202"
+      }
+    ],
+    "H25": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0066"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0202"
+      }
+    ],
+    "H26": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0018"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0077"
+      }
+    ],
+    "H27": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0935"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0934"
+      }
+    ],
+    "H28": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0923"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0914"
+      }
+    ],
+    "H29": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0066"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0202"
+      }
+    ],
+    "H30": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0066"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0202"
+      }
+    ],
+    "H31": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0905"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0923"
+      }
+    ],
+    "H32": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0905"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0923"
+      }
+    ],
+    "H33": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0015"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0007"
+      }
+    ],
+    "H34": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0133"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0135"
+      }
+    ],
+    "H35": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0008"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0905"
+      }
+    ],
+    "H36": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0008"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0905"
+      }
+    ],
+    "H37": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0108"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0034"
+      }
+    ],
+    "H38": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0917"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0905"
+      }
+    ],
+    "H39": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0008"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0196"
+      }
+    ],
+    "H40": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0008"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0196"
+      }
+    ],
+    "H41": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0220"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0236"
+      }
+    ],
+    "H42": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0008"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0905"
+      }
+    ],
+    "H43": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0040"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0109"
+      }
+    ],
+    "H44": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0016"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0012"
+      }
+    ],
+    "H45": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0016"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0012"
+      }
+    ],
+    "H46": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0018"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0077"
+      }
+    ],
+    "H47": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0917"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0110"
+      }
+    ],
+    "H48": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0008"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0905"
+      }
+    ],
+    "H49": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0008"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0905"
+      }
+    ],
+    "H50": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0045"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0103"
+      }
+    ],
+    "H51": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0911"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0085"
+      }
+    ],
+    "H52": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0095"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0237"
+      }
+    ],
+    "H53": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0050"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0242"
+      }
+    ],
+    "H55": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0116"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0099"
+      }
+    ],
+    "H56": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0020"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0909"
+      }
+    ],
+    "H57": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0116"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0099"
+      }
+    ],
+    "H58": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H59": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0020"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0909"
+      }
+    ],
+    "H60": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0050"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0242"
+      }
+    ],
+    "H61": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0076"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0194"
+      }
+    ],
+    "H62": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0050"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0242"
+      }
+    ],
+    "H63": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H64": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H65": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0020"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0909"
+      }
+    ],
+    "H66": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0020"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0909"
+      }
+    ],
+    "H67": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0076"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0235"
+      }
+    ],
+    "H68": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0076"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0235"
+      }
+    ],
+    "H70": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H71": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H72": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0020"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0909"
+      }
+    ],
+    "H73": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0020"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0909"
+      }
+    ],
+    "H74": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0070"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0235"
+      }
+    ],
+    "H75": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0200"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0210"
+      }
+    ],
+    "H76": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0045"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0085"
+      }
+    ],
+    "H77": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0073"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0206"
+      }
+    ],
+    "H78": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0020"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0909"
+      }
+    ],
+    "H79": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0050"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0242"
+      }
+    ],
+    "H80": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0020"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0909"
+      }
+    ],
+    "H81": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0095"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0237"
+      }
+    ],
+    "H82": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0045"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0103"
+      }
+    ],
+    "H83": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0095"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0237"
+      }
+    ],
+    "H84": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0116"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0099"
+      }
+    ],
+    "H85": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0116"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0099"
+      }
+    ],
+    "H86": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H87": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H88": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0208"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0209"
+      }
+    ],
+    "H90": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0910"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0050"
+      }
+    ],
+    "H91": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0045"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0103"
+      }
+    ],
+    "H92": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0103"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0045"
+      }
+    ],
+    "H93": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0910"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0050"
+      }
+    ],
+    "H94": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0911"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0908"
+      }
+    ],
+    "H95": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0208"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0209"
+      }
+    ],
+    "H96": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H97": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H98": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H100": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H301": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H302": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0242"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0050"
+      }
+    ],
+    "H303": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0045"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0103"
+      }
+    ],
+    "H304": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0116"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0099"
+      }
+    ],
+    "H305": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0045"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0911"
+      }
+    ],
+    "H306": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0241"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0242"
+      }
+    ],
+    "H307": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0045"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0911"
+      }
+    ],
+    "H308": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0080"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0248"
+      }
+    ],
+    "H309": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0054"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0122"
+      }
+    ],
+    "H310": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0192"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0193"
+      }
+    ],
+    "H311": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0241"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0242"
+      }
+    ],
+    "H312": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0081"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0246"
+      }
+    ],
+    "H313": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0223"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0078"
+      }
+    ],
+    "H314": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0050"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0207"
+      }
+    ],
+    "H315": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0218"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0253"
+      }
+    ],
+    "H316": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0911"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0908"
+      }
+    ],
+    "H317": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0241"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0242"
+      }
+    ],
+    "H318": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0241"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0242"
+      }
+    ],
+    "H319": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0911"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0085"
+      }
+    ],
+    "H320": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0241"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0229"
+      }
+    ],
+    "H321": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0103"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0238"
+      }
+    ],
+    "H322": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0103"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0238"
+      }
+    ],
+    "H323": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0050"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0122"
+      }
+    ],
+    "H324": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0232"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0081"
+      }
+    ],
+    "H325": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0232"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0081"
+      }
+    ],
+    "H326": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0218"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0253"
+      }
+    ],
+    "H330": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0018"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0077"
+      }
+    ],
+    "H331": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0103"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0238"
+      }
+    ],
+    "H332": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0235"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0195"
+      }
+    ],
+    "H333": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0018"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0077"
+      }
+    ],
+    "H334": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0933"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0006"
+      }
+    ],
+    "H335": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0908"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0252"
+      }
+    ],
+    "H336": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0021"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0935"
+      }
+    ],
+    "H337": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0908"
+      }
+    ],
+    "H338": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0087"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0204"
+      }
+    ],
+    "H339": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0045"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0103"
+      }
+    ],
+    "H340": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0004"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0002"
+      }
+    ],
+    "H341": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0242"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0241"
+      }
+    ],
+    "H342": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0192"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0193"
+      }
+    ],
+    "H343": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0192"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0193"
+      }
+    ],
+    "H344": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0054"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0122"
+      }
+    ],
+    "H346": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0908"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0254"
+      }
+    ]
+  },
+  "ammo": {
+    "MIG0001": [
+      {
+        "brand": "tamiya",
+        "code": "XF61"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.888"
+      },
+      {
+        "brand": "gunze",
+        "code": "H37"
+      },
+      {
+        "brand": "gunze",
+        "code": "H315"
+      }
+    ],
+    "MIG0002": [
+      {
+        "brand": "hobby_color",
+        "code": "H48"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C52"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF65"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.890"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.092"
+      },
+      {
+        "brand": "gunze",
+        "code": "H16"
+      },
+      {
+        "brand": "gunze",
+        "code": "H342"
+      }
+    ],
+    "MIG0003": [
+      {
+        "brand": "hobby_color",
+        "code": "H312"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C312"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.891"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.126"
+      },
+      {
+        "brand": "gunze",
+        "code": "H305"
+      },
+      {
+        "brand": "gunze",
+        "code": "H307"
+      }
+    ],
+    "MIG0004": [
+      {
+        "brand": "hobby_color",
+        "code": "H340"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C340"
+      },
+      {
+        "brand": "gunze",
+        "code": "H16"
+      },
+      {
+        "brand": "gunze",
+        "code": "H342"
+      }
+    ],
+    "MIG0005": [
+      {
+        "brand": "model_air",
+        "code": "71.116"
+      },
+      {
+        "brand": "gunze",
+        "code": "H310"
+      },
+      {
+        "brand": "gunze",
+        "code": "H342"
+      }
+    ],
+    "MIG0006": [
+      {
+        "brand": "gunze",
+        "code": "H334"
+      },
+      {
+        "brand": "gunze",
+        "code": "H27"
+      }
+    ],
+    "MIG0007": [
+      {
+        "brand": "model_color",
+        "code": "70.347"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.248"
+      },
+      {
+        "brand": "gunze",
+        "code": "H315"
+      },
+      {
+        "brand": "gunze",
+        "code": "H326"
+      }
+    ],
+    "MIG0008": [
+      {
+        "brand": "hobby_color",
+        "code": "H401"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.862"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.056"
+      },
+      {
+        "brand": "gunze",
+        "code": "H48"
+      },
+      {
+        "brand": "gunze",
+        "code": "H49"
+      }
+    ],
+    "MIG0009": [
+      {
+        "brand": "hobby_color",
+        "code": "H321"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C321"
+      },
+      {
+        "brand": "gunze",
+        "code": "H320"
+      },
+      {
+        "brand": "gunze",
+        "code": "H306"
+      }
+    ],
+    "MIG0010": [
+      {
+        "brand": "hobby_color",
+        "code": "H403"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF60"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.025"
+      },
+      {
+        "brand": "gunze",
+        "code": "H27"
+      },
+      {
+        "brand": "gunze",
+        "code": "H334"
+      }
+    ],
+    "MIG0011": [
+      {
+        "brand": "model_color",
+        "code": "70.978"
+      },
+      {
+        "brand": "gunze",
+        "code": "H44"
+      },
+      {
+        "brand": "gunze",
+        "code": "H45"
+      }
+    ],
+    "MIG0012": [
+      {
+        "brand": "gunze",
+        "code": "H44"
+      },
+      {
+        "brand": "gunze",
+        "code": "H45"
+      }
+    ],
+    "MIG0013": [
+      {
+        "brand": "hobby_color",
+        "code": "H27"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C44"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF57"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.879"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.272"
+      },
+      {
+        "brand": "gunze",
+        "code": "H336"
+      },
+      {
+        "brand": "gunze",
+        "code": "H344"
+      }
+    ],
+    "MIG0014": [
+      {
+        "brand": "hobby_color",
+        "code": "H47 /H460"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C41"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF64"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.814"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.271"
+      },
+      {
+        "brand": "gunze",
+        "code": "H43"
+      },
+      {
+        "brand": "gunze",
+        "code": "H33"
+      }
+    ],
+    "MIG0015": [
+      {
+        "brand": "hobby_color",
+        "code": "H406"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF10"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.985"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.041"
+      },
+      {
+        "brand": "gunze",
+        "code": "H33"
+      },
+      {
+        "brand": "gunze",
+        "code": "H315"
+      }
+    ],
+    "MIG0016": [
+      {
+        "brand": "gunze",
+        "code": "H44"
+      },
+      {
+        "brand": "gunze",
+        "code": "H45"
+      }
+    ],
+    "MIG0017": [
+      {
+        "brand": "model_color",
+        "code": "70.918"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.270"
+      },
+      {
+        "brand": "gunze",
+        "code": "H75"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      }
+    ],
+    "MIG0018": [
+      {
+        "brand": "gunze",
+        "code": "H330"
+      },
+      {
+        "brand": "gunze",
+        "code": "H333"
+      }
+    ],
+    "MIG0019": [
+      {
+        "brand": "model_color",
+        "code": "70.924"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.017"
+      },
+      {
+        "brand": "gunze",
+        "code": "H315"
+      },
+      {
+        "brand": "gunze",
+        "code": "H326"
+      }
+    ],
+    "MIG0020": [
+      {
+        "brand": "model_color",
+        "code": "70.941"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.282"
+      },
+      {
+        "brand": "gunze",
+        "code": "H56"
+      },
+      {
+        "brand": "gunze",
+        "code": "H59"
+      }
+    ],
+    "MIG0021": [
+      {
+        "brand": "model_color",
+        "code": "70.310"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.283"
+      },
+      {
+        "brand": "gunze",
+        "code": "H336"
+      },
+      {
+        "brand": "gunze",
+        "code": "H27"
+      }
+    ],
+    "MIG0022": [
+      {
+        "brand": "model_color",
+        "code": "70.337"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.281"
+      },
+      {
+        "brand": "gunze",
+        "code": "H37"
+      },
+      {
+        "brand": "gunze",
+        "code": "H47"
+      }
+    ],
+    "MIG0023": [
+      {
+        "brand": "hobby_color",
+        "code": "H312"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C312"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF71"
+      },
+      {
+        "brand": "gunze",
+        "code": "H309"
+      },
+      {
+        "brand": "gunze",
+        "code": "H344"
+      }
+    ],
+    "MIG0024": [
+      {
+        "brand": "gunze",
+        "code": "H337"
+      },
+      {
+        "brand": "gunze",
+        "code": "H56"
+      }
+    ],
+    "MIG0025": [
+      {
+        "brand": "model_color",
+        "code": "70.819"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.140"
+      },
+      {
+        "brand": "gunze",
+        "code": "H336"
+      },
+      {
+        "brand": "gunze",
+        "code": "H90"
+      }
+    ],
+    "MIG0026": [
+      {
+        "brand": "hobby_color",
+        "code": "H44"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C51"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.977"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.117"
+      },
+      {
+        "brand": "gunze",
+        "code": "H306"
+      },
+      {
+        "brand": "gunze",
+        "code": "H311"
+      }
+    ],
+    "MIG0027": [
+      {
+        "brand": "model_color",
+        "code": "70.917"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.244"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      },
+      {
+        "brand": "gunze",
+        "code": "H336"
+      }
+    ],
+    "MIG0028": [
+      {
+        "brand": "model_color",
+        "code": "70.821"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.131"
+      },
+      {
+        "brand": "gunze",
+        "code": "H346"
+      },
+      {
+        "brand": "gunze",
+        "code": "H335"
+      }
+    ],
+    "MIG0029": [
+      {
+        "brand": "gunze",
+        "code": "H9"
+      },
+      {
+        "brand": "gunze",
+        "code": "H336"
+      }
+    ],
+    "MIG0030": [
+      {
+        "brand": "hobby_color",
+        "code": "H459"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.143"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      }
+    ],
+    "MIG0031": [
+      {
+        "brand": "model_color",
+        "code": "70.314"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.247"
+      },
+      {
+        "brand": "gunze",
+        "code": "H37"
+      },
+      {
+        "brand": "gunze",
+        "code": "H315"
+      }
+    ],
+    "MIG0032": [
+      {
+        "brand": "hobby_color",
+        "code": "H2"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C2/C92"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.861"
+      },
+      {
+        "brand": "gunze",
+        "code": "H2"
+      },
+      {
+        "brand": "gunze",
+        "code": "H12"
+      }
+    ],
+    "MIG0033": [
+      {
+        "brand": "hobby_color",
+        "code": "H77"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C137"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.306"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.315"
+      },
+      {
+        "brand": "gunze",
+        "code": "H48"
+      },
+      {
+        "brand": "gunze",
+        "code": "H49"
+      }
+    ],
+    "MIG0034": [
+      {
+        "brand": "model_color",
+        "code": "70.343"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.080"
+      },
+      {
+        "brand": "gunze",
+        "code": "H37"
+      },
+      {
+        "brand": "gunze",
+        "code": "H47"
+      }
+    ],
+    "MIG0035": [
+      {
+        "brand": "hobby_color",
+        "code": "H84"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C42"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.302"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.039"
+      },
+      {
+        "brand": "gunze",
+        "code": "H12"
+      },
+      {
+        "brand": "gunze",
+        "code": "H2"
+      }
+    ],
+    "MIG0036": [
+      {
+        "brand": "model_air",
+        "code": "71.075"
+      },
+      {
+        "brand": "gunze",
+        "code": "H336"
+      },
+      {
+        "brand": "gunze",
+        "code": "H27"
+      }
+    ],
+    "MIG0037": [
+      {
+        "brand": "model_color",
+        "code": "70.321"
+      },
+      {
+        "brand": "gunze",
+        "code": "H336"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      }
+    ],
+    "MIG0038": [
+      {
+        "brand": "hobby_color",
+        "code": "H79"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C39"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF78"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.028"
+      },
+      {
+        "brand": "gunze",
+        "code": "H336"
+      },
+      {
+        "brand": "gunze",
+        "code": "H27"
+      }
+    ],
+    "MIG0039": [
+      {
+        "brand": "hobby_color",
+        "code": "H24"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C58"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.911"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.130"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      },
+      {
+        "brand": "gunze",
+        "code": "H24"
+      }
+    ],
+    "MIG0040": [
+      {
+        "brand": "hobby_color",
+        "code": "H453"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.981"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.129"
+      },
+      {
+        "brand": "gunze",
+        "code": "H10"
+      },
+      {
+        "brand": "gunze",
+        "code": "H11"
+      }
+    ],
+    "MIG0041": [
+      {
+        "brand": "model_color",
+        "code": "70.818"
+      },
+      {
+        "brand": "gunze",
+        "code": "H43"
+      },
+      {
+        "brand": "gunze",
+        "code": "H33"
+      }
+    ],
+    "MIG0042": [
+      {
+        "brand": "model_color",
+        "code": "70.859"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.040"
+      },
+      {
+        "brand": "gunze",
+        "code": "H37"
+      },
+      {
+        "brand": "gunze",
+        "code": "H47"
+      }
+    ],
+    "MIG0043": [
+      {
+        "brand": "model_color",
+        "code": "70.307"
+      },
+      {
+        "brand": "gunze",
+        "code": "H17"
+      },
+      {
+        "brand": "gunze",
+        "code": "H47"
+      }
+    ],
+    "MIG0044": [
+      {
+        "brand": "model_color",
+        "code": "70.304"
+      },
+      {
+        "brand": "gunze",
+        "code": "H2"
+      },
+      {
+        "brand": "gunze",
+        "code": "H12"
+      }
+    ],
+    "MIG0045": [
+      {
+        "brand": "model_color",
+        "code": "70.863"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.072"
+      },
+      {
+        "brand": "gunze",
+        "code": "H50"
+      },
+      {
+        "brand": "gunze",
+        "code": "H91"
+      }
+    ],
+    "MIG0046": [
+      {
+        "brand": "hobby_color",
+        "code": "H12"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C33"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF1"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.950"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.057"
+      },
+      {
+        "brand": "gunze",
+        "code": "H37"
+      },
+      {
+        "brand": "gunze",
+        "code": "H47"
+      }
+    ],
+    "MIG0047": [
+      {
+        "brand": "hobby_color",
+        "code": "H1"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C1"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.842"
+      },
+      {
+        "brand": "gunze",
+        "code": "H37"
+      },
+      {
+        "brand": "gunze",
+        "code": "H47"
+      }
+    ],
+    "MIG0048": [
+      {
+        "brand": "hobby_color",
+        "code": "H4"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C4"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF3"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.915"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.002"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      }
+    ],
+    "MIG0049": [
+      {
+        "brand": "hobby_color",
+        "code": "FS31302RAL 3020RLM 23"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C3/C79/C114"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF7"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.909"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.003"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      },
+      {
+        "brand": "gunze",
+        "code": "H95"
+      }
+    ],
+    "MIG0050": [
+      {
+        "brand": "hobby_color",
+        "code": "FS37925RAL 9016RLM 21"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C62"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF2"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.951"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.001"
+      },
+      {
+        "brand": "gunze",
+        "code": "H314"
+      },
+      {
+        "brand": "gunze",
+        "code": "H323"
+      }
+    ],
+    "MIG0051": [
+      {
+        "brand": "model_color",
+        "code": "70.336"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      }
+    ],
+    "MIG0052": [
+      {
+        "brand": "model_color",
+        "code": "70.970"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.007"
+      },
+      {
+        "brand": "gunze",
+        "code": "H44"
+      },
+      {
+        "brand": "gunze",
+        "code": "H45"
+      }
+    ],
+    "MIG0053": [
+      {
+        "brand": "tamiya",
+        "code": "XF70"
+      },
+      {
+        "brand": "gunze",
+        "code": "H323"
+      },
+      {
+        "brand": "gunze",
+        "code": "H344"
+      }
+    ],
+    "MIG0054": [
+      {
+        "brand": "hobby_color",
+        "code": "H26"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C66"
+      },
+      {
+        "brand": "gunze",
+        "code": "H344"
+      },
+      {
+        "brand": "gunze",
+        "code": "H309"
+      }
+    ],
+    "MIG0055": [
+      {
+        "brand": "model_color",
+        "code": "70.916"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.033"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      }
+    ],
+    "MIG0056": [
+      {
+        "brand": "hobby_color",
+        "code": "KHS5146RLM 83"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C123"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF51"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.318"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.011"
+      },
+      {
+        "brand": "gunze",
+        "code": "H56"
+      },
+      {
+        "brand": "gunze",
+        "code": "H59"
+      }
+    ],
+    "MIG0057": [
+      {
+        "brand": "hobby_color",
+        "code": "PKHV4"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.326"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      },
+      {
+        "brand": "gunze",
+        "code": "H95"
+      }
+    ],
+    "MIG0058": [
+      {
+        "brand": "hobby_color",
+        "code": "PKHV512"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      },
+      {
+        "brand": "gunze",
+        "code": "H27"
+      }
+    ],
+    "MIG0059": [
+      {
+        "brand": "hobby_color",
+        "code": "FS36251KHV16"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.050"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      }
+    ],
+    "MIG0060": [
+      {
+        "brand": "tamiya",
+        "code": "XF5"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.967"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.006"
+      },
+      {
+        "brand": "gunze",
+        "code": "H16"
+      },
+      {
+        "brand": "gunze",
+        "code": "H340"
+      }
+    ],
+    "MIG0061": [
+      {
+        "brand": "model_air",
+        "code": "71.074"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      },
+      {
+        "brand": "gunze",
+        "code": "H27"
+      }
+    ],
+    "MIG0062": [
+      {
+        "brand": "hobby_color",
+        "code": "H42"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C72"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF18"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.900"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.113"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      }
+    ],
+    "MIG0063": [
+      {
+        "brand": "hobby_color",
+        "code": "FS36480RLM 76"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C117"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF23"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.907"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.257"
+      },
+      {
+        "brand": "gunze",
+        "code": "H75"
+      }
+    ],
+    "MIG0064": [
+      {
+        "brand": "model_color",
+        "code": "70.303"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.037"
+      },
+      {
+        "brand": "gunze",
+        "code": "H33"
+      },
+      {
+        "brand": "gunze",
+        "code": "H37"
+      }
+    ],
+    "MIG0065": [
+      {
+        "brand": "hobby_color",
+        "code": "FS34102RLM 62"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C303"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF58"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.348"
+      },
+      {
+        "brand": "gunze",
+        "code": "H44"
+      },
+      {
+        "brand": "gunze",
+        "code": "H45"
+      }
+    ],
+    "MIG0066": [
+      {
+        "brand": "model_air",
+        "code": "71.142"
+      },
+      {
+        "brand": "gunze",
+        "code": "H29"
+      },
+      {
+        "brand": "gunze",
+        "code": "H30"
+      }
+    ],
+    "MIG0067": [
+      {
+        "brand": "gunze",
+        "code": "H52"
+      },
+      {
+        "brand": "gunze",
+        "code": "H81"
+      }
+    ],
+    "MIG0068": [
+      {
+        "brand": "gunze",
+        "code": "H315"
+      },
+      {
+        "brand": "gunze",
+        "code": "H326"
+      }
+    ],
+    "MIG0069": [
+      {
+        "brand": "hobby_color",
+        "code": "H36 /H5g"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C15"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF11"
+      },
+      {
+        "brand": "gunze",
+        "code": "H8"
+      },
+      {
+        "brand": "gunze",
+        "code": "H308"
+      }
+    ],
+    "MIG0070": [
+      {
+        "brand": "hobby_color",
+        "code": "BS 450"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.312"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.035"
+      },
+      {
+        "brand": "gunze",
+        "code": "H332"
+      },
+      {
+        "brand": "gunze",
+        "code": "H74"
+      }
+    ],
+    "MIG0071": [
+      {
+        "brand": "hobby_color",
+        "code": "H404"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF49"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.339"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.136"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      },
+      {
+        "brand": "gunze",
+        "code": "H95"
+      }
+    ],
+    "MIG0072": [
+      {
+        "brand": "tamiya",
+        "code": "XF55"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.315"
+      },
+      {
+        "brand": "gunze",
+        "code": "H75"
+      }
+    ],
+    "MIG0073": [
+      {
+        "brand": "hobby_color",
+        "code": "H457"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF52"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.874"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.024"
+      },
+      {
+        "brand": "gunze",
+        "code": "H77"
+      },
+      {
+        "brand": "gunze",
+        "code": "H308"
+      }
+    ],
+    "MIG0074": [
+      {
+        "brand": "model_color",
+        "code": "70.328"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.010"
+      },
+      {
+        "brand": "gunze",
+        "code": "H314"
+      },
+      {
+        "brand": "gunze",
+        "code": "H53"
+      }
+    ],
+    "MIG0075": [
+      {
+        "brand": "tamiya",
+        "code": "XF80"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      }
+    ],
+    "MIG0076": [
+      {
+        "brand": "hobby_color",
+        "code": "H456"
+      },
+      {
+        "brand": "gunze",
+        "code": "H67"
+      },
+      {
+        "brand": "gunze",
+        "code": "H68"
+      }
+    ],
+    "MIG0077": [
+      {
+        "brand": "model_air",
+        "code": "71.267"
+      },
+      {
+        "brand": "gunze",
+        "code": "H330"
+      },
+      {
+        "brand": "gunze",
+        "code": "H333"
+      }
+    ],
+    "MIG0078": [
+      {
+        "brand": "model_color",
+        "code": "70.927"
+      },
+      {
+        "brand": "gunze",
+        "code": "H313"
+      },
+      {
+        "brand": "gunze",
+        "code": "H58"
+      }
+    ],
+    "MIG0079": [
+      {
+        "brand": "hobby_color",
+        "code": "H37"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C43"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.034"
+      },
+      {
+        "brand": "gunze",
+        "code": "H37"
+      },
+      {
+        "brand": "gunze",
+        "code": "H33"
+      }
+    ],
+    "MIG0080": [
+      {
+        "brand": "model_air",
+        "code": "71.301"
+      },
+      {
+        "brand": "gunze",
+        "code": "H308"
+      },
+      {
+        "brand": "gunze",
+        "code": "H77"
+      }
+    ],
+    "MIG0081": [
+      {
+        "brand": "hobby_color",
+        "code": "H304 /H405"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C304"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF73"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.289"
+      },
+      {
+        "brand": "gunze",
+        "code": "H312"
+      },
+      {
+        "brand": "gunze",
+        "code": "H324"
+      }
+    ],
+    "MIG0082": [
+      {
+        "brand": "model_color",
+        "code": "70.331"
+      },
+      {
+        "brand": "gunze",
+        "code": "H313"
+      },
+      {
+        "brand": "gunze",
+        "code": "H58"
+      }
+    ],
+    "MIG0083": [
+      {
+        "brand": "hobby_color",
+        "code": "XB 518"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C320"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.326"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.285"
+      },
+      {
+        "brand": "gunze",
+        "code": "H52"
+      },
+      {
+        "brand": "gunze",
+        "code": "H81"
+      }
+    ],
+    "MIG0084": [
+      {
+        "brand": "hobby_color",
+        "code": "H80"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C54"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF67"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.093"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      },
+      {
+        "brand": "gunze",
+        "code": "H27"
+      }
+    ],
+    "MIG0085": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 30051RAL 8027"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF68"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.871"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.249"
+      },
+      {
+        "brand": "gunze",
+        "code": "H51"
+      },
+      {
+        "brand": "gunze",
+        "code": "H305"
+      }
+    ],
+    "MIG0086": [
+      {
+        "brand": "hobby_color",
+        "code": "RAL 5019"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C323"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.844"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.089"
+      },
+      {
+        "brand": "gunze",
+        "code": "H61"
+      },
+      {
+        "brand": "gunze",
+        "code": "H67"
+      }
+    ],
+    "MIG0087": [
+      {
+        "brand": "hobby_color",
+        "code": "RAL 6014"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.877"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.012"
+      },
+      {
+        "brand": "gunze",
+        "code": "H338"
+      },
+      {
+        "brand": "gunze",
+        "code": "H77"
+      }
+    ],
+    "MIG0088": [
+      {
+        "brand": "model_color",
+        "code": "70.860"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.077"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      }
+    ],
+    "MIG0089": [
+      {
+        "brand": "hobby_color",
+        "code": "H20"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C182"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.520"
+      },
+      {
+        "brand": "gunze",
+        "code": "H75"
+      }
+    ],
+    "MIG0090": [
+      {
+        "brand": "model_color",
+        "code": "70.522"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      }
+    ],
+    "MIG0091": [
+      {
+        "brand": "hobby_color",
+        "code": "H30"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C46"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.510"
+      },
+      {
+        "brand": "gunze",
+        "code": "H8"
+      },
+      {
+        "brand": "gunze",
+        "code": "H312"
+      }
+    ],
+    "MIG0092": [
+      {
+        "brand": "hobby_color",
+        "code": "H94"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C138"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      }
+    ],
+    "MIG0093": [
+      {
+        "brand": "hobby_color",
+        "code": "H90"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C47"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.934"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      },
+      {
+        "brand": "gunze",
+        "code": "H95"
+      }
+    ],
+    "MIG0094": [
+      {
+        "brand": "gunze",
+        "code": "H9"
+      }
+    ],
+    "MIG0095": [
+      {
+        "brand": "hobby_color",
+        "code": "H95"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C101"
+      },
+      {
+        "brand": "gunze",
+        "code": "H52"
+      },
+      {
+        "brand": "gunze",
+        "code": "H81"
+      }
+    ],
+    "MIG0096": [
+      {
+        "brand": "model_color",
+        "code": "70.936"
+      },
+      {
+        "brand": "gunze",
+        "code": "H56"
+      },
+      {
+        "brand": "gunze",
+        "code": "H59"
+      }
+    ],
+    "MIG0097": [
+      {
+        "brand": "hobby_color",
+        "code": "H92"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C49"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.935"
+      },
+      {
+        "brand": "gunze",
+        "code": "H29"
+      },
+      {
+        "brand": "gunze",
+        "code": "H30"
+      }
+    ],
+    "MIG0098": [
+      {
+        "brand": "hobby_color",
+        "code": "H93"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C50"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0099": [
+      {
+        "brand": "model_color",
+        "code": "70.938"
+      },
+      {
+        "brand": "gunze",
+        "code": "H84"
+      },
+      {
+        "brand": "gunze",
+        "code": "H85"
+      }
+    ],
+    "MIG0102": [
+      {
+        "brand": "model_color",
+        "code": "70.856"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0103": [
+      {
+        "brand": "hobby_color",
+        "code": "H15"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C65"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.839"
+      },
+      {
+        "brand": "gunze",
+        "code": "H82"
+      },
+      {
+        "brand": "gunze",
+        "code": "H339"
+      }
+    ],
+    "MIG0104": [
+      {
+        "brand": "gunze",
+        "code": "H12"
+      },
+      {
+        "brand": "gunze",
+        "code": "H2"
+      }
+    ],
+    "MIG0105": [
+      {
+        "brand": "hobby_color",
+        "code": "RAL 8000"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0106": [
+      {
+        "brand": "hobby_color",
+        "code": "RAL 8020"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0107": [
+      {
+        "brand": "gunze",
+        "code": "H33"
+      },
+      {
+        "brand": "gunze",
+        "code": "H342"
+      }
+    ],
+    "MIG0108": [
+      {
+        "brand": "gunze",
+        "code": "H37"
+      },
+      {
+        "brand": "gunze",
+        "code": "H33"
+      }
+    ],
+    "MIG0109": [
+      {
+        "brand": "gunze",
+        "code": "H43"
+      },
+      {
+        "brand": "gunze",
+        "code": "H10"
+      }
+    ],
+    "MIG0110": [
+      {
+        "brand": "hobby_color",
+        "code": "SCC 1ARLM 61"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.042"
+      },
+      {
+        "brand": "gunze",
+        "code": "H47"
+      },
+      {
+        "brand": "gunze",
+        "code": "H37"
+      }
+    ],
+    "MIG0111": [
+      {
+        "brand": "hobby_color",
+        "code": "SCC 2"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C22"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF72"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.921"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.290"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0112": [
+      {
+        "brand": "hobby_color",
+        "code": "SCC 15"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.892"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.250"
+      },
+      {
+        "brand": "gunze",
+        "code": "H37"
+      },
+      {
+        "brand": "gunze",
+        "code": "H47"
+      }
+    ],
+    "MIG0113": [
+      {
+        "brand": "model_color",
+        "code": "70.988"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.023"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0114": [
+      {
+        "brand": "model_air",
+        "code": "71.246"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0115": [
+      {
+        "brand": "tamiya",
+        "code": "XF15"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.837"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.076"
+      },
+      {
+        "brand": "gunze",
+        "code": "H44"
+      },
+      {
+        "brand": "gunze",
+        "code": "H45"
+      }
+    ],
+    "MIG0116": [
+      {
+        "brand": "hobby_color",
+        "code": "FS31670"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.928"
+      },
+      {
+        "brand": "gunze",
+        "code": "H84"
+      },
+      {
+        "brand": "gunze",
+        "code": "H85"
+      }
+    ],
+    "MIG0117": [
+      {
+        "brand": "model_color",
+        "code": "70.815"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0118": [
+      {
+        "brand": "gunze",
+        "code": "H334"
+      },
+      {
+        "brand": "gunze",
+        "code": "H51"
+      }
+    ],
+    "MIG0119": [
+      {
+        "brand": "hobby_color",
+        "code": "FS17865"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.993"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.279"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0120": [
+      {
+        "brand": "gunze",
+        "code": "H75"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      }
+    ],
+    "MIG0121": [
+      {
+        "brand": "hobby_color",
+        "code": "FSI1136RAL 3002"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C327"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.908"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.084"
+      },
+      {
+        "brand": "gunze",
+        "code": "H324"
+      },
+      {
+        "brand": "gunze",
+        "code": "H325"
+      }
+    ],
+    "MIG0122": [
+      {
+        "brand": "model_color",
+        "code": "70.847"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.288"
+      },
+      {
+        "brand": "gunze",
+        "code": "H323"
+      },
+      {
+        "brand": "gunze",
+        "code": "H344"
+      }
+    ],
+    "MIG0123": [
+      {
+        "brand": "tamiya",
+        "code": "XF8"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.930"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.004"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0124": [
+      {
+        "brand": "model_air",
+        "code": "71.094"
+      },
+      {
+        "brand": "gunze",
+        "code": "H75"
+      }
+    ],
+    "MIG0125": [
+      {
+        "brand": "hobby_color",
+        "code": "FS33655RAL 1003RLM 04"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C113"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.953"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.078"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      }
+    ],
+    "MIG0126": [
+      {
+        "brand": "hobby_color",
+        "code": "H49"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.960"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0127": [
+      {
+        "brand": "hobby_color",
+        "code": "FS37142RAL 4008"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C67"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.959"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0128": [
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0129": [
+      {
+        "brand": "hobby_color",
+        "code": "FS32246"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C59"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.956"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.083"
+      },
+      {
+        "brand": "gunze",
+        "code": "H24"
+      },
+      {
+        "brand": "gunze",
+        "code": "H25"
+      }
+    ],
+    "MIG0130": [
+      {
+        "brand": "hobby_color",
+        "code": "H318"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C318"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0131": [
+      {
+        "brand": "model_air",
+        "code": "71.142"
+      },
+      {
+        "brand": "gunze",
+        "code": "H342"
+      },
+      {
+        "brand": "gunze",
+        "code": "H343"
+      }
+    ],
+    "MIG0132": [
+      {
+        "brand": "hobby_color",
+        "code": "H85"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C45"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.141"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      }
+    ],
+    "MIG0133": [
+      {
+        "brand": "model_color",
+        "code": "70.301"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.105"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0134": [
+      {
+        "brand": "model_color",
+        "code": "70.984"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.036"
+      },
+      {
+        "brand": "gunze",
+        "code": "H17"
+      },
+      {
+        "brand": "gunze",
+        "code": "H47"
+      }
+    ],
+    "MIG0135": [
+      {
+        "brand": "model_air",
+        "code": "71.112"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0138": [
+      {
+        "brand": "hobby_color",
+        "code": "FS20400"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.912"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.291"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0139": [
+      {
+        "brand": "hobby_color",
+        "code": "H463"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.293"
+      },
+      {
+        "brand": "gunze",
+        "code": "H34"
+      }
+    ],
+    "MIG0187": [
+      {
+        "brand": "hobby_color",
+        "code": "H76"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C61"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF84"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.073"
+      },
+      {
+        "brand": "gunze",
+        "code": "H33"
+      },
+      {
+        "brand": "gunze",
+        "code": "H37"
+      }
+    ],
+    "MIG0188": [
+      {
+        "brand": "hobby_color",
+        "code": "H87"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C75"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.070"
+      },
+      {
+        "brand": "gunze",
+        "code": "H19"
+      },
+      {
+        "brand": "gunze",
+        "code": "H20"
+      }
+    ],
+    "MIG0189": [
+      {
+        "brand": "gunze",
+        "code": "H9"
+      }
+    ],
+    "MIG0190": [
+      {
+        "brand": "model_color",
+        "code": "70.801"
+      },
+      {
+        "brand": "gunze",
+        "code": "H33"
+      },
+      {
+        "brand": "gunze",
+        "code": "H37"
+      }
+    ],
+    "MIG0191": [
+      {
+        "brand": "hobby_color",
+        "code": "RAL 9006"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C28"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.864"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.065"
+      },
+      {
+        "brand": "gunze",
+        "code": "H61"
+      },
+      {
+        "brand": "gunze",
+        "code": "H67"
+      }
+    ],
+    "MIG0192": [
+      {
+        "brand": "tamiya",
+        "code": "XF56"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.865"
+      },
+      {
+        "brand": "gunze",
+        "code": "H342"
+      },
+      {
+        "brand": "gunze",
+        "code": "H343"
+      }
+    ],
+    "MIG0193": [
+      {
+        "brand": "gunze",
+        "code": "H342"
+      },
+      {
+        "brand": "gunze",
+        "code": "H343"
+      }
+    ],
+    "MIG0194": [
+      {
+        "brand": "tamiya",
+        "code": "XF16"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.062"
+      },
+      {
+        "brand": "gunze",
+        "code": "H61"
+      },
+      {
+        "brand": "gunze",
+        "code": "H67"
+      }
+    ],
+    "MIG0195": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 17178RLM 01"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C8 / C90"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.997"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.063"
+      },
+      {
+        "brand": "gunze",
+        "code": "H67"
+      },
+      {
+        "brand": "gunze",
+        "code": "H68"
+      }
+    ],
+    "MIG0196": [
+      {
+        "brand": "hobby_color",
+        "code": "H88"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C76"
+      },
+      {
+        "brand": "gunze",
+        "code": "H6"
+      },
+      {
+        "brand": "gunze",
+        "code": "H39"
+      }
+    ],
+    "MIG0197": [
+      {
+        "brand": "model_air",
+        "code": "71.067"
+      },
+      {
+        "brand": "gunze",
+        "code": "H9"
+      },
+      {
+        "brand": "gunze",
+        "code": "H27"
+      }
+    ],
+    "MIG0198": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 17043"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C9"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.996"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.066"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      },
+      {
+        "brand": "gunze",
+        "code": "H95"
+      }
+    ],
+    "MIG0199": [
+      {
+        "brand": "hobby_color",
+        "code": "H10"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C10"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF6"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.999"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.068"
+      },
+      {
+        "brand": "gunze",
+        "code": "H43"
+      },
+      {
+        "brand": "gunze",
+        "code": "H7"
+      }
+    ],
+    "MIG0200": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 33531"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C313"
+      },
+      {
+        "brand": "gunze",
+        "code": "H75"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      }
+    ],
+    "MIG0201": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 34424"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.885"
+      },
+      {
+        "brand": "gunze",
+        "code": "H75"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      }
+    ],
+    "MIG0202": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 30219"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C310"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF59"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.843"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.125"
+      },
+      {
+        "brand": "gunze",
+        "code": "H29"
+      },
+      {
+        "brand": "gunze",
+        "code": "H30"
+      }
+    ],
+    "MIG0203": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 36375RALZOOI"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C308"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.990"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      },
+      {
+        "brand": "gunze",
+        "code": "H95"
+      }
+    ],
+    "MIG0204": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 36118"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C305"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF77"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.868"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.047"
+      },
+      {
+        "brand": "gunze",
+        "code": "H77"
+      },
+      {
+        "brand": "gunze",
+        "code": "H338"
+      }
+    ],
+    "MIG0205": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 26231"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C317 /C331"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.991"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.051"
+      },
+      {
+        "brand": "gunze",
+        "code": "H56"
+      },
+      {
+        "brand": "gunze",
+        "code": "H59"
+      }
+    ],
+    "MIG0206": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 34079RLM 81"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C309"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.893"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.294"
+      },
+      {
+        "brand": "gunze",
+        "code": "H77"
+      },
+      {
+        "brand": "gunze",
+        "code": "H308"
+      }
+    ],
+    "MIG0207": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 36314"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C334"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF19"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.989"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.046"
+      },
+      {
+        "brand": "gunze",
+        "code": "H323"
+      },
+      {
+        "brand": "gunze",
+        "code": "H314"
+      }
+    ],
+    "MIG0208": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 36320"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C307"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.120"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      },
+      {
+        "brand": "gunze",
+        "code": "H95"
+      }
+    ],
+    "MIG0209": [
+      {
+        "brand": "hobby_color",
+        "code": "H51 /H338"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C11 /C338"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.276"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      },
+      {
+        "brand": "gunze",
+        "code": "H95"
+      }
+    ],
+    "MIG0210": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 35237"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C337"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.905"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.304"
+      },
+      {
+        "brand": "gunze",
+        "code": "H75"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      }
+    ],
+    "MIG0211": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 36270"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C306"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.275"
+      },
+      {
+        "brand": "gunze",
+        "code": "H61"
+      },
+      {
+        "brand": "gunze",
+        "code": "H84"
+      }
+    ],
+    "MIG0212": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 26373BS 627"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C332"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.119"
+      },
+      {
+        "brand": "gunze",
+        "code": "H52"
+      },
+      {
+        "brand": "gunze",
+        "code": "H81"
+      }
+    ],
+    "MIG0213": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 24277"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.305"
+      },
+      {
+        "brand": "gunze",
+        "code": "H61"
+      },
+      {
+        "brand": "gunze",
+        "code": "H84"
+      }
+    ],
+    "MIG0217": [
+      {
+        "brand": "hobby_color",
+        "code": "RAL 7002RLM 02"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C60"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF22"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.886"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.044"
+      },
+      {
+        "brand": "gunze",
+        "code": "H75"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      }
+    ],
+    "MIG0218": [
+      {
+        "brand": "hobby_color",
+        "code": "RLM66"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C116"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF63"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.866"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.055"
+      },
+      {
+        "brand": "gunze",
+        "code": "H315"
+      },
+      {
+        "brand": "gunze",
+        "code": "H326"
+      }
+    ],
+    "MIG0219": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 34226"
+      },
+      {
+        "brand": "gunze",
+        "code": "H306"
+      },
+      {
+        "brand": "gunze",
+        "code": "H311"
+      }
+    ],
+    "MIG0220": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 34151"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.850"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.137"
+      },
+      {
+        "brand": "gunze",
+        "code": "H8"
+      },
+      {
+        "brand": "gunze",
+        "code": "H312"
+      }
+    ],
+    "MIG0221": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 33481"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C27"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF4"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.107"
+      },
+      {
+        "brand": "gunze",
+        "code": "H77"
+      },
+      {
+        "brand": "gunze",
+        "code": "H308"
+      }
+    ],
+    "MIG0222": [
+      {
+        "brand": "hobby_color",
+        "code": "RLM 79"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C119"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.876"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.278"
+      },
+      {
+        "brand": "gunze",
+        "code": "H324"
+      },
+      {
+        "brand": "gunze",
+        "code": "H325"
+      }
+    ],
+    "MIG0223": [
+      {
+        "brand": "hobby_color",
+        "code": "H46"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.838"
+      },
+      {
+        "brand": "gunze",
+        "code": "H58"
+      },
+      {
+        "brand": "gunze",
+        "code": "H63"
+      }
+    ],
+    "MIG0224": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 35260"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.961"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.317"
+      },
+      {
+        "brand": "gunze",
+        "code": "H324"
+      },
+      {
+        "brand": "gunze",
+        "code": "H325"
+      }
+    ],
+    "MIG0226": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 36622"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C311"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.883"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.296"
+      },
+      {
+        "brand": "gunze",
+        "code": "H75"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      }
+    ],
+    "MIG0227": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 25042"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C14"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF50"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.898"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.005"
+      },
+      {
+        "brand": "gunze",
+        "code": "H324"
+      },
+      {
+        "brand": "gunze",
+        "code": "H325"
+      }
+    ],
+    "MIG0228": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 35164RAL 7031ANA 608"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF66"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.903"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.299"
+      },
+      {
+        "brand": "gunze",
+        "code": "H52"
+      },
+      {
+        "brand": "gunze",
+        "code": "H81"
+      }
+    ],
+    "MIG0229": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 15102"
+      },
+      {
+        "brand": "gunze",
+        "code": "H301"
+      },
+      {
+        "brand": "gunze",
+        "code": "H58"
+      }
+    ],
+    "MIG0230": [
+      {
+        "brand": "hobby_color",
+        "code": "FS34095RAL 6020RLM 82"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C122"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.823"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.022"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      },
+      {
+        "brand": "gunze",
+        "code": "H95"
+      }
+    ],
+    "MIG0231": [
+      {
+        "brand": "hobby_color",
+        "code": "FS35352RLM 65"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C115"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF25"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.906"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.255"
+      },
+      {
+        "brand": "gunze",
+        "code": "H313"
+      },
+      {
+        "brand": "gunze",
+        "code": "H58"
+      }
+    ],
+    "MIG0232": [
+      {
+        "brand": "hobby_color",
+        "code": "FS34052RAL 7022RLM 70"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C18"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF27"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.897"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.021"
+      },
+      {
+        "brand": "gunze",
+        "code": "H324"
+      },
+      {
+        "brand": "gunze",
+        "code": "H325"
+      }
+    ],
+    "MIG0233": [
+      {
+        "brand": "hobby_color",
+        "code": "RLM 71"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C17"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.015"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      },
+      {
+        "brand": "gunze",
+        "code": "H95"
+      }
+    ],
+    "MIG0235": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 36152RAL 7012"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C32"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF75"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.308"
+      },
+      {
+        "brand": "gunze",
+        "code": "H67"
+      },
+      {
+        "brand": "gunze",
+        "code": "H68"
+      }
+    ],
+    "MIG0236": [
+      {
+        "brand": "hobby_color",
+        "code": "H82"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C31"
+      },
+      {
+        "brand": "gunze",
+        "code": "H77"
+      },
+      {
+        "brand": "gunze",
+        "code": "H308"
+      }
+    ],
+    "MIG0237": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 23070"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C12"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF62"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.016"
+      },
+      {
+        "brand": "gunze",
+        "code": "H52"
+      },
+      {
+        "brand": "gunze",
+        "code": "H81"
+      }
+    ],
+    "MIG0238": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 34092ANA 612"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C302"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF26"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.895"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.124"
+      },
+      {
+        "brand": "gunze",
+        "code": "H321"
+      },
+      {
+        "brand": "gunze",
+        "code": "H322"
+      }
+    ],
+    "MIG0239": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 36122"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C13"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.274"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      },
+      {
+        "brand": "gunze",
+        "code": "H95"
+      }
+    ],
+    "MIG0240": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 34086RAL 7009"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.830"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.325"
+      },
+      {
+        "brand": "gunze",
+        "code": "H75"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      }
+    ],
+    "MIG0241": [
+      {
+        "brand": "hobby_color",
+        "code": "FS 36440 RAL 7038"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C315 / C325"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.986"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.121"
+      },
+      {
+        "brand": "gunze",
+        "code": "H320"
+      },
+      {
+        "brand": "gunze",
+        "code": "H301"
+      }
+    ],
+    "MIG0242": [
+      {
+        "brand": "gunze",
+        "code": "H302"
+      },
+      {
+        "brand": "gunze",
+        "code": "H53"
+      }
+    ],
+    "MIG0243": [
+      {
+        "brand": "hobby_color",
+        "code": "BS 210"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF21"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.302"
+      },
+      {
+        "brand": "gunze",
+        "code": "H75"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      }
+    ],
+    "MIG0244": [
+      {
+        "brand": "hobby_color",
+        "code": "BS 216"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C26"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.009"
+      },
+      {
+        "brand": "gunze",
+        "code": "H323"
+      },
+      {
+        "brand": "gunze",
+        "code": "H344"
+      }
+    ],
+    "MIG0245": [
+      {
+        "brand": "hobby_color",
+        "code": "BS 629"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF82"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.273"
+      },
+      {
+        "brand": "gunze",
+        "code": "H75"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      }
+    ],
+    "MIG0246": [
+      {
+        "brand": "hobby_color",
+        "code": "BS 637"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C335"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF83"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.870"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.307"
+      },
+      {
+        "brand": "gunze",
+        "code": "H312"
+      },
+      {
+        "brand": "gunze",
+        "code": "H8"
+      }
+    ],
+    "MIG0247": [
+      {
+        "brand": "hobby_color",
+        "code": "RLM 78"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C118"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.972"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.101"
+      },
+      {
+        "brand": "gunze",
+        "code": "H8"
+      },
+      {
+        "brand": "gunze",
+        "code": "H312"
+      }
+    ],
+    "MIG0248": [
+      {
+        "brand": "hobby_color",
+        "code": "FS34083RLM 80"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C120"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.894"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.265"
+      },
+      {
+        "brand": "gunze",
+        "code": "H308"
+      },
+      {
+        "brand": "gunze",
+        "code": "H77"
+      }
+    ],
+    "MIG0249": [
+      {
+        "brand": "model_air",
+        "code": "71.306"
+      },
+      {
+        "brand": "gunze",
+        "code": "H314"
+      },
+      {
+        "brand": "gunze",
+        "code": "H53"
+      }
+    ],
+    "MIG0250": [
+      {
+        "brand": "model_color",
+        "code": "70.964"
+      },
+      {
+        "brand": "gunze",
+        "code": "H342"
+      },
+      {
+        "brand": "gunze",
+        "code": "H343"
+      }
+    ],
+    "MIG0251": [
+      {
+        "brand": "model_air",
+        "code": "71.318"
+      },
+      {
+        "brand": "gunze",
+        "code": "H337"
+      },
+      {
+        "brand": "gunze",
+        "code": "H82"
+      }
+    ],
+    "MIG0252": [
+      {
+        "brand": "model_air",
+        "code": "71.320"
+      },
+      {
+        "brand": "gunze",
+        "code": "H335"
+      },
+      {
+        "brand": "gunze",
+        "code": "H346"
+      }
+    ],
+    "MIG0253": [
+      {
+        "brand": "hobby_color",
+        "code": "H68"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C36"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.867"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.258"
+      },
+      {
+        "brand": "gunze",
+        "code": "H315"
+      },
+      {
+        "brand": "gunze",
+        "code": "H326"
+      }
+    ],
+    "MIG0254": [
+      {
+        "brand": "hobby_color",
+        "code": "H69"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C37"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.869"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.259"
+      },
+      {
+        "brand": "gunze",
+        "code": "H346"
+      },
+      {
+        "brand": "gunze",
+        "code": "H56"
+      }
+    ],
+    "MIG0255": [
+      {
+        "brand": "hobby_color",
+        "code": "H421"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C121"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.264"
+      },
+      {
+        "brand": "gunze",
+        "code": "H310"
+      },
+      {
+        "brand": "gunze",
+        "code": "H321"
+      }
+    ],
+    "MIG0256": [
+      {
+        "brand": "model_air",
+        "code": "71.103"
+      },
+      {
+        "brand": "gunze",
+        "code": "H341"
+      },
+      {
+        "brand": "gunze",
+        "code": "H306"
+      }
+    ],
+    "MIG0257": [
+      {
+        "brand": "mr.color",
+        "code": "C370"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.902"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.108"
+      },
+      {
+        "brand": "gunze",
+        "code": "H67"
+      },
+      {
+        "brand": "gunze",
+        "code": "H68"
+      }
+    ],
+    "MIG0900": [
+      {
+        "brand": "gunze",
+        "code": "H334"
+      },
+      {
+        "brand": "gunze",
+        "code": "H51"
+      }
+    ],
+    "MIG0901": [
+      {
+        "brand": "model_air",
+        "code": "71.030"
+      },
+      {
+        "brand": "gunze",
+        "code": "H334"
+      },
+      {
+        "brand": "gunze",
+        "code": "H27"
+      }
+    ],
+    "MIG0902": [
+      {
+        "brand": "hobby_color",
+        "code": "H71"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C21"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.882"
+      },
+      {
+        "brand": "gunze",
+        "code": "H27"
+      },
+      {
+        "brand": "gunze",
+        "code": "H336"
+      }
+    ],
+    "MIG0903": [
+      {
+        "brand": "model_color",
+        "code": "70.976"
+      },
+      {
+        "brand": "gunze",
+        "code": "H44"
+      },
+      {
+        "brand": "gunze",
+        "code": "H45"
+      }
+    ],
+    "MIG0904": [
+      {
+        "brand": "gunze",
+        "code": "H75"
+      },
+      {
+        "brand": "gunze",
+        "code": "H88"
+      }
+    ],
+    "MIG0905": [
+      {
+        "brand": "model_color",
+        "code": "70.344"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.132"
+      },
+      {
+        "brand": "gunze",
+        "code": "H48"
+      },
+      {
+        "brand": "gunze",
+        "code": "H49"
+      }
+    ],
+    "MIG0906": [
+      {
+        "brand": "hobby_color",
+        "code": "H333"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C333"
+      },
+      {
+        "brand": "gunze",
+        "code": "H315"
+      },
+      {
+        "brand": "gunze",
+        "code": "H326"
+      }
+    ],
+    "MIG0907": [
+      {
+        "brand": "tamiya",
+        "code": "XF69"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.333"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.049"
+      },
+      {
+        "brand": "gunze",
+        "code": "H21"
+      },
+      {
+        "brand": "gunze",
+        "code": "H22"
+      }
+    ],
+    "MIG0908": [
+      {
+        "brand": "hobby_color",
+        "code": "H301 /H339"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C301 / €339"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.995"
+      },
+      {
+        "brand": "gunze",
+        "code": "H346"
+      },
+      {
+        "brand": "gunze",
+        "code": "H335"
+      }
+    ],
+    "MIG0909": [
+      {
+        "brand": "hobby_color",
+        "code": "H458"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF24"
+      },
+      {
+        "brand": "gunze",
+        "code": "H56"
+      },
+      {
+        "brand": "gunze",
+        "code": "H59"
+      }
+    ],
+    "MIG0910": [
+      {
+        "brand": "hobby_color",
+        "code": "H75"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C25"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF54"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.836"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.277"
+      },
+      {
+        "brand": "gunze",
+        "code": "H90"
+      },
+      {
+        "brand": "gunze",
+        "code": "H93"
+      }
+    ],
+    "MIG0911": [
+      {
+        "brand": "gunze",
+        "code": "H94"
+      },
+      {
+        "brand": "gunze",
+        "code": "H316"
+      }
+    ],
+    "MIG0912": [
+      {
+        "brand": "hobby_color",
+        "code": "H17"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C29"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF9"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.038"
+      },
+      {
+        "brand": "gunze",
+        "code": "H37"
+      },
+      {
+        "brand": "gunze",
+        "code": "H33"
+      }
+    ],
+    "MIG0913": [
+      {
+        "brand": "hobby_color",
+        "code": "H7"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C7"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF79"
+      },
+      {
+        "brand": "gunze",
+        "code": "H1"
+      },
+      {
+        "brand": "gunze",
+        "code": "H334"
+      }
+    ],
+    "MIG0914": [
+      {
+        "brand": "gunze",
+        "code": "H17"
+      },
+      {
+        "brand": "gunze",
+        "code": "H47"
+      }
+    ],
+    "MIG0915": [
+      {
+        "brand": "tamiya",
+        "code": "XF81"
+      },
+      {
+        "brand": "gunze",
+        "code": "H16"
+      },
+      {
+        "brand": "gunze",
+        "code": "H342"
+      }
+    ],
+    "MIG0916": [
+      {
+        "brand": "model_color",
+        "code": "70.827"
+      },
+      {
+        "brand": "gunze",
+        "code": "H84"
+      },
+      {
+        "brand": "gunze",
+        "code": "H85"
+      }
+    ],
+    "MIG0917": [
+      {
+        "brand": "gunze",
+        "code": "H47"
+      },
+      {
+        "brand": "gunze",
+        "code": "H17"
+      }
+    ],
+    "MIG0918": [
+      {
+        "brand": "model_color",
+        "code": "70.822"
+      },
+      {
+        "brand": "gunze",
+        "code": "H17"
+      },
+      {
+        "brand": "gunze",
+        "code": "H28"
+      }
+    ],
+    "MIG0919": [
+      {
+        "brand": "gunze",
+        "code": "H17"
+      },
+      {
+        "brand": "gunze",
+        "code": "H47"
+      }
+    ],
+    "MIG0920": [
+      {
+        "brand": "gunze",
+        "code": "H37"
+      },
+      {
+        "brand": "gunze",
+        "code": "H33"
+      }
+    ],
+    "MIG0921": [
+      {
+        "brand": "gunze",
+        "code": "H43"
+      },
+      {
+        "brand": "gunze",
+        "code": "H33"
+      }
+    ],
+    "MIG0922": [
+      {
+        "brand": "gunze",
+        "code": "H10"
+      },
+      {
+        "brand": "gunze",
+        "code": "H11"
+      }
+    ],
+    "MIG0923": [
+      {
+        "brand": "model_color",
+        "code": "70.341"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.026"
+      },
+      {
+        "brand": "gunze",
+        "code": "H17"
+      },
+      {
+        "brand": "gunze",
+        "code": "H28"
+      }
+    ],
+    "MIG0924": [
+      {
+        "brand": "gunze",
+        "code": "H37"
+      },
+      {
+        "brand": "gunze",
+        "code": "H47"
+      }
+    ],
+    "MIG0925": [
+      {
+        "brand": "hobby_color",
+        "code": "H78"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C38"
+      },
+      {
+        "brand": "model_color",
+        "code": "70.889"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.043"
+      },
+      {
+        "brand": "gunze",
+        "code": "H315"
+      },
+      {
+        "brand": "gunze",
+        "code": "H326"
+      }
+    ],
+    "MIG0926": [
+      {
+        "brand": "hobby_color",
+        "code": "H304"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C304"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.286"
+      },
+      {
+        "brand": "gunze",
+        "code": "H76"
+      },
+      {
+        "brand": "gunze",
+        "code": "H303"
+      }
+    ],
+    "MIG0927": [
+      {
+        "brand": "gunze",
+        "code": "H82"
+      },
+      {
+        "brand": "gunze",
+        "code": "H339"
+      }
+    ],
+    "MIG0928": [
+      {
+        "brand": "model_air",
+        "code": "71.139"
+      },
+      {
+        "brand": "gunze",
+        "code": "H334"
+      },
+      {
+        "brand": "gunze",
+        "code": "H27"
+      }
+    ],
+    "MIG0929": [
+      {
+        "brand": "model_color",
+        "code": "70.332"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.138"
+      },
+      {
+        "brand": "gunze",
+        "code": "H47"
+      },
+      {
+        "brand": "gunze",
+        "code": "H17"
+      }
+    ],
+    "MIG0930": [
+      {
+        "brand": "gunze",
+        "code": "H342"
+      },
+      {
+        "brand": "gunze",
+        "code": "H343"
+      }
+    ],
+    "MIG0931": [
+      {
+        "brand": "tamiya",
+        "code": "XF74"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.020"
+      },
+      {
+        "brand": "gunze",
+        "code": "H340"
+      },
+      {
+        "brand": "gunze",
+        "code": "H37"
+      }
+    ],
+    "MIG0932": [
+      {
+        "brand": "model_air",
+        "code": "71.303"
+      },
+      {
+        "brand": "gunze",
+        "code": "H82"
+      },
+      {
+        "brand": "gunze",
+        "code": "H339"
+      }
+    ],
+    "MIG0933": [
+      {
+        "brand": "gunze",
+        "code": "H334"
+      },
+      {
+        "brand": "gunze",
+        "code": "H27"
+      }
+    ],
+    "MIG0934": [
+      {
+        "brand": "gunze",
+        "code": "H27"
+      },
+      {
+        "brand": "gunze",
+        "code": "H336"
+      }
+    ],
+    "MIG0935": [
+      {
+        "brand": "hobby_color",
+        "code": "H62"
+      },
+      {
+        "brand": "mr.color",
+        "code": "C56"
+      },
+      {
+        "brand": "tamiya",
+        "code": "XF14"
+      },
+      {
+        "brand": "model_air",
+        "code": "71.321"
+      },
+      {
+        "brand": "gunze",
+        "code": "H27"
+      },
+      {
+        "brand": "gunze",
+        "code": "H336"
+      }
+    ]
+  },
+  "ammo_atom": {
+    "ATOM-20002": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0017"
+      },
+      {
+        "brand": "mr_hobby",
+        "code": "C324"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0065"
+      }
+    ],
+    "ATOM-20006": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0005"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0921"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0255"
+      }
+    ],
+    "ATOM-20046": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0199"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0041"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0921"
+      }
+    ],
+    "ATOM-20081": [
+      {
+        "brand": "ammo",
+        "code": "MIG-0003"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0028"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0252"
+      }
+    ],
+    "ATOM-20160": [
+      {
+        "brand": "mr_hobby",
+        "code": "C13"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0046"
+      },
+      {
+        "brand": "ammo",
+        "code": "MIG-0047"
+      }
+    ]
+  }
+}
