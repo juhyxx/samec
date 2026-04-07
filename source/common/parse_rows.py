@@ -4,6 +4,8 @@ import json
 from pathlib import Path
 from statistics import mean
 import csv
+import re
+import os
 
 
 IN_FILE = Path("data/ammo_catalog.json")
@@ -21,6 +23,13 @@ HEADERS_EXPECTED = [
     "MODEL COLOR",
     "MODEL AIR",
 ]
+
+# For table-like image layouts (k, ammo, ammo-atom, gunze) we can pick
+# a single pixel/swatch at a fixed left position per row instead of
+# searching nearest-to-header. Set to a fraction (0.0-1.0) to use image
+# relative coordinate, or to a pixel value (>1) to use absolute coords.
+TABLE_LEFT_POS = 0.06
+TABLE_BRANDS = ["k", "ammo", "ammo-atom", "gunze"]
 
 
 def center(entry):
@@ -188,21 +197,63 @@ def parse_catalog():
                 if v:
                     equivalents.append({"brand": key, "code": normalize_code(v)})
 
+            # If the visible color name contains an RLM code (e.g. "RLM-02"),
+            # add it as an equivalent. This is useful for Gunze/table rows.
+            if name:
+                mrlm = re.search(r"RLM[-\s]?(\d{3})", name.upper())
+                if mrlm:
+                    rl = mrlm.group(1)
+                    equivalents.append({"brand": "RLM", "code": f"RLM-{rl}"})
+
             # find swatch corresponding to the sample column (third column)
             cy = mean([e["bbox"]["y"] for e in cluster])
             hex_color = None
             # Prefer swatch nearest to the 'RAL/RLMFS' header x position (third column)
             header_x = headers_map.get("RAL/RLMFS") or headers_map.get("RAL")
+
+            # detect if this image is a table-like layout (brand or filename hints)
+            fname = img.get("filename", "").lower() if img.get("filename") else ""
+            source = img.get("source", "").lower() if img.get("source") else ""
+            brand_id = img.get("brand_id", "").lower() if img.get("brand_id") else ""
+            is_table = any(
+                b in fname or b in source or b == brand_id for b in TABLE_BRANDS
+            )
+
             best = None
             best_score = None
+
+            # compute desired left x coordinate if using table-left strategy
+            left_x = None
+            if is_table and matches:
+                # TABLE_LEFT_POS <=1 -> fraction of image width; else absolute px
+                img_w = img.get("width")
+                if 0 < TABLE_LEFT_POS <= 1.0 and img_w:
+                    left_x = TABLE_LEFT_POS * img_w
+                else:
+                    left_x = TABLE_LEFT_POS
+
             for m in matches:
                 sw = m.get("swatch")
+                if not sw:
+                    continue
                 sw_cx = sw["x"] + sw["width"] / 2
                 sw_cy = sw["y"] + sw["height"] / 2
                 dy = abs(sw_cy - cy)
-                dx = abs(sw_cx - (header_x if header_x is not None else sw_cx))
-                # score favors vertical proximity and somewhat horizontal proximity to header
-                score = dy + dx * 0.5
+
+                if left_x is not None:
+                    # prefer swatches that cover the left_x (inside bbox)
+                    if sw["x"] <= left_x <= sw["x"] + sw["width"]:
+                        score = (
+                            dy  # purely vertical proximity when horizontally matched
+                        )
+                    else:
+                        dx = abs((sw["x"] + sw["width"] / 2) - left_x)
+                        score = dy + dx * 0.8
+                else:
+                    dx = abs(sw_cx - (header_x if header_x is not None else sw_cx))
+                    # score favors vertical proximity and somewhat horizontal proximity to header
+                    score = dy + dx * 0.5
+
                 if dy <= 80 and (best_score is None or score < best_score):
                     best_score = score
                     best = sw

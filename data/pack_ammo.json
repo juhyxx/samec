@@ -1,1 +1,4095 @@
-results/pack_ammo.json
+{
+  "brand": "Ammo by Mig",
+  "brand_id": "ammo",
+  "source": "data/pack_ammo.json",
+  "count": 237,
+  "colors": [
+    {
+      "code": "MIG-0001",
+      "name": "OLIVGRUN OPT.1",
+      "hex": "#2e3425",
+      "equivalents": [
+        {
+          "brand": "TAMIYA",
+          "code": "XF61"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.888"
+        }
+      ],
+      "confidence": 0.8177809291930267
+    },
+    {
+      "code": "MIG-0002",
+      "name": "OLIVGRUN OPT.2",
+      "hex": "#47512a",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H48"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C52"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF65"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.890"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.092"
+        }
+      ],
+      "confidence": 0.8039895164911844
+    },
+    {
+      "code": "MIG-0003",
+      "name": "RESEDAGRUN",
+      "hex": "#5c6e44",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H312"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C312"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.891"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.126"
+        }
+      ],
+      "confidence": 0.8947584006661146
+    },
+    {
+      "code": "MIG-0004",
+      "name": "RESEDAGRUN B",
+      "hex": "#47512a",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H340"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C340"
+        }
+      ],
+      "confidence": 0.9856195091800695
+    },
+    {
+      "code": "MIG-0005",
+      "name": "GRAUGRUN",
+      "hex": "#564e36",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.116"
+        }
+      ],
+      "confidence": 0.8003193650396019
+    },
+    {
+      "code": "MIG-0006",
+      "name": "GRAUGRUN OPT2",
+      "hex": "#7b7648",
+      "equivalents": [],
+      "confidence": 0.7670371401430021
+    },
+    {
+      "code": "MIG-0007",
+      "name": "DUNKELBRAUN",
+      "hex": "#493a2d",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.347"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.248"
+        }
+      ],
+      "confidence": 0.7917988360441458
+    },
+    {
+      "code": "MIG-0008",
+      "name": "DUNKELGRAU",
+      "hex": "#21272e",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H401"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.862"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.056"
+        }
+      ],
+      "confidence": 0.8499897063847718
+    },
+    {
+      "code": "MIG-0009",
+      "name": "SANDGRAU",
+      "hex": "#b6a48a",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H321"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C321"
+        }
+      ],
+      "confidence": 0.8349307573567286
+    },
+    {
+      "code": "MIG-0010",
+      "name": "DUNKELGELB (MID WAR)",
+      "hex": "#948440",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H403"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF60"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.025"
+        }
+      ],
+      "confidence": 0.8168112119803048
+    },
+    {
+      "code": "MIG-0011",
+      "name": "DUNKELGELB AUS '44 DG",
+      "hex": "#beb17e",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.978"
+        }
+      ],
+      "confidence": 0.8339979683199066
+    },
+    {
+      "code": "MIG-0012",
+      "name": "DUNKELGELB AUS '44 DG IIl",
+      "hex": "#d1c49d",
+      "equivalents": [],
+      "confidence": 0.7657345843303225
+    },
+    {
+      "code": "MIG-0013",
+      "name": "GELBBRAUN",
+      "hex": "#a0886d",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H27"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C44"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF57"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.879"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.272"
+        }
+      ],
+      "confidence": 0.8872687640316922
+    },
+    {
+      "code": "MIG-0014",
+      "name": "ROTBRAUN",
+      "hex": "#722e19",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H47 /H460"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C41"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF64"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.814"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.271"
+        }
+      ],
+      "confidence": 0.8992119208345375
+    },
+    {
+      "code": "MIG-0015",
+      "name": "SCHOKOBRAUN",
+      "hex": "#442d28",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H406"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF10"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.985"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.041"
+        }
+      ],
+      "confidence": 0.9348090516885534
+    },
+    {
+      "code": "MIG-0016",
+      "name": "GELBBRAUN",
+      "hex": "#dabb75",
+      "equivalents": [],
+      "confidence": 0.9993808796690595
+    },
+    {
+      "code": "MIG-0017",
+      "name": "CREMEWEISS",
+      "hex": "#eee7bb",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.918"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.270"
+        }
+      ],
+      "confidence": 0.8029262908088419
+    },
+    {
+      "code": "MIG-0018",
+      "name": "POLIZEI GRUN",
+      "hex": "#38594f",
+      "equivalents": [],
+      "confidence": 0.9511629782158229
+    },
+    {
+      "code": "MIG-0019",
+      "name": "RUSSIAN GREEN",
+      "hex": "#474727",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.924"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.017"
+        }
+      ],
+      "confidence": 0.8321812082584463
+    },
+    {
+      "code": "MIG-0020",
+      "name": "RUSSIAN BROWN",
+      "hex": "#352b25",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.941"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.282"
+        }
+      ],
+      "confidence": 0.7137058847217022
+    },
+    {
+      "code": "MIG-0021",
+      "name": "RUSSIAN TAN",
+      "hex": "#635438",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.310"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.283"
+        }
+      ],
+      "confidence": 0.7629879281522803
+    },
+    {
+      "code": "MIG-0022",
+      "name": "BASIC PROTECTOR ALKIDNO-URETANOVAYA",
+      "hex": "#362c18",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.337"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.281"
+        }
+      ],
+      "confidence": 0.8987457852144007
+    },
+    {
+      "code": "MIG-0023",
+      "name": "PROTECTIVE GREEN",
+      "hex": "#547b70",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H312"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C312"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF71"
+        }
+      ],
+      "confidence": 0.9196678210854866
+    },
+    {
+      "code": "MIG-0024",
+      "name": "WASHABLE WHITE CAMO",
+      "hex": "#ffffff",
+      "equivalents": [],
+      "confidence": 0.9052755254606667
+    },
+    {
+      "code": "MIG-0025",
+      "name": "US MODERN VEHICLES",
+      "hex": "#bd9b76",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.819"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.140"
+        }
+      ],
+      "confidence": 0.8692486542406496
+    },
+    {
+      "code": "MIG-0026",
+      "name": "SAND BROWN",
+      "hex": "#bd9882",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H44"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C51"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.977"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.117"
+        }
+      ],
+      "confidence": 0.9164332207636301
+    },
+    {
+      "code": "MIG-0027",
+      "name": "GERMAN SAND BEIGE",
+      "hex": "#baa36d",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.917"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.244"
+        }
+      ],
+      "confidence": 0.8798570935583429
+    },
+    {
+      "code": "MIG-0028",
+      "name": "GERMAN GREY BEIGE",
+      "hex": "#716a5b",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.821"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.131"
+        }
+      ],
+      "confidence": 0.8090848617483088
+    },
+    {
+      "code": "MIG-0029",
+      "name": "DESERT SAND",
+      "hex": "#bca36e",
+      "equivalents": [],
+      "confidence": 0.787442521611621
+    },
+    {
+      "code": "MIG-0030",
+      "name": "SAND YELLOW",
+      "hex": "#c6964f",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H459"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.143"
+        }
+      ],
+      "confidence": 0.9324596726683503
+    },
+    {
+      "code": "MIG-0031",
+      "name": "SPANISH GREEN-KHAKI",
+      "hex": "#463f26",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.314"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.247"
+        }
+      ],
+      "confidence": 0.8459947472041995
+    },
+    {
+      "code": "MIG-0032",
+      "name": "SATIN BLACK",
+      "hex": "#0c0100",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H2"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C2/C92"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.861"
+        }
+      ],
+      "confidence": 0.8917614400012452
+    },
+    {
+      "code": "MIG-0033",
+      "name": "RUBBER & TIRES",
+      "hex": "#343234",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H77"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C137"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.306"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.315"
+        }
+      ],
+      "confidence": 0.836836936323343
+    },
+    {
+      "code": "MIG-0034",
+      "name": "RUST TRACKS",
+      "hex": "#2f1f18",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.343"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.080"
+        }
+      ],
+      "confidence": 0.7435102949166156
+    },
+    {
+      "code": "MIG-0035",
+      "name": "DARK TRACKS",
+      "hex": "#030101",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H84"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C42"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.302"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.039"
+        }
+      ],
+      "confidence": 0.8973972933351481
+    },
+    {
+      "code": "MIG-0036",
+      "name": "OLD WOOD",
+      "hex": "#b09466",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.075"
+        }
+      ],
+      "confidence": 0.809361553813807
+    },
+    {
+      "code": "MIG-0037",
+      "name": "NEW WOOD",
+      "hex": "#b49e6a",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.321"
+        }
+      ],
+      "confidence": 0.863479496649831
+    },
+    {
+      "code": "MIG-0038",
+      "name": "LIGHT WOOD",
+      "hex": "#ad9d77",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H79"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C39"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF78"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.028"
+        }
+      ],
+      "confidence": 0.9427238757825807
+    },
+    {
+      "code": "MIG-0039",
+      "name": "LIGHT RUST",
+      "hex": "#d3842a",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H24"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C58"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.911"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.130"
+        }
+      ],
+      "confidence": 0.9282607019975198
+    },
+    {
+      "code": "MIG-0040",
+      "name": "MEDIUM RUST",
+      "hex": "#a14e31",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H453"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.981"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.129"
+        }
+      ],
+      "confidence": 0.8954606846917166
+    },
+    {
+      "code": "MIG-0041",
+      "name": "DARK RUST",
+      "hex": "#773823",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.818"
+        }
+      ],
+      "confidence": 0.8499781332422497
+    },
+    {
+      "code": "MIG-0042",
+      "name": "OLD RUST",
+      "hex": "#392320",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.859"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.040"
+        }
+      ],
+      "confidence": 0.8789476818943736
+    },
+    {
+      "code": "MIG-0043",
+      "name": "SHADOW RUST",
+      "hex": "#2b1716",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.307"
+        }
+      ],
+      "confidence": 0.9205747100613538
+    },
+    {
+      "code": "MIG-0044",
+      "name": "CHIPPING",
+      "hex": "#030101",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.304"
+        }
+      ],
+      "confidence": 0.8498092133883416
+    },
+    {
+      "code": "MIG-0045",
+      "name": "GUN METAL",
+      "hex": "#67666a",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.863"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.072"
+        }
+      ],
+      "confidence": 0.8737723453154455
+    },
+    {
+      "code": "MIG-0046",
+      "name": "MATT BLACK",
+      "hex": "#1a130f",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H12"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C33"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF1"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.950"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.057"
+        }
+      ],
+      "confidence": 0.8570865947864038
+    },
+    {
+      "code": "MIG-0047",
+      "name": "SATIN WHITE",
+      "hex": "#ffffff",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H1"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C1"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.842"
+        }
+      ],
+      "confidence": 0.8672637126562037
+    },
+    {
+      "code": "MIG-0048",
+      "name": "YELLOW",
+      "hex": "#dcb235",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H4"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C4"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF3"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.915"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.002"
+        }
+      ],
+      "confidence": 0.934655640927621
+    },
+    {
+      "code": "MIG-0049",
+      "name": "RED",
+      "hex": "#a32a1d",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS31302RAL 3020RLM 23"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C3/C79/C114"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF7"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.909"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.003"
+        }
+      ],
+      "confidence": 0.8014277567061185
+    },
+    {
+      "code": "MIG-0050",
+      "name": "MATT WHITE",
+      "hex": "#ffffff",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS37925RAL 9016RLM 21"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C62"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF2"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.951"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.001"
+        }
+      ],
+      "confidence": 0.8372847648043484
+    },
+    {
+      "code": "MIG-0051",
+      "name": "MEDIUM LIGHT GREEN",
+      "hex": "#6f8c6c",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.336"
+        }
+      ],
+      "confidence": 0.8281505122645617
+    },
+    {
+      "code": "MIG-0052",
+      "name": "DEEP GREEN",
+      "hex": "#003724",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.970"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.007"
+        }
+      ],
+      "confidence": 0.9964637124611926
+    },
+    {
+      "code": "MIG-0053",
+      "name": "PROTECTIVE MC 1200",
+      "hex": "#1b2c2d",
+      "equivalents": [
+        {
+          "brand": "TAMIYA",
+          "code": "XF70"
+        }
+      ],
+      "confidence": 0.9726537949618328
+    },
+    {
+      "code": "MIG-0054",
+      "name": "SIGNAL GREEN",
+      "hex": "#004920",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H26"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C66"
+        }
+      ],
+      "confidence": 0.9847203618978193
+    },
+    {
+      "code": "MIG-0055",
+      "name": "OIL OCHRE",
+      "hex": "#c09f50",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.916"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.033"
+        }
+      ],
+      "confidence": 0.930895596587857
+    },
+    {
+      "code": "MIG-0056",
+      "name": "GREEN KHAKI",
+      "hex": "#4a4732",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "KHS5146RLM 83"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C123"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF51"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.318"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.011"
+        }
+      ],
+      "confidence": 0.9608122313778981
+    },
+    {
+      "code": "MIG-0057",
+      "name": "YELLOW GREY",
+      "hex": "#bda985",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "PKHV4"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.326"
+        }
+      ],
+      "confidence": 0.9775998938721474
+    },
+    {
+      "code": "MIG-0058",
+      "name": "LIGHT GREEN KHAKI",
+      "hex": "#6f6b46",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "PKHV512"
+        }
+      ],
+      "confidence": 0.9871109260765161
+    },
+    {
+      "code": "MIG-0059",
+      "name": "GREY",
+      "hex": "#757a83",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS36251KHV16"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.050"
+        }
+      ],
+      "confidence": 0.9411111966537143
+    },
+    {
+      "code": "MIG-0060",
+      "name": "PALE GREEN",
+      "hex": "#365629",
+      "equivalents": [
+        {
+          "brand": "TAMIYA",
+          "code": "XF5"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.967"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.006"
+        }
+      ],
+      "confidence": 0.9467085868352917
+    },
+    {
+      "code": "MIG-0061",
+      "name": "WARM SAND-YELLOW",
+      "hex": "#c7a558",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.074"
+        }
+      ],
+      "confidence": 0.8463997462383033
+    },
+    {
+      "code": "MIG-0062",
+      "name": "FRENCH BLUE",
+      "hex": "#315663",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H42"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C72"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF18"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.900"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.113"
+        }
+      ],
+      "confidence": 0.9184653049139424
+    },
+    {
+      "code": "MIG-0063",
+      "name": "PALE GREY",
+      "hex": "#91b3a7",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS36480RLM 76"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C117"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF23"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.907"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.257"
+        }
+      ],
+      "confidence": 0.8658123838614128
+    },
+    {
+      "code": "MIG-0064",
+      "name": "EARTH BROWN",
+      "hex": "#703e28",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.303"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.037"
+        }
+      ],
+      "confidence": 0.9837365180695232
+    },
+    {
+      "code": "MIG-0065",
+      "name": "FOREST GREEN",
+      "hex": "#313a23",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS34102RLM 62"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C303"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF58"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.348"
+        }
+      ],
+      "confidence": 0.9356953779100797
+    },
+    {
+      "code": "MIG-0066",
+      "name": "FADED SINAI GREY",
+      "hex": "#686152",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.142"
+        }
+      ],
+      "confidence": 0.8278991200893875
+    },
+    {
+      "code": "MIG-0067",
+      "name": "LIGHT SAND GREY",
+      "hex": "#aa9977",
+      "equivalents": [],
+      "confidence": 0.9974240365736942
+    },
+    {
+      "code": "MIG-0068",
+      "name": "IDF GREEN",
+      "hex": "#3c4732",
+      "equivalents": [],
+      "confidence": 0.9922431025664218
+    },
+    {
+      "code": "MIG-0069",
+      "name": "BLUE GREEN",
+      "hex": "#253322",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H36 /H5g"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C15"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF11"
+        }
+      ],
+      "confidence": 0.9262027553657098
+    },
+    {
+      "code": "MIG-0070",
+      "name": "MEDIUM BROWN",
+      "hex": "#463023",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "BS 450"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.312"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.035"
+        }
+      ],
+      "confidence": 0.8615730033744174
+    },
+    {
+      "code": "MIG-0071",
+      "name": "KHAKI",
+      "hex": "#654b30",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H404"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF49"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.339"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.136"
+        }
+      ],
+      "confidence": 0.97767656569203
+    },
+    {
+      "code": "MIG-0072",
+      "name": "DUST",
+      "hex": "#897e65",
+      "equivalents": [
+        {
+          "brand": "TAMIYA",
+          "code": "XF55"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.315"
+        }
+      ],
+      "confidence": 0.9995478281374524
+    },
+    {
+      "code": "MIG-0073",
+      "name": "EARTH",
+      "hex": "#684e35",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H457"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF52"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.874"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.024"
+        }
+      ],
+      "confidence": 0.8492684078181832
+    },
+    {
+      "code": "MIG-0074",
+      "name": "GREEN MOSS",
+      "hex": "#5d5b33",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.328"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.010"
+        }
+      ],
+      "confidence": 0.9338919846243201
+    },
+    {
+      "code": "MIG-0075",
+      "name": "STONE GREY",
+      "hex": "#a7a7a7",
+      "equivalents": [
+        {
+          "brand": "TAMIYA",
+          "code": "XF80"
+        }
+      ],
+      "confidence": 0.9932639853106073
+    },
+    {
+      "code": "MIG-0076",
+      "name": "BROWN SOIL",
+      "hex": "#5e4132",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H456"
+        }
+      ],
+      "confidence": 0.8541788854679364
+    },
+    {
+      "code": "MIG-0077",
+      "name": "DULL GREEN",
+      "hex": "#374d44",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.267"
+        }
+      ],
+      "confidence": 0.9285093489893438
+    },
+    {
+      "code": "MIG-0078",
+      "name": "OCHRE EARTH",
+      "hex": "#b18156",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.927"
+        }
+      ],
+      "confidence": 0.9613027556858031
+    },
+    {
+      "code": "MIG-0079",
+      "name": "CLAY BROWN",
+      "hex": "#5a3722",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H37"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C43"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.034"
+        }
+      ],
+      "confidence": 0.7882887497994469
+    },
+    {
+      "code": "MIG-0080",
+      "name": "BRIGHT GREEN AMT-4",
+      "hex": "#566d37",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.301"
+        }
+      ],
+      "confidence": 0.861669516463427
+    },
+    {
+      "code": "MIG-0081",
+      "name": "US OLIVE DRAB VIETNAM ERA",
+      "hex": "#393f2f",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H304 /H405"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C304"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF73"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.289"
+        }
+      ],
+      "confidence": 0.8028652609619911
+    },
+    {
+      "code": "MIG-0082",
+      "name": "APC INTERIOR LIGHT GREEN",
+      "hex": "#81917b",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.331"
+        }
+      ],
+      "confidence": 0.9571110150340097
+    },
+    {
+      "code": "MIG-0083",
+      "name": "ZASHCHITNIY ZELENO (RUSSIAN POSTWAR GREEN)",
+      "hex": "#44432c",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "XB 518"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C320"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.326"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.285"
+        }
+      ],
+      "confidence": 0.8958494608123064
+    },
+    {
+      "code": "MIG-0084",
+      "name": "NATO GREEN",
+      "hex": "#3a3d2e",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H80"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C54"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF67"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.093"
+        }
+      ],
+      "confidence": 0.8327220718523675
+    },
+    {
+      "code": "MIG-0085",
+      "name": "NATO BROWN",
+      "hex": "#392723",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 30051RAL 8027"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF68"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.871"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.249"
+        }
+      ],
+      "confidence": 0.8702370321461032
+    },
+    {
+      "code": "MIG-0086",
+      "name": "BLUE",
+      "hex": "#004f79",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "RAL 5019"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C323"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.844"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.089"
+        }
+      ],
+      "confidence": 0.8615796211153134
+    },
+    {
+      "code": "MIG-0087",
+      "name": "GELBOLIV",
+      "hex": "#3a3c2b",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "RAL 6014"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.877"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.012"
+        }
+      ],
+      "confidence": 0.99059904339648
+    },
+    {
+      "code": "MIG-0088",
+      "name": "KHAKI BROWN",
+      "hex": "#a78661",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.860"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.077"
+        }
+      ],
+      "confidence": 0.883840711691383
+    },
+    {
+      "code": "MIG-0089",
+      "name": "MATT VARNISH",
+      "hex": "#ffffff",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H20"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C182"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.520"
+        }
+      ],
+      "confidence": 0.9365932900930533
+    },
+    {
+      "code": "MIG-0090",
+      "name": "SATIN VARNISH",
+      "hex": "#ffffff",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.522"
+        }
+      ],
+      "confidence": 0.8767596569238972
+    },
+    {
+      "code": "MIG-0091",
+      "name": "GLOSSY VARNISH",
+      "hex": "#ffffff",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H30"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C46"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.510"
+        }
+      ],
+      "confidence": 0.9742067443344173
+    },
+    {
+      "code": "MIG-0092",
+      "name": "CRYSTAL GREEN",
+      "hex": "#003228",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H94"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C138"
+        }
+      ],
+      "confidence": 0.6984088858454973
+    },
+    {
+      "code": "MIG-0093",
+      "name": "CRYSTAL RED",
+      "hex": "#773823",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H90"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C47"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.934"
+        }
+      ],
+      "confidence": 0.9205328346016644
+    },
+    {
+      "code": "MIG-0094",
+      "name": "CRYSTAL GLASS",
+      "hex": "#ffffff",
+      "equivalents": [],
+      "confidence": 0.9727945589774374
+    },
+    {
+      "code": "MIG-0095",
+      "name": "CRYSTAL SMOKE",
+      "hex": "#1a1310",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H95"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C101"
+        }
+      ],
+      "confidence": 0.8906064053655613
+    },
+    {
+      "code": "MIG-0096",
+      "name": "CRYSTAL GREEN PERISCOPE  (AND TAIL LIGHT ON)",
+      "hex": "#19642f",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.936"
+        }
+      ],
+      "confidence": 0.7589436776439763
+    },
+    {
+      "code": "MIG-0097",
+      "name": "CRYSTAL ORANGE",
+      "hex": "#e47e2c",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H92"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C49"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.935"
+        }
+      ],
+      "confidence": 0.7497995829692808
+    },
+    {
+      "code": "MIG-0098",
+      "name": "CRYSTAL LIGHT BLUE",
+      "hex": "#0070a4",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H93"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C50"
+        }
+      ],
+      "confidence": 0.8297718755438612
+    },
+    {
+      "code": "MIG-0099",
+      "name": "CRYSTAL BLACK BLUE (AND TAIL LIGHT OFF)",
+      "hex": "#001929",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.938"
+        }
+      ],
+      "confidence": 0.8152706936419881
+    },
+    {
+      "code": "MIG-0102",
+      "name": "OCHRE BROWN",
+      "hex": "#987d50",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.856"
+        }
+      ],
+      "confidence": 0.8471426397304338
+    },
+    {
+      "code": "MIG-0103",
+      "name": "MEDIUM BLUE",
+      "hex": "#00315e",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H15"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C65"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.839"
+        }
+      ],
+      "confidence": 0.8944438151718564
+    },
+    {
+      "code": "MIG-0104",
+      "name": "WASHABLE BLACK",
+      "hex": "#000000",
+      "equivalents": [],
+      "confidence": 0.9987781031677035
+    },
+    {
+      "code": "MIG-0105",
+      "name": "WASHABLE DUST",
+      "hex": "#9c8c71",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "RAL 8000"
+        }
+      ],
+      "confidence": 0.8728225982112743
+    },
+    {
+      "code": "MIG-0106",
+      "name": "WASHABLE SAND",
+      "hex": "#d4a760",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "RAL 8020"
+        }
+      ],
+      "confidence": 0.8594621429713374
+    },
+    {
+      "code": "MIG-0107",
+      "name": "WASHABLE EARTH",
+      "hex": "#5c472f",
+      "equivalents": [],
+      "confidence": 0.8412225718317116
+    },
+    {
+      "code": "MIG-0108",
+      "name": "WASHABLE MUD",
+      "hex": "#442e22",
+      "equivalents": [],
+      "confidence": 0.9135881818148004
+    },
+    {
+      "code": "MIG-0109",
+      "name": "WASHABLE RUST",
+      "hex": "#8e452c",
+      "equivalents": [],
+      "confidence": 0.7064259965514421
+    },
+    {
+      "code": "MIG-0110",
+      "name": "(BRITISH BROWN 1941-42)",
+      "hex": "#2c1e15",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "SCC 1ARLM 61"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.042"
+        }
+      ],
+      "confidence": 0.8642437433324729
+    },
+    {
+      "code": "MIG-0111",
+      "name": "(BRITISH 1941-42 SERVICE DRAB)",
+      "hex": "#483f2d",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "SCC 2"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C22"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF72"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.921"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.290"
+        }
+      ],
+      "confidence": 0.8853752217853302
+    },
+    {
+      "code": "MIG-0112",
+      "name": "(BRITISH 1944-45 OLIVE DRAB)",
+      "hex": "#2e3217",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "SCC 15"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.892"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.250"
+        }
+      ],
+      "confidence": 0.8598696417109728
+    },
+    {
+      "code": "MIG-0113",
+      "name": "KHAKI GREEN N\"3 (BRITISH 1939-42)",
+      "hex": "#61543d",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.988"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.023"
+        }
+      ],
+      "confidence": 0.7746512463445405
+    },
+    {
+      "code": "MIG-0114",
+      "name": "ZIMMERIT OCHRE COLOR",
+      "hex": "#8d7e6a",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.246"
+        }
+      ],
+      "confidence": 0.7696331119278986
+    },
+    {
+      "code": "MIG-0115",
+      "name": "LIGHT SKIN TONE",
+      "hex": "#eccdab",
+      "equivalents": [
+        {
+          "brand": "TAMIYA",
+          "code": "XF15"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.837"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.076"
+        }
+      ],
+      "confidence": 0.8592625028047671
+    },
+    {
+      "code": "MIG-0116",
+      "name": "BASIC SKIN TONE",
+      "hex": "#deb4a2",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS31670"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.928"
+        }
+      ],
+      "confidence": 0.9066342955354658
+    },
+    {
+      "code": "MIG-0117",
+      "name": "WARM SKIN TONE",
+      "hex": "#b3846a",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.815"
+        }
+      ],
+      "confidence": 0.9041523134829693
+    },
+    {
+      "code": "MIG-0118",
+      "name": "BURNT SAND",
+      "hex": "#735533",
+      "equivalents": [],
+      "confidence": 0.7982697142038759
+    },
+    {
+      "code": "MIG-0119",
+      "name": "COLD GRAY",
+      "hex": "#cbcccc",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS17865"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.993"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.279"
+        }
+      ],
+      "confidence": 0.793385404494725
+    },
+    {
+      "code": "MIG-0120",
+      "name": "LIGHT BROWN-GRAY",
+      "hex": "#d8d7d3",
+      "equivalents": [],
+      "confidence": 0.775983582977249
+    },
+    {
+      "code": "MIG-0121",
+      "name": "BLOOD RED",
+      "hex": "#9b2b1d",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FSI1136RAL 3002"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C327"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.908"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.084"
+        }
+      ],
+      "confidence": 0.8211672627628939
+    },
+    {
+      "code": "MIG-0122",
+      "name": "BONE",
+      "hex": "#f2f2e2",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.847"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.288"
+        }
+      ],
+      "confidence": 0.8858280846803659
+    },
+    {
+      "code": "MIG-0123",
+      "name": "MARINE BLUE",
+      "hex": "#003b67",
+      "equivalents": [
+        {
+          "brand": "TAMIYA",
+          "code": "XF8"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.930"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.004"
+        }
+      ],
+      "confidence": 0.8908087042943987
+    },
+    {
+      "code": "MIG-0124",
+      "name": "LIME GREEN",
+      "hex": "#719b30",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.094"
+        }
+      ],
+      "confidence": 0.8920375959542528
+    },
+    {
+      "code": "MIG-0125",
+      "name": "GOLD YELLOW",
+      "hex": "#e0ad28",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS33655RAL 1003RLM 04"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C113"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.953"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.078"
+        }
+      ],
+      "confidence": 0.8955866957620541
+    },
+    {
+      "code": "MIG-0126",
+      "name": "VIOLET",
+      "hex": "#45498b",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H49"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.960"
+        }
+      ],
+      "confidence": 0.8267237128837679
+    },
+    {
+      "code": "MIG-0127",
+      "name": "PURPLE",
+      "hex": "#7e5b93",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS37142RAL 4008"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C67"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.959"
+        }
+      ],
+      "confidence": 0.9422239885343666
+    },
+    {
+      "code": "MIG-0128",
+      "name": "CYAN",
+      "hex": "#0091d3",
+      "equivalents": [],
+      "confidence": 0.9882341386151849
+    },
+    {
+      "code": "MIG-0129",
+      "name": "ORANGE",
+      "hex": "#d7721c",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS32246"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C59"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.956"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.083"
+        }
+      ],
+      "confidence": 0.9685904865858688
+    },
+    {
+      "code": "MIG-0130",
+      "name": "FADED YELLOW",
+      "hex": "#decd73",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H318"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C318"
+        }
+      ],
+      "confidence": 0.8937694973027386
+    },
+    {
+      "code": "MIG-0131",
+      "name": "REAL IDF SINAI GREY 82",
+      "hex": "#4d4723",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.142"
+        }
+      ],
+      "confidence": 0.7867125935783406
+    },
+    {
+      "code": "MIG-0132",
+      "name": "REAL IDF SAND GREY 73",
+      "hex": "#7d7045",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H85"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C45"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.141"
+        }
+      ],
+      "confidence": 0.8228814962443571
+    },
+    {
+      "code": "MIG-0133",
+      "name": "RED LEATHER",
+      "hex": "#5b3b24",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.301"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.105"
+        }
+      ],
+      "confidence": 0.727240725895424
+    },
+    {
+      "code": "MIG-0134",
+      "name": "BURNT BROWN RED",
+      "hex": "#2e2109",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.984"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.036"
+        }
+      ],
+      "confidence": 0.7427338750900795
+    },
+    {
+      "code": "MIG-0135",
+      "name": "CINNAMON",
+      "hex": "#b7927e",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.112"
+        }
+      ],
+      "confidence": 0.9251571571278215
+    },
+    {
+      "code": "MIG-0138",
+      "name": "DESERT YELLOW",
+      "hex": "#bc9a64",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS20400"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.912"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.291"
+        }
+      ],
+      "confidence": 0.8865730794144966
+    },
+    {
+      "code": "MIG-0139",
+      "name": "RED EARTH",
+      "hex": "#815241",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H463"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.293"
+        }
+      ],
+      "confidence": 0.8180035648783133
+    },
+    {
+      "code": "MIG-0187",
+      "name": "JET EXHAUST BURNT IRON",
+      "hex": "#573c27",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H76"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C61"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF84"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.073"
+        }
+      ],
+      "confidence": 0.8575878891904916
+    },
+    {
+      "code": "MIG-0188",
+      "name": "METALLIC RED",
+      "hex": "#c88070",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H87"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C75"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.070"
+        }
+      ],
+      "confidence": 0.891549839123146
+    },
+    {
+      "code": "MIG-0189",
+      "name": "METALLIC ORANGE",
+      "hex": "#d39958",
+      "equivalents": [],
+      "confidence": 0.9287659170307836
+    },
+    {
+      "code": "MIG-0190",
+      "name": "OLD BRASS",
+      "hex": "#6d4a21",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.801"
+        }
+      ],
+      "confidence": 0.9907250528069831
+    },
+    {
+      "code": "MIG-0191",
+      "name": "STEEL",
+      "hex": "#959084",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "RAL 9006"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C28"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.864"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.065"
+        }
+      ],
+      "confidence": 0.9274483912075923
+    },
+    {
+      "code": "MIG-0192",
+      "name": "POLISHED METAL",
+      "hex": "#4f4d46",
+      "equivalents": [
+        {
+          "brand": "TAMIYA",
+          "code": "XF56"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.865"
+        }
+      ],
+      "confidence": 0.9990058724560956
+    },
+    {
+      "code": "MIG-0193",
+      "name": "BLUISH TITANIUM",
+      "hex": "#4b5450",
+      "equivalents": [],
+      "confidence": 0.7928819966822164
+    },
+    {
+      "code": "MIG-0194",
+      "name": "MATT ALUMINUM",
+      "hex": "#9c9a95",
+      "equivalents": [
+        {
+          "brand": "TAMIYA",
+          "code": "XF16"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.062"
+        }
+      ],
+      "confidence": 0.894011613325767
+    },
+    {
+      "code": "MIG-0195",
+      "name": "SILVER",
+      "hex": "#a19d94",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 17178RLM 01"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C8 / C90"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.997"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.063"
+        }
+      ],
+      "confidence": 0.7902175857543879
+    },
+    {
+      "code": "MIG-0196",
+      "name": "WARHEAD METALLIC BLUE",
+      "hex": "#004984",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H88"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C76"
+        }
+      ],
+      "confidence": 0.9197162954207065
+    },
+    {
+      "code": "MIG-0197",
+      "name": "BRASS",
+      "hex": "#9f6f2b",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.067"
+        }
+      ],
+      "confidence": 0.9534540055081072
+    },
+    {
+      "code": "MIG-0198",
+      "name": "GOLD",
+      "hex": "#997a2c",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 17043"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C9"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.996"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.066"
+        }
+      ],
+      "confidence": 0.92688923187814
+    },
+    {
+      "code": "MIG-0199",
+      "name": "COPPER",
+      "hex": "#8b3628",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H10"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C10"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF6"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.999"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.068"
+        }
+      ],
+      "confidence": 0.8237058073199752
+    },
+    {
+      "code": "MIG-0200",
+      "name": "MIDDLESTONE",
+      "hex": "#cfbdaa",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 33531"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C313"
+        }
+      ],
+      "confidence": 0.9193693684197886
+    },
+    {
+      "code": "MIG-0201",
+      "name": "LIGHT GRAY GREEN",
+      "hex": "#a6bb9f",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 34424"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.885"
+        }
+      ],
+      "confidence": 0.9008848593269944
+    },
+    {
+      "code": "MIG-0202",
+      "name": "TAN",
+      "hex": "#715539",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 30219"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C310"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF59"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.843"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.125"
+        }
+      ],
+      "confidence": 0.8800032423890085
+    },
+    {
+      "code": "MIG-0203",
+      "name": "LIGHT COMPASS GHOST GRAY",
+      "hex": "#9fb2b4",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 36375RALZOOI"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C308"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.990"
+        }
+      ],
+      "confidence": 0.8390081379903065
+    },
+    {
+      "code": "MIG-0204",
+      "name": "MEDIUM GUNSHIP GRAY",
+      "hex": "#373d46",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 36118"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C305"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF77"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.868"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.047"
+        }
+      ],
+      "confidence": 0.8934437391383656
+    },
+    {
+      "code": "MIG-0205",
+      "name": "(BS 638)",
+      "hex": "#607074",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 26231"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C317 /C331"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.991"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.051"
+        }
+      ],
+      "confidence": 0.8725405118474789
+    },
+    {
+      "code": "MIG-0206",
+      "name": "(BS 641)",
+      "hex": "#3d4528",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 34079RLM 81"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C309"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.893"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.294"
+        }
+      ],
+      "confidence": 0.798460380724997
+    },
+    {
+      "code": "MIG-0207",
+      "name": "(BS 626)",
+      "hex": "#8a8d8d",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 36314"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C334"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF19"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.989"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.046"
+        }
+      ],
+      "confidence": 0.867600244541856
+    },
+    {
+      "code": "MIG-0208",
+      "name": "DARK COMPASS GHOST GRAY",
+      "hex": "#6a6d6a",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 36320"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C307"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.120"
+        }
+      ],
+      "confidence": 0.8366784338147509
+    },
+    {
+      "code": "MIG-0209",
+      "name": "LIGHT GRAY",
+      "hex": "#c2c0be",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H51 /H338"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C11 /C338"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.276"
+        }
+      ],
+      "confidence": 0.8778009060973544
+    },
+    {
+      "code": "MIG-0210",
+      "name": "BLUE GRAY AMT-11",
+      "hex": "#61707a",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 35237"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C337"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.905"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.304"
+        }
+      ],
+      "confidence": 0.8946457075381994
+    },
+    {
+      "code": "MIG-0211",
+      "name": "MEDIUM GRAY",
+      "hex": "#8f8f91",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 36270"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C306"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.275"
+        }
+      ],
+      "confidence": 0.8529820277835607
+    },
+    {
+      "code": "MIG-0212",
+      "name": "SILVER GREY",
+      "hex": "#979799",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 26373BS 627"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C332"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.119"
+        }
+      ],
+      "confidence": 0.9033397148616233
+    },
+    {
+      "code": "MIG-0213",
+      "name": "GREEN",
+      "hex": "#62786b",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 24277"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.305"
+        }
+      ],
+      "confidence": 0.8868396725036539
+    },
+    {
+      "code": "MIG-0217",
+      "name": "GREEN SLATE",
+      "hex": "#343c32",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "RAL 7002RLM 02"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C60"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF22"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.886"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.044"
+        }
+      ],
+      "confidence": 0.9281674748099877
+    },
+    {
+      "code": "MIG-0218",
+      "name": "SCHWARTZGRAU",
+      "hex": "#232528",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "RLM66"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C116"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF63"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.866"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.055"
+        }
+      ],
+      "confidence": 0.8628795342849195
+    },
+    {
+      "code": "MIG-0219",
+      "name": "INTERIOR GREEN",
+      "hex": "#698275",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 34226"
+        }
+      ],
+      "confidence": 0.9816150393351395
+    },
+    {
+      "code": "MIG-0220",
+      "name": "ZINC CHROMATE GREEN (INTERIOR GREEN)",
+      "hex": "#5b6140",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 34151"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.850"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.137"
+        }
+      ],
+      "confidence": 0.886428097137454
+    },
+    {
+      "code": "MIG-0221",
+      "name": "ZINC CHROMATE YELLOW",
+      "hex": "#bab855",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 33481"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C27"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF4"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.107"
+        }
+      ],
+      "confidence": 0.9076233760177331
+    },
+    {
+      "code": "MIG-0222",
+      "name": "SANDGELB",
+      "hex": "#bd9146",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "RLM 79"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C119"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.876"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.278"
+        }
+      ],
+      "confidence": 0.8857738543171263
+    },
+    {
+      "code": "MIG-0223",
+      "name": "INTERIOR TURQUOISE GREEN",
+      "hex": "#2b7059",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H46"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.838"
+        }
+      ],
+      "confidence": 0.7962923251570936
+    },
+    {
+      "code": "MIG-0224",
+      "name": "SKY LINE BLUE AIl",
+      "hex": "#3fafe1",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 35260"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.961"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.317"
+        }
+      ],
+      "confidence": 0.895024946615834
+    },
+    {
+      "code": "MIG-0226",
+      "name": "GRAY",
+      "hex": "#cdc9ba",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 36622"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C311"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.883"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.296"
+        }
+      ],
+      "confidence": 0.868659702645936
+    },
+    {
+      "code": "MIG-0227",
+      "name": "SEA BLUE",
+      "hex": "#1b1f25",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 25042"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C14"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF50"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.898"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.005"
+        }
+      ],
+      "confidence": 0.9313813768303291
+    },
+    {
+      "code": "MIG-0228",
+      "name": "INTERMEDIATE BLUE",
+      "hex": "#4f565e",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 35164RAL 7031ANA 608"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF66"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.903"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.299"
+        }
+      ],
+      "confidence": 0.8663839018430063
+    },
+    {
+      "code": "MIG-0229",
+      "name": "DARK GRAY BLUE",
+      "hex": "#002650",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 15102"
+        }
+      ],
+      "confidence": 0.852233831567699
+    },
+    {
+      "code": "MIG-0230",
+      "name": "CAMO GREEN",
+      "hex": "#39471d",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS34095RAL 6020RLM 82"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C122"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.823"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.022"
+        }
+      ],
+      "confidence": 0.9141218922171743
+    },
+    {
+      "code": "MIG-0231",
+      "name": "HELLBLAU",
+      "hex": "#c3d8de",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS35352RLM 65"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C115"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF25"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.906"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.255"
+        }
+      ],
+      "confidence": 0.8927021811461511
+    },
+    {
+      "code": "MIG-0232",
+      "name": "SCHWARTZGRUN",
+      "hex": "#4b4d37",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS34052RAL 7022RLM 70"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C18"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF27"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.897"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.021"
+        }
+      ],
+      "confidence": 0.9048616336408191
+    },
+    {
+      "code": "MIG-0233",
+      "name": "DUNKELGRUN",
+      "hex": "#2f3522",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "RLM 71"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C17"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.015"
+        }
+      ],
+      "confidence": 0.8912640077824654
+    },
+    {
+      "code": "MIG-0235",
+      "name": "DARK GREY AMT-12",
+      "hex": "#4f5559",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 36152RAL 7012"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C32"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF75"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.308"
+        }
+      ],
+      "confidence": 0.8680218291948723
+    },
+    {
+      "code": "MIG-0236",
+      "name": "FS 36293",
+      "hex": "#717879",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H82"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C31"
+        }
+      ],
+      "confidence": 0.8598243337552997
+    },
+    {
+      "code": "MIG-0237",
+      "name": "DARK OLIVE DRAB",
+      "hex": "#595738",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 23070"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C12"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF62"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.016"
+        }
+      ],
+      "confidence": 0.8557264116717185
+    },
+    {
+      "code": "MIG-0238",
+      "name": "MEDIUM GREEN",
+      "hex": "#334431",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 34092ANA 612"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C302"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF26"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.895"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.124"
+        }
+      ],
+      "confidence": 0.8083728341002254
+    },
+    {
+      "code": "MIG-0239",
+      "name": "NEUTRAL GRAY",
+      "hex": "#575c5e",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 36122"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C13"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.274"
+        }
+      ],
+      "confidence": 0.857601127969972
+    },
+    {
+      "code": "MIG-0240",
+      "name": "FS 34086 (ANA 613)",
+      "hex": "#242613",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 34086RAL 7009"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.830"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.325"
+        }
+      ],
+      "confidence": 0.8399688910102552
+    },
+    {
+      "code": "MIG-0241",
+      "name": "FS 36440",
+      "hex": "#93928b",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS 36440 RAL 7038"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C315 / C325"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.986"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.121"
+        }
+      ],
+      "confidence": 0.7485331617193154
+    },
+    {
+      "code": "MIG-0242",
+      "name": "FS 37886",
+      "hex": "#f1f3df",
+      "equivalents": [],
+      "confidence": 0.8329136118612882
+    },
+    {
+      "code": "MIG-0243",
+      "name": "SKY TYPE S",
+      "hex": "#9eac94",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "BS 210"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF21"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.302"
+        }
+      ],
+      "confidence": 0.8404760131043758
+    },
+    {
+      "code": "MIG-0244",
+      "name": "DUCK EGG GREEN",
+      "hex": "#95a06e",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "BS 216"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C26"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.009"
+        }
+      ],
+      "confidence": 0.9352971859683431
+    },
+    {
+      "code": "MIG-0245",
+      "name": "OCEAN GREY",
+      "hex": "#5f656b",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "BS 629"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF82"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.273"
+        }
+      ],
+      "confidence": 0.8056788906949448
+    },
+    {
+      "code": "MIG-0246",
+      "name": "MEDIUM SEA GREY",
+      "hex": "#888f91",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "BS 637"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C335"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF83"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.870"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.307"
+        }
+      ],
+      "confidence": 0.924763437768302
+    },
+    {
+      "code": "MIG-0247",
+      "name": "HELLBLAU",
+      "hex": "#7a8f8f",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "RLM 78"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C118"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.972"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.101"
+        }
+      ],
+      "confidence": 0.8983691804931845
+    },
+    {
+      "code": "MIG-0248",
+      "name": "OLIVGRUN",
+      "hex": "#333d27",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "FS34083RLM 80"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C120"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.894"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.265"
+        }
+      ],
+      "confidence": 0.7965294175992109
+    },
+    {
+      "code": "MIG-0249",
+      "name": "LIGHT BLUE",
+      "hex": "#afcad6",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.306"
+        }
+      ],
+      "confidence": 0.7803487301618899
+    },
+    {
+      "code": "MIG-0250",
+      "name": "NIGHT BLUE GREY",
+      "hex": "#454b54",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.964"
+        }
+      ],
+      "confidence": 0.8741815638103215
+    },
+    {
+      "code": "MIG-0251",
+      "name": "RUSSIAN BLUE AMT-7",
+      "hex": "#38676f",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.318"
+        }
+      ],
+      "confidence": 0.7555936403249037
+    },
+    {
+      "code": "MIG-0252",
+      "name": "GREY BROWN AMT-1",
+      "hex": "#736d65",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.320"
+        }
+      ],
+      "confidence": 0.9090732888864995
+    },
+    {
+      "code": "MIG-0253",
+      "name": "GRAUGRUN",
+      "hex": "#3a423a",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H68"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C36"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.867"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.258"
+        }
+      ],
+      "confidence": 0.8834400853569574
+    },
+    {
+      "code": "MIG-0254",
+      "name": "GRAUVIOLETT",
+      "hex": "#6e716e",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H69"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C37"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.869"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.259"
+        }
+      ],
+      "confidence": 0.9106443045157963
+    },
+    {
+      "code": "MIG-0255",
+      "name": "BRAUNVIOLETT",
+      "hex": "#46342b",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H421"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C121"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.264"
+        }
+      ],
+      "confidence": 0.7499521337361823
+    },
+    {
+      "code": "MIG-0256",
+      "name": "GRAUBLAU",
+      "hex": "#b1b078",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.103"
+        }
+      ],
+      "confidence": 0.9268932208399017
+    },
+    {
+      "code": "MIG-0257",
+      "name": "AZURE BLUE",
+      "hex": "#61769e",
+      "equivalents": [
+        {
+          "brand": "MR.COLOR",
+          "code": "C370"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.902"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.108"
+        }
+      ],
+      "confidence": 0.9471973522157665
+    },
+    {
+      "code": "MIG-0900",
+      "name": "DUNKELGELB SHADOW",
+      "hex": "#6c5d34",
+      "equivalents": [],
+      "confidence": 0.7272282981594806
+    },
+    {
+      "code": "MIG-0901",
+      "name": "DUNKELGELB DARK BASE",
+      "hex": "#817446",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.030"
+        }
+      ],
+      "confidence": 0.9062280939234656
+    },
+    {
+      "code": "MIG-0902",
+      "name": "DUNKELGELB BASE",
+      "hex": "#9d8d55",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H71"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C21"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.882"
+        }
+      ],
+      "confidence": 0.8220302426462638
+    },
+    {
+      "code": "MIG-0903",
+      "name": "DUNKELGELB LIGHT BASE",
+      "hex": "#c6c18b",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.976"
+        }
+      ],
+      "confidence": 0.8428702147141084
+    },
+    {
+      "code": "MIG-0904",
+      "name": "DUNKELGELB HIGH LIGHT",
+      "hex": "#dcd7be",
+      "equivalents": [],
+      "confidence": 0.8485521254820276
+    },
+    {
+      "code": "MIG-0905",
+      "name": "DUNKELGELB SHINE",
+      "hex": "#292d2e",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.344"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.132"
+        }
+      ],
+      "confidence": 0.8780883184609205
+    },
+    {
+      "code": "MIG-0906",
+      "name": "GREY SHADOW",
+      "hex": "#2b2d37",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H333"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C333"
+        }
+      ],
+      "confidence": 0.8745041402208195
+    },
+    {
+      "code": "MIG-0907",
+      "name": "GREY DARK BASE",
+      "hex": "#3e414d",
+      "equivalents": [
+        {
+          "brand": "TAMIYA",
+          "code": "XF69"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.333"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.049"
+        }
+      ],
+      "confidence": 0.949921652111673
+    },
+    {
+      "code": "MIG-0908",
+      "name": "GREY BASE",
+      "hex": "#5c6067",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H301 /H339"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C301 / €339"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.995"
+        }
+      ],
+      "confidence": 0.8633515246946015
+    },
+    {
+      "code": "MIG-0909",
+      "name": "GREY LIGHT BASE",
+      "hex": "#71737b",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H458"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF24"
+        }
+      ],
+      "confidence": 0.8222477669505035
+    },
+    {
+      "code": "MIG-0910",
+      "name": "GREY HIGH LIGHT",
+      "hex": "#979aa4",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H75"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C25"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF54"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.836"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.277"
+        }
+      ],
+      "confidence": 0.8539030310453084
+    },
+    {
+      "code": "MIG-0911",
+      "name": "GREY SHINE",
+      "hex": "#341913",
+      "equivalents": [],
+      "confidence": 0.7576044998619913
+    },
+    {
+      "code": "MIG-0912",
+      "name": "RED BROWN SHADOW",
+      "hex": "#5b2d1e",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H17"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C29"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF9"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.038"
+        }
+      ],
+      "confidence": 0.8178093371136871
+    },
+    {
+      "code": "MIG-0913",
+      "name": "RED BROWN BASE",
+      "hex": "#894b3a",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H7"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C7"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF79"
+        }
+      ],
+      "confidence": 0.8590788955439629
+    },
+    {
+      "code": "MIG-0914",
+      "name": "RED BROWN LIGHT",
+      "hex": "#222a15",
+      "equivalents": [],
+      "confidence": 0.699103321093624
+    },
+    {
+      "code": "MIG-0915",
+      "name": "DARK GREEN",
+      "hex": "#465535",
+      "equivalents": [
+        {
+          "brand": "TAMIYA",
+          "code": "XF81"
+        }
+      ],
+      "confidence": 0.8150263227019304
+    },
+    {
+      "code": "MIG-0916",
+      "name": "GREEN BASE",
+      "hex": "#89ab72",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.827"
+        }
+      ],
+      "confidence": 0.9048715180969291
+    },
+    {
+      "code": "MIG-0917",
+      "name": "LIGHT GREEN",
+      "hex": "#271617",
+      "equivalents": [],
+      "confidence": 0.7111308670651891
+    },
+    {
+      "code": "MIG-0918",
+      "name": "RED PRIMER SHADOW",
+      "hex": "#260e07",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.822"
+        }
+      ],
+      "confidence": 0.8534386974176416
+    },
+    {
+      "code": "MIG-0919",
+      "name": "RED PRIMER DARK BASE",
+      "hex": "#2f0d09",
+      "equivalents": [],
+      "confidence": 0.8467759867291498
+    },
+    {
+      "code": "MIG-0920",
+      "name": "RED PRIMER",
+      "hex": "#541f11",
+      "equivalents": [],
+      "confidence": 0.9949858112779257
+    },
+    {
+      "code": "MIG-0921",
+      "name": "RED PRIMER LIGHT BASE",
+      "hex": "#6d381c",
+      "equivalents": [],
+      "confidence": 0.7298524827258333
+    },
+    {
+      "code": "MIG-0922",
+      "name": "RED PRIMER HIGH LIGHTS",
+      "hex": "#8c4f25",
+      "equivalents": [],
+      "confidence": 0.5868953056006352
+    },
+    {
+      "code": "MIG-0923",
+      "name": "RED PRIMER SHINE",
+      "hex": "#211f11",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.341"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.026"
+        }
+      ],
+      "confidence": 0.9113780705914201
+    },
+    {
+      "code": "MIG-0924",
+      "name": "OLIVE DRAB SHADOW",
+      "hex": "#37341d",
+      "equivalents": [],
+      "confidence": 0.817856968386717
+    },
+    {
+      "code": "MIG-0925",
+      "name": "OLIVE DRAB DARK BASE",
+      "hex": "#45452a",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H78"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C38"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.889"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.043"
+        }
+      ],
+      "confidence": 0.93528645036541
+    },
+    {
+      "code": "MIG-0926",
+      "name": "OLIVE DRAB BASE",
+      "hex": "#5d593d",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H304"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C304"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.286"
+        }
+      ],
+      "confidence": 0.6900440853719834
+    },
+    {
+      "code": "MIG-0927",
+      "name": "OLIVE DRAB LIGHT BASE",
+      "hex": "#65634d",
+      "equivalents": [],
+      "confidence": 0.6839416052540065
+    },
+    {
+      "code": "MIG-0928",
+      "name": "OLIVE DRAB HIGH LIGHTS",
+      "hex": "#7b785a",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.139"
+        }
+      ],
+      "confidence": 0.7922575503100266
+    },
+    {
+      "code": "MIG-0929",
+      "name": "OLIVE DRAB SHINE",
+      "hex": "#292912",
+      "equivalents": [
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.332"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.138"
+        }
+      ],
+      "confidence": 0.8705124360683892
+    },
+    {
+      "code": "MIG-0930",
+      "name": "RUSSIAN SHADOW",
+      "hex": "#413f1a",
+      "equivalents": [],
+      "confidence": 0.6086305720533189
+    },
+    {
+      "code": "MIG-0931",
+      "name": "RUSSIAN DARK BASE",
+      "hex": "#555320",
+      "equivalents": [
+        {
+          "brand": "TAMIYA",
+          "code": "XF74"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.020"
+        }
+      ],
+      "confidence": 0.8904515833877904
+    },
+    {
+      "code": "MIG-0932",
+      "name": "RUSSIAN BASE",
+      "hex": "#6f663f",
+      "equivalents": [
+        {
+          "brand": "MODEL AIR",
+          "code": "71.303"
+        }
+      ],
+      "confidence": 0.8893380124932111
+    },
+    {
+      "code": "MIG-0933",
+      "name": "RUSSIAN LIGHT BASE",
+      "hex": "#7f7751",
+      "equivalents": [],
+      "confidence": 0.7769954922393281
+    },
+    {
+      "code": "MIG-0934",
+      "name": "RUSSIAN HIGH LIGHT",
+      "hex": "#908762",
+      "equivalents": [],
+      "confidence": 0.841087432505913
+    },
+    {
+      "code": "MIG-0935",
+      "name": "RUSSIAN SHINE",
+      "hex": "#908762",
+      "equivalents": [
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H62"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C56"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF14"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.321"
+        }
+      ],
+      "confidence": 0.8928458356622903
+    }
+  ]
+}

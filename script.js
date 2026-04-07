@@ -6,6 +6,7 @@ const BRANDS = [
     { id: 'ammo_atom', label: 'ATOM (Ammo)' },
     { id: 'ak', label: 'AK Interactive' },
     { id: 'gunze', label: 'Gunze Sangyo' },
+    { id: 'tamiya', label: 'Tamiya' },
     { id: 'mr_hobby', label: 'Mr. Hobby' },
 ];
 
@@ -16,6 +17,11 @@ const BRAND_COLORS = {
     'AK Interactive': '#E95A0E',
     'Gunze Sangyo': '#009DA5',
     'ATOM (Ammo)': '#0075C1',
+    "Federal Standard": '#A6192E',
+    "Tamiya": '#004B87',
+    "RAL": '#A6192E',
+    "Vallejo Model Air": '#05E2E1',
+    "Vallejo Model Color": '#05E2E1',
 };
 
 // Map brand IDs to display names
@@ -24,25 +30,178 @@ const BRAND_NAME_MAP = {
     'ammo_atom': 'ATOM (Ammo)',
     'ak': 'AK Interactive',
     'gunze': 'Gunze Sangyo',
+    'federal_standard': 'Federal Standard',
+    'tamiya': 'Tamiya',
     'mr_hobby': 'Mr. Hobby',
+    'ral': 'RAL',
+    "model_air": 'Vallejo Model Air',
+    "model_color": 'Vallejo Model Color',
 };
 
-// Global equivalents cache
-let equivalentsData = null;
+const EQUIVALENT_BRAND_MAP = {
+    'HOBBY COLOR': 'Mr. Hobby',
+    'MR.COLOR': 'Mr. Hobby',
+    'TAMIYA': 'Tamiya',
+    'RAL': 'RAL',
+    'FEDERAL STANDARD': 'Federal Standard',
+    'FS': 'Federal Standard',
+    'MODEL AIR': 'Vallejo Model Air',
+    'MODEL COLOR': 'Vallejo Model Color',
+    'AK INTERACTIVE': 'AK Interactive',
+    'GUNZE SANGYO': 'Gunze Sangyo',
+    'AMMO BY MIG': 'Ammo by Mig',
+    'AMMO BY MIG ATOM': 'ATOM (Ammo)',
+};
 
-// Load equivalents once
-async function loadEquivalents() {
-    if (equivalentsData !== null) return equivalentsData;
-    try {
-        const res = await fetch('/data/equivalents.json');
-        if (!res.ok) throw new Error('Failed to load equivalents');
-        equivalentsData = await res.json();
-        return equivalentsData;
-    } catch (e) {
-        console.warn('Equivalents not available:', e);
-        equivalentsData = {};
-        return equivalentsData;
+const PACK_CACHE = new Map();
+let reverseEquivalentIndexPromise = null;
+
+function getEquivalentDisplayName(brand) {
+    if (!brand) return '';
+
+    const mappedById = BRAND_NAME_MAP[brand];
+    if (mappedById) return mappedById;
+
+    const upper = String(brand).toUpperCase();
+    return EQUIVALENT_BRAND_MAP[upper] || brand;
+}
+
+function normalizeBrandId(brand) {
+    if (!brand) return '';
+
+    const raw = String(brand).trim();
+    const mappedName = BRAND_NAME_MAP[raw] || EQUIVALENT_BRAND_MAP[raw.toUpperCase()] || raw;
+
+    const entry = BRANDS.find(item => item.label === mappedName || item.id === raw);
+    if (entry) return entry.id;
+
+    const normalized = mappedName
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '_')
+        .replace(/^_+|_+$/g, '');
+
+    if (normalized === 'ammo_by_mig') return 'ammo';
+    if (normalized === 'atom_ammo') return 'ammo_atom';
+    if (normalized === 'gunze_mr_hobby') return 'gunze';
+    if (normalized === 'federal_standard') return 'federal_standard';
+    return normalized;
+}
+
+function normalizeEquivalentCode(code) {
+    if (!code) return '';
+    return String(code)
+        .trim()
+        .toUpperCase()
+        .replace(/\s+/g, '')
+        .replace(/_/g, '')
+        .replace(/-/g, '');
+}
+
+function getColorKey(brand, code) {
+    return `${normalizeBrandId(brand)}:${normalizeEquivalentCode(code)}`;
+}
+
+function renderEquivalentBadge(item, tone) {
+    const displayName = getEquivalentDisplayName(item.brand);
+    const brandColor = BRAND_COLORS[displayName] || '#6b7280';
+
+
+    const label = item.code;
+
+    return `<div class="m-1 rounded px-2 py-0.5 text-xs font-medium text-white" style="background-color: ${brandColor}" title="${displayName}">${label}</div>`;
+}
+
+function renderEquivalentSection(container, title, items, tone) {
+    if (!container) return;
+
+    if (!items.length) {
+        container.innerHTML = '';
+        container.classList.add('hidden');
+        return;
     }
+
+    container.classList.remove('hidden');
+    container.innerHTML = `
+        <div class="mt-2">
+            <div class="mb-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-gray-500 dark:text-gray-400">${title}</div>
+            <div class="flex flex-wrap">${items.map(item => renderEquivalentBadge(item, tone)).join('')}</div>
+        </div>
+    `;
+}
+
+async function loadPack(brand) {
+    if (PACK_CACHE.has(brand)) {
+        return PACK_CACHE.get(brand);
+    }
+
+    let pack = null;
+    const res = await fetch(`/data/pack_${brand}.json`).catch(() => null);
+
+    if (res && res.ok) {
+        pack = await res.json();
+    } else if (brand === 'ammo_by_mig') {
+        const fallback = await fetch('/data/ammo_rows.json');
+        if (!fallback.ok) throw new Error('Failed to load ammo rows');
+        const rows = await fallback.json();
+        pack = {
+            brand: 'Ammo by Mig',
+            brand_id: 'ammo',
+            colors: rows.map(r => ({
+                code: r.reference || r.code || '',
+                name: r.name || '',
+                hex: (r.hex || '').toString(),
+                definition: r.definition || null,
+                confidence: r.confidence || null,
+                equivalents: Array.isArray(r.equivalents) ? r.equivalents : [],
+            })),
+        };
+    }
+
+    PACK_CACHE.set(brand, pack);
+    return pack;
+}
+
+async function getReverseEquivalentIndex() {
+    if (!reverseEquivalentIndexPromise) {
+        reverseEquivalentIndexPromise = (async () => {
+            const index = new Map();
+            const packs = await Promise.all(
+                BRANDS.map(async entry => {
+                    try {
+                        return await loadPack(entry.id);
+                    } catch (error) {
+                        console.error(`Failed to build reverse equivalents for ${entry.id}`, error);
+                        return null;
+                    }
+                })
+            );
+
+            packs.filter(Boolean).forEach(pack => {
+                const sourceBrand = pack.brand_id || normalizeBrandId(pack.brand);
+                (pack.colors || []).forEach(color => {
+                    const outgoing = Array.isArray(color.equivalents) ? color.equivalents : [];
+                    outgoing.forEach(eq => {
+                        const targetKey = getColorKey(eq.brand, eq.code);
+                        if (!targetKey || targetKey.endsWith(':')) return;
+
+                        if (!index.has(targetKey)) {
+                            index.set(targetKey, []);
+                        }
+
+                        index.get(targetKey).push({
+                            brand: getEquivalentDisplayName(sourceBrand),
+                            code: color.code,
+                            name: color.name,
+                        });
+                    });
+                });
+            });
+
+            return index;
+        })();
+    }
+
+    return reverseEquivalentIndexPromise;
 }
 
 function createTabs() {
@@ -107,7 +266,7 @@ function saveInStack(brand, map) {
     localStorage.setItem(storageKey(brand), JSON.stringify(map));
 }
 
-function renderRow(brand, color, inStackMap, displayBrand, equivalents) {
+function renderRow(brand, color, inStackMap, displayBrand, reverseEquivalentIndex) {
     const id = `${brand}:${color.code}`;
     const tpl = document.getElementById('colorRowTemplate');
     const node = tpl.content.firstElementChild.cloneNode(true);
@@ -140,21 +299,14 @@ function renderRow(brand, color, inStackMap, displayBrand, equivalents) {
         saveInStack(brand, inStackMap);
     });
 
-    // show equivalents from separate file
-    const eqEl = node.querySelector('[data-equivalents]');
-    if (eqEl) {
-        // Look up equivalents for this color from the equivalents data
-        const eqs = (equivalents && equivalents[brand] && equivalents[brand][color.code]) || [];
-        if (eqs.length) {
-            eqEl.innerHTML = eqs.map(e => {
-                const displayName = BRAND_NAME_MAP[e.brand] || e.brand;
-                const brandColor = BRAND_COLORS[displayName] || '#cccccc';
-                return `<div class="m-1 rounded px-2 py-0.5 text-xs font-medium text-white" style="background-color: ${brandColor};" title="${displayName}">${e.code}</div>`;
-            }).join('');
-        } else {
-            eqEl.textContent = '';
-        }
-    }
+    // Show equivalents embedded in the pack JSON.
+    const primaryEqEl = node.querySelector('[data-equivalents]');
+    const secondaryEqEl = node.querySelector('[data-secondary-equivalents]');
+    const primaryEquivalents = Array.isArray(color.equivalents) ? color.equivalents : [];
+    const secondaryEquivalents = reverseEquivalentIndex.get(getColorKey(brand, color.code)) || [];
+
+    renderEquivalentSection(primaryEqEl, 'Direct Equivalents', primaryEquivalents, 'primary');
+    renderEquivalentSection(secondaryEqEl, 'Referenced By', secondaryEquivalents, 'secondary');
 
     return node;
 }
@@ -162,40 +314,21 @@ function renderRow(brand, color, inStackMap, displayBrand, equivalents) {
 async function loadAndRender(brand) {
     listEl.innerHTML = '';
     try {
-        let colors = [];
-        let displayBrand = null;
+        const [data, reverseEquivalentIndex] = await Promise.all([
+            loadPack(brand),
+            getReverseEquivalentIndex(),
+        ]);
 
-        // Load equivalents first
-        const equivalents = await loadEquivalents();
-
-        // First, try loading from pack_[brand].json (unified format)
-        let res = await fetch(`/data/pack_${brand}.json`).catch(() => null);
-
-        if (res && res.ok) {
-            const data = await res.json();
-            colors = data.colors || [];
-            displayBrand = data.brand || brand;
-        } else if (brand === 'ammo_by_mig') {
-            // Fallback for ammo_by_mig if pack file doesn't exist
-            res = await fetch('/data/ammo_rows.json');
-            if (!res.ok) throw new Error('Failed to load ammo rows');
-            const rows = await res.json();
-            // Convert rows to the expected color shape
-            colors = rows.map(r => ({
-                code: r.reference || r.code || '',
-                name: r.name || '',
-                hex: (r.hex || '').toString(),
-                definition: r.definition || null,
-                confidence: r.confidence || null
-            }));
-            displayBrand = 'Ammo by Mig';
-        } else {
+        if (!data) {
             throw new Error('Failed to load data');
         }
 
+        const colors = data.colors || [];
+        const displayBrand = data.brand || brand;
+
         const inStack = loadInStack(brand);
         colors.forEach(c => {
-            const row = renderRow(brand, c, inStack, displayBrand, equivalents);
+            const row = renderRow(brand, c, inStack, displayBrand, reverseEquivalentIndex);
             listEl.appendChild(row);
         });
     } catch (e) {
@@ -205,11 +338,8 @@ async function loadAndRender(brand) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Preload equivalents data once
-    loadEquivalents().then(() => {
-        createTabs();
-        // render first brand
-        const first = BRANDS[0].id;
-        loadAndRender(first);
-    });
+    createTabs();
+    // render first brand
+    const first = BRANDS[0].id;
+    loadAndRender(first);
 });

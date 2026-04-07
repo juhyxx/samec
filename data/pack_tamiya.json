@@ -1,0 +1,498 @@
+{
+  "brand": "Tamiya",
+  "brand_id": "tamiya",
+  "source": "data/pack_tamiya.json",
+  "count": 70,
+  "colors": [
+    {
+      "code": "XF1",
+      "name": "Flat Black",
+      "hex": "#000000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF2",
+      "name": "Flat White",
+      "hex": "#fefefe",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF3",
+      "name": "Flat Yellow",
+      "hex": "#fedc00",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF4",
+      "name": "Yellow Green",
+      "hex": "#b3bc43",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF5",
+      "name": "Flat Green",
+      "hex": "#60836b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF6",
+      "name": "Copper",
+      "hex": "#c45033",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF7",
+      "name": "Flat Red",
+      "hex": "#eb1c29",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF8",
+      "name": "Flat Blue",
+      "hex": "#01698e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF9",
+      "name": "Hull Red",
+      "hex": "#6b3237",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF10",
+      "name": "Flat Brown",
+      "hex": "#5b3e38",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF11",
+      "name": "J.N. Green",
+      "hex": "#0f493a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF12",
+      "name": "J.N. Gray",
+      "hex": "#bdc8bc",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF13",
+      "name": "J.A. Green",
+      "hex": "#284a47",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF14",
+      "name": "J.A. Gray",
+      "hex": "#e5e1cc",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF15",
+      "name": "Flat Flesh",
+      "hex": "#fac48e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF16",
+      "name": "Flat Aluminum",
+      "hex": "#a7aaa9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF17",
+      "name": "Sea Blue",
+      "hex": "#2b415f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF18",
+      "name": "Medium Blue",
+      "hex": "#197b9e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF19",
+      "name": "Sky Gray",
+      "hex": "#bdc7c3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF20",
+      "name": "Medium Gray",
+      "hex": "#a7b3af",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF21",
+      "name": "Sky",
+      "hex": "#deecc6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF22",
+      "name": "RLM Gray",
+      "hex": "#4c5c5f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF23",
+      "name": "Light Blue",
+      "hex": "#6fccdb",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF24",
+      "name": "Dark Gray",
+      "hex": "#426c7c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF25",
+      "name": "Light Sea Gray",
+      "hex": "#738e9b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF26",
+      "name": "Deep Green",
+      "hex": "#2c6a48",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF27",
+      "name": "Black Green",
+      "hex": "#134832",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF28",
+      "name": "Dark Copper",
+      "hex": "#9e7e6b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF49",
+      "name": "Khaki",
+      "hex": "#978943",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF50",
+      "name": "Field Blue",
+      "hex": "#1f85a3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF51",
+      "name": "Khaki Drab",
+      "hex": "#5f6362",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF52",
+      "name": "Flat Earth",
+      "hex": "#974e39",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF53",
+      "name": "Neutral Gray",
+      "hex": "#627987",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF54",
+      "name": "Dark Sea Gray",
+      "hex": "#9fa7ac",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF55",
+      "name": "Deck Tan",
+      "hex": "#c3b39e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF56",
+      "name": "Metallic Gray",
+      "hex": "#6c6e72",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF57",
+      "name": "Buff",
+      "hex": "#c39e7c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF58",
+      "name": "Olive Green",
+      "hex": "#334a3b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF59",
+      "name": "Desert Yellow",
+      "hex": "#ecb882",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF60",
+      "name": "Dark Yellow",
+      "hex": "#bba84d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF61",
+      "name": "Dark Green",
+      "hex": "#134932",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF62",
+      "name": "Olive Drab",
+      "hex": "#515f41",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF63",
+      "name": "German Gray",
+      "hex": "#39606d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF64",
+      "name": "Red Brown",
+      "hex": "#513b29",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF65",
+      "name": "Field Gray",
+      "hex": "#4a6f7c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF66",
+      "name": "Light Gray",
+      "hex": "#466576",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF67",
+      "name": "NATO Green",
+      "hex": "#405c3c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF68",
+      "name": "NATO Brown",
+      "hex": "#715138",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF69",
+      "name": "NATO Black",
+      "hex": "#231f20",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF70",
+      "name": "Dark Green 2",
+      "hex": "#224636",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF71",
+      "name": "Cockpit Green (IJN)",
+      "hex": "#759479",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF72",
+      "name": "Brown (JGSDF)",
+      "hex": "#81603a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF73",
+      "name": "Dark Green (JGSDF)",
+      "hex": "#3a6742",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF74",
+      "name": "Olive Drab (JGSDF)",
+      "hex": "#415c3d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF75",
+      "name": "IJN Gray",
+      "hex": "#64727f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF76",
+      "name": "Gray Green",
+      "hex": "#a7b49a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF77",
+      "name": "IJN Gray (Sasebo Arsenal)",
+      "hex": "#4b525e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF78",
+      "name": "Deck Tan Wooden",
+      "hex": "#b6a685",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF79",
+      "name": "Deck Brown Linoleum",
+      "hex": "#665039",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF80",
+      "name": "Navy Gray (British)",
+      "hex": "#afb8b9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF81",
+      "name": "Dark Green",
+      "hex": "#455737",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF82",
+      "name": "Ocean Gray",
+      "hex": "#5f8390",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF83",
+      "name": "Medium Sea Gray",
+      "hex": "#9ab0ad",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF84",
+      "name": "Dark Iron",
+      "hex": "#5f483a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF85",
+      "name": "Rubber Black",
+      "hex": "#231f20",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF86",
+      "name": "Flat Clear",
+      "hex": "#fefefe",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF87",
+      "name": "IJN Gray (Maizuru Arsenal)",
+      "hex": "#70777f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF88",
+      "name": "Light Green",
+      "hex": "#baa54f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF89",
+      "name": "Green",
+      "hex": "#60826b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "XF90",
+      "name": "Purple",
+      "hex": "#5a3d38",
+      "equivalents": [],
+      "confidence": null
+    }
+  ]
+}

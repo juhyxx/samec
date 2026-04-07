@@ -40,7 +40,7 @@ def format_for_frontend(colors, brand_name, brand_id, source_file=None):
     return {
         "brand": brand_name,
         "brand_id": brand_id,
-        "source": source_file or f"data/results/pack_{brand_id}.json",
+        "source": source_file or f"data/pack_{brand_id}.json",
         "count": len(formatted_colors),
         "colors": formatted_colors,
     }
@@ -81,9 +81,7 @@ def process_ak(raw_colors_file, output_file):
     with open(raw_colors_file) as f:
         colors = json.load(f)
 
-    formatted = format_for_frontend(
-        colors, brand_name="AK Interactive", brand_id="ak_interactive"
-    )
+    formatted = format_for_frontend(colors, brand_name="AK Interactive", brand_id="ak")
 
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, "w") as f:
@@ -94,7 +92,7 @@ def process_ak(raw_colors_file, output_file):
 
 if __name__ == "__main__":
     # Define paths
-    results_dir = Path("data/results")
+    results_dir = Path("data/")
 
     # Process each brand
     # Mr. Hobby

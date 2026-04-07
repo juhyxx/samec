@@ -1,1 +1,3295 @@
-results/pack_ammo_atom.json
+{
+  "brand": "Ammo by Mig Atom",
+  "brand_id": "ammo_atom",
+  "source": "data/pack_ammo_atom.json",
+  "count": 180,
+  "colors": [
+    {
+      "code": "ATOM-20000",
+      "name": "MATT WHITE",
+      "hex": "#ffffff",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AmIG-0050"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-11/H-451"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-62"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-2"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70.951"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71.001"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20001",
+      "name": "SATIN WHITE",
+      "hex": "#ffffff",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0047"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "h-1"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "c-1"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70.842"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20002",
+      "name": "CREMEWEISS RAL 9001",
+      "hex": "#f7efc9",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MiG-0905"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70.918"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71.270"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20003",
+      "name": "MIDGREY",
+      "hex": "#afaaa4",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-515"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20004",
+      "name": "WOOD",
+      "hex": "#c9b194",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0038"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71075"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20005",
+      "name": "DUNKELGELB DG",
+      "hex": "#ddd0ac",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0012"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20006",
+      "name": "GERMAN SAND BEIGE RAL8031",
+      "hex": "#d0b47f",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0027"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20007",
+      "name": "DESERT SAND",
+      "hex": "#d4b482",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0029"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20008",
+      "name": "IDF SAND GREY '73",
+      "hex": "#c2ad8b",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.miG-0067"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20009",
+      "name": "US DESERT TAN",
+      "hex": "#d2ae8d",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.miG-0025"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70819"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71140"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20010",
+      "name": "DUNKELGELB DG",
+      "hex": "#d0c293",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MiG-0011"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70978"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20011",
+      "name": "SAND GREY",
+      "hex": "#92814f",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0132"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-85"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-45"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71141"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20012",
+      "name": "DUNKELGELB",
+      "hex": "#a79370",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0010"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-403"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-60"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71025"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20013",
+      "name": "ZINC CHROMATE YELLOW",
+      "hex": "#be9d4b",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-505"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-58"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "c-27"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-4"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71107"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20014",
+      "name": "OCHRE",
+      "hex": "#c3b998",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO F-562"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20015",
+      "name": "GELBBRAUN 8020",
+      "hex": "#f1cd87",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AmiG-0016"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20016",
+      "name": "FADED YELLOW",
+      "hex": "#e0cf80",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMiG-0130"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-318"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "c-318"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20017",
+      "name": "LEMON YELLOW",
+      "hex": "#fac64c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20018",
+      "name": "YELLOW",
+      "hex": "#ffd52a",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-529"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-4"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-4"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-3"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70915"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71002"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20019",
+      "name": "SUNNY YELLOW",
+      "hex": "#ffdb3b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20020",
+      "name": "GOLD YELLOW",
+      "hex": "#ffc329",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20021",
+      "name": "SAND YELLOW",
+      "hex": "#e7ae58",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0030"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-459"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71143"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20022",
+      "name": "MUSTARD",
+      "hex": "#e7ae58",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.mIG-0125"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-413"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-113"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70953"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71078"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20023",
+      "name": "LIGHT RUST",
+      "hex": "#ffa62a",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0039"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-24"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "c-58"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70911"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71130"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20024",
+      "name": "SANDGELB RLM 79",
+      "hex": "#d6a045",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.mIG-0222"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-66"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-119"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70876"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71278"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20025",
+      "name": "KHAKI GREEN",
+      "hex": "#c9c17d",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-554"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20026",
+      "name": "BRIGHT ORANGE",
+      "hex": "#ffa040",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20027",
+      "name": "ORANGE",
+      "hex": "#ff812b",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0129"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-14"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-59"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70956"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71083"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20028",
+      "name": "SCARLET RED",
+      "hex": "#dc371f",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-527"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20029",
+      "name": "RED",
+      "hex": "#f5381e",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0049"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "43/ 8434#2"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "c3/C-79 /C-114"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-7"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70909"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71003"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20030",
+      "name": "IMPERIAL RED",
+      "hex": "#e46153",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20031",
+      "name": "BLOOD RED",
+      "hex": "#c9392a",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0121"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-327"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-327"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70908"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71084"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20032",
+      "name": "CARMINE",
+      "hex": "#b53321",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20033",
+      "name": "MAGENTA",
+      "hex": "#ff5faf",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-540"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20034",
+      "name": "FUCSIA",
+      "hex": "#e0408b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20035",
+      "name": "CORAL PINK",
+      "hex": "#c02c22",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20036",
+      "name": "VINTAGE PINK",
+      "hex": "#c26166",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20037",
+      "name": "DARK NUDE PINK",
+      "hex": "#c28d8e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20038",
+      "name": "GLACIER PINK",
+      "hex": "#e5c7c1",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20039",
+      "name": "PINK FLESH",
+      "hex": "#ffcbc9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20040",
+      "name": "LIGHT PINK FLESH",
+      "hex": "#ffe2d9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20041",
+      "name": "BASIC SKIN",
+      "hex": "#fbc6b6",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-549"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20042",
+      "name": "LIGHT SKIN",
+      "hex": "#f1d1b6",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-548"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20043",
+      "name": "WARM SKIN",
+      "hex": "#c7977d",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-550"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20044",
+      "name": "BEIGE PINK",
+      "hex": "#ffb27f",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-558"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20045",
+      "name": "RUST",
+      "hex": "#d15f36",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.miG-004O"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-453"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70981"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71129"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20046",
+      "name": "ROTBRAUN RAL 8012",
+      "hex": "#a03815",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.mIG-0014"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-47 / H-460"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-41"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-64"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70814"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71271"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20047",
+      "name": "DARK RUST",
+      "hex": "#902f17",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0041"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "AMMO,F-557"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-7"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-79"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70818"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20048",
+      "name": "CLAY BROWN",
+      "hex": "#743a1a",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0079"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "4-37"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-43"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71034"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20049",
+      "name": "BRITISH UNIFORM",
+      "hex": "#a17a25",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-545"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20050",
+      "name": "DARK WOOD",
+      "hex": "#72573b",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0923"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20051",
+      "name": "EARTH",
+      "hex": "#885d3c",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.mIG-0073"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-457"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-52"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70874"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71024"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20052",
+      "name": "EARTH BROWN",
+      "hex": "#9c4a2b",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMiG-0064"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70303"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71037"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20053",
+      "name": "RED BRICK",
+      "hex": "#9b4220",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0922"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20054",
+      "name": "OLD RUST",
+      "hex": "#855036",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-532"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20055",
+      "name": "UMBER BROWN",
+      "hex": "#814c41",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0034"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-131"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70343"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71080"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20056",
+      "name": "BURNT BROWN",
+      "hex": "#40280b",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-553"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20057",
+      "name": "BROWN",
+      "hex": "#5e382a",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.miG-0070"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-341"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70312"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71035"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20058",
+      "name": "LEATHER",
+      "hex": "#4d2c20",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0042"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-17"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-29"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-9"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70859"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71040"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20059",
+      "name": "BRAUNVIOLETT RLM 81",
+      "hex": "#7e4c47",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0255"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-421"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-121"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71264"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20060",
+      "name": "COFFEE BROWN",
+      "hex": "#5f3d37",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20061",
+      "name": "NATO BROWN",
+      "hex": "#482c26",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0085"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-68"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70871"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71249"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20062",
+      "name": "SCHOKOBRAUN RAL8O17",
+      "hex": "#5a322b",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0015"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-406"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-10"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70985"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71041"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20063",
+      "name": "BLACK BROWN",
+      "hex": "#361e16",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-533"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20064",
+      "name": "CHIPPING",
+      "hex": "#270e0c",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0035"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-84"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-42"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70304"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71.039"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20065",
+      "name": "DARK OLIVE DRAB",
+      "hex": "#433d1f",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0925"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-78"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "c-38"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70889"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71043"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20066",
+      "name": "NATO GREEN",
+      "hex": "#424835",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0084"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-80"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-54"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-67"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71093"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20067",
+      "name": "OLIVGRiN (RLM 71)",
+      "hex": "#333d25",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.mIG-0O01"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-61"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70888"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20068",
+      "name": "IJA KAWASAKI GREEN",
+      "hex": "#3a442c",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0260"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-60"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-130"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71287"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20069",
+      "name": "OLIVE DRAB",
+      "hex": "#57502d",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AmiG-0926"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-304"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-304"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-62"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71286"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20070",
+      "name": "SINAI GREY",
+      "hex": "#6f6536",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0131"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71142"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20071",
+      "name": "RUSSIAN GREEN 4B0",
+      "hex": "#54542a",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0083"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-320"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "c-136"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70924"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71017"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20072",
+      "name": "DARK OLIVE GREEN",
+      "hex": "#65601c",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0270"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71303"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20073",
+      "name": "YELLOW GREEN",
+      "hex": "#8b8c33",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-504"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20074",
+      "name": "ZINC CHROMATE GREEN",
+      "hex": "#3d552f",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0270 / AMIG-0220"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-340"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-340"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70.850"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71.13T"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20075",
+      "name": "HELLGRUN / CHROMATE GREEN",
+      "hex": "#3d552f",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0230"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-422"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-122"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70823"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71022"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20076",
+      "name": "IJA NAKAJIMA GREEN",
+      "hex": "#4f6c5b",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0261 / AMIG-0915 / AMIG-0035 / AMMOF-509"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-303"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-129"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-81"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70.348"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71285"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20077",
+      "name": "DUNKELGRUN RLM 81",
+      "hex": "#46512c",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AmiG-0206"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-309"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "c-309 / C-330"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70893"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71294"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20078",
+      "name": "GRAU RLM 02",
+      "hex": "#7d7972",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0217"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "4-70"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-60"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-22"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70886"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71044"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20079",
+      "name": "OLIVGRUN",
+      "hex": "#4f5836",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0002"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-48"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-52"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-65"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70890"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71092"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20080",
+      "name": "FIELD GREY",
+      "hex": "#5d705e",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-512"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20081",
+      "name": "RESEDAGRUN (RAL 6011)",
+      "hex": "#5c793d",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.miG-0023"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-312"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-312"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70.891"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71.126"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20082",
+      "name": "PACIFIC GREEN",
+      "hex": "#98b267",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-544"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20083",
+      "name": "GREEN BASE",
+      "hex": "#4c683a",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MiG-006O"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70827"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20084",
+      "name": "BRIGHT GREEN",
+      "hex": "#57843c",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-008O"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71301"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20085",
+      "name": "FADED GREEN",
+      "hex": "#b0c586",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20086",
+      "name": "DUCK EGG GREEN",
+      "hex": "#b4bf93",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0244"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "4-74"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-26"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71009"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20087",
+      "name": "BILE GREEN",
+      "hex": "#d8ce6e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20089",
+      "name": "LIME GREEN",
+      "hex": "#cfdc41",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-555"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20090",
+      "name": "TROLL GREEN",
+      "hex": "#008641",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20091",
+      "name": "FERN GREEN",
+      "hex": "#005627",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0054"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-26"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-66"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20092",
+      "name": "DARK GREEN",
+      "hex": "#00402d",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0052"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70970"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71007"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20093",
+      "name": "FOREST GREEN",
+      "hex": "#005133",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20094",
+      "name": "PHTALO GREEN",
+      "hex": "#315141",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO F-542"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20095",
+      "name": "IJN MITSUBISHI GREEN",
+      "hex": "#517337",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0265"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-124"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-70"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71310"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20096",
+      "name": "IJN NAKAJIMA DARK GREEN",
+      "hex": "#185941",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0069"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20097",
+      "name": "ATLANTIC GREEN",
+      "hex": "#626f62",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20098",
+      "name": "DEEP GREEN",
+      "hex": "#142d27",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-506"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20099",
+      "name": "RUSSIAM GREEN UNIFORM",
+      "hex": "#244b40",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-506"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20100",
+      "name": "GREEN GREY",
+      "hex": "#45645f",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0018"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20101",
+      "name": "SCHWARTZGRUN RLM 70",
+      "hex": "#5d5c3f",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0232"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-65"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-18"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-27"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70897"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71021"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20102",
+      "name": "OCEAN BLUE",
+      "hex": "#1e2439",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0227"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-54"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "c-14"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-50"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70898"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71005"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20103",
+      "name": "MARINE BLUE",
+      "hex": "#003454",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-518"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20104",
+      "name": "BLUISH GREY",
+      "hex": "#424b63",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-520"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70964"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20105",
+      "name": "FRENCH BLUE",
+      "hex": "#126473",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0062"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-42"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "c-72"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-18"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70900"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71113"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20106",
+      "name": "NAVY BLUE",
+      "hex": "#54779b",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-525"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20107",
+      "name": "UNIFORM BLUE",
+      "hex": "#296b98",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-523"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20108",
+      "name": "PRUSSIAN BLUE",
+      "hex": "#2d416b",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0103"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-15"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "c-65"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70839"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20109",
+      "name": "DEEP CYAN",
+      "hex": "#009ddc",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-526"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20110",
+      "name": "BLUE",
+      "hex": "#0084da",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0086"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-323"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-323"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70844"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71089"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20111",
+      "name": "CYAN",
+      "hex": "#77c3df",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO F-524"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20112",
+      "name": "BRIGHT BLUE",
+      "hex": "#00b8ec",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0224"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-45"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70961"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71317"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20113",
+      "name": "GREEN BLUE",
+      "hex": "#0095a7",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-543"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20114",
+      "name": "TURQUOISE GREEN",
+      "hex": "#009583",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0223"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20115",
+      "name": "JADE GREEN",
+      "hex": "#00b0a8",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20116",
+      "name": "AQUAMARINE",
+      "hex": "#00c7c4",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20117",
+      "name": "DUCK BLUE",
+      "hex": "#007593",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20118",
+      "name": "SAPPHIRE BLUE",
+      "hex": "#b5cae4",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-519"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20119",
+      "name": "AZURE BLUE",
+      "hex": "#658cb1",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0257"
+        },
+        {
+          "brand": "Mr. Color",
+          "code": "C-370"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70902"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71108"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20120",
+      "name": "BABY BLUE",
+      "hex": "#0093a6",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0251"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71318"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20121",
+      "name": "AIR SUPERIORITY BLUE",
+      "hex": "#9dc8d7",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0271"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71332"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20122",
+      "name": "LIGHT BLUE",
+      "hex": "#c3dee8",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0249"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71306"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20123",
+      "name": "COLD GRAY",
+      "hex": "#dbdbdb",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0119"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20124",
+      "name": "LIGHT GRAY",
+      "hex": "#cbcbcb",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0209"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-51 / H-338"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "c-11 / C-338"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71276"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20125",
+      "name": "LIGHT GRAY GREEN",
+      "hex": "#adc7ae",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0201"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-31"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70885"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20126",
+      "name": "HELLBLAU RLM 78",
+      "hex": "#83a3a3",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0247"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-418"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "C-118"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70972"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71101"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20127",
+      "name": "HELLBLAU RLM 65",
+      "hex": "#c6dfe4",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0231"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-67"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-25"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70906"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71255"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20128",
+      "name": "INTERIOR LIGHT GREEN",
+      "hex": "#8ca58f",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0219"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70331"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20129",
+      "name": "LIGHT GHOST GRAY",
+      "hex": "#a7bfc2",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0203"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-308"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "c-308"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70990"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20130",
+      "name": "PALE GREY (RLM 76)",
+      "hex": "#adc7c1",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0063"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-417"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "C-117"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71257"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20131",
+      "name": "SEAL GREY",
+      "hex": "#9da0a0",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MiG-0207"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-334"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "C-334"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70989"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71046"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20132",
+      "name": "STONE GREY",
+      "hex": "#b7b7b7",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0075"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-80"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20133",
+      "name": "DARK GHOST GRAY",
+      "hex": "#7c807f",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0208"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "4-307"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "C-307"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71120"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20134",
+      "name": "BLUE GRAY",
+      "hex": "#678591",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.miG-0210"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-337"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "C-337"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70905"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71304"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20135",
+      "name": "GREY",
+      "hex": "#8c9296",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AmIG-0059"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-22"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71050"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20136",
+      "name": "INTERMEDIATE BLUE",
+      "hex": "#4f5a6e",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0228"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-56"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-66"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70903"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71299"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20137",
+      "name": "OCEAN GREY",
+      "hex": "#6c7b83",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.miG-0245"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-82"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71273"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20138",
+      "name": "LIGHT GREY GREEN",
+      "hex": "#6c9597",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0259"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-311"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "c-127"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70.883"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71.296"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20139",
+      "name": "NAKAJIMA INTERIOR GREEN",
+      "hex": "#a7a18e",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.miG-0269"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20140",
+      "name": "SKY GREEN",
+      "hex": "#a6baa5",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0243"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-21"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71302"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20141",
+      "name": "IJN ASH GREY",
+      "hex": "#c0b895",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0262"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-12"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71311"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20142",
+      "name": "IJA GREY GREEN",
+      "hex": "#a5a69f",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0258"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-315"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "C-315 / C-325"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70986"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71121"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20143",
+      "name": "DUST",
+      "hex": "#a19377",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.miG-0072"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-55"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70315"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20144",
+      "name": "ZIMMERIT",
+      "hex": "#a5947e",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0114"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20145",
+      "name": "NEUTRAL GRAY",
+      "hex": "#7c7c7c",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0239"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-53"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "c-13"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71274"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20146",
+      "name": "DARK GREY",
+      "hex": "#62676f",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AmiG-0235"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-83"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-75"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71308"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20147",
+      "name": "GRAUVIOLETT RLM 75",
+      "hex": "#908f93",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0254"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-69"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "C-37"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70869"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71259"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20148",
+      "name": "SHADOW GREY",
+      "hex": "#434453",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0204"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-305"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "C-305"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70868"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71047"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20149",
+      "name": "GREY BROWN",
+      "hex": "#a09392",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-521"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20150",
+      "name": "VIOLET",
+      "hex": "#543995",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.miG-0126"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-49"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70960"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20151",
+      "name": "PURPLE",
+      "hex": "#a561a3",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0127"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-39"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "c-67"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70959"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20152",
+      "name": "AMETHYST",
+      "hex": "#c158bd",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20153",
+      "name": "ORCHID",
+      "hex": "#b06094",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20154",
+      "name": "LIGHT PLUM",
+      "hex": "#e286e0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20155",
+      "name": "MAUVE",
+      "hex": "#9389ad",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20156",
+      "name": "PUTRID FLESH",
+      "hex": "#9a8d90",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20157",
+      "name": "GRAUGRUN RLM 74",
+      "hex": "#45504d",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0253"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-68"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "C-36"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70867"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71258"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20158",
+      "name": "SCHWARZGRAU RLM 66",
+      "hex": "#352d32",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0218"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-416"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "C-116"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70866"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71055"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20159",
+      "name": "RUBBER & TIRES",
+      "hex": "#46383f",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0033"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "4-77"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "C-137"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70306"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71315"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20160",
+      "name": "DUNKELGRAU RAL7021",
+      "hex": "#342e39",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.miG-00O8"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-401"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "C-301 / C-339"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70862"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71056"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20161",
+      "name": "NATO BLACK",
+      "hex": "#2f2a2b",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0278"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20162",
+      "name": "SATIN BLACK",
+      "hex": "#161616",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0032"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "H-2"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "c-2/C-92"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70861"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20163",
+      "name": "MATT BLACK",
+      "hex": "#151515",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMO.F-502"
+        },
+        {
+          "brand": "Hobby Color",
+          "code": "#-12"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "C-33"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70950"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71057"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20164",
+      "name": "SILVER",
+      "hex": "#acafab",
+      "equivalents": [
+        {
+          "brand": "Tamiya",
+          "code": "XF-16"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71062"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20165",
+      "name": "ALUMINUM",
+      "hex": "#d1d1d1",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20166",
+      "name": "STEEL",
+      "hex": "#adadad",
+      "equivalents": [
+        {
+          "brand": "Hobby Color",
+          "code": "H-8"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "C-8 /C-90"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70997"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71063"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20167",
+      "name": "GUN METAL",
+      "hex": "#696969",
+      "equivalents": [
+        {
+          "brand": "Hobby Color",
+          "code": "H-18"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "C-28"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70864"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71065"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20168",
+      "name": "METALLIC BLACK",
+      "hex": "#050505",
+      "equivalents": [
+        {
+          "brand": "Model Color",
+          "code": "70863"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71072"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20169",
+      "name": "BURNT IRON",
+      "hex": "#3a2a21",
+      "equivalents": [
+        {
+          "brand": "Hobby Color",
+          "code": "4-76"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF-84"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71073"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20170",
+      "name": "COPPER",
+      "hex": "#ba4c1e",
+      "equivalents": [
+        {
+          "brand": "Hobby Color",
+          "code": "4-10"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "c-10"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70999"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71068"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20171",
+      "name": "GOLD PINK",
+      "hex": "#f9b566",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMIG-0197"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70996"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71066"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20172",
+      "name": "GOLD",
+      "hex": "#ab8b46",
+      "equivalents": [
+        {
+          "brand": "Hobby Color",
+          "code": "H-9"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "c-9"
+        },
+        {
+          "brand": "Model Color",
+          "code": "70801"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20173",
+      "name": "BRASS",
+      "hex": "#b49770",
+      "equivalents": [
+        {
+          "brand": "Model Air",
+          "code": "71070"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20174",
+      "name": "METALLIC RED",
+      "hex": "#d43c22",
+      "equivalents": [
+        {
+          "brand": "Hobby Color",
+          "code": "H-87"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "c-75"
+        },
+        {
+          "brand": "Model Air",
+          "code": "71417"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20175",
+      "name": "AOTAKE GREEN",
+      "hex": "#558f69",
+      "equivalents": [
+        {
+          "brand": "Model Air",
+          "code": "71419"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20176",
+      "name": "AOTAKE BLUE",
+      "hex": "#3d7cca",
+      "equivalents": [
+        {
+          "brand": "Hobby Color",
+          "code": "H-63"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "c-57"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20177",
+      "name": "WASHABLE WHITE",
+      "hex": "#ffffff",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0024"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20178",
+      "name": "WASHABLE DUST",
+      "hex": "#ad8d59",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.MIG-0105"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20179",
+      "name": "WASHABLE SAND",
+      "hex": "#e3b67d",
+      "equivalents": [
+        {
+          "brand": "Ammo by Mig",
+          "code": "A.miG-0106"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "ATOM-20500",
+      "name": "THINNER AND   CLEANER",
+      "hex": "#ffffff",
+      "equivalents": [],
+      "confidence": null
+    }
+  ]
+}

@@ -11,12 +11,11 @@
     </script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+  <body class="bg-sky-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
     <div class="max-w-full mx-auto p-6">
       <header class="mb-6">
         <h1 class="text-2xl font-semibold">Scale Model Color Manager</h1>
-        <p class="text-sm text-gray-600 dark:text-gray-300">Client-only demo: list view with in-stack toggles (saved to browser).</p>
-      </header>
+        
 
       <section class="mb-4">
         <label class="block text-sm font-medium mb-2">Brands</label>
@@ -24,22 +23,22 @@
       </section>
 
       <section>
-        <div id="list" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 shadow-sm"></div>
+        <div id="list" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 shadow-sm "></div>
 
         <template id="colorRowTemplate">
-          <div class="bg-white dark:bg-gray-800 p-4 rounded shadow-sm flex items-start justify-between text-xs">
-            <div class="flex items-center gap-2 flex-1">
-              <div data-swatch class="w-12 h-12 rounded-full  shadow-sm flex-shrink-0 border-2 border-black"></div>
+          <div class="bg-white dark:bg-gray-800 p-0  rounded-xl shadow-sm flex justify-between text-xl overflow-hidden">
+            <div data-swatch class="w-12   shadow-sm flex-shrink-0 "></div>
+            <div class="flex items-center gap-2 flex-1 p-2">
               <div class="flex-1 min-w-0">
                 <div data-code class="font-semibold text-xl truncate mb-0">CODE</div>
                 <div data-name class="font-semibold text-xs truncate mb-2">NAME</div>
                 <div data-type class="text-xs text-gray-500 dark:text-gray-400 "></div>
-                <div data-equivalents class="text-xs text-gray-500 dark:text-gray-400 flex flex-wrap"></div>
+                <div data-equivalents class="hidden text-xs text-gray-500 dark:text-gray-400"></div>
+                <div data-secondary-equivalents class="hidden text-xs text-gray-500 dark:text-gray-400"></div>
               </div>
-            </div>
-            <div>
               <button data-btn class="px-2 py-0.5 rounded border text-xs whitespace-nowrap">Stack</button>
             </div>
+            
           </div>
         </template>
       </section>
@@ -57,6 +56,6 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+
   </body>
 </html>

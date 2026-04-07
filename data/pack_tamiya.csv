@@ -1,0 +1,71 @@
+code,name,hex
+XF1,Flat Black,#000000
+XF2,Flat White,#fefefe
+XF3,Flat Yellow,#fedc00
+XF4,Yellow Green,#b3bc43
+XF5,Flat Green,#60836b
+XF6,Copper,#c45033
+XF7,Flat Red,#eb1c29
+XF8,Flat Blue,#01698e
+XF9,Hull Red,#6b3237
+XF10,Flat Brown,#5b3e38
+XF11,J.N. Green,#0f493a
+XF12,J.N. Gray,#bdc8bc
+XF13,J.A. Green,#284a47
+XF14,J.A. Gray,#e5e1cc
+XF15,Flat Flesh,#fac48e
+XF16,Flat Aluminum,#a7aaa9
+XF17,Sea Blue,#2b415f
+XF18,Medium Blue,#197b9e
+XF19,Sky Gray,#bdc7c3
+XF20,Medium Gray,#a7b3af
+XF21,Sky,#deecc6
+XF22,RLM Gray,#4c5c5f
+XF23,Light Blue,#6fccdb
+XF24,Dark Gray,#426c7c
+XF25,Light Sea Gray,#738e9b
+XF26,Deep Green,#2c6a48
+XF27,Black Green,#134832
+XF28,Dark Copper,#9e7e6b
+XF49,Khaki,#978943
+XF50,Field Blue,#1f85a3
+XF51,Khaki Drab,#5f6362
+XF52,Flat Earth,#974e39
+XF53,Neutral Gray,#627987
+XF54,Dark Sea Gray,#9fa7ac
+XF55,Deck Tan,#c3b39e
+XF56,Metallic Gray,#6c6e72
+XF57,Buff,#c39e7c
+XF58,Olive Green,#334a3b
+XF59,Desert Yellow,#ecb882
+XF60,Dark Yellow,#bba84d
+XF61,Dark Green,#134932
+XF62,Olive Drab,#515f41
+XF63,German Gray,#39606d
+XF64,Red Brown,#513b29
+XF65,Field Gray,#4a6f7c
+XF66,Light Gray,#466576
+XF67,NATO Green,#405c3c
+XF68,NATO Brown,#715138
+XF69,NATO Black,#231f20
+XF70,Dark Green 2,#224636
+XF71,Cockpit Green (IJN),#759479
+XF72,Brown (JGSDF),#81603a
+XF73,Dark Green (JGSDF),#3a6742
+XF74,Olive Drab (JGSDF),#415c3d
+XF75,IJN Gray,#64727f
+XF76,Gray Green,#a7b49a
+XF77,IJN Gray (Sasebo Arsenal),#4b525e
+XF78,Deck Tan Wooden,#b6a685
+XF79,Deck Brown Linoleum,#665039
+XF80,Navy Gray (British),#afb8b9
+XF81,Dark Green,#455737
+XF82,Ocean Gray,#5f8390
+XF83,Medium Sea Gray,#9ab0ad
+XF84,Dark Iron,#5f483a
+XF85,Rubber Black,#231f20
+XF86,Flat Clear,#fefefe
+XF87,IJN Gray (Maizuru Arsenal),#70777f
+XF88,Light Green,#baa54f
+XF89,Green,#60826b
+XF90,Purple,#5a3d38
