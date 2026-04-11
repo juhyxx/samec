@@ -153,6 +153,83 @@ def normalize_atom_code(text):
     return None
 
 
+def normalize_atom_equiv_code(code):
+    """Normalize an equivalent code: strip dashes/spaces/dots, uppercase, O→0, I→1 when digits present.
+
+    Special post-fixes:
+    - AM1G\d{4} → MIG-\d{4}  (AMIG OCR corruption; normalises to ammo pack format)
+    - AMM0F\d+  → AMMOF\d+   (AMMO filter codes; O→0 corruption)
+    """
+    if not code:
+        return None
+    s = code.strip().upper().replace("-", "").replace(" ", "").replace(".", "")
+    if any(ch.isdigit() for ch in s):
+        s = s.replace("I", "1").replace("O", "0").replace("L", "1")
+    if s in {"-", "--", ""}:
+        return None
+    # AMIG codes: AM1G0050 (all OCR variants collapse here) → MIG-0050
+    m = re.match(r"^AM1G(\d{4})$", s)
+    if m:
+        return f"MIG-{m.group(1)}"
+    # AMMO filter codes: AMM0F515 → AMMOF515
+    m = re.match(r"^AMM0F(\d{3,4})$", s)
+    if m:
+        return f"AMMOF{m.group(1)}"
+    return s
+
+
+def build_atom_equivalents(brand, raw_code):
+    """Build one or more equivalents from raw OCR text, splitting on '/'."""
+    if not raw_code or raw_code.strip() in {"-", "--"}:
+        return []
+    results = []
+    seen = set()
+    for part in raw_code.split("/"):
+        code = normalize_atom_equiv_code(part)
+        if not code:
+            continue
+        # Infer sub-brand from code prefix for H/C codes
+        effective_brand = brand
+        if re.match(r"^H\d", code):
+            effective_brand = "Gunze Sangyo"
+        elif re.match(r"^C\d", code):
+            effective_brand = "Mr. Hobby"
+        key = (effective_brand, code)
+        if key not in seen:
+            seen.add(key)
+            results.append({"brand": effective_brand, "code": code})
+    return results
+
+
+def extract_rlm_from_name(color_name):
+    """Extract RLM codes from color name (e.g., 'OLIVGRiN (RLM 71)' or 'SANDGELB RLM 79').
+
+    Handles patterns like:
+    - RLM XX (with optional hyphen: RLM-XX)
+    - (RLM XX)
+    Returns list of equivalents with brand='RLM'.
+    """
+    if not color_name:
+        return []
+
+    results = []
+    seen = set()
+
+    # Match patterns: RLM XX, RLM-XX, (RLM XX), (RLM-XX), etc.
+    # Case insensitive
+    pattern = r"\(?RLM[\s-]?(\d{2}(?:-\d)?)\)?"
+    matches = re.findall(pattern, color_name, re.IGNORECASE)
+
+    for match in matches:
+        # Normalize to RLM-XX or RLM-XX-X format
+        code = f"RLM-{match}"
+        if code not in seen:
+            seen.add(code)
+            results.append({"brand": "RLM", "code": code})
+
+    return results
+
+
 def extract_table_colors_grid(img_path, left_x=TABLE_LEFT_POS):
     """Sample pixels at left_x_frac (fraction of image width) for every row.
 
@@ -276,15 +353,20 @@ def parse_ammo_atom_images(folder_path, output_json):
                 equivalents = []
                 for equiv_key, brand_name in [
                     ("AMMO", "Ammo by Mig"),
-                    ("HOBBY COLOR", "Hobby Color"),
-                    ("MR.COLOR", "Mr. Color"),
+                    ("HOBBY COLOR", "Gunze Sangyo"),
+                    ("MR.COLOR", "Mr. Hobby"),
                     ("TAMIYA", "Tamiya"),
-                    ("MODEL COLOR", "Model Color"),
-                    ("MODEL AIR", "Model Air"),
+                    ("MODEL COLOR", "Vallejo Model Color"),
+                    ("MODEL AIR", "Vallejo Model Air"),
                 ]:
                     val = cols.get(equiv_key)
                     if val and val.strip() and val.strip() not in {"-", "--"}:
-                        equivalents.append({"brand": brand_name, "code": val.strip()})
+                        equivalents.extend(
+                            build_atom_equivalents(brand_name, val.strip())
+                        )
+
+                # Extract RLM codes from color name
+                equivalents.extend(extract_rlm_from_name(color_name))
 
                 all_colors.append(
                     {

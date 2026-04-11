@@ -251,6 +251,42 @@ def build_equivalent(brand, text):
     return {"brand": brand, "code": code}
 
 
+def build_equivalents(brand, text):
+    """Convert raw OCR cell text (possibly 'C314/H314') into one or more equivalents.
+
+    When the Gunze / Mr. Hobby column contains a slash-separated pair, the first
+    code (C-prefix) maps to Mr. Hobby and the second (H-prefix) to Gunze Sangyo.
+    For all other brands, a single equivalent is returned.
+    """
+    if not text or text.strip() in {"-", "--"}:
+        return []
+
+    parts = [p.strip() for p in text.split("/") if p.strip()]
+    if len(parts) <= 1:
+        eq = build_equivalent(brand, text)
+        return [eq] if eq else []
+
+    results = []
+    seen = set()
+    for part in parts:
+        # Infer brand from code prefix for the Gunze/Mr. Hobby column
+        effective_brand = brand
+        part_upper = part.strip().upper().replace("-", "")
+        if re.match(r"^C\d", part_upper):
+            effective_brand = "Mr. Hobby"
+        elif re.match(r"^H\d", part_upper):
+            effective_brand = "Gunze Sangyo"
+
+        eq = build_equivalent(effective_brand, part)
+        if not eq:
+            continue
+        key = (eq["brand"], eq["code"])
+        if key not in seen:
+            seen.add(key)
+            results.append(eq)
+    return results
+
+
 def cluster_rows(text_entries, y_tol=20):
     """Group text entries into rows by Y-coordinate proximity.
 
@@ -550,15 +586,13 @@ def extract_color_data_from_rows(text_entries, image_array, image_width):
             if not column_key:
                 continue
 
-            equivalent = build_equivalent(column_brand_map[column_key], entry_text)
-            if not equivalent:
-                continue
-
-            pair = (equivalent["brand"], equivalent["code"])
-            if pair in seen_equivalent_pairs:
-                continue
-            seen_equivalent_pairs.add(pair)
-            equivalents.append(equivalent)
+            eqs = build_equivalents(column_brand_map[column_key], entry_text)
+            for equivalent in eqs:
+                pair = (equivalent["brand"], equivalent["code"])
+                if pair in seen_equivalent_pairs:
+                    continue
+                seen_equivalent_pairs.add(pair)
+                equivalents.append(equivalent)
 
         # Step 4: Sample pixel at TABLE_LEFT_POS for this row (no K-means needed).
         row_y = mean([e["bbox"]["y"] for e in row_entries])

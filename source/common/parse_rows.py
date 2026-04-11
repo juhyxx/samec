@@ -101,6 +101,85 @@ def normalize_code(code):
     return code.replace("-", "")
 
 
+def split_concatenated_codes(code_string):
+    """Split concatenated brand codes like 'FS35352RLM 65' into separate codes.
+
+    Handles patterns:
+    - FS35352RLM 65 → ['FS 35352', 'RLM 65']
+    - FS34095RAL 6020RLM 82 → ['FS 34095', 'RAL 6020', 'RLM 82']
+    - FS 26373BS 627 → ['FS 26373', 'BS 627']
+    - C3/C79/C114 → ['C3', 'C79', 'C114'] (slashed codes)
+
+    Returns a list of code strings.
+    """
+    if not code_string:
+        return []
+
+    code_string = code_string.strip()
+
+    # Handle slashed codes (e.g., C3/C79/C114 for Vallejo variants)
+    if "/" in code_string:
+        return [c.strip() for c in code_string.split("/") if c.strip()]
+
+    # Find all brand code patterns
+    codes = []
+    text = code_string.upper()
+
+    # Patterns: FS, RAL, RLM, BS, etc. followed by optional space/dash and digits
+    pattern = r"(FS|RAL|RLM|BS|HI|MR|XF)\s*[-\s]?(\d+)"
+
+    for match in re.finditer(pattern, text):
+        brand = match.group(1)
+        code = match.group(2)
+
+        # Format appropriately
+        if brand == "RLM":
+            codes.append(f"RLM {code}")
+        elif brand == "RAL":
+            codes.append(f"RAL {code}")
+        elif brand == "FS":
+            codes.append(f"FS {code}")
+        elif brand == "BS":
+            codes.append(f"BS {code}")
+        else:
+            codes.append(f"{brand}{code}")
+
+    # If no patterns matched, return the original string
+    if not codes:
+        codes = [code_string]
+
+    return codes
+
+
+def parse_definition_equivalents(definition):
+    """Parse a concatenated definition string like 'FS34082-RAL 6003-RLM 03' into
+    separate equivalent entries for FS, RAL and RLM brands.
+
+    Returns a list of {brand, code} dicts (empty if nothing matched).
+    """
+    if not definition:
+        return []
+    equivs = []
+    seen = set()
+    text = definition.upper()
+    for m in re.finditer(r"FS[-\s]?(\d{5})", text):
+        code = f"FS {m.group(1)}"
+        if code not in seen:
+            seen.add(code)
+            equivs.append({"brand": "Federal Standard", "code": code})
+    for m in re.finditer(r"RAL[-\s]?(\d{4})", text):
+        code = f"RAL {m.group(1)}"
+        if code not in seen:
+            seen.add(code)
+            equivs.append({"brand": "RAL", "code": code})
+    for m in re.finditer(r"RLM[-\s]?(\d{2,3})", text):
+        code = f"RLM-{m.group(1).zfill(2)}"
+        if code not in seen:
+            seen.add(code)
+            equivs.append({"brand": "RLM", "code": code})
+    return equivs
+
+
 def normalize_reference(ref):
     if not ref:
         return None
@@ -195,7 +274,38 @@ def parse_catalog():
             ):
                 v = cols.get(key)
                 if v:
-                    equivalents.append({"brand": key, "code": normalize_code(v)})
+                    # Split any concatenated codes (e.g., "FS35352RLM 65" → ["FS 35352", "RLM 65"])
+                    split_codes = split_concatenated_codes(v)
+
+                    for code_str in split_codes:
+                        code_str = code_str.strip()
+                        if not code_str:
+                            continue
+
+                        # Determine if this is a standard brand code (FS, RAL, RLM, BS) or a variant code
+                        code_upper = code_str.upper()
+                        brand_to_use = key  # default to the column name
+
+                        # Check if code matches a known brand pattern
+                        if code_upper.startswith("FS ") or code_upper.startswith("FS"):
+                            brand_to_use = "Federal Standard"
+                            code_str = normalize_code(code_str)
+                        elif code_upper.startswith("RAL"):
+                            brand_to_use = "RAL"
+                            code_str = normalize_code(code_str)
+                        elif code_upper.startswith("RLM"):
+                            brand_to_use = "RLM"
+                            code_str = normalize_code(code_str)
+                        elif code_upper.startswith("BS"):
+                            brand_to_use = "British Standard"
+                            code_str = normalize_code(code_str)
+                        else:
+                            code_str = normalize_code(code_str)
+
+                        equivalents.append({"brand": brand_to_use, "code": code_str})
+
+            # Parse FS/RAL/RLM codes out of the definition column
+            equivalents.extend(parse_definition_equivalents(definition))
 
             # If the visible color name contains an RLM code (e.g. "RLM-02"),
             # add it as an equivalent. This is useful for Gunze/table rows.

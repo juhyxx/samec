@@ -58,6 +58,15 @@ parse_tamiya_images = parse_tamiya.parse_tamiya_images
 parse_ak = load_module("parse_ak", SCRIPT_DIR / "source/ak/__main__.py")
 parse_ak_images = parse_ak.parse_ak_images
 
+parse_rlm = load_module("parse_rlm", SCRIPT_DIR / "source/rlm/__main__.py")
+parse_rlm_images = parse_rlm.parse_rlm_images
+
+parse_humbrol = load_module("parse_humbrol", SCRIPT_DIR / "source/humbrol/__main__.py")
+parse_humbrol_images = parse_humbrol.parse_humbrol_images
+
+parse_vallejo = load_module("parse_vallejo", SCRIPT_DIR / "source/valejo/__main__.py")
+parse_vallejo_images = parse_vallejo.parse_vallejo_images
+
 
 def load_equivalents(equivalents_file):
     """Load equivalents mapping from JSON file."""
@@ -194,6 +203,27 @@ def run_all_parsers():
             "data/pack_ak.json",
             "AK Interactive",
         ),
+        (
+            "rlm",
+            parse_rlm_images,
+            "source/rlm",
+            "data/pack_rlm.json",
+            "RLM",
+        ),
+        (
+            "humbrol",
+            parse_humbrol_images,
+            "source/humbrol",
+            "data/pack_humbrol.json",
+            "Humbrol",
+        ),
+        (
+            "vallejo",
+            parse_vallejo_images,
+            "source/valejo",
+            "data/pack_vallejo.json",
+            "Vallejo",
+        ),
     ]
 
     # Run selected or all parsers
@@ -288,6 +318,27 @@ def run_single_parser(brand):
             "data/pack_ak.json",
             "AK Interactive",
         ),
+        "rlm": (
+            "rlm",
+            parse_rlm_images,
+            "source/rlm",
+            "data/pack_rlm.json",
+            "RLM",
+        ),
+        "humbrol": (
+            "humbrol",
+            parse_humbrol_images,
+            "source/humbrol",
+            "data/pack_humbrol.json",
+            "Humbrol",
+        ),
+        "vallejo": (
+            "vallejo",
+            parse_vallejo_images,
+            "source/valejo",
+            "data/pack_vallejo.json",
+            "Vallejo",
+        ),
     }
 
     if brand not in parsers:
@@ -318,7 +369,7 @@ if __name__ == "__main__":
         default=None,
         help=(
             "Brand to parse "
-            "(mr_hobby, ammo, ammo-atom, gunze, tamiya, ak) - omit to run all"
+            "(mr_hobby, ammo, ammo-atom, gunze, tamiya, ak, rlm, humbrol, vallejo) - omit to run all"
         ),
     )
 

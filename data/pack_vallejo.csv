@@ -1,0 +1,694 @@
+code,name,hex
+69.001,Pure White,#edbe94
+69.002,White Grey,#edbe94
+69.003,Off-White,#b9b9ad
+69.004,Yellow,#dad4c2
+69.005,Light Flesh,#edbe94
+69.006,Pink,#edbe94
+69.007,Orange,#cb816b
+69.008,Red,#d7633b
+69.009,SZ Red,#963b3c
+69.010,Magenta,#963b3c
+69.011,Dark Red,#8b3e65
+69.012,Purple,#652b33
+69.013,Titan Blue,#283848
+69.014,Grey Green,#283848
+69.015,Blue Grey,#586c6d
+69.016,Light Blue,#627a88
+69.017,Sky Blue,#61b2cf
+69.018,Deep Blue,#66b4d0
+69.019,Blue,#2c84a7
+69.020,Electric Blue MECHA METALLIC 17 ml,#2c4a6e
+69.021,Dark Blue,#445665
+69.022,Titan Dark Blue,#445665
+69.023,Turquoise,#303637
+69.024,Stone Grey,#1d908b
+69.025,Light Green,#b0b8a8
+69.026,Green,#b0b8a8
+69.027,Green Blue,#7b8671
+69.028,Olive Green,#72886d
+69.029,Green,#6b7665
+69.030,Dark Green,#6b7665
+69.031,Grey Sand,#434840
+69.032,Yellow Ochre,#827e6b
+69.033,Sand Yellow,#d08f3d
+69.034,Brown,#e3b270
+69.035,Chipping Brown,#5e4f3e
+69.036,Light Grey,#33312e
+69.037,Grey,#a53331
+69.038,Medium Grey,#758388
+69.039,Grey Z,#1f1e1e
+69.040,Phantom Grey,#5e6462
+69.041,Dark Grey Green,#8987af
+69.042,Pure Black,#3c3f3f
+69.054,Yellow Fluorescent,#2f4e71
+69.055,Orange Fluorescent,#e4de62
+69.056,Magenta Fluorescent,#d46036
+69.057,Green Fluorescent,#cc4d80
+69.058,Gunmetab,#859592
+69.059,Gold,#555b5c
+69.060,Old Gold,#998158
+69.061,Copper,#756346
+69.062,Bronze,#4b553f
+69.063,Stee,#5c513a
+69.064,Light Steel,#42596d
+69.065,Dark Steel,#539678
+69.066,Metallic Red,#c07e40
+69.067,Metallic Blue,#945056
+69.068,Metallic Green,#42596d
+70.400,Unknown,#d1d1d0
+70.470,Unknown,#d5d5d4
+70.510,Unknown,#cdcdcd
+70.520,Unknown,#626262
+70.521,Unknown,#d5d5d4
+70.522,Unknown,#cdcdcd
+70.523,Unknown,#d1d1d0
+70.524,Unknown,#d5d5d4
+70.540,Unknown,#cccbcb
+70.596,Unknown,#cccccc
+70.597,Unknown,#d1d1d0
+70.600,White Blanco Grey,#d1d1cf
+70.601,Gris Negro,#d1d2d1
+70.602,Black,#d9d9d8
+70.603,Dunkelgrau RAL7O21   Dunkelgelb RAL7028 German Panzer Grey,#d9d9d8
+70.604,German Dark Yellow,#cac9c9
+70.605,German Red Brown Rotbraun RAL8O,#a8a09b
+70.606,Germ. Green Brown Gelbbraun RAL8OOO   Verde Bronce UK,#45312e
+70.607,UK Bronze Green,#ced0d0
+70.608,USA Olive Drab Verde Oliva USA,#dbdbda
+70.609,Verde Ruso 4BO Russian Green 4BO,#d3d3d2
+70.610,Parched Grass (Late) Earth Green (Early) IJA-Kare-Kusa-IRO,#d6d6d5
+70.611,IJA Tsuchi-Kusa-IRO  Verde OTAN,#d1d0cf
+70.612,NATO Green,#4a442e
+70.613,Arena Desierto Desert Tan,#384137
+70.614,IDF Isr Sand IDF Gris Arena Isr: Grey _ (61-73)   USN Light Ghost Grey,#c6bfb3
+70.615,USN Gris Claro,#d7d6d5
+70.625,Unknown,#d0d0cf
+70.629,Unknown,#e5923d
+70.630,Unknown,#d0d0cf
+70.631,Unknown,#667d86
+70.632,Unknown,#e5923d
+70.740,Cam Middle Brown Cam Marron Medio   Sombra Tostada,#322e20
+70.741,Cam. Black Green,#2a2c26
+70.745,Dark Rose Rosa Oscuro Sunny Skin Tone,#5f4543
+70.746,Chestnut Brown Marron Castano,#725341
+70.747,Faded Red Rojo Desgastado,#5a2e2d
+70.748,Light Pink Rosa Claro,#3b2a29
+70.749,Dark Purple Purpura Oscuro,#c9c9c9
+70.750,Light Violet Violeta Claro,#867e8c
+70.751,Black Violet Violeta Negro,#d4d5d4
+70.752,Azul Infanteria 63 Sky,#d3d4d3
+70.753,Light Blue Green Azul Verde Claro,#213d57
+70.754,Continental Azul Continental Blue 73 Light Emerald,#cacaca
+70.755,Esmeralda Claro,#d6d6d6
+70.756,Splinter Green Verde Splinter,#d5d6d5
+70.757,Pacific Green Verde Pacifico 81 Gunship Green,#4d5f56
+70.758,Bright Green Verde Claro 85 Intermediate Green   Fern Green,#3c413a
+70.759,German Tank Crew,#414032
+70.760,Light Mud Lodo Claro,#685d4d
+70.761,139,#5a5a59
+70.762,Marron Grisaceo,#5d5540
+70.763,Lona Canvas,#626362
+70.764,Military Yellow 125 Japan. Unif WWII,#dad9d9
+70.765,Unknown,#5a5a59
+70.766,Cream White Blanco Crema,#d0d1d0
+70.767,Unknown,#626261
+70.768,Unknown,#dbdbda
+70.769,Unknown,#626261
+70.770,Unknown,#5a5a59
+70.771,Unknown,#cbcbca
+70.772,Unknown,#cacaca
+70.773,Unknown,#525252
+70.774,Unknown,#575757
+70.790,Unknown,#c8cfce
+70.791,Unknown,#c4bfb6
+70.792,Unknown,#afa045
+70.793,Unknown,#8e703b
+70.794,Unknown,#b07e39
+70.795,Unknown,#706034
+70.796,Unknown,#cdd0cc
+70.797,Unknown,#793f2d
+70.800,204,#a99997
+70.801,Unknown,#a99997
+70.802,Sunset Red Rojo Sunset 45 Violet Red,#6c3347
+70.803,Brown Rose Rosa Marron,#b4aba9
+70.804,Beige Red Rojo Beige,#d4d4d3
+70.805,Naranja Aleman Rosa Antiguo,#c88b7b
+70.806,German Yellow Amarillo Lasur,#d3d3d3
+70.807,Oxford Blue Azul Oxford,#444266
+70.808,Blue Green Azul Verde 69 Light Turquoise Turquesa Claro,#31858b
+70.809,Royal Blue Azul Real,#cecece
+70.810,Purpura Real Royal Purple,#d5d6d5
+70.811,Violeta Azul Blue Violet,#444266
+70.812,Rojo Violeta,#cdcecd
+70.814,163,#616160
+70.815,Carne Base Basic Skin Tone,#d4d4d4
+70.816,Unknown,#d7d7d6
+70.817,Scarlet,#b3533f
+70.818,Unknown,#cacaca
+70.819,Unknown,#606060
+70.820,Off-White Blanco Pergamino Ivory,#d5864f
+70.821,Germ: Beige WWII Beige Alem. WWII,#685d4d
+70.822,Unknown,#d5d4d4
+70.823,Luftwaffe Green Verde Luftwaffe 95 Military Green,#3d4738
+70.824,Unknown,#cececd
+70.825,Unknown,#d9d9d9
+70.826,Medium Brown 129,#5a5a59
+70.827,Lime Green Verde Lima,#6e8146
+70.828,193,#a99997
+70.829,Amaranth Red Rojo Amaranth 36 Escarlata,#98534a
+70.830,Ger Fieldgrey WWII Verde Aleman WII  Carrista Aleman,#d3d4d3
+70.833,Verde Helecho,#495842
+70.835,Salmon Rose Rosa Salmon German Orange,#cdcecd
+70.836,Unknown,#cdcccc
+70.837,Pale Sand Arena Clara,#d0d1d0
+70.838,Emerald Esmeralda,#d0d0d0
+70.840,Unknown,#246971
+70.841,Andrea Blue Azul Andrea,#4880a2
+70.843,Cork Brown Marron Corcho,#d3d3d3
+70.844,Azul Profundo Sky Blue,#9eafab
+70.845,Carne Dorada,#5f4543
+70.846,Unknown,#d5d3d3
+70.847,Unknown,#606060
+70.850,Medium Olive Oliva Medio,#38412d
+70.851,Bright Orange Naranja Intenso,#cecdcc
+70.856,Unknown,#595958
+70.858,Ice Yellow Amarillo Hielo,#cdad7d
+70.859,Rojo Negro Black Red,#3b2a29
+70.860,Carne Medio Med. Flesh Tone,#bb8d5d
+70.861,192,#cccccb
+70.862,Unknown,#d6d6d5
+70.863,198,#626262
+70.864,Unknown,#5f5f5d
+70.865,196,#d6d6d5
+70.866,Unknown,#d3d2d2
+70.867,Unknown,#575757
+70.868,Unknown,#5c5d5c
+70.869,Unknown,#5f5f5d
+70.870,Unknown,#d0d0d0
+70.871,Unknown,#9e9390
+70.872,Unknown,#d8d7d7
+70.873,Unknown,#d9d9d9
+70.874,Unknown,#cfcfcf
+70.875,Unknown,#60605f
+70.876,Brown Sand Arena Marron,#81604b
+70.877,158,#626261
+70.878,Unknown,#575757
+70.879,Green Brown,#595959
+70.880,Unknown,#d8d4cd
+70.881,Green Yellow,#939080
+70.882,Middle Stone 124,#ded9cf
+70.883,Unknown,#d4cfc8
+70.884,Stone Grey Gris Piedra,#706958
+70.885,Pastel Green Verde Pastel,#84886d
+70.886,Green Gris Verdoso Grey,#84886d
+70.887,US Olive Drab 122,#d1d1ce
+70.888,Olive Gris Oliva Grey,#5c5b5b
+70.889,Olive Brown,#60605f
+70.890,Verde Refractario Refractive Green,#35372e
+70.891,Verde Medio,#5f6f49
+70.892,Yellow Olive Oliva Amarillo,#272c27
+70.893,US Dark Green Verde Americano,#404131
+70.894,Cam: Olive Green Cam: Verde Oliva 108 Cam: Verde Negro,#5c5b5b
+70.895,Verde Acorazado,#89948e
+70.896,Extra Dark Green Verde Extra Osc.,#272c27
+70.897,Bronze Green Verde Bronce,#353f38
+70.898,Dark Sea Blue Azul Marina Osc.,#919da3
+70.899,Dark Prussian Blue Azul de Prusia Osc   Azul Pastel,#d5d5d5
+70.901,Pastel Blue,#221d2a
+70.902,Azure Azul Azur,#cccccc
+70.905,178,#5c5d5c
+70.906,Unknown,#595958
+70.907,Unknown,#595958
+70.908,Carmine Red Rojo Carmin,#a23733
+70.909,Vermilion Bermellon,#d5d6d5
+70.911,Light Orange Naranja Claro 29,#e7974b
+70.913,Unknown,#cbcbca
+70.914,132,#d6d6d6
+70.915,Deep Yellow Amarillo Intenso,#d4c248
+70.916,Unknown,#d5d4d4
+70.917,Unknown,#d8d7d3
+70.918,Hueso,#936651
+70.919,Cold White Blanco Frio,#5f4543
+70.920,German Uniform Uniforme Aleman,#dcdcdb
+70.921,English Uniform 128,#626261
+70.922,Uniform Green Verde Uniforme,#424f35
+70.923,126,#595959
+70.924,Russian Unif WWII Unifor Ruso WWII,#696856
+70.925,Blue Azul Intenso Infantry Blue,#d4d5d4
+70.926,Red Rojo,#76312d
+70.927,Carne Oscura Dark Flesh,#c48557
+70.928,Light Flesh Carne Clara,#81604b
+70.929,Light Brown Marron Claro,#d8d8d7
+70.930,Dark Blue Azul Oscuro,#27324d
+70.939,Unknown,#cccbcb
+70.940,153,#c9c8c8
+70.941,Burnt Umber,#362f22
+70.943,Unknown,#cccccb
+70.944,Old Rose,#d5d5d4
+70.945,Magenta Magenta,#b5a5aa
+70.946,Rojo Oscuro Dark Red,#b19795
+70.947,Bermellon Oscuro   Rojo Mate Dark Vermilion,#a04237
+70.948,Golden Yellow Amarillo Dorado,#e6a84e
+70.949,Light Yellow Amarillo Claro,#dbbc6f
+70.950,191,#d0d0d0
+70.951,White Blanco,#5f4543
+70.952,Lemon Yellow Amarillo Limon,#ebc45b
+70.953,Flat Yellow Amarillo Mate,#e0b645
+70.954,Yellow Green Amarillo Verde,#1b221c
+70.955,Flat Flesh Carne Mate,#42322e
+70.956,Clear Orange Naranja,#ae4d39
+70.957,Flat Red,#98433f
+70.958,Pink Rosa,#c9c9c9
+70.959,Purple Purpura,#d4d4d3
+70.960,Violet Violeta,#d4d5d4
+70.961,Azul Cielo Blue 64 Deep,#d5d5d4
+70.962,Flat Blue Azul Mate,#526776
+70.963,Azul Medio Medium Blue,#06638e
+70.964,Unknown,#d7d7d6
+70.965,Prussian Blue Azul de Prusia,#d3d4d3
+70.966,Turquoise,#1d3746
+70.967,Olive Green Verde Oliva,#6b7f42
+70.968,Verde Oliva Osc. Flat Green,#384530
+70.969,Verde Park Green Flat 78 Deep Green,#3d523d
+70.970,Verde Oscuro,#2a5344
+70.971,167 |,#d4cfc8
+70.972,Unknown,#595958
+70.974,Green Sky Verde Azul,#0e5040
+70.975,Verde Militar,#272e22
+70.976,Buff,#dbdbdb
+70.977,Unknown,#d5d4d4
+70.978,Dark Yellow Amarillo Camuflaje,#817e53
+70.979,Cam. Dark Green Cam. Verde Osc,#d0d1d0
+70.980,Black Green Verde Negro,#c9c9c8
+70.981,Unknown,#60605f
+70.982,Unknown,#616160
+70.983,Unknown,#cdcdcd
+70.984,Unknown,#9d908e
+70.985,Unknown,#d5d3d3
+70.986,Deck Tan Marron Cubierta,#606060
+70.987,Gris Medio Medium Grey,#706958
+70.988,Khaki Marron Caqui 114 Grey Brown,#655e4f
+70.989,176,#cdcccc
+70.990,Unknown,#5f5f5d
+70.991,Unknown,#cccccb
+70.992,Unknown,#595958
+70.993,Unknown,#d6d5d4
+70.994,175,#d6d5d5
+70.995,Unknown,#565655
+70.996,199,#626262
+70.997,195,#d6d6d5
+70.998,Unknown,#d0d0d0
+70.999,203,#a99997
+71.001,White Blanco,#5b5949
+71.002,Amarillo Medio Medium Yellow,#5b5949
+71.003,Red RLM23 RLM23 Rot,#e9a140
+71.004,Blue Azul Grey Blue,#dcdcdb
+71.005,Azul Gris,#29374d
+71.006,Light Green Chrom: Verde Claro Cromo,#d4d4d2
+71.007,Olive Green Verde Oliva,#4a523c
+71.008,Pale Blue Azul Claro,#d6d6d5
+71.009,"Verde Huevo Pato Eau de Nil ""D.EG""",#dadad9
+71.010,Unknown,#4c4938
+71.011,Unknown,#4c4938
+71.012,Unknown,#3b3d37
+71.013,Unknown,#43453a
+71.014,Unknown,#d1d1d0
+71.015,Unknown,#dadad9
+71.016,Unknown,#cbcbca
+71.017,Unknown,#cfcfce
+71.018,Unknown,#3f4037
+71.019,Camou: Dark Green   Green Brown RAL6OO7 Griin,#3a3d39
+71.020,Verde Pardo,#3a3d39
+71.021,RLM7O Schwarzgrin   RLM82 Hellgrin Black Green RLMZO,#393b35
+71.022,Light Green RLM82   Hemp Tan Green,#d8d9d8
+71.023,Unknown,#d9d9d8
+71.024,Khaki Brown Marron Caqui,#c9c9c8
+71.025,RAL7028 Dunkelgelb   Marron USA Dark Yellow,#dadad9
+71.026,USA Flat Brown,#d0d1d0
+71.027,Light Brown Marron Claro,#c8c9c8
+71.028,Sand Yellow Amarillo Arena Tierra Oscura,#857661
+71.029,Dark Earth Marron Verdoso,#c9c9c8
+71.030,Brown Green,#d9d9d8
+71.031,Piedra Medio Middle Stone,#cccccb
+71.032,Golden Brown Marron Dorado,#cbcbca
+71.033,Yellow Ochre RAL1OO6 Gelb Sand Brown,#cccdcc
+71.034,Marron Arena,#d0d0cf
+71.035,Camou: Pale Brown Camuf Pardo Claro Mahogany,#cececd
+71.036,Caoba,#4f4439
+71.037,Mud Brown Marron Lodo,#cccbca
+71.038,Cam Med: Brown Cam: Pardo Medio,#d5d5d4
+71.039,Hull Red Marron Rojizo,#5e5850
+71.040,Sombra Tostada Burnt Umber,#cdcecd
+71.041,Armour Brown RAL8O17 Rotbraun,#c8c8c7
+71.042,Dark Brown RLM61 RLM61 Dunkelbraun US Verde Oliva,#4a4846
+71.043,US Olive Drab,#c9cac9
+71.044,Grey RLMO2 RLMO2 Grau,#423f37
+71.045,Cement Gris Cemento Grey,#484d4e
+71.046,Azul Gris Claro Pale Blue Grey Grey,#cececd
+71.047,Gris,#cccdcc
+71.048,Engine Gris Motor Gray,#c8c8c7
+71.049,Sea Gris Mar Grey Light Gris Claro,#cacbca
+71.050,Gray,#5a5f61
+71.051,Gris Neutral Neutral Gray,#dbdbdb
+71.052,Anthracite Gris Antracita Grey,#5e6465
+71.053,Gris Mar Oscuro Dark Sea Gray Dark Grey Blue,#9a8970
+71.054,Gris Azul Oscuro,#484d4e
+71.055,RLM66 Schwarzgrau  RAL7O21 Dunkelgrau Negro Black Grey RLM,#866a5d
+71.056,Panzer Dark Grey,#cecfce
+71.057,Black,#c8c8c7
+71.062,Aluminium (Metal) Aluminio (Metal),#c7c8c7
+71.063,Silver RLMOI (Met ) RLMO1 Silber (Met ),#dadad9
+71.064,Chrome (Metallic) Cromo (Metalizado) Acero (Metalizado),#5d5c63
+71.065,Steel (Metallic),#5b5a61
+71.066,Gold (Metallic) Oro (Metalizado),#9a8970
+71.067,Laton (Metalizado) Bright Brass (Met ),#9c9275
+71.068,Unknown,#866a5d
+71.069,Rust (Metallic) Oxido (Metalizado),#cccccb
+71.070,Signal Red (Metal ) Rojo Senal (Metal),#bc9a9c
+71.071,Azul Artico (Metal ) Arctic Blue (Metal:),#b8737a
+71.072,Fusil (Metalizado) Gunmetal (Metal) Negro (Metalizado),#43454d
+71.073,Black (Metallic) Beige,#5d5c63
+71.074,Beige,#5b5a61
+71.075,Ivory RALIOO1 Elfenbein,#d0b176
+71.076,Skin Tone Color Piel,#bbaa9a
+71.077,Wood Madera,#cbcbca
+71.078,Yellow RLMO4 RLMO4 Gelb,#dadad9
+71.079,Tan Earth Tierra Oxido,#bcab98
+71.080,Rust,#d0d0cf
+71.081,Ochre Ocre,#8b8380
+71.082,Fluorescent Red Rojo Fluorescente,#5d5439
+71.083,Orange Naranja,#d5604d
+71.084,Fire Red Rojo Fuego,#ca5034
+71.085,Ferrari Red Rojo Ferrari,#6c463e
+71.086,Rojo Claro Steel Blue,#d9d9d8
+71.087,Azul Acero,#d8d8d7
+71.088,French Blue Azul Frances,#989fa3
+71.089,Light - Azul Mar Claro Sea Blue Deep Sky,#8bb1bf
+71.090,Azul Oscuro Signal Blue,#7b8f99
+71.091,Azul Senal Ral6003 Olivgriin,#1d2c3b
+71.092,Medium Olive,#1e262c
+71.093,Verde OTAN NATO Green Green Zinc Chrom:,#c8c9c7
+71.094,Verde Zinc,#626661
+71.095,Pale Green Verde Palido,#dcdddb
+71.096,Verde Oliva Gris. Olive Grey,#5f6e4e
+71.097,Gris Medio USAF Med. Gunship Gray,#4a5146
+71.101,Light Blue RLM78 RLM78 Hellblau,#6d7f7d
+71.102,Rojo Red Grey,#cececd
+71.103,RLM84 Graublau Blue RLM,#c8c9c8
+71.104,Green RLM62 RLM62 Grin,#474a3b
+71.105,Brown RLM26 RLM26 Braun,#c8c9c8
+71.106,Ivory RLMOS RLMO5 Elfenbein,#9a8c89
+71.107,US Interior Yellow US Amarillo Inter:,#cec4b2
+71.108,UK Azure Blue UK Azul Azure,#af8e56
+71.109,Faded PRU: Blue M-485 Blue Gray,#cacbca
+71.110,Dark Gris Oscuro Gray,#485d61
+71.111,USAF Light Blue USAF Azul Claro,#c9cac9
+71.112,Sand Arena IDF Blue,#c8c9c8
+71.113,Azul IDF,#c9cac9
+71.114,Gris Medio Medium Gray,#c8c9c8
+71.115,RAL7016 Blaugrau Blue Grey,#5a6a6b
+71.116,RAL7008 Graugrin,#dcdcdb
+71.117,RAL8O2O Braun Camouflage,#d2d1cf
+71.118,RAL7027 Grau Grey,#746b5a
+71.119,White RAL9O02 Grauweiss Grey,#cacbca
+71.120,Dark Ghost Gray Gris Oscuro USAF Light Gull Gray,#c8c9c8
+71.121,Gris Gaviota USN,#c9cac9
+71.122,US Desert Arm: 686   Dark Grey RLM42 US Cam: Moder: 686   RLM42 Dunkelgrau,#a19b8f
+71.123,Unknown,#938f88
+71.124,Verde USAF USAF Green,#404242
+71.125,USAF Brown Marron USAF,#cacbca
+71.126,IDFIIAF Verde IDFIIAF Green Gray,#cdcdcc
+71.128,Gris Violeta Violet,#c9cac9
+71.129,Light Rust Oxido Claro,#cacbca
+71.130,Qrange Rust Oxido Anaranjado,#6f5040
+71.131,Concrete Cemento,#afa8a3
+71.132,Blanco Envejecido Aged White,#605c54
+71.133,Dirt Suciedad,#cbccca
+71.134,IJA Midouri Green IJA Verde Midouri,#353c35
+71.135,IJA Chrome Yellow IJA Amarillo Crom: IJA Marron Tierra,#cbc9c3
+71.136,IJA Earth Brown,#d0b592
+71.137,US Light Green US Verde Claro,#cbcccb
+71.138,US Sand US Arena,#c9cac9
+71.139,US Field Drab US Marron Verdoso,#79705c
+71.140,US Desert Sand US Arena Desierto IDF Sand IDF Gris Arena,#4f4639
+71.141,Grey ~ 73 IDF Gris Sinai 82 IDF Sinai Grey,#c8c9c8
+71.142,Unknown,#c9cac9
+71.143,UK Light Stone UK Piedra Clara,#c8c9c8
+71.244,Sand Beige Lehmbeige,#cbcccb
+71.245,Loam Beige,#cbcbca
+71.246,Yellow Brown Sandbraun,#c8c8c7
+71.247,Light Olive Helloliv,#7b6f5b
+71.248,Brown Gris Marron Grey,#4f4c3e
+71.249,Lederbraun NATO Brown Bronzegrin,#4f4e48
+71.250,Bronze Green,#433c37
+71.251,Teerschwarz NATO Black,#c8c9c8
+71.255,Light Blue RLM65 RLM65 Hellblau,#cacbca
+71.256,Green RLM73 RLM73 Grin Light Blue RLM76 RLM76 Lichtblau,#343b37
+71.257,Grey,#343b37
+71.258,RLM74 Graugriin Green RLM74 Grey ',#c7c8c7
+71.259,RLM75 Grauviolett Violet RLM,#c8c8c7
+71.260,RLM63 Hellgrau Light Grey RLM,#4e5150
+71.261,Unknown,#d5d5d4
+71.262,Unknown,#d5d5d4
+71.263,Green RLMT2 RLM72 Grin,#6c604b
+71.264,RLM81 Braunviolett   RLM8O Olivgriin Brown Violet RLM81   Olive Green RLM8O,#333531
+71.265,Unknown,#4c473d
+71.266,Dark Blue RLM24 RLM24 Dunkelblau,#373c33
+71.267,Unknown,#44655b
+71.268,German Grey RAL60O6 Feldgrau,#cccccb
+71.269,Red RAL3OOO Rot,#a68d8a
+71.270,Off-White RAL9O01 Weiss,#7a3a34
+71.271,German Red Brown RAL8O12 Rotbraun,#c7c8bc
+71.272,Ger: Yellow Brown RAL8OOO Gelbbraun   Gris Oceano,#6c604b
+71.273,Ocean Gray,#665943
+71.274,Aggressor Gris Aggressor Gray,#5a6268
+71.275,USAF Medium USAF Gris Medio Gray,#d9d9d8
+71.276,Gris Claro USAF Light Gray,#c8c9c8
+71.277,Dark Gull Gray Gris Gaviota Osc_ Sand Yellow RLM79   Insignia White,#cdcdcc
+71.278,RLM79 Sandgelb,#cccdcc
+71.279,Blanco Insignia Camouflage Gray,#a5a199
+71.280,Gris Camuflaje,#aba89d
+71.281,3B Russian Green 3B Verde Ruso,#565956
+71.282,6K Russian Brown 6K Marron Ruso 7K Tierra Rusa,#343634
+71.283,7K Russian Tan,#cacbca
+71.284,UK Marron Claro UK Light Mud,#d9dad8
+71.285,IJA Dark Green IJA Verde Oscuro,#dcdcdb
+71.286,IJA Olive Green IJA Verde Oliva IJA Marron Caqui,#d0d0cf
+71.287,IJA Khaki Brown,#cecfce
+71.288,UK BSC 64 Piedra Port   US Verde Oscuro UK BSC 64 Port. Stone US Dark Green,#918d85
+71.289,Unknown,#cbcbca
+71.290,US Earth Brown US Tierra Marron,#d9d9d8
+71.291,US Earth Yellow US Tierra Amarilla,#dcdcdb
+71.292,US Loam US Marron Barro,#d6d6d5
+71.293,US Earth Red US Tierra Roja,#d4d5d4
+71.294,US Forest Green,#dcdcdb
+71.295,USN Sea Blue USN Azul Marino,#c9cac9
+71.296,USAAF Light Curtiss Grey Gray,#abab9f
+71.297,JGSD Brown 3606 JGSD Marron 3606 M495 Light,#d0d0cf
+71.298,M495 Gris Claro Gray,#4f4b45
+71.299,Intermediate Blue Azul Intermedio Glossy Sea Blue,#dbdbda
+71.300,Azul Mar Brillante,#dcdcdb
+71.301,AMT-4 Cam: Green AMT-4 Cam: Verde,#dbdcdb
+71.302,Sky Type $ Verde Cielo,#d2d2d1
+71.303,A-24M Camo. Green A-24M Verde Cam: AMT-11 Blue Grey,#d7d7d6
+71.304,AMT-11 Azul Grisaceo   Interior Gris Verde,#c8c9c8
+71.305,"Interior Grey "" Green",#d8d8d7
+71.306,Sky Blue Azul Cielo,#d4d8d4
+71.307,BS Med: Sea BS Gris Mar ? Gedio,#d0cfce
+71.308,AMT-12 Dark AMT-12 Gris Oscuro Grey,#cbcbca
+71.309,Dark Slate Grey Gris Pizarra Oscuro IJN Deep Dark Green   IJN Ash Grey,#cccccb
+71.310,IJN Verde Osc. Int.,#cacbca
+71.311,IJN Gris Ceniza,#cccdcc
+71.312,Grey,#cbcccb
+71.313,Dk Mediterr Blue Azul Mediterr: Osc. Seaplane,#cbcccb
+71.314,Gris Hidroavion Gray Tire Black Negro Caucho,#c9c9c8
+71.315,Unknown,#d9d9d8
+71.316,N 41 Verde Oliva Osc. N. 41 Dk Olive Drab,#c8c8c7
+71.317,AII SV: Gol Lt Blue AII SV: Gol Azul Claro,#cbcbca
+71.318,AMT-7 Greyish Blue AMT-7 Azul Grisaceo   A-28M Azul Grisaceo   AMT-1 Marron Gris,#94b7bb
+71.319,A-28M Greyish Blue,#c9c9c8
+71.320,AMT-A1 Lt Grey; Brown,#827d74
+71.321,IJN Verde Negro,#8a9380
+71.322,IJN Black Green,#8a9380
+71.323,BS Dark Earth BS Tierra Oscura,#c9cac9
+71.324,BS Dark Green BS Verde Oscuro IJN Verde Negro Osc,#d5d6d4
+71.325,IJN Dk Black Green,#d4d4d3
+71.326,IJA Grey Green IJA Gris Verdoso,#c9cac9
+71.327,IAF Sand Arena IAF,#cccdcc
+71.328,Light Blue Azul Claro,#a09581
+71.329,Green Verde,#79969b
+71.330,"Khaki Green Num. 3 Cockpit E.G""Faded""   Unders Blue ""Faded""  Russian AF Blue",#444039
+71.331,Verde Inter Cabina,#444039
+71.332,Azul Desgastado,#abbab5
+71.333,Azul AF Ruso Flanker Light Blue,#cccdcc
+71.334,Azul Claro Flanker,#a8bbbe
+71.335,Gris Claro Flanker Flanker Light Gray,#c7cfcf
+71.336,A-14 Steel Grey A-14 Gris Acero,#c7c8c7
+71.337,Flanker Blue Azul Flanker,#cccdcb
+71.338,Russ: AF Grey Blue Gris Azul AF Ruso,#79969b
+71.339,Russian AF Gris N.3 AF Ruso Grey N3 Grey _,#cacac9
+71.340,Gris Verdoso Green Green Verde Grisaceo,#a17f5f
+71.341,Grey Russ. AF Light Blue,#c8c9c8
+71.342,Azul Claro AF Ruso Russian AF Grey NJ,#cccdcc
+71.343,Gris N.Z AF Ruso,#c9cac9
+71.344,Rus.AF Grey Prot Coat   Russ. AF Gris AF Ruso,#cbcbca
+71.345,Gris N.8 AF Ruso Grey N.,#a5b4b7
+71.346,Gris N.4 AF Ruso Russian AF Grey N.4 Russ. AF Dark,#d4d5d4
+71.347,Verde Osc_ AF Ruso Green,#c9cac9
+71.348,USAF Tan,#cacac9
+72.001,Dead White Off-White,#a46b4d
+72.003,Pale Flesh,#beb494
+72.004,Elf Skin Tone,#a46b4d
+72.005,Moon Yellow,#ceb052
+72.006,Sun Yellow,#dca63f
+72.007,Gold Yellow,#e2853b
+72.008,Orange Fire,#de7843
+72.009,Hot Orange,#d9dad9
+72.010,Bloody Red,#8c3a37
+72.011,Gory Red,#34191d
+72.012,Scarlet Red,#852b27
+72.013,Squid Pink,#cbcbcb
+72.014,Warlord Purple,#ab6483
+72.015,Hexed Lichen,#3a365d
+72.016,Royal Purple,#1c1422
+72.019,Night Blue,#bed2c8
+72.020,Imperial Blue,#1a3760
+72.021,Magic Blue,#cccccc
+72.022,Ultramarine Blue,#cbcbcb
+72.023,Electric Blue,#cacbcb
+72.024,Turquoise,#cacbca
+72.025,Foul Green,#215642
+72.026,Jade Green 47 Scurvy Green,#426e5e
+72.027,Unknown,#d2d2d2
+72.028,Dark Green,#1b271e
+72.029,Sick Green,#d0d0d0
+72.030,Goblin Green,#d7d8d7
+72.031,Camouflage Green,#bcbab1
+72.032,Scorpy Green,#c5cd4b
+72.034,Bone White,#e2c491
+72.035,Dead Flesh,#70633a
+72.036,Bronze Brown 61 Plague Brown,#dbdcdb
+72.038,Scrofulous Brown,#d7d6d4
+72.039,Unknown,#774c2b
+72.040,Leather Brown,#372d20
+72.042,Parasite Brown,#918a84
+72.043,Beasty Brown,#32271a
+72.044,Dark Flesh Tone,#d0d0d0
+72.045,Charred Brown,#251816
+72.047,Wolf - Grey,#d7d8d7
+72.048,Sombre Grey,#384448
+72.049,Grey,#d3d3d3
+72.050,Neutral Grey,#d3d3d3
+72.051,Black,#d8d9d8
+72.052,Silver 121 Chainmail,#cacecd
+72.053,Unknown,#cacecd
+72.054,Dark Gunmetal 123 Polished Gold,#d5d6d5
+72.055,Unknown,#d5d5d4
+72.056,Glorious Gold 125 Bright Bronze,#d9d6d0
+72.057,126 Brassy Brass,#895a3b
+72.058,127 Hammered Copper,#d5d5d5
+72.059,"128 Tinny""",#634f44
+72.060,Tin,#483932
+72.061,Khaki,#cfcfcf
+72.062,Earth,#cecfce
+72.063,Desert Yellow,#cccccb
+72.066,Tan,#d8d9d8
+72.067,Cayman Green,#cfcfcf
+72.071,Barbarian Skin,#a46b4d
+72.076,Alien Purple,#5c4e72
+72.082,White 109 Skin,#1d2a23
+72.083,Magenta,#80272a
+72.084,Dark Turquoise,#cccccc
+72.085,Yellow,#281918
+72.086,Red,#d58b3f
+72.087,Violet,#762e3d
+72.088,Blue,#dbdbda
+72.089,Green,#95ab9c
+72.090,Black Green 118 Sepia,#1d2a23
+72.091,Unknown,#1d2a23
+72.093,Unknown,#1d2a23
+72.094,Black,#1f1b15
+72.095,Glacier Blue n,#9db9d2
+72.096,Verdigris,#0e171f
+72.098,Elfic Flesh,#f8e5ac
+72.099,Skin Tone,#cfcfcf
+72.100,Rosy Flesh,#b1846b
+72.101,Unknown,#a46b4d
+72.102,Steel Grey,#9db9d2
+72.106,Scarlet Blood,#bd3f30
+72.107,Athena Skin,#d7d7d7
+72.108,Succubus Skin,#92594e
+72.109,Toxic Yellow,#d6d7d6
+72.110,Sunset Orange,#85502c
+72.111,Nocturnal Red,#3b1819
+72.112,Evil Red,#1f1315
+72.113,28 Lustful Purple,#cdcecd
+72.114,Unknown,#2b1820
+72.115,Grunge Brown,#543b2d
+72.116,Midnight Purple,#191721
+72.117,Elfic Blue,#d2d2d2
+72.118,Sunrise Blue,#d9dad9
+72.119,Aquamarine,#d6d6d6
+72.120,Abyssal Turquoise,#2f484a
+72.121,Ghost Green,#d2d2d2
+72.122,Bile Green,#d2d2d1
+72.123,Angel Green,#6c7a6a
+72.124,Gorgon Brown,#d6d6d6
+72.145,Dirty Grey,#d7d7d7
+72.148,Warm Grey 75 Stonewall,#282f32
+72.155,Charcoal,#d9dad9
+73.212,Unknown,#d5d5d4
+73.213,Unknown,#cdcdcd
+73.214,Unknown,#cdcdcd
+76.001,Dead White Blanco Calavera,#d7d8d7
+76.003,Pale Flesh Carne Palida Rosy,#e28739
+76.004,Elf Skin Tone Piel de Elfos,#d6d6d5
+76.005,Amarillo lunar Moon Yellow,#d7d8d7
+76.006,Sun Yellow Amarillo Soleado,#da913c
+76.007,Gold Yellow Amarillo Dorado,#e28739
+76.008,Orange Fire Naranja Fuego,#cccdcc
+76.010,Rojo Sanguina Bloody Red,#16151f
+76.012,Rojo Escarlata Scarlet Red,#782823
+76.013,Squid Pink Rosa Pulpo,#212228
+76.014,Warlord Purple Purpura Lujurioso,#d7d7d7
+76.016,Purpura Real Royal Purple Pirpura Medianoche,#16151f
+76.019,Azul Negro Night Blue,#151927
+76.020,Turquoise,#d6d6d6
+76.021,Magic Blue Imperial Blue Azul Imperial,#8f9cab
+76.022,Ultramarine Blue Azul Ultramar,#121a20
+76.023,Electric Blue Azul Electrico Azul Magico,#d7d7d7
+76.024,Halcon Milenario Turquesa Abisal,#cacbca
+76.026,Jade Green Verde Jade Scurvy Green Verde Casposo,#cbcccb
+76.027,Unknown,#d3d3d1
+76.028,Verde Oscuro Dark Green,#cecece
+76.031,Camouflage Green Verde Camuflaje,#cacbca
+76.032,Unknown,#d8d9d8
+76.034,Bone White Blanco Hueso,#da913c
+76.035,Carne Muerta Dead Flesh,#d6d6d6
+76.036,Bronze Brown Marron Bronceado,#915c33
+76.040,Leather Brown Marron Cuero,#9d714f
+76.042,Parasite Brown Piel de Parasitos Grunge Brown,#d8d8d7
+76.043,Beasty Brown Marron Bichos,#d7d8d7
+76.045,Charred Brown Marron Carbonizado,#d8d9d8
+76.047,Gris Lobo Wolf Grey,#dadbda
+76.048,Sombre Grey Gris Sombra,#d9dad9
+76.049,Gris Muralla,#53524c
+76.050,Gris Neutral Neutral Grey,#53524c
+76.051,Black Negro,#d7d8d7
+76.062,Earth Tierra,#d3d3d1
+76.063,Desert Yellow Desierto,#605734
+76.071,Barbarian Skin Piel de Barbaro,#d8d8d8
+76.076,Alien Purple,#6a5a8c
+76.100,Carne Rosa Flesh,#cccdcc
+76.107,Athena Skin Piel de Atenea,#8f5449
+76.109,Toxic Yellow Amarillo Toxico,#d8d8d8
+76.111,Nocturnal Red Rojo Nocturno,#d8d9d8
+76.114,Lustful Purple Purpura Alienigena,#381927
+76.115,Marron Mugre,#d9d9d8
+76.116,Midnight Purple,#16151f
+76.118,Sunrise Blue Azul Amanecer,#cdcdcc
+76.120,Abyssal Turquoise,#d5d5d5
+76.121,Verde Espectral Ghost Green,#d5d5d5
+76.122,Bile Green Verde Bilioso Scorpy Green Verde Escorpena,#d7d7d7
+76.123,Verde Angelical Angel Green,#d0d1d0

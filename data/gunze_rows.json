@@ -1,5 +1,1103 @@
 [
   {
+    "image": "01.png",
+    "raw_reference": "IGloss White HI X2 22 4 2720",
+    "reference": "H1",
+    "name": "Gloss White",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X2"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "22"
+      },
+      {
+        "brand": "Revell",
+        "code": "4"
+      },
+      {
+        "brand": "Testors",
+        "code": "2720"
+      }
+    ],
+    "hex": "#ffffff",
+    "confidence": 0.8714669204891528
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Black H2 X-1 21 7 1747",
+    "reference": "H2",
+    "name": "Gloss Black",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X1"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "21"
+      },
+      {
+        "brand": "Revell",
+        "code": "7"
+      },
+      {
+        "brand": "Testors",
+        "code": "1747"
+      }
+    ],
+    "hex": "#000000",
+    "confidence": 0.8509100057970157
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Red H3 X-7 19 31 2718",
+    "reference": "H3",
+    "name": "Gloss Red",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X7"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "19"
+      },
+      {
+        "brand": "Revell",
+        "code": "31"
+      },
+      {
+        "brand": "Testors",
+        "code": "2718"
+      }
+    ],
+    "hex": "#b33f3c",
+    "confidence": 0.954891919422784
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Yellow H4 X-8 69 12 2717",
+    "reference": "H4",
+    "name": "Gloss Yellow",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X8"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "69"
+      },
+      {
+        "brand": "Revell",
+        "code": "12"
+      },
+      {
+        "brand": "Testors",
+        "code": "2717"
+      }
+    ],
+    "hex": "#fbe55d",
+    "confidence": 0.964758809172449
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Blue H5 X3 15 52",
+    "reference": "H5",
+    "name": "Gloss Blue",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X3"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "15"
+      },
+      {
+        "brand": "Revell",
+        "code": "52"
+      }
+    ],
+    "hex": "#0e1543",
+    "confidence": 0.9380175838002837
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Green H6 3 62",
+    "reference": "H6",
+    "name": "Gloss Green",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "3"
+      },
+      {
+        "brand": "Revell",
+        "code": "62"
+      }
+    ],
+    "hex": "#081b11",
+    "confidence": 0.8712887030933207
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Brown H7 X-9 10 80",
+    "reference": "H7",
+    "name": "Gloss Brown",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X9"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "10"
+      },
+      {
+        "brand": "Revell",
+        "code": "80"
+      }
+    ],
+    "hex": "#b24126",
+    "confidence": 0.9389629744805414
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Metallic Silver H8 X-I1 11 90 1546",
+    "reference": "H8",
+    "name": "Metallic Silver",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X11"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "11"
+      },
+      {
+        "brand": "Revell",
+        "code": "90"
+      },
+      {
+        "brand": "Testors",
+        "code": "1546"
+      }
+    ],
+    "hex": "#c3c4b9",
+    "confidence": 0.9395590003261868
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Metallic Gold H9 X-12 16 94 1744",
+    "reference": "H9",
+    "name": "Metallic Gold",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X12"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "16"
+      },
+      {
+        "brand": "Revell",
+        "code": "94"
+      },
+      {
+        "brand": "Testors",
+        "code": "1744"
+      }
+    ],
+    "hex": "#ba9e5b",
+    "confidence": 0.9094035929783536
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Metallic Copper H1o XF-6 12 93 1551",
+    "reference": "H10",
+    "name": "Metallic Copper",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "XF6"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "12"
+      },
+      {
+        "brand": "Revell",
+        "code": "93"
+      },
+      {
+        "brand": "Testors",
+        "code": "1551"
+      }
+    ],
+    "hex": "#ac5a3b",
+    "confidence": 0.8534464369421138
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Flat White HI1 XF-2 33 301 / 5 1768",
+    "reference": "H11",
+    "name": "Flat White",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "XF2"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "33"
+      },
+      {
+        "brand": "Revell",
+        "code": "301/5"
+      },
+      {
+        "brand": "Testors",
+        "code": "1768"
+      }
+    ],
+    "hex": "#ffffff",
+    "confidence": 0.7557764612497655
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Flat Black H12 XF-1 34 302 / 8 1749",
+    "reference": "H12",
+    "name": "Flat Black",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "XF1"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "34"
+      },
+      {
+        "brand": "Revell",
+        "code": "302/8"
+      },
+      {
+        "brand": "Testors",
+        "code": "1749"
+      }
+    ],
+    "hex": "#000000",
+    "confidence": 0.8789590293593545
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Flat Red H13 XF-7 60 1550",
+    "reference": "H13",
+    "name": "Flat Red",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "XF7"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "60"
+      },
+      {
+        "brand": "Testors",
+        "code": "1550"
+      }
+    ],
+    "hex": "#c23925",
+    "confidence": 0.8732593563027424
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Orange H14 X-6 18 30 1595",
+    "reference": "H14",
+    "name": "Gloss Orange",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X6"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "18"
+      },
+      {
+        "brand": "Revell",
+        "code": "30"
+      },
+      {
+        "brand": "Testors",
+        "code": "1595"
+      }
+    ],
+    "hex": "#da4727",
+    "confidence": 0.912161610829243
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss Bright Blue H15 X-4 14 51 1510",
+    "reference": "H15",
+    "name": "Gloss Bright Blue",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X4"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "14"
+      },
+      {
+        "brand": "Revell",
+        "code": "51"
+      },
+      {
+        "brand": "Testors",
+        "code": "1510"
+      }
+    ],
+    "hex": "#0e1c62",
+    "confidence": 0.8931509204219978
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Yellow Green H16 X-15 38 60",
+    "reference": "H16",
+    "name": "Gloss Yellow Green",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X15"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "38"
+      },
+      {
+        "brand": "Revell",
+        "code": "60"
+      }
+    ],
+    "hex": "#3c6740",
+    "confidence": 0.9453954793294315
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Cocoa Brown H17 XF-10 10 1533",
+    "reference": "H17",
+    "name": "Gloss Cocoa Brown",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "XF10"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "10"
+      },
+      {
+        "brand": "Testors",
+        "code": "1533"
+      }
+    ],
+    "hex": "#201720",
+    "confidence": 0.9739341882460252
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Metallic Steel Grey H18 X-10 53 91 1780",
+    "reference": "H18",
+    "name": "Metallic Steel Grey",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X10"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "53"
+      },
+      {
+        "brand": "Revell",
+        "code": "91"
+      },
+      {
+        "brand": "Testors",
+        "code": "1780"
+      }
+    ],
+    "hex": "#06070a",
+    "confidence": 0.9325344227869685
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Pink H19 X-17 200",
+    "reference": "H19",
+    "name": "Gloss Pink",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X17"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "200"
+      }
+    ],
+    "hex": "#e46975",
+    "confidence": 0.8745150525520711
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Flat Clear H2O 49 2 1560",
+    "reference": "H20",
+    "name": "Flat Clear",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "49"
+      },
+      {
+        "brand": "Revell",
+        "code": "2"
+      },
+      {
+        "brand": "Testors",
+        "code": "1560"
+      }
+    ],
+    "hex": "#ffffff",
+    "confidence": 0.8183460964176309
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Off White H21 10 1745",
+    "reference": "H21",
+    "name": "Gloss Off White",
+    "equivalents": [
+      {
+        "brand": "Revell",
+        "code": "10"
+      },
+      {
+        "brand": "Testors",
+        "code": "1745"
+      }
+    ],
+    "hex": "#fcfdef",
+    "confidence": 0.9350283092350262
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss Grey H22 XF-53 5",
+    "reference": "H22",
+    "name": "Gloss Grey",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "XF53"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "5"
+      }
+    ],
+    "hex": "#3d3d4d",
+    "confidence": 0.9469549406685496
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Shine Red H23 60 1590",
+    "reference": "H23",
+    "name": "Gloss Shine Red",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "60"
+      },
+      {
+        "brand": "Testors",
+        "code": "1590"
+      }
+    ],
+    "hex": "#d4452b",
+    "confidence": 0.854867467541968
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "lGloss Orange Yellow H24 197 310",
+    "reference": "H24",
+    "name": "lGloss Orange Yellow",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "197"
+      },
+      {
+        "brand": "Revell",
+        "code": "310"
+      }
+    ],
+    "hex": "#e37b40",
+    "confidence": 0.8396955961566706
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss Sky Blue H25 X-14 50",
+    "reference": "H25",
+    "name": "Gloss Sky Blue",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X14"
+      },
+      {
+        "brand": "Revell",
+        "code": "50"
+      }
+    ],
+    "hex": "#1457af",
+    "confidence": 0.9603220230487715
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Bright Green H26 2 61 1524",
+    "reference": "H26",
+    "name": "Gloss Bright Green",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "2"
+      },
+      {
+        "brand": "Revell",
+        "code": "61"
+      },
+      {
+        "brand": "Testors",
+        "code": "1524"
+      }
+    ],
+    "hex": "#225d3e",
+    "confidence": 0.877561860287364
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Tan H27 9 11",
+    "reference": "H27",
+    "name": "Gloss Tan",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "9"
+      },
+      {
+        "brand": "Revell",
+        "code": "11"
+      }
+    ],
+    "hex": "#a78b51",
+    "confidence": 0.9651942569557734
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Metallic Black H28 201 2713",
+    "reference": "H28",
+    "name": "Metallic Black",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "201"
+      },
+      {
+        "brand": "Testors",
+        "code": "2713"
+      }
+    ],
+    "hex": "#141a22",
+    "confidence": 0.8914687659888069
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Salmon Pink H29",
+    "reference": "H29",
+    "name": "Gloss Salmon Pink",
+    "equivalents": [],
+    "hex": "#de5e3e",
+    "confidence": 0.7427978363374996
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Clear H3O X-22 35 1561",
+    "reference": "H30",
+    "name": "Gloss Clear",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X22"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "35"
+      },
+      {
+        "brand": "Testors",
+        "code": "1561"
+      }
+    ],
+    "hex": "#ffffff",
+    "confidence": 0.8160351118712131
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss White-Green H31 90",
+    "reference": "H31",
+    "name": "Gloss White-Green",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "90"
+      }
+    ],
+    "hex": "#eaf7e5",
+    "confidence": 0.936439900844155
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss German Field Gray-1 H32 XF-63 67",
+    "reference": "H32",
+    "name": "Gloss German Field Gray-1",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "XF63"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "67"
+      }
+    ],
+    "hex": "#131b29",
+    "confidence": 0.8293069971696377
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Russet H33 107 383 1501",
+    "reference": "H33",
+    "name": "Gloss Russet",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "107"
+      },
+      {
+        "brand": "Revell",
+        "code": "383"
+      },
+      {
+        "brand": "Testors",
+        "code": "1501"
+      }
+    ],
+    "hex": "#573030",
+    "confidence": 0.9668004899873546
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Cream Yellow H34 24 311",
+    "reference": "H34",
+    "name": "Gloss Cream Yellow",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "24"
+      },
+      {
+        "brand": "Revell",
+        "code": "311"
+      }
+    ],
+    "hex": "#efc151",
+    "confidence": 0.9094051935806542
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Cobalt Blue H35 25 56",
+    "reference": "H35",
+    "name": "Gloss Cobalt Blue",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "25"
+      },
+      {
+        "brand": "Revell",
+        "code": "56"
+      }
+    ],
+    "hex": "#111a49",
+    "confidence": 0.9730888353456523
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss Dark Green H36 75",
+    "reference": "H36",
+    "name": "Gloss Dark Green",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "75"
+      }
+    ],
+    "hex": "#ffffff",
+    "confidence": 0.9391171338673178
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Wood Brown H37 9 85 1735",
+    "reference": "H37",
+    "name": "Gloss Wood Brown",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "9"
+      },
+      {
+        "brand": "Revell",
+        "code": "85"
+      },
+      {
+        "brand": "Testors",
+        "code": "1735"
+      }
+    ],
+    "hex": "#432d24",
+    "confidence": 0.9289715715004508
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Metallic Steel Red H38",
+    "reference": "H38",
+    "name": "Metallic Steel Red",
+    "equivalents": [],
+    "hex": "#1c1921",
+    "confidence": 0.9011629941808867
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss Purple H39 X-16 68 353",
+    "reference": "H39",
+    "name": "Gloss Purple",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X16"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "68"
+      },
+      {
+        "brand": "Revell",
+        "code": "353"
+      }
+    ],
+    "hex": "#151f56",
+    "confidence": 0.8720103080130542
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Flat Base H4O X-21 206",
+    "reference": "H40",
+    "name": "Flat Base",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X21"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "206"
+      }
+    ],
+    "hex": "#ffffff",
+    "confidence": 0.7916561263731235
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Pale Green H41",
+    "reference": "H41",
+    "name": "Gloss Pale Green",
+    "equivalents": [],
+    "hex": "#a7c8bd",
+    "confidence": 0.8785712021875549
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss Blue Gray H42 XF-8 144 79",
+    "reference": "H42",
+    "name": "Gloss Blue Gray",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "XF8"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "144"
+      },
+      {
+        "brand": "Revell",
+        "code": "79"
+      }
+    ],
+    "hex": "#142335",
+    "confidence": 0.9221174952046535
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "(Gloss Wine Red H43 20",
+    "reference": "H43",
+    "name": "Gloss Wine Red",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "20"
+      }
+    ],
+    "hex": "#a33427",
+    "confidence": 0.9200517886507321
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Semi Gloss Flesh H44 XF-15 61 35 35",
+    "reference": "H44",
+    "name": "Semi Gloss Flesh",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "XF15"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "61"
+      },
+      {
+        "brand": "Revell",
+        "code": "35"
+      },
+      {
+        "brand": "Testors",
+        "code": "35"
+      }
+    ],
+    "hex": "#eece8b",
+    "confidence": 0.9151589904607748
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "lGloss Light Blue H45 47 1508",
+    "reference": "H45",
+    "name": "lGloss Light Blue",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "47"
+      },
+      {
+        "brand": "Testors",
+        "code": "1508"
+      }
+    ],
+    "hex": "#2d6ebd",
+    "confidence": 0.8571188450827122
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Emerald Green H46 2",
+    "reference": "H46",
+    "name": "Gloss Emerald Green",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "2"
+      }
+    ],
+    "hex": "#387162",
+    "confidence": 0.9589439933739337
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Red Brown H47 XF-9 73 32 / 38 1736",
+    "reference": "H47",
+    "name": "Gloss Red Brown",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "XF9"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "73"
+      },
+      {
+        "brand": "Revell",
+        "code": "32/38"
+      },
+      {
+        "brand": "Testors",
+        "code": "1736"
+      }
+    ],
+    "hex": "#2b1e26",
+    "confidence": 0.8894924171281782
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "Gloss German Field Gray-2 H48 XF-65",
+    "reference": "H48",
+    "name": "Gloss German Field Gray-2",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "XF65"
+      }
+    ],
+    "hex": "#21303a",
+    "confidence": 0.9658505240183528
+  },
+  {
+    "image": "01.png",
+    "raw_reference": "IGloss Violet H49",
+    "reference": "H49",
+    "name": "Gloss Violet",
+    "equivalents": [],
+    "hex": "#3b59a3",
+    "confidence": 0.9500696212408974
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "(Gloss Lime Green H5o X-15 38",
+    "reference": "H50",
+    "name": "Gloss Lime Green",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "X15"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "38"
+      }
+    ],
+    "hex": "#355f4c",
+    "confidence": 0.7727194646811532
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Light Gull Gray H51 XF-12 / XF19 64",
+    "reference": "H51",
+    "name": "Gloss Light Gull Gray",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "XF-12/XF19"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "64"
+      }
+    ],
+    "hex": "#a2a8a5",
+    "confidence": 0.8519068560999552
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Olive Drab-1 H52 XF-62 155 66 1591",
+    "reference": "H52",
+    "name": "Semi Gloss Olive Drab-1",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "XF62"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "155"
+      },
+      {
+        "brand": "Revell",
+        "code": "66"
+      },
+      {
+        "brand": "Testors",
+        "code": "1591"
+      }
+    ],
+    "hex": "#1e2427",
+    "confidence": 0.8243822224126379
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Neutral Grey H53 XF-66 128",
+    "reference": "H53",
+    "name": "Semi Gloss Neutral Grey",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "XF66"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "128"
+      }
+    ],
+    "hex": "#353d4b",
+    "confidence": 0.8245034224360104
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Semi Gloss Navy Blue H54 XF-17 104",
+    "reference": "H54",
+    "name": "Semi Gloss Navy Blue",
+    "equivalents": [
+      {
+        "brand": "Tamiya",
+        "code": "XF17"
+      },
+      {
+        "brand": "Humbrol",
+        "code": "104"
+      }
+    ],
+    "hex": "#2e3a4a",
+    "confidence": 0.9799323475925045
+  },
+  {
+    "image": "02.png",
+    "raw_reference": "Gloss Moonlight Blue H55 181",
+    "reference": "H55",
+    "name": "Gloss Moonlight Blue",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "181"
+      }
+    ],
+    "hex": "#0b0a07",
+    "confidence": 0.973462689504684
+  },
+  {
     "image": "02.png",
     "raw_reference": "Semi Gloss intermediate Blue H56 XF-18 144 1720",
     "reference": "H56",
@@ -803,6 +1901,108 @@
     ],
     "hex": "#1f2632",
     "confidence": 0.767440490822846
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "ISemi Gloss Green FS-34092 H302 149 1764",
+    "reference": "H302",
+    "name": "Semi Gloss Green FS-34092",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "149"
+      },
+      {
+        "brand": "Testors",
+        "code": "1764"
+      },
+      {
+        "brand": "FS",
+        "code": "FS 34092"
+      }
+    ],
+    "hex": "#1b2831",
+    "confidence": 0.8301248737013345
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Green FS-34102 H303 151 1713",
+    "reference": "H303",
+    "name": "Semi Gloss Green FS-34102",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "151"
+      },
+      {
+        "brand": "Testors",
+        "code": "1713"
+      },
+      {
+        "brand": "FS",
+        "code": "FS 34102"
+      }
+    ],
+    "hex": "#2f3735",
+    "confidence": 0.9846797794527731
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Olive Drab FS-34087 H304 155 1711",
+    "reference": "H304",
+    "name": "Semi Gloss Olive Drab FS-34087",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "155"
+      },
+      {
+        "brand": "Testors",
+        "code": "1711"
+      },
+      {
+        "brand": "FS",
+        "code": "FS 34087"
+      }
+    ],
+    "hex": "#242324",
+    "confidence": 0.8245046657363825
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Grey FS-36118 H305 125",
+    "reference": "H305",
+    "name": "Semi Gloss Grey FS-36118",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "125"
+      },
+      {
+        "brand": "FS",
+        "code": "FS 36118"
+      }
+    ],
+    "hex": "#3a484f",
+    "confidence": 0.9270873566917476
+  },
+  {
+    "image": "03.png",
+    "raw_reference": "Semi Gloss Grey FS-36270 H306 126",
+    "reference": "H306",
+    "name": "Semi Gloss Grey FS-36270",
+    "equivalents": [
+      {
+        "brand": "Humbrol",
+        "code": "126"
+      },
+      {
+        "brand": "FS",
+        "code": "FS 36270"
+      }
+    ],
+    "hex": "#686f73",
+    "confidence": 0.6183256255368569
   },
   {
     "image": "03.png",

@@ -11,30 +11,33 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AmIG-0050"
+          "code": "MIG-0050"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-11/H-451"
+          "brand": "Gunze Sangyo",
+          "code": "H11"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-62"
+          "brand": "Gunze Sangyo",
+          "code": "H451"
+        },
+        {
+          "brand": "Mr. Hobby",
+          "code": "C62"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-2"
+          "code": "XF2"
         },
         {
-          "brand": "Model Color",
-          "code": "70.951"
+          "brand": "Vallejo Model Color",
+          "code": "70951"
         },
         {
-          "brand": "Model Air",
-          "code": "71.001"
+          "brand": "Vallejo Model Air",
+          "code": "71001"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20001",
@@ -43,22 +46,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0047"
+          "code": "MIG-0047"
         },
         {
-          "brand": "Hobby Color",
-          "code": "h-1"
+          "brand": "Gunze Sangyo",
+          "code": "H1"
         },
         {
-          "brand": "Mr. Color",
-          "code": "c-1"
+          "brand": "Mr. Hobby",
+          "code": "C1"
         },
         {
-          "brand": "Model Color",
-          "code": "70.842"
+          "brand": "Vallejo Model Color",
+          "code": "70842"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20002",
@@ -67,18 +69,17 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MiG-0905"
+          "code": "MIG-0905"
         },
         {
-          "brand": "Model Color",
-          "code": "70.918"
+          "brand": "Vallejo Model Color",
+          "code": "70918"
         },
         {
-          "brand": "Model Air",
-          "code": "71.270"
+          "brand": "Vallejo Model Air",
+          "code": "71270"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20003",
@@ -87,10 +88,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-515"
+          "code": "AMMOF515"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20004",
@@ -99,14 +99,13 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0038"
+          "code": "MIG-0038"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71075"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20005",
@@ -115,10 +114,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0012"
+          "code": "MIG-0012"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20006",
@@ -127,10 +125,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0027"
+          "code": "MIG-0027"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20007",
@@ -139,10 +136,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0029"
+          "code": "MIG-0029"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20008",
@@ -151,10 +147,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.miG-0067"
+          "code": "MIG-0067"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20009",
@@ -163,18 +158,17 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.miG-0025"
+          "code": "MIG-0025"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70819"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71140"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20010",
@@ -183,14 +177,13 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MiG-0011"
+          "code": "MIG-0011"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70978"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20011",
@@ -199,22 +192,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0132"
+          "code": "MIG-0132"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-85"
+          "brand": "Gunze Sangyo",
+          "code": "H85"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-45"
+          "brand": "Mr. Hobby",
+          "code": "C45"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71141"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20012",
@@ -223,22 +215,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0010"
+          "code": "MIG-0010"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-403"
+          "brand": "Gunze Sangyo",
+          "code": "H403"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-60"
+          "code": "XF60"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71025"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20013",
@@ -247,26 +238,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-505"
+          "code": "AMMOF505"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-58"
+          "brand": "Gunze Sangyo",
+          "code": "H58"
         },
         {
-          "brand": "Mr. Color",
-          "code": "c-27"
+          "brand": "Mr. Hobby",
+          "code": "C27"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-4"
+          "code": "XF4"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71107"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20014",
@@ -275,10 +265,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO F-562"
+          "code": "AMMOF562"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20015",
@@ -287,10 +276,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AmiG-0016"
+          "code": "MIG-0016"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20016",
@@ -299,25 +287,23 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMiG-0130"
+          "code": "MIG-0130"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-318"
+          "brand": "Gunze Sangyo",
+          "code": "H318"
         },
         {
-          "brand": "Mr. Color",
-          "code": "c-318"
+          "brand": "Mr. Hobby",
+          "code": "C318"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20017",
       "name": "LEMON YELLOW",
       "hex": "#fac64c",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20018",
@@ -326,44 +312,41 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-529"
+          "code": "AMMOF529"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-4"
+          "brand": "Gunze Sangyo",
+          "code": "H4"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-4"
+          "brand": "Mr. Hobby",
+          "code": "C4"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-3"
+          "code": "XF3"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70915"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71002"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20019",
       "name": "SUNNY YELLOW",
       "hex": "#ffdb3b",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20020",
       "name": "GOLD YELLOW",
       "hex": "#ffc329",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20021",
@@ -372,18 +355,17 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0030"
+          "code": "MIG-0030"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-459"
+          "brand": "Gunze Sangyo",
+          "code": "H459"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71143"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20022",
@@ -392,26 +374,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.mIG-0125"
+          "code": "MIG-0125"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-413"
+          "brand": "Gunze Sangyo",
+          "code": "H413"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-113"
+          "brand": "Mr. Hobby",
+          "code": "C113"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70953"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71078"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20023",
@@ -420,26 +401,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0039"
+          "code": "MIG-0039"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-24"
+          "brand": "Gunze Sangyo",
+          "code": "H24"
         },
         {
-          "brand": "Mr. Color",
-          "code": "c-58"
+          "brand": "Mr. Hobby",
+          "code": "C58"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70911"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71130"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20024",
@@ -448,26 +428,29 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.mIG-0222"
+          "code": "MIG-0222"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-66"
+          "brand": "Gunze Sangyo",
+          "code": "H66"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-119"
+          "brand": "Mr. Hobby",
+          "code": "C119"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70876"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71278"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-79"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20025",
@@ -476,17 +459,15 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-554"
+          "code": "AMMOF554"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20026",
       "name": "BRIGHT ORANGE",
       "hex": "#ffa040",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20027",
@@ -495,26 +476,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0129"
+          "code": "MIG-0129"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-14"
+          "brand": "Gunze Sangyo",
+          "code": "H14"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-59"
+          "brand": "Mr. Hobby",
+          "code": "C59"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70956"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71083"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20028",
@@ -523,10 +503,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-527"
+          "code": "AMMOF527"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20029",
@@ -535,37 +514,47 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0049"
+          "code": "MIG-0049"
         },
         {
-          "brand": "Hobby Color",
-          "code": "43/ 8434#2"
+          "brand": "Gunze Sangyo",
+          "code": "43"
         },
         {
-          "brand": "Mr. Color",
-          "code": "c3/C-79 /C-114"
+          "brand": "Gunze Sangyo",
+          "code": "8434#2"
+        },
+        {
+          "brand": "Mr. Hobby",
+          "code": "C3"
+        },
+        {
+          "brand": "Mr. Hobby",
+          "code": "C79"
+        },
+        {
+          "brand": "Mr. Hobby",
+          "code": "C114"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-7"
+          "code": "XF7"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70909"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71003"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20030",
       "name": "IMPERIAL RED",
       "hex": "#e46153",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20031",
@@ -574,33 +563,31 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0121"
+          "code": "MIG-0121"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-327"
+          "brand": "Gunze Sangyo",
+          "code": "H327"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-327"
+          "brand": "Mr. Hobby",
+          "code": "C327"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70908"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71084"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20032",
       "name": "CARMINE",
       "hex": "#b53321",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20033",
@@ -609,59 +596,51 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-540"
+          "code": "AMMOF540"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20034",
       "name": "FUCSIA",
       "hex": "#e0408b",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20035",
       "name": "CORAL PINK",
       "hex": "#c02c22",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20036",
       "name": "VINTAGE PINK",
       "hex": "#c26166",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20037",
       "name": "DARK NUDE PINK",
       "hex": "#c28d8e",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20038",
       "name": "GLACIER PINK",
       "hex": "#e5c7c1",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20039",
       "name": "PINK FLESH",
       "hex": "#ffcbc9",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20040",
       "name": "LIGHT PINK FLESH",
       "hex": "#ffe2d9",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20041",
@@ -670,10 +649,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-549"
+          "code": "AMMOF549"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20042",
@@ -682,10 +660,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-548"
+          "code": "AMMOF548"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20043",
@@ -694,10 +671,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-550"
+          "code": "AMMOF550"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20044",
@@ -706,10 +682,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-558"
+          "code": "AMMOF558"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20045",
@@ -718,22 +693,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.miG-004O"
+          "code": "MIG-0040"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-453"
+          "brand": "Gunze Sangyo",
+          "code": "H453"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70981"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71129"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20046",
@@ -742,30 +716,33 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.mIG-0014"
+          "code": "MIG-0014"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-47 / H-460"
+          "brand": "Gunze Sangyo",
+          "code": "H47"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-41"
+          "brand": "Gunze Sangyo",
+          "code": "H460"
+        },
+        {
+          "brand": "Mr. Hobby",
+          "code": "C41"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-64"
+          "code": "XF64"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70814"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71271"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20047",
@@ -774,26 +751,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0041"
+          "code": "MIG-0041"
         },
         {
-          "brand": "Hobby Color",
-          "code": "AMMO,F-557"
+          "brand": "Gunze Sangyo",
+          "code": "AMM0,F557"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-7"
+          "brand": "Mr. Hobby",
+          "code": "C7"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-79"
+          "code": "XF79"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70818"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20048",
@@ -802,22 +778,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0079"
+          "code": "MIG-0079"
         },
         {
-          "brand": "Hobby Color",
-          "code": "4-37"
+          "brand": "Gunze Sangyo",
+          "code": "437"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-43"
+          "brand": "Mr. Hobby",
+          "code": "C43"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71034"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20049",
@@ -826,10 +801,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-545"
+          "code": "AMMOF545"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20050",
@@ -838,10 +812,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0923"
+          "code": "MIG-0923"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20051",
@@ -850,26 +823,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.mIG-0073"
+          "code": "MIG-0073"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-457"
+          "brand": "Gunze Sangyo",
+          "code": "H457"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-52"
+          "code": "XF52"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70874"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71024"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20052",
@@ -878,18 +850,17 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMiG-0064"
+          "code": "MIG-0064"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70303"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71037"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20053",
@@ -898,10 +869,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0922"
+          "code": "MIG-0922"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20054",
@@ -910,10 +880,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-532"
+          "code": "AMMOF532"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20055",
@@ -922,22 +891,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0034"
+          "code": "MIG-0034"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-131"
+          "brand": "Mr. Hobby",
+          "code": "C131"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70343"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71080"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20056",
@@ -946,10 +914,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-553"
+          "code": "AMMOF553"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20057",
@@ -958,22 +925,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.miG-0070"
+          "code": "MIG-0070"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-341"
+          "brand": "Gunze Sangyo",
+          "code": "H341"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70312"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71035"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20058",
@@ -982,30 +948,29 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0042"
+          "code": "MIG-0042"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-17"
+          "brand": "Gunze Sangyo",
+          "code": "H17"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-29"
+          "brand": "Mr. Hobby",
+          "code": "C29"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-9"
+          "code": "XF9"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70859"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71040"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20059",
@@ -1014,29 +979,31 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0255"
+          "code": "MIG-0255"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-421"
+          "brand": "Gunze Sangyo",
+          "code": "H421"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-121"
+          "brand": "Mr. Hobby",
+          "code": "C121"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71264"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-81"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20060",
       "name": "COFFEE BROWN",
       "hex": "#5f3d37",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20061",
@@ -1045,22 +1012,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0085"
+          "code": "MIG-0085"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-68"
+          "code": "XF68"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70871"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71249"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20062",
@@ -1069,26 +1035,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0015"
+          "code": "MIG-0015"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-406"
+          "brand": "Gunze Sangyo",
+          "code": "H406"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-10"
+          "code": "XF10"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70985"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71041"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20063",
@@ -1097,10 +1062,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-533"
+          "code": "AMMOF533"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20064",
@@ -1109,26 +1073,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0035"
+          "code": "MIG-0035"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-84"
+          "brand": "Gunze Sangyo",
+          "code": "H84"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-42"
+          "brand": "Mr. Hobby",
+          "code": "C42"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70304"
         },
         {
-          "brand": "Model Air",
-          "code": "71.039"
+          "brand": "Vallejo Model Air",
+          "code": "71039"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20065",
@@ -1137,26 +1100,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0925"
+          "code": "MIG-0925"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-78"
+          "brand": "Gunze Sangyo",
+          "code": "H78"
         },
         {
-          "brand": "Mr. Color",
-          "code": "c-38"
+          "brand": "Mr. Hobby",
+          "code": "C38"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70889"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71043"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20066",
@@ -1165,26 +1127,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0084"
+          "code": "MIG-0084"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-80"
+          "brand": "Gunze Sangyo",
+          "code": "H80"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-54"
+          "brand": "Mr. Hobby",
+          "code": "C54"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-67"
+          "code": "XF67"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71093"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20067",
@@ -1193,18 +1154,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.mIG-0O01"
+          "code": "MIG-0001"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-61"
+          "code": "XF61"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70888"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-71"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20068",
@@ -1213,22 +1177,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0260"
+          "code": "MIG-0260"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-60"
+          "brand": "Gunze Sangyo",
+          "code": "H60"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-130"
+          "brand": "Mr. Hobby",
+          "code": "C130"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71287"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20069",
@@ -1237,26 +1200,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AmiG-0926"
+          "code": "MIG-0926"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-304"
+          "brand": "Gunze Sangyo",
+          "code": "H304"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-304"
+          "brand": "Mr. Hobby",
+          "code": "C304"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-62"
+          "code": "XF62"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71286"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20070",
@@ -1265,14 +1227,13 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0131"
+          "code": "MIG-0131"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71142"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20071",
@@ -1281,26 +1242,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0083"
+          "code": "MIG-0083"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-320"
+          "brand": "Gunze Sangyo",
+          "code": "H320"
         },
         {
-          "brand": "Mr. Color",
-          "code": "c-136"
+          "brand": "Mr. Hobby",
+          "code": "C136"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70924"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71017"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20072",
@@ -1309,14 +1269,13 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0270"
+          "code": "MIG-0270"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71303"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20073",
@@ -1325,10 +1284,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-504"
+          "code": "AMMOF504"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20074",
@@ -1337,26 +1295,29 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0270 / AMIG-0220"
+          "code": "MIG-0270"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-340"
+          "brand": "Ammo by Mig",
+          "code": "MIG-0220"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-340"
+          "brand": "Gunze Sangyo",
+          "code": "H340"
         },
         {
-          "brand": "Model Color",
-          "code": "70.850"
+          "brand": "Mr. Hobby",
+          "code": "C340"
         },
         {
-          "brand": "Model Air",
-          "code": "71.13T"
+          "brand": "Vallejo Model Color",
+          "code": "70850"
+        },
+        {
+          "brand": "Vallejo Model Air",
+          "code": "7113T"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20075",
@@ -1365,26 +1326,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0230"
+          "code": "MIG-0230"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-422"
+          "brand": "Gunze Sangyo",
+          "code": "H422"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-122"
+          "brand": "Mr. Hobby",
+          "code": "C122"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70823"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71022"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20076",
@@ -1393,30 +1353,41 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0261 / AMIG-0915 / AMIG-0035 / AMMOF-509"
+          "code": "MIG-0261"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-303"
+          "brand": "Ammo by Mig",
+          "code": "MIG-0915"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-129"
+          "brand": "Ammo by Mig",
+          "code": "MIG-0035"
+        },
+        {
+          "brand": "Ammo by Mig",
+          "code": "AMMOF509"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H303"
+        },
+        {
+          "brand": "Mr. Hobby",
+          "code": "C129"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-81"
+          "code": "XF81"
         },
         {
-          "brand": "Model Color",
-          "code": "70.348"
+          "brand": "Vallejo Model Color",
+          "code": "70348"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71285"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20077",
@@ -1425,26 +1396,33 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AmiG-0206"
+          "code": "MIG-0206"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-309"
+          "brand": "Gunze Sangyo",
+          "code": "H309"
         },
         {
-          "brand": "Mr. Color",
-          "code": "c-309 / C-330"
+          "brand": "Mr. Hobby",
+          "code": "C309"
         },
         {
-          "brand": "Model Color",
+          "brand": "Mr. Hobby",
+          "code": "C330"
+        },
+        {
+          "brand": "Vallejo Model Color",
           "code": "70893"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71294"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-81"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20078",
@@ -1453,30 +1431,33 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0217"
+          "code": "MIG-0217"
         },
         {
-          "brand": "Hobby Color",
-          "code": "4-70"
+          "brand": "Gunze Sangyo",
+          "code": "470"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-60"
+          "brand": "Mr. Hobby",
+          "code": "C60"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-22"
+          "code": "XF22"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70886"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71044"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-02"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20079",
@@ -1485,30 +1466,29 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0002"
+          "code": "MIG-0002"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-48"
+          "brand": "Gunze Sangyo",
+          "code": "H48"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-52"
+          "brand": "Mr. Hobby",
+          "code": "C52"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-65"
+          "code": "XF65"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70890"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71092"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20080",
@@ -1517,10 +1497,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-512"
+          "code": "AMMOF512"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20081",
@@ -1529,26 +1508,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.miG-0023"
+          "code": "MIG-0023"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-312"
+          "brand": "Gunze Sangyo",
+          "code": "H312"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-312"
+          "brand": "Mr. Hobby",
+          "code": "C312"
         },
         {
-          "brand": "Model Color",
-          "code": "70.891"
+          "brand": "Vallejo Model Color",
+          "code": "70891"
         },
         {
-          "brand": "Model Air",
-          "code": "71.126"
+          "brand": "Vallejo Model Air",
+          "code": "71126"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20082",
@@ -1557,10 +1535,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-544"
+          "code": "AMMOF544"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20083",
@@ -1569,14 +1546,13 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MiG-006O"
+          "code": "MIG-0060"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70827"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20084",
@@ -1585,21 +1561,19 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-008O"
+          "code": "MIG-0080"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71301"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20085",
       "name": "FADED GREEN",
       "hex": "#b0c586",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20086",
@@ -1608,29 +1582,27 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0244"
+          "code": "MIG-0244"
         },
         {
-          "brand": "Hobby Color",
-          "code": "4-74"
+          "brand": "Gunze Sangyo",
+          "code": "474"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-26"
+          "brand": "Mr. Hobby",
+          "code": "C26"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71009"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20087",
       "name": "BILE GREEN",
       "hex": "#d8ce6e",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20089",
@@ -1639,17 +1611,15 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-555"
+          "code": "AMMOF555"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20090",
       "name": "TROLL GREEN",
       "hex": "#008641",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20091",
@@ -1658,18 +1628,17 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0054"
+          "code": "MIG-0054"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-26"
+          "brand": "Gunze Sangyo",
+          "code": "H26"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-66"
+          "brand": "Mr. Hobby",
+          "code": "C66"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20092",
@@ -1678,25 +1647,23 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0052"
+          "code": "MIG-0052"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70970"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71007"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20093",
       "name": "FOREST GREEN",
       "hex": "#005133",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20094",
@@ -1705,10 +1672,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO F-542"
+          "code": "AMMOF542"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20095",
@@ -1717,22 +1683,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0265"
+          "code": "MIG-0265"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-124"
+          "brand": "Mr. Hobby",
+          "code": "C124"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-70"
+          "code": "XF70"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71310"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20096",
@@ -1741,17 +1706,15 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0069"
+          "code": "MIG-0069"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20097",
       "name": "ATLANTIC GREEN",
       "hex": "#626f62",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20098",
@@ -1760,10 +1723,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-506"
+          "code": "AMMOF506"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20099",
@@ -1772,10 +1734,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-506"
+          "code": "AMMOF506"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20100",
@@ -1784,10 +1745,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0018"
+          "code": "MIG-0018"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20101",
@@ -1796,30 +1756,33 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0232"
+          "code": "MIG-0232"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-65"
+          "brand": "Gunze Sangyo",
+          "code": "H65"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-18"
+          "brand": "Mr. Hobby",
+          "code": "C18"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-27"
+          "code": "XF27"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70897"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71021"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-70"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20102",
@@ -1828,30 +1791,29 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0227"
+          "code": "MIG-0227"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-54"
+          "brand": "Gunze Sangyo",
+          "code": "H54"
         },
         {
-          "brand": "Mr. Color",
-          "code": "c-14"
+          "brand": "Mr. Hobby",
+          "code": "C14"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-50"
+          "code": "XF50"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70898"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71005"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20103",
@@ -1860,10 +1822,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-518"
+          "code": "AMMOF518"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20104",
@@ -1872,14 +1833,13 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-520"
+          "code": "AMMOF520"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70964"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20105",
@@ -1888,30 +1848,29 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0062"
+          "code": "MIG-0062"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-42"
+          "brand": "Gunze Sangyo",
+          "code": "H42"
         },
         {
-          "brand": "Mr. Color",
-          "code": "c-72"
+          "brand": "Mr. Hobby",
+          "code": "C72"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-18"
+          "code": "XF18"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70900"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71113"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20106",
@@ -1920,10 +1879,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-525"
+          "code": "AMMOF525"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20107",
@@ -1932,10 +1890,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-523"
+          "code": "AMMOF523"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20108",
@@ -1944,22 +1901,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0103"
+          "code": "MIG-0103"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-15"
+          "brand": "Gunze Sangyo",
+          "code": "H15"
         },
         {
-          "brand": "Mr. Color",
-          "code": "c-65"
+          "brand": "Mr. Hobby",
+          "code": "C65"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70839"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20109",
@@ -1968,10 +1924,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-526"
+          "code": "AMMOF526"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20110",
@@ -1980,26 +1935,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0086"
+          "code": "MIG-0086"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-323"
+          "brand": "Gunze Sangyo",
+          "code": "H323"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-323"
+          "brand": "Mr. Hobby",
+          "code": "C323"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70844"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71089"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20111",
@@ -2008,10 +1962,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO F-524"
+          "code": "AMMOF524"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20112",
@@ -2020,22 +1973,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0224"
+          "code": "MIG-0224"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-45"
+          "brand": "Gunze Sangyo",
+          "code": "H45"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70961"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71317"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20113",
@@ -2044,10 +1996,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-543"
+          "code": "AMMOF543"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20114",
@@ -2056,31 +2007,27 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0223"
+          "code": "MIG-0223"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20115",
       "name": "JADE GREEN",
       "hex": "#00b0a8",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20116",
       "name": "AQUAMARINE",
       "hex": "#00c7c4",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20117",
       "name": "DUCK BLUE",
       "hex": "#007593",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20118",
@@ -2089,10 +2036,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-519"
+          "code": "AMMOF519"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20119",
@@ -2101,22 +2047,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0257"
+          "code": "MIG-0257"
         },
         {
-          "brand": "Mr. Color",
-          "code": "C-370"
+          "brand": "Mr. Hobby",
+          "code": "C370"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70902"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71108"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20120",
@@ -2125,14 +2070,13 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0251"
+          "code": "MIG-0251"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71318"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20121",
@@ -2141,14 +2085,13 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0271"
+          "code": "MIG-0271"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71332"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20122",
@@ -2157,14 +2100,13 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0249"
+          "code": "MIG-0249"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71306"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20123",
@@ -2173,10 +2115,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0119"
+          "code": "MIG-0119"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20124",
@@ -2185,22 +2126,29 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0209"
+          "code": "MIG-0209"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-51 / H-338"
+          "brand": "Gunze Sangyo",
+          "code": "H51"
         },
         {
-          "brand": "Tamiya",
-          "code": "c-11 / C-338"
+          "brand": "Gunze Sangyo",
+          "code": "H338"
         },
         {
-          "brand": "Model Air",
+          "brand": "Mr. Hobby",
+          "code": "C11"
+        },
+        {
+          "brand": "Mr. Hobby",
+          "code": "C338"
+        },
+        {
+          "brand": "Vallejo Model Air",
           "code": "71276"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20125",
@@ -2209,18 +2157,17 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0201"
+          "code": "MIG-0201"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-31"
+          "brand": "Gunze Sangyo",
+          "code": "H31"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70885"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20126",
@@ -2229,26 +2176,29 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0247"
+          "code": "MIG-0247"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-418"
+          "brand": "Gunze Sangyo",
+          "code": "H418"
         },
         {
-          "brand": "Tamiya",
-          "code": "C-118"
+          "brand": "Mr. Hobby",
+          "code": "C118"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70972"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71101"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-78"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20127",
@@ -2257,26 +2207,29 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0231"
+          "code": "MIG-0231"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-67"
+          "brand": "Gunze Sangyo",
+          "code": "H67"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-25"
+          "code": "XF25"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70906"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71255"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-65"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20128",
@@ -2285,14 +2238,13 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0219"
+          "code": "MIG-0219"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70331"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20129",
@@ -2301,22 +2253,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0203"
+          "code": "MIG-0203"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-308"
+          "brand": "Gunze Sangyo",
+          "code": "H308"
         },
         {
-          "brand": "Tamiya",
-          "code": "c-308"
+          "brand": "Mr. Hobby",
+          "code": "C308"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70990"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20130",
@@ -2325,22 +2276,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0063"
+          "code": "MIG-0063"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-417"
+          "brand": "Gunze Sangyo",
+          "code": "H417"
         },
         {
-          "brand": "Tamiya",
-          "code": "C-117"
+          "brand": "Mr. Hobby",
+          "code": "C117"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71257"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-76"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20131",
@@ -2349,26 +2303,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MiG-0207"
+          "code": "MIG-0207"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-334"
+          "brand": "Gunze Sangyo",
+          "code": "H334"
         },
         {
-          "brand": "Tamiya",
-          "code": "C-334"
+          "brand": "Mr. Hobby",
+          "code": "C334"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70989"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71046"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20132",
@@ -2377,14 +2330,13 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0075"
+          "code": "MIG-0075"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-80"
+          "code": "XF80"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20133",
@@ -2393,22 +2345,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0208"
+          "code": "MIG-0208"
         },
         {
-          "brand": "Hobby Color",
-          "code": "4-307"
+          "brand": "Gunze Sangyo",
+          "code": "4307"
         },
         {
-          "brand": "Tamiya",
-          "code": "C-307"
+          "brand": "Mr. Hobby",
+          "code": "C307"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71120"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20134",
@@ -2417,26 +2368,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.miG-0210"
+          "code": "MIG-0210"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-337"
+          "brand": "Gunze Sangyo",
+          "code": "H337"
         },
         {
-          "brand": "Tamiya",
-          "code": "C-337"
+          "brand": "Mr. Hobby",
+          "code": "C337"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70905"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71304"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20135",
@@ -2445,18 +2395,17 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AmIG-0059"
+          "code": "MIG-0059"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-22"
+          "brand": "Gunze Sangyo",
+          "code": "H22"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71050"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20136",
@@ -2465,26 +2414,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0228"
+          "code": "MIG-0228"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-56"
+          "brand": "Gunze Sangyo",
+          "code": "H56"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-66"
+          "code": "XF66"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70903"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71299"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20137",
@@ -2493,18 +2441,17 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.miG-0245"
+          "code": "MIG-0245"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-82"
+          "code": "XF82"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71273"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20138",
@@ -2513,26 +2460,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0259"
+          "code": "MIG-0259"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-311"
+          "brand": "Gunze Sangyo",
+          "code": "H311"
         },
         {
-          "brand": "Tamiya",
-          "code": "c-127"
+          "brand": "Mr. Hobby",
+          "code": "C127"
         },
         {
-          "brand": "Model Color",
-          "code": "70.883"
+          "brand": "Vallejo Model Color",
+          "code": "70883"
         },
         {
-          "brand": "Model Air",
-          "code": "71.296"
+          "brand": "Vallejo Model Air",
+          "code": "71296"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20139",
@@ -2541,10 +2487,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.miG-0269"
+          "code": "MIG-0269"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20140",
@@ -2553,18 +2498,17 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0243"
+          "code": "MIG-0243"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-21"
+          "code": "XF21"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71302"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20141",
@@ -2573,18 +2517,17 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0262"
+          "code": "MIG-0262"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-12"
+          "code": "XF12"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71311"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20142",
@@ -2593,26 +2536,29 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0258"
+          "code": "MIG-0258"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-315"
+          "brand": "Gunze Sangyo",
+          "code": "H315"
         },
         {
-          "brand": "Tamiya",
-          "code": "C-315 / C-325"
+          "brand": "Mr. Hobby",
+          "code": "C315"
         },
         {
-          "brand": "Model Color",
+          "brand": "Mr. Hobby",
+          "code": "C325"
+        },
+        {
+          "brand": "Vallejo Model Color",
           "code": "70986"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71121"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20143",
@@ -2621,18 +2567,17 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.miG-0072"
+          "code": "MIG-0072"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-55"
+          "code": "XF55"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70315"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20144",
@@ -2641,10 +2586,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0114"
+          "code": "MIG-0114"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20145",
@@ -2653,22 +2597,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0239"
+          "code": "MIG-0239"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-53"
+          "brand": "Gunze Sangyo",
+          "code": "H53"
         },
         {
-          "brand": "Tamiya",
-          "code": "c-13"
+          "brand": "Mr. Hobby",
+          "code": "C13"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71274"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20146",
@@ -2677,22 +2620,21 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AmiG-0235"
+          "code": "MIG-0235"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-83"
+          "brand": "Gunze Sangyo",
+          "code": "H83"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-75"
+          "code": "XF75"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71308"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20147",
@@ -2701,26 +2643,29 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0254"
+          "code": "MIG-0254"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-69"
+          "brand": "Gunze Sangyo",
+          "code": "H69"
         },
         {
-          "brand": "Tamiya",
-          "code": "C-37"
+          "brand": "Mr. Hobby",
+          "code": "C37"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70869"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71259"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-75"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20148",
@@ -2729,26 +2674,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0204"
+          "code": "MIG-0204"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-305"
+          "brand": "Gunze Sangyo",
+          "code": "H305"
         },
         {
-          "brand": "Tamiya",
-          "code": "C-305"
+          "brand": "Mr. Hobby",
+          "code": "C305"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70868"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71047"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20149",
@@ -2757,10 +2701,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-521"
+          "code": "AMMOF521"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20150",
@@ -2769,18 +2712,17 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.miG-0126"
+          "code": "MIG-0126"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-49"
+          "brand": "Gunze Sangyo",
+          "code": "H49"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70960"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20151",
@@ -2789,57 +2731,51 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0127"
+          "code": "MIG-0127"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-39"
+          "brand": "Gunze Sangyo",
+          "code": "H39"
         },
         {
-          "brand": "Tamiya",
-          "code": "c-67"
+          "brand": "Mr. Hobby",
+          "code": "C67"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70959"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20152",
       "name": "AMETHYST",
       "hex": "#c158bd",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20153",
       "name": "ORCHID",
       "hex": "#b06094",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20154",
       "name": "LIGHT PLUM",
       "hex": "#e286e0",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20155",
       "name": "MAUVE",
       "hex": "#9389ad",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20156",
       "name": "PUTRID FLESH",
       "hex": "#9a8d90",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20157",
@@ -2848,26 +2784,29 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0253"
+          "code": "MIG-0253"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-68"
+          "brand": "Gunze Sangyo",
+          "code": "H68"
         },
         {
-          "brand": "Tamiya",
-          "code": "C-36"
+          "brand": "Mr. Hobby",
+          "code": "C36"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70867"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71258"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-74"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20158",
@@ -2876,26 +2815,29 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0218"
+          "code": "MIG-0218"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-416"
+          "brand": "Gunze Sangyo",
+          "code": "H416"
         },
         {
-          "brand": "Tamiya",
-          "code": "C-116"
+          "brand": "Mr. Hobby",
+          "code": "C116"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70866"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71055"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-66"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20159",
@@ -2904,26 +2846,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0033"
+          "code": "MIG-0033"
         },
         {
-          "brand": "Hobby Color",
-          "code": "4-77"
+          "brand": "Gunze Sangyo",
+          "code": "477"
         },
         {
-          "brand": "Tamiya",
-          "code": "C-137"
+          "brand": "Mr. Hobby",
+          "code": "C137"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70306"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71315"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20160",
@@ -2932,26 +2873,29 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.miG-00O8"
+          "code": "MIG-0008"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-401"
+          "brand": "Gunze Sangyo",
+          "code": "H401"
         },
         {
-          "brand": "Tamiya",
-          "code": "C-301 / C-339"
+          "brand": "Mr. Hobby",
+          "code": "C301"
         },
         {
-          "brand": "Model Color",
+          "brand": "Mr. Hobby",
+          "code": "C339"
+        },
+        {
+          "brand": "Vallejo Model Color",
           "code": "70862"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71056"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20161",
@@ -2960,10 +2904,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0278"
+          "code": "MIG-0278"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20162",
@@ -2972,22 +2915,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0032"
+          "code": "MIG-0032"
         },
         {
-          "brand": "Hobby Color",
-          "code": "H-2"
+          "brand": "Gunze Sangyo",
+          "code": "H2"
         },
         {
-          "brand": "Tamiya",
-          "code": "c-2/C-92"
+          "brand": "Mr. Hobby",
+          "code": "C2"
         },
         {
-          "brand": "Model Color",
+          "brand": "Mr. Hobby",
+          "code": "C92"
+        },
+        {
+          "brand": "Vallejo Model Color",
           "code": "70861"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20163",
@@ -2996,26 +2942,25 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMMO.F-502"
+          "code": "AMMOF502"
         },
         {
-          "brand": "Hobby Color",
-          "code": "#-12"
+          "brand": "Gunze Sangyo",
+          "code": "#12"
         },
         {
-          "brand": "Tamiya",
-          "code": "C-33"
+          "brand": "Mr. Hobby",
+          "code": "C33"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70950"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71057"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20164",
@@ -3024,21 +2969,19 @@
       "equivalents": [
         {
           "brand": "Tamiya",
-          "code": "XF-16"
+          "code": "XF16"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71062"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20165",
       "name": "ALUMINUM",
       "hex": "#d1d1d1",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     },
     {
       "code": "ATOM-20166",
@@ -3046,23 +2989,26 @@
       "hex": "#adadad",
       "equivalents": [
         {
-          "brand": "Hobby Color",
-          "code": "H-8"
+          "brand": "Gunze Sangyo",
+          "code": "H8"
         },
         {
-          "brand": "Tamiya",
-          "code": "C-8 /C-90"
+          "brand": "Mr. Hobby",
+          "code": "C8"
         },
         {
-          "brand": "Model Color",
+          "brand": "Mr. Hobby",
+          "code": "C90"
+        },
+        {
+          "brand": "Vallejo Model Color",
           "code": "70997"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71063"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20167",
@@ -3070,23 +3016,22 @@
       "hex": "#696969",
       "equivalents": [
         {
-          "brand": "Hobby Color",
-          "code": "H-18"
+          "brand": "Gunze Sangyo",
+          "code": "H18"
         },
         {
-          "brand": "Tamiya",
-          "code": "C-28"
+          "brand": "Mr. Hobby",
+          "code": "C28"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70864"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71065"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20168",
@@ -3094,15 +3039,14 @@
       "hex": "#050505",
       "equivalents": [
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70863"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71072"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20169",
@@ -3110,19 +3054,18 @@
       "hex": "#3a2a21",
       "equivalents": [
         {
-          "brand": "Hobby Color",
-          "code": "4-76"
+          "brand": "Gunze Sangyo",
+          "code": "476"
         },
         {
           "brand": "Tamiya",
-          "code": "XF-84"
+          "code": "XF84"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71073"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20170",
@@ -3130,23 +3073,22 @@
       "hex": "#ba4c1e",
       "equivalents": [
         {
-          "brand": "Hobby Color",
-          "code": "4-10"
+          "brand": "Gunze Sangyo",
+          "code": "410"
         },
         {
-          "brand": "Tamiya",
-          "code": "c-10"
+          "brand": "Mr. Hobby",
+          "code": "C10"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70999"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71068"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20171",
@@ -3155,18 +3097,17 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "AMIG-0197"
+          "code": "MIG-0197"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70996"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71066"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20172",
@@ -3174,19 +3115,18 @@
       "hex": "#ab8b46",
       "equivalents": [
         {
-          "brand": "Hobby Color",
-          "code": "H-9"
+          "brand": "Gunze Sangyo",
+          "code": "H9"
         },
         {
-          "brand": "Tamiya",
-          "code": "c-9"
+          "brand": "Mr. Hobby",
+          "code": "C9"
         },
         {
-          "brand": "Model Color",
+          "brand": "Vallejo Model Color",
           "code": "70801"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20173",
@@ -3194,11 +3134,10 @@
       "hex": "#b49770",
       "equivalents": [
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71070"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20174",
@@ -3206,19 +3145,18 @@
       "hex": "#d43c22",
       "equivalents": [
         {
-          "brand": "Hobby Color",
-          "code": "H-87"
+          "brand": "Gunze Sangyo",
+          "code": "H87"
         },
         {
-          "brand": "Tamiya",
-          "code": "c-75"
+          "brand": "Mr. Hobby",
+          "code": "C75"
         },
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71417"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20175",
@@ -3226,11 +3164,10 @@
       "hex": "#558f69",
       "equivalents": [
         {
-          "brand": "Model Air",
+          "brand": "Vallejo Model Air",
           "code": "71419"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20176",
@@ -3238,15 +3175,14 @@
       "hex": "#3d7cca",
       "equivalents": [
         {
-          "brand": "Hobby Color",
-          "code": "H-63"
+          "brand": "Gunze Sangyo",
+          "code": "H63"
         },
         {
-          "brand": "Tamiya",
-          "code": "c-57"
+          "brand": "Mr. Hobby",
+          "code": "C57"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20177",
@@ -3255,10 +3191,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0024"
+          "code": "MIG-0024"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20178",
@@ -3267,10 +3202,9 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.MIG-0105"
+          "code": "MIG-0105"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20179",
@@ -3279,17 +3213,15 @@
       "equivalents": [
         {
           "brand": "Ammo by Mig",
-          "code": "A.miG-0106"
+          "code": "MIG-0106"
         }
-      ],
-      "confidence": null
+      ]
     },
     {
       "code": "ATOM-20500",
       "name": "THINNER AND   CLEANER",
       "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
+      "equivalents": []
     }
   ]
 }

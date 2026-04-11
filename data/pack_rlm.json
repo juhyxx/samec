@@ -1,0 +1,302 @@
+{
+  "brand": "RLM",
+  "brand_id": "rlm",
+  "source": "data/pack_rlm.json",
+  "count": 42,
+  "colors": [
+    {
+      "code": "RLM-01",
+      "name": "Silber",
+      "hex": "#797e80",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-02",
+      "name": "Grau (1940)",
+      "hex": "#706956",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-02-1",
+      "name": "Grau",
+      "hex": "#716958",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-03",
+      "name": "Silber",
+      "hex": "#797e80",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-04",
+      "name": "Gelb (Signalgelb)",
+      "hex": "#f1b136",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-05",
+      "name": "Elfenbein",
+      "hex": "#cec458",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-11",
+      "name": "Grau",
+      "hex": "#6a6662",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-21",
+      "name": "Weil",
+      "hex": "#fcf7f3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-22",
+      "name": "Schwarz",
+      "hex": "#171c1e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-23",
+      "name": "Rot",
+      "hex": "#c1391e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-24",
+      "name": "Dunkelblau",
+      "hex": "#1a2b4d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-25",
+      "name": "Hellgrun",
+      "hex": "#345454",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-26",
+      "name": "Braun",
+      "hex": "#803f22",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-27",
+      "name": "Gelb",
+      "hex": "#fedf69",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-28",
+      "name": "Weinrot",
+      "hex": "#30140d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-41",
+      "name": "Seidegrau",
+      "hex": "#2c3234",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-42",
+      "name": "Gerategrau",
+      "hex": "#374042",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-61",
+      "name": "Dunkelbraun",
+      "hex": "#373029",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-62",
+      "name": "Grin",
+      "hex": "#403f2c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-63-1",
+      "name": "Gringrau",
+      "hex": "#4f5040",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-64",
+      "name": "Lichtblau",
+      "hex": "#92bdde",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-65",
+      "name": "Hellblau",
+      "hex": "#7dadd6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-66",
+      "name": "Schwarzgrau",
+      "hex": "#171918",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-67",
+      "name": "Dunkelolivgriin",
+      "hex": "#2f302c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-68",
+      "name": "Hellolivgriin",
+      "hex": "#34392e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-69",
+      "name": "Lichtlohfarbe",
+      "hex": "#e0a866",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-70",
+      "name": "Schwarzgriin",
+      "hex": "#30362d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-71",
+      "name": "Dunkelgrin",
+      "hex": "#2b2c1d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-75",
+      "name": "Mittelgrau",
+      "hex": "#2e2a2a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-76-1",
+      "name": "Graublau",
+      "hex": "#9aaea3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-77",
+      "name": "Hellgrau",
+      "hex": "#e2e4e3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-78",
+      "name": "Himmelblau",
+      "hex": "#91a39f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-78-1",
+      "name": "Blau",
+      "hex": "#657997",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-79",
+      "name": "Sandgelb-Hell",
+      "hex": "#c1935d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-79-1",
+      "name": "Sandgelb-braun",
+      "hex": "#55442b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-80",
+      "name": "Olivgriin",
+      "hex": "#202d1f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-81",
+      "name": "Dunkelgrin",
+      "hex": "#3a382c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-81-1",
+      "name": "Braunviolett",
+      "hex": "#373029",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-82",
+      "name": "Dunkelgriin",
+      "hex": "#272427",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-82-1",
+      "name": "Dunkelgrin",
+      "hex": "#403f2c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-83",
+      "name": "Hellgruin",
+      "hex": "#46553d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RLM-99",
+      "name": "Hellgrinblau",
+      "hex": "#b8ca9c",
+      "equivalents": [],
+      "confidence": null
+    }
+  ]
+}

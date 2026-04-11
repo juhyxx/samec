@@ -2,719 +2,439 @@
   "brand": "Mr. Hobby",
   "brand_id": "mr_hobby",
   "source": "data/pack_mr_hobby.json",
-  "count": 102,
+  "count": 62,
   "colors": [
-    {
-      "code": "C2",
-      "name": "Unnamed",
-      "hex": "#8a8a89",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C3",
-      "name": "Unnamed",
-      "hex": "#979696",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C4",
-      "name": "Unnamed",
-      "hex": "#d3d3d2",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C5",
-      "name": "Unnamed",
-      "hex": "#bab9b9",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C6",
-      "name": "Unnamed",
-      "hex": "#bdbdbc",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C8",
-      "name": "Unnamed",
-      "hex": "#cbcbca",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C9",
-      "name": "Unnamed",
-      "hex": "#bcbcbb",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C10",
-      "name": "Unnamed",
-      "hex": "#777776",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C12",
-      "name": "Unnamed",
-      "hex": "#414040",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C13",
-      "name": "Unnamed",
-      "hex": "#323131",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C14",
-      "name": "Unnamed",
-      "hex": "#70706f",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C15",
-      "name": "Unnamed",
-      "hex": "#6a6969",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C116",
-      "name": "Unnamed",
-      "hex": "#818080",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C17",
-      "name": "Unnamed",
-      "hex": "#252424",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C18",
-      "name": "Unnamed",
-      "hex": "#7b7a7a",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C19",
-      "name": "Unnamed",
-      "hex": "#828181",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C201",
-      "name": "Unnamed",
-      "hex": "#999898",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C21",
-      "name": "Unnamed",
-      "hex": "#535352",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C22",
-      "name": "Unnamed",
-      "hex": "#5d5c5c",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C23",
-      "name": "Unnamed",
-      "hex": "#5a5959",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C25",
-      "name": "Unnamed",
-      "hex": "#929291",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C26",
-      "name": "Unnamed",
-      "hex": "#9c9b9b",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C27",
-      "name": "Unnamed",
-      "hex": "#494948",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C281",
-      "name": "Unnamed",
-      "hex": "#949493",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C29",
-      "name": "Unnamed",
-      "hex": "#959594",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C30",
-      "name": "Unnamed",
-      "hex": "#c5c5c4",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C31",
-      "name": "Unnamed",
-      "hex": "#737272",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C32",
-      "name": "Unnamed",
-      "hex": "#858584",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C337",
-      "name": "Unnamed",
-      "hex": "#727171",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C341",
-      "name": "Unnamed",
-      "hex": "#dcdcdb",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C35",
-      "name": "Unnamed",
-      "hex": "#b4b3b3",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C36",
-      "name": "Unnamed",
-      "hex": "#b7b6b6",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C37",
-      "name": "Unnamed",
-      "hex": "#696868",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C39",
-      "name": "Unnamed",
-      "hex": "#dcdcdb",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C40",
-      "name": "Unnamed",
-      "hex": "#c6c5c5",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C41",
-      "name": "Unnamed",
-      "hex": "#747473",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C42",
-      "name": "Unnamed",
-      "hex": "#7f7f7e",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C431",
-      "name": "Unnamed",
-      "hex": "#6b6a6a",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C44",
-      "name": "Unnamed",
-      "hex": "#ececeb",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C451",
-      "name": "Unnamed",
-      "hex": "#9a9999",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C46",
-      "name": "Unnamed",
-      "hex": "#b0b0af",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C47",
-      "name": "Unnamed",
-      "hex": "#616060",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C481",
-      "name": "Unnamed",
-      "hex": "#adadac",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C49",
-      "name": "Unnamed",
-      "hex": "#e1e1e0",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C51",
-      "name": "Unnamed",
-      "hex": "#6c6b6b",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C52",
-      "name": "Unnamed",
-      "hex": "#828181",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C54",
-      "name": "Unnamed",
-      "hex": "#6e5c51",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C551",
-      "name": "Unnamed",
-      "hex": "#dcdcdb",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C57",
-      "name": "Unnamed",
-      "hex": "#545353",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C58",
-      "name": "Unnamed",
-      "hex": "#bcbcbb",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C59",
-      "name": "Unnamed",
-      "hex": "#acacab",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C61",
-      "name": "Unnamed",
-      "hex": "#636362",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C62",
-      "name": "Unnamed",
-      "hex": "#706f6f",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C65",
-      "name": "Unnamed",
-      "hex": "#e1e1e0",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C66",
-      "name": "Unnamed",
-      "hex": "#c0c0bf",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C72",
-      "name": "Unnamed",
-      "hex": "#535252",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C73",
-      "name": "Unnamed",
-      "hex": "#585757",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C74",
-      "name": "Unnamed",
-      "hex": "#969595",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C751",
-      "name": "Unnamed",
-      "hex": "#ececeb",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C76",
-      "name": "Unnamed",
-      "hex": "#a7a7a6",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C78",
-      "name": "Unnamed",
-      "hex": "#9f9f9e",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C79",
-      "name": "Unnamed",
-      "hex": "#8f8e8e",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C80",
-      "name": "Unnamed",
-      "hex": "#e1e1e0",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C817",
-      "name": "Unnamed",
-      "hex": "#767675",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C92",
-      "name": "Unnamed",
-      "hex": "#949493",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C97",
-      "name": "Unnamed",
-      "hex": "#747473",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C117",
-      "name": "Unnamed",
-      "hex": "#636262",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C120",
-      "name": "Unnamed",
-      "hex": "#868685",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C122",
-      "name": "Unnamed",
-      "hex": "#7b7b7a",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C124",
-      "name": "Unnamed",
-      "hex": "#dcdcdb",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C125",
-      "name": "Unnamed",
-      "hex": "#8c8c8b",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C127",
-      "name": "Unnamed",
-      "hex": "#6d6c6c",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C129",
-      "name": "Unnamed",
-      "hex": "#897467",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C2",
-      "name": "Unnamed",
-      "hex": "#fffffe",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C2",
-      "name": "Unnamed",
-      "hex": "#c4c5c4",
-      "equivalents": [],
-      "confidence": null
-    },
     {
       "code": "C302",
       "name": "Unnamed",
-      "hex": "#a6a6a5",
+      "hex": "#808685",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C303",
       "name": "Unnamed",
-      "hex": "#a0a09f",
+      "hex": "#858986",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C304",
       "name": "Unnamed",
-      "hex": "#4c9861",
+      "hex": "#7f7f7d",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C305",
       "name": "Unnamed",
-      "hex": "#f8f8f7",
+      "hex": "#858d8c",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C308",
       "name": "Unnamed",
-      "hex": "#f8f8f7",
+      "hex": "#969e9d",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C309",
       "name": "Unnamed",
-      "hex": "#f9f9f8",
+      "hex": "#838988",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C310",
       "name": "Unnamed",
-      "hex": "#accbdf",
+      "hex": "#888480",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C311",
       "name": "Unnamed",
-      "hex": "#6f6f6e",
+      "hex": "#aaaaa0",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C313",
       "name": "Unnamed",
-      "hex": "#616060",
+      "hex": "#aca08f",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C314",
       "name": "Unnamed",
-      "hex": "#53524e",
+      "hex": "#afb3ae",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C315",
       "name": "Unnamed",
-      "hex": "#616060",
+      "hex": "#939896",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C318",
       "name": "Unnamed",
-      "hex": "#636262",
+      "hex": "#b9a995",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C319",
       "name": "Unnamed",
-      "hex": "#6e6d6d",
+      "hex": "#798783",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C320",
       "name": "Unnamed",
-      "hex": "#756c63",
+      "hex": "#818581",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C323",
       "name": "Unnamed",
-      "hex": "#d5b78e",
+      "hex": "#779fae",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C324",
       "name": "Unnamed",
-      "hex": "#e0ebde",
+      "hex": "#909896",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C325",
       "name": "Unnamed",
-      "hex": "#92a19b",
+      "hex": "#999c98",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C328",
       "name": "Unnamed",
-      "hex": "#efc793",
+      "hex": "#7a7c81",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C329",
       "name": "Unnamed",
-      "hex": "#4c7166",
+      "hex": "#b79a7e",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C330",
       "name": "Unnamed",
-      "hex": "#59635a",
+      "hex": "#7c7f7e",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C332",
       "name": "Unnamed",
-      "hex": "#838382",
+      "hex": "#929490",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C233",
       "name": "Unnamed",
-      "hex": "#7e7e7d",
+      "hex": "#797e7f",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C334",
       "name": "Unnamed",
-      "hex": "#8b9e9a",
+      "hex": "#8d9291",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C335",
       "name": "Unnamed",
-      "hex": "#9ba49b",
+      "hex": "#868b8b",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C338",
       "name": "Unnamed",
-      "hex": "#474d5c",
+      "hex": "#a2a4a3",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C340",
       "name": "Unnamed",
-      "hex": "#525959",
+      "hex": "#7b817b",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C1",
+      "code": "C351",
       "name": "Unnamed",
-      "hex": "#2a281e",
+      "hex": "#7f7e74",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C352",
+      "name": "Unnamed",
+      "hex": "#978f75",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C362",
+      "name": "Unnamed",
+      "hex": "#7c7e7e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C363",
+      "name": "Unnamed",
+      "hex": "#858a8a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C365",
+      "name": "Unnamed",
+      "hex": "#65666b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C366",
+      "name": "Unnamed",
+      "hex": "#7e8487",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C367",
+      "name": "Unnamed",
+      "hex": "#7f8787",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C368",
+      "name": "Unnamed",
+      "hex": "#969b91",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C369",
+      "name": "Unnamed",
+      "hex": "#7d7a75",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C370",
+      "name": "Unnamed",
+      "hex": "#7b8690",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C374",
+      "name": "Unnamed",
+      "hex": "#77818a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C375",
+      "name": "Unnamed",
+      "hex": "#6b6c6f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C376",
+      "name": "Unnamed",
+      "hex": "#999b98",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C383",
+      "name": "Unnamed",
+      "hex": "#727876",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C384",
+      "name": "Unnamed",
+      "hex": "#858578",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C385",
+      "name": "Unnamed",
+      "hex": "#75968d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C391",
+      "name": "Unnamed",
+      "hex": "#6d8e85",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C392",
+      "name": "Unnamed",
+      "hex": "#749097",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C393",
+      "name": "Unnamed",
+      "hex": "#696568",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C511",
+      "name": "Unnamed",
+      "hex": "#6d7167",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C513",
+      "name": "Unnamed",
+      "hex": "#6e7173",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C514",
+      "name": "Unnamed",
+      "hex": "#72797a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C515",
+      "name": "Unnamed",
+      "hex": "#787f80",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C516",
+      "name": "Unnamed",
+      "hex": "#6f716d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C517",
+      "name": "Unnamed",
+      "hex": "#6e6b68",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C518",
+      "name": "Unnamed",
+      "hex": "#6e6d69",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C520",
+      "name": "Unnamed",
+      "hex": "#797571",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C621",
+      "name": "Unnamed",
+      "hex": "#676868",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C522",
+      "name": "Unnamed",
+      "hex": "#797777",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C523",
+      "name": "Unnamed",
+      "hex": "#797c77",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C524",
+      "name": "Unnamed",
+      "hex": "#868275",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C525",
+      "name": "Unnamed",
+      "hex": "#747975",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C526",
+      "name": "Unnamed",
+      "hex": "#88807b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C528",
+      "name": "Unnamed",
+      "hex": "#9f978b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C529",
+      "name": "Unnamed",
+      "hex": "#898782",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C606",
+      "name": "Unnamed",
+      "hex": "#827c7a",
       "equivalents": [],
       "confidence": null
     }

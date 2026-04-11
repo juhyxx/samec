@@ -16,6 +16,10 @@
         {
           "brand": "MODEL COLOR",
           "code": "70.888"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 6003"
         }
       ],
       "confidence": 0.8177809291930267
@@ -44,6 +48,14 @@
         {
           "brand": "MODEL AIR",
           "code": "71.092"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34082"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 6003"
         }
       ],
       "confidence": 0.8039895164911844
@@ -68,6 +80,14 @@
         {
           "brand": "MODEL AIR",
           "code": "71.126"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34227"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 6011"
         }
       ],
       "confidence": 0.8947584006661146
@@ -84,6 +104,10 @@
         {
           "brand": "MR.COLOR",
           "code": "C340"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 6011"
         }
       ],
       "confidence": 0.9856195091800695
@@ -96,6 +120,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.116"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 7008"
         }
       ],
       "confidence": 0.8003193650396019
@@ -104,7 +132,12 @@
       "code": "MIG-0006",
       "name": "GRAUGRUN OPT2",
       "hex": "#7b7648",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7008"
+        }
+      ],
       "confidence": 0.7670371401430021
     },
     {
@@ -119,6 +152,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.248"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 7017"
         }
       ],
       "confidence": 0.7917988360441458
@@ -139,6 +176,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.056"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 7021"
         }
       ],
       "confidence": 0.8499897063847718
@@ -155,6 +196,10 @@
         {
           "brand": "MR.COLOR",
           "code": "C321"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 7027"
         }
       ],
       "confidence": 0.8349307573567286
@@ -175,6 +220,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.025"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 7028"
         }
       ],
       "confidence": 0.8168112119803048
@@ -187,6 +236,14 @@
         {
           "brand": "MODEL COLOR",
           "code": "70.978"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 33440"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 7028"
         }
       ],
       "confidence": 0.8339979683199066
@@ -195,7 +252,12 @@
       "code": "MIG-0012",
       "name": "DUNKELGELB AUS '44 DG IIl",
       "hex": "#d1c49d",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7028"
+        }
+      ],
       "confidence": 0.7657345843303225
     },
     {
@@ -222,6 +284,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.272"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 8000"
         }
       ],
       "confidence": 0.8872687640316922
@@ -233,7 +299,11 @@
       "equivalents": [
         {
           "brand": "HOBBY COLOR",
-          "code": "H47 /H460"
+          "code": "H47"
+        },
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H460"
         },
         {
           "brand": "MR.COLOR",
@@ -250,6 +320,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.271"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 8012"
         }
       ],
       "confidence": 0.8992119208345375
@@ -274,6 +348,14 @@
         {
           "brand": "MODEL AIR",
           "code": "71.041"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30059"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 8017"
         }
       ],
       "confidence": 0.9348090516885534
@@ -282,7 +364,12 @@
       "code": "MIG-0016",
       "name": "GELBBRAUN",
       "hex": "#dabb75",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 8020"
+        }
+      ],
       "confidence": 0.9993808796690595
     },
     {
@@ -297,6 +384,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.270"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 9001"
         }
       ],
       "confidence": 0.8029262908088419
@@ -388,6 +479,10 @@
         {
           "brand": "TAMIYA",
           "code": "XF71"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34227"
         }
       ],
       "confidence": 0.9196678210854866
@@ -411,6 +506,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.140"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 33446"
         }
       ],
       "confidence": 0.8692486542406496
@@ -435,6 +534,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.117"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 8031"
         }
       ],
       "confidence": 0.9164332207636301
@@ -451,6 +554,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.244"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 1039"
         }
       ],
       "confidence": 0.8798570935583429
@@ -467,6 +574,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.131"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 1039"
         }
       ],
       "confidence": 0.8090848617483088
@@ -521,7 +632,11 @@
         },
         {
           "brand": "MR.COLOR",
-          "code": "C2/C92"
+          "code": "C2"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C92"
         },
         {
           "brand": "MODEL COLOR",
@@ -566,6 +681,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.080"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30111"
         }
       ],
       "confidence": 0.7435102949166156
@@ -750,6 +869,18 @@
         {
           "brand": "MODEL AIR",
           "code": "71.072"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 37200"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 9007"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-03"
         }
       ],
       "confidence": 0.8737723453154455
@@ -778,6 +909,18 @@
         {
           "brand": "MODEL AIR",
           "code": "71.057"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 37038"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 9005"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-22"
         }
       ],
       "confidence": 0.8570865947864038
@@ -826,6 +969,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.002"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 1023"
         }
       ],
       "confidence": 0.934655640927621
@@ -836,12 +983,28 @@
       "hex": "#a32a1d",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS31302RAL 3020RLM 23"
+          "brand": "Federal Standard",
+          "code": "FS 31302"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 3020"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM 23"
         },
         {
           "brand": "MR.COLOR",
-          "code": "C3/C79/C114"
+          "code": "C3"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C79"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C114"
         },
         {
           "brand": "TAMIYA",
@@ -864,8 +1027,16 @@
       "hex": "#ffffff",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS37925RAL 9016RLM 21"
+          "brand": "Federal Standard",
+          "code": "FS 37925"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 9016"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM 21"
         },
         {
           "brand": "MR.COLOR",
@@ -964,8 +1135,8 @@
       "hex": "#4a4732",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "KHS5146RLM 83"
+          "brand": "RLM",
+          "code": "RLM 83"
         },
         {
           "brand": "MR.COLOR",
@@ -1020,8 +1191,8 @@
       "hex": "#757a83",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS36251KHV16"
+          "brand": "Federal Standard",
+          "code": "FS 36251"
         },
         {
           "brand": "MODEL AIR",
@@ -1096,8 +1267,12 @@
       "hex": "#91b3a7",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS36480RLM 76"
+          "brand": "Federal Standard",
+          "code": "FS 36480"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM 76"
         },
         {
           "brand": "MR.COLOR",
@@ -1140,8 +1315,12 @@
       "hex": "#313a23",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS34102RLM 62"
+          "brand": "Federal Standard",
+          "code": "FS 34102"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM 62"
         },
         {
           "brand": "MR.COLOR",
@@ -1191,7 +1370,11 @@
       "equivalents": [
         {
           "brand": "HOBBY COLOR",
-          "code": "H36 /H5g"
+          "code": "H36"
+        },
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H5g"
         },
         {
           "brand": "MR.COLOR",
@@ -1210,7 +1393,7 @@
       "hex": "#463023",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "British Standard",
           "code": "BS 450"
         },
         {
@@ -1391,7 +1574,11 @@
       "equivalents": [
         {
           "brand": "HOBBY COLOR",
-          "code": "H304 /H405"
+          "code": "H304"
+        },
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H405"
         },
         {
           "brand": "MR.COLOR",
@@ -1474,8 +1661,12 @@
       "hex": "#392723",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS 30051RAL 8027"
+          "brand": "Federal Standard",
+          "code": "FS 30051"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 8027"
         },
         {
           "brand": "TAMIYA",
@@ -1498,7 +1689,7 @@
       "hex": "#004f79",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "RAL",
           "code": "RAL 5019"
         },
         {
@@ -1522,7 +1713,7 @@
       "hex": "#3a3c2b",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "RAL",
           "code": "RAL 6014"
         },
         {
@@ -1768,7 +1959,7 @@
       "hex": "#9c8c71",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "RAL",
           "code": "RAL 8000"
         }
       ],
@@ -1780,7 +1971,7 @@
       "hex": "#d4a760",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "RAL",
           "code": "RAL 8020"
         }
       ],
@@ -1813,8 +2004,8 @@
       "hex": "#2c1e15",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "SCC 1ARLM 61"
+          "brand": "RLM",
+          "code": "RLM 61"
         },
         {
           "brand": "MODEL AIR",
@@ -1925,8 +2116,8 @@
       "hex": "#deb4a2",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS31670"
+          "brand": "Federal Standard",
+          "code": "FS 31670"
         },
         {
           "brand": "MODEL COLOR",
@@ -1960,8 +2151,8 @@
       "hex": "#cbcccc",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS17865"
+          "brand": "Federal Standard",
+          "code": "FS 17865"
         },
         {
           "brand": "MODEL COLOR",
@@ -1987,8 +2178,8 @@
       "hex": "#9b2b1d",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FSI1136RAL 3002"
+          "brand": "RAL",
+          "code": "RAL 3002"
         },
         {
           "brand": "MR.COLOR",
@@ -2059,8 +2250,16 @@
       "hex": "#e0ad28",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS33655RAL 1003RLM 04"
+          "brand": "Federal Standard",
+          "code": "FS 33655"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 1003"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM 04"
         },
         {
           "brand": "MR.COLOR",
@@ -2099,8 +2298,12 @@
       "hex": "#7e5b93",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS37142RAL 4008"
+          "brand": "Federal Standard",
+          "code": "FS 37142"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 4008"
         },
         {
           "brand": "MR.COLOR",
@@ -2126,8 +2329,8 @@
       "hex": "#d7721c",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS32246"
+          "brand": "Federal Standard",
+          "code": "FS 32246"
         },
         {
           "brand": "MR.COLOR",
@@ -2242,8 +2445,8 @@
       "hex": "#bc9a64",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS20400"
+          "brand": "Federal Standard",
+          "code": "FS 20400"
         },
         {
           "brand": "MODEL COLOR",
@@ -2341,7 +2544,7 @@
       "hex": "#959084",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "RAL",
           "code": "RAL 9006"
         },
         {
@@ -2404,12 +2607,20 @@
       "hex": "#a19d94",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS 17178RLM 01"
+          "brand": "Federal Standard",
+          "code": "FS 17178"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM 01"
         },
         {
           "brand": "MR.COLOR",
-          "code": "C8 / C90"
+          "code": "C8"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C90"
         },
         {
           "brand": "MODEL COLOR",
@@ -2456,7 +2667,7 @@
       "hex": "#997a2c",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 17043"
         },
         {
@@ -2508,7 +2719,7 @@
       "hex": "#cfbdaa",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 33531"
         },
         {
@@ -2524,7 +2735,7 @@
       "hex": "#a6bb9f",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 34424"
         },
         {
@@ -2540,7 +2751,7 @@
       "hex": "#715539",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 30219"
         },
         {
@@ -2568,8 +2779,8 @@
       "hex": "#9fb2b4",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS 36375RALZOOI"
+          "brand": "Federal Standard",
+          "code": "FS 36375"
         },
         {
           "brand": "MR.COLOR",
@@ -2588,7 +2799,7 @@
       "hex": "#373d46",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 36118"
         },
         {
@@ -2616,12 +2827,16 @@
       "hex": "#607074",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 26231"
         },
         {
           "brand": "MR.COLOR",
-          "code": "C317 /C331"
+          "code": "C317"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C331"
         },
         {
           "brand": "MODEL COLOR",
@@ -2640,8 +2855,12 @@
       "hex": "#3d4528",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS 34079RLM 81"
+          "brand": "Federal Standard",
+          "code": "FS 34079"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM 81"
         },
         {
           "brand": "MR.COLOR",
@@ -2664,7 +2883,7 @@
       "hex": "#8a8d8d",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 36314"
         },
         {
@@ -2692,7 +2911,7 @@
       "hex": "#6a6d6a",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 36320"
         },
         {
@@ -2713,11 +2932,19 @@
       "equivalents": [
         {
           "brand": "HOBBY COLOR",
-          "code": "H51 /H338"
+          "code": "H51"
+        },
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H338"
         },
         {
           "brand": "MR.COLOR",
-          "code": "C11 /C338"
+          "code": "C11"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C338"
         },
         {
           "brand": "MODEL AIR",
@@ -2732,7 +2959,7 @@
       "hex": "#61707a",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 35237"
         },
         {
@@ -2756,7 +2983,7 @@
       "hex": "#8f8f91",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 36270"
         },
         {
@@ -2776,8 +3003,12 @@
       "hex": "#979799",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS 26373BS 627"
+          "brand": "Federal Standard",
+          "code": "FS 26373"
+        },
+        {
+          "brand": "British Standard",
+          "code": "BS 627"
         },
         {
           "brand": "MR.COLOR",
@@ -2796,7 +3027,7 @@
       "hex": "#62786b",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 24277"
         },
         {
@@ -2812,8 +3043,12 @@
       "hex": "#343c32",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "RAL 7002RLM 02"
+          "brand": "RAL",
+          "code": "RAL 7002"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM 02"
         },
         {
           "brand": "MR.COLOR",
@@ -2840,8 +3075,8 @@
       "hex": "#232528",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "RLM66"
+          "brand": "RLM",
+          "code": "RLM 66"
         },
         {
           "brand": "MR.COLOR",
@@ -2868,7 +3103,7 @@
       "hex": "#698275",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 34226"
         }
       ],
@@ -2880,7 +3115,7 @@
       "hex": "#5b6140",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 34151"
         },
         {
@@ -2900,7 +3135,7 @@
       "hex": "#bab855",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 33481"
         },
         {
@@ -2924,7 +3159,7 @@
       "hex": "#bd9146",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "RLM",
           "code": "RLM 79"
         },
         {
@@ -2964,7 +3199,7 @@
       "hex": "#3fafe1",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 35260"
         },
         {
@@ -2984,7 +3219,7 @@
       "hex": "#cdc9ba",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 36622"
         },
         {
@@ -3008,7 +3243,7 @@
       "hex": "#1b1f25",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 25042"
         },
         {
@@ -3036,8 +3271,12 @@
       "hex": "#4f565e",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS 35164RAL 7031ANA 608"
+          "brand": "Federal Standard",
+          "code": "FS 35164"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 7031"
         },
         {
           "brand": "TAMIYA",
@@ -3060,7 +3299,7 @@
       "hex": "#002650",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 15102"
         }
       ],
@@ -3072,8 +3311,16 @@
       "hex": "#39471d",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS34095RAL 6020RLM 82"
+          "brand": "Federal Standard",
+          "code": "FS 34095"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 6020"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM 82"
         },
         {
           "brand": "MR.COLOR",
@@ -3096,8 +3343,12 @@
       "hex": "#c3d8de",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS35352RLM 65"
+          "brand": "Federal Standard",
+          "code": "FS 35352"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM 65"
         },
         {
           "brand": "MR.COLOR",
@@ -3124,8 +3375,16 @@
       "hex": "#4b4d37",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS34052RAL 7022RLM 70"
+          "brand": "Federal Standard",
+          "code": "FS 34052"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 7022"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM 70"
         },
         {
           "brand": "MR.COLOR",
@@ -3152,7 +3411,7 @@
       "hex": "#2f3522",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "RLM",
           "code": "RLM 71"
         },
         {
@@ -3172,8 +3431,12 @@
       "hex": "#4f5559",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS 36152RAL 7012"
+          "brand": "Federal Standard",
+          "code": "FS 36152"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 7012"
         },
         {
           "brand": "MR.COLOR",
@@ -3212,7 +3475,7 @@
       "hex": "#595738",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 23070"
         },
         {
@@ -3236,8 +3499,8 @@
       "hex": "#334431",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS 34092ANA 612"
+          "brand": "Federal Standard",
+          "code": "FS 34092"
         },
         {
           "brand": "MR.COLOR",
@@ -3264,7 +3527,7 @@
       "hex": "#575c5e",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "Federal Standard",
           "code": "FS 36122"
         },
         {
@@ -3284,8 +3547,12 @@
       "hex": "#242613",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS 34086RAL 7009"
+          "brand": "Federal Standard",
+          "code": "FS 34086"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 7009"
         },
         {
           "brand": "MODEL COLOR",
@@ -3304,12 +3571,20 @@
       "hex": "#93928b",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS 36440 RAL 7038"
+          "brand": "Federal Standard",
+          "code": "FS 36440"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 7038"
         },
         {
           "brand": "MR.COLOR",
-          "code": "C315 / C325"
+          "code": "C315"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C325"
         },
         {
           "brand": "MODEL COLOR",
@@ -3335,7 +3610,7 @@
       "hex": "#9eac94",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "British Standard",
           "code": "BS 210"
         },
         {
@@ -3355,7 +3630,7 @@
       "hex": "#95a06e",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "British Standard",
           "code": "BS 216"
         },
         {
@@ -3375,7 +3650,7 @@
       "hex": "#5f656b",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "British Standard",
           "code": "BS 629"
         },
         {
@@ -3395,7 +3670,7 @@
       "hex": "#888f91",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "British Standard",
           "code": "BS 637"
         },
         {
@@ -3423,7 +3698,7 @@
       "hex": "#7a8f8f",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
+          "brand": "RLM",
           "code": "RLM 78"
         },
         {
@@ -3447,8 +3722,12 @@
       "hex": "#333d27",
       "equivalents": [
         {
-          "brand": "HOBBY COLOR",
-          "code": "FS34083RLM 80"
+          "brand": "Federal Standard",
+          "code": "FS 34083"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM 80"
         },
         {
           "brand": "MR.COLOR",
@@ -3473,6 +3752,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.306"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35550"
         }
       ],
       "confidence": 0.7803487301618899
@@ -3533,6 +3816,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.258"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-74"
         }
       ],
       "confidence": 0.8834400853569574
@@ -3557,6 +3844,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.259"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-75"
         }
       ],
       "confidence": 0.9106443045157963
@@ -3577,6 +3868,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.264"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-81"
         }
       ],
       "confidence": 0.7499521337361823
@@ -3589,6 +3884,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.103"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-84"
         }
       ],
       "confidence": 0.9268932208399017
@@ -3730,15 +4029,27 @@
       "equivalents": [
         {
           "brand": "HOBBY COLOR",
-          "code": "H301 /H339"
+          "code": "H301"
+        },
+        {
+          "brand": "HOBBY COLOR",
+          "code": "H339"
         },
         {
           "brand": "MR.COLOR",
-          "code": "C301 / €339"
+          "code": "C301"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "€339"
         },
         {
           "brand": "MODEL COLOR",
           "code": "70.995"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 26081"
         }
       ],
       "confidence": 0.8633515246946015
@@ -3959,6 +4270,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.043"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-83"
         }
       ],
       "confidence": 0.93528645036541

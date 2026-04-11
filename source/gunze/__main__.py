@@ -157,20 +157,37 @@ def detect_gunze_column_centers(text_entries, image_width, image_height=1200):
     y_threshold = max(190, int(image_height * 0.15))
     header_entries = [e for e in text_entries if e["bbox"]["y"] <= y_threshold]
     centers = {}
+    # Track the bottom edge of UNAMBIGUOUS column headers (not "GUNZE" which also
+    # appears in title text like "GUNZE SANGYO..." and "GUNZE 10 ml ACRYLIC PAINTS").
+    header_y_bottom = 0
 
     for column in GUNZE_EQUIVALENT_COLUMNS:
-        matches = []
+        # Prefer exact alias matches to avoid false positives from title text
+        # (e.g. "GUNZE" should not match "GUNZE 10 ml ACRYLIC PAINTS")
+        exact_matches = []
+        partial_matches = []
         for entry in header_entries:
             text = entry["text"].strip().upper()
-            if any(alias in text for alias in column["aliases"]):
-                matches.append(center_x(entry))
+            for alias in column["aliases"]:
+                if text == alias:
+                    exact_matches.append(entry)
+                    break
+                elif alias in text:
+                    partial_matches.append(entry)
+                    break
 
-        if matches:
-            centers[column["key"]] = mean(matches)
+        matched_entries = exact_matches if exact_matches else partial_matches
+        if matched_entries:
+            centers[column["key"]] = mean(center_x(e) for e in matched_entries)
+            # Only use unambiguous columns (not "gunze") to set the header boundary,
+            # because "GUNZE" also appears in brand-title text which sits higher.
+            if column["key"] != "gunze":
+                for e in matched_entries:
+                    header_y_bottom = max(header_y_bottom, e["bbox"]["y_end"])
         else:
             centers[column["key"]] = image_width * column["fallback_ratio"]
 
-    return centers
+    return centers, header_y_bottom
 
 
 def normalize_gunze_equivalent_code(brand, text):
@@ -194,6 +211,11 @@ def normalize_gunze_equivalent_code(brand, text):
             return f"{match.group(1)}{match.group(2)}"
     if brand == "Gunze / Mr. Hobby":
         match = re.match(r"^([HCSM])[- ]?(\d{1,4})$", code)
+        if match:
+            return f"{match.group(1)}{match.group(2)}"
+        # OCR sometimes reads digit "1" as letter "I"; retry with substitution
+        code_fixed = re.sub(r"(?<=[HCSM\d])I", "1", code)
+        match = re.match(r"^([HCSM])[- ]?(\d{1,4})$", code_fixed)
         if match:
             return f"{match.group(1)}{match.group(2)}"
 
@@ -309,7 +331,7 @@ def parse_image(img_path, reader):
     text_entries = extract_ocr(img_path, reader)
     swatches = find_swatches(arr)
     valid_entries = [e for e in text_entries if len(e["text"].strip()) > 0]
-    column_centers = detect_gunze_column_centers(
+    column_centers, header_y_bottom = detect_gunze_column_centers(
         valid_entries, arr.shape[1], arr.shape[0]
     )
     # detect columns first for better structure
@@ -330,8 +352,9 @@ def parse_image(img_path, reader):
         if len(header_xs) >= 3
         else None
     )
-    # Adaptive header cutoff: top 12% of image height, minimum 180 px
-    header_cutoff = max(180, int(arr.shape[0] * 0.12))
+    # Use detected column-header bottom as cutoff; fall back to a small fixed value
+    # when no column headers exist (pages 2+ have no header row).
+    header_cutoff = (header_y_bottom + 5) if header_y_bottom > 0 else 40
     for cluster in clusters:
         row_y = mean([e["bbox"]["y"] for e in cluster])
         if row_y <= header_cutoff:

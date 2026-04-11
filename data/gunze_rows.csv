@@ -1,4 +1,59 @@
 image,raw_reference,reference,name,equivalents,hex,confidence
+01.png,IGloss White HI X2 22 4 2720,H1,Gloss White,Tamiya:X2; Humbrol:22; Revell:4; Testors:2720,#ffffff,0.8714669204891528
+01.png,(Gloss Black H2 X-1 21 7 1747,H2,Gloss Black,Tamiya:X1; Humbrol:21; Revell:7; Testors:1747,#000000,0.8509100057970157
+01.png,IGloss Red H3 X-7 19 31 2718,H3,Gloss Red,Tamiya:X7; Humbrol:19; Revell:31; Testors:2718,#b33f3c,0.954891919422784
+01.png,(Gloss Yellow H4 X-8 69 12 2717,H4,Gloss Yellow,Tamiya:X8; Humbrol:69; Revell:12; Testors:2717,#fbe55d,0.964758809172449
+01.png,IGloss Blue H5 X3 15 52,H5,Gloss Blue,Tamiya:X3; Humbrol:15; Revell:52,#0e1543,0.9380175838002837
+01.png,IGloss Green H6 3 62,H6,Gloss Green,Humbrol:3; Revell:62,#081b11,0.8712887030933207
+01.png,IGloss Brown H7 X-9 10 80,H7,Gloss Brown,Tamiya:X9; Humbrol:10; Revell:80,#b24126,0.9389629744805414
+01.png,Metallic Silver H8 X-I1 11 90 1546,H8,Metallic Silver,Tamiya:X11; Humbrol:11; Revell:90; Testors:1546,#c3c4b9,0.9395590003261868
+01.png,Metallic Gold H9 X-12 16 94 1744,H9,Metallic Gold,Tamiya:X12; Humbrol:16; Revell:94; Testors:1744,#ba9e5b,0.9094035929783536
+01.png,Metallic Copper H1o XF-6 12 93 1551,H10,Metallic Copper,Tamiya:XF6; Humbrol:12; Revell:93; Testors:1551,#ac5a3b,0.8534464369421138
+01.png,Flat White HI1 XF-2 33 301 / 5 1768,H11,Flat White,Tamiya:XF2; Humbrol:33; Revell:301/5; Testors:1768,#ffffff,0.7557764612497655
+01.png,Flat Black H12 XF-1 34 302 / 8 1749,H12,Flat Black,Tamiya:XF1; Humbrol:34; Revell:302/8; Testors:1749,#000000,0.8789590293593545
+01.png,Flat Red H13 XF-7 60 1550,H13,Flat Red,Tamiya:XF7; Humbrol:60; Testors:1550,#c23925,0.8732593563027424
+01.png,(Gloss Orange H14 X-6 18 30 1595,H14,Gloss Orange,Tamiya:X6; Humbrol:18; Revell:30; Testors:1595,#da4727,0.912161610829243
+01.png,Gloss Bright Blue H15 X-4 14 51 1510,H15,Gloss Bright Blue,Tamiya:X4; Humbrol:14; Revell:51; Testors:1510,#0e1c62,0.8931509204219978
+01.png,IGloss Yellow Green H16 X-15 38 60,H16,Gloss Yellow Green,Tamiya:X15; Humbrol:38; Revell:60,#3c6740,0.9453954793294315
+01.png,IGloss Cocoa Brown H17 XF-10 10 1533,H17,Gloss Cocoa Brown,Tamiya:XF10; Humbrol:10; Testors:1533,#201720,0.9739341882460252
+01.png,Metallic Steel Grey H18 X-10 53 91 1780,H18,Metallic Steel Grey,Tamiya:X10; Humbrol:53; Revell:91; Testors:1780,#06070a,0.9325344227869685
+01.png,IGloss Pink H19 X-17 200,H19,Gloss Pink,Tamiya:X17; Humbrol:200,#e46975,0.8745150525520711
+01.png,Flat Clear H2O 49 2 1560,H20,Flat Clear,Humbrol:49; Revell:2; Testors:1560,#ffffff,0.8183460964176309
+01.png,IGloss Off White H21 10 1745,H21,Gloss Off White,Revell:10; Testors:1745,#fcfdef,0.9350283092350262
+01.png,Gloss Grey H22 XF-53 5,H22,Gloss Grey,Tamiya:XF53; Humbrol:5,#3d3d4d,0.9469549406685496
+01.png,(Gloss Shine Red H23 60 1590,H23,Gloss Shine Red,Humbrol:60; Testors:1590,#d4452b,0.854867467541968
+01.png,lGloss Orange Yellow H24 197 310,H24,lGloss Orange Yellow,Humbrol:197; Revell:310,#e37b40,0.8396955961566706
+01.png,Gloss Sky Blue H25 X-14 50,H25,Gloss Sky Blue,Tamiya:X14; Revell:50,#1457af,0.9603220230487715
+01.png,IGloss Bright Green H26 2 61 1524,H26,Gloss Bright Green,Humbrol:2; Revell:61; Testors:1524,#225d3e,0.877561860287364
+01.png,IGloss Tan H27 9 11,H27,Gloss Tan,Humbrol:9; Revell:11,#a78b51,0.9651942569557734
+01.png,Metallic Black H28 201 2713,H28,Metallic Black,Humbrol:201; Testors:2713,#141a22,0.8914687659888069
+01.png,(Gloss Salmon Pink H29,H29,Gloss Salmon Pink,,#de5e3e,0.7427978363374996
+01.png,IGloss Clear H3O X-22 35 1561,H30,Gloss Clear,Tamiya:X22; Humbrol:35; Testors:1561,#ffffff,0.8160351118712131
+01.png,IGloss White-Green H31 90,H31,Gloss White-Green,Humbrol:90,#eaf7e5,0.936439900844155
+01.png,Gloss German Field Gray-1 H32 XF-63 67,H32,Gloss German Field Gray-1,Tamiya:XF63; Humbrol:67,#131b29,0.8293069971696377
+01.png,IGloss Russet H33 107 383 1501,H33,Gloss Russet,Humbrol:107; Revell:383; Testors:1501,#573030,0.9668004899873546
+01.png,(Gloss Cream Yellow H34 24 311,H34,Gloss Cream Yellow,Humbrol:24; Revell:311,#efc151,0.9094051935806542
+01.png,IGloss Cobalt Blue H35 25 56,H35,Gloss Cobalt Blue,Humbrol:25; Revell:56,#111a49,0.9730888353456523
+01.png,Gloss Dark Green H36 75,H36,Gloss Dark Green,Humbrol:75,#ffffff,0.9391171338673178
+01.png,IGloss Wood Brown H37 9 85 1735,H37,Gloss Wood Brown,Humbrol:9; Revell:85; Testors:1735,#432d24,0.9289715715004508
+01.png,Metallic Steel Red H38,H38,Metallic Steel Red,,#1c1921,0.9011629941808867
+01.png,Gloss Purple H39 X-16 68 353,H39,Gloss Purple,Tamiya:X16; Humbrol:68; Revell:353,#151f56,0.8720103080130542
+01.png,Flat Base H4O X-21 206,H40,Flat Base,Tamiya:X21; Humbrol:206,#ffffff,0.7916561263731235
+01.png,(Gloss Pale Green H41,H41,Gloss Pale Green,,#a7c8bd,0.8785712021875549
+01.png,Gloss Blue Gray H42 XF-8 144 79,H42,Gloss Blue Gray,Tamiya:XF8; Humbrol:144; Revell:79,#142335,0.9221174952046535
+01.png,(Gloss Wine Red H43 20,H43,Gloss Wine Red,Humbrol:20,#a33427,0.9200517886507321
+01.png,Semi Gloss Flesh H44 XF-15 61 35 35,H44,Semi Gloss Flesh,Tamiya:XF15; Humbrol:61; Revell:35; Testors:35,#eece8b,0.9151589904607748
+01.png,lGloss Light Blue H45 47 1508,H45,lGloss Light Blue,Humbrol:47; Testors:1508,#2d6ebd,0.8571188450827122
+01.png,IGloss Emerald Green H46 2,H46,Gloss Emerald Green,Humbrol:2,#387162,0.9589439933739337
+01.png,IGloss Red Brown H47 XF-9 73 32 / 38 1736,H47,Gloss Red Brown,Tamiya:XF9; Humbrol:73; Revell:32/38; Testors:1736,#2b1e26,0.8894924171281782
+01.png,Gloss German Field Gray-2 H48 XF-65,H48,Gloss German Field Gray-2,Tamiya:XF65,#21303a,0.9658505240183528
+01.png,IGloss Violet H49,H49,Gloss Violet,,#3b59a3,0.9500696212408974
+02.png,(Gloss Lime Green H5o X-15 38,H50,Gloss Lime Green,Tamiya:X15; Humbrol:38,#355f4c,0.7727194646811532
+02.png,Gloss Light Gull Gray H51 XF-12 / XF19 64,H51,Gloss Light Gull Gray,Tamiya:XF-12/XF19; Humbrol:64,#a2a8a5,0.8519068560999552
+02.png,Semi Gloss Olive Drab-1 H52 XF-62 155 66 1591,H52,Semi Gloss Olive Drab-1,Tamiya:XF62; Humbrol:155; Revell:66; Testors:1591,#1e2427,0.8243822224126379
+02.png,Semi Gloss Neutral Grey H53 XF-66 128,H53,Semi Gloss Neutral Grey,Tamiya:XF66; Humbrol:128,#353d4b,0.8245034224360104
+02.png,Semi Gloss Navy Blue H54 XF-17 104,H54,Semi Gloss Navy Blue,Tamiya:XF17; Humbrol:104,#2e3a4a,0.9799323475925045
+02.png,Gloss Moonlight Blue H55 181,H55,Gloss Moonlight Blue,Humbrol:181,#0b0a07,0.973462689504684
 02.png,Semi Gloss intermediate Blue H56 XF-18 144 1720,H56,Semi Gloss intermediate Blue,Tamiya:XF18; Humbrol:144; Testors:1720,#1a2834,0.9483159933737236
 02.png,Gloss Aircraft Grey H57 147 1731,H57,Gloss Aircraft Grey,Humbrol:147; Testors:1731,#557682,0.905027468479052
 02.png,Semi Gloss Interior Green H58 151,H58,Semi Gloss Interior Green,Humbrol:151,#968b43,0.8982239251664885
@@ -45,6 +100,11 @@ image,raw_reference,reference,name,equivalents,hex,confidence
 02.png,Gloss Fluo Pink H9g 207,H9G,Gloss Fluo Pink,Humbrol:207,#d8454f,0.5964807966081138
 02.png,Gloss Fluo Green H1OO 203,H100,Gloss Fluo Green,Humbrol:203,#377048,0.8930746411846286
 02.png,Semi Gloss Gray FS-36081 H301 32,H301,Semi Gloss Gray FS-36081,Humbrol:32; FS:FS 36081,#1f2632,0.767440490822846
+03.png,ISemi Gloss Green FS-34092 H302 149 1764,H302,Semi Gloss Green FS-34092,Humbrol:149; Testors:1764; FS:FS 34092,#1b2831,0.8301248737013345
+03.png,Semi Gloss Green FS-34102 H303 151 1713,H303,Semi Gloss Green FS-34102,Humbrol:151; Testors:1713; FS:FS 34102,#2f3735,0.9846797794527731
+03.png,Semi Gloss Olive Drab FS-34087 H304 155 1711,H304,Semi Gloss Olive Drab FS-34087,Humbrol:155; Testors:1711; FS:FS 34087,#242324,0.8245046657363825
+03.png,Semi Gloss Grey FS-36118 H305 125,H305,Semi Gloss Grey FS-36118,Humbrol:125; FS:FS 36118,#3a484f,0.9270873566917476
+03.png,Semi Gloss Grey FS-36270 H306 126,H306,Semi Gloss Grey FS-36270,Humbrol:126; FS:FS 36270,#686f73,0.6183256255368569
 03.png,Semi Gloss Grey FS-36320 H307 128 1741,H307,Semi Gloss Grey FS-36320,Humbrol:128; Testors:1741; FS:FS 36320,#49657d,0.9208099861904259
 03.png,Semi Gloss Grey FS-36375 H308 127 1728,H308,Semi Gloss Grey FS-36375,Humbrol:127; Testors:1728; FS:FS 36375,#598199,0.9014365476324535
 03.png,Semi Gloss Green FS-34079 H309 116 1710,H309,Semi Gloss Green FS-34079,Humbrol:116; Testors:1710; FS:FS 34079,#202b32,0.9106773384428539

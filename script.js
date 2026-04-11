@@ -1,6 +1,10 @@
 const listEl = document.getElementById('list');
 const brandTabs = document.getElementById('brandTabs');
 
+// Display state
+let showEquivalents = true;  // Default: show equivalents
+let tableViewMode = false;   // Default: card view
+
 const BRANDS = [
     { id: 'ammo', label: 'Ammo by Mig' },
     { id: 'ammo_atom', label: 'ATOM (Ammo)' },
@@ -8,6 +12,9 @@ const BRANDS = [
     { id: 'gunze', label: 'Gunze Sangyo' },
     { id: 'tamiya', label: 'Tamiya' },
     { id: 'mr_hobby', label: 'Mr. Hobby' },
+    { id: 'rlm', label: 'RLM' },
+    { id: 'humbrol', label: 'Humbrol' },
+    { id: 'vallejo', label: 'Vallejo' },
 ];
 
 // Brand color mapping: brand display name -> hex color
@@ -20,6 +27,9 @@ const BRAND_COLORS = {
     "Federal Standard": '#A6192E',
     "Tamiya": '#004B87',
     "RAL": '#A6192E',
+    "RLM": '#5C6B3A',
+    "Humbrol": '#003087',
+    "Vallejo": '#003d99',
     "Vallejo Model Air": '#05E2E1',
     "Vallejo Model Color": '#05E2E1',
 };
@@ -34,12 +44,15 @@ const BRAND_NAME_MAP = {
     'tamiya': 'Tamiya',
     'mr_hobby': 'Mr. Hobby',
     'ral': 'RAL',
+    'rlm': 'RLM',
+    'humbrol': 'Humbrol',
+    'vallejo': 'Vallejo',
     "model_air": 'Vallejo Model Air',
     "model_color": 'Vallejo Model Color',
 };
 
 const EQUIVALENT_BRAND_MAP = {
-    'HOBBY COLOR': 'Mr. Hobby',
+    'HOBBY COLOR': 'Gunze Sangyo',
     'MR.COLOR': 'Mr. Hobby',
     'TAMIYA': 'Tamiya',
     'RAL': 'RAL',
@@ -55,6 +68,21 @@ const EQUIVALENT_BRAND_MAP = {
 
 const PACK_CACHE = new Map();
 let reverseEquivalentIndexPromise = null;
+
+// Global lookup: "brandId:NORMALIZEDCODE" -> {hex, name, code, brandId}
+const colorLookup = new Map();
+
+function addToColorLookup(pack) {
+    if (!pack) return;
+    const brandId = pack.brand_id || normalizeBrandId(pack.brand);
+    (pack.colors || []).forEach(c => {
+        const key = `${brandId}:${normalizeEquivalentCode(c.code)}`;
+        if (!colorLookup.has(key)) {
+            const hex = c.hex ? (String(c.hex).startsWith('#') ? c.hex : `#${c.hex}`) : '#cccccc';
+            colorLookup.set(key, { hex, name: c.name || '', code: c.code || '', brandId });
+        }
+    });
+}
 
 function getEquivalentDisplayName(brand) {
     if (!brand) return '';
@@ -105,16 +133,17 @@ function renderEquivalentBadge(item, tone) {
     const displayName = getEquivalentDisplayName(item.brand);
     const brandColor = BRAND_COLORS[displayName] || '#6b7280';
 
-
     const label = item.code;
+    const eqBrandId = normalizeBrandId(item.brand);
+    const eqCode = normalizeEquivalentCode(item.code);
 
-    return `<div class="m-1 rounded px-2 py-0.5 text-xs font-medium text-white" style="background-color: ${brandColor}" title="${displayName}">${label}</div>`;
+    return `<div class="m-1 rounded px-2 py-0.5 text-xs font-medium text-white cursor-default" style="background-color: ${brandColor}" title="${displayName}" data-eq-brand="${eqBrandId}" data-eq-code="${eqCode}">${label}</div>`;
 }
 
 function renderEquivalentSection(container, title, items, tone) {
     if (!container) return;
 
-    if (!items.length) {
+    if (!items.length || !showEquivalents) {
         container.innerHTML = '';
         container.classList.add('hidden');
         return;
@@ -158,6 +187,7 @@ async function loadPack(brand) {
     }
 
     PACK_CACHE.set(brand, pack);
+    addToColorLookup(pack);
     return pack;
 }
 
@@ -285,6 +315,7 @@ function renderRow(brand, color, inStackMap, displayBrand, reverseEquivalentInde
     const checked = !!inStackMap[id];
     btn.textContent = checked ? 'In' : 'Add';
     if (checked) btn.classList.add('bg-green-100', 'dark:bg-green-900');
+    btn.dataset.colorId = id;
 
     btn.addEventListener('click', () => {
         if (inStackMap[id]) {
@@ -297,6 +328,7 @@ function renderRow(brand, color, inStackMap, displayBrand, reverseEquivalentInde
             btn.classList.add('bg-green-100', 'dark:bg-green-900');
         }
         saveInStack(brand, inStackMap);
+        renderStackPanel();
     });
 
     // Show equivalents embedded in the pack JSON.
@@ -311,6 +343,21 @@ function renderRow(brand, color, inStackMap, displayBrand, reverseEquivalentInde
     return node;
 }
 
+let currentSort = 'code-asc';
+
+function sortColors(colors) {
+    if (currentSort === 'default') return colors;
+
+
+    return [...colors].sort((a, b) => {
+        const numA = parseFloat(String(a.code).replace(/[^0-9.]/g, ''));
+        const numB = parseFloat(String(b.code).replace(/[^0-9.]/g, ''));
+        if (!isNaN(numA) && !isNaN(numB)) return numA - numB;
+        return String(a.code).localeCompare(String(b.code), undefined, { sensitivity: 'base' });
+    });
+
+}
+
 async function loadAndRender(brand) {
     listEl.innerHTML = '';
     try {
@@ -323,23 +370,494 @@ async function loadAndRender(brand) {
             throw new Error('Failed to load data');
         }
 
-        const colors = data.colors || [];
+        const colors = sortColors(data.colors || []);
         const displayBrand = data.brand || brand;
 
         const inStack = loadInStack(brand);
-        colors.forEach(c => {
-            const row = renderRow(brand, c, inStack, displayBrand, reverseEquivalentIndex);
-            listEl.appendChild(row);
-        });
+
+        if (tableViewMode) {
+            renderTableView(colors, brand, inStack, reverseEquivalentIndex);
+        } else {
+            colors.forEach(c => {
+                const row = renderRow(brand, c, inStack, displayBrand, reverseEquivalentIndex);
+                listEl.appendChild(row);
+            });
+        }
     } catch (e) {
         console.error(e);
         listEl.innerHTML = '<div class="text-red-500 dark:text-red-400">Unable to load data.</div>';
     }
 }
 
+function renderTableView(colors, brand, inStack, reverseEquivalentIndex) {
+    // Create a table structure for card grid view
+    listEl.className = 'space-y-0 border border-gray-200 dark:border-gray-700 rounded overflow-hidden';
+
+    // Table header
+    const headerRow = document.createElement('div');
+    headerRow.className = 'grid gap-0 bg-gray-100 dark:bg-gray-700 rounded-none border-b border-gray-200 dark:border-gray-700';
+
+    if (showEquivalents) {
+        headerRow.style.gridTemplateColumns = '40px 80px 1fr 200px 80px';
+        headerRow.innerHTML = `
+            <div class="p-2"></div>
+            <div class="p-2 font-semibold text-sm border-r border-gray-200 dark:border-gray-700">Code</div>
+            <div class="p-2 font-semibold text-sm border-r border-gray-200 dark:border-gray-700">Name</div>
+            <div class="p-2 font-semibold text-sm border-r border-gray-200 dark:border-gray-700">Equivalents</div>
+            <div class="p-2 font-semibold text-sm">Stack</div>
+        `;
+    } else {
+        headerRow.style.gridTemplateColumns = '40px 80px 1fr 80px';
+        headerRow.innerHTML = `
+            <div class="p-2"></div>
+            <div class="p-2 font-semibold text-sm border-r border-gray-200 dark:border-gray-700">Code</div>
+            <div class="p-2 font-semibold text-sm border-r border-gray-200 dark:border-gray-700">Name</div>
+            <div class="p-2 font-semibold text-sm">Stack</div>
+        `;
+    }
+
+    listEl.appendChild(headerRow);
+
+    // Table rows
+    colors.forEach((color, idx) => {
+        const id = `${brand}:${color.code}`;
+        const hex = color.hex && String(color.hex).startsWith('#') ? color.hex : `#${color.hex || 'cccccc'}`;
+        const checked = !!inStack[id];
+
+        const row = document.createElement('div');
+        row.className = 'grid gap-0 items-center border-b border-gray-200 dark:border-gray-700 last:border-b-0';
+
+        if (showEquivalents) {
+            row.style.gridTemplateColumns = '40px 80px 1fr 200px 80px';
+        } else {
+            row.style.gridTemplateColumns = '40px 80px 1fr 80px';
+        }
+
+        // Swatch
+        const swatchCol = document.createElement('div');
+        swatchCol.className = 'h-12 rounded-none border-r border-gray-200 dark:border-gray-700';
+        swatchCol.style.backgroundColor = hex;
+        swatchCol.style.boxShadow = '0 2px 6px rgba(0,0,0,0.12)';
+        row.appendChild(swatchCol);
+
+        // Code
+        const codeCol = document.createElement('div');
+        codeCol.className = 'p-2 font-semibold text-sm truncate border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800';
+        codeCol.textContent = color.code;
+        row.appendChild(codeCol);
+
+        // Name
+        const nameCol = document.createElement('div');
+        nameCol.className = 'p-2 text-sm truncate border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800';
+        nameCol.textContent = color.name;
+        row.appendChild(nameCol);
+
+        // Equivalents
+        if (showEquivalents) {
+            const eqCol = document.createElement('div');
+            eqCol.className = 'p-2 flex flex-wrap gap-1 overflow-y-auto border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 max-h-12';
+            const primaryEquivalents = Array.isArray(color.equivalents) ? color.equivalents : [];
+            eqCol.innerHTML = primaryEquivalents.slice(0, 2).map(item => renderEquivalentBadge(item, 'primary')).join('');
+            if (primaryEquivalents.length > 2) {
+                const more = document.createElement('span');
+                more.className = 'text-[10px] text-gray-500 dark:text-gray-400';
+                more.textContent = `+${primaryEquivalents.length - 2}`;
+                eqCol.appendChild(more);
+            }
+            row.appendChild(eqCol);
+        }
+
+        // Stack button
+        const btnCol = document.createElement('div');
+        btnCol.className = 'p-2 bg-white dark:bg-gray-800';
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = `px-2 py-1 rounded border text-xs whitespace-nowrap w-full text-gray-800 dark:text-gray-100 ${checked ? 'bg-green-100 dark:bg-green-900 border-green-300 dark:border-green-700' : 'bg-gray-50 dark:bg-gray-700 border-gray-300 dark:border-gray-600'}`;
+        btn.textContent = checked ? 'In' : 'Add';
+        btn.dataset.colorId = id;
+        btn.addEventListener('click', () => {
+            if (inStack[id]) {
+                delete inStack[id];
+                btn.textContent = 'Add';
+                btn.classList.remove('bg-green-100', 'dark:bg-green-900', 'border-green-300', 'dark:border-green-700');
+                btn.classList.add('bg-gray-50', 'dark:bg-gray-700', 'border-gray-300', 'dark:border-gray-600');
+            } else {
+                inStack[id] = true;
+                btn.textContent = 'In';
+                btn.classList.remove('bg-gray-50', 'dark:bg-gray-700', 'border-gray-300', 'dark:border-gray-600');
+                btn.classList.add('bg-green-100', 'dark:bg-green-900', 'border-green-300', 'dark:border-green-700');
+            }
+            saveInStack(brand, inStack);
+            renderStackPanel();
+        });
+        btnCol.appendChild(btn);
+        row.appendChild(btnCol);
+
+        listEl.appendChild(row);
+    });
+}
+
+// ── Tooltip ──────────────────────────────────────────────────────────────────
+
+function setupTooltip() {
+    const tooltip = document.getElementById('colorTooltip');
+    const swatchEl = document.getElementById('tooltipSwatch');
+    const codeEl = document.getElementById('tooltipCode');
+    const nameEl = document.getElementById('tooltipName');
+    const brandEl = document.getElementById('tooltipBrand');
+
+    document.addEventListener('mouseover', e => {
+        const badge = e.target.closest('[data-eq-brand]');
+        if (!badge) return;
+
+        const brandId = badge.dataset.eqBrand;
+        const code = badge.dataset.eqCode;
+        const color = colorLookup.get(`${brandId}:${code}`);
+
+        if (!color) {
+            // Kick off a background load so future hovers resolve
+            loadPack(brandId).catch(() => { });
+            tooltip.classList.add('hidden');
+            return;
+        }
+
+        swatchEl.style.backgroundColor = color.hex;
+        codeEl.textContent = color.code;
+        nameEl.textContent = color.name;
+        brandEl.textContent = BRAND_NAME_MAP[color.brandId] || color.brandId;
+
+        const rect = badge.getBoundingClientRect();
+        const tipW = 176; // w-44 = 11rem = 176px
+        const tipH = 96;
+        let top = rect.bottom + 6;
+        let left = rect.left;
+        if (top + tipH > window.innerHeight - 8) top = rect.top - tipH - 6;
+        if (left + tipW > window.innerWidth - 8) left = window.innerWidth - tipW - 8;
+        if (left < 8) left = 8;
+        tooltip.style.top = `${top}px`;
+        tooltip.style.left = `${left}px`;
+        tooltip.classList.remove('hidden');
+    });
+
+    document.addEventListener('mouseout', e => {
+        const badge = e.target.closest('[data-eq-brand]');
+        if (badge) tooltip.classList.add('hidden');
+    });
+}
+
+// ── Stack helpers ─────────────────────────────────────────────────────────────
+
+function getAllStackedColors() {
+    const items = [];
+    BRANDS.forEach(b => {
+        const map = loadInStack(b.id);
+        Object.keys(map).filter(k => map[k]).forEach(key => {
+            const idx = key.indexOf(':');
+            if (idx < 0) return;
+            items.push({ brandId: key.slice(0, idx), code: key.slice(idx + 1) });
+        });
+    });
+    return items;
+}
+
+function saveStackToFile() {
+    const items = getAllStackedColors();
+    if (!items.length) {
+        alert('Your stack is empty.');
+        return;
+    }
+    // Save only the codes (just the code part, not brand:code)
+    const content = items.map(i => i.code).join('\n');
+    const blob = new Blob([content], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'my-color-stack.txt';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
+function loadStackFromFile(file) {
+    const reader = new FileReader();
+    reader.onload = e => {
+        const lines = e.target.result.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+        const brandMaps = {};
+        let loadedCount = 0;
+
+        lines.forEach(line => {
+            // Support both formats: brandId:code or just code
+            let brandId, code;
+            const idx = line.indexOf(':');
+
+            if (idx > 0) {
+                // Format: brandId:code
+                brandId = line.slice(0, idx);
+                code = line.slice(idx + 1);
+            } else {
+                // Format: just code - search across all brands
+                code = line;
+                // Find which brand(s) have this code
+                for (const [bId, color] of colorLookup) {
+                    if (color.code.toUpperCase() === code.toUpperCase()) {
+                        brandId = color.brandId;
+                        break;
+                    }
+                }
+            }
+
+            if (brandId && code) {
+                if (!brandMaps[brandId]) brandMaps[brandId] = loadInStack(brandId);
+                brandMaps[brandId][`${brandId}:${code}`] = true;
+                loadedCount++;
+            }
+        });
+
+        Object.entries(brandMaps).forEach(([brandId, map]) => saveInStack(brandId, map));
+        renderStackPanel();
+        alert(`Loaded ${loadedCount} color${loadedCount !== 1 ? 's' : ''} into your stack.`);
+    };
+    reader.readAsText(file);
+}
+
+// ── My Stack sidebar panel ────────────────────────────────────────────────────
+
+async function renderStackPanel() {
+    const panelList = document.getElementById('stackPanelList');
+    const countEl = document.getElementById('stackCount');
+    if (!panelList) return;
+
+    const items = getAllStackedColors();
+    if (countEl) countEl.textContent = items.length;
+
+    if (!items.length) {
+        panelList.innerHTML = '<p class="text-xs text-gray-400 dark:text-gray-500 text-center py-4">Stack is empty</p>';
+        return;
+    }
+
+    // Ensure packs for stacked brands are in colorLookup
+    const brandIds = [...new Set(items.map(i => i.brandId))];
+    await Promise.all(brandIds.map(id => loadPack(id).catch(() => null)));
+
+    panelList.innerHTML = '';
+    items.forEach(({ brandId, code }) => {
+        const key = `${brandId}:${normalizeEquivalentCode(code)}`;
+        const color = colorLookup.get(key);
+        const hex = color ? color.hex : '#cccccc';
+        const name = color ? color.name : '';
+        const brandLabel = BRAND_NAME_MAP[brandId] || brandId;
+        const brandColor = BRAND_COLORS[BRAND_NAME_MAP[brandId]] || '#6b7280';
+
+        const card = document.createElement('div');
+        card.className = 'flex items-stretch bg-gray-50 dark:bg-gray-700 rounded-lg overflow-hidden shadow-sm';
+        card.innerHTML = `
+            <div class="w-8 flex-shrink-0" style="background-color:${hex}"></div>
+            <div class="flex-1 min-w-0 px-2 py-1">
+                <div class="font-semibold text-xs truncate leading-tight">${code}</div>
+                <div class="text-[10px] text-gray-400 dark:text-gray-400 truncate leading-tight">${name || ''}</div>
+                <div class="mt-0.5"><span class="text-[9px] px-1 py-0.5 rounded text-white leading-none" style="background-color:${brandColor}">${brandLabel}</span></div>
+            </div>
+            <button class="remove-from-stack flex-shrink-0 text-gray-300 dark:text-gray-500 hover:text-red-400 px-1.5 text-base leading-none"
+                data-brand-id="${brandId}" data-code="${code}" title="Remove">×</button>`;
+        panelList.appendChild(card);
+    });
+
+    panelList.querySelectorAll('.remove-from-stack').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const { brandId, code } = btn.dataset;
+            const map = loadInStack(brandId);
+            delete map[`${brandId}:${code}`];
+            saveInStack(brandId, map);
+            // Sync the Add/In button on the main list if visible
+            const mainBtn = document.querySelector(`[data-color-id="${brandId}:${code}"]`);
+            if (mainBtn) {
+                mainBtn.textContent = 'Add';
+                mainBtn.classList.remove('bg-green-100', 'dark:bg-green-900');
+            }
+            renderStackPanel();
+        });
+    });
+}
+
+// ── My Stack modal (legacy) ───────────────────────────────────────────────────
+
+async function showMyStack() {
+    const modal = document.getElementById('myStackModal');
+    const grid = document.getElementById('stackGrid');
+    modal.classList.remove('hidden');
+    grid.innerHTML = '<div class="col-span-full text-sm text-gray-500 py-4 text-center">Loading…</div>';
+
+    // Ensure all packs (and colorLookup) are populated
+    await Promise.all(BRANDS.map(b => loadPack(b.id).catch(() => null)));
+
+    const items = getAllStackedColors();
+    if (!items.length) {
+        grid.innerHTML = '<div class="col-span-full text-sm text-gray-500 py-8 text-center">Your stack is empty. Add colors using the <strong>Add</strong> button on each color card.</div>';
+        return;
+    }
+
+    grid.innerHTML = '';
+    items.forEach(({ brandId, code }) => {
+        const color = colorLookup.get(`${brandId}:${normalizeEquivalentCode(code)}`);
+        const hex = color ? color.hex : '#cccccc';
+        const name = color ? color.name : '';
+        const brandLabel = BRAND_NAME_MAP[brandId] || brandId;
+        const brandColor = BRAND_COLORS[BRAND_NAME_MAP[brandId]] || '#6b7280';
+
+        const card = document.createElement('div');
+        card.className = 'bg-white dark:bg-gray-700 rounded-xl shadow overflow-hidden flex';
+        card.innerHTML = `
+            <div class="w-10 flex-shrink-0" style="background-color:${hex}"></div>
+            <div class="p-2 min-w-0 flex-1">
+                <div class="font-semibold text-sm truncate">${code}</div>
+                <div class="text-xs text-gray-500 dark:text-gray-300 truncate leading-tight">${name}</div>
+                <div class="mt-1"><span class="text-[10px] px-1 py-0.5 rounded text-white" style="background-color:${brandColor}">${brandLabel}</span></div>
+            </div>`;
+        grid.appendChild(card);
+    });
+}
+
+// ── All Colors view ──────────────────────────────────────────────────────────
+
+function hexToRgb(hex) {
+    const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    return result ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16)
+    } : { r: 0, g: 0, b: 0 };
+}
+
+function hexToHsl(hex) {
+    const { r, g, b } = hexToRgb(hex);
+    const rp = r / 255, gp = g / 255, bp = b / 255;
+    const max = Math.max(rp, gp, bp), min = Math.min(rp, gp, bp);
+    let h, s, l = (max + min) / 2;
+
+    if (max === min) {
+        h = s = 0;
+    } else {
+        const d = max - min;
+        s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+        switch (max) {
+            case rp: h = (gp - bp) / d + (gp < bp ? 6 : 0); break;
+            case gp: h = (bp - rp) / d + 2; break;
+            case bp: h = (rp - gp) / d + 4; break;
+        }
+        h /= 6;
+    }
+    return { h: h * 360, s: s * 100, l: l * 100 };
+}
+
+async function showAllColors() {
+    const modal = document.getElementById('allColorsModal');
+    const list = document.getElementById('allColorsList');
+
+    modal.classList.remove('hidden');
+    list.innerHTML = '<div class="col-span-full text-center py-8">Loading all colors...</div>';
+
+    // Load all packs
+    await Promise.all(BRANDS.map(b => loadPack(b.id).catch(() => null)));
+
+    // Collect all colors with brand info
+    const allColors = [];
+    for (const [key, color] of colorLookup) {
+        allColors.push({
+            ...color,
+            key: key,
+        });
+    }
+
+    // Sort by HSL hue then lightness (for natural color order)
+    allColors.sort((a, b) => {
+        const hslA = hexToHsl(a.hex);
+        const hslB = hexToHsl(b.hex);
+        // Sort by hue primarily, then by lightness
+        if (Math.abs(hslA.h - hslB.h) > 5) return hslA.h - hslB.h;
+        return hslA.l - hslB.l;
+    });
+
+    // Render
+    list.innerHTML = '';
+    allColors.forEach(color => {
+        const card = document.createElement('div');
+        card.className = 'group';
+        card.innerHTML = `
+            <div class="flex overflow-hidden">
+                <div class="w-20 h-10" style="background-color: ${color.hex}"></div>
+                <div class="p-2 bg-white dark:bg-gray-700 text-xs">
+                    <div class="font-semibold truncate">${color.code} ${color.name}</div>
+                </div>
+            </div>
+        `;
+
+
+        list.appendChild(card);
+    });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     createTabs();
+    setupTooltip();
+    renderStackPanel();
+
+    document.getElementById('btnSaveStack').addEventListener('click', saveStackToFile);
+    document.getElementById('stackFileInput').addEventListener('change', e => {
+        const file = e.target.files[0];
+        if (file) {
+            loadStackFromFile(file);
+            e.target.value = '';
+        }
+    });
+
+    document.getElementById('btnAllColors').addEventListener('click', showAllColors);
+    document.getElementById('closeAllColors').addEventListener('click', () => {
+        document.getElementById('allColorsModal').classList.add('hidden');
+    });
+
+    // Toggle equivalents visibility
+    document.getElementById('btnToggleEquivalents').addEventListener('click', (e) => {
+        showEquivalents = !showEquivalents;
+        const btn = e.target;
+        btn.textContent = showEquivalents ? 'Hide Equivalents' : 'Show Equivalents';
+        if (!showEquivalents) {
+            btn.classList.remove('bg-blue-100', 'dark:bg-blue-900', 'text-blue-900', 'dark:text-blue-100');
+            btn.classList.add('bg-gray-200', 'dark:bg-gray-700', 'text-gray-700', 'dark:text-gray-300');
+        } else {
+            btn.classList.add('bg-blue-100', 'dark:bg-blue-900', 'text-blue-900', 'dark:text-blue-100');
+            btn.classList.remove('bg-gray-200', 'dark:bg-gray-700', 'text-gray-700', 'dark:text-gray-300');
+        }
+        // Re-render current view
+        const activeTab = document.querySelector('[data-brand].ring-2');
+        if (activeTab) {
+            loadAndRender(activeTab.dataset.brand);
+        }
+    });
+
+    // Toggle table/card view
+    document.getElementById('btnToggleView').addEventListener('click', (e) => {
+        tableViewMode = !tableViewMode;
+        const btn = e.target;
+        btn.textContent = tableViewMode ? 'Card View' : 'Table View';
+        if (tableViewMode) {
+            btn.classList.remove('bg-green-100', 'dark:bg-green-900', 'text-green-900', 'dark:text-green-100');
+            btn.classList.add('bg-yellow-100', 'dark:bg-yellow-900', 'text-yellow-900', 'dark:text-yellow-100');
+        } else {
+            btn.classList.remove('bg-yellow-100', 'dark:bg-yellow-900', 'text-yellow-900', 'dark:text-yellow-100');
+            btn.classList.add('bg-green-100', 'dark:bg-green-900', 'text-green-900', 'dark:text-green-100');
+        }
+        // Reset list styling and re-render
+        listEl.className = tableViewMode ? 'space-y-0' : 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 shadow-sm';
+        // Re-render current view
+        const activeTab = document.querySelector('[data-brand].ring-2');
+        if (activeTab) {
+            loadAndRender(activeTab.dataset.brand);
+        }
+    });
+
     // render first brand
     const first = BRANDS[0].id;
+    listEl.className = 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 shadow-sm';
     loadAndRender(first);
 });
