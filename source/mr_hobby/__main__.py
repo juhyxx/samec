@@ -14,6 +14,7 @@ import cv2
 import re
 import csv
 from statistics import mean
+from rich import print
 
 
 def rgb_to_hex(arr):
@@ -84,8 +85,8 @@ def find_grid_cells(image_array, min_size=40):
 
             # Sample color from the upper 55% of the cell (swatch area),
             # excluding the very top (number box) and outer edges.
-            sy, ey = y1 + int(ch * 0.20), y1 + int(ch * 0.60)
-            sx, ex = x1 + int(cw * 0.10), x1 + int(cw * 0.90)
+            sy, ey = y1 + 50, y1 + 51
+            sx, ex = x1 + 150, x1 + 151
             sy, ey = max(0, sy), min(h, ey)
             sx, ex = max(0, sx), min(w, ex)
             region = image_array[sy:ey, sx:ex]
@@ -133,29 +134,6 @@ def extract_ocr(img_path, reader):
         )
     print(out)
     return out
-
-
-# Finish-type abbreviations that appear inside cells but are NOT color names
-_FINISH_TOKENS = {
-    "G",
-    "SG",
-    "M",
-    "ME",
-    "MG",
-    "PA",
-    "P",
-    "A",
-    "T",
-    "S",
-    "C",
-    "N",
-    "J",
-    "M75%",
-    "UK",
-    "US",
-    "J-II",
-    "G-II",
-}
 
 
 def match_numbers_to_cells(text_entries, cells):
@@ -231,11 +209,11 @@ def extract_color_names(text_entries, matches):
             if re.match(r"^[cC]?\d+$", t):
                 continue
             # Skip finish/short abbreviation tokens
-            if t.upper() in _FINISH_TOKENS or len(t) <= 2:
-                continue
-            # Skip cross-reference patterns like "P H44", "A H44", "N44"
-            if re.match(r"^[ACJNPTS][- ]?[HCSM]?\d", t.upper()):
-                continue
+            # if t.upper() in _FINISH_TOKENS or len(t) <= 2:
+            #     continue
+            # # Skip cross-reference patterns like "P H44", "A H44", "N44"
+            # if re.match(r"^[ACJNPTS][- ]?[HCSM]?\d", t.upper()):
+            #     continue
 
             name_candidates.append({"text": t, "y": ty, "conf": e["confidence"]})
 

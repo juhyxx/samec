@@ -6,6 +6,7 @@ let showEquivalents = true;  // Default: show equivalents
 let tableViewMode = false;   // Default: card view
 
 const BRANDS = [
+    { id: 'my-stack', label: 'My Stack' },
     { id: 'ammo', label: 'Ammo by Mig' },
     { id: 'ammo_atom', label: 'ATOM (Ammo)' },
     { id: 'ak', label: 'AK Interactive' },
@@ -68,6 +69,169 @@ const EQUIVALENT_BRAND_MAP = {
 
 const PACK_CACHE = new Map();
 let reverseEquivalentIndexPromise = null;
+
+// ── Template Functions ────────────────────────────────────────────────────────
+
+/**
+ * Create a color card for the main grid view
+ */
+function createColorCardTemplate(brand, color, inStackMap, reverseEquivalentIndex) {
+    const normalizedCode = normalizeEquivalentCode(color.code);
+    const id = `${brand}:${normalizedCode}`;
+    const hex = color.hex && String(color.hex).startsWith('#') ? color.hex : `#${color.hex || 'cccccc'}`;
+    const checked = !!inStackMap[id];
+
+    const div = document.createElement('div');
+    div.className = 'bg-white dark:bg-gray-800 p-0 rounded-xl shadow-sm flex justify-between text-xl overflow-hidden';
+    div.innerHTML = `
+        <div class="w-12 shadow-sm flex-shrink-0" style="background-color: ${hex}; box-shadow: 0 2px 6px rgba(0,0,0,0.12)"></div>
+        <div class="flex items-center gap-2 flex-1 p-2">
+            <div class="flex-1 min-w-0">
+                <div class="font-semibold text-xl truncate mb-0">${escapeHtml(color.code)}</div>
+                <div class="font-semibold text-xs truncate mb-2">${escapeHtml(color.name || '')}</div>
+                <div class="text-xs text-gray-500 dark:text-gray-400"></div>
+                <div class="equivalents text-xs text-gray-500 dark:text-gray-400${showEquivalents ? '' : ' hidden'}"></div>
+                <div class="secondary-equivalents text-xs text-gray-500 dark:text-gray-400${showEquivalents ? '' : ' hidden'}"></div>
+            </div>
+            <button class="stack-btn px-2 py-0.5 rounded border text-xs whitespace-nowrap ${checked ? 'bg-green-100 dark:bg-green-900' : ''}">${checked ? 'In' : 'Add'}</button>
+        </div>
+    `;
+
+    const btn = div.querySelector('.stack-btn');
+    btn.dataset.colorId = id;
+    btn.addEventListener('click', () => toggleColorInStack(brand, id, btn, inStackMap));
+
+    const primaryEqEl = div.querySelector('.equivalents');
+    const secondaryEqEl = div.querySelector('.secondary-equivalents');
+    const primaryEquivalents = Array.isArray(color.equivalents) ? color.equivalents : [];
+    const secondaryEquivalents = reverseEquivalentIndex.get(getColorKey(brand, color.code)) || [];
+
+    renderEquivalentSection(primaryEqEl, 'Direct Equivalents', primaryEquivalents, 'primary');
+    renderEquivalentSection(secondaryEqEl, 'Referenced By', secondaryEquivalents, 'secondary');
+
+    return div;
+}
+
+/**
+ * Create a stack item card for the sidebar or main view
+ */
+function createStackItemTemplate(brandId, code, color, brandColor, brandLabel, onRemove) {
+    const hex = color ? color.hex : '#cccccc';
+    const name = color ? color.name : '';
+
+    const div = document.createElement('div');
+    div.className = 'flex items-stretch bg-gray-50 dark:bg-gray-700 rounded-lg overflow-hidden shadow-sm';
+    div.innerHTML = `
+        <div class="w-8 flex-shrink-0" style="background-color: ${hex}"></div>
+        <div class="flex-1 min-w-0 px-2 py-1">
+            <div class="font-semibold text-xs truncate leading-tight">${escapeHtml(code)}</div>
+            <div class="text-[10px] text-gray-400 dark:text-gray-400 truncate leading-tight">${escapeHtml(name)}</div>
+            <div class="mt-0.5"><span class="text-[9px] px-1 py-0.5 rounded text-white leading-none" style="background-color: ${brandColor}">${escapeHtml(brandLabel)}</span></div>
+        </div>
+        <button class="remove-from-stack flex-shrink-0 text-gray-300 dark:text-gray-500 hover:text-red-400 px-1.5 text-base leading-none" title="Remove">×</button>
+    `;
+
+    const removeBtn = div.querySelector('.remove-from-stack');
+    removeBtn.dataset.brandId = brandId;
+    removeBtn.dataset.code = code;
+    removeBtn.addEventListener('click', onRemove);
+
+    return div;
+}
+
+/**
+ * Create a large stack card for full-screen view
+ */
+function createStackCardLargeTemplate(brandId, code, color, brandColor, brandLabel, onRemove) {
+    const hex = color ? color.hex : '#cccccc';
+    const name = color ? color.name : '';
+
+    const div = document.createElement('div');
+    div.className = 'bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden flex flex-col sm:flex-row hover:shadow-lg transition-shadow';
+    div.innerHTML = `
+        <div class="w-20 h-20 sm:w-24 sm:h-24 flex-shrink-0" style="background-color: ${hex}"></div>
+        <div class="flex-1 p-4 flex flex-col justify-center">
+            <div class="font-bold text-lg">${escapeHtml(code)}</div>
+            <div class="text-sm text-gray-600 dark:text-gray-300 mt-1">${escapeHtml(name)}</div>
+            <div class="mt-2"><span class="text-xs px-2 py-1 rounded text-white" style="background-color: ${brandColor}">${escapeHtml(brandLabel)}</span></div>
+        </div>
+        <button class="remove-from-stack flex-shrink-0 flex items-center justify-center w-12 h-12 text-gray-300 dark:text-gray-500 hover:text-red-400 hover:bg-red-50 dark:hover:bg-red-900 text-2xl" title="Remove">×</button>
+    `;
+
+    const removeBtn = div.querySelector('.remove-from-stack');
+    removeBtn.dataset.brandId = brandId;
+    removeBtn.dataset.code = code;
+    removeBtn.addEventListener('click', onRemove);
+
+    return div;
+}
+
+/**
+ * Escape HTML special characters
+ */
+function escapeHtml(text) {
+    const map = {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#039;'
+    };
+    return text.replace(/[&<>"']/g, m => map[m]);
+}
+
+/**
+ * Toggle a color in the stack
+ */
+function toggleColorInStack(brand, id, btn, inStackMap) {
+    if (inStackMap[id]) {
+        delete inStackMap[id];
+        btn.textContent = 'Add';
+        btn.classList.remove('bg-green-100', 'dark:bg-green-900');
+    } else {
+        inStackMap[id] = true;
+        btn.textContent = 'In';
+        btn.classList.add('bg-green-100', 'dark:bg-green-900');
+    }
+    saveInStack(brand, inStackMap);
+    renderStackPanel();
+
+    // Refresh equivalent badges to show/hide checkmarks
+    updateEquivalentBadges();
+}
+
+/**
+ * Update all equivalent badges on the page to reflect current stack state
+ */
+function updateEquivalentBadges() {
+    const badges = document.querySelectorAll('[data-eq-brand][data-eq-code]');
+    badges.forEach(badge => {
+        const brandId = badge.dataset.eqBrand;
+        const code = badge.dataset.eqCode;
+        const inStack = isColorInStack(brandId, code);
+        const currentTitle = badge.getAttribute('title') || '';
+        const displayName = currentTitle.replace(' (in stack)', '').trim();
+
+        if (inStack) {
+            // Add ring and checkmark
+            badge.classList.add('ring-2', 'ring-offset-1', 'ring-yellow-300', 'dark:ring-yellow-500');
+            badge.setAttribute('title', displayName + ' (in stack)');
+            // Ensure checkmark is present
+            if (!badge.textContent.includes('✓')) {
+                const currentText = badge.textContent || '';
+                badge.textContent = currentText.trim() + ' ✓';
+            }
+        } else {
+            // Remove ring and checkmark
+            badge.classList.remove('ring-2', 'ring-offset-1', 'ring-yellow-300', 'dark:ring-yellow-500');
+            badge.setAttribute('title', displayName);
+            // Remove checkmark if present
+            if (badge.textContent.includes('✓')) {
+                badge.textContent = badge.textContent.replace(/\s✓\s*$/, '').trim();
+            }
+        }
+    });
+}
 
 // Global lookup: "brandId:NORMALIZEDCODE" -> {hex, name, code, brandId}
 const colorLookup = new Map();
@@ -137,7 +301,12 @@ function renderEquivalentBadge(item, tone) {
     const eqBrandId = normalizeBrandId(item.brand);
     const eqCode = normalizeEquivalentCode(item.code);
 
-    return `<div class="m-1 rounded px-2 py-0.5 text-xs font-medium text-white cursor-default" style="background-color: ${brandColor}" title="${displayName}" data-eq-brand="${eqBrandId}" data-eq-code="${eqCode}">${label}</div>`;
+    // Check if this equivalent is in the stack
+    const inStack = isColorInStack(eqBrandId, eqCode);
+    const badgeClass = inStack ? 'ring-2 ring-offset-1 ring-yellow-300 dark:ring-yellow-500' : '';
+    const checkIcon = inStack ? ' ✓' : '';
+
+    return `<div class="m-1 rounded px-2 py-0.5 text-xs font-medium text-white cursor-default ${badgeClass}" style="background-color: ${brandColor}" title="${displayName}${inStack ? ' (in stack)' : ''}" data-eq-brand="${eqBrandId}" data-eq-code="${eqCode}">${label}${checkIcon}</div>`;
 }
 
 function renderEquivalentSection(container, title, items, tone) {
@@ -164,7 +333,7 @@ async function loadPack(brand) {
     }
 
     let pack = null;
-    const res = await fetch(`/data/pack_${brand}.json`).catch(() => null);
+    const res = await fetch(`./data/pack_${brand}.json`).catch(() => null);
 
     if (res && res.ok) {
         pack = await res.json();
@@ -242,18 +411,20 @@ function createTabs() {
         btn.dataset.brand = b.id;
         btn.className = 'px-3 py-1 rounded border text-sm bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-100 flex items-center gap-2';
 
-        // Create color swatch
-        const swatch = document.createElement('div');
-        swatch.className = 'w-4 h-4 rounded-sm border border-gray-300 flex-shrink-0';
-        swatch.style.backgroundColor = BRAND_COLORS[b.label] || '#cccccc';
-        btn.appendChild(swatch);
+        // Create color swatch (skip for My Stack tab)
+        if (b.id !== 'my-stack') {
+            const swatch = document.createElement('div');
+            swatch.className = 'w-4 h-4 rounded-sm border border-gray-300 flex-shrink-0';
+            swatch.style.backgroundColor = BRAND_COLORS[b.label] || '#cccccc';
+            btn.appendChild(swatch);
+        }
 
         // Add label
         const label = document.createElement('span');
         label.textContent = b.label;
         btn.appendChild(label);
 
-        const brandColor = BRAND_COLORS[b.label] || '#cccccc';
+        const brandColor = b.id === 'my-stack' ? '#ec4899' : (BRAND_COLORS[b.label] || '#cccccc');
 
         btn.addEventListener('click', () => {
             // deactivate others
@@ -271,7 +442,7 @@ function createTabs() {
         brandTabs.appendChild(btn);
 
         // select first by default
-        if (idx === 0) {
+        if (idx === 0 && b.id !== 'my-stack') {
             btn.classList.add('ring-2', 'ring-offset-2');
             btn.style.backgroundColor = brandColor;
             btn.style.color = 'white';
@@ -281,6 +452,16 @@ function createTabs() {
 
 function storageKey(brand) {
     return `inStack:${brand}`;
+}
+
+/**
+ * Check if a color (by brand and code) is in any stack
+ */
+function isColorInStack(brandId, code) {
+    const map = loadInStack(brandId);
+    const normalizedCode = normalizeEquivalentCode(code);
+    const key = `${brandId}:${normalizedCode}`;
+    return !!map[key];
 }
 
 function loadInStack(brand) {
@@ -297,50 +478,7 @@ function saveInStack(brand, map) {
 }
 
 function renderRow(brand, color, inStackMap, displayBrand, reverseEquivalentIndex) {
-    const id = `${brand}:${color.code}`;
-    const tpl = document.getElementById('colorRowTemplate');
-    const node = tpl.content.firstElementChild.cloneNode(true);
-
-    const swatch = node.querySelector('[data-swatch]');
-    const codeEl = node.querySelector('[data-code]');
-    const nameEl = node.querySelector('[data-name]');
-    const btn = node.querySelector('[data-btn]');
-
-    const hex = color.hex && String(color.hex).startsWith('#') ? color.hex : `#${color.hex || 'cccccc'}`;
-    swatch.style.backgroundColor = hex;
-    swatch.style.boxShadow = '0 2px 6px rgba(0,0,0,0.12)';
-    codeEl.textContent = `${color.code}`;
-    nameEl.textContent = `${color.name}`;
-
-    const checked = !!inStackMap[id];
-    btn.textContent = checked ? 'In' : 'Add';
-    if (checked) btn.classList.add('bg-green-100', 'dark:bg-green-900');
-    btn.dataset.colorId = id;
-
-    btn.addEventListener('click', () => {
-        if (inStackMap[id]) {
-            delete inStackMap[id];
-            btn.textContent = 'Add';
-            btn.classList.remove('bg-green-100', 'dark:bg-green-900');
-        } else {
-            inStackMap[id] = true;
-            btn.textContent = 'In';
-            btn.classList.add('bg-green-100', 'dark:bg-green-900');
-        }
-        saveInStack(brand, inStackMap);
-        renderStackPanel();
-    });
-
-    // Show equivalents embedded in the pack JSON.
-    const primaryEqEl = node.querySelector('[data-equivalents]');
-    const secondaryEqEl = node.querySelector('[data-secondary-equivalents]');
-    const primaryEquivalents = Array.isArray(color.equivalents) ? color.equivalents : [];
-    const secondaryEquivalents = reverseEquivalentIndex.get(getColorKey(brand, color.code)) || [];
-
-    renderEquivalentSection(primaryEqEl, 'Direct Equivalents', primaryEquivalents, 'primary');
-    renderEquivalentSection(secondaryEqEl, 'Referenced By', secondaryEquivalents, 'secondary');
-
-    return node;
+    return createColorCardTemplate(brand, color, inStackMap, reverseEquivalentIndex);
 }
 
 let currentSort = 'code-asc';
@@ -359,6 +497,12 @@ function sortColors(colors) {
 }
 
 async function loadAndRender(brand) {
+    // Handle My Stack tab
+    if (brand === 'my-stack') {
+        await renderStackViewFullScreen();
+        return;
+    }
+
     listEl.innerHTML = '';
     try {
         const [data, reverseEquivalentIndex] = await Promise.all([
@@ -420,7 +564,8 @@ function renderTableView(colors, brand, inStack, reverseEquivalentIndex) {
 
     // Table rows
     colors.forEach((color, idx) => {
-        const id = `${brand}:${color.code}`;
+        const normalizedCode = normalizeEquivalentCode(color.code);
+        const id = `${brand}:${normalizedCode}`;
         const hex = color.hex && String(color.hex).startsWith('#') ? color.hex : `#${color.hex || 'cccccc'}`;
         const checked = !!inStack[id];
 
@@ -489,6 +634,7 @@ function renderTableView(colors, brand, inStack, reverseEquivalentIndex) {
             }
             saveInStack(brand, inStack);
             renderStackPanel();
+            updateEquivalentBadges();
         });
         btnCol.appendChild(btn);
         row.appendChild(btnCol);
@@ -609,7 +755,8 @@ function loadStackFromFile(file) {
 
             if (brandId && code) {
                 if (!brandMaps[brandId]) brandMaps[brandId] = loadInStack(brandId);
-                brandMaps[brandId][`${brandId}:${code}`] = true;
+                const normalizedCode = normalizeEquivalentCode(code);
+                brandMaps[brandId][`${brandId}:${normalizedCode}`] = true;
                 loadedCount++;
             }
         });
@@ -621,63 +768,120 @@ function loadStackFromFile(file) {
     reader.readAsText(file);
 }
 
-// ── My Stack sidebar panel ────────────────────────────────────────────────────
+// ── View mode management ──────────────────────────────────────────────────────
 
+/**
+ * Update UI to reflect current view mode
+ */
 async function renderStackPanel() {
-    const panelList = document.getElementById('stackPanelList');
-    const countEl = document.getElementById('stackCount');
-    if (!panelList) return;
-
-    const items = getAllStackedColors();
-    if (countEl) countEl.textContent = items.length;
-
-    if (!items.length) {
-        panelList.innerHTML = '<p class="text-xs text-gray-400 dark:text-gray-500 text-center py-4">Stack is empty</p>';
-        return;
+    // Update the My Stack tab if it's currently active
+    const activeTab = document.querySelector('[data-brand].ring-2');
+    if (activeTab && activeTab.dataset.brand === 'my-stack') {
+        await renderStackViewFullScreen();
     }
+}
 
-    // Ensure packs for stacked brands are in colorLookup
+/**
+ * Handle removing a color from the stack
+ */
+function handleRemoveFromStack(e, brandId, code) {
+    const map = loadInStack(brandId);
+    delete map[`${brandId}:${code}`];
+    saveInStack(brandId, map);
+    // Sync the Add/In button on the main list if visible
+    const mainBtn = document.querySelector(`[data-color-id="${brandId}:${code}"]`);
+    if (mainBtn) {
+        mainBtn.textContent = 'Add';
+        mainBtn.classList.remove('bg-green-100', 'dark:bg-green-900');
+    }
+    renderStackPanel();
+
+    // Refresh equivalent badges to show/hide checkmarks
+    updateEquivalentBadges();
+
+    // Re-render stack view if currently displayed
+    const activeTab = document.querySelector('[data-brand].ring-2');
+    if (activeTab && activeTab.dataset.brand === 'my-stack') {
+        renderStackViewFullScreen();
+    }
+}
+
+// ── Stack Full-Screen View ────────────────────────────────────────────────────
+
+/**
+ * Render the stack in the main content area
+ */
+async function renderStackViewFullScreen() {
+    // Load all data if needed
+    const items = getAllStackedColors();
     const brandIds = [...new Set(items.map(i => i.brandId))];
     await Promise.all(brandIds.map(id => loadPack(id).catch(() => null)));
 
-    panelList.innerHTML = '';
+    listEl.innerHTML = '';
+
+    if (!items.length) {
+        listEl.className = 'flex items-center justify-center min-h-96';
+        listEl.innerHTML = `
+            <div class="text-center">
+                <div class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-4">Your Stack is Empty</div>
+                <p class="text-gray-500 dark:text-gray-400 mb-6">Add colors to your stack using the <strong>Add</strong> button on color cards.</p>
+            </div>
+        `;
+        return;
+    }
+
+    // Create wrapper for stack items with action buttons
+    const wrapper = document.createElement('div');
+    wrapper.className = 'w-full space-y-4';
+
+    // Action buttons at top
+    const buttonContainer = document.createElement('div');
+    buttonContainer.className = 'flex gap-2';
+
+    const saveBtn = document.createElement('button');
+    saveBtn.id = 'btnSaveStack';
+    saveBtn.textContent = 'Save to file';
+    saveBtn.className = 'px-3 py-1.5 rounded border text-xs bg-gray-50 dark:bg-gray-700 text-gray-700 dark:text-gray-200 font-medium hover:bg-gray-100 dark:hover:bg-gray-600';
+    saveBtn.addEventListener('click', saveStackToFile);
+    buttonContainer.appendChild(saveBtn);
+
+    const loadLabel = document.createElement('label');
+    loadLabel.className = 'px-3 py-1.5 rounded border text-xs bg-gray-50 dark:bg-gray-700 text-gray-700 dark:text-gray-200 font-medium hover:bg-gray-100 dark:hover:bg-gray-600 cursor-pointer';
+    loadLabel.textContent = 'Load from file';
+    const fileInput = document.createElement('input');
+    fileInput.type = 'file';
+    fileInput.id = 'stackFileInput';
+    fileInput.accept = '.txt';
+    fileInput.className = 'hidden';
+    fileInput.addEventListener('change', (e) => {
+        const file = e.target.files[0];
+        if (file) {
+            loadStackFromFile(file);
+            e.target.value = '';
+        }
+    });
+    loadLabel.appendChild(fileInput);
+    buttonContainer.appendChild(loadLabel);
+
+    wrapper.appendChild(buttonContainer);
+
+    // Grid container for stack items
+    const gridContainer = document.createElement('div');
+    gridContainer.className = 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 w-full';
+
     items.forEach(({ brandId, code }) => {
         const key = `${brandId}:${normalizeEquivalentCode(code)}`;
         const color = colorLookup.get(key);
-        const hex = color ? color.hex : '#cccccc';
-        const name = color ? color.name : '';
-        const brandLabel = BRAND_NAME_MAP[brandId] || brandId;
-        const brandColor = BRAND_COLORS[BRAND_NAME_MAP[brandId]] || '#6b7280';
+        const inStack = loadInStack(brandId);
+        const displayBrand = BRAND_NAME_MAP[brandId] || brandId;
 
-        const card = document.createElement('div');
-        card.className = 'flex items-stretch bg-gray-50 dark:bg-gray-700 rounded-lg overflow-hidden shadow-sm';
-        card.innerHTML = `
-            <div class="w-8 flex-shrink-0" style="background-color:${hex}"></div>
-            <div class="flex-1 min-w-0 px-2 py-1">
-                <div class="font-semibold text-xs truncate leading-tight">${code}</div>
-                <div class="text-[10px] text-gray-400 dark:text-gray-400 truncate leading-tight">${name || ''}</div>
-                <div class="mt-0.5"><span class="text-[9px] px-1 py-0.5 rounded text-white leading-none" style="background-color:${brandColor}">${brandLabel}</span></div>
-            </div>
-            <button class="remove-from-stack flex-shrink-0 text-gray-300 dark:text-gray-500 hover:text-red-400 px-1.5 text-base leading-none"
-                data-brand-id="${brandId}" data-code="${code}" title="Remove">×</button>`;
-        panelList.appendChild(card);
+        // Use the same template as for color browsing
+        const card = createColorCardTemplate(brandId, color, inStack, new Map());
+        gridContainer.appendChild(card);
     });
 
-    panelList.querySelectorAll('.remove-from-stack').forEach(btn => {
-        btn.addEventListener('click', () => {
-            const { brandId, code } = btn.dataset;
-            const map = loadInStack(brandId);
-            delete map[`${brandId}:${code}`];
-            saveInStack(brandId, map);
-            // Sync the Add/In button on the main list if visible
-            const mainBtn = document.querySelector(`[data-color-id="${brandId}:${code}"]`);
-            if (mainBtn) {
-                mainBtn.textContent = 'Add';
-                mainBtn.classList.remove('bg-green-100', 'dark:bg-green-900');
-            }
-            renderStackPanel();
-        });
-    });
+    wrapper.appendChild(gridContainer);
+    listEl.appendChild(wrapper);
 }
 
 // ── My Stack modal (legacy) ───────────────────────────────────────────────────
@@ -800,16 +1004,8 @@ async function showAllColors() {
 document.addEventListener('DOMContentLoaded', () => {
     createTabs();
     setupTooltip();
-    renderStackPanel();
 
-    document.getElementById('btnSaveStack').addEventListener('click', saveStackToFile);
-    document.getElementById('stackFileInput').addEventListener('change', e => {
-        const file = e.target.files[0];
-        if (file) {
-            loadStackFromFile(file);
-            e.target.value = '';
-        }
-    });
+
 
     document.getElementById('btnAllColors').addEventListener('click', showAllColors);
     document.getElementById('closeAllColors').addEventListener('click', () => {
