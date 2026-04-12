@@ -307,13 +307,22 @@ def parse_catalog():
             # Parse FS/RAL/RLM codes out of the definition column
             equivalents.extend(parse_definition_equivalents(definition))
 
-            # If the visible color name contains an RLM code (e.g. "RLM-02"),
-            # add it as an equivalent. This is useful for Gunze/table rows.
+            # If the visible color name contains standard codes (e.g. "RLM-02", "FS36495"),
+            # add them as equivalents. This is useful for Gunze/MR Hobby/table rows.
             if name:
+                # Check for RLM codes
                 mrlm = re.search(r"RLM[-\s]?(\d{3})", name.upper())
                 if mrlm:
                     rl = mrlm.group(1)
                     equivalents.append({"brand": "RLM", "code": f"RLM-{rl}"})
+
+                # Check for FS codes (e.g. "FS36495" or "FS 36495")
+                mfs = re.search(r"FS[-\s]?(\d{5})", name.upper())
+                if mfs:
+                    fs = mfs.group(1)
+                    equivalents.append(
+                        {"brand": "Federal Standard", "code": f"FS {fs}"}
+                    )
 
             # find swatch corresponding to the sample column (third column)
             cy = mean([e["bbox"]["y"] for e in cluster])

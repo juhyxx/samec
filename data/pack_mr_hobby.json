@@ -2,439 +2,1784 @@
   "brand": "Mr. Hobby",
   "brand_id": "mr_hobby",
   "source": "data/pack_mr_hobby.json",
-  "count": 62,
+  "count": 217,
   "colors": [
     {
-      "code": "C302",
-      "name": "Unnamed",
-      "hex": "#344846",
+      "code": "C1",
+      "name": "WHITE",
+      "hex": "#fffffe",
       "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C2",
+      "name": "BLACK",
+      "hex": "#191818",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C3",
+      "name": "RED",
+      "hex": "#ca332c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C4",
+      "name": "YELLOW",
+      "hex": "#fed23e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C5",
+      "name": "BLUE",
+      "hex": "#034984",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C6",
+      "name": "GREEN",
+      "hex": "#1a502f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C7",
+      "name": "BROWN",
+      "hex": "#a83f34",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C8",
+      "name": "SILVER",
+      "hex": "#c4c5c4",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C9",
+      "name": "GOLD",
+      "hex": "#ca9e41",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C10",
+      "name": "COPPER",
+      "hex": "#af633c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C11",
+      "name": "LIGHT GULL GRAY",
+      "hex": "#a5acab",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C12",
+      "name": "OLIVE DRAB (1) US",
+      "hex": "#574c35",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C13",
+      "name": "NEUTRAL GRAY US",
+      "hex": "#586569",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C14",
+      "name": "NAVY BLUE US",
+      "hex": "#273d45",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C15",
+      "name": "IJN GREEN (NAKAJIMA)",
+      "hex": "#11281d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C16",
+      "name": "IJA GREEN",
+      "hex": "#264034",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C17",
+      "name": "RLMZI DARK GREEN",
+      "hex": "#41443d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C18",
+      "name": "RLMZO BLACK GREEN",
+      "hex": "#242f37",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C19",
+      "name": "SANDY BROWEX",
+      "hex": "#836c41",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C20",
+      "name": "LIGHT BLUE",
+      "hex": "#55aa90",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C21",
+      "name": "MIDDLE STONE UI",
+      "hex": "#937748",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C22",
+      "name": "DARK EARTH U",
+      "hex": "#454038",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C23",
+      "name": "DARK GREEN (2) UJ",
+      "hex": "#404e40",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C25",
+      "name": "DARK SEAGRAY UI",
+      "hex": "#606553",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C26",
+      "name": "DUCK EGG GREEN UK",
+      "hex": "#c7cf9c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C27",
+      "name": "INTERIOR GREEN US",
+      "hex": "#9e8e3e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C28",
+      "name": "STEEL",
+      "hex": "#191818",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C29",
+      "name": "HULL RED",
+      "hex": "#442d2f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C30",
+      "name": "FLAT BASE",
+      "hex": "#fffffe",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C31",
+      "name": "DARK GRAY (1) US",
+      "hex": "#737976",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C32",
+      "name": "DARK GRAY (2)",
+      "hex": "#3c4a4d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C33",
+      "name": "FLAT BLACK",
+      "hex": "#191818",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C34",
+      "name": "SKY BLUE",
+      "hex": "#1b7fb8",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C35",
+      "name": "IJN GRAY (MITSUBISHI)",
+      "hex": "#889ea6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C36",
+      "name": "RLM74 GRAY GREEN",
+      "hex": "#263233",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM 74"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C37",
+      "name": "RLM75 GRAY VIOLET",
+      "hex": "#45504c",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM 75"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C38",
+      "name": "OLIVE DRAB(Z",
+      "hex": "#353d32",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C39",
+      "name": "DARK VELLOW (SANDY VELLOW)",
+      "hex": "#a2845a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C40",
+      "name": "GERMAN GRAY",
+      "hex": "#2a3337",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C41",
+      "name": "RED BROWN",
+      "hex": "#3b2c2c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C42",
+      "name": "MAHOGANY",
+      "hex": "#352c2b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C43",
+      "name": "WOOD BROWN",
+      "hex": "#564133",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C44",
+      "name": "TAN",
+      "hex": "#af9064",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C45",
+      "name": "SAIL COLOR",
+      "hex": "#a79e75",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C46",
+      "name": "CLEAR",
+      "hex": "#fffffe",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C47",
+      "name": "CLEAR RED",
+      "hex": "#ca332c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C48",
+      "name": "CLEAR YELLOW",
+      "hex": "#fac83e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C49",
+      "name": "CLEAR ORANGE",
+      "hex": "#d55a2f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C50",
+      "name": "CLEAR BLUE",
+      "hex": "#2399d0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C51",
+      "name": "FLESH",
+      "hex": "#d09c70",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C52",
+      "name": "FIELD GRAY (2)",
+      "hex": "#354340",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C54",
+      "name": "KHAKI GREEN US",
+      "hex": "#2f3833",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C55",
+      "name": "KHAKI J UK",
+      "hex": "#454433",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C57",
+      "name": "METALLIC BLUE GREEN",
+      "hex": "#1d625a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C58",
+      "name": "ORANGE YELLOW",
+      "hex": "#da6a32",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C59",
+      "name": "ORANGE",
+      "hex": "#ce432d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C60",
+      "name": "RLMO2 GRAY",
+      "hex": "#7f7d6b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C61",
+      "name": "BURNT IRON",
+      "hex": "#464647",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C62",
+      "name": "FLAT WHITE",
+      "hex": "#fffffe",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C56",
+      "name": "UN GRAY GREEN (NAKAJIMA)",
+      "hex": "#668a84",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C63",
+      "name": "PINK",
+      "hex": "#d86881",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C64",
+      "name": "YELLOW GREEN",
+      "hex": "#399046",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C65",
+      "name": "BRIGHT BLUE",
+      "hex": "#153e7a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C67",
+      "name": "PURPLE",
+      "hex": "#332b61",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C68",
+      "name": "MADDER RED",
+      "hex": "#b6302b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C69",
+      "name": "OFF WHITE",
+      "hex": "#f6f1e9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C70",
+      "name": "DARK GREEN",
+      "hex": "#2f3833",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C72",
+      "name": "INTERMEDIATE BLUE US",
+      "hex": "#2c424a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C66",
+      "name": "BRIGHT GREEN",
+      "hex": "#2d8946",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C71",
+      "name": "MIDNIGHT BLUE US",
+      "hex": "#2f393c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C73",
+      "name": "AIRCRAFT GRAY",
+      "hex": "#658480",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C75",
+      "name": "METALLIC RED",
+      "hex": "#8a2f2e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C77",
+      "name": "METALLIC GREEN",
+      "hex": "#26754b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C78",
+      "name": "METAL BLACK",
+      "hex": "#191818",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C80",
+      "name": "COBALT BLUE",
+      "hex": "#212c69",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C90",
+      "name": "SHINE SILVER",
+      "hex": "#b7b8b7",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C74",
+      "name": "AIR SUPERIORITY BLUE",
+      "hex": "#285c64",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C76",
+      "name": "METALLIC BLUE",
+      "hex": "#034984",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C79",
+      "name": "SHINE RED",
+      "hex": "#ca332c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C81",
+      "name": "RUSSET",
+      "hex": "#5b2d30",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C92",
+      "name": "SEMI GLOSS BLACK",
+      "hex": "#191818",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C97",
+      "name": "LIGHT GRAY",
+      "hex": "#9aa69b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C100",
+      "name": "WINE RED",
+      "hex": "#8a3035",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C104",
+      "name": "GUN CHROME",
+      "hex": "#99a7a9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C107",
+      "name": "CHARACTER WHITE",
+      "hex": "#efefe7",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C109",
+      "name": "CHARACTER YELLOW",
+      "hex": "#dd7234",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C111",
+      "name": "CHARACTER FLESH(1)",
+      "hex": "#f7d5c1",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C101",
+      "name": "SMOKE GRAY",
+      "hex": "#2b251e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C108",
+      "name": "CHARACTER RED",
+      "hex": "#a5302c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C110",
+      "name": "CHARACTER BLUE",
+      "hex": "#153e7a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C112",
+      "name": "CHARACTER FLESH (2)",
+      "hex": "#e9a8a1",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C113",
+      "name": "RLMO4 YELLOW",
+      "hex": "#e5963a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C114",
+      "name": "RLM23 RED",
+      "hex": "#a4303e",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM 23"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C117",
+      "name": "RLM76 LIGHT BLUE",
+      "hex": "#a7bdb8",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM 76"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C119",
+      "name": "RLM79 SAND YELLOW",
+      "hex": "#785f50",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM 79"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C115",
+      "name": "RLM65 LIGHT BLUE",
+      "hex": "#637f86",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM 65"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C116",
+      "name": "RLM66 BLACK GRAY",
+      "hex": "#2e2f2e",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM 66"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C118",
+      "name": "RLM78 LIGHT BLUE",
+      "hex": "#6e8c96",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM 78"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C120",
+      "name": "RLM8O OLIVE GREEN",
+      "hex": "#1d2d24",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C121",
+      "name": "RLM81 BROWN VIOLET",
+      "hex": "#41443d",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM 81"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C122",
+      "name": "RLM82 LIGHT GREEN",
+      "hex": "#576e4e",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM 82"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C124",
+      "name": "DARK GREEN (MTSUBISHH)",
+      "hex": "#183824",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C127",
+      "name": "COCKPIT COLOR (NAKAJIMA)",
+      "hex": "#919d71",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C129",
+      "name": "DARK GREEN (NAKAJIMA)",
+      "hex": "#445446",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C123",
+      "name": "RLM83 DARK GREEN",
+      "hex": "#344842",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM 83"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C125",
+      "name": "COwLING COLOR",
+      "hex": "#000912",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C1261",
+      "name": "COCkKpIT COLOR (MITSUBISHI)",
+      "hex": "#44543e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C128",
+      "name": "GRAY GREEN",
+      "hex": "#979a8d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C130",
+      "name": "DARK GREEN (KAWNASAKI)",
+      "hex": "#454f3d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C131",
+      "name": "RED BROWN C",
+      "hex": "#311d18",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C132",
+      "name": "EARTH GREEN",
+      "hex": "#574c35",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C136",
+      "name": "RUSSIAN GREEN (2)",
+      "hex": "#334b3d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C138",
+      "name": "CLEAR GREEN",
+      "hex": "#2d8946",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C151",
+      "name": "WHITE PEARL",
+      "hex": "#fffffe",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C156",
+      "name": "SUPER WHITEF",
+      "hex": "#fffffe",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C158",
+      "name": "SUPER ITALIAN RED",
+      "hex": "#b6302b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C135",
+      "name": "RUSSIAN GREEN (1)",
+      "hex": "#3d7f4b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C137",
+      "name": "TIRE BLACK",
+      "hex": "#191818",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C159",
+      "name": "SUPER SILVER",
+      "hex": "#c4c5c4",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C171",
+      "name": "FLUORESCENT RED",
+      "hex": "#ca332c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C172",
+      "name": "FLUORESCENT YELLOW",
+      "hex": "#ffeb3e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C173",
+      "name": "FLUORESCENT ORANGE",
+      "hex": "#cc3b2c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C174",
+      "name": "FLUORESCENT PINK",
+      "hex": "#c9315c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C175",
+      "name": "FLUORESCENT GREEN",
+      "hex": "#2d8946",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C181",
+      "name": "SEMI-GLOSS SUPER CLEAR",
+      "hex": "#fffffe",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C182",
+      "name": "FLAT CLEAR",
+      "hex": "#fffffe",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C183",
+      "name": "SUPER CLEAR GRAY TONE",
+      "hex": "#eeefed",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C188",
+      "name": "FLAT BASE ROUGH",
+      "hex": "#fffffe",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C189",
+      "name": "FLAT BASE SMOOTH",
+      "hex": "#fffffe",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C301",
+      "name": "GRAY FS36081",
+      "hex": "#303439",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36081"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C302",
+      "name": "GREEN FS34092",
+      "hex": "#344846",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34092"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C303",
-      "name": "Unnamed",
+      "name": "GREEN FS34102",
       "hex": "#455049",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34102"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C304",
-      "name": "Unnamed",
+      "name": "OLIVE DRAB FS34087",
       "hex": "#35342f",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34087"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C305",
-      "name": "Unnamed",
+      "name": "GRAY FS36118",
       "hex": "#425a59",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36118"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C306",
+      "name": "GRAY FS36270",
+      "hex": "#5d7472",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36270"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C307",
+      "name": "GRAY FS36320",
+      "hex": "#5c7477",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36320"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C308",
-      "name": "Unnamed",
+      "name": "GRAY FS36375",
       "hex": "#6e8787",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36375"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C309",
-      "name": "Unnamed",
+      "name": "GREEN FS34079",
       "hex": "#344846",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34079"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C310",
-      "name": "Unnamed",
+      "name": "BROWN FS30219",
       "hex": "#5f5449",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30219"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C311",
-      "name": "Unnamed",
+      "name": "GRAY FS36622",
       "hex": "#e0dfc3",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36622"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C312",
+      "name": "GREEN FS34227",
+      "hex": "#3f6f54",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34227"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C313",
-      "name": "Unnamed",
+      "name": "YELLOW FS33531",
       "hex": "#d5b07e",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 33531"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C314",
-      "name": "Unnamed",
+      "name": "BLUE FS35622",
       "hex": "#e1eedf",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35622"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C315",
-      "name": "Unnamed",
+      "name": "GRAY FS16440",
       "hex": "#83958e",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 16440"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C316",
+      "name": "WHITE FS17875",
+      "hex": "#fffffe",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 17875"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C317",
+      "name": "GRAY FS36231",
+      "hex": "#5f655c",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36231"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C318",
-      "name": "Unnamed",
+      "name": "RADOME",
       "hex": "#f4c485",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C319",
-      "name": "Unnamed",
+      "name": "LIGHT GREEN",
       "hex": "#2d5a4d",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C320",
-      "name": "Unnamed",
+      "name": "DARK GREEN",
       "hex": "#3d493f",
       "equivalents": [],
       "confidence": null
     },
     {
+      "code": "C321",
+      "name": "LIGHT BROWN",
+      "hex": "#967a62",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C322",
+      "name": "PHTHALO CYANNE BLUE",
+      "hex": "#282f41",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
       "code": "C323",
-      "name": "Unnamed",
+      "name": "LIGHT BLUE",
       "hex": "#29a6d5",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C324",
-      "name": "Unnamed",
+      "name": "LIGHT GRAY",
       "hex": "#79918c",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C325",
-      "name": "Unnamed",
+      "name": "GRAY FS26440",
       "hex": "#8e998e",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 26440"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C326",
+      "name": "BLUE FS15044",
+      "hex": "#282b38",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 15044"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C327",
+      "name": "RED FS11136",
+      "hex": "#792f2e",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 11136"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C328",
-      "name": "Unnamed",
+      "name": "BLUE FS15050",
       "hex": "#282f41",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 15050"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C329",
-      "name": "Unnamed",
+      "name": "YELLOW FS13538",
       "hex": "#e48c39",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 13538"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C330",
-      "name": "Unnamed",
+      "name": "DARK GREEN BS381C/641",
       "hex": "#353e3e",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS 381C/641"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C331",
+      "name": "DARK SEAGRAV BS381C 638",
+      "hex": "#454b4e",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS 381C"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C332",
-      "name": "Unnamed",
+      "name": "LIGHT arCRaFT GRAY BS38IC 627",
       "hex": "#7a8277",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C233",
-      "name": "Unnamed",
+      "code": "C333",
+      "name": "EXTRA DARK SEAGRAY BS38IC 640",
       "hex": "#2e3e45",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C334",
-      "name": "Unnamed",
+      "name": "BARLEY GRAY BS480O/18B21",
       "hex": "#6f807d",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS 480"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C335",
-      "name": "Unnamed",
+      "name": "MEDIUM SEAGRAY BS381C 637",
       "hex": "#546465",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS 381C"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C336",
+      "name": "HEMP BS4800/1OB21",
+      "hex": "#5f7860",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS 480"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C337",
+      "name": "GRAYISH BLUE FS35237",
+      "hex": "#3f6065",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35237"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C338",
-      "name": "Unnamed",
+      "name": "LIGHT GRAY FS36495",
       "hex": "#a5acab",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36495"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C339",
+      "name": "ENGINE GRAY FS16081",
+      "hex": "#2e3e45",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 16081"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "C340",
-      "name": "Unnamed",
+      "name": "FIELD GREEN FS34097",
       "hex": "#344738",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34097"
+        }
+      ],
       "confidence": null
     },
     {
-      "code": "C351",
-      "name": "Unnamed",
-      "hex": "#656345",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C352",
-      "name": "Unnamed",
+      "code": "C35",
+      "name": "CHROMHTe VELLOW PRIMER FS33481",
       "hex": "#a0893c",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 33481"
+        }
+      ],
       "confidence": null
     },
     {
-      "code": "C362",
-      "name": "Unnamed",
+      "code": "C36",
+      "name": "DARK GREEN BS641",
+      "hex": "#2d312b",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS 641"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C36",
+      "name": "OCEAN GRAY",
       "hex": "#4d5556",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C363",
-      "name": "Unnamed",
+      "code": "C6",
+      "name": "MEDIUM SEAGRAY BS637",
       "hex": "#687779",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS 637"
+        }
+      ],
       "confidence": null
     },
     {
-      "code": "C365",
-      "name": "Unnamed",
+      "code": "C361",
+      "name": "GLOSS SEABLUE FS151042",
       "hex": "#000316",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 15104"
+        }
+      ],
       "confidence": null
     },
     {
-      "code": "C366",
-      "name": "Unnamed",
+      "code": "C6",
+      "name": "INTERMEDIATE BLUE FS35164",
       "hex": "#4b5d68",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35164"
+        }
+      ],
       "confidence": null
     },
     {
-      "code": "C367",
-      "name": "Unnamed",
+      "code": "C36",
+      "name": "BLUE GRAY FS35189",
       "hex": "#5b7477",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35189"
+        }
+      ],
       "confidence": null
     },
     {
-      "code": "C368",
-      "name": "Unnamed",
+      "code": "C36",
+      "name": "SKY BS381C/210",
       "hex": "#93a285",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS 381C/210"
+        }
+      ],
       "confidence": null
     },
     {
-      "code": "C369",
-      "name": "Unnamed",
-      "hex": "#443d2e",
-      "equivalents": [],
+      "code": "C35",
+      "name": "ZINC:-CHROMATE TyPEIFS34151",
+      "hex": "#656345",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34151"
+        }
+      ],
       "confidence": null
     },
     {
-      "code": "C370",
-      "name": "Unnamed",
+      "code": "C336",
+      "name": "AIRCRAFT GRAY GREEN BS283",
+      "hex": "#5d6d55",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS 283"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C371",
+      "name": "AZURE BLUE",
       "hex": "#4e708f",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C374",
-      "name": "Unnamed",
+      "code": "C37",
+      "name": "JASDF SHALLOW OCEAN BLUE",
       "hex": "#4a6c87",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C375",
-      "name": "Unnamed",
-      "hex": "#21252e",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
       "code": "C376",
-      "name": "Unnamed",
+      "name": "JASDF RADOME GRAY",
       "hex": "#a8b0a9",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C383",
-      "name": "Unnamed",
-      "hex": "#273b35",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C384",
-      "name": "Unnamed",
+      "code": "C38",
+      "name": "COCkpIt COLOR (KAWANISHI)",
       "hex": "#6a6942",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C385",
-      "name": "Unnamed",
+      "code": "C8",
+      "name": "RED (UJN AIRCRAFT MARKING)",
       "hex": "#2d947a",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C391",
-      "name": "Unnamed",
+      "code": "C39",
+      "name": "INTERIOR TURQUOSE GREENGSOVEET)",
       "hex": "#2d947a",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C392",
-      "name": "Unnamed",
+      "code": "C39",
+      "name": "INTERIOR BLUE (SOVIET)",
       "hex": "#33889f",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C393",
-      "name": "Unnamed",
+      "code": "C36",
+      "name": "DARK EARTH BS381C/450",
+      "hex": "#443d2e",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS 381C/450"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "C937",
+      "name": "JASDF DEEP OCEAN BLUE",
+      "hex": "#21252e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C8",
+      "name": "DARK GREEN (KAWANISHI)",
+      "hex": "#273b35",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C517",
+      "name": "RUSSIAN GREEN \"4BO\" 1947 -",
+      "hex": "#4e4f32",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C514",
+      "name": "GRAY I GRAU\"",
+      "hex": "#435a5f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C51",
+      "name": "BROWN 3606",
+      "hex": "#352e26",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C510",
+      "name": "BRONZEGRUN",
+      "hex": "#343c30",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C39",
+      "name": "RUSSIAN AIRCRAFT BLUE T",
       "hex": "#0d010b",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C511",
-      "name": "Unnamed",
+      "code": "C51",
+      "name": "RUSSIAN GREEN \"4BO\"",
       "hex": "#404b2f",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "C513",
-      "name": "Unnamed",
+      "name": "DARK GRAY \"DUNKEL GRAU\"",
       "hex": "#333d44",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C514",
-      "name": "Unnamed",
-      "hex": "#435a5f",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C515",
-      "name": "Unnamed",
+      "code": "C51",
+      "name": "FADED GRAY \"BLASSGRAU\"",
       "hex": "#4b6266",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C516",
-      "name": "Unnamed",
+      "code": "C510",
+      "name": "DARK GREEN 3414",
       "hex": "#2f352c",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C517",
-      "name": "Unnamed",
-      "hex": "#352e26",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
       "code": "C518",
-      "name": "Unnamed",
+      "name": "OLIVE DRAB 2314",
       "hex": "#2a281e",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C520",
-      "name": "Unnamed",
-      "hex": "#3b2e23",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C621",
-      "name": "Unnamed",
-      "hex": "#1e2021",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C522",
-      "name": "Unnamed",
+      "code": "C52",
+      "name": "GROUND COLOR",
       "hex": "#443f3e",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C523",
-      "name": "Unnamed",
-      "hex": "#474f41",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C524",
-      "name": "Unnamed",
+      "code": "C52",
+      "name": "HAY COLOR",
       "hex": "#706540",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C525",
-      "name": "Unnamed",
-      "hex": "#2e3d33",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "C526",
-      "name": "Unnamed",
+      "code": "C520",
+      "name": "BROWN",
       "hex": "#6c5547",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C528",
-      "name": "Unnamed",
-      "hex": "#b19b77",
+      "code": "C52",
+      "name": "KHAKI",
+      "hex": "#846a4e",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C529",
-      "name": "Unnamed",
+      "code": "C524",
+      "name": "IDF GRAY2 (-1981 GOLAN)",
       "hex": "#70695d",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "C606",
-      "name": "Unnamed",
-      "hex": "#4e3c35",
+      "code": "C521",
+      "name": "LEDERBRAUN",
+      "hex": "#3b2e23",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C52",
+      "name": "TEER SCHWARZ",
+      "hex": "#1e2021",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C52",
+      "name": "GRASS COLOR",
+      "hex": "#474f41",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C527",
+      "name": "GREEN",
+      "hex": "#2e3d33",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C528",
+      "name": "IDF GRAYI (-1981 SINAI)",
+      "hex": "#b19b77",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C160",
+      "name": "IJN HULL COLOR/KURE",
+      "hex": "#74787b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C60",
+      "name": "UN huLL COLORISASEBO",
+      "hex": "#5d5f5c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C60",
+      "name": "UN TYPE2I CaMOFLAGE COLOR",
+      "hex": "#44603b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C60",
+      "name": "JMSDF 2704 GRAY N5",
+      "hex": "#5d6363",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C60",
+      "name": "JMSDF CLEATED DECK COLOR",
+      "hex": "#313435",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C530",
+      "name": "IDF GRAY3 (MODERN)",
+      "hex": "#696151",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C60",
+      "name": "UJN huLL COLORMMAIZURU",
+      "hex": "#858b92",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "C60",
+      "name": "JMSDF 2705 DARK GRAY N4",
+      "hex": "#434849",
       "equivalents": [],
       "confidence": null
     }

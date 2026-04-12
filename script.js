@@ -3,27 +3,26 @@ const brandTabs = document.getElementById('brandTabs');
 
 // Display state
 let showEquivalents = true;  // Default: show equivalents
-let tableViewMode = false;   // Default: card view
 
 const BRANDS = [
     { id: 'my-stack', label: 'My Stack' },
     { id: 'ammo', label: 'Ammo by Mig' },
     { id: 'ammo_atom', label: 'ATOM (Ammo)' },
     { id: 'ak', label: 'AK Interactive' },
-    { id: 'gunze', label: 'Gunze Sangyo' },
+    { id: 'gunze', label: 'Aqueous Hobby color (Gunze)' },
     { id: 'tamiya', label: 'Tamiya' },
-    { id: 'mr_hobby', label: 'Mr. Hobby' },
+    { id: 'mr_hobby', label: 'Mr.Color (Gunze)' },
     { id: 'rlm', label: 'RLM' },
     { id: 'humbrol', label: 'Humbrol' },
     { id: 'vallejo', label: 'Vallejo' },
 ];
 
-// Brand color mapping: brand display name -> hex color
-const BRAND_COLORS = {
+// Map brand display names to colors (used only for equivalent badges)
+const BRAND_BADGE_COLORS = {
     'Ammo by Mig': '#FECC02',
-    'Mr. Hobby': '#045AAA',
+    'Mr.Color (Gunze)': '#045AAA',
     'AK Interactive': '#E95A0E',
-    'Gunze Sangyo': '#009DA5',
+    'Aqueous Hobby color (Gunze)': '#009DA5',
     'ATOM (Ammo)': '#0075C1',
     "Federal Standard": '#A6192E',
     "Tamiya": '#004B87',
@@ -35,15 +34,34 @@ const BRAND_COLORS = {
     "Vallejo Model Color": '#05E2E1',
 };
 
+// Map brand ID to logo color (for fallback)
+const BRAND_LOGO_COLORS = {
+    'my-stack': '#ec4899',
+    'ammo': '#FECC02',
+    'ammo_atom': '#0075C1',
+    'ak': '#E95A0E',
+    'gunze': '#009DA5',
+    'tamiya': '#004B87',
+    'mr_hobby': '#045AAA',
+    'rlm': '#5C6B3A',
+    'humbrol': '#003087',
+    'vallejo': '#003d99',
+};
+
+// Map brand IDs to logo filenames (for special cases)
+const BRAND_LOGO_FILES = {
+    'ammo_atom': 'ammo',  // ammo_atom uses ammo logo
+};
+
 // Map brand IDs to display names
 const BRAND_NAME_MAP = {
     'ammo': 'Ammo by Mig',
     'ammo_atom': 'ATOM (Ammo)',
     'ak': 'AK Interactive',
-    'gunze': 'Gunze Sangyo',
+    'gunze': 'Aqueous Hobby color (Gunze)',
     'federal_standard': 'Federal Standard',
     'tamiya': 'Tamiya',
-    'mr_hobby': 'Mr. Hobby',
+    'mr_hobby': 'Mr.Color (Gunze)',
     'ral': 'RAL',
     'rlm': 'RLM',
     'humbrol': 'Humbrol',
@@ -53,8 +71,8 @@ const BRAND_NAME_MAP = {
 };
 
 const EQUIVALENT_BRAND_MAP = {
-    'HOBBY COLOR': 'Gunze Sangyo',
-    'MR.COLOR': 'Mr. Hobby',
+    'HOBBY COLOR': 'Aqueous Hobby color (Gunze)',
+    'MR.COLOR': 'Mr.Color (Gunze)',
     'TAMIYA': 'Tamiya',
     'RAL': 'RAL',
     'FEDERAL STANDARD': 'Federal Standard',
@@ -62,7 +80,7 @@ const EQUIVALENT_BRAND_MAP = {
     'MODEL AIR': 'Vallejo Model Air',
     'MODEL COLOR': 'Vallejo Model Color',
     'AK INTERACTIVE': 'AK Interactive',
-    'GUNZE SANGYO': 'Gunze Sangyo',
+    'GUNZE SANGYO': 'Aqueous Hobby color (Gunze)',
     'AMMO BY MIG': 'Ammo by Mig',
     'AMMO BY MIG ATOM': 'ATOM (Ammo)',
 };
@@ -295,7 +313,7 @@ function getColorKey(brand, code) {
 
 function renderEquivalentBadge(item, tone) {
     const displayName = getEquivalentDisplayName(item.brand);
-    const brandColor = BRAND_COLORS[displayName] || '#6b7280';
+    const badgeColor = BRAND_BADGE_COLORS[displayName] || '#6b7280';
 
     const label = item.code;
     const eqBrandId = normalizeBrandId(item.brand);
@@ -306,7 +324,7 @@ function renderEquivalentBadge(item, tone) {
     const badgeClass = inStack ? 'ring-2 ring-offset-1 ring-yellow-300 dark:ring-yellow-500' : '';
     const checkIcon = inStack ? ' ✓' : '';
 
-    return `<div class="m-1 rounded px-2 py-0.5 text-xs font-medium text-white cursor-default ${badgeClass}" style="background-color: ${brandColor}" title="${displayName}${inStack ? ' (in stack)' : ''}" data-eq-brand="${eqBrandId}" data-eq-code="${eqCode}">${label}${checkIcon}</div>`;
+    return `<div class="m-1 rounded px-2 py-0.5 text-xs font-medium text-white cursor-default ${badgeClass}" style="background-color: ${badgeColor}" title="${displayName}${inStack ? ' (in stack)' : ''}" data-eq-brand="${eqBrandId}" data-eq-code="${eqCode}">${label}${checkIcon}</div>`;
 }
 
 function renderEquivalentSection(container, title, items, tone) {
@@ -409,34 +427,39 @@ function createTabs() {
         const btn = document.createElement('button');
         btn.type = 'button';
         btn.dataset.brand = b.id;
-        btn.className = 'px-3 py-1 rounded border text-sm bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-100 flex items-center gap-2';
+        btn.className = 'px-2 py-2 rounded border text-xs bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-100 flex flex-col items-center gap-1 w-20';
 
-        // Create color swatch (skip for My Stack tab)
-        if (b.id !== 'my-stack') {
-            const swatch = document.createElement('div');
-            swatch.className = 'w-4 h-4 rounded-sm border border-gray-300 flex-shrink-0';
-            swatch.style.backgroundColor = BRAND_COLORS[b.label] || '#cccccc';
-            btn.appendChild(swatch);
-        }
+        // Add logo
+        const logo = document.createElement('img');
+        // Use mapped logo filename if available, otherwise use brand ID
+        const logoFile = BRAND_LOGO_FILES[b.id] || b.id;
+        // Try PNG first, then SVG as fallback
+        logo.src = `./logos/${logoFile}.png`;
+        logo.alt = b.label;
+        logo.className = 'w-10 h-10 rounded object-contain';
+        logo.onerror = () => {
+            // Fallback to SVG if PNG not found
+            if (logo.src.endsWith('.png')) {
+                logo.src = `./logos/${b.id}.svg`;
+            } else {
+                logo.style.display = 'none'; // Hide if neither PNG nor SVG found
+            }
+        };
+        btn.appendChild(logo);
 
         // Add label
         const label = document.createElement('span');
         label.textContent = b.label;
+        label.className = 'text-center leading-tight';
         btn.appendChild(label);
-
-        const brandColor = b.id === 'my-stack' ? '#ec4899' : (BRAND_COLORS[b.label] || '#cccccc');
 
         btn.addEventListener('click', () => {
             // deactivate others
             [...brandTabs.children].forEach(ch => {
-                ch.classList.remove('ring-2', 'ring-offset-2', 'text-white');
-                ch.style.backgroundColor = '';
-                ch.style.color = '';
+                ch.classList.remove('ring-2', 'ring-offset-2');
             });
-            // activate this one with brand color background
+            // activate this one
             btn.classList.add('ring-2', 'ring-offset-2');
-            btn.style.backgroundColor = brandColor;
-            btn.style.color = 'white';
             loadAndRender(b.id);
         });
         brandTabs.appendChild(btn);
@@ -444,8 +467,6 @@ function createTabs() {
         // select first by default
         if (idx === 0 && b.id !== 'my-stack') {
             btn.classList.add('ring-2', 'ring-offset-2');
-            btn.style.backgroundColor = brandColor;
-            btn.style.color = 'white';
         }
     });
 }
@@ -503,6 +524,7 @@ async function loadAndRender(brand) {
         return;
     }
 
+    listEl.className = 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 shadow-sm';
     listEl.innerHTML = '';
     try {
         const [data, reverseEquivalentIndex] = await Promise.all([
@@ -519,14 +541,10 @@ async function loadAndRender(brand) {
 
         const inStack = loadInStack(brand);
 
-        if (tableViewMode) {
-            renderTableView(colors, brand, inStack, reverseEquivalentIndex);
-        } else {
-            colors.forEach(c => {
-                const row = renderRow(brand, c, inStack, displayBrand, reverseEquivalentIndex);
-                listEl.appendChild(row);
-            });
-        }
+        colors.forEach(c => {
+            const row = renderRow(brand, c, inStack, displayBrand, reverseEquivalentIndex);
+            listEl.appendChild(row);
+        });
     } catch (e) {
         console.error(e);
         listEl.innerHTML = '<div class="text-red-500 dark:text-red-400">Unable to load data.</div>';
@@ -534,113 +552,7 @@ async function loadAndRender(brand) {
 }
 
 function renderTableView(colors, brand, inStack, reverseEquivalentIndex) {
-    // Create a table structure for card grid view
-    listEl.className = 'space-y-0 border border-gray-200 dark:border-gray-700 rounded overflow-hidden';
-
-    // Table header
-    const headerRow = document.createElement('div');
-    headerRow.className = 'grid gap-0 bg-gray-100 dark:bg-gray-700 rounded-none border-b border-gray-200 dark:border-gray-700';
-
-    if (showEquivalents) {
-        headerRow.style.gridTemplateColumns = '40px 80px 1fr 200px 80px';
-        headerRow.innerHTML = `
-            <div class="p-2"></div>
-            <div class="p-2 font-semibold text-sm border-r border-gray-200 dark:border-gray-700">Code</div>
-            <div class="p-2 font-semibold text-sm border-r border-gray-200 dark:border-gray-700">Name</div>
-            <div class="p-2 font-semibold text-sm border-r border-gray-200 dark:border-gray-700">Equivalents</div>
-            <div class="p-2 font-semibold text-sm">Stack</div>
-        `;
-    } else {
-        headerRow.style.gridTemplateColumns = '40px 80px 1fr 80px';
-        headerRow.innerHTML = `
-            <div class="p-2"></div>
-            <div class="p-2 font-semibold text-sm border-r border-gray-200 dark:border-gray-700">Code</div>
-            <div class="p-2 font-semibold text-sm border-r border-gray-200 dark:border-gray-700">Name</div>
-            <div class="p-2 font-semibold text-sm">Stack</div>
-        `;
-    }
-
-    listEl.appendChild(headerRow);
-
-    // Table rows
-    colors.forEach((color, idx) => {
-        const normalizedCode = normalizeEquivalentCode(color.code);
-        const id = `${brand}:${normalizedCode}`;
-        const hex = color.hex && String(color.hex).startsWith('#') ? color.hex : `#${color.hex || 'cccccc'}`;
-        const checked = !!inStack[id];
-
-        const row = document.createElement('div');
-        row.className = 'grid gap-0 items-center border-b border-gray-200 dark:border-gray-700 last:border-b-0';
-
-        if (showEquivalents) {
-            row.style.gridTemplateColumns = '40px 80px 1fr 200px 80px';
-        } else {
-            row.style.gridTemplateColumns = '40px 80px 1fr 80px';
-        }
-
-        // Swatch
-        const swatchCol = document.createElement('div');
-        swatchCol.className = 'h-12 rounded-none border-r border-gray-200 dark:border-gray-700';
-        swatchCol.style.backgroundColor = hex;
-        swatchCol.style.boxShadow = '0 2px 6px rgba(0,0,0,0.12)';
-        row.appendChild(swatchCol);
-
-        // Code
-        const codeCol = document.createElement('div');
-        codeCol.className = 'p-2 font-semibold text-sm truncate border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800';
-        codeCol.textContent = color.code;
-        row.appendChild(codeCol);
-
-        // Name
-        const nameCol = document.createElement('div');
-        nameCol.className = 'p-2 text-sm truncate border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800';
-        nameCol.textContent = color.name;
-        row.appendChild(nameCol);
-
-        // Equivalents
-        if (showEquivalents) {
-            const eqCol = document.createElement('div');
-            eqCol.className = 'p-2 flex flex-wrap gap-1 overflow-y-auto border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 max-h-12';
-            const primaryEquivalents = Array.isArray(color.equivalents) ? color.equivalents : [];
-            eqCol.innerHTML = primaryEquivalents.slice(0, 2).map(item => renderEquivalentBadge(item, 'primary')).join('');
-            if (primaryEquivalents.length > 2) {
-                const more = document.createElement('span');
-                more.className = 'text-[10px] text-gray-500 dark:text-gray-400';
-                more.textContent = `+${primaryEquivalents.length - 2}`;
-                eqCol.appendChild(more);
-            }
-            row.appendChild(eqCol);
-        }
-
-        // Stack button
-        const btnCol = document.createElement('div');
-        btnCol.className = 'p-2 bg-white dark:bg-gray-800';
-        const btn = document.createElement('button');
-        btn.type = 'button';
-        btn.className = `px-2 py-1 rounded border text-xs whitespace-nowrap w-full text-gray-800 dark:text-gray-100 ${checked ? 'bg-green-100 dark:bg-green-900 border-green-300 dark:border-green-700' : 'bg-gray-50 dark:bg-gray-700 border-gray-300 dark:border-gray-600'}`;
-        btn.textContent = checked ? 'In' : 'Add';
-        btn.dataset.colorId = id;
-        btn.addEventListener('click', () => {
-            if (inStack[id]) {
-                delete inStack[id];
-                btn.textContent = 'Add';
-                btn.classList.remove('bg-green-100', 'dark:bg-green-900', 'border-green-300', 'dark:border-green-700');
-                btn.classList.add('bg-gray-50', 'dark:bg-gray-700', 'border-gray-300', 'dark:border-gray-600');
-            } else {
-                inStack[id] = true;
-                btn.textContent = 'In';
-                btn.classList.remove('bg-gray-50', 'dark:bg-gray-700', 'border-gray-300', 'dark:border-gray-600');
-                btn.classList.add('bg-green-100', 'dark:bg-green-900', 'border-green-300', 'dark:border-green-700');
-            }
-            saveInStack(brand, inStack);
-            renderStackPanel();
-            updateEquivalentBadges();
-        });
-        btnCol.appendChild(btn);
-        row.appendChild(btnCol);
-
-        listEl.appendChild(row);
-    });
+    // Table view removed - all colors now rendered in card view
 }
 
 // ── Tooltip ──────────────────────────────────────────────────────────────────
@@ -817,6 +729,7 @@ async function renderStackViewFullScreen() {
     const brandIds = [...new Set(items.map(i => i.brandId))];
     await Promise.all(brandIds.map(id => loadPack(id).catch(() => null)));
 
+    listEl.className = '';  // Clear grid styling
     listEl.innerHTML = '';
 
     if (!items.length) {
@@ -830,13 +743,13 @@ async function renderStackViewFullScreen() {
         return;
     }
 
-    // Create wrapper for stack items with action buttons
+    // Create wrapper for stack items
     const wrapper = document.createElement('div');
-    wrapper.className = 'w-full space-y-4';
+    wrapper.className = 'w-full';
 
     // Action buttons at top
     const buttonContainer = document.createElement('div');
-    buttonContainer.className = 'flex gap-2';
+    buttonContainer.className = 'flex gap-2 mb-4';
 
     const saveBtn = document.createElement('button');
     saveBtn.id = 'btnSaveStack';
@@ -865,15 +778,14 @@ async function renderStackViewFullScreen() {
 
     wrapper.appendChild(buttonContainer);
 
-    // Grid container for stack items
+    // Grid container for stack items (card view)
     const gridContainer = document.createElement('div');
-    gridContainer.className = 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 w-full';
+    gridContainer.className = 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4';
 
     items.forEach(({ brandId, code }) => {
         const key = `${brandId}:${normalizeEquivalentCode(code)}`;
         const color = colorLookup.get(key);
         const inStack = loadInStack(brandId);
-        const displayBrand = BRAND_NAME_MAP[brandId] || brandId;
 
         // Use the same template as for color browsing
         const card = createColorCardTemplate(brandId, color, inStack, new Map());
@@ -907,7 +819,6 @@ async function showMyStack() {
         const hex = color ? color.hex : '#cccccc';
         const name = color ? color.name : '';
         const brandLabel = BRAND_NAME_MAP[brandId] || brandId;
-        const brandColor = BRAND_COLORS[BRAND_NAME_MAP[brandId]] || '#6b7280';
 
         const card = document.createElement('div');
         card.className = 'bg-white dark:bg-gray-700 rounded-xl shadow overflow-hidden flex';
@@ -916,7 +827,7 @@ async function showMyStack() {
             <div class="p-2 min-w-0 flex-1">
                 <div class="font-semibold text-sm truncate">${code}</div>
                 <div class="text-xs text-gray-500 dark:text-gray-300 truncate leading-tight">${name}</div>
-                <div class="mt-1"><span class="text-[10px] px-1 py-0.5 rounded text-white" style="background-color:${brandColor}">${brandLabel}</span></div>
+                <div class="mt-1"><span class="text-[10px] px-1 py-0.5 rounded bg-gray-300 dark:bg-gray-600 text-gray-800 dark:text-gray-100">${brandLabel}</span></div>
             </div>`;
         grid.appendChild(card);
     });
@@ -955,50 +866,7 @@ function hexToHsl(hex) {
 }
 
 async function showAllColors() {
-    const modal = document.getElementById('allColorsModal');
-    const list = document.getElementById('allColorsList');
-
-    modal.classList.remove('hidden');
-    list.innerHTML = '<div class="col-span-full text-center py-8">Loading all colors...</div>';
-
-    // Load all packs
-    await Promise.all(BRANDS.map(b => loadPack(b.id).catch(() => null)));
-
-    // Collect all colors with brand info
-    const allColors = [];
-    for (const [key, color] of colorLookup) {
-        allColors.push({
-            ...color,
-            key: key,
-        });
-    }
-
-    // Sort by HSL hue then lightness (for natural color order)
-    allColors.sort((a, b) => {
-        const hslA = hexToHsl(a.hex);
-        const hslB = hexToHsl(b.hex);
-        // Sort by hue primarily, then by lightness
-        if (Math.abs(hslA.h - hslB.h) > 5) return hslA.h - hslB.h;
-        return hslA.l - hslB.l;
-    });
-
-    // Render
-    list.innerHTML = '';
-    allColors.forEach(color => {
-        const card = document.createElement('div');
-        card.className = 'group';
-        card.innerHTML = `
-            <div class="flex overflow-hidden">
-                <div class="w-20 h-10" style="background-color: ${color.hex}"></div>
-                <div class="p-2 bg-white dark:bg-gray-700 text-xs">
-                    <div class="font-semibold truncate">${color.code} ${color.name}</div>
-                </div>
-            </div>
-        `;
-
-
-        list.appendChild(card);
-    });
+    // All Colors modal removed
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -1006,45 +874,8 @@ document.addEventListener('DOMContentLoaded', () => {
     setupTooltip();
 
 
-
-    document.getElementById('btnAllColors').addEventListener('click', showAllColors);
-    document.getElementById('closeAllColors').addEventListener('click', () => {
-        document.getElementById('allColorsModal').classList.add('hidden');
-    });
-
-    // Toggle equivalents visibility
-    document.getElementById('btnToggleEquivalents').addEventListener('click', (e) => {
-        showEquivalents = !showEquivalents;
-        const btn = e.target;
-        btn.textContent = showEquivalents ? 'Hide Equivalents' : 'Show Equivalents';
-        if (!showEquivalents) {
-            btn.classList.remove('bg-blue-100', 'dark:bg-blue-900', 'text-blue-900', 'dark:text-blue-100');
-            btn.classList.add('bg-gray-200', 'dark:bg-gray-700', 'text-gray-700', 'dark:text-gray-300');
-        } else {
-            btn.classList.add('bg-blue-100', 'dark:bg-blue-900', 'text-blue-900', 'dark:text-blue-100');
-            btn.classList.remove('bg-gray-200', 'dark:bg-gray-700', 'text-gray-700', 'dark:text-gray-300');
-        }
-        // Re-render current view
-        const activeTab = document.querySelector('[data-brand].ring-2');
-        if (activeTab) {
-            loadAndRender(activeTab.dataset.brand);
-        }
-    });
-
-    // Toggle table/card view
-    document.getElementById('btnToggleView').addEventListener('click', (e) => {
-        tableViewMode = !tableViewMode;
-        const btn = e.target;
-        btn.textContent = tableViewMode ? 'Card View' : 'Table View';
-        if (tableViewMode) {
-            btn.classList.remove('bg-green-100', 'dark:bg-green-900', 'text-green-900', 'dark:text-green-100');
-            btn.classList.add('bg-yellow-100', 'dark:bg-yellow-900', 'text-yellow-900', 'dark:text-yellow-100');
-        } else {
-            btn.classList.remove('bg-yellow-100', 'dark:bg-yellow-900', 'text-yellow-900', 'dark:text-yellow-100');
-            btn.classList.add('bg-green-100', 'dark:bg-green-900', 'text-green-900', 'dark:text-green-100');
-        }
-        // Reset list styling and re-render
-        listEl.className = tableViewMode ? 'space-y-0' : 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 shadow-sm';
+    document.getElementById('chkShowEquivalents').addEventListener('change', (e) => {
+        showEquivalents = e.target.checked;
         // Re-render current view
         const activeTab = document.querySelector('[data-brand].ring-2');
         if (activeTab) {

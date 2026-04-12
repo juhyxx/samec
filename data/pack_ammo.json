@@ -3465,6 +3465,10 @@
         {
           "brand": "MR.COLOR",
           "code": "C31"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36293"
         }
       ],
       "confidence": 0.8598243337552997
@@ -3561,6 +3565,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.325"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34086"
         }
       ],
       "confidence": 0.8399688910102552
@@ -3593,6 +3601,10 @@
         {
           "brand": "MODEL AIR",
           "code": "71.121"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36440"
         }
       ],
       "confidence": 0.7485331617193154
@@ -3601,7 +3613,12 @@
       "code": "MIG-0242",
       "name": "FS 37886",
       "hex": "#f1f3df",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 37886"
+        }
+      ],
       "confidence": 0.8329136118612882
     },
     {

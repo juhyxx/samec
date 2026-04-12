@@ -1,343 +1,420 @@
 #!/usr/bin/env python3
 """
-Parse Mr. Hobby Mr. Color chart images.
-Grid layout: each cell has a number (top-left), color swatch, and name at
-the bottom-left inside the cell.
+Cell detection for Mr. Hobby Mr. Color chart images.
+Detects grid layout and exports preview files for each cell.
 """
 
 from pathlib import Path
-import json
 from PIL import Image
 import numpy as np
-import easyocr
 import cv2
+import easyocr
 import re
+import json
 import csv
-from statistics import mean
-from rich import print
 
 
-def rgb_to_hex(arr):
-    """Convert RGB array to hex color."""
-    return "#{:02x}{:02x}{:02x}".format(int(arr[0]), int(arr[1]), int(arr[2]))
+def find_grid_cells(image_array, cell_width=231, cell_height=162, tolerance=20):
+    """Detect rectangular cells with fixed size (231 x 162).
 
-
-def find_grid_cells(image_array, min_size=40):
-    """Detect rectangular cells in a bordered grid using line projection.
-
-    Returns a list of {x, y, width, height, hex, rgb} dicts sorted row-first.
+    Uses contour detection to find boxes matching the target dimensions.
+    Returns a list of {x, y, width, height} dicts sorted row-first.
     """
     h, w = image_array.shape[:2]
     gray = cv2.cvtColor(image_array, cv2.COLOR_RGB2GRAY)
 
-    # Detect dark border-like edges via Canny
-    edges = cv2.Canny(gray, 60, 150)
+    # Detect edges
+    edges = cv2.Canny(gray, 50, 150)
 
-    # ── Horizontal lines ──────────────────────────────────────────────
-    kernel_h = cv2.getStructuringElement(cv2.MORPH_RECT, (max(1, w // 12), 1))
-    h_lines = cv2.morphologyEx(edges, cv2.MORPH_CLOSE, kernel_h)
-    h_proj = np.sum(h_lines, axis=1).astype(float)
+    # Dilate edges to connect broken lines
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
+    dilated = cv2.dilate(edges, kernel, iterations=2)
 
-    threshold_h = h_proj.max() * 0.25
-    row_ys = []
-    in_line = False
-    group = []
-    for idx, val in enumerate(h_proj):
-        if val >= threshold_h:
-            in_line = True
-            group.append(idx)
-        elif in_line:
-            row_ys.append(int(np.mean(group)))
-            group = []
-            in_line = False
-    if group:
-        row_ys.append(int(np.mean(group)))
+    # Find contours
+    contours, _ = cv2.findContours(dilated, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
-    # ── Vertical lines ────────────────────────────────────────────────
-    kernel_v = cv2.getStructuringElement(cv2.MORPH_RECT, (1, max(1, h // 12)))
-    v_lines = cv2.morphologyEx(edges, cv2.MORPH_CLOSE, kernel_v)
-    v_proj = np.sum(v_lines, axis=0).astype(float)
-
-    threshold_v = v_proj.max() * 0.25
-    col_xs = []
-    in_line = False
-    group = []
-    for idx, val in enumerate(v_proj):
-        if val >= threshold_v:
-            in_line = True
-            group.append(idx)
-        elif in_line:
-            col_xs.append(int(np.mean(group)))
-            group = []
-            in_line = False
-    if group:
-        col_xs.append(int(np.mean(group)))
-
-    # ── Build cells from grid ─────────────────────────────────────────
     cells = []
-    for i in range(len(row_ys) - 1):
-        for j in range(len(col_xs) - 1):
-            x1, y1 = col_xs[j], row_ys[i]
-            x2, y2 = col_xs[j + 1], row_ys[i + 1]
-            cw, ch = x2 - x1, y2 - y1
-            if cw < min_size or ch < min_size:
-                continue
 
-            # Sample color from the upper 55% of the cell (swatch area),
-            # excluding the very top (number box) and outer edges.
-            sy, ey = y1 + 50, y1 + 51
-            sx, ex = x1 + 150, x1 + 151
-            sy, ey = max(0, sy), min(h, ey)
-            sx, ex = max(0, sx), min(w, ex)
-            region = image_array[sy:ey, sx:ex]
-            if region.size == 0:
-                continue
-            avg = region.reshape(-1, 3).mean(axis=0)
+    for contour in contours:
+        # Approximate contour to polygon
+        epsilon = 0.02 * cv2.arcLength(contour, True)
+        approx = cv2.approxPolyDP(contour, epsilon, True)
 
-            cells.append(
-                {
-                    "x": int(x1),
-                    "y": int(y1),
-                    "width": int(cw),
-                    "height": int(ch),
-                    "rgb": [int(avg[0]), int(avg[1]), int(avg[2])],
-                    "hex": rgb_to_hex(avg),
-                }
-            )
+        # Check if it's a rectangle (4 vertices)
+        if len(approx) == 4:
+            x, y, cw, ch = cv2.boundingRect(approx)
+
+            # Check if size matches target (with tolerance)
+            width_match = abs(cw - cell_width) <= tolerance
+            height_match = abs(ch - cell_height) <= tolerance
+
+            if width_match and height_match:
+                cells.append(
+                    {
+                        "x": int(x),
+                        "y": int(y),
+                        "width": int(cw),
+                        "height": int(ch),
+                    }
+                )
 
     return sorted(cells, key=lambda c: (c["y"], c["x"]))
 
 
-def extract_ocr(img_path, reader):
-    """Extract text from image using OCR."""
-    res = reader.readtext(str(img_path))
-    out = []
-    for bbox, text, conf in res:
+def extract_cell_code(image_array, cell, reader):
+    """Extract code number from the black square in the cell [21, 12] with size 44x44."""
+    cell_x = cell["x"]
+    cell_y = cell["y"]
+
+    # Code square position and size within the cell
+    code_x = cell_x + 21
+    code_y = cell_y + 12
+    code_w = 44
+    code_h = 44
+
+    # Crop the code region
+    code_region = image_array[code_y : code_y + code_h, code_x : code_x + code_w]
+
+    # Use OCR to extract text
+    results = reader.readtext(code_region, detail=1)
+
+    code = None
+    for bbox, text, confidence in results:
+        # Clean and parse the text
         text = text.strip()
-        if not text:
-            continue
-        x_coords = [p[0] for p in bbox]
-        y_coords = [p[1] for p in bbox]
-        out.append(
-            {
-                "text": text,
-                "confidence": float(conf),
-                "bbox": {
-                    "x": int(min(x_coords)),
-                    "y": int(min(y_coords)),
-                    "x_end": int(max(x_coords)),
-                    "y_end": int(max(y_coords)),
-                    "width": int(max(x_coords) - min(x_coords)),
-                    "height": int(max(y_coords) - min(y_coords)),
-                },
-            }
+        # Try to extract just the number part
+        match = re.search(r"\d+", text)
+        if match:
+            number = match.group()
+            code = f"C{number}"
+            break
+
+    return code
+
+
+def extract_cell_color(image_array, cell):
+    """Extract color from the color swatch at position [150, 50] in the cell."""
+    cell_x = cell["x"]
+    cell_y = cell["y"]
+
+    # Swatch position within the cell
+    swatch_x = cell_x + 150
+    swatch_y = cell_y + 50
+
+    # Read pixel at that position (R, G, B)
+    pixel = image_array[swatch_y, swatch_x]
+    rgb = pixel[:3]  # Get only RGB, ignore alpha if present
+
+    # Convert to hex
+    hex_color = "#{:02x}{:02x}{:02x}".format(int(rgb[0]), int(rgb[1]), int(rgb[2]))
+
+    return hex_color, rgb
+
+
+def extract_cell_name(image_array, cell, reader, code=None):
+    """Extract color name from the text area at position [10, 112] size 135x51.
+
+    Uses image upscaling (super-resolution) and preprocessing to improve OCR
+    accuracy on condensed fonts. May span two rows.
+
+    For code 351, the name box is shifted 10px to the right.
+    """
+    cell_x = cell["x"]
+    cell_y = cell["y"]
+
+    # Name area position and size within the cell
+    # For code 351, move 10px to the right
+    name_x_offset = 20 if code == "C351" else 10
+    name_x = cell_x + name_x_offset
+    name_y = cell_y + 112
+    name_w = 135  # 15 pixels wider
+    name_h = 51
+
+    # Crop the name region
+    name_region = image_array[name_y : name_y + name_h, name_x : name_x + name_w]
+
+    # Upscale the image 3x to improve OCR accuracy on condensed fonts
+    upscaled = cv2.resize(name_region, None, fx=3, fy=3, interpolation=cv2.INTER_CUBIC)
+
+    # Convert to grayscale for preprocessing
+    gray = cv2.cvtColor(upscaled, cv2.COLOR_RGB2GRAY)
+
+    # Apply contrast enhancement (CLAHE - Contrast Limited Adaptive Histogram Equalization)
+    clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+    enhanced = clahe.apply(gray)
+
+    # Convert back to RGB for OCR
+    enhanced_rgb = cv2.cvtColor(enhanced, cv2.COLOR_GRAY2RGB)
+
+    # Use OCR to extract text from enhanced region
+    results = reader.readtext(enhanced_rgb, detail=1)
+
+    # Collect all text found in the region
+    name_parts = []
+    for bbox, text, confidence in results:
+        text = text.strip()
+        if text:
+            name_parts.append(text)
+
+    # Join all parts (may span two rows)
+    name = " ".join(name_parts) if name_parts else "Unnamed"
+
+    return name
+
+
+def export_cell_previews(image_array, cells, color_data, output_folder, image_name):
+    """Export preview images for each detected cell with parsing regions highlighted.
+
+    Highlights:
+    - Code region (red): [21, 12] size 44x44
+    - Color swatch (blue): [150, 50] - small region around the pixel
+    - Name region (green): [10, 112] size 135x51 ([20, 112] for code C351)
+
+    Args:
+        image_array: The image as numpy array
+        cells: List of detected cell dictionaries
+        color_data: List of color dicts with 'code' and 'name' keys
+        output_folder: Path to save preview images
+        image_name: Stem of the original image filename
+    """
+    output_path = Path(output_folder)
+    output_path.mkdir(parents=True, exist_ok=True)
+
+    for idx, cell in enumerate(cells):
+        x = cell["x"]
+        y = cell["y"]
+        w = cell["width"]
+        h = cell["height"]
+
+        # Crop the cell from the image
+        crop = image_array[y : y + h, x : x + w].copy()
+
+        # Draw parsing regions on the crop
+        # Code region [21, 12] size 44x44 - RED
+        code_x, code_y = 21, 12
+        code_w, code_h = 44, 44
+        cv2.rectangle(
+            crop, (code_x, code_y), (code_x + code_w, code_y + code_h), (0, 0, 255), 2
+        )  # Red
+        cv2.putText(
+            crop,
+            "CODE",
+            (code_x + 5, code_y - 5),
+            cv2.FONT_HERSHEY_SIMPLEX,
+            0.4,
+            (0, 0, 255),
+            1,
         )
-    print(out)
-    return out
 
+        # Color swatch [150, 50] - BLUE (show as small square around pixel)
+        swatch_x, swatch_y = 150, 50
+        swatch_size = 15
+        cv2.rectangle(
+            crop,
+            (swatch_x - swatch_size, swatch_y - swatch_size),
+            (swatch_x + swatch_size, swatch_y + swatch_size),
+            (255, 0, 0),
+            2,
+        )  # Blue
+        cv2.putText(
+            crop,
+            "COLOR",
+            (swatch_x - 20, swatch_y - swatch_size - 5),
+            cv2.FONT_HERSHEY_SIMPLEX,
+            0.4,
+            (255, 0, 0),
+            1,
+        )
 
-def match_numbers_to_cells(text_entries, cells):
-    """Match OCR-detected Mr. Hobby codes with grid cells."""
-    matches = []
-    seen_codes = set()
-
-    for cell in cells:
-        cx, cy = cell["x"], cell["y"]
-        cw, ch = cell["width"], cell["height"]
-
-        # Look for a number in the top-left 40% × 40% of the cell
-        top_entries = [
-            e
-            for e in text_entries
-            if cx <= e["bbox"]["x"] <= cx + cw * 0.50
-            and cy <= e["bbox"]["y"] <= cy + ch * 0.40
-        ]
-
-        best_code = None
-        for e in sorted(top_entries, key=lambda e: e["bbox"]["y"]):
-            t = e["text"].strip()
-            # Plain digits: 1–999
-            m = re.match(r"^\[?(\d{1,3})\]?$", t)
-            if m:
-                best_code = f"C{m.group(1)}"
-                break
-            # Lowercase c-prefix  like "c301" or bracketed "c 301"
-            m = re.match(r"^\[?[cC]\s?(\d{1,3})\]?$", t)
-            if m:
-                best_code = f"C{m.group(1)}"
-                break
-
-        if best_code and best_code not in seen_codes:
-            seen_codes.add(best_code)
-            matches.append(
-                {
-                    "code": best_code,
-                    "hex": cell["hex"],
-                    "rgb": cell["rgb"],
-                    "cell": cell,
-                }
-            )
-
-    return matches
-
-
-def extract_color_names(text_entries, matches):
-    """Extract color names from the bottom portion of each cell."""
-    result = []
-
-    for match in matches:
-        cell = match["cell"]
-        code = match["code"]
-        cx, cy = cell["x"], cell["y"]
-        cw, ch = cell["width"], cell["height"]
-
-        # Name is in the bottom 40% of the cell (below the swatch)
-        name_y_min = cy + ch * 0.58
-        name_y_max = cy + ch * 0.95
-        # Horizontally within the left 85% of the cell
-        name_x_max = cx + cw * 0.85
-
-        name_candidates = []
-        for e in text_entries:
-            tx = e["bbox"]["x"]
-            ty = e["bbox"]["y"]
-            t = e["text"].strip()
-
-            if not (name_y_min <= ty <= name_y_max and cx <= tx <= name_x_max):
-                continue
-            # Skip numbers
-            if re.match(r"^[cC]?\d+$", t):
-                continue
-            # Skip finish/short abbreviation tokens
-            # if t.upper() in _FINISH_TOKENS or len(t) <= 2:
-            #     continue
-            # # Skip cross-reference patterns like "P H44", "A H44", "N44"
-            # if re.match(r"^[ACJNPTS][- ]?[HCSM]?\d", t.upper()):
-            #     continue
-
-            name_candidates.append({"text": t, "y": ty, "conf": e["confidence"]})
-
-        if name_candidates:
-            # Take the topmost entry (closest to top of bottom zone = first name line)
-            name_candidates.sort(key=lambda x: (x["y"], -x["conf"]))
-            name = name_candidates[0]["text"]
+        # Name region [10, 112] size 135x51 - GREEN (20, 112 for code 351)
+        if idx < len(color_data) and color_data[idx].get("code") == "C351":
+            name_x, name_y = 20, 112  # 10px right for C351
         else:
-            name = "Unnamed"
+            name_x, name_y = 10, 112
+        name_w, name_h = 135, 51  # 15 pixels wider
+        cv2.rectangle(
+            crop, (name_x, name_y), (name_x + name_w, name_y + name_h), (0, 255, 0), 2
+        )  # Green
+        cv2.putText(
+            crop,
+            "NAME",
+            (name_x + 5, name_y - 5),
+            cv2.FONT_HERSHEY_SIMPLEX,
+            0.4,
+            (0, 255, 0),
+            1,
+        )
 
-        result.append({"code": code, "name": name, "hex": match["hex"]})
+        # Convert to PIL and save with color code only
+        crop_img = Image.fromarray(crop)
 
-    return result
+        # Create filename from color code only
+        if idx < len(color_data):
+            color_info = color_data[idx]
+            code = color_info.get("code", f"C{idx}").replace("/", "_").replace(" ", "_")
+            filename = output_path / f"{code}.png"
+        else:
+            filename = output_path / f"{image_name}_cell_{idx:04d}.png"
 
+        crop_img.save(filename)
 
-def normalize_color_name(name):
-    if name and re.fullmatch(r"[A-Z]{1,3}", name):
-        return "Unnamed"
-    return name or "Unnamed"
-
-
-def finalize_colors(colors):
-    return [
-        {
-            "code": color.get("code", ""),
-            "name": normalize_color_name(color.get("name", "")),
-            "hex": color.get("hex", "#cccccc"),
-        }
-        for color in colors
-    ]
+    return len(cells)
 
 
-def parse_mr_hobby_images(folder_path, output_json):
-    """Parse all Mr. Hobby images in folder."""
-    folder = Path(folder_path)
+def extract_equivalents_from_name(name):
+    """Extract standard codes from color name (FS, RAL, RLM, BS)."""
+    if not name:
+        return []
+    equivs = []
+    text = name.upper()
 
-    reader = easyocr.Reader(["en"], gpu=False)
-    all_colors = []
+    # FS codes (Federal Standard)
+    for m in re.finditer(r"FS[-\s]?(\d{5})", text):
+        code = f"FS {m.group(1)}"
+        equivs.append({"brand": "Federal Standard", "code": code})
 
-    for img_path in sorted(folder.glob("*.png")):
-        print(f"\n{'='*70}")
-        print(f"Processing {img_path.name}...")
-        print(f"{'='*70}")
+    # RAL codes
+    for m in re.finditer(r"RAL[-\s]?(\d{4})", text):
+        code = f"RAL {m.group(1)}"
+        equivs.append({"brand": "RAL", "code": code})
 
-        with Image.open(img_path) as im:
-            img_rgb = np.array(im.convert("RGB"))
+    # RLM codes
+    for m in re.finditer(r"RLM[-\s]?(\d{2,3})", text):
+        code = f"RLM {m.group(1)}"
+        equivs.append({"brand": "RLM", "code": code})
 
-        cells = find_grid_cells(img_rgb)
-        print(f"✓ Detected {len(cells)} grid cells")
+    # BS codes (British Standard)
+    for m in re.finditer(r"BS[-\s]?(\d{3}C?(?:/\d{3})?)", text):
+        code = f"BS {m.group(1)}"
+        equivs.append({"brand": "British Standard", "code": code})
 
-        text_entries = extract_ocr(img_path, reader)
-        print(f"✓ OCR: {len(text_entries)} text entries")
+    return equivs
 
-        matches = match_numbers_to_cells(text_entries, cells)
-        print(f"✓ Matched {len(matches)} codes to cells")
 
-        colors = extract_color_names(text_entries, matches)
+def export_pack_files(colors, output_folder="data"):
+    """Export colors to JSON and CSV pack files."""
+    output_path = Path(output_folder)
+    output_path.mkdir(parents=True, exist_ok=True)
 
-        # Print detailed color detection results
-        print(f"\n{'Cell #':<8} {'Code':<8} {'Hex Color':<12} {'Color Name':<30}")
-        print(f"{'-'*8} {'-'*8} {'-'*12} {'-'*30}")
-        for idx, color in enumerate(colors, 1):
-            code = color.get("code", "")
-            hex_color = color.get("hex", "#cccccc")
-            name = color.get("name", "Unnamed")
-            print(f"{idx:<8} {code:<8} {hex_color:<12} {name:<30}")
-
-        all_colors.extend(colors)
-        print(f"\n✓ Extracted {len(colors)} colors from {img_path.name}")
-
-    all_colors = finalize_colors(all_colors)
-
-    # Print final summary
-    print(f"\n{'='*70}")
-    print(f"FINAL SUMMARY: {len(all_colors)} total colors parsed")
-    print(f"{'='*70}\n")
-    print(f"{'#':<6} {'Code':<8} {'Hex Color':<12} {'Color Name':<30}")
-    print(f"{'-'*6} {'-'*8} {'-'*12} {'-'*30}")
-    for idx, c in enumerate(all_colors, 1):
-        code = c.get("code", "")
-        name = c.get("name", "")
-        hex_color = c.get("hex", "#cccccc")
-        print(f"{idx:<6} {code:<8} {hex_color:<12} {name:<30}")
-    print()
-
-    formatted = {
+    # Extract equivalents from color names (FS, RAL, RLM codes)
+    # Export JSON
+    json_file = output_path / "pack_mr_hobby.json"
+    formatted_json = {
         "brand": "Mr. Hobby",
         "brand_id": "mr_hobby",
         "source": "data/pack_mr_hobby.json",
-        "count": len(all_colors),
+        "count": len(colors),
         "colors": [
             {
-                "code": c.get("code", ""),
-                "name": normalize_color_name(c.get("name", "")),
-                "hex": c.get("hex", "#cccccc"),
-                "equivalents": [],
+                "code": c["code"],
+                "name": c["name"],
+                "hex": c["hex"],
+                "equivalents": c.get("equivalents", []),
                 "confidence": None,
             }
-            for c in all_colors
+            for c in colors
         ],
     }
+    json_file.write_text(json.dumps(formatted_json, indent=2, ensure_ascii=False))
+    print(f"✓ Exported {len(colors)} colors to {json_file}")
 
-    output_json = Path(output_json)
-    output_json.parent.mkdir(parents=True, exist_ok=True)
-    output_json.write_text(json.dumps(formatted, indent=2, ensure_ascii=False))
-    print(f"Wrote {len(all_colors)} colors to {output_json}")
-
-    csv_path = output_json.parent / "pack_mr_hobby.csv"
-    with csv_path.open("w", newline="") as fh:
+    # Export CSV
+    csv_file = output_path / "pack_mr_hobby.csv"
+    with csv_file.open("w", newline="") as fh:
         writer = csv.DictWriter(fh, fieldnames=["code", "name", "hex"])
         writer.writeheader()
-        for c in all_colors:
-            writer.writerow(
-                {
-                    "code": c.get("code", ""),
-                    "name": normalize_color_name(c.get("name", "")),
-                    "hex": c.get("hex", ""),
-                }
+        for c in colors:
+            writer.writerow({"code": c["code"], "name": c["name"], "hex": c["hex"]})
+    print(f"✓ Exported {len(colors)} colors to {csv_file}")
+
+
+def process_mr_hobby_images(folder_path, output_folder_or_file):
+    """Process all Mr. Hobby images: detect cells, extract codes, and export previews and pack files.
+
+    Returns a list of color dictionaries with code, name, and hex.
+    """
+    folder = Path(folder_path)
+    output_path = Path(output_folder_or_file)
+
+    # If output is a .json file, use its parent directory for previews
+    if output_path.suffix == ".json":
+        preview_folder = output_path.parent
+    else:
+        preview_folder = output_path
+
+    print(f"\nProcessing Mr. Hobby images from: {folder}")
+    print(f"Exporting previews to: {preview_folder}")
+    print(f"{'='*70}\n")
+
+    # Initialize OCR reader
+    reader = easyocr.Reader(["en"], gpu=False)
+
+    total_cells = 0
+    all_colors = []  # Collect all colors for pack file
+
+    for img_path in sorted(folder.glob("*.png")):
+        print(f"Processing {img_path.name}...")
+
+        # Load image
+        with Image.open(img_path) as im:
+            img_rgb = np.array(im.convert("RGB"))
+
+        # Detect cells
+        cells = find_grid_cells(img_rgb)
+        print(f"  ✓ Detected {len(cells)} cells\n")
+
+        # Extract all color data first (for preview naming)
+        cell_colors = []
+        for idx, cell in enumerate(cells):
+            code = extract_cell_code(img_rgb, cell, reader)
+            hex_color, rgb = extract_cell_color(img_rgb, cell)
+            name = extract_cell_name(img_rgb, cell, reader, code)
+            code_str = code if code else "N/A"
+            print(
+                f"  {idx:<5} {code_str:<8} {hex_color:<10} {name:<30} {cell['x']:<6} {cell['y']:<6}"
             )
-    print(f"Wrote CSV to {csv_path}")
+
+            # Collect color data for pack file and preview naming
+            if code:
+                color_dict = {
+                    "code": code,
+                    "name": name,
+                    "hex": hex_color,
+                    "equivalents": extract_equivalents_from_name(name),
+                }
+                all_colors.append(color_dict)
+                cell_colors.append(color_dict)
+            else:
+                cell_colors.append(
+                    {
+                        "code": "N/A",
+                        "name": name,
+                        "hex": hex_color,
+                    }
+                )
+        print()
+
+        # Export previews
+        num_exported = export_cell_previews(
+            img_rgb, cells, cell_colors, preview_folder, img_path.stem
+        )
+        print(f"  ✓ Exported {num_exported} preview files\n")
+
+        total_cells += len(cells)
+
+    # Export pack files (JSON and CSV) to data folder
+    print(f"\n{'='*70}")
+    export_pack_files(all_colors, output_path.parent)
+    print(f"{'='*70}\n")
+
+    print(f"TOTAL: {total_cells} cells detected and previewed")
+    print()
+
+    # Return colors for pipeline processing
     return all_colors
 
 
 if __name__ == "__main__":
     source_folder = Path("source/mr_hobby")
-    output = Path("data/pack_mr_hobby.json")
-    parse_mr_hobby_images(source_folder, output)
+    output_folder = Path("data/mr_hobby_previews")
+    colors = process_mr_hobby_images(source_folder, output_folder)

@@ -1,0 +1,9 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+	<!-- AK Interactive - Orange with stylized AK -->
+	<rect width="100" height="100" fill="#E95A0E" />
+	<g transform="translate(50, 50)">
+		<rect x="-8" y="-15" width="16" height="30" fill="#fff" rx="2" />
+		<polygon points="-12,-10 12,-10 15,-5 -15,-5" fill="#fff" />
+		<circle cx="-8" cy="8" r="4" fill="#fff" />
+	</g>
+</svg>

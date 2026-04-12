@@ -39,7 +39,7 @@ def load_module(module_name, file_path):
 parse_mr_hobby = load_module(
     "parse_mr_hobby", SCRIPT_DIR / "source/mr_hobby/__main__.py"
 )
-parse_mr_hobby_images = parse_mr_hobby.parse_mr_hobby_images
+parse_mr_hobby_images = parse_mr_hobby.process_mr_hobby_images
 
 parse_ammo = load_module("parse_ammo", SCRIPT_DIR / "source/ammo/__main__.py")
 parse_ammo_images = parse_ammo.parse_ammo_images

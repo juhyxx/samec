@@ -1,0 +1,9 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+	<!-- My Stack - Pink with stacked boxes -->
+	<rect width="100" height="100" fill="#ec4899" />
+	<g transform="translate(50, 50)">
+		<rect x="-15" y="-18" width="30" height="12" fill="#fff" stroke="#ec4899" stroke-width="2" />
+		<rect x="-15" y="-4" width="30" height="12" fill="#fff" stroke="#ec4899" stroke-width="2" />
+		<rect x="-15" y="10" width="30" height="12" fill="#fff" stroke="#ec4899" stroke-width="2" />
+	</g>
+</svg>

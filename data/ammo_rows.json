@@ -4056,6 +4056,10 @@
       {
         "brand": "MR.COLOR",
         "code": "C31"
+      },
+      {
+        "brand": "Federal Standard",
+        "code": "FS 36293"
       }
     ],
     "hex": "#717879",
@@ -4164,6 +4168,10 @@
       {
         "brand": "MODEL AIR",
         "code": "71.325"
+      },
+      {
+        "brand": "Federal Standard",
+        "code": "FS 34086"
       }
     ],
     "hex": "#242613",
@@ -4199,6 +4207,10 @@
       {
         "brand": "MODEL AIR",
         "code": "71.121"
+      },
+      {
+        "brand": "Federal Standard",
+        "code": "FS 36440"
       }
     ],
     "hex": "#93928b",
@@ -4210,7 +4222,12 @@
     "reference": "MIG-0242",
     "name": "FS 37886",
     "definition": null,
-    "equivalents": [],
+    "equivalents": [
+      {
+        "brand": "Federal Standard",
+        "code": "FS 37886"
+      }
+    ],
     "hex": "#f1f3df",
     "confidence": 0.8329136118612882
   },
