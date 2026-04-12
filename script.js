@@ -7,9 +7,9 @@ let showEquivalents = true;  // Default: show equivalents
 const BRANDS = [
     { id: 'my-stack', label: 'My Stack' },
     { id: 'ammo', label: 'Ammo by Mig' },
-    { id: 'ammo_atom', label: 'ATOM (Ammo)' },
+    { id: 'ammo_atom', label: 'ATOM' },
     { id: 'ak', label: 'AK Interactive' },
-    { id: 'gunze', label: 'Aqueous Hobby color' },
+    { id: 'gunze', label: 'Hobby color' },
     { id: 'mr_hobby', label: 'Mr. Color' },
     { id: 'vallejo', label: 'Vallejo' },
     { id: 'tamiya', label: 'Tamiya' },
