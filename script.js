@@ -11,10 +11,10 @@ const BRANDS = [
     { id: 'ak', label: 'AK Interactive' },
     { id: 'gunze', label: 'Aqueous Hobby color' },
     { id: 'mr_hobby', label: 'Mr. Color' },
-    { id: 'tamiya', label: 'Tamiya' },
-    { id: 'rlm', label: 'RLM' },
-    { id: 'humbrol', label: 'Humbrol' },
     { id: 'vallejo', label: 'Vallejo' },
+    { id: 'tamiya', label: 'Tamiya' },
+    { id: 'humbrol', label: 'Humbrol' },
+    { id: 'rlm', label: 'RLM' },
 ];
 
 // Map brand display names to colors (used for equivalent badges and button backgrounds)
@@ -29,7 +29,7 @@ const BRAND_BADGE_COLORS = {
     "RAL": '#A6192E',
     "RLM": '#5C6B3A',
     "Humbrol": '#003087',
-    "Vallejo": '#003d99',
+    "Vallejo": '#05E2E1',
     "Vallejo Model Air": '#05E2E1',
     "Vallejo Model Color": '#05E2E1',
 };
@@ -44,15 +44,15 @@ const BRAND_LOGO_COLORS = {
     'tamiya': '#004B87',
     'mr_hobby': '#045AAA',
     'rlm': '#5C6B3A',
-    'humbrol': '#003087',
-    'vallejo': '#003d99',
+    'humbrol': '#F04A40',
+    'vallejo': '#05E2E1',
 };
 
 // Map brand IDs to logo filenames (for special cases)
 const BRAND_LOGO_FILES = {
     'ammo_atom': 'ammo',  // ammo_atom uses ammo logo
     'mr_hobby': 'mrhobby',  // mr_hobby PNG is named mrhobby.png
-    "gunze": "mr_hobby", // gunze uses mr_hobby logo
+    "gunze": "mrhobby", // gunze uses mr_hobby logo
 };
 
 // Map brand IDs to display names
@@ -137,15 +137,15 @@ function createColorCardTemplate(brand, color, inStackMap, reverseEquivalentInde
     div.className = `${bgClass} p-0 rounded-xl shadow-sm flex justify-between text-xl overflow-hidden`;
     div.innerHTML = `
         <div class="w-12 shadow-sm flex-shrink-0" style="background-color: ${hex}; box-shadow: 0 2px 6px rgba(0,0,0,0.12)"></div>
-        <div class="flex items-center gap-2 flex-1 p-2">
+        <div class="flex items-center gap-2 flex-1 p-2 justify-start">
             <div class="flex-1 min-w-0">
                 <div class="font-semibold text-xl truncate mb-0">${escapeHtml(color.code)}</div>
                 <div class="font-semibold text-xs truncate mb-2">${escapeHtml(color.name || '')}</div>
                 <div class="text-xs text-gray-500 dark:text-gray-400"></div>
                 <div class="equivalents text-xs text-gray-500 dark:text-gray-400${showEquivalents ? '' : ' hidden'}"></div>
                 <div class="secondary-equivalents text-xs text-gray-500 dark:text-gray-400${showEquivalents ? '' : ' hidden'}"></div>
+                <button class="stack-btn px-2 py-0.5 rounded border text-xs whitespace-nowrap ${colorInStack ? 'bg-yellow-100 dark:bg-yellow-800 border-yellow-300 dark:border-yellow-600' : 'border-gray-300 dark:border-gray-600'}">${colorInStack ? '✓ Remove' : 'Add'}</button>
             </div>
-            <button class="stack-btn px-2 py-0.5 rounded border text-xs whitespace-nowrap ${colorInStack ? 'bg-yellow-100 dark:bg-yellow-800 border-yellow-300 dark:border-yellow-600' : 'border-gray-300 dark:border-gray-600'}">${colorInStack ? '✓ Remove' : 'Add'}</button>
         </div>
     `;
 
@@ -520,7 +520,7 @@ function createTabs() {
         const btn = document.createElement('div');
 
         btn.dataset.brand = b.id;
-        btn.className = 'flex flex-col cursor-pointer rounded border text-xs bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-100  items-stretch gap-1 w-20';
+        btn.className = 'flex flex-col cursor-pointer overflow-hidden rounded border text-xs bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-100  items-stretch gap-1 w-20';
 
         // Add logo
         const logo = document.createElement('img');
@@ -529,7 +529,7 @@ function createTabs() {
         // Try PNG first, then SVG as fallback
         logo.src = `./logos/${logoFile}.png`;
         logo.alt = b.label;
-        logo.className = 'w-10 h-10 rounded object-contain m-2 self-center';
+        logo.className = 'w-full p-1 h-10 rounded object-contain m-2 self-center';
         logo.onerror = () => {
             // Fallback to SVG if PNG not found
             if (logo.src.endsWith('.png')) {
@@ -642,49 +642,15 @@ async function loadAndRender(brand) {
             listEl.appendChild(row);
         });
 
-        // Display equivalents for the brand
-        displayEquivalents(colors);
+
     } catch (e) {
         console.error(e);
         listEl.innerHTML = '<div class="text-red-500 dark:text-red-400">Unable to load data.</div>';
     }
 }
 
-function displayEquivalents(colors) {
-    // Display all unique equivalent brands found in the color data.
-    const equivalentBrands = new Set();
 
-    colors.forEach(color => {
-        (color.equivalents || []).forEach(eq => {
-            equivalentBrands.add(eq.brand);
-        });
-    });
 
-    const container = document.getElementById('equivalentsContainer');
-    const list = document.getElementById('equivalentsList');
-
-    if (equivalentBrands.size > 0) {
-        list.innerHTML = '';
-        const brands = Array.from(equivalentBrands).sort();
-        brands.forEach(brand => {
-            const badge = document.createElement('div');
-            badge.className = 'px-3 py-1 rounded text-xs font-medium text-white';
-            badge.textContent = brand;
-            const color = BRAND_BADGE_COLORS[brand] || '#666666';
-            badge.style.backgroundColor = color;
-            list.appendChild(badge);
-        });
-        container.classList.remove('hidden');
-    } else {
-        hideEquivalents();
-    }
-}
-
-function hideEquivalents() {
-    // Hide the equivalents display section.
-    const container = document.getElementById('equivalentsContainer');
-    container.classList.add('hidden');
-}
 
 function renderTableView(colors, brand, inStack, reverseEquivalentIndex) {
     // Table view removed - all colors now rendered in card view
@@ -772,7 +738,10 @@ function saveStackToFile() {
     URL.revokeObjectURL(url);
 }
 
-function loadStackFromFile(file) {
+async function loadStackFromFile(file) {
+    // Ensure all packs are loaded before searching for colors
+    await Promise.all(BRANDS.map(b => loadPack(b.id).catch(() => null)));
+
     const reader = new FileReader();
     reader.onload = e => {
         const lines = e.target.result.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
@@ -792,8 +761,9 @@ function loadStackFromFile(file) {
                 // Format: just code - search across all brands
                 code = line;
                 // Find which brand(s) have this code
+                const normalizedInputCode = normalizeEquivalentCode(code);
                 for (const [bId, color] of colorLookup) {
-                    if (color.code.toUpperCase() === code.toUpperCase()) {
+                    if (normalizeEquivalentCode(color.code) === normalizedInputCode) {
                         brandId = color.brandId;
                         break;
                     }
@@ -894,10 +864,10 @@ async function renderStackViewFullScreen() {
     fileInput.id = 'stackFileInput';
     fileInput.accept = '.txt';
     fileInput.className = 'hidden';
-    fileInput.addEventListener('change', (e) => {
+    fileInput.addEventListener('change', async (e) => {
         const file = e.target.files[0];
         if (file) {
-            loadStackFromFile(file);
+            await loadStackFromFile(file);
             e.target.value = '';
         }
     });
