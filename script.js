@@ -9,20 +9,20 @@ const BRANDS = [
     { id: 'ammo', label: 'Ammo by Mig' },
     { id: 'ammo_atom', label: 'ATOM (Ammo)' },
     { id: 'ak', label: 'AK Interactive' },
-    { id: 'gunze', label: 'Aqueous Hobby color (Gunze)' },
+    { id: 'gunze', label: 'Aqueous Hobby color' },
+    { id: 'mr_hobby', label: 'Mr. Color' },
     { id: 'tamiya', label: 'Tamiya' },
-    { id: 'mr_hobby', label: 'Mr.Color (Gunze)' },
     { id: 'rlm', label: 'RLM' },
     { id: 'humbrol', label: 'Humbrol' },
     { id: 'vallejo', label: 'Vallejo' },
 ];
 
-// Map brand display names to colors (used only for equivalent badges)
+// Map brand display names to colors (used for equivalent badges and button backgrounds)
 const BRAND_BADGE_COLORS = {
     'Ammo by Mig': '#FECC02',
-    'Mr.Color (Gunze)': '#045AAA',
+    'Mr. Color': '#045AAA',
     'AK Interactive': '#E95A0E',
-    'Aqueous Hobby color (Gunze)': '#009DA5',
+    'Aqueous Hobby color': '#009DA5',
     'ATOM (Ammo)': '#0075C1',
     "Federal Standard": '#A6192E',
     "Tamiya": '#004B87',
@@ -51,6 +51,8 @@ const BRAND_LOGO_COLORS = {
 // Map brand IDs to logo filenames (for special cases)
 const BRAND_LOGO_FILES = {
     'ammo_atom': 'ammo',  // ammo_atom uses ammo logo
+    'mr_hobby': 'mrhobby',  // mr_hobby PNG is named mrhobby.png
+    "gunze": "mr_hobby", // gunze uses mr_hobby logo
 };
 
 // Map brand IDs to display names
@@ -58,10 +60,10 @@ const BRAND_NAME_MAP = {
     'ammo': 'Ammo by Mig',
     'ammo_atom': 'ATOM (Ammo)',
     'ak': 'AK Interactive',
-    'gunze': 'Aqueous Hobby color (Gunze)',
+    'gunze': 'Aqueous Hobby color',
     'federal_standard': 'Federal Standard',
     'tamiya': 'Tamiya',
-    'mr_hobby': 'Mr.Color (Gunze)',
+    'mr_hobby': 'Mr. Color',
     'ral': 'RAL',
     'rlm': 'RLM',
     'humbrol': 'Humbrol',
@@ -71,8 +73,8 @@ const BRAND_NAME_MAP = {
 };
 
 const EQUIVALENT_BRAND_MAP = {
-    'HOBBY COLOR': 'Aqueous Hobby color (Gunze)',
-    'MR.COLOR': 'Mr.Color (Gunze)',
+    'HOBBY COLOR': 'Aqueous Hobby color ',
+    'MR.COLOR': 'Mr.Color ',
     'TAMIYA': 'Tamiya',
     'RAL': 'RAL',
     'FEDERAL STANDARD': 'Federal Standard',
@@ -80,7 +82,7 @@ const EQUIVALENT_BRAND_MAP = {
     'MODEL AIR': 'Vallejo Model Air',
     'MODEL COLOR': 'Vallejo Model Color',
     'AK INTERACTIVE': 'AK Interactive',
-    'GUNZE SANGYO': 'Aqueous Hobby color (Gunze)',
+    'GUNZE SANGYO': 'Aqueous Hobby color ',
     'AMMO BY MIG': 'Ammo by Mig',
     'AMMO BY MIG ATOM': 'ATOM (Ammo)',
 };
@@ -97,10 +99,42 @@ function createColorCardTemplate(brand, color, inStackMap, reverseEquivalentInde
     const normalizedCode = normalizeEquivalentCode(color.code);
     const id = `${brand}:${normalizedCode}`;
     const hex = color.hex && String(color.hex).startsWith('#') ? color.hex : `#${color.hex || 'cccccc'}`;
-    const checked = !!inStackMap[id];
+
+    // Check if color itself is in stack
+    const colorInStack = !!inStackMap[id];
+
+    // Check if any equivalent of this color is in the stack
+    let equivalentInStack = false;
+    const primaryEquivalents = Array.isArray(color.equivalents) ? color.equivalents : [];
+    for (const eq of primaryEquivalents) {
+        const eqBrandId = normalizeBrandId(eq.brand);
+        const eqCode = normalizeEquivalentCode(eq.code);
+        if (isColorInStack(eqBrandId, eqCode)) {
+            equivalentInStack = true;
+            break;
+        }
+    }
+
+    // Also check reverse equivalents (colors from other brands that reference this color)
+    if (!equivalentInStack) {
+        const secondaryEquivalents = reverseEquivalentIndex.get(getColorKey(brand, color.code)) || [];
+        for (const eq of secondaryEquivalents) {
+            const eqBrandId = normalizeBrandId(eq.brand);
+            const eqCode = normalizeEquivalentCode(eq.code);
+            if (isColorInStack(eqBrandId, eqCode)) {
+                equivalentInStack = true;
+                break;
+            }
+        }
+    }
+
+    // Highlight if color OR any of its equivalents are in stack
+    const checked = colorInStack || equivalentInStack;
 
     const div = document.createElement('div');
-    div.className = 'bg-white dark:bg-gray-800 p-0 rounded-xl shadow-sm flex justify-between text-xl overflow-hidden';
+    // Add highlight background when color or its equivalents are in stack
+    const bgClass = checked ? 'bg-yellow-100 dark:bg-yellow-900' : 'bg-white dark:bg-gray-800';
+    div.className = `${bgClass} p-0 rounded-xl shadow-sm flex justify-between text-xl overflow-hidden`;
     div.innerHTML = `
         <div class="w-12 shadow-sm flex-shrink-0" style="background-color: ${hex}; box-shadow: 0 2px 6px rgba(0,0,0,0.12)"></div>
         <div class="flex items-center gap-2 flex-1 p-2">
@@ -111,7 +145,7 @@ function createColorCardTemplate(brand, color, inStackMap, reverseEquivalentInde
                 <div class="equivalents text-xs text-gray-500 dark:text-gray-400${showEquivalents ? '' : ' hidden'}"></div>
                 <div class="secondary-equivalents text-xs text-gray-500 dark:text-gray-400${showEquivalents ? '' : ' hidden'}"></div>
             </div>
-            <button class="stack-btn px-2 py-0.5 rounded border text-xs whitespace-nowrap ${checked ? 'bg-green-100 dark:bg-green-900' : ''}">${checked ? 'In' : 'Add'}</button>
+            <button class="stack-btn px-2 py-0.5 rounded border text-xs whitespace-nowrap ${colorInStack ? 'bg-yellow-100 dark:bg-yellow-800 border-yellow-300 dark:border-yellow-600' : 'border-gray-300 dark:border-gray-600'}">${colorInStack ? '✓ Remove' : 'Add'}</button>
         </div>
     `;
 
@@ -121,7 +155,6 @@ function createColorCardTemplate(brand, color, inStackMap, reverseEquivalentInde
 
     const primaryEqEl = div.querySelector('.equivalents');
     const secondaryEqEl = div.querySelector('.secondary-equivalents');
-    const primaryEquivalents = Array.isArray(color.equivalents) ? color.equivalents : [];
     const secondaryEquivalents = reverseEquivalentIndex.get(getColorKey(brand, color.code)) || [];
 
     renderEquivalentSection(primaryEqEl, 'Direct Equivalents', primaryEquivalents, 'primary');
@@ -202,14 +235,29 @@ function escapeHtml(text) {
  * Toggle a color in the stack
  */
 function toggleColorInStack(brand, id, btn, inStackMap) {
+    // Get the main card container (has rounded-xl shadow-sm bg-white/dark:bg-gray-800)
+    const mainCard = btn.closest('.rounded-xl.shadow-sm');
+
     if (inStackMap[id]) {
         delete inStackMap[id];
         btn.textContent = 'Add';
-        btn.classList.remove('bg-green-100', 'dark:bg-green-900');
+        btn.classList.remove('bg-yellow-100', 'dark:bg-yellow-800', 'border-yellow-300', 'dark:border-yellow-600');
+        btn.classList.add('border-gray-300', 'dark:border-gray-600');
+        // Remove highlight from card
+        if (mainCard) {
+            mainCard.classList.remove('bg-yellow-100', 'dark:bg-yellow-900');
+            mainCard.classList.add('bg-white', 'dark:bg-gray-800');
+        }
     } else {
         inStackMap[id] = true;
-        btn.textContent = 'In';
-        btn.classList.add('bg-green-100', 'dark:bg-green-900');
+        btn.textContent = '✓ Remove';
+        btn.classList.remove('border-gray-300', 'dark:border-gray-600');
+        btn.classList.add('bg-yellow-100', 'dark:bg-yellow-800', 'border-yellow-300', 'dark:border-yellow-600');
+        // Add highlight to card
+        if (mainCard) {
+            mainCard.classList.remove('bg-white', 'dark:bg-gray-800');
+            mainCard.classList.add('bg-yellow-100', 'dark:bg-yellow-900');
+        }
     }
     saveInStack(brand, inStackMap);
     renderStackPanel();
@@ -247,6 +295,51 @@ function updateEquivalentBadges() {
             if (badge.textContent.includes('✓')) {
                 badge.textContent = badge.textContent.replace(/\s✓\s*$/, '').trim();
             }
+        }
+    });
+
+    // Also update card backgrounds for colors with equivalents in stash
+    updateCardHighlights();
+}
+
+/**
+ * Update card background highlights based on current stash state
+ */
+function updateCardHighlights() {
+    const cards = document.querySelectorAll('.rounded-xl.shadow-sm');
+    cards.forEach(card => {
+        const btn = card.querySelector('.stack-btn');
+        if (!btn || !btn.dataset.colorId) return;
+
+        const [brand, code] = btn.dataset.colorId.split(':');
+
+        // Check if this card's color is in stack
+        const colorInStack = isColorInStack(brand, code);
+
+        // Check if any equivalent is in stack (need to get card data from lookup)
+        const cardColor = colorLookup.get(btn.dataset.colorId);
+        let equivalentInStack = false;
+        if (cardColor) {
+            // Get all colors in the current list that match this one
+            // For now, we need to check the displayed equivalents
+            const eqBadges = card.querySelectorAll('[data-eq-brand][data-eq-code]');
+            for (const badge of eqBadges) {
+                const eqBrand = badge.dataset.eqBrand;
+                const eqCode = badge.dataset.eqCode;
+                if (isColorInStack(eqBrand, eqCode)) {
+                    equivalentInStack = true;
+                    break;
+                }
+            }
+        }
+
+        const shouldHighlight = colorInStack || equivalentInStack;
+        if (shouldHighlight) {
+            card.classList.remove('bg-white', 'dark:bg-gray-800');
+            card.classList.add('bg-yellow-100', 'dark:bg-yellow-900');
+        } else {
+            card.classList.remove('bg-yellow-100', 'dark:bg-yellow-900');
+            card.classList.add('bg-white', 'dark:bg-gray-800');
         }
     });
 }
@@ -406,7 +499,7 @@ async function getReverseEquivalentIndex() {
                         }
 
                         index.get(targetKey).push({
-                            brand: getEquivalentDisplayName(sourceBrand),
+                            brand: sourceBrand,
                             code: color.code,
                             name: color.name,
                         });
@@ -424,10 +517,10 @@ async function getReverseEquivalentIndex() {
 function createTabs() {
     brandTabs.innerHTML = '';
     BRANDS.forEach((b, idx) => {
-        const btn = document.createElement('button');
-        btn.type = 'button';
+        const btn = document.createElement('div');
+
         btn.dataset.brand = b.id;
-        btn.className = 'px-2 py-2 rounded border text-xs bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-100 flex flex-col items-center gap-1 w-20';
+        btn.className = 'flex flex-col cursor-pointer rounded border text-xs bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-100  items-stretch gap-1 w-20';
 
         // Add logo
         const logo = document.createElement('img');
@@ -436,7 +529,7 @@ function createTabs() {
         // Try PNG first, then SVG as fallback
         logo.src = `./logos/${logoFile}.png`;
         logo.alt = b.label;
-        logo.className = 'w-10 h-10 rounded object-contain';
+        logo.className = 'w-10 h-10 rounded object-contain m-2 self-center';
         logo.onerror = () => {
             // Fallback to SVG if PNG not found
             if (logo.src.endsWith('.png')) {
@@ -447,10 +540,12 @@ function createTabs() {
         };
         btn.appendChild(logo);
 
-        // Add label
+        // Add label with brand color background
         const label = document.createElement('span');
         label.textContent = b.label;
-        label.className = 'text-center leading-tight';
+        label.className = 'text-center flex-1 leading-tight py-1  text-white text-xs font-semibold';
+        const brandColor = BRAND_LOGO_COLORS[b.id] || '#666666';
+        label.style.backgroundColor = brandColor;
         btn.appendChild(label);
 
         btn.addEventListener('click', () => {
@@ -521,6 +616,7 @@ async function loadAndRender(brand) {
     // Handle My Stack tab
     if (brand === 'my-stack') {
         await renderStackViewFullScreen();
+        hideEquivalents();
         return;
     }
 
@@ -545,10 +641,49 @@ async function loadAndRender(brand) {
             const row = renderRow(brand, c, inStack, displayBrand, reverseEquivalentIndex);
             listEl.appendChild(row);
         });
+
+        // Display equivalents for the brand
+        displayEquivalents(colors);
     } catch (e) {
         console.error(e);
         listEl.innerHTML = '<div class="text-red-500 dark:text-red-400">Unable to load data.</div>';
     }
+}
+
+function displayEquivalents(colors) {
+    // Display all unique equivalent brands found in the color data.
+    const equivalentBrands = new Set();
+
+    colors.forEach(color => {
+        (color.equivalents || []).forEach(eq => {
+            equivalentBrands.add(eq.brand);
+        });
+    });
+
+    const container = document.getElementById('equivalentsContainer');
+    const list = document.getElementById('equivalentsList');
+
+    if (equivalentBrands.size > 0) {
+        list.innerHTML = '';
+        const brands = Array.from(equivalentBrands).sort();
+        brands.forEach(brand => {
+            const badge = document.createElement('div');
+            badge.className = 'px-3 py-1 rounded text-xs font-medium text-white';
+            badge.textContent = brand;
+            const color = BRAND_BADGE_COLORS[brand] || '#666666';
+            badge.style.backgroundColor = color;
+            list.appendChild(badge);
+        });
+        container.classList.remove('hidden');
+    } else {
+        hideEquivalents();
+    }
+}
+
+function hideEquivalents() {
+    // Hide the equivalents display section.
+    const container = document.getElementById('equivalentsContainer');
+    container.classList.add('hidden');
 }
 
 function renderTableView(colors, brand, inStack, reverseEquivalentIndex) {
@@ -732,17 +867,6 @@ async function renderStackViewFullScreen() {
     listEl.className = '';  // Clear grid styling
     listEl.innerHTML = '';
 
-    if (!items.length) {
-        listEl.className = 'flex items-center justify-center min-h-96';
-        listEl.innerHTML = `
-            <div class="text-center">
-                <div class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-4">Your Stack is Empty</div>
-                <p class="text-gray-500 dark:text-gray-400 mb-6">Add colors to your stack using the <strong>Add</strong> button on color cards.</p>
-            </div>
-        `;
-        return;
-    }
-
     // Create wrapper for stack items
     const wrapper = document.createElement('div');
     wrapper.className = 'w-full';
@@ -751,13 +875,17 @@ async function renderStackViewFullScreen() {
     const buttonContainer = document.createElement('div');
     buttonContainer.className = 'flex gap-2 mb-4';
 
-    const saveBtn = document.createElement('button');
-    saveBtn.id = 'btnSaveStack';
-    saveBtn.textContent = 'Save to file';
-    saveBtn.className = 'px-3 py-1.5 rounded border text-xs bg-gray-50 dark:bg-gray-700 text-gray-700 dark:text-gray-200 font-medium hover:bg-gray-100 dark:hover:bg-gray-600';
-    saveBtn.addEventListener('click', saveStackToFile);
-    buttonContainer.appendChild(saveBtn);
+    // Only show "Save to file" if stack has items
+    if (items.length > 0) {
+        const saveBtn = document.createElement('button');
+        saveBtn.id = 'btnSaveStack';
+        saveBtn.textContent = 'Save to file';
+        saveBtn.className = 'px-3 py-1.5 rounded border text-xs bg-gray-50 dark:bg-gray-700 text-gray-700 dark:text-gray-200 font-medium hover:bg-gray-100 dark:hover:bg-gray-600';
+        saveBtn.addEventListener('click', saveStackToFile);
+        buttonContainer.appendChild(saveBtn);
+    }
 
+    // Always show "Load from file"
     const loadLabel = document.createElement('label');
     loadLabel.className = 'px-3 py-1.5 rounded border text-xs bg-gray-50 dark:bg-gray-700 text-gray-700 dark:text-gray-200 font-medium hover:bg-gray-100 dark:hover:bg-gray-600 cursor-pointer';
     loadLabel.textContent = 'Load from file';
@@ -777,6 +905,19 @@ async function renderStackViewFullScreen() {
     buttonContainer.appendChild(loadLabel);
 
     wrapper.appendChild(buttonContainer);
+
+    if (!items.length) {
+        listEl.className = 'flex flex-col items-center justify-center min-h-96';
+        const emptyDiv = document.createElement('div');
+        emptyDiv.className = 'text-center';
+        emptyDiv.innerHTML = `
+            <div class="text-2xl font-bold text-gray-400 dark:text-gray-500 mb-4">Your Stack is Empty</div>
+            <p class="text-gray-500 dark:text-gray-400 mb-6">Add colors to your stack using the <strong>Add</strong> button on color cards.</p>
+        `;
+        listEl.appendChild(wrapper);
+        listEl.appendChild(emptyDiv);
+        return;
+    }
 
     // Grid container for stack items (card view)
     const gridContainer = document.createElement('div');

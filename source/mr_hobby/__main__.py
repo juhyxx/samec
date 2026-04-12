@@ -61,6 +61,20 @@ def find_grid_cells(image_array, cell_width=231, cell_height=162, tolerance=20):
     return sorted(cells, key=lambda c: (c["y"], c["x"]))
 
 
+def normalize_code(code):
+    """Normalize Mr. Hobby color codes, fixing known OCR errors."""
+    if not code:
+        return code
+
+    # Known OCR error corrections
+    # C1261 is actually C126 (OCR misread the trailing "1")
+    corrections = {
+        "C1261": "C126",
+    }
+
+    return corrections.get(code, code)
+
+
 def extract_cell_code(image_array, cell, reader):
     """Extract code number from the black square in the cell [21, 12] with size 44x44."""
     cell_x = cell["x"]
@@ -88,6 +102,10 @@ def extract_cell_code(image_array, cell, reader):
             number = match.group()
             code = f"C{number}"
             break
+
+    # Normalize code (fix known OCR errors)
+    if code:
+        code = normalize_code(code)
 
     return code
 
