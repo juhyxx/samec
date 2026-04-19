@@ -7,20 +7,19 @@
     {
       "code": "AK11366",
       "name": "Mustard Yellow",
-      "type": "AFV",
       "hex": "#bf8d38",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71033"
+          "brand": "ammo",
+          "code": "MIG-0222"
         },
         {
-          "brand": "Federal Standard",
-          "code": "33637"
+          "brand": "vallejo",
+          "code": "71.034"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK4132"
+          "brand": "vallejo",
+          "code": "69.066"
         }
       ],
       "confidence": null
@@ -28,32 +27,39 @@
     {
       "code": "AK11367",
       "name": "Base Green (Protective)",
-      "type": "AFV",
       "hex": "#302f21",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "vallejo",
+          "code": "70.740"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0233"
+        },
+        {
+          "brand": "humbrol",
+          "code": "53"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "AK11368",
       "name": "Russian Green 4B0",
-      "type": "AFV",
       "hex": "#394227",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71017"
+          "brand": "ammo",
+          "code": "MIG-0206"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "136"
+          "brand": "ammo_atom",
+          "code": "ATOM-20068"
         },
         {
-          "brand": "Testor",
-          "code": "2129"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "73"
+          "brand": "vallejo",
+          "code": "70.850"
         }
       ],
       "confidence": null
@@ -61,24 +67,19 @@
     {
       "code": "AK11369",
       "name": "Russian Dark Brown 6K",
-      "type": "AFV",
       "hex": "#322918",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71282"
+          "brand": "vallejo",
+          "code": "72.040"
         },
         {
-          "brand": "Testor",
-          "code": "2126"
+          "brand": "vallejo",
+          "code": "72.043"
         },
         {
-          "brand": "Hataka",
-          "code": "317"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "74"
+          "brand": "ammo",
+          "code": "MIG-0022"
         }
       ],
       "confidence": null
@@ -86,24 +87,19 @@
     {
       "code": "AK11370",
       "name": "Russian Sand 7K",
-      "type": "AFV",
       "hex": "#79592d",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71283"
+          "brand": "ammo",
+          "code": "MIG-0118"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA242"
+          "brand": "vallejo",
+          "code": "70.795"
         },
         {
-          "brand": "Hataka",
-          "code": "318"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "75"
+          "brand": "vallejo",
+          "code": "72.039"
         }
       ],
       "confidence": null
@@ -111,12 +107,19 @@
     {
       "code": "AK11371",
       "name": "Protective Green 1920s-1930s",
-      "type": "AFV",
       "hex": "#232e1f",
       "equivalents": [
         {
-          "brand": "Real Colors",
-          "code": "76"
+          "brand": "rlm",
+          "code": "RLM-80"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.975"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0069"
         }
       ],
       "confidence": null
@@ -124,12 +127,19 @@
     {
       "code": "AK11372",
       "name": "Washable White Paint",
-      "type": "AFV",
       "hex": "#ffffff",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK751"
+          "brand": "ammo",
+          "code": "MIG-0024"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0047"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0050"
         }
       ],
       "confidence": null
@@ -137,24 +147,19 @@
     {
       "code": "AK11373",
       "name": "Khaki green No.3",
-      "type": "AFV",
       "hex": "#473b2d",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71330"
+          "brand": "ammo",
+          "code": "MIG-0007"
         },
         {
-          "brand": "Hataka",
-          "code": "64"
+          "brand": "ammo",
+          "code": "MIG-0111"
         },
         {
-          "brand": "Real Colors",
-          "code": "33"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK4035"
+          "brand": "ral",
+          "code": "RAL6014"
         }
       ],
       "confidence": null
@@ -162,24 +167,19 @@
     {
       "code": "AK11374",
       "name": "Silver Grey No.28",
-      "type": "AFV",
       "hex": "#908958",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71401"
+          "brand": "federal_standard",
+          "code": "FS33531"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA264"
+          "brand": "ammo",
+          "code": "MIG-0934"
         },
         {
-          "brand": "Real Colors",
-          "code": "38"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK4032"
+          "brand": "ammo",
+          "code": "MIG-0935"
         }
       ],
       "confidence": null
@@ -187,28 +187,19 @@
     {
       "code": "AK11375",
       "name": "Slate No.34",
-      "type": "AFV",
       "hex": "#45432a",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71012"
+          "brand": "ammo",
+          "code": "MIG-0925"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "H73"
+          "brand": "ammo",
+          "code": "MIG-0083"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA265"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "39"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK4033"
+          "brand": "ammo",
+          "code": "MIG-0019"
         }
       ],
       "confidence": null
@@ -216,24 +207,19 @@
     {
       "code": "AK11377",
       "name": "Light Stone No.61",
-      "type": "AFV",
       "hex": "#c69847",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71143"
+          "brand": "ammo",
+          "code": "MIG-0030"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA266"
+          "brand": "mr_hobby",
+          "code": "C9"
         },
         {
-          "brand": "Real Colors",
-          "code": "40"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK4034"
+          "brand": "ammo_atom",
+          "code": "ATOM-20013"
         }
       ],
       "confidence": null
@@ -241,24 +227,19 @@
     {
       "code": "AK11378",
       "name": "Portland Stone No.64",
-      "type": "AFV",
       "hex": "#e1bc85",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71288"
+          "brand": "federal_standard",
+          "code": "FS23722"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA267"
+          "brand": "ammo_atom",
+          "code": "ATOM-20179"
         },
         {
-          "brand": "Real Colors",
-          "code": "41"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK4031"
+          "brand": "tamiya",
+          "code": "XF59"
         }
       ],
       "confidence": null
@@ -266,16 +247,19 @@
     {
       "code": "AK11381",
       "name": "British Dark Olive Green PFI",
-      "type": "AFV",
       "hex": "#413c2b",
       "equivalents": [
         {
-          "brand": "Lifecolor",
-          "code": "UA269"
+          "brand": "rlm",
+          "code": "RLM-62"
         },
         {
-          "brand": "Real Colors",
-          "code": "42"
+          "brand": "rlm",
+          "code": "RLM-82-1"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.941"
         }
       ],
       "confidence": null
@@ -283,20 +267,19 @@
     {
       "code": "AK11382",
       "name": "British Desert Pink ZI",
-      "type": "AFV",
       "hex": "#e9895b",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71400"
+          "brand": "humbrol",
+          "code": "61"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA268"
+          "brand": "vallejo",
+          "code": "70.911"
         },
         {
-          "brand": "Real Colors",
-          "code": "4"
+          "brand": "vallejo",
+          "code": "70.804"
         }
       ],
       "confidence": null
@@ -304,16 +287,19 @@
     {
       "code": "AK11383",
       "name": "British Light Mud",
-      "type": "AFV",
       "hex": "#787145",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71284"
+          "brand": "ammo",
+          "code": "MIG-0132"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA272"
+          "brand": "ammo",
+          "code": "MIG-0006"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0901"
         }
       ],
       "confidence": null
@@ -321,28 +307,19 @@
     {
       "code": "AK11384",
       "name": "S.c.c_",
-      "type": "AFV",
       "hex": "#372920",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71039"
+          "brand": "ammo_atom",
+          "code": "ATOM-20169"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA274"
+          "brand": "ammo",
+          "code": "MIG-0085"
         },
         {
-          "brand": "Federal Standard",
-          "code": "30059"
-        },
-        {
-          "brand": "Hataka",
-          "code": "77"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "34"
+          "brand": "vallejo",
+          "code": "70.748"
         }
       ],
       "confidence": null
@@ -350,28 +327,19 @@
     {
       "code": "AK11385",
       "name": "S.cC_",
-      "type": "AFV",
       "hex": "#71482a",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71038"
+          "brand": "vallejo",
+          "code": "72.039"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA273"
+          "brand": "ral",
+          "code": "RAL8002"
         },
         {
-          "brand": "Federal Standard",
-          "code": "30097"
-        },
-        {
-          "brand": "Hataka",
-          "code": "76"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "35"
+          "brand": "ammo",
+          "code": "MIG-0190"
         }
       ],
       "confidence": null
@@ -379,28 +347,19 @@
     {
       "code": "AK11386",
       "name": "S.C.C. No.15 Olive Drab",
-      "type": "AFV",
       "hex": "#3a3826",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71016"
+          "brand": "vallejo",
+          "code": "71.016"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "H30G"
+          "brand": "vallejo",
+          "code": "71.317"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA270"
-        },
-        {
-          "brand": "Hataka",
-          "code": "110"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "37"
+          "brand": "ral",
+          "code": "RAL6008"
         }
       ],
       "confidence": null
@@ -408,20 +367,19 @@
     {
       "code": "AK11387",
       "name": "3B AU/ZB AU",
-      "type": "AFV",
       "hex": "#1d1d15",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71281"
+          "brand": "vallejo",
+          "code": "72.094"
         },
         {
-          "brand": "Hataka",
-          "code": "246"
+          "brand": "ral",
+          "code": "RAL8022"
         },
         {
-          "brand": "Real Colors",
-          "code": "77"
+          "brand": "ammo",
+          "code": "MIG-0923"
         }
       ],
       "confidence": null
@@ -429,20 +387,19 @@
     {
       "code": "AK11401",
       "name": "Base Flesh",
-      "type": "FIG",
       "hex": "#74452d",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70341"
+          "brand": "vallejo",
+          "code": "70.797"
         },
         {
-          "brand": "Federal Standard",
-          "code": "30233"
+          "brand": "vallejo",
+          "code": "72.039"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3011"
+          "brand": "ral",
+          "code": "RAL8029"
         }
       ],
       "confidence": null
@@ -450,16 +407,19 @@
     {
       "code": "AK11402",
       "name": "Light Flesh",
-      "type": "FIG",
       "hex": "#c98c73",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "31433"
+          "brand": "vallejo",
+          "code": "70.835"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3012"
+          "brand": "ral",
+          "code": "RAL3012"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0188"
         }
       ],
       "confidence": null
@@ -467,16 +427,19 @@
     {
       "code": "AK11403",
       "name": "Highlight Flesh",
-      "type": "FIG",
       "hex": "#f9ca9f",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70342"
+          "brand": "ammo",
+          "code": "MIG-0115"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3013"
+          "brand": "tamiya",
+          "code": "XF15"
+        },
+        {
+          "brand": "vallejo",
+          "code": "69.001"
         }
       ],
       "confidence": null
@@ -484,16 +447,19 @@
     {
       "code": "AK11404",
       "name": "Shadow Flesh",
-      "type": "FIG",
       "hex": "#823f36",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "31136"
+          "brand": "vallejo",
+          "code": "71.270"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3014"
+          "brand": "vallejo",
+          "code": "76.010"
+        },
+        {
+          "brand": "vallejo",
+          "code": "76.107"
         }
       ],
       "confidence": null
@@ -501,20 +467,19 @@
     {
       "code": "AK11405",
       "name": "Dark Shadow Flesh",
-      "type": "FIG",
       "hex": "#4f2923",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "73"
+          "brand": "ammo_atom",
+          "code": "ATOM-20058"
         },
         {
-          "brand": "Vallejo",
-          "code": "982"
+          "brand": "ammo_atom",
+          "code": "ATOM-20061"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3015"
+          "brand": "ral",
+          "code": "RAL8014"
         }
       ],
       "confidence": null
@@ -522,16 +487,19 @@
     {
       "code": "AK11406",
       "name": "Reddish Black",
-      "type": "FIG",
       "hex": "#33211f",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "10049"
+          "brand": "ral",
+          "code": "RAL4007"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3016"
+          "brand": "ammo",
+          "code": "MIG-0042"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.748"
         }
       ],
       "confidence": null
@@ -539,28 +507,19 @@
     {
       "code": "AK11407",
       "name": "Black Uniform Base",
-      "type": "FIG",
       "hex": "#121211",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70306"
+          "brand": "ammo_atom",
+          "code": "ATOM-20163"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "C137"
+          "brand": "ammo_atom",
+          "code": "ATOM-20162"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA733"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "26081"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK3002"
+          "brand": "ammo",
+          "code": "MIG-0095"
         }
       ],
       "confidence": null
@@ -568,12 +527,19 @@
     {
       "code": "AK11408",
       "name": "Dot44 Brown Base",
-      "type": "FIG",
       "hex": "#4a3d2d",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK3021"
+          "brand": "ammo",
+          "code": "MIG-0111"
+        },
+        {
+          "brand": "gunze",
+          "code": "H71"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H71"
         }
       ],
       "confidence": null
@@ -581,16 +547,19 @@
     {
       "code": "AK11409",
       "name": "Orange Tan",
-      "type": "FIG",
       "hex": "#bf8248",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "32516"
+          "brand": "vallejo",
+          "code": "71.034"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3022"
+          "brand": "vallejo",
+          "code": "69.066"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.860"
         }
       ],
       "confidence": null
@@ -598,12 +567,19 @@
     {
       "code": "AK11410",
       "name": "Dark Green",
-      "type": "FIG",
       "hex": "#1f2820",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK3023"
+          "brand": "vallejo",
+          "code": "72.082"
+        },
+        {
+          "brand": "vallejo",
+          "code": "72.090"
+        },
+        {
+          "brand": "vallejo",
+          "code": "72.091"
         }
       ],
       "confidence": null
@@ -611,12 +587,19 @@
     {
       "code": "AK11411",
       "name": "Light Green",
-      "type": "FIG",
       "hex": "#6f8142",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK3024"
+          "brand": "vallejo",
+          "code": "70.827"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.967"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0006"
         }
       ],
       "confidence": null
@@ -624,28 +607,19 @@
     {
       "code": "AK11412",
       "name": "Medium Green",
-      "type": "FIG",
       "hex": "#27341f",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70348"
+          "brand": "ammo",
+          "code": "MIG-0069"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "H303"
+          "brand": "vallejo",
+          "code": "70.975"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UAQ02"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "34102"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK3025"
+          "brand": "ammo",
+          "code": "MIG-0233"
         }
       ],
       "confidence": null
@@ -653,20 +627,19 @@
     {
       "code": "AK11413",
       "name": "Denison Tan Base",
-      "type": "FIG",
       "hex": "#856241",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70339"
+          "brand": "ammo_atom",
+          "code": "ATOM-20051"
         },
         {
-          "brand": "Federal Standard",
-          "code": "30227"
+          "brand": "tamiya",
+          "code": "XF72"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3026"
+          "brand": "mr_hobby",
+          "code": "C19"
         }
       ],
       "confidence": null
@@ -674,20 +647,19 @@
     {
       "code": "AK11414",
       "name": "Splittermuster Base",
-      "type": "FIG",
       "hex": "#695f40",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70332"
+          "brand": "vallejo",
+          "code": "71.082"
         },
         {
-          "brand": "Federal Standard",
-          "code": "33303"
+          "brand": "vallejo",
+          "code": "71.273"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3041"
+          "brand": "vallejo",
+          "code": "70.607"
         }
       ],
       "confidence": null
@@ -695,16 +667,19 @@
     {
       "code": "AK11415",
       "name": "Splittermuster Green Spots",
-      "type": "FIG",
       "hex": "#2c3424",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "34095"
+          "brand": "ammo",
+          "code": "MIG-0001"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3043"
+          "brand": "ammo",
+          "code": "MIG-0233"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.885"
         }
       ],
       "confidence": null
@@ -712,12 +687,19 @@
     {
       "code": "AK11416",
       "name": "Waffen Brown Grey",
-      "type": "FIG",
       "hex": "#41332a",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK3051"
+          "brand": "gunze",
+          "code": "H81"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H81"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.955"
         }
       ],
       "confidence": null
@@ -725,20 +707,19 @@
     {
       "code": "AK11417",
       "name": "Waffen",
-      "type": "FIG",
       "hex": "#583c26",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "875"
+          "brand": "ammo",
+          "code": "MIG-0187"
         },
         {
-          "brand": "Federal Standard",
-          "code": "30045"
+          "brand": "ammo",
+          "code": "MIG-0133"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3055"
+          "brand": "ammo",
+          "code": "MIG-0079"
         }
       ],
       "confidence": null
@@ -746,16 +727,19 @@
     {
       "code": "AK11418",
       "name": "Brown Black",
-      "type": "FIG",
       "hex": "#1e1712",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70333"
+          "brand": "humbrol",
+          "code": "201"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3056"
+          "brand": "vallejo",
+          "code": "72.094"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL8022"
         }
       ],
       "confidence": null
@@ -763,28 +747,19 @@
     {
       "code": "AK11419",
       "name": "Waffen Red Brown",
-      "type": "FIG",
       "hex": "#422a22",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "160"
+          "brand": "gunze",
+          "code": "H37"
         },
         {
-          "brand": "Vallejo",
-          "code": "984"
+          "brand": "hobby_color",
+          "code": "H37"
         },
         {
-          "brand": "RAL",
-          "code": "8011"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "30108"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK3061"
+          "brand": "ammo",
+          "code": "MIG-0108"
         }
       ],
       "confidence": null
@@ -792,12 +767,19 @@
     {
       "code": "AK11420",
       "name": "Waffen Green",
-      "type": "FIG",
       "hex": "#2f3822",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK3065"
+          "brand": "ammo",
+          "code": "MIG-0065"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0233"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0001"
         }
       ],
       "confidence": null
@@ -805,16 +787,19 @@
     {
       "code": "AK11421",
       "name": "Dark Olive Green",
-      "type": "FIG",
       "hex": "#282e1b",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "34094"
+          "brand": "rlm",
+          "code": "RLM-71"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3071"
+          "brand": "vallejo",
+          "code": "70.975"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0112"
         }
       ],
       "confidence": null
@@ -822,24 +807,19 @@
     {
       "code": "AK11422",
       "name": "Ocher Khaki",
-      "type": "FIG",
       "hex": "#987a3c",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "93"
+          "brand": "ammo",
+          "code": "MIG-0010"
         },
         {
-          "brand": "Vallejo",
-          "code": "824"
+          "brand": "mr_hobby",
+          "code": "C21"
         },
         {
-          "brand": "Federal Standard",
-          "code": "30266"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK3072"
+          "brand": "vallejo",
+          "code": "70.793"
         }
       ],
       "confidence": null
@@ -847,28 +827,19 @@
     {
       "code": "AK11423",
       "name": "Field Grey Base #2",
-      "type": "FIG",
       "hex": "#3a3b31",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "79"
+          "brand": "ammo",
+          "code": "MIG-0084"
         },
         {
-          "brand": "Vallejo",
-          "code": "867"
+          "brand": "vallejo",
+          "code": "71.021"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "68"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "36099"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK3142"
+          "brand": "ammo",
+          "code": "MIG-0081"
         }
       ],
       "confidence": null
@@ -876,16 +847,19 @@
     {
       "code": "AK11424",
       "name": "Grey Green",
-      "type": "FIG",
       "hex": "#91854d",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "34424"
+          "brand": "ammo_atom",
+          "code": "ATOM-20011"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3143"
+          "brand": "ammo",
+          "code": "MIG-0102"
+        },
+        {
+          "brand": "tamiya",
+          "code": "XF49"
         }
       ],
       "confidence": null
@@ -893,20 +867,19 @@
     {
       "code": "AK11425",
       "name": "Field Grey Base #1",
-      "type": "FIG",
       "hex": "#3a3623",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "75"
+          "brand": "ammo",
+          "code": "MIG-0924"
         },
         {
-          "brand": "Vallejo",
-          "code": "897"
+          "brand": "humbrol",
+          "code": "53"
         },
         {
-          "brand": "Federal Standard",
-          "code": "34052"
+          "brand": "ral",
+          "code": "RAL6008"
         }
       ],
       "confidence": null
@@ -914,16 +887,19 @@
     {
       "code": "AK11426",
       "name": "Grey Blue",
-      "type": "FIG",
       "hex": "#696e6e",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70338"
+          "brand": "ral",
+          "code": "RAL7023"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3146"
+          "brand": "ral",
+          "code": "RAL7039"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0208"
         }
       ],
       "confidence": null
@@ -931,20 +907,19 @@
     {
       "code": "AK11427",
       "name": "Green Uniform Base",
-      "type": "FIG",
       "hex": "#2b301e",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70335"
+          "brand": "rlm",
+          "code": "RLM-71"
         },
         {
-          "brand": "Federal Standard",
-          "code": "16165"
+          "brand": "vallejo",
+          "code": "70.975"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3114"
+          "brand": "ammo",
+          "code": "MIG-0233"
         }
       ],
       "confidence": null
@@ -952,16 +927,19 @@
     {
       "code": "AK11428",
       "name": "Light Green Uniform",
-      "type": "FIG",
       "hex": "#4d542c",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70336"
+          "brand": "ammo",
+          "code": "MIG-0002"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3115"
+          "brand": "ammo",
+          "code": "MIG-0004"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20071"
         }
       ],
       "confidence": null
@@ -969,16 +947,19 @@
     {
       "code": "AK11429",
       "name": "Russian Uniform Lights",
-      "type": "FIG",
       "hex": "#656729",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "34258"
+          "brand": "humbrol",
+          "code": "150"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3121"
+          "brand": "ammo_atom",
+          "code": "ATOM-20072"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0900"
         }
       ],
       "confidence": null
@@ -986,20 +967,19 @@
     {
       "code": "AK11430",
       "name": "Russian Uniform Base",
-      "type": "FIG",
       "hex": "#505225",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70327"
+          "brand": "ammo_atom",
+          "code": "ATOM-20071"
         },
         {
-          "brand": "Federal Standard",
-          "code": "34098"
+          "brand": "ammo",
+          "code": "MIG-0931"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3122"
+          "brand": "ammo",
+          "code": "MIG-0002"
         }
       ],
       "confidence": null
@@ -1007,12 +987,19 @@
     {
       "code": "AK11431",
       "name": "Russian Blue Lights",
-      "type": "FIG",
       "hex": "#1f252f",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK3124"
+          "brand": "ammo",
+          "code": "MIG-0008"
+        },
+        {
+          "brand": "gunze",
+          "code": "H301"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H301"
         }
       ],
       "confidence": null
@@ -1020,16 +1007,19 @@
     {
       "code": "AK11432",
       "name": "Russian Blue Base",
-      "type": "FIG",
       "hex": "#13161d",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70309"
+          "brand": "vallejo",
+          "code": "76.116"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3125"
+          "brand": "vallejo",
+          "code": "72.116"
+        },
+        {
+          "brand": "vallejo",
+          "code": "72.096"
         }
       ],
       "confidence": null
@@ -1037,24 +1027,39 @@
     {
       "code": "AK11433",
       "name": "US Olive Base Uniform",
-      "type": "FIG",
       "hex": "#494220",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ammo",
+          "code": "MIG-0131"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0031"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20065"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "AK11434",
       "name": "Red Brown",
-      "type": "FIG",
       "hex": "#6c3c2e",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70343"
+          "brand": "ammo",
+          "code": "MIG-0064"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3073"
+          "brand": "ral",
+          "code": "RAL8029"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.085"
         }
       ],
       "confidence": null
@@ -1062,16 +1067,19 @@
     {
       "code": "AK11435",
       "name": "Field Drab",
-      "type": "FIG",
       "hex": "#715035",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "873"
+          "brand": "tamiya",
+          "code": "XF68"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3075"
+          "brand": "ral",
+          "code": "RAL8008"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0118"
         }
       ],
       "confidence": null
@@ -1079,16 +1087,19 @@
     {
       "code": "AK11436",
       "name": "Canvas Tone",
-      "type": "FIG",
       "hex": "#484027",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "988"
+          "brand": "ammo",
+          "code": "MIG-0031"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3076"
+          "brand": "ammo",
+          "code": "MIG-0111"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0925"
         }
       ],
       "confidence": null
@@ -1096,20 +1107,19 @@
     {
       "code": "AK11437",
       "name": "British Uniform Base",
-      "type": "FIG",
       "hex": "#63492d",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70317"
+          "brand": "ammo",
+          "code": "MIG-0071"
         },
         {
-          "brand": "Federal Standard",
-          "code": "16160"
+          "brand": "vallejo",
+          "code": "72.062"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3081"
+          "brand": "ammo",
+          "code": "MIG-0107"
         }
       ],
       "confidence": null
@@ -1117,20 +1127,19 @@
     {
       "code": "AK11438",
       "name": "British Uniform Lights",
-      "type": "FIG",
       "hex": "#805f2e",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70321"
+          "brand": "tamiya",
+          "code": "XF72"
         },
         {
-          "brand": "Federal Standard",
-          "code": "20475"
+          "brand": "vallejo",
+          "code": "72.110"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3082"
+          "brand": "vallejo",
+          "code": "70.795"
         }
       ],
       "confidence": null
@@ -1138,16 +1147,19 @@
     {
       "code": "AK11439",
       "name": "French Greyish Blue",
-      "type": "FIG",
       "hex": "#3c464b",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "35109"
+          "brand": "gunze",
+          "code": "H335"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK3101"
+          "brand": "hobby_color",
+          "code": "H335"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C32"
         }
       ],
       "confidence": null
@@ -1155,12 +1167,19 @@
     {
       "code": "AK11440",
       "name": "Desert Uniform Base",
-      "type": "FIG",
       "hex": "#8e6122",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK3111"
+          "brand": "humbrol",
+          "code": "26"
+        },
+        {
+          "brand": "federal_standard",
+          "code": "FS20100"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL8000"
         }
       ],
       "confidence": null
@@ -1168,16 +1187,19 @@
     {
       "code": "AK11801",
       "name": "WWI German Fokker",
-      "type": "AIR",
       "hex": "#718072",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS34159"
+          "brand": "mr_hobby",
+          "code": "C31"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2271"
+          "brand": "ammo",
+          "code": "MIG-0219"
+        },
+        {
+          "brand": "vallejo",
+          "code": "69.028"
         }
       ],
       "confidence": null
@@ -1185,12 +1207,19 @@
     {
       "code": "AK11802",
       "name": "WWI German Light Green",
-      "type": "AIR",
       "hex": "#6f8659",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK2272"
+          "brand": "gunze",
+          "code": "H321"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H321"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0928"
         }
       ],
       "confidence": null
@@ -1198,16 +1227,19 @@
     {
       "code": "AK11803",
       "name": "WWI German Dark Green",
-      "type": "AIR",
       "hex": "#303d2c",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71017"
+          "brand": "ral",
+          "code": "RAL6007"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2273"
+          "brand": "ammo",
+          "code": "MIG-0248"
+        },
+        {
+          "brand": "rlm",
+          "code": "RLM-68"
         }
       ],
       "confidence": null
@@ -1215,16 +1247,19 @@
     {
       "code": "AK11804",
       "name": "WWI German Mauve",
-      "type": "AIR",
       "hex": "#745f74",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71282"
+          "brand": "ral",
+          "code": "RAL7003"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2274"
+          "brand": "ral",
+          "code": "RAL7039"
+        },
+        {
+          "brand": "tamiya",
+          "code": "XF56"
         }
       ],
       "confidence": null
@@ -1232,16 +1267,19 @@
     {
       "code": "AK11805",
       "name": "WWI German Red Brown",
-      "type": "AIR",
       "hex": "#593119",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71283"
+          "brand": "ammo",
+          "code": "MIG-0912"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2275"
+          "brand": "ral",
+          "code": "RAL8007"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0079"
         }
       ],
       "confidence": null
@@ -1249,12 +1287,19 @@
     {
       "code": "AK11806",
       "name": "WWI German Light Blue",
-      "type": "AIR",
       "hex": "#c2d9e8",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK2276"
+          "brand": "ammo_atom",
+          "code": "ATOM-20122"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20127"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0231"
         }
       ],
       "confidence": null
@@ -1262,12 +1307,19 @@
     {
       "code": "AK11807",
       "name": "WWI German Lilac",
-      "type": "AIR",
       "hex": "#a48ba4",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK2277"
+          "brand": "ral",
+          "code": "RAL4009"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20155"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0910"
         }
       ],
       "confidence": null
@@ -1275,16 +1327,19 @@
     {
       "code": "AK11808",
       "name": "WWI German Grey-Green Primer",
-      "type": "AIR",
       "hex": "#b0bba2",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71330"
+          "brand": "vallejo",
+          "code": "69.025"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2278"
+          "brand": "vallejo",
+          "code": "69.026"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0201"
         }
       ],
       "confidence": null
@@ -1292,16 +1347,19 @@
     {
       "code": "AK11809",
       "name": "PC1O Late",
-      "type": "AIR",
       "hex": "#363928",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71401"
+          "brand": "ral",
+          "code": "RAL6007"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2282"
+          "brand": "vallejo",
+          "code": "71.016"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.317"
         }
       ],
       "confidence": null
@@ -1309,16 +1367,19 @@
     {
       "code": "AK11810",
       "name": "PC12",
-      "type": "AIR",
       "hex": "#383029",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71012"
+          "brand": "rlm",
+          "code": "RLM-61"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2283"
+          "brand": "rlm",
+          "code": "RLM-81-1"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL6008"
         }
       ],
       "confidence": null
@@ -1326,40 +1387,19 @@
     {
       "code": "AK11811",
       "name": "RLM 02 RLM-Grau (1938)",
-      "type": "AIR",
       "hex": "#8c8977",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF20"
+          "brand": "vallejo",
+          "code": "71.142"
         },
         {
-          "brand": "Humbrol",
-          "code": "240"
+          "brand": "ral",
+          "code": "RAL7030"
         },
         {
-          "brand": "Vallejo",
-          "code": "71044"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C60"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H70"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA504"
-        },
-        {
-          "brand": "Hataka",
-          "code": "23"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "265"
+          "brand": "vallejo",
+          "code": "72.030"
         }
       ],
       "confidence": null
@@ -1367,12 +1407,19 @@
     {
       "code": "AK11812",
       "name": "RLM 02 RLM-Grau (1941)",
-      "type": "AIR",
       "hex": "#757456",
       "equivalents": [
         {
-          "brand": "Real Colors",
-          "code": "266"
+          "brand": "ammo",
+          "code": "MIG-0928"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.139"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.247"
         }
       ],
       "confidence": null
@@ -1380,40 +1427,19 @@
     {
       "code": "AK11813",
       "name": "RLM 04",
-      "type": "AIR",
       "hex": "#eb9d2f",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "154"
-        },
-        {
-          "brand": "Vallejo",
-          "code": "71078"
-        },
-        {
-          "brand": "Mr. Hobby",
+          "brand": "mr_hobby",
           "code": "C113"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H413"
+          "brand": "ral",
+          "code": "RAL1034"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA140"
-        },
-        {
-          "brand": "Hataka",
-          "code": "66"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "267"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2091"
+          "brand": "vallejo",
+          "code": "70.629"
         }
       ],
       "confidence": null
@@ -1421,20 +1447,19 @@
     {
       "code": "AK11814",
       "name": "RLM 61",
-      "type": "AIR",
       "hex": "#4d4845",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71042"
+          "brand": "ammo",
+          "code": "MIG-0192"
         },
         {
-          "brand": "Hataka",
-          "code": "168"
+          "brand": "vallejo",
+          "code": "71.003"
         },
         {
-          "brand": "Real Colors",
-          "code": "268"
+          "brand": "vallejo",
+          "code": "71.012"
         }
       ],
       "confidence": null
@@ -1442,20 +1467,19 @@
     {
       "code": "AK11815",
       "name": "RLM 62",
-      "type": "AIR",
       "hex": "#5d5e48",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71104"
+          "brand": "humbrol",
+          "code": "241"
         },
         {
-          "brand": "Hataka",
-          "code": "169"
+          "brand": "ammo",
+          "code": "MIG-0220"
         },
         {
-          "brand": "Real Colors",
-          "code": "269"
+          "brand": "vallejo",
+          "code": "71.082"
         }
       ],
       "confidence": null
@@ -1463,20 +1487,19 @@
     {
       "code": "AK11816",
       "name": "RLM 63",
-      "type": "AIR",
       "hex": "#736f60",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71260"
+          "brand": "ammo",
+          "code": "MIG-0252"
         },
         {
-          "brand": "Hataka",
-          "code": "167"
+          "brand": "ammo",
+          "code": "MIG-0028"
         },
         {
-          "brand": "Real Colors",
-          "code": "270"
+          "brand": "vallejo",
+          "code": "71.139"
         }
       ],
       "confidence": null
@@ -1484,16 +1507,19 @@
     {
       "code": "AK11817",
       "name": "RLM 65 (1938)",
-      "type": "AIR",
       "hex": "#7d979a",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "65"
+          "brand": "ral",
+          "code": "RAL7036"
         },
         {
-          "brand": "Real Colors",
-          "code": "271"
+          "brand": "vallejo",
+          "code": "69.058"
+        },
+        {
+          "brand": "tamiya",
+          "code": "XF25"
         }
       ],
       "confidence": null
@@ -1501,36 +1527,19 @@
     {
       "code": "AK11818",
       "name": "RLM 65 (1941)",
-      "type": "AIR",
       "hex": "#8b968e",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF23"
+          "brand": "mr_hobby",
+          "code": "C325"
         },
         {
-          "brand": "Vallejo",
-          "code": "71255"
+          "brand": "vallejo",
+          "code": "70.961"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C115"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H67"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA503"
-        },
-        {
-          "brand": "Hataka",
-          "code": "29"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "272"
+          "brand": "vallejo",
+          "code": "69.058"
         }
       ],
       "confidence": null
@@ -1538,32 +1547,19 @@
     {
       "code": "AK11819",
       "name": "RLM 66 (1938)",
-      "type": "AIR",
       "hex": "#303638",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71055"
+          "brand": "vallejo",
+          "code": "69.023"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C116"
+          "brand": "mr_hobby",
+          "code": "C301"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H416"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA133"
-        },
-        {
-          "brand": "Hataka",
-          "code": "40"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "339"
+          "brand": "gunze",
+          "code": "H303"
         }
       ],
       "confidence": null
@@ -1571,12 +1567,19 @@
     {
       "code": "AK11820",
       "name": "RLM 66 (1941)",
-      "type": "AIR",
       "hex": "#494844",
       "equivalents": [
         {
-          "brand": "Real Colors",
-          "code": "273"
+          "brand": "vallejo",
+          "code": "71.265"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C61"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.124"
         }
       ],
       "confidence": null
@@ -1584,40 +1587,19 @@
     {
       "code": "AK11821",
       "name": "RLM 70",
-      "type": "AIR",
       "hex": "#3f4139",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF27"
+          "brand": "vallejo",
+          "code": "69.031"
         },
         {
-          "brand": "Humbrol",
-          "code": "241"
+          "brand": "vallejo",
+          "code": "71.044"
         },
         {
-          "brand": "Vallejo",
-          "code": "71021"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C18"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H65"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA501"
-        },
-        {
-          "brand": "Hataka",
-          "code": "15"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "274"
+          "brand": "vallejo",
+          "code": "70.886"
         }
       ],
       "confidence": null
@@ -1625,36 +1607,19 @@
     {
       "code": "AK11822",
       "name": "RLM 71",
-      "type": "AIR",
       "hex": "#48453c",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "242"
+          "brand": "vallejo",
+          "code": "71.013"
         },
         {
-          "brand": "Vallejo",
-          "code": "71015"
+          "brand": "vallejo",
+          "code": "71.017"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C17"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H64"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA502"
-        },
-        {
-          "brand": "Hataka",
-          "code": "17"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "275"
+          "brand": "vallejo",
+          "code": "71.105"
         }
       ],
       "confidence": null
@@ -1662,24 +1627,19 @@
     {
       "code": "AK11823",
       "name": "RLM 72",
-      "type": "AIR",
       "hex": "#3e3e3a",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "243"
+          "brand": "vallejo",
+          "code": "70.886"
         },
         {
-          "brand": "Vallejo",
-          "code": "71263"
+          "brand": "vallejo",
+          "code": "70.894"
         },
         {
-          "brand": "Hataka",
-          "code": "311"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "276"
+          "brand": "ral",
+          "code": "RAL7043"
         }
       ],
       "confidence": null
@@ -1687,24 +1647,19 @@
     {
       "code": "AK11824",
       "name": "RLM 73",
-      "type": "AIR",
       "hex": "#3b4039",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "244"
+          "brand": "vallejo",
+          "code": "70.886"
         },
         {
-          "brand": "Vallejo",
-          "code": "71256"
+          "brand": "vallejo",
+          "code": "70.894"
         },
         {
-          "brand": "Hataka",
-          "code": "312"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "277"
+          "brand": "ammo",
+          "code": "MIG-0253"
         }
       ],
       "confidence": null
@@ -1712,36 +1667,19 @@
     {
       "code": "AK11825",
       "name": "RLM 74",
-      "type": "AIR",
       "hex": "#51504b",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "245"
+          "brand": "vallejo",
+          "code": "71.129"
         },
         {
-          "brand": "Vallejo",
-          "code": "71258"
+          "brand": "vallejo",
+          "code": "76.049"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C36"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H68"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA507"
-        },
-        {
-          "brand": "Hataka",
-          "code": "313"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "278"
+          "brand": "vallejo",
+          "code": "76.050"
         }
       ],
       "confidence": null
@@ -1749,32 +1687,19 @@
     {
       "code": "AK11826",
       "name": "RLM 75",
-      "type": "AIR",
       "hex": "#656462",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "246"
+          "brand": "vallejo",
+          "code": "70.879"
         },
         {
-          "brand": "Vallejo",
-          "code": "71259"
+          "brand": "vallejo",
+          "code": "70.921"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C37"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H6G"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA508"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "279"
+          "brand": "vallejo",
+          "code": "70.943"
         }
       ],
       "confidence": null
@@ -1782,12 +1707,19 @@
     {
       "code": "AK11827",
       "name": "RLM 76 Version 1",
-      "type": "AIR",
       "hex": "#a1ac9c",
       "equivalents": [
         {
-          "brand": "Real Colors",
-          "code": "320"
+          "brand": "gunze",
+          "code": "H325"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H325"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20142"
         }
       ],
       "confidence": null
@@ -1795,36 +1727,19 @@
     {
       "code": "AK11828",
       "name": "RLM 76 Version 2",
-      "type": "AIR",
       "hex": "#a5b4b4",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "247"
+          "brand": "vallejo",
+          "code": "71.344"
         },
         {
-          "brand": "Vallejo",
-          "code": "71257"
+          "brand": "tamiya",
+          "code": "XF20"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C117"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H417"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA509"
-        },
-        {
-          "brand": "Hataka",
-          "code": "38"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "321"
+          "brand": "ammo",
+          "code": "MIG-0203"
         }
       ],
       "confidence": null
@@ -1832,16 +1747,19 @@
     {
       "code": "AK11829",
       "name": "RLM 76 Late War Variation",
-      "type": "AIR",
       "hex": "#bab895",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71103"
+          "brand": "ammo_atom",
+          "code": "ATOM-20141"
         },
         {
-          "brand": "Real Colors",
-          "code": "322"
+          "brand": "ammo_atom",
+          "code": "ATOM-20086"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20014"
         }
       ],
       "confidence": null
@@ -1849,12 +1767,19 @@
     {
       "code": "AK11830",
       "name": "RLM 78 (1941)",
-      "type": "AIR",
       "hex": "#778c94",
       "equivalents": [
         {
-          "brand": "Real Colors",
-          "code": "280"
+          "brand": "federal_standard",
+          "code": "FS36314"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL7036"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0247"
         }
       ],
       "confidence": null
@@ -1862,36 +1787,19 @@
     {
       "code": "AK11831",
       "name": "RLM 78 (1942)",
-      "type": "AIR",
       "hex": "#7f928d",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "248"
+          "brand": "mr_hobby",
+          "code": "C315"
         },
         {
-          "brand": "Vallejo",
-          "code": "71101"
+          "brand": "ammo",
+          "code": "MIG-0247"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C118"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H418"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA512"
-        },
-        {
-          "brand": "Hataka",
-          "code": "314"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "281"
+          "brand": "mr_hobby",
+          "code": "C324"
         }
       ],
       "confidence": null
@@ -1899,16 +1807,19 @@
     {
       "code": "AK11832",
       "name": "RLM 79 (1941)",
-      "type": "AIR",
       "hex": "#e09959",
       "equivalents": [
         {
-          "brand": "Hataka",
-          "code": "14"
+          "brand": "ammo",
+          "code": "MIG-0189"
         },
         {
-          "brand": "Real Colors",
-          "code": "282"
+          "brand": "vallejo",
+          "code": "70.911"
+        },
+        {
+          "brand": "humbrol",
+          "code": "61"
         }
       ],
       "confidence": null
@@ -1916,32 +1827,19 @@
     {
       "code": "AK11833",
       "name": "RLM 79 (1942)",
-      "type": "AIR",
       "hex": "#8f6748",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "249"
+          "brand": "vallejo",
+          "code": "72.108"
         },
         {
-          "brand": "Vallejo",
-          "code": "71278"
+          "brand": "federal_standard",
+          "code": "FS30051"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C119"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H66"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA137"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "283"
+          "brand": "federal_standard",
+          "code": "FS30160"
         }
       ],
       "confidence": null
@@ -1949,32 +1847,19 @@
     {
       "code": "AK11834",
       "name": "RLM 80",
-      "type": "AIR",
       "hex": "#4e4c3e",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71265"
+          "brand": "vallejo",
+          "code": "71.248"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C120"
+          "brand": "rlm",
+          "code": "RLM-63-1"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H420"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA138"
-        },
-        {
-          "brand": "Hataka",
-          "code": "53"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "284"
+          "brand": "vallejo",
+          "code": "71.017"
         }
       ],
       "confidence": null
@@ -1982,36 +1867,19 @@
     {
       "code": "AK11835",
       "name": "RLM 81 Version 1",
-      "type": "AIR",
       "hex": "#4e4c3e",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF51"
+          "brand": "vallejo",
+          "code": "71.248"
         },
         {
-          "brand": "Humbrol",
-          "code": "251"
+          "brand": "rlm",
+          "code": "RLM-63-1"
         },
         {
-          "brand": "Vallejo",
-          "code": "71264"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C121"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H421"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA510"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "323"
+          "brand": "vallejo",
+          "code": "71.017"
         }
       ],
       "confidence": null
@@ -2019,40 +1887,19 @@
     {
       "code": "AK11836",
       "name": "RLM 81 Version 2",
-      "type": "AIR",
       "hex": "#3f4338",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF74"
+          "brand": "vallejo",
+          "code": "69.031"
         },
         {
-          "brand": "Humbrol",
-          "code": "253"
+          "brand": "vallejo",
+          "code": "71.251"
         },
         {
-          "brand": "Vallejo",
-          "code": "71011"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C123"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H423"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA132"
-        },
-        {
-          "brand": "Hataka",
-          "code": "22"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "324"
+          "brand": "ral",
+          "code": "RAL6015"
         }
       ],
       "confidence": null
@@ -2060,12 +1907,19 @@
     {
       "code": "AK11837",
       "name": "RLM 81 Version 3",
-      "type": "AIR",
       "hex": "#4f483e",
       "equivalents": [
         {
-          "brand": "Real Colors",
-          "code": "325"
+          "brand": "vallejo",
+          "code": "71.248"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.017"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.140"
         }
       ],
       "confidence": null
@@ -2073,36 +1927,19 @@
     {
       "code": "AK11838",
       "name": "RLM 82",
-      "type": "AIR",
       "hex": "#475143",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "252"
+          "brand": "vallejo",
+          "code": "71.097"
         },
         {
-          "brand": "Vallejo",
-          "code": "71022"
+          "brand": "vallejo",
+          "code": "71.265"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C122"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H422"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA511"
-        },
-        {
-          "brand": "Hataka",
-          "code": "20"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "326"
+          "brand": "mr_hobby",
+          "code": "C129"
         }
       ],
       "confidence": null
@@ -2110,12 +1947,19 @@
     {
       "code": "AK11839",
       "name": "RLM 83",
-      "type": "AIR",
       "hex": "#323d4a",
       "equivalents": [
         {
-          "brand": "Real Colors",
-          "code": "327"
+          "brand": "gunze",
+          "code": "H53"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H53"
+        },
+        {
+          "brand": "gunze",
+          "code": "H69"
         }
       ],
       "confidence": null
@@ -2123,48 +1967,19 @@
     {
       "code": "AK11840",
       "name": "RAF Dark Green",
-      "type": "AIR",
       "hex": "#4d4d44",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF81"
+          "brand": "vallejo",
+          "code": "71.003"
         },
         {
-          "brand": "Humbrol",
-          "code": "163"
+          "brand": "vallejo",
+          "code": "71.012"
         },
         {
-          "brand": "Vallejo",
-          "code": "71324"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C330"
-        },
-        {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "4330"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA546"
-        },
-        {
-          "brand": "RAL",
-          "code": "BS381C"
-        },
-        {
-          "brand": "RAL",
-          "code": "241"
-        },
-        {
-          "brand": "Hataka",
-          "code": "143"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "286"
+          "brand": "ammo",
+          "code": "MIG-0192"
         }
       ],
       "confidence": null
@@ -2172,32 +1987,19 @@
     {
       "code": "AK11841",
       "name": "RAF Dark Earth",
-      "type": "AIR",
       "hex": "#654d37",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "29"
+          "brand": "ammo",
+          "code": "MIG-0073"
         },
         {
-          "brand": "Vallejo",
-          "code": "71323"
+          "brand": "tamiya",
+          "code": "XF79"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C369"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H72"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA547"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "287"
+          "brand": "ammo",
+          "code": "MIG-0071"
         }
       ],
       "confidence": null
@@ -2205,36 +2007,19 @@
     {
       "code": "AK11842",
       "name": "RAF Ocean Grey",
-      "type": "AIR",
       "hex": "#535d5f",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF82"
+          "brand": "vallejo",
+          "code": "69.059"
         },
         {
-          "brand": "Humbrol",
-          "code": "106"
+          "brand": "ammo",
+          "code": "MIG-0239"
         },
         {
-          "brand": "Vallejo",
-          "code": "71273"
-        },
-        {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "C362"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA093"
-        },
-        {
-          "brand": "Hataka",
-          "code": "32"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "288"
+          "brand": "humbrol",
+          "code": "77"
         }
       ],
       "confidence": null
@@ -2242,52 +2027,19 @@
     {
       "code": "AK11843",
       "name": "RAF Medium Sea Grey BS381C/637",
-      "type": "AIR",
       "hex": "#778186",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF83"
+          "brand": "vallejo",
+          "code": "69.038"
         },
         {
-          "brand": "Humbrol",
-          "code": "165"
+          "brand": "gunze",
+          "code": "H61"
         },
         {
-          "brand": "Vallejo",
-          "code": "71307"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C335"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H335"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA094"
-        },
-        {
-          "brand": "RAL",
-          "code": "BS381C"
-        },
-        {
-          "brand": "RAL",
-          "code": "637"
-        },
-        {
-          "brand": "Hataka",
-          "code": "034"
-        },
-        {
-          "brand": "Hataka",
-          "code": "141"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "289"
+          "brand": "hobby_color",
+          "code": "H61"
         }
       ],
       "confidence": null
@@ -2295,32 +2047,19 @@
     {
       "code": "AK11844",
       "name": "RAF Sky / FS 34424",
-      "type": "AIR",
       "hex": "#abad97",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71321"
+          "brand": "tamiya",
+          "code": "XF76"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "C368"
+          "brand": "vallejo",
+          "code": "71.065"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA5S0"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS34424"
-        },
-        {
-          "brand": "Hataka",
-          "code": "234"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "290"
+          "brand": "vallejo",
+          "code": "70.605"
         }
       ],
       "confidence": null
@@ -2328,32 +2067,19 @@
     {
       "code": "AK11845",
       "name": "RAF",
-      "type": "AIR",
       "hex": "#7393ba",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "157"
+          "brand": "ammo_atom",
+          "code": "ATOM-20119"
         },
         {
-          "brand": "Vallejo",
-          "code": "71108"
+          "brand": "vallejo",
+          "code": "71.333"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "C370"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA098"
-        },
-        {
-          "brand": "Hataka",
-          "code": "28"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "291"
+          "brand": "vallejo",
+          "code": "69.041"
         }
       ],
       "confidence": null
@@ -2361,32 +2087,19 @@
     {
       "code": "AK11846",
       "name": "RAF Middle Stone",
-      "type": "AIR",
       "hex": "#99733a",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "225"
+          "brand": "vallejo",
+          "code": "70.793"
         },
         {
-          "brand": "Vallejo",
-          "code": "71031"
+          "brand": "ammo",
+          "code": "MIG-0198"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "C21MH71"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA097"
-        },
-        {
-          "brand": "Hataka",
-          "code": "13"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "292"
+          "brand": "mr_hobby",
+          "code": "C21"
         }
       ],
       "confidence": null
@@ -2394,36 +2107,19 @@
     {
       "code": "AK11847",
       "name": "RAF Cockpit Grey-Green",
-      "type": "AIR",
       "hex": "#6a745f",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF71"
+          "brand": "vallejo",
+          "code": "69.030"
         },
         {
-          "brand": "Humbrol",
-          "code": "78"
+          "brand": "vallejo",
+          "code": "69.029"
         },
         {
-          "brand": "Vallejo",
-          "code": "71305"
-        },
-        {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "C364"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA551"
-        },
-        {
-          "brand": "Hataka",
-          "code": "25"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "293"
+          "brand": "ammo_atom",
+          "code": "ATOM-20097"
         }
       ],
       "confidence": null
@@ -2431,28 +2127,19 @@
     {
       "code": "AK11848",
       "name": "RAF Sky",
-      "type": "AIR",
       "hex": "#979b9a",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71339"
+          "brand": "ammo",
+          "code": "MIG-0212"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA036"
+          "brand": "ral",
+          "code": "RAL9022"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS26373"
-        },
-        {
-          "brand": "Hataka",
-          "code": "302"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "285"
+          "brand": "ammo",
+          "code": "MIG-0194"
         }
       ],
       "confidence": null
@@ -2460,24 +2147,19 @@
     {
       "code": "AK11849",
       "name": "RAF Dark Slate Grey",
-      "type": "AIR",
       "hex": "#555248",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "224"
+          "brand": "vallejo",
+          "code": "76.049"
         },
         {
-          "brand": "Vallejo",
-          "code": "71309"
+          "brand": "vallejo",
+          "code": "76.050"
         },
         {
-          "brand": "Hataka",
-          "code": "202"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "294"
+          "brand": "humbrol",
+          "code": "83"
         }
       ],
       "confidence": null
@@ -2485,48 +2167,19 @@
     {
       "code": "AK11850",
       "name": "RAF Extra Dark Sea Grey BS381C/640",
-      "type": "AIR",
       "hex": "#464c53",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF54"
+          "brand": "ammo",
+          "code": "MIG-0250"
         },
         {
-          "brand": "Humbrol",
-          "code": "123"
+          "brand": "vallejo",
+          "code": "71.049"
         },
         {
-          "brand": "Vallejo",
-          "code": "71110"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C333"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H333"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA109"
-        },
-        {
-          "brand": "RAL",
-          "code": "BS381C"
-        },
-        {
-          "brand": "RAL",
-          "code": "640"
-        },
-        {
-          "brand": "Hataka",
-          "code": "140"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "295"
+          "brand": "ral",
+          "code": "RAL7024"
         }
       ],
       "confidence": null
@@ -2534,44 +2187,19 @@
     {
       "code": "AK11851",
       "name": "RAF Dark Sea Grey BS381C/638",
-      "type": "AIR",
       "hex": "#5e6165",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF77"
+          "brand": "ammo",
+          "code": "MIG-0908"
         },
         {
-          "brand": "Humbrol",
-          "code": "164"
+          "brand": "vallejo",
+          "code": "71.052"
         },
         {
-          "brand": "Vallejo",
-          "code": "71405"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C331"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H331"
-        },
-        {
-          "brand": "RAL",
-          "code": "BS381C"
-        },
-        {
-          "brand": "RAL",
-          "code": "638"
-        },
-        {
-          "brand": "Hataka",
-          "code": "144"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "296"
+          "brand": "tamiya",
+          "code": "XF51"
         }
       ],
       "confidence": null
@@ -2579,44 +2207,19 @@
     {
       "code": "AK11852",
       "name": "RAF PRU Blue BS381C/636",
-      "type": "AIR",
       "hex": "#4d606a",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF18"
+          "brand": "ammo_atom",
+          "code": "ATOM-20136"
         },
         {
-          "brand": "Humbrol",
-          "code": "230"
+          "brand": "mr_hobby",
+          "code": "C335"
         },
         {
-          "brand": "Vallejo",
-          "code": "71109"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C72"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H56"
-        },
-        {
-          "brand": "RAL",
-          "code": "BS381C"
-        },
-        {
-          "brand": "RAL",
-          "code": "636"
-        },
-        {
-          "brand": "Hataka",
-          "code": "207"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "297"
+          "brand": "tamiya",
+          "code": "XF22"
         }
       ],
       "confidence": null
@@ -2624,36 +2227,19 @@
     {
       "code": "AK11853",
       "name": "RAF Light Aircraft Grey BS381C/627",
-      "type": "AIR",
       "hex": "#a8a8a1",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "166"
+          "brand": "ammo_atom",
+          "code": "ATOM-20142"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C332"
+          "brand": "ral",
+          "code": "RAL9006"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H332"
-        },
-        {
-          "brand": "RAL",
-          "code": "BS381C"
-        },
-        {
-          "brand": "RAL",
-          "code": "627"
-        },
-        {
-          "brand": "Hataka",
-          "code": "217"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "298"
+          "brand": "ammo",
+          "code": "MIG-0075"
         }
       ],
       "confidence": null
@@ -2661,44 +2247,19 @@
     {
       "code": "AK11854",
       "name": "RAF Camouflage (Barley) Grey",
-      "type": "AIR",
       "hex": "#8d9292",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF80"
+          "brand": "ammo",
+          "code": "MIG-0211"
         },
         {
-          "brand": "Humbrol",
-          "code": "167"
+          "brand": "vallejo",
+          "code": "70.961"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C334"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H334"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA079"
-        },
-        {
-          "brand": "RAL",
-          "code": "BS381C"
-        },
-        {
-          "brand": "RAL",
-          "code": "626"
-        },
-        {
-          "brand": "Hataka",
-          "code": "142"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "299"
+          "brand": "ammo_atom",
+          "code": "ATOM-20135"
         }
       ],
       "confidence": null
@@ -2706,24 +2267,19 @@
     {
       "code": "AK11855",
       "name": "RAF Dark Camouflage Grey",
-      "type": "AIR",
       "hex": "#676e73",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "BS381C"
+          "brand": "gunze",
+          "code": "H306"
         },
         {
-          "brand": "RAL",
-          "code": "629"
+          "brand": "hobby_color",
+          "code": "H306"
         },
         {
-          "brand": "Hataka",
-          "code": "214"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "300"
+          "brand": "ral",
+          "code": "RAL5024"
         }
       ],
       "confidence": null
@@ -2731,40 +2287,19 @@
     {
       "code": "AK11856",
       "name": "RAF Camouflage Beige (Hemp)",
-      "type": "AIR",
       "hex": "#928a76",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF57"
+          "brand": "vallejo",
+          "code": "71.142"
         },
         {
-          "brand": "Humbrol",
-          "code": "168"
+          "brand": "vallejo",
+          "code": "72.030"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C336"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H336"
-        },
-        {
-          "brand": "RAL",
-          "code": "BS381C"
-        },
-        {
-          "brand": "RAL",
-          "code": "389"
-        },
-        {
-          "brand": "Hataka",
-          "code": "262"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "301"
+          "brand": "vallejo",
+          "code": "70.873"
         }
       ],
       "confidence": null
@@ -2772,16 +2307,19 @@
     {
       "code": "AK11857",
       "name": "Bronze Green",
-      "type": "AIR",
       "hex": "#262f22",
       "equivalents": [
         {
-          "brand": "Real Colors",
-          "code": "264"
+          "brand": "vallejo",
+          "code": "70.975"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2205"
+          "brand": "ammo",
+          "code": "MIG-0069"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.892"
         }
       ],
       "confidence": null
@@ -2789,24 +2327,19 @@
     {
       "code": "AK11858",
       "name": "Zinc Chromate Yellow",
-      "type": "AIR",
       "hex": "#dfc737",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71107"
+          "brand": "ral",
+          "code": "RAL1023"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "C352"
+          "brand": "vallejo",
+          "code": "70.915"
         },
         {
-          "brand": "Real Colors",
-          "code": "263"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2207"
+          "brand": "ammo",
+          "code": "MIG-0048"
         }
       ],
       "confidence": null
@@ -2814,16 +2347,19 @@
     {
       "code": "AK11859",
       "name": "US Interior Yellow Green",
-      "type": "AIR",
       "hex": "#79795e",
       "equivalents": [
         {
-          "brand": "Real Colors",
-          "code": "262"
+          "brand": "ammo",
+          "code": "MIG-0928"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2206"
+          "brand": "vallejo",
+          "code": "71.139"
+        },
+        {
+          "brand": "gunze",
+          "code": "H321"
         }
       ],
       "confidence": null
@@ -2831,40 +2367,19 @@
     {
       "code": "AK11860",
       "name": "Dark Olive Drab 41",
-      "type": "AIR",
       "hex": "#49463a",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF62"
+          "brand": "vallejo",
+          "code": "71.017"
         },
         {
-          "brand": "Vallejo",
-          "code": "71316"
+          "brand": "vallejo",
+          "code": "71.105"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C38"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H78"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA005"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS33070"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "259"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2201"
+          "brand": "vallejo",
+          "code": "71.001"
         }
       ],
       "confidence": null
@@ -2872,20 +2387,19 @@
     {
       "code": "AK11861",
       "name": "Medium Green 42",
-      "type": "AIR",
       "hex": "#404838",
       "equivalents": [
         {
-          "brand": "Hataka",
-          "code": "19"
+          "brand": "vallejo",
+          "code": "70.823"
         },
         {
-          "brand": "Real Colors",
-          "code": "260"
+          "brand": "ammo_atom",
+          "code": "ATOM-20066"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2202"
+          "brand": "vallejo",
+          "code": "71.251"
         }
       ],
       "confidence": null
@@ -2893,36 +2407,19 @@
     {
       "code": "AK11862",
       "name": "Neutral Grey 43",
-      "type": "AIR",
       "hex": "#61625d",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71051"
+          "brand": "humbrol",
+          "code": "31"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C13"
+          "brand": "vallejo",
+          "code": "70.470"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H53"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA046"
-        },
-        {
-          "brand": "Hataka",
-          "code": "33"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "261"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2203"
+          "brand": "vallejo",
+          "code": "70.521"
         }
       ],
       "confidence": null
@@ -2930,16 +2427,19 @@
     {
       "code": "AK11863",
       "name": "ANA 613 Olive Drab",
-      "type": "AIR",
       "hex": "#514e41",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "RA17013"
+          "brand": "rlm",
+          "code": "RLM-63-1"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2204"
+          "brand": "vallejo",
+          "code": "71.248"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.287"
         }
       ],
       "confidence": null
@@ -2947,36 +2447,19 @@
     {
       "code": "AK11864",
       "name": "Deep Sea Blue",
-      "type": "AIR",
       "hex": "#313d43",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "181"
+          "brand": "mr_hobby",
+          "code": "C333"
         },
         {
-          "brand": "Vallejo",
-          "code": "71300"
+          "brand": "mr_hobby",
+          "code": "C339"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "C365"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA047"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS35045"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "258"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2234"
+          "brand": "ral",
+          "code": "RAL6012"
         }
       ],
       "confidence": null
@@ -2984,36 +2467,19 @@
     {
       "code": "AK11865",
       "name": "M-485 Blue-Grey",
-      "type": "AIR",
       "hex": "#68797f",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71109"
+          "brand": "ammo_atom",
+          "code": "ATOM-20137"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "C367"
+          "brand": "vallejo",
+          "code": "71.009"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA038"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS35189"
-        },
-        {
-          "brand": "Hataka",
-          "code": "218"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "256"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2231"
+          "brand": "tamiya",
+          "code": "XF75"
         }
       ],
       "confidence": null
@@ -3021,40 +2487,19 @@
     {
       "code": "AK11866",
       "name": "Light Gull",
-      "type": "AIR",
       "hex": "#a6a59c",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "129"
+          "brand": "ammo_atom",
+          "code": "ATOM-20142"
         },
         {
-          "brand": "Vallejo",
-          "code": "71121"
+          "brand": "vallejo",
+          "code": "71.126"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C315"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H315"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA025"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS16440"
-        },
-        {
-          "brand": "Hataka",
-          "code": "48"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "220"
+          "brand": "vallejo",
+          "code": "71.032"
         }
       ],
       "confidence": null
@@ -3062,32 +2507,19 @@
     {
       "code": "AK11867",
       "name": "ADC Grey FS 16473",
-      "type": "AIR",
       "hex": "#96a09c",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71335"
+          "brand": "rlm",
+          "code": "RLM-78"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA041"
+          "brand": "ral",
+          "code": "RAL9022"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS16473"
-        },
-        {
-          "brand": "Hataka",
-          "code": "45"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "221"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2146"
+          "brand": "mr_hobby",
+          "code": "C97"
         }
       ],
       "confidence": null
@@ -3095,48 +2527,19 @@
     {
       "code": "AK11868",
       "name": "Insignia White FS 17875",
-      "type": "AIR",
       "hex": "#e3e4d7",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X1"
+          "brand": "gunze",
+          "code": "H95"
         },
         {
-          "brand": "Humbrol",
-          "code": "22"
+          "brand": "hobby_color",
+          "code": "H95"
         },
         {
-          "brand": "Vallejo",
-          "code": "72279"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C316"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H4316"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA148"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS17875"
-        },
-        {
-          "brand": "Hataka",
-          "code": "49"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "222"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2052"
+          "brand": "vallejo",
+          "code": "70.820"
         }
       ],
       "confidence": null
@@ -3144,44 +2547,19 @@
     {
       "code": "AK11869",
       "name": "Sand FS 33531",
-      "type": "AIR",
       "hex": "#beab96",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF59"
+          "brand": "vallejo",
+          "code": "71.135"
         },
         {
-          "brand": "Humbrol",
-          "code": "121"
+          "brand": "ammo_atom",
+          "code": "ATOM-20008"
         },
         {
-          "brand": "Vallejo",
-          "code": "71327"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C313"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H313"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS33531"
-        },
-        {
-          "brand": "Hataka",
-          "code": "90"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "226"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2151"
+          "brand": "tamiya",
+          "code": "XF55"
         }
       ],
       "confidence": null
@@ -3189,36 +2567,19 @@
     {
       "code": "AK11870",
       "name": "Radome Tan FS 33613",
-      "type": "AIR",
       "hex": "#dfbf9a",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "148"
+          "brand": "ammo",
+          "code": "MIG-0116"
         },
         {
-          "brand": "Vallejo",
-          "code": "71074"
+          "brand": "ammo",
+          "code": "MIG-0012"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C318"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H318"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS33613"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "227"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2053"
+          "brand": "vallejo",
+          "code": "69.001"
         }
       ],
       "confidence": null
@@ -3226,24 +2587,19 @@
     {
       "code": "AK11871",
       "name": "USMC Sand FS 33711",
-      "type": "AIR",
       "hex": "#f6ca8f",
       "equivalents": [
         {
-          "brand": "Lifecolor",
-          "code": "UA090"
+          "brand": "tamiya",
+          "code": "XF15"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS33711"
+          "brand": "gunze",
+          "code": "H44"
         },
         {
-          "brand": "Hataka",
-          "code": "60"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "228"
+          "brand": "hobby_color",
+          "code": "H44"
         }
       ],
       "confidence": null
@@ -3251,20 +2607,19 @@
     {
       "code": "AK11872",
       "name": "US Army Helo Drab FS 34031",
-      "type": "AIR",
       "hex": "#3e3f3b",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS34031"
+          "brand": "ral",
+          "code": "RAL7043"
         },
         {
-          "brand": "Hataka",
-          "code": "67"
+          "brand": "vallejo",
+          "code": "70.886"
         },
         {
-          "brand": "Real Colors",
-          "code": "229"
+          "brand": "vallejo",
+          "code": "70.894"
         }
       ],
       "confidence": null
@@ -3272,48 +2627,19 @@
     {
       "code": "AK11873",
       "name": "Dull Dark Green FS 34092",
-      "type": "AIR",
       "hex": "#424e49",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF26"
+          "brand": "mr_hobby",
+          "code": "C303"
         },
         {
-          "brand": "Humbrol",
-          "code": "149"
+          "brand": "mr_hobby",
+          "code": "C37"
         },
         {
-          "brand": "Vallejo",
-          "code": "71124"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C302"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H302"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA008"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS34092"
-        },
-        {
-          "brand": "Hataka",
-          "code": "56"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "230"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2106"
+          "brand": "ral",
+          "code": "RAL7011"
         }
       ],
       "confidence": null
@@ -3321,28 +2647,19 @@
     {
       "code": "AK11874",
       "name": "USMC Green FS 34095",
-      "type": "AIR",
       "hex": "#4f5023",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "RA16003(M0DERN"
+          "brand": "ammo",
+          "code": "MIG-0931"
         },
         {
-          "brand": "RAL",
-          "code": "RA1840HR"
+          "brand": "ammo",
+          "code": "MIG-0131"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS34095"
-        },
-        {
-          "brand": "Hataka",
-          "code": "59"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "209"
+          "brand": "ammo_atom",
+          "code": "ATOM-20071"
         }
       ],
       "confidence": null
@@ -3350,24 +2667,19 @@
     {
       "code": "AK11875",
       "name": "Field Green FS 34097",
-      "type": "AIR",
       "hex": "#60612d",
       "equivalents": [
         {
-          "brand": "Mr. Hobby",
-          "code": "C340"
+          "brand": "ammo",
+          "code": "MIG-0074"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H340"
+          "brand": "humbrol",
+          "code": "150"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS34097"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "231"
+          "brand": "vallejo",
+          "code": "76.063"
         }
       ],
       "confidence": null
@@ -3375,32 +2687,19 @@
     {
       "code": "AK11876",
       "name": "Green FS 34258",
-      "type": "AIR",
       "hex": "#767554",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71094"
+          "brand": "ammo",
+          "code": "MIG-0928"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA115"
+          "brand": "ammo",
+          "code": "MIG-0933"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS34258"
-        },
-        {
-          "brand": "Hataka",
-          "code": "93"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "233"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2153"
+          "brand": "vallejo",
+          "code": "71.247"
         }
       ],
       "confidence": null
@@ -3408,28 +2707,19 @@
     {
       "code": "AK11877",
       "name": "Aggressor Blue FS 35109",
-      "type": "AIR",
       "hex": "#396064",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71111"
+          "brand": "mr_hobby",
+          "code": "C337"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA404"
+          "brand": "tamiya",
+          "code": "XF63"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS35109"
-        },
-        {
-          "brand": "Hataka",
-          "code": "156"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "234"
+          "brand": "ammo",
+          "code": "MIG-0062"
         }
       ],
       "confidence": null
@@ -3437,20 +2727,19 @@
     {
       "code": "AK11878",
       "name": "Blue FS 35190",
-      "type": "AIR",
       "hex": "#588b93",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "70901"
+          "brand": "tamiya",
+          "code": "XF82"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS35190"
+          "brand": "gunze",
+          "code": "H308"
         },
         {
-          "brand": "Real Colors",
-          "code": "236"
+          "brand": "hobby_color",
+          "code": "H308"
         }
       ],
       "confidence": null
@@ -3458,36 +2747,19 @@
     {
       "code": "AK11879",
       "name": "Air Superiority Blue FS 35450",
-      "type": "AIR",
       "hex": "#82a6b9",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "47"
+          "brand": "mr_hobby",
+          "code": "C35"
         },
         {
-          "brand": "Vallejo",
-          "code": "71332"
+          "brand": "vallejo",
+          "code": "76.021"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA037"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS35450"
-        },
-        {
-          "brand": "Hataka",
-          "code": "155"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "239"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2145"
+          "brand": "ammo_atom",
+          "code": "ATOM-20126"
         }
       ],
       "confidence": null
@@ -3495,44 +2767,19 @@
     {
       "code": "AK11880",
       "name": "Duck Egg Blue FS 35622",
-      "type": "AIR",
       "hex": "#bec9bf",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "122"
+          "brand": "tamiya",
+          "code": "XF12"
         },
         {
-          "brand": "Vallejo",
-          "code": "71328"
+          "brand": "tamiya",
+          "code": "XF19"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C314"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H314"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA139"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS35622"
-        },
-        {
-          "brand": "Hataka",
-          "code": "92"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "241"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2154"
+          "brand": "vallejo",
+          "code": "71.307"
         }
       ],
       "confidence": null
@@ -3540,48 +2787,19 @@
     {
       "code": "AK11881",
       "name": "Medium Gunship Grey FS 36118",
-      "type": "AIR",
       "hex": "#54575f",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF24"
+          "brand": "vallejo",
+          "code": "69.059"
         },
         {
-          "brand": "Humbrol",
-          "code": "125"
+          "brand": "ammo",
+          "code": "MIG-0228"
         },
         {
-          "brand": "Vallejo",
-          "code": "71097"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C305"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H305"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA022"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS36118"
-        },
-        {
-          "brand": "Hataka",
-          "code": "31"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "244"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2144"
+          "brand": "ammo",
+          "code": "MIG-0239"
         }
       ],
       "confidence": null
@@ -3589,20 +2807,19 @@
     {
       "code": "AK11882",
       "name": "Have Glass Grey FS 36170",
-      "type": "AIR",
       "hex": "#656462",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS36170"
+          "brand": "vallejo",
+          "code": "70.879"
         },
         {
-          "brand": "Hataka",
-          "code": "58"
+          "brand": "vallejo",
+          "code": "70.921"
         },
         {
-          "brand": "Real Colors",
-          "code": "245"
+          "brand": "vallejo",
+          "code": "70.943"
         }
       ],
       "confidence": null
@@ -3610,32 +2827,19 @@
     {
       "code": "AK11883",
       "name": "F-15 Dark Grey (Mod Eagle)",
-      "type": "AIR",
       "hex": "#646e76",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71273"
+          "brand": "ral",
+          "code": "RAL5024"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA029"
+          "brand": "ammo",
+          "code": "MIG-0205"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS36176"
-        },
-        {
-          "brand": "Hataka",
-          "code": "158"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "246"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2143"
+          "brand": "gunze",
+          "code": "H306"
         }
       ],
       "confidence": null
@@ -3643,40 +2847,19 @@
     {
       "code": "AK11884",
       "name": "Dark Gull Grey FS 36231",
-      "type": "AIR",
       "hex": "#75797b",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "140"
+          "brand": "ammo",
+          "code": "MIG-0236"
         },
         {
-          "brand": "Vallejo",
-          "code": "71277"
+          "brand": "mr_hobby",
+          "code": "C31"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C317"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H317"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA033"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS36231"
-        },
-        {
-          "brand": "Hataka",
-          "code": "44"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "247"
+          "brand": "ral",
+          "code": "RAL7002"
         }
       ],
       "confidence": null
@@ -3684,32 +2867,19 @@
     {
       "code": "AK11885",
       "name": "Aggressor Grey FS 36251",
-      "type": "AIR",
       "hex": "#77787a",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71274"
+          "brand": "ral",
+          "code": "RAL7002"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA034"
+          "brand": "mr_hobby",
+          "code": "C31"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS36251"
-        },
-        {
-          "brand": "Hataka",
-          "code": "157"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "248"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2142"
+          "brand": "ammo",
+          "code": "MIG-0236"
         }
       ],
       "confidence": null
@@ -3717,44 +2887,19 @@
     {
       "code": "AK11886",
       "name": "Medium Grey FS 36270",
-      "type": "AIR",
       "hex": "#797e80",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "126"
+          "brand": "rlm",
+          "code": "RLM-01"
         },
         {
-          "brand": "Vallejo",
-          "code": "71275"
+          "brand": "rlm",
+          "code": "RLM-03"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C306"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H306"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA028"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS36270"
-        },
-        {
-          "brand": "Hataka",
-          "code": "54"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "249"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2141"
+          "brand": "ammo_atom",
+          "code": "ATOM-20133"
         }
       ],
       "confidence": null
@@ -3762,40 +2907,19 @@
     {
       "code": "AK11887",
       "name": "Dark Ghost Grey FS 36320",
-      "type": "AIR",
       "hex": "#7d8991",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "128"
+          "brand": "ral",
+          "code": "RAL7046"
         },
         {
-          "brand": "Vallejo",
-          "code": "71120"
+          "brand": "ammo",
+          "code": "MIG-0247"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C307"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H307"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA027"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS36320"
-        },
-        {
-          "brand": "Hataka",
-          "code": "35"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "251"
+          "brand": "ral",
+          "code": "RAL7036"
         }
       ],
       "confidence": null
@@ -3803,40 +2927,19 @@
     {
       "code": "AK11888",
       "name": "Light Ghost Grey FS 36375",
-      "type": "AIR",
       "hex": "#939ca1",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "127"
+          "brand": "vallejo",
+          "code": "70.925"
         },
         {
-          "brand": "Vallejo",
-          "code": "71615"
+          "brand": "ral",
+          "code": "RAL7045"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C308"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H308"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA026"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS36375"
-        },
-        {
-          "brand": "Hataka",
-          "code": "37"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "252"
+          "brand": "ammo",
+          "code": "MIG-0910"
         }
       ],
       "confidence": null
@@ -3844,40 +2947,19 @@
     {
       "code": "AK11889",
       "name": "Light",
-      "type": "AIR",
       "hex": "#bdc0bf",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "147"
+          "brand": "federal_standard",
+          "code": "FS17178"
         },
         {
-          "brand": "Vallejo",
-          "code": "71276"
+          "brand": "federal_standard",
+          "code": "FS36375"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C338"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H338"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA023"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS36495"
-        },
-        {
-          "brand": "Hataka",
-          "code": "50"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "253"
+          "brand": "gunze",
+          "code": "H346"
         }
       ],
       "confidence": null
@@ -3885,44 +2967,19 @@
     {
       "code": "AK11890",
       "name": "Camouflage Grey FS 36622",
-      "type": "AIR",
       "hex": "#bab8ab",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "28"
+          "brand": "vallejo",
+          "code": "69.003"
         },
         {
-          "brand": "Vallejo",
-          "code": "71296"
+          "brand": "ral",
+          "code": "RAL7032"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C311"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H311"
-        },
-        {
-          "brand": "Lifecolor",
-          "code": "UA021"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "FS36622"
-        },
-        {
-          "brand": "Hataka",
-          "code": "39"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "254"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2104"
+          "brand": "vallejo",
+          "code": "76.031"
         }
       ],
       "confidence": null
@@ -3930,28 +2987,19 @@
     {
       "code": "AK11891",
       "name": "IJN J3 Hai-iro (Grey)",
-      "type": "AIR",
       "hex": "#85877e",
       "equivalents": [
         {
-          "brand": "Mr. Hobby",
-          "code": "C35"
+          "brand": "ral",
+          "code": "RAL7050"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H61"
+          "brand": "ral",
+          "code": "RAL7001"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS36307"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "302"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2061"
+          "brand": "ral",
+          "code": "RAL7030"
         }
       ],
       "confidence": null
@@ -3959,20 +3007,19 @@
     {
       "code": "AK11892",
       "name": "IJN J3 SP (Amber Grey)",
-      "type": "AIR",
       "hex": "#8a836c",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71311"
+          "brand": "humbrol",
+          "code": "240"
         },
         {
-          "brand": "Real Colors",
-          "code": "303"
+          "brand": "ammo",
+          "code": "MIG-0114"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2062"
+          "brand": "vallejo",
+          "code": "69.032"
         }
       ],
       "confidence": null
@@ -3980,32 +3027,19 @@
     {
       "code": "AK11893",
       "name": "IJN D1 Deep Green Black",
-      "type": "AIR",
       "hex": "#272f28",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF11"
+          "brand": "vallejo",
+          "code": "70.892"
         },
         {
-          "brand": "Vallejo",
-          "code": "71325"
+          "brand": "vallejo",
+          "code": "70.896"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C15"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H59"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "304"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2063"
+          "brand": "gunze",
+          "code": "H78"
         }
       ],
       "confidence": null
@@ -4013,20 +3047,19 @@
     {
       "code": "AK11894",
       "name": "IJN D2 Green Black",
-      "type": "AIR",
       "hex": "#24302b",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71322"
+          "brand": "gunze",
+          "code": "H78"
         },
         {
-          "brand": "Real Colors",
-          "code": "305"
+          "brand": "hobby_color",
+          "code": "H78"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2064"
+          "brand": "vallejo",
+          "code": "70.892"
         }
       ],
       "confidence": null
@@ -4034,16 +3067,19 @@
     {
       "code": "AK11895",
       "name": "IJN Q1 Anti-Glare Blue-Black",
-      "type": "AIR",
       "hex": "#1a2021",
       "equivalents": [
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "C125"
+          "brand": "ammo",
+          "code": "MIG-0227"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2066"
+          "brand": "gunze",
+          "code": "H326"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H326"
         }
       ],
       "confidence": null
@@ -4051,20 +3087,19 @@
     {
       "code": "AK11896",
       "name": "IJN M3 (M) Mitsubishi Interior Green]",
-      "type": "AIR",
       "hex": "#5d5731",
       "equivalents": [
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "C126"
+          "brand": "vallejo",
+          "code": "76.063"
         },
         {
-          "brand": "Real Colors",
-          "code": "306"
+          "brand": "ammo",
+          "code": "MIG-0074"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2067"
+          "brand": "ammo",
+          "code": "MIG-0237"
         }
       ],
       "confidence": null
@@ -4072,20 +3107,19 @@
     {
       "code": "AK11897",
       "name": "IJN M3 (N) Nakajima Interior Green",
-      "type": "AIR",
       "hex": "#474028",
       "equivalents": [
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "C127"
+          "brand": "ammo",
+          "code": "MIG-0031"
         },
         {
-          "brand": "Real Colors",
-          "code": "307"
+          "brand": "ammo",
+          "code": "MIG-0111"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2068"
+          "brand": "ammo",
+          "code": "MIG-0925"
         }
       ],
       "confidence": null
@@ -4093,20 +3127,19 @@
     {
       "code": "AK11898",
       "name": "IJNJJA Aotake",
-      "type": "AIR",
       "hex": "#1a5366",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71419"
+          "brand": "mr_hobby",
+          "code": "C74"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C057"
+          "brand": "vallejo",
+          "code": "69.054"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "H063"
+          "brand": "vallejo",
+          "code": "70.840"
         }
       ],
       "confidence": null
@@ -4114,32 +3147,19 @@
     {
       "code": "AK11899",
       "name": "IJA #1 Hairyokushoku (Grey-Green)",
-      "type": "AIR",
       "hex": "#9e9d8d",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF12"
+          "brand": "vallejo",
+          "code": "71.280"
         },
         {
-          "brand": "Vallejo",
-          "code": "71326"
+          "brand": "vallejo",
+          "code": "71.122"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C56"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H62"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "328"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2261"
+          "brand": "vallejo",
+          "code": "71.279"
         }
       ],
       "confidence": null
@@ -4147,20 +3167,19 @@
     {
       "code": "AK11900",
       "name": "IJA #3 Hairanshoku (Grey Indigo)",
-      "type": "AIR",
       "hex": "#435251",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "77"
+          "brand": "ammo_atom",
+          "code": "ATOM-20157"
         },
         {
-          "brand": "Real Colors",
-          "code": "329"
+          "brand": "mr_hobby",
+          "code": "C37"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2262"
+          "brand": "vallejo",
+          "code": "71.049"
         }
       ],
       "confidence": null
@@ -4168,20 +3187,19 @@
     {
       "code": "AK11901",
       "name": "IJA #7 Ohryuko Nana Go Shoku",
-      "type": "AIR",
       "hex": "#474028",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71286"
+          "brand": "ammo",
+          "code": "MIG-0031"
         },
         {
-          "brand": "Real Colors",
-          "code": "330"
+          "brand": "ammo",
+          "code": "MIG-0111"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2263"
+          "brand": "ammo",
+          "code": "MIG-0925"
         }
       ],
       "confidence": null
@@ -4189,16 +3207,19 @@
     {
       "code": "AK11902",
       "name": "IJA #21 Midori iro (Green)",
-      "type": "AIR",
       "hex": "#2d3a2a",
       "equivalents": [
         {
-          "brand": "Real Colors",
-          "code": "331"
+          "brand": "rlm",
+          "code": "RLM-70"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2264"
+          "brand": "ral",
+          "code": "RAL6007"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0248"
         }
       ],
       "confidence": null
@@ -4206,16 +3227,19 @@
     {
       "code": "AK11903",
       "name": "IJA #27 Ao Midori iro (Blue-Green)",
-      "type": "AIR",
       "hex": "#142f28",
       "equivalents": [
         {
-          "brand": "Real Colors",
-          "code": "332"
+          "brand": "ammo_atom",
+          "code": "ATOM-20098"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2265"
+          "brand": "gunze",
+          "code": "H60"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H60"
         }
       ],
       "confidence": null
@@ -4223,16 +3247,19 @@
     {
       "code": "AK11904",
       "name": "IJA #29 Ki Midori iro (Yellow-Green)",
-      "type": "AIR",
       "hex": "#6d642a",
       "equivalents": [
         {
-          "brand": "Real Colors",
-          "code": "333"
+          "brand": "vallejo",
+          "code": "70.795"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2266"
+          "brand": "ammo_atom",
+          "code": "ATOM-20070"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0900"
         }
       ],
       "confidence": null
@@ -4240,16 +3267,19 @@
     {
       "code": "AK11905",
       "name": "IJA #30 Karekusa iro (Dry Grass)",
-      "type": "AIR",
       "hex": "#7a6d4f",
       "equivalents": [
         {
-          "brand": "Real Colors",
-          "code": "334"
+          "brand": "vallejo",
+          "code": "69.061"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2267"
+          "brand": "vallejo",
+          "code": "71.026"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0132"
         }
       ],
       "confidence": null
@@ -4257,16 +3287,19 @@
     {
       "code": "AK11906",
       "name": "IJA #31 Cha Kasshoku (Tea Colour)",
-      "type": "AIR",
       "hex": "#5c493f",
       "equivalents": [
         {
-          "brand": "Real Colors",
-          "code": "335"
+          "brand": "tamiya",
+          "code": "XF84"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2268"
+          "brand": "vallejo",
+          "code": "72.098"
+        },
+        {
+          "brand": "vallejo",
+          "code": "72.109"
         }
       ],
       "confidence": null
@@ -4274,36 +3307,39 @@
     {
       "code": "AK11907",
       "name": "Grey-Blue 1920s-1930s",
-      "type": "AIR",
       "hex": "#95a99d",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "mr_hobby",
+          "code": "C97"
+        },
+        {
+          "brand": "rlm",
+          "code": "RLM-78"
+        },
+        {
+          "brand": "rlm",
+          "code": "RLM-76-1"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "AK11908",
       "name": "AE-9/AII Light Grey",
-      "type": "AIR",
       "hex": "#cecfc7",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71414"
+          "brand": "vallejo",
+          "code": "71.327"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS25630"
+          "brand": "vallejo",
+          "code": "70.796"
         },
         {
-          "brand": "Hataka",
-          "code": "127"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "308"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2251"
+          "brand": "vallejo",
+          "code": "70.920"
         }
       ],
       "confidence": null
@@ -4311,24 +3347,19 @@
     {
       "code": "AK11909",
       "name": "AII Green",
-      "type": "AIR",
       "hex": "#2d361e",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71410"
+          "brand": "ammo",
+          "code": "MIG-0233"
         },
         {
-          "brand": "Hataka",
-          "code": "128"
+          "brand": "ammo",
+          "code": "MIG-0001"
         },
         {
-          "brand": "Real Colors",
-          "code": "309"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2252"
+          "brand": "ammo",
+          "code": "MIG-0065"
         }
       ],
       "confidence": null
@@ -4336,24 +3367,19 @@
     {
       "code": "AK11910",
       "name": "AII Light Blue",
-      "type": "AIR",
       "hex": "#7598a3",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71317"
+          "brand": "vallejo",
+          "code": "71.333"
         },
         {
-          "brand": "Hataka",
-          "code": "129"
+          "brand": "tamiya",
+          "code": "XF25"
         },
         {
-          "brand": "Real Colors",
-          "code": "310"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2253"
+          "brand": "ammo_atom",
+          "code": "ATOM-20138"
         }
       ],
       "confidence": null
@@ -4361,20 +3387,19 @@
     {
       "code": "AK11911",
       "name": "A-14 Interior Steel Grey",
-      "type": "AIR",
       "hex": "#5b676a",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71336"
+          "brand": "vallejo",
+          "code": "71.115"
         },
         {
-          "brand": "Real Colors",
-          "code": "319"
+          "brand": "mr_hobby",
+          "code": "C13"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2241"
+          "brand": "ammo",
+          "code": "MIG-0245"
         }
       ],
       "confidence": null
@@ -4382,20 +3407,19 @@
     {
       "code": "AK11912",
       "name": "A-18f Light Grey-Blue",
-      "type": "AIR",
       "hex": "#7d9990",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71413"
+          "brand": "mr_hobby",
+          "code": "C315"
         },
         {
-          "brand": "Real Colors",
-          "code": "311"
+          "brand": "mr_hobby",
+          "code": "C324"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2254"
+          "brand": "ammo",
+          "code": "MIG-0247"
         }
       ],
       "confidence": null
@@ -4403,20 +3427,19 @@
     {
       "code": "AK11913",
       "name": "A-19f Grass Green",
-      "type": "AIR",
       "hex": "#4c5838",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71411"
+          "brand": "ammo_atom",
+          "code": "ATOM-20079"
         },
         {
-          "brand": "Real Colors",
-          "code": "312"
+          "brand": "tamiya",
+          "code": "XF81"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2255"
+          "brand": "ammo",
+          "code": "MIG-0915"
         }
       ],
       "confidence": null
@@ -4424,32 +3447,19 @@
     {
       "code": "AK11914",
       "name": "A-Z1m Light Yellowish Brown",
-      "type": "AIR",
       "hex": "#847b5a",
       "equivalents": [
         {
-          "brand": "Humbrol",
-          "code": "72"
+          "brand": "ral",
+          "code": "RAL6040"
         },
         {
-          "brand": "Vallejo",
-          "code": "71415"
+          "brand": "vallejo",
+          "code": "71.028"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA039"
-        },
-        {
-          "brand": "Hataka",
-          "code": "74"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "314"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2248"
+          "brand": "vallejo",
+          "code": "71.029"
         }
       ],
       "confidence": null
@@ -4457,24 +3467,19 @@
     {
       "code": "AK11915",
       "name": "AMT-4 (A-24m) Green",
-      "type": "AIR",
       "hex": "#3c4724",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71301"
+          "brand": "ammo",
+          "code": "MIG-0206"
         },
         {
-          "brand": "Hataka",
-          "code": "73"
+          "brand": "ammo",
+          "code": "MIG-0230"
         },
         {
-          "brand": "Real Colors",
-          "code": "315"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2242"
+          "brand": "ammo_atom",
+          "code": "ATOM-20068"
         }
       ],
       "confidence": null
@@ -4482,24 +3487,19 @@
     {
       "code": "AK11916",
       "name": "AMT-7 Light Blue",
-      "type": "AIR",
       "hex": "#5f8498",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71318"
+          "brand": "gunze",
+          "code": "H308"
         },
         {
-          "brand": "Hataka",
-          "code": "72"
+          "brand": "hobby_color",
+          "code": "H308"
         },
         {
-          "brand": "Real Colors",
-          "code": "316"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2244"
+          "brand": "humbrol",
+          "code": "157"
         }
       ],
       "confidence": null
@@ -4507,24 +3507,19 @@
     {
       "code": "AK11917",
       "name": "AMT-11 Blue-Grey",
-      "type": "AIR",
       "hex": "#404f56",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71304"
+          "brand": "ammo",
+          "code": "MIG-0250"
         },
         {
-          "brand": "Hataka",
-          "code": "71"
+          "brand": "vallejo",
+          "code": "71.049"
         },
         {
-          "brand": "Real Colors",
-          "code": "317"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2245"
+          "brand": "gunze",
+          "code": "H337"
         }
       ],
       "confidence": null
@@ -4532,24 +3527,19 @@
     {
       "code": "AK11918",
       "name": "AMT-12 Dark Grey",
-      "type": "AIR",
       "hex": "#272f31",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71308"
+          "brand": "vallejo",
+          "code": "72.148"
         },
         {
-          "brand": "Hataka",
-          "code": "70"
+          "brand": "ral",
+          "code": "RAL7016"
         },
         {
-          "brand": "Real Colors",
-          "code": "318"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK2246"
+          "brand": "mr_hobby",
+          "code": "C361"
         }
       ],
       "confidence": null
@@ -4557,20 +3547,19 @@
     {
       "code": "AK11919",
       "name": "Radome & Wheel Hub Green",
-      "type": "AIR",
       "hex": "#2f572d",
       "equivalents": [
         {
-          "brand": "Mr. Hobby",
-          "code": "C66"
+          "brand": "ral",
+          "code": "RAL6005"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H26"
+          "brand": "ammo",
+          "code": "MIG-0060"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK2302"
+          "brand": "ammo_atom",
+          "code": "ATOM-20074"
         }
       ],
       "confidence": null
@@ -4578,12 +3567,19 @@
     {
       "code": "AK11920",
       "name": "Mig-25/Mig-31 Grey",
-      "type": "AIR",
       "hex": "#b6b7b2",
       "equivalents": [
         {
-          "brand": "Real Colors",
-          "code": "336"
+          "brand": "gunze",
+          "code": "H75"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H75"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20132"
         }
       ],
       "confidence": null
@@ -4591,12 +3587,19 @@
     {
       "code": "AK11301",
       "name": "WWI British Khaki Brown Base",
-      "type": "AFV",
       "hex": "#48392a",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK4042"
+          "brand": "ammo",
+          "code": "MIG-0007"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0255"
+        },
+        {
+          "brand": "gunze",
+          "code": "H81"
         }
       ],
       "confidence": null
@@ -4604,24 +3607,19 @@
     {
       "code": "AK11302",
       "name": "WWI French Milky Coffee",
-      "type": "AFV",
       "hex": "#8f724a",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71027"
+          "brand": "ral",
+          "code": "RAL1036"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA097"
+          "brand": "federal_standard",
+          "code": "FS30051"
         },
         {
-          "brand": "Federal Standard",
-          "code": "23448"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK4051"
+          "brand": "federal_standard",
+          "code": "FS30160"
         }
       ],
       "confidence": null
@@ -4629,20 +3627,19 @@
     {
       "code": "AK11303",
       "name": "WWI French Artillery Grey",
-      "type": "AFV",
       "hex": "#4a5360",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71257"
+          "brand": "tamiya",
+          "code": "XF77"
         },
         {
-          "brand": "Federal Standard",
-          "code": "36176"
+          "brand": "ammo",
+          "code": "MIG-0228"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK4052"
+          "brand": "vallejo",
+          "code": "69.021"
         }
       ],
       "confidence": null
@@ -4650,16 +3647,19 @@
     {
       "code": "AK11304",
       "name": "WWI French Brown",
-      "type": "AFV",
       "hex": "#422619",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "31090"
+          "brand": "ral",
+          "code": "RAL8014"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK4053"
+          "brand": "ammo",
+          "code": "MIG-0042"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20169"
         }
       ],
       "confidence": null
@@ -4667,20 +3667,19 @@
     {
       "code": "AK11305",
       "name": "WWI French Green 1",
-      "type": "AFV",
       "hex": "#313728",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71006"
+          "brand": "ral",
+          "code": "RAL6007"
         },
         {
-          "brand": "Federal Standard",
-          "code": "34097"
+          "brand": "ammo",
+          "code": "MIG-0001"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK4054"
+          "brand": "rlm",
+          "code": "RLM-70"
         }
       ],
       "confidence": null
@@ -4688,12 +3687,19 @@
     {
       "code": "AK11306",
       "name": "WWI French Green 2",
-      "type": "AFV",
       "hex": "#26241a",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK4055"
+          "brand": "humbrol",
+          "code": "163"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL6022"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C101"
         }
       ],
       "confidence": null
@@ -4701,20 +3707,19 @@
     {
       "code": "AK11307",
       "name": "RAL 7009 Hellgrau",
-      "type": "AFV",
       "hex": "#716132",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "7009"
+          "brand": "vallejo",
+          "code": "70.795"
         },
         {
-          "brand": "Hataka",
-          "code": "233"
+          "brand": "ammo_atom",
+          "code": "ATOM-20070"
         },
         {
-          "brand": "Real Colors",
-          "code": "54"
+          "brand": "ammo",
+          "code": "MIG-0900"
         }
       ],
       "confidence": null
@@ -4722,24 +3727,19 @@
     {
       "code": "AK11308",
       "name": "RAL 6007 Grin",
-      "type": "AFV",
       "hex": "#3e5530",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71019"
+          "brand": "ammo_atom",
+          "code": "ATOM-20074"
         },
         {
-          "brand": "RAL",
-          "code": "6007"
+          "brand": "ammo_atom",
+          "code": "ATOM-20075"
         },
         {
-          "brand": "Hataka",
-          "code": "298"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "49"
+          "brand": "vallejo",
+          "code": "70.922"
         }
       ],
       "confidence": null
@@ -4747,32 +3747,19 @@
     {
       "code": "AK11309",
       "name": "RAL 6003 Olivgriin opt: 1",
-      "type": "AFV",
       "hex": "#474924",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71092"
+          "brand": "ammo",
+          "code": "MIG-0019"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "H405"
+          "brand": "ammo",
+          "code": "MIG-0131"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA206"
-        },
-        {
-          "brand": "RAL",
-          "code": "6003"
-        },
-        {
-          "brand": "Hataka",
-          "code": "169"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "47"
+          "brand": "ammo",
+          "code": "MIG-0925"
         }
       ],
       "confidence": null
@@ -4780,12 +3767,19 @@
     {
       "code": "AK11310",
       "name": "RAL 6003 Olivgriin opt.2",
-      "type": "AFV",
       "hex": "#34301b",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK755"
+          "brand": "ammo",
+          "code": "MIG-0022"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0924"
+        },
+        {
+          "brand": "humbrol",
+          "code": "53"
         }
       ],
       "confidence": null
@@ -4793,16 +3787,19 @@
     {
       "code": "AK11311",
       "name": "RAL 6011 Resedagrin",
-      "type": "AFV",
       "hex": "#59613a",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "6011"
+          "brand": "ammo",
+          "code": "MIG-0220"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK715"
+          "brand": "ammo_atom",
+          "code": "ATOM-20101"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0926"
         }
       ],
       "confidence": null
@@ -4810,12 +3807,19 @@
     {
       "code": "AK11312",
       "name": "RAL 6011B Resedagriin",
-      "type": "AFV",
       "hex": "#525832",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK716"
+          "brand": "ammo_atom",
+          "code": "ATOM-20079"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20071"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0237"
         }
       ],
       "confidence": null
@@ -4823,28 +3827,19 @@
     {
       "code": "AK11313",
       "name": "RAL 7008 Graugriin",
-      "type": "AFV",
       "hex": "#776535",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71116"
+          "brand": "vallejo",
+          "code": "70.795"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA212"
+          "brand": "ammo_atom",
+          "code": "ATOM-20070"
         },
         {
-          "brand": "RAL",
-          "code": "7008"
-        },
-        {
-          "brand": "Hataka",
-          "code": "304"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "53"
+          "brand": "vallejo",
+          "code": "72.035"
         }
       ],
       "confidence": null
@@ -4852,32 +3847,39 @@
     {
       "code": "AK11314",
       "name": "RAL 7008 Graugriin Opt.2",
-      "type": "AFV",
       "hex": "#646937",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20070"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C38"
+        },
+        {
+          "brand": "vallejo",
+          "code": "72.035"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "AK11315",
       "name": "RAL 7017 Dunkelbraun",
-      "type": "AFV",
       "hex": "#453529",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71248"
+          "brand": "gunze",
+          "code": "H81"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA210"
+          "brand": "hobby_color",
+          "code": "H81"
         },
         {
-          "brand": "RAL",
-          "code": "7017"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "56"
+          "brand": "ammo",
+          "code": "MIG-0255"
         }
       ],
       "confidence": null
@@ -4885,32 +3887,19 @@
     {
       "code": "AK11316",
       "name": "RAL 7021 Dunkelgrau",
-      "type": "AFV",
       "hex": "#1c1e1d",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71056"
+          "brand": "humbrol",
+          "code": "33"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA207"
+          "brand": "vallejo",
+          "code": "70.954"
         },
         {
-          "brand": "RAL",
-          "code": "7021"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "34086"
-        },
-        {
-          "brand": "Hataka",
-          "code": "164"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "57"
+          "brand": "rlm",
+          "code": "RLM-22"
         }
       ],
       "confidence": null
@@ -4918,28 +3907,19 @@
     {
       "code": "AK11317",
       "name": "RAL 7027 Grau",
-      "type": "AFV",
       "hex": "#665a42",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71118"
+          "brand": "vallejo",
+          "code": "71.273"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA202"
+          "brand": "vallejo",
+          "code": "71.082"
         },
         {
-          "brand": "RAL",
-          "code": "7027"
-        },
-        {
-          "brand": "Hataka",
-          "code": "306"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "58"
+          "brand": "vallejo",
+          "code": "70.607"
         }
       ],
       "confidence": null
@@ -4947,36 +3927,19 @@
     {
       "code": "AK11318",
       "name": "RAL 7028 Dunkelgelb (Initial)",
-      "type": "AFV",
       "hex": "#8f7d4e",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71025"
+          "brand": "ammo_atom",
+          "code": "ATOM-20011"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "H403"
+          "brand": "ammo",
+          "code": "MIG-0102"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA204"
-        },
-        {
-          "brand": "RAL",
-          "code": "7028"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "33434"
-        },
-        {
-          "brand": "Hataka",
-          "code": "244"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "60"
+          "brand": "mr_hobby",
+          "code": "C21"
         }
       ],
       "confidence": null
@@ -4984,20 +3947,19 @@
     {
       "code": "AK11319",
       "name": "Dunkelgelb Ausgabe 1944",
-      "type": "AFV",
       "hex": "#ad9770",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "7028"
+          "brand": "ammo_atom",
+          "code": "ATOM-20173"
         },
         {
-          "brand": "Hataka",
-          "code": "250"
+          "brand": "ammo_atom",
+          "code": "ATOM-20012"
         },
         {
-          "brand": "Real Colors",
-          "code": "61"
+          "brand": "ammo",
+          "code": "MIG-0067"
         }
       ],
       "confidence": null
@@ -5005,12 +3967,19 @@
     {
       "code": "AK11320",
       "name": "RAL 7028 Dunkelgelb (Variant)",
-      "type": "AFV",
       "hex": "#ab8f55",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "7028"
+          "brand": "vallejo",
+          "code": "71.108"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20178"
+        },
+        {
+          "brand": "gunze",
+          "code": "H27"
         }
       ],
       "confidence": null
@@ -5018,24 +3987,19 @@
     {
       "code": "AK11323",
       "name": "RAL 6040 F9 Helloliv",
-      "type": "AFV",
       "hex": "#5c4d2e",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71247"
+          "brand": "vallejo",
+          "code": "72.062"
         },
         {
-          "brand": "RAL",
-          "code": "6040F9"
+          "brand": "ammo_atom",
+          "code": "ATOM-20069"
         },
         {
-          "brand": "Hataka",
-          "code": "281"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "90"
+          "brand": "ammo",
+          "code": "MIG-0107"
         }
       ],
       "confidence": null
@@ -5043,28 +4007,19 @@
     {
       "code": "AK11325",
       "name": "RAL 1039 F9 Sandbeige",
-      "type": "AFV",
       "hex": "#b2915d",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71244"
+          "brand": "gunze",
+          "code": "H79"
         },
         {
-          "brand": "RAL",
-          "code": "1039F9"
+          "brand": "hobby_color",
+          "code": "H79"
         },
         {
-          "brand": "Hataka",
-          "code": "278"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "88"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK728"
+          "brand": "vallejo",
+          "code": "71.108"
         }
       ],
       "confidence": null
@@ -5072,28 +4027,19 @@
     {
       "code": "AK11326",
       "name": "RAL 8031 F9 Sandbraun",
-      "type": "AFV",
       "hex": "#815c34",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71246"
+          "brand": "tamiya",
+          "code": "XF72"
         },
         {
-          "brand": "RAL",
-          "code": "8031F9"
+          "brand": "ammo_atom",
+          "code": "ATOM-20051"
         },
         {
-          "brand": "Hataka",
-          "code": "280"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "92"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK727"
+          "brand": "humbrol",
+          "code": "86"
         }
       ],
       "confidence": null
@@ -5101,32 +4047,19 @@
     {
       "code": "AK11327",
       "name": "RAL 8000 Gelbbraun",
-      "type": "AFV",
       "hex": "#795f38",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71272"
+          "brand": "tamiya",
+          "code": "XF72"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA203"
+          "brand": "vallejo",
+          "code": "70.795"
         },
         {
-          "brand": "RAL",
-          "code": "8000"
-        },
-        {
-          "brand": "Hataka",
-          "code": "303"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "63"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK702"
+          "brand": "vallejo",
+          "code": "72.035"
         }
       ],
       "confidence": null
@@ -5134,32 +4067,19 @@
     {
       "code": "AK11328",
       "name": "RAL 8012 Rotbraun",
-      "type": "AFV",
       "hex": "#5e2318",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71271"
+          "brand": "ral",
+          "code": "RAL8012"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA211"
+          "brand": "ammo",
+          "code": "MIG-0912"
         },
         {
-          "brand": "RAL",
-          "code": "8012"
-        },
-        {
-          "brand": "Hataka",
-          "code": "175"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "67"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK717"
+          "brand": "ammo",
+          "code": "MIG-0920"
         }
       ],
       "confidence": null
@@ -5167,20 +4087,19 @@
     {
       "code": "AK11329",
       "name": "RAL 8013 Rotbraun",
-      "type": "AFV",
       "hex": "#461b15",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "8013"
+          "brand": "vallejo",
+          "code": "72.111"
         },
         {
-          "brand": "Real Colors",
-          "code": "66"
+          "brand": "ammo",
+          "code": "MIG-0920"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK731"
+          "brand": "ammo_atom",
+          "code": "ATOM-20063"
         }
       ],
       "confidence": null
@@ -5188,36 +4107,19 @@
     {
       "code": "AK11330",
       "name": "RAL 8017 Rotbraun",
-      "type": "AFV",
       "hex": "#33241c",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71041"
+          "brand": "vallejo",
+          "code": "72.040"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "H406"
+          "brand": "vallejo",
+          "code": "72.043"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA205"
-        },
-        {
-          "brand": "RAL",
-          "code": "8017"
-        },
-        {
-          "brand": "Hataka",
-          "code": "147"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "68"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK718"
+          "brand": "ammo",
+          "code": "MIG-0042"
         }
       ],
       "confidence": null
@@ -5225,32 +4127,19 @@
     {
       "code": "AK11331",
       "name": "RAL 8020 Braun",
-      "type": "AFV",
       "hex": "#a17a51",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71117"
+          "brand": "ral",
+          "code": "RAL8001"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA201"
+          "brand": "ammo",
+          "code": "MIG-0102"
         },
         {
-          "brand": "RAL",
-          "code": "8020"
-        },
-        {
-          "brand": "Hataka",
-          "code": "35"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "69"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AKZOO"
+          "brand": "vallejo",
+          "code": "69.060"
         }
       ],
       "confidence": null
@@ -5258,32 +4147,19 @@
     {
       "code": "AK11333",
       "name": "Cremeweiss",
-      "type": "AFV",
       "hex": "#e5d8a8",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71075"
+          "brand": "ammo_atom",
+          "code": "ATOM-20005"
         },
         {
-          "brand": "RAL",
-          "code": "1001"
+          "brand": "ammo",
+          "code": "MIG-0115"
         },
         {
-          "brand": "Federal Standard",
-          "code": "23717"
-        },
-        {
-          "brand": "Hataka",
-          "code": "184"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "46"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK092"
+          "brand": "ammo_atom",
+          "code": "ATOM-20042"
         }
       ],
       "confidence": null
@@ -5291,16 +4167,19 @@
     {
       "code": "AK11334",
       "name": "Olive Drab Base",
-      "type": "AFV",
       "hex": "#4e4a2b",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "24098"
+          "brand": "ammo",
+          "code": "MIG-0019"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK134"
+          "brand": "ammo",
+          "code": "MIG-0056"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0131"
         }
       ],
       "confidence": null
@@ -5308,28 +4187,19 @@
     {
       "code": "AK11335",
       "name": "N'1 Light Green (FS34151)",
-      "type": "AFV",
       "hex": "#555624",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71137"
+          "brand": "ammo",
+          "code": "MIG-0931"
         },
         {
-          "brand": "Federal Standard",
-          "code": "34151"
+          "brand": "ammo_atom",
+          "code": "ATOM-20071"
         },
         {
-          "brand": "Hataka",
-          "code": "211"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "28"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK4214"
+          "brand": "ammo_atom",
+          "code": "ATOM-20069"
         }
       ],
       "confidence": null
@@ -5337,28 +4207,19 @@
     {
       "code": "AK11336",
       "name": "N'5 Earth Brown (FS30099)",
-      "type": "AFV",
       "hex": "#453325",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71290"
+          "brand": "humbrol",
+          "code": "10"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA087"
+          "brand": "ammo",
+          "code": "MIG-0070"
         },
         {
-          "brand": "Federal Standard",
-          "code": "30099"
-        },
-        {
-          "brand": "Hataka",
-          "code": "256"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK4221"
+          "brand": "gunze",
+          "code": "H81"
         }
       ],
       "confidence": null
@@ -5366,28 +4227,19 @@
     {
       "code": "AK11337",
       "name": "N'6 Earth Yellow (FS30257)",
-      "type": "AFV",
       "hex": "#996a36",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71291"
+          "brand": "ammo",
+          "code": "MIG-0197"
         },
         {
-          "brand": "Federal Standard",
-          "code": "30257"
+          "brand": "vallejo",
+          "code": "70.793"
         },
         {
-          "brand": "Hataka",
-          "code": "212"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "30"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK4222"
+          "brand": "vallejo",
+          "code": "76.040"
         }
       ],
       "confidence": null
@@ -5395,20 +4247,19 @@
     {
       "code": "AK11338",
       "name": "N'8 Earth Red (FS30117)",
-      "type": "AFV",
       "hex": "#5f3724",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71293"
+          "brand": "ammo",
+          "code": "MIG-0079"
         },
         {
-          "brand": "Federal Standard",
-          "code": "30117"
+          "brand": "ammo",
+          "code": "MIG-0133"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK4223"
+          "brand": "ammo_atom",
+          "code": "ATOM-20057"
         }
       ],
       "confidence": null
@@ -5416,16 +4267,19 @@
     {
       "code": "AK11339",
       "name": "N\"9 Olive Drab (FS33070)",
-      "type": "AFV",
       "hex": "#363723",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "33070"
+          "brand": "ammo",
+          "code": "MIG-0065"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK4211"
+          "brand": "humbrol",
+          "code": "53"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0924"
         }
       ],
       "confidence": null
@@ -5433,32 +4287,19 @@
     {
       "code": "AK11340",
       "name": "N913 Desert Sand (FS30279)",
-      "type": "AFV",
       "hex": "#9b7a5b",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71140"
+          "brand": "vallejo",
+          "code": "69.060"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "H346"
+          "brand": "vallejo",
+          "code": "71.340"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA089"
-        },
-        {
-          "brand": "Federal Standard",
-          "code": "30279"
-        },
-        {
-          "brand": "Hataka",
-          "code": "68"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK4224"
+          "brand": "mr_hobby",
+          "code": "C321"
         }
       ],
       "confidence": null
@@ -5466,16 +4307,19 @@
     {
       "code": "AK11341",
       "name": "Ocean Gray (FS35164)",
-      "type": "AFV",
       "hex": "#44525f",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "35164"
+          "brand": "tamiya",
+          "code": "XF77"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK4225"
+          "brand": "vallejo",
+          "code": "69.021"
+        },
+        {
+          "brand": "vallejo",
+          "code": "69.022"
         }
       ],
       "confidence": null
@@ -5483,32 +4327,19 @@
     {
       "code": "AK11342",
       "name": "Dark Green (FS34102)",
-      "type": "AFV",
       "hex": "#2f341e",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71289"
+          "brand": "ammo",
+          "code": "MIG-0233"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA002"
+          "brand": "vallejo",
+          "code": "70.740"
         },
         {
-          "brand": "Federal Standard",
-          "code": "34102"
-        },
-        {
-          "brand": "Hataka",
-          "code": "21"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "83"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK4231"
+          "brand": "ammo",
+          "code": "MIG-0001"
         }
       ],
       "confidence": null
@@ -5516,32 +4347,19 @@
     {
       "code": "AK11343",
       "name": "MERDC Sand (FS30277)",
-      "type": "AFV",
       "hex": "#7b6544",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71138"
+          "brand": "vallejo",
+          "code": "71.026"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA019"
+          "brand": "vallejo",
+          "code": "70.928"
         },
         {
-          "brand": "Federal Standard",
-          "code": "30277"
-        },
-        {
-          "brand": "Hataka",
-          "code": "187"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "84"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK4233"
+          "brand": "ral",
+          "code": "RAL8025"
         }
       ],
       "confidence": null
@@ -5549,32 +4367,19 @@
     {
       "code": "AK11344",
       "name": "Field Drab (FS30118)",
-      "type": "AFV",
       "hex": "#4e3a1f",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71139"
+          "brand": "tamiya",
+          "code": "XF64"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA016"
+          "brand": "ammo_atom",
+          "code": "ATOM-20065"
         },
         {
-          "brand": "Federal Standard",
-          "code": "30118"
-        },
-        {
-          "brand": "Hataka",
-          "code": "209"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "85"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK4234"
+          "brand": "gunze",
+          "code": "H66"
         }
       ],
       "confidence": null
@@ -5582,20 +4387,19 @@
     {
       "code": "AK11345",
       "name": "APC Interior Light Green",
-      "type": "AFV",
       "hex": "#c3c59d",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "24533"
+          "brand": "mr_hobby",
+          "code": "C261"
         },
         {
-          "brand": "Real Colors",
-          "code": "78"
+          "brand": "ral",
+          "code": "RAL1039"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK4012"
+          "brand": "rlm",
+          "code": "RLM-99"
         }
       ],
       "confidence": null
@@ -5603,28 +4407,19 @@
     {
       "code": "AK11346",
       "name": "Forest Green (FS34079)",
-      "type": "AFV",
       "hex": "#282e1b",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71294"
+          "brand": "rlm",
+          "code": "RLM-71"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA001"
+          "brand": "vallejo",
+          "code": "70.975"
         },
         {
-          "brand": "Federal Standard",
-          "code": "34079"
-        },
-        {
-          "brand": "Hataka",
-          "code": "16"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "27"
+          "brand": "ammo",
+          "code": "MIG-0112"
         }
       ],
       "confidence": null
@@ -5632,16 +4427,19 @@
     {
       "code": "AK11347",
       "name": "Australian Camouflage Brown",
-      "type": "AFV",
       "hex": "#9e8153",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "30219"
+          "brand": "vallejo",
+          "code": "69.060"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK4022"
+          "brand": "ammo",
+          "code": "MIG-0102"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C391"
         }
       ],
       "confidence": null
@@ -5649,16 +4447,19 @@
     {
       "code": "AK11348",
       "name": "Australian Camouflage Green",
-      "type": "AFV",
       "hex": "#555624",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "34088"
+          "brand": "ammo",
+          "code": "MIG-0931"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK4021"
+          "brand": "ammo_atom",
+          "code": "ATOM-20071"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20069"
         }
       ],
       "confidence": null
@@ -5666,28 +4467,19 @@
     {
       "code": "AK11349",
       "name": "CARC Tan 686A (FS33446)",
-      "type": "AFV",
       "hex": "#ac885c",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71122"
+          "brand": "ammo_atom",
+          "code": "ATOM-20178"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "53"
+          "brand": "ammo",
+          "code": "MIG-0088"
         },
         {
-          "brand": "Federal Standard",
-          "code": "33446"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "79"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK122"
+          "brand": "vallejo",
+          "code": "71.108"
         }
       ],
       "confidence": null
@@ -5695,24 +4487,39 @@
     {
       "code": "AK11350",
       "name": "Modern Spanish Green",
-      "type": "AFV",
       "hex": "#484c2b",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ammo",
+          "code": "MIG-0002"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0004"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20077"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "AK11351",
       "name": "Wood Base",
-      "type": "AFV",
       "hex": "#9a8962",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "23564"
+          "brand": "vallejo",
+          "code": "71.134"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK779"
+          "brand": "vallejo",
+          "code": "71.143"
+        },
+        {
+          "brand": "federal_standard",
+          "code": "FS30277"
         }
       ],
       "confidence": null
@@ -5720,16 +4527,19 @@
     {
       "code": "AK11352",
       "name": "IDF Modern Grey",
-      "type": "AFV",
       "hex": "#614f2e",
       "equivalents": [
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "C530"
+          "brand": "vallejo",
+          "code": "72.062"
         },
         {
-          "brand": "Real Colors",
-          "code": "94"
+          "brand": "ammo",
+          "code": "MIG-0071"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0107"
         }
       ],
       "confidence": null
@@ -5737,24 +4547,19 @@
     {
       "code": "AK11353",
       "name": "IDF Sand Grey 1970s-1980s",
-      "type": "AFV",
       "hex": "#695a38",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71142"
+          "brand": "ammo",
+          "code": "MIG-0900"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "C529"
+          "brand": "ammo",
+          "code": "MIG-0021"
         },
         {
-          "brand": "Testor",
-          "code": "2138"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "95"
+          "brand": "ammo",
+          "code": "MIG-0202"
         }
       ],
       "confidence": null
@@ -5762,20 +4567,19 @@
     {
       "code": "AK11354",
       "name": "IDF Early Sand Yellow",
-      "type": "AFV",
       "hex": "#867348",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71141"
+          "brand": "ammo",
+          "code": "MIG-0901"
         },
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "C528"
+          "brand": "federal_standard",
+          "code": "FS30051"
         },
         {
-          "brand": "Real Colors",
-          "code": "96"
+          "brand": "federal_standard",
+          "code": "FS30160"
         }
       ],
       "confidence": null
@@ -5783,24 +4587,39 @@
     {
       "code": "AK11355",
       "name": "IDF Green",
-      "type": "AFV",
       "hex": "#2d2f1e",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "rlm",
+          "code": "RLM-71"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.740"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.975"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "AK11356",
       "name": "SLA Blue",
-      "type": "AFV",
       "hex": "#3f5553",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "34158"
+          "brand": "mr_hobby",
+          "code": "C305"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK794"
+          "brand": "gunze",
+          "code": "H337"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H337"
         }
       ],
       "confidence": null
@@ -5808,12 +4627,19 @@
     {
       "code": "AK11357",
       "name": "LAF Green",
-      "type": "AFV",
       "hex": "#2a2c21",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK795"
+          "brand": "vallejo",
+          "code": "70.975"
+        },
+        {
+          "brand": "rlm",
+          "code": "RLM-71"
+        },
+        {
+          "brand": "gunze",
+          "code": "H64"
         }
       ],
       "confidence": null
@@ -5821,32 +4647,19 @@
     {
       "code": "AK11358",
       "name": "NATO Green",
-      "type": "AFV",
       "hex": "#283524",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71250"
+          "brand": "ammo",
+          "code": "MIG-0069"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA303"
+          "brand": "ammo",
+          "code": "MIG-0001"
         },
         {
-          "brand": "RAL",
-          "code": "6031F9"
-        },
-        {
-          "brand": "Hataka",
-          "code": "152"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "80"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK796"
+          "brand": "ammo",
+          "code": "MIG-0233"
         }
       ],
       "confidence": null
@@ -5854,32 +4667,19 @@
     {
       "code": "AK11359",
       "name": "NATO Brown",
-      "type": "AFV",
       "hex": "#3f2f23",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71249"
+          "brand": "gunze",
+          "code": "H37"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA302"
+          "brand": "hobby_color",
+          "code": "H37"
         },
         {
-          "brand": "RAL",
-          "code": "8027F9"
-        },
-        {
-          "brand": "Hataka",
-          "code": "188"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "81"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK797"
+          "brand": "ammo",
+          "code": "MIG-0108"
         }
       ],
       "confidence": null
@@ -5887,32 +4687,19 @@
     {
       "code": "AK11360",
       "name": "NATO Black",
-      "type": "AFV",
       "hex": "#202021",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71251"
+          "brand": "ral",
+          "code": "RAL5011"
         },
         {
-          "brand": "Lifecolor",
-          "code": "UA301"
+          "brand": "tamiya",
+          "code": "XF69"
         },
         {
-          "brand": "RAL",
-          "code": "9021F9"
-        },
-        {
-          "brand": "Hataka",
-          "code": "125"
-        },
-        {
-          "brand": "Real Colors",
-          "code": "82"
-        },
-        {
-          "brand": "AK Old Reference",
-          "code": "AK799"
+          "brand": "tamiya",
+          "code": "XF85"
         }
       ],
       "confidence": null
@@ -5920,16 +4707,19 @@
     {
       "code": "AK11361",
       "name": "New Iraqi Army Sand",
-      "type": "AFV",
       "hex": "#d3b47a",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "23531"
+          "brand": "ammo_atom",
+          "code": "ATOM-20006"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK725"
+          "brand": "vallejo",
+          "code": "71.075"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C313"
         }
       ],
       "confidence": null
@@ -5937,16 +4727,19 @@
     {
       "code": "AK11362",
       "name": "British Sand Yellow",
-      "type": "AFV",
       "hex": "#d99a42",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "33695"
+          "brand": "humbrol",
+          "code": "63"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK726"
+          "brand": "ammo_atom",
+          "code": "ATOM-20024"
+        },
+        {
+          "brand": "vallejo",
+          "code": "76.006"
         }
       ],
       "confidence": null
@@ -5954,20 +4747,19 @@
     {
       "code": "AK11363",
       "name": "French Army Desert Sand",
-      "type": "AFV",
       "hex": "#ca9e69",
       "equivalents": [
         {
-          "brand": "Vallejo",
-          "code": "71064"
+          "brand": "mr_hobby",
+          "code": "C51"
         },
         {
-          "brand": "Federal Standard",
-          "code": "17178"
+          "brand": "federal_standard",
+          "code": "FS20260"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK4081"
+          "brand": "ral",
+          "code": "RAL1002"
         }
       ],
       "confidence": null
@@ -5975,12 +4767,19 @@
     {
       "code": "AK11364",
       "name": "French",
-      "type": "AFV",
       "hex": "#454f45",
       "equivalents": [
         {
-          "brand": "AK Old Reference",
-          "code": "AK4082"
+          "brand": "vallejo",
+          "code": "71.265"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C303"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C129"
         }
       ],
       "confidence": null
@@ -5988,16 +4787,19 @@
     {
       "code": "AK11365",
       "name": "French Army Grey-Blue",
-      "type": "AFV",
       "hex": "#878782",
       "equivalents": [
         {
-          "brand": "Gunze / Mr. Hobby",
-          "code": "H417"
+          "brand": "ral",
+          "code": "RAL7001"
         },
         {
-          "brand": "AK Old Reference",
-          "code": "AK4083"
+          "brand": "ral",
+          "code": "RAL7050"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL7030"
         }
       ],
       "confidence": null

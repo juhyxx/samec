@@ -8,294 +8,840 @@
       "code": "RLM-01",
       "name": "Silber",
       "hex": "#797e80",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ak",
+          "code": "AK11886"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20133"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL7002"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-02",
       "name": "Grau (1940)",
       "hex": "#706956",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "vallejo",
+          "code": "70.884"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.987"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0028"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-02-1",
       "name": "Grau",
       "hex": "#716958",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "vallejo",
+          "code": "70.884"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.987"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0028"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-03",
       "name": "Silber",
       "hex": "#797e80",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ak",
+          "code": "AK11886"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20133"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL7002"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-04",
       "name": "Gelb (Signalgelb)",
       "hex": "#f1b136",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ral",
+          "code": "RAL1034"
+        },
+        {
+          "brand": "humbrol",
+          "code": "24"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0048"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-05",
       "name": "Elfenbein",
       "hex": "#cec458",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "vallejo",
+          "code": "70.915"
+        },
+        {
+          "brand": "vallejo",
+          "code": "72.005"
+        },
+        {
+          "brand": "vallejo",
+          "code": "72.034"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-11",
       "name": "Grau",
       "hex": "#6a6662",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ak",
+          "code": "AK11826"
+        },
+        {
+          "brand": "ak",
+          "code": "AK11882"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.615"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-21",
       "name": "Weil",
       "hex": "#fcf7f3",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ral",
+          "code": "RAL9016"
+        },
+        {
+          "brand": "gunze",
+          "code": "H21"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H21"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-22",
       "name": "Schwarz",
       "hex": "#171c1e",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "gunze",
+          "code": "H28"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H28"
+        },
+        {
+          "brand": "ak",
+          "code": "AK11316"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-23",
       "name": "Rot",
       "hex": "#c1391e",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "gunze",
+          "code": "H13"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H13"
+        },
+        {
+          "brand": "gunze",
+          "code": "H86"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-24",
       "name": "Dunkelblau",
       "hex": "#1a2b4d",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "vallejo",
+          "code": "70.930"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL5022"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL5026"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-25",
       "name": "Hellgrun",
       "hex": "#345454",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "gunze",
+          "code": "H337"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H337"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0018"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-26",
       "name": "Braun",
       "hex": "#803f22",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ammo",
+          "code": "MIG-0041"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0093"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.797"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-27",
       "name": "Gelb",
       "hex": "#fedf69",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "gunze",
+          "code": "H91"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H91"
+        },
+        {
+          "brand": "gunze",
+          "code": "H4"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-28",
       "name": "Weinrot",
       "hex": "#30140d",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ammo",
+          "code": "MIG-0919"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0911"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0043"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-41",
       "name": "Seidegrau",
       "hex": "#2c3234",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ral",
+          "code": "RAL7016"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C40"
+        },
+        {
+          "brand": "vallejo",
+          "code": "72.148"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-42",
       "name": "Gerategrau",
       "hex": "#374042",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "gunze",
+          "code": "H82"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H82"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C52"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-61",
       "name": "Dunkelbraun",
       "hex": "#373029",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ak",
+          "code": "AK11810"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C42"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL7022"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-62",
       "name": "Grin",
       "hex": "#403f2c",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ak",
+          "code": "AK11381"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.893"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0083"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-63-1",
       "name": "Gringrau",
       "hex": "#4f5040",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ak",
+          "code": "AK11863"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.248"
+        },
+        {
+          "brand": "ak",
+          "code": "AK11834"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-64",
       "name": "Lichtblau",
       "hex": "#92bdde",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "vallejo",
+          "code": "72.095"
+        },
+        {
+          "brand": "vallejo",
+          "code": "72.102"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20121"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-65",
       "name": "Hellblau",
       "hex": "#7dadd6",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20111"
+        },
+        {
+          "brand": "humbrol",
+          "code": "47"
+        },
+        {
+          "brand": "vallejo",
+          "code": "69.017"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-66",
       "name": "Schwarzgrau",
       "hex": "#171918",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "mr_hobby",
+          "code": "C2"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C28"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C33"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-67",
       "name": "Dunkelolivgriin",
       "hex": "#2f302c",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "mr_hobby",
+          "code": "C116"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.885"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL7022"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-68",
       "name": "Hellolivgriin",
       "hex": "#34392e",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "vallejo",
+          "code": "70.890"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0217"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.264"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-69",
       "name": "Lichtlohfarbe",
       "hex": "#e0a866",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ammo",
+          "code": "MIG-0106"
+        },
+        {
+          "brand": "vallejo",
+          "code": "69.034"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20021"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-70",
       "name": "Schwarzgriin",
       "hex": "#30362d",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "vallejo",
+          "code": "71.264"
+        },
+        {
+          "brand": "ak",
+          "code": "AK11305"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.890"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-71",
       "name": "Dunkelgrin",
       "hex": "#2b2c1d",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ak",
+          "code": "AK11355"
+        },
+        {
+          "brand": "ak",
+          "code": "AK11421"
+        },
+        {
+          "brand": "ak",
+          "code": "AK11427"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-75",
       "name": "Mittelgrau",
       "hex": "#2e2a2a",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20161"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL9017"
+        },
+        {
+          "brand": "gunze",
+          "code": "H72"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-76-1",
       "name": "Graublau",
       "hex": "#9aaea3",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "gunze",
+          "code": "H325"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H325"
+        },
+        {
+          "brand": "ak",
+          "code": "AK11907"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-77",
       "name": "Hellgrau",
       "hex": "#e2e4e3",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "humbrol",
+          "code": "196"
+        },
+        {
+          "brand": "federal_standard",
+          "code": "FS36628"
+        },
+        {
+          "brand": "gunze",
+          "code": "H95"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-78",
       "name": "Himmelblau",
       "hex": "#91a39f",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "vallejo",
+          "code": "70.838"
+        },
+        {
+          "brand": "ak",
+          "code": "AK11867"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.329"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-78-1",
       "name": "Blau",
       "hex": "#657997",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "humbrol",
+          "code": "157"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL4012"
+        },
+        {
+          "brand": "gunze",
+          "code": "H334"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-79",
       "name": "Sandgelb-Hell",
       "hex": "#c1935d",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "vallejo",
+          "code": "70.927"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0138"
+        },
+        {
+          "brand": "gunze",
+          "code": "H9"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-79-1",
       "name": "Sandgelb-braun",
       "hex": "#55442b",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ammo",
+          "code": "MIG-0107"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C43"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0187"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-80",
       "name": "Olivgriin",
       "hex": "#202d1f",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ak",
+          "code": "AK11371"
+        },
+        {
+          "brand": "ak",
+          "code": "AK11410"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C120"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-81",
       "name": "Dunkelgrin",
       "hex": "#3a382c",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "vallejo",
+          "code": "71.016"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.317"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL6008"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-81-1",
       "name": "Braunviolett",
       "hex": "#373029",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ak",
+          "code": "AK11810"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C42"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL7022"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-82",
       "name": "Dunkelgriin",
       "hex": "#272427",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ammo",
+          "code": "MIG-0218"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL5008"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL9004"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-82-1",
       "name": "Dunkelgrin",
       "hex": "#403f2c",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ak",
+          "code": "AK11381"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.893"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0083"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-83",
       "name": "Hellgruin",
       "hex": "#46553d",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "vallejo",
+          "code": "70.833"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C126"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C130"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "RLM-99",
       "name": "Hellgrinblau",
       "hex": "#b8ca9c",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ak",
+          "code": "AK11345"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20086"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C261"
+        }
+      ],
       "confidence": null
     }
   ]

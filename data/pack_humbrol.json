@@ -10,8 +10,16 @@
       "hex": "#575E58",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "RAL 9108"
+          "brand": "vallejo",
+          "code": "71.266"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.818"
+        },
+        {
+          "brand": "vallejo",
+          "code": "70.856"
         }
       ],
       "confidence": null
@@ -22,24 +30,16 @@
       "hex": "#067F36",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X5"
+          "brand": "ammo_atom",
+          "code": "ATOM-20090"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 14110"
+          "brand": "ral",
+          "code": "RAL6037"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H46"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C66"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 6029"
+          "brand": "federal_standard",
+          "code": "FS14062"
         }
       ],
       "confidence": null
@@ -50,32 +50,16 @@
       "hex": "#213C20",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X5"
+          "brand": "ak",
+          "code": "AK11412"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11146"
+          "brand": "ammo",
+          "code": "MIG-0069"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 14062"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H6"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C6"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 6005"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1111"
+          "brand": "mr_hobby",
+          "code": "C124"
         }
       ],
       "confidence": null
@@ -86,24 +70,16 @@
       "hex": "#6F7179",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF66"
+          "brand": "ammo",
+          "code": "MIG-0909"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 36187"
+          "brand": "ral",
+          "code": "RAL7015"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H22"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C13"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 7000"
+          "brand": "ammo",
+          "code": "MIG-0236"
         }
       ],
       "confidence": null
@@ -114,12 +90,12 @@
       "hex": "#AA0076",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 33531"
+          "brand": "federal_standard",
+          "code": "FS17100"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 1121"
+          "brand": "federal_standard",
+          "code": "FS37100"
         }
       ],
       "confidence": null
@@ -130,28 +106,16 @@
       "hex": "#AE5519",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 11101"
+          "brand": "ammo_atom",
+          "code": "ATOM-20170"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 10115"
+          "brand": "gunze",
+          "code": "H7"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H27"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C44"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 8003"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1127"
+          "brand": "hobby_color",
+          "code": "H7"
         }
       ],
       "confidence": null
@@ -162,28 +126,16 @@
       "hex": "#433425",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X9"
+          "brand": "ak",
+          "code": "AK11336"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 30108"
+          "brand": "gunze",
+          "code": "H81"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H7"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C7"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 8017"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1425"
+          "brand": "hobby_color",
+          "code": "H81"
         }
       ],
       "confidence": null
@@ -194,28 +146,16 @@
       "hex": "#DBDBDA",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 11209"
+          "brand": "vallejo",
+          "code": "71.299"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 17178"
+          "brand": "ammo_atom",
+          "code": "ATOM-20123"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H8"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C8"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9006"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1129"
+          "brand": "vallejo",
+          "code": "71.095"
         }
       ],
       "confidence": null
@@ -226,16 +166,16 @@
       "hex": "#A36319",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF6"
+          "brand": "ammo",
+          "code": "MIG-0197"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11197"
+          "brand": "ak",
+          "code": "AK11440"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C10"
+          "brand": "federal_standard",
+          "code": "FS20100"
         }
       ],
       "confidence": null
@@ -246,36 +186,16 @@
       "hex": "#144792",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X4"
+          "brand": "ral",
+          "code": "RAL5015"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11182"
+          "brand": "ral",
+          "code": "RAL5013"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 15052"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H15"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C65"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 5005"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1429"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9117"
+          "brand": "mr_hobby",
+          "code": "C5"
         }
       ],
       "confidence": null
@@ -286,28 +206,16 @@
       "hex": "#24305D",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X3"
+          "brand": "mr_hobby",
+          "code": "C80"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11189"
+          "brand": "vallejo",
+          "code": "70.753"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 15050"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H5"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C5"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 5022"
+          "brand": "mr_hobby",
+          "code": "C67"
         }
       ],
       "confidence": null
@@ -318,16 +226,16 @@
       "hex": "#AD6016",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X12"
+          "brand": "ammo_atom",
+          "code": "ATOM-20170"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C9"
+          "brand": "ammo",
+          "code": "MIG-0197"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 1132"
+          "brand": "federal_standard",
+          "code": "FS20109"
         }
       ],
       "confidence": null
@@ -338,28 +246,16 @@
       "hex": "#E5630D",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X6"
+          "brand": "ral",
+          "code": "RAL2000"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11080"
+          "brand": "ammo",
+          "code": "MIG-0129"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 12246"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H14"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 2004"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1442"
+          "brand": "federal_standard",
+          "code": "FS12197"
         }
       ],
       "confidence": null
@@ -370,36 +266,16 @@
       "hex": "#D81420",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X7"
+          "brand": "ral",
+          "code": "RAL3018"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11091"
+          "brand": "tamiya",
+          "code": "XF7"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11302"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H3"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C3"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 3000"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1142"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9279"
+          "brand": "ral",
+          "code": "RAL2002"
         }
       ],
       "confidence": null
@@ -410,28 +286,16 @@
       "hex": "#93191D",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 11095"
+          "brand": "ral",
+          "code": "RAL3003"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 10076"
+          "brand": "ral",
+          "code": "RAL3002"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H43"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 3004"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1460"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9002"
+          "brand": "ral",
+          "code": "RAL2013"
         }
       ],
       "confidence": null
@@ -442,24 +306,16 @@
       "hex": "#242222",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X1"
+          "brand": "gunze",
+          "code": "H304"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 17038"
+          "brand": "hobby_color",
+          "code": "H304"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H27"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C2"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9005"
+          "brand": "ral",
+          "code": "RAL5011"
         }
       ],
       "confidence": null
@@ -470,24 +326,16 @@
       "hex": "#FFFFFF",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X2"
+          "brand": "ak",
+          "code": "AK11372"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 17875"
+          "brand": "ammo",
+          "code": "MIG-0024"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H1"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C1"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9010"
+          "brand": "ammo",
+          "code": "MIG-0047"
         }
       ],
       "confidence": null
@@ -498,24 +346,16 @@
       "hex": "#DB0023",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 34424"
+          "brand": "federal_standard",
+          "code": "FS21310"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H74"
+          "brand": "federal_standard",
+          "code": "FS31302"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C26"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1109"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9036"
+          "brand": "ral",
+          "code": "RAL3018"
         }
       ],
       "confidence": null
@@ -526,20 +366,16 @@
       "hex": "#F8BF29",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 33538"
+          "brand": "ammo_atom",
+          "code": "ATOM-20020"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H34"
+          "brand": "ral",
+          "code": "RAL1023"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C113"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1017"
+          "brand": "rlm",
+          "code": "RLM-04"
         }
       ],
       "confidence": null
@@ -550,32 +386,16 @@
       "hex": "#223A7D",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF8"
+          "brand": "ral",
+          "code": "RAL5001"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11181"
+          "brand": "mr_hobby",
+          "code": "C65"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 35052"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H56"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C80"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 5019"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1415"
+          "brand": "mr_hobby",
+          "code": "C110"
         }
       ],
       "confidence": null
@@ -586,32 +406,16 @@
       "hex": "#9B681C",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF49"
+          "brand": "ak",
+          "code": "AK11440"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11126"
+          "brand": "ammo",
+          "code": "MIG-0197"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 30277"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H81"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C55"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 7008"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9160"
+          "brand": "federal_standard",
+          "code": "FS20100"
         }
       ],
       "confidence": null
@@ -622,28 +426,16 @@
       "hex": "#585456",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF54"
+          "brand": "vallejo",
+          "code": "70.992"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11018"
+          "brand": "vallejo",
+          "code": "70.995"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 36231"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H68"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C36"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 7031"
+          "brand": "federal_standard",
+          "code": "FS16515"
         }
       ],
       "confidence": null
@@ -654,24 +446,16 @@
       "hex": "#CDC1C1",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF55"
+          "brand": "mr_hobby",
+          "code": "C8"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11006"
+          "brand": "mr_hobby",
+          "code": "C159"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 36622"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H311"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C311"
+          "brand": "vallejo",
+          "code": "70.828"
         }
       ],
       "confidence": null
@@ -682,32 +466,16 @@
       "hex": "#85664D",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF52"
+          "brand": "vallejo",
+          "code": "70.928"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11127"
+          "brand": "vallejo",
+          "code": "69.061"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 30219"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H72"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C22"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 7006"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1120"
+          "brand": "vallejo",
+          "code": "70.876"
         }
       ],
       "confidence": null
@@ -718,24 +486,16 @@
       "hex": "#1E6846",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF58"
+          "brand": "ral",
+          "code": "RAL6029"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11150"
+          "brand": "gunze",
+          "code": "H94"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 34096"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H320"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C320"
+          "brand": "hobby_color",
+          "code": "H94"
         }
       ],
       "confidence": null
@@ -746,16 +506,16 @@
       "hex": "#63615D",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF25"
+          "brand": "ak",
+          "code": "AK11862"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 34159"
+          "brand": "vallejo",
+          "code": "70.470"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 7005"
+          "brand": "vallejo",
+          "code": "70.521"
         }
       ],
       "confidence": null
@@ -766,24 +526,16 @@
       "hex": "#41464E",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF24"
+          "brand": "vallejo",
+          "code": "71.063"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 36081"
+          "brand": "vallejo",
+          "code": "71.072"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C301"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1118"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9083"
+          "brand": "gunze",
+          "code": "H317"
         }
       ],
       "confidence": null
@@ -794,32 +546,16 @@
       "hex": "#1E1E1C",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 11029"
+          "brand": "ak",
+          "code": "AK11316"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 37038"
+          "brand": "vallejo",
+          "code": "70.954"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H12"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C33"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9011"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1101"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9065"
+          "brand": "ak",
+          "code": "AK11360"
         }
       ],
       "confidence": null
@@ -830,36 +566,16 @@
       "hex": "#FFFFFF",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF2"
+          "brand": "ak",
+          "code": "AK11372"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11001"
+          "brand": "ammo",
+          "code": "MIG-0024"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 37875"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H11"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C62"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9001"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1102"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9039"
+          "brand": "ammo",
+          "code": "MIG-0047"
         }
       ],
       "confidence": null
@@ -870,12 +586,16 @@
       "hex": "#AD6035",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X22"
+          "brand": "mr_hobby",
+          "code": "C10"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C46"
+          "brand": "gunze",
+          "code": "H10"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H10"
         }
       ],
       "confidence": null
@@ -884,7 +604,20 @@
       "code": "36",
       "name": "",
       "hex": "#D4E3A9",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ak",
+          "code": "AK11333"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20005"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0904"
+        }
+      ],
       "confidence": null
     },
     {
@@ -893,8 +626,16 @@
       "hex": "#5CA831",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "RAL 9012"
+          "brand": "ammo",
+          "code": "MIG-0124"
+        },
+        {
+          "brand": "federal_standard",
+          "code": "FS34095"
+        },
+        {
+          "brand": "federal_standard",
+          "code": "FS34097"
         }
       ],
       "confidence": null
@@ -905,20 +646,16 @@
       "hex": "#AA0415",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X15"
+          "brand": "federal_standard",
+          "code": "FS22190"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11137"
+          "brand": "ral",
+          "code": "RAL3003"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H16"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C64"
+          "brand": "ral",
+          "code": "RAL3002"
         }
       ],
       "confidence": null
@@ -929,28 +666,16 @@
       "hex": "#DB0040",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 16492"
+          "brand": "federal_standard",
+          "code": "FS21310"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H317"
+          "brand": "federal_standard",
+          "code": "FS31302"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C317"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 7032"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1481"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9086"
+          "brand": "federal_standard",
+          "code": "FS11136"
         }
       ],
       "confidence": null
@@ -961,8 +686,16 @@
       "hex": "#CEA1CF",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "RAL 9023"
+          "brand": "vallejo",
+          "code": "71.102"
+        },
+        {
+          "brand": "federal_standard",
+          "code": "FS17178"
+        },
+        {
+          "brand": "federal_standard",
+          "code": "FS36375"
         }
       ],
       "confidence": null
@@ -973,12 +706,16 @@
       "hex": "#DB0044",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "RAL 1452"
+          "brand": "federal_standard",
+          "code": "FS21310"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 9267"
+          "brand": "federal_standard",
+          "code": "FS31302"
+        },
+        {
+          "brand": "federal_standard",
+          "code": "FS11136"
         }
       ],
       "confidence": null
@@ -989,8 +726,16 @@
       "hex": "#E5630D",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "RAL 1211"
+          "brand": "ral",
+          "code": "RAL2000"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0129"
+        },
+        {
+          "brand": "federal_standard",
+          "code": "FS12197"
         }
       ],
       "confidence": null
@@ -1001,32 +746,16 @@
       "hex": "#63AFDD",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 11175"
+          "brand": "vallejo",
+          "code": "69.017"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 35450"
+          "brand": "vallejo",
+          "code": "69.018"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H45"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C20"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 5012"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1113"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9018"
+          "brand": "rlm",
+          "code": "RLM-65"
         }
       ],
       "confidence": null
@@ -1037,24 +766,16 @@
       "hex": "#368AB1",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X14"
+          "brand": "vallejo",
+          "code": "69.019"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H25"
+          "brand": "ral",
+          "code": "RAL5012"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C34"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 5002"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1452"
+          "brand": "federal_standard",
+          "code": "FS15450"
         }
       ],
       "confidence": null
@@ -1065,8 +786,16 @@
       "hex": "#AD6049",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X21"
+          "brand": "mr_hobby",
+          "code": "C10"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL3013"
+        },
+        {
+          "brand": "vallejo",
+          "code": "72.001"
         }
       ],
       "confidence": null
@@ -1077,24 +806,16 @@
       "hex": "#166249",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X13"
+          "brand": "ammo_atom",
+          "code": "ATOM-20096"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11184"
+          "brand": "federal_standard",
+          "code": "FS34092"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H88"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C76"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9116"
+          "brand": "ral",
+          "code": "RAL6029"
         }
       ],
       "confidence": null
@@ -1105,24 +826,16 @@
       "hex": "#363120",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X10"
+          "brand": "ammo",
+          "code": "MIG-0924"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11212"
+          "brand": "vallejo",
+          "code": "70.740"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 17200"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H76"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C61"
+          "brand": "vallejo",
+          "code": "72.036"
         }
       ],
       "confidence": null
@@ -1133,8 +846,16 @@
       "hex": "#DE9301",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 11194"
+          "brand": "ral",
+          "code": "RAL1007"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL1005"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL1006"
         }
       ],
       "confidence": null
@@ -1145,12 +866,16 @@
       "hex": "#B35919",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 11196"
+          "brand": "ammo_atom",
+          "code": "ATOM-20170"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 1133"
+          "brand": "gunze",
+          "code": "H7"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H7"
         }
       ],
       "confidence": null
@@ -1161,28 +886,16 @@
       "hex": "#AD6056",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF56"
+          "brand": "ral",
+          "code": "RAL8023"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11210"
+          "brand": "ral",
+          "code": "RAL3013"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H18"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C28"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9006"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1130"
+          "brand": "vallejo",
+          "code": "72.001"
         }
       ],
       "confidence": null
@@ -1193,8 +906,16 @@
       "hex": "#EDAEB3",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "RAL 1408"
+          "brand": "ral",
+          "code": "RAL3015"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C112"
+        },
+        {
+          "brand": "federal_standard",
+          "code": "FS20266"
         }
       ],
       "confidence": null
@@ -1205,8 +926,16 @@
       "hex": "#BC4B95",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "RAL 9027"
+          "brand": "ammo_atom",
+          "code": "ATOM-20153"
+        },
+        {
+          "brand": "vallejo",
+          "code": "69.057"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20151"
         }
       ],
       "confidence": null
@@ -1217,24 +946,16 @@
       "hex": "#B91B1B",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF7"
+          "brand": "federal_standard",
+          "code": "FS22190"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11090"
+          "brand": "ral",
+          "code": "RAL3031"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H13"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 3000"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9005"
+          "brand": "ammo_atom",
+          "code": "ATOM-20035"
         }
       ],
       "confidence": null
@@ -1245,24 +966,16 @@
       "hex": "#EB8D54",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 11056"
+          "brand": "ak",
+          "code": "AK11382"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H44"
+          "brand": "vallejo",
+          "code": "70.911"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C51"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1126"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9032"
+          "brand": "ak",
+          "code": "AK11832"
         }
       ],
       "confidence": null
@@ -1273,24 +986,16 @@
       "hex": "#AD5527",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 11119"
+          "brand": "federal_standard",
+          "code": "FS20109"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 33275"
+          "brand": "federal_standard",
+          "code": "FS30045"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H66"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 8023"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9043"
+          "brand": "federal_standard",
+          "code": "FS30099"
         }
       ],
       "confidence": null
@@ -1301,20 +1006,16 @@
       "hex": "#D69846",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF59"
+          "brand": "ak",
+          "code": "AK11362"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11118"
+          "brand": "ammo_atom",
+          "code": "ATOM-20024"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 30257"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9032"
+          "brand": "vallejo",
+          "code": "76.006"
         }
       ],
       "confidence": null
@@ -1325,28 +1026,16 @@
       "hex": "#AD6064",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF12"
+          "brand": "ral",
+          "code": "RAL8023"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 36496"
+          "brand": "ammo_atom",
+          "code": "ATOM-20036"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H335"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C335"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 7001"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9038"
+          "brand": "ral",
+          "code": "RAL3013"
         }
       ],
       "confidence": null
@@ -1357,20 +1046,16 @@
       "hex": "#CADAD5",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 11132"
+          "brand": "vallejo",
+          "code": "72.042"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H67"
+          "brand": "vallejo",
+          "code": "72.113"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 6027"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9288"
+          "brand": "vallejo",
+          "code": "71.056"
         }
       ],
       "confidence": null
@@ -1381,28 +1066,16 @@
       "hex": "#414345",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF65"
+          "brand": "federal_standard",
+          "code": "FS36099"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 34087"
+          "brand": "vallejo",
+          "code": "71.124"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H78"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C38"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 7010"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9083"
+          "brand": "mr_hobby",
+          "code": "C61"
         }
       ],
       "confidence": null
@@ -1413,24 +1086,16 @@
       "hex": "#2E3B40",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF63"
+          "brand": "mr_hobby",
+          "code": "C71"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11025"
+          "brand": "ak",
+          "code": "AK11864"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H32"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 7024"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9226"
+          "brand": "mr_hobby",
+          "code": "C333"
         }
       ],
       "confidence": null
@@ -1441,24 +1106,16 @@
       "hex": "#2B1D46",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X16"
+          "brand": "ral",
+          "code": "RAL5022"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11073"
+          "brand": "vallejo",
+          "code": "72.088"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 17100"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C67"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9027"
+          "brand": "mr_hobby",
+          "code": "C322"
         }
       ],
       "confidence": null
@@ -1469,36 +1126,16 @@
       "hex": "#FFD902",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X8"
+          "brand": "federal_standard",
+          "code": "FS17043"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11044"
+          "brand": "tamiya",
+          "code": "XF3"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 13591"
-        },
-        {
-          "brand": "Gunze Sangyo",
-          "code": "H4"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C4"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1018"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1107"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9008"
+          "brand": "federal_standard",
+          "code": "FS13538"
         }
       ],
       "confidence": null
@@ -1509,20 +1146,16 @@
       "hex": "#985435",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF68"
+          "brand": "tamiya",
+          "code": "XF52"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 3009"
+          "brand": "vallejo",
+          "code": "76.040"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 1464"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9071"
+          "brand": "federal_standard",
+          "code": "FS20109"
         }
       ],
       "confidence": null
@@ -1557,20 +1190,16 @@
       "hex": "#90484D",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF9"
+          "brand": "ral",
+          "code": "RAL4002"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H13"
+          "brand": "vallejo",
+          "code": "69.067"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 1105"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9071"
+          "brand": "vallejo",
+          "code": "69.009"
         }
       ],
       "confidence": null
@@ -1581,8 +1210,16 @@
       "hex": "#FFD740",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 11033"
+          "brand": "mr_hobby",
+          "code": "C4"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20019"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C48"
         }
       ],
       "confidence": null
@@ -1593,24 +1230,16 @@
       "hex": "#5E5AAD",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 34077"
+          "brand": "ammo",
+          "code": "MIG-0257"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H59"
+          "brand": "vallejo",
+          "code": "76.076"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C15"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 6031"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9269"
+          "brand": "ammo_atom",
+          "code": "ATOM-20106"
         }
       ],
       "confidence": null
@@ -1621,16 +1250,16 @@
       "hex": "#546C51",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF26"
+          "brand": "mr_hobby",
+          "code": "C122"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11036"
+          "brand": "gunze",
+          "code": "H336"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 34115"
+          "brand": "hobby_color",
+          "code": "H336"
         }
       ],
       "confidence": null
@@ -1641,12 +1270,16 @@
       "hex": "#585F6F",
       "equivalents": [
         {
-          "brand": "Gunze Sangyo",
-          "code": "H54"
+          "brand": "mr_hobby",
+          "code": "C13"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C14"
+          "brand": "ammo",
+          "code": "MIG-0908"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL7037"
         }
       ],
       "confidence": null
@@ -1657,20 +1290,16 @@
       "hex": "#595C5E",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 36118"
+          "brand": "ammo",
+          "code": "MIG-0239"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H305"
+          "brand": "federal_standard",
+          "code": "FS16473"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C305"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 7012"
+          "brand": "federal_standard",
+          "code": "FS36300"
         }
       ],
       "confidence": null
@@ -1681,24 +1310,16 @@
       "hex": "#9AB3C4",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF53"
+          "brand": "vallejo",
+          "code": "72.095"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11114"
+          "brand": "vallejo",
+          "code": "72.102"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 26320"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C307"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1455"
+          "brand": "ammo",
+          "code": "MIG-0203"
         }
       ],
       "confidence": null
@@ -1709,12 +1330,16 @@
       "hex": "#FFFFFF",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 27875"
+          "brand": "ak",
+          "code": "AK11372"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 9010"
+          "brand": "ammo",
+          "code": "MIG-0024"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0047"
         }
       ],
       "confidence": null
@@ -1725,16 +1350,16 @@
       "hex": "#337330",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 11085"
+          "brand": "ral",
+          "code": "RAL6001"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 6001"
+          "brand": "ral",
+          "code": "RAL6010"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 1111"
+          "brand": "ral",
+          "code": "RAL6025"
         }
       ],
       "confidence": null
@@ -1745,12 +1370,16 @@
       "hex": "#D24225",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 20109"
+          "brand": "ammo_atom",
+          "code": "ATOM-20174"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 2010"
+          "brand": "gunze",
+          "code": "H23"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H23"
         }
       ],
       "confidence": null
@@ -1761,16 +1390,16 @@
       "hex": "#84171E",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 30076"
+          "brand": "ral",
+          "code": "RAL3004"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H333"
+          "brand": "vallejo",
+          "code": "72.083"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 9135"
+          "brand": "ral",
+          "code": "RAL3032"
         }
       ],
       "confidence": null
@@ -1779,7 +1408,20 @@
       "code": "135",
       "name": "",
       "hex": "#AD6135",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "mr_hobby",
+          "code": "C10"
+        },
+        {
+          "brand": "gunze",
+          "code": "H10"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H10"
+        }
+      ],
       "confidence": null
     },
     {
@@ -1788,32 +1430,16 @@
       "hex": "#DBDBDA",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF14"
+          "brand": "vallejo",
+          "code": "71.299"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 36495"
+          "brand": "ammo_atom",
+          "code": "ATOM-20123"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H338"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C338"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 7035"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1117"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9090"
+          "brand": "vallejo",
+          "code": "71.095"
         }
       ],
       "confidence": null
@@ -1824,28 +1450,16 @@
       "hex": "#FDDE1E",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF15"
+          "brand": "ammo_atom",
+          "code": "ATOM-20018"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 33613"
+          "brand": "ral",
+          "code": "RAL1021"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H318"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C318"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1125"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9143"
+          "brand": "ral",
+          "code": "RAL1017"
         }
       ],
       "confidence": null
@@ -1856,12 +1470,16 @@
       "hex": "#5E5E22",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 34127"
+          "brand": "ammo_atom",
+          "code": "ATOM-20072"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 6003"
+          "brand": "ak",
+          "code": "AK11875"
+        },
+        {
+          "brand": "ak",
+          "code": "AK11335"
         }
       ],
       "confidence": null
@@ -1872,28 +1490,16 @@
       "hex": "#F6B203",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 33538"
+          "brand": "ral",
+          "code": "RAL1037"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H413"
+          "brand": "ral",
+          "code": "RAL1003"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C113"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1017"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1107"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9008"
+          "brand": "federal_standard",
+          "code": "FS13538"
         }
       ],
       "confidence": null
@@ -1904,20 +1510,16 @@
       "hex": "#DB0156",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF53"
+          "brand": "federal_standard",
+          "code": "FS21310"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 36173"
+          "brand": "federal_standard",
+          "code": "FS31302"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C37"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 7031"
+          "brand": "federal_standard",
+          "code": "FS11136"
         }
       ],
       "confidence": null
@@ -1928,20 +1530,16 @@
       "hex": "#637E97",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 11164"
+          "brand": "gunze",
+          "code": "H334"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 35189"
+          "brand": "hobby_color",
+          "code": "H334"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C367"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 5014"
+          "brand": "rlm",
+          "code": "RLM-78-1"
         }
       ],
       "confidence": null
@@ -1952,16 +1550,16 @@
       "hex": "#4CAF26",
       "equivalents": [
         {
-          "brand": "Mr. Hobby",
-          "code": "C54"
+          "brand": "federal_standard",
+          "code": "FS34108"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 1461"
+          "brand": "federal_standard",
+          "code": "FS24272"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 9291"
+          "brand": "federal_standard",
+          "code": "FS34084"
         }
       ],
       "confidence": null
@@ -1972,20 +1570,16 @@
       "hex": "#28241B",
       "equivalents": [
         {
-          "brand": "Federal Standard",
-          "code": "FS 34079"
+          "brand": "ak",
+          "code": "AK11306"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H330"
+          "brand": "ral",
+          "code": "RAL6022"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C330"
-        },
-        {
-          "brand": "British Standard",
-          "code": "BS641"
+          "brand": "mr_hobby",
+          "code": "C101"
         }
       ],
       "confidence": null
@@ -1994,7 +1588,20 @@
       "code": "872",
       "name": "",
       "hex": "#A06845",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "vallejo",
+          "code": "72.001"
+        },
+        {
+          "brand": "vallejo",
+          "code": "72.071"
+        },
+        {
+          "brand": "vallejo",
+          "code": "72.108"
+        }
+      ],
       "confidence": null
     },
     {
@@ -2003,24 +1610,16 @@
       "hex": "#87563B",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF52"
+          "brand": "ammo_atom",
+          "code": "ATOM-20051"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 30117"
+          "brand": "ammo_atom",
+          "code": "ATOM-20054"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C43"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1120"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9246"
+          "brand": "ammo",
+          "code": "MIG-0139"
         }
       ],
       "confidence": null
@@ -2031,24 +1630,16 @@
       "hex": "#EBEFF3",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X11"
+          "brand": "mr_hobby",
+          "code": "C183"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 17178"
+          "brand": "ral",
+          "code": "RAL9002"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H8"
-        },
-        {
-          "brand": "Mr. Hobby",
-          "code": "C8"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1129"
+          "brand": "ral",
+          "code": "RAL9003"
         }
       ],
       "confidence": null
@@ -2059,24 +1650,16 @@
       "hex": "#E2E3E3",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF66"
+          "brand": "rlm",
+          "code": "RLM-77"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11012"
+          "brand": "federal_standard",
+          "code": "FS36628"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 7035"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1455"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9090"
+          "brand": "gunze",
+          "code": "H95"
         }
       ],
       "confidence": null
@@ -2087,24 +1670,16 @@
       "hex": "#EDAEB3",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "X17"
+          "brand": "ral",
+          "code": "RAL3015"
         },
         {
-          "brand": "Federal Standard",
-          "code": "FS 11062"
+          "brand": "mr_hobby",
+          "code": "C112"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 4502"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1447"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9281"
+          "brand": "federal_standard",
+          "code": "FS20266"
         }
       ],
       "confidence": null
@@ -2115,16 +1690,16 @@
       "hex": "#1A1514",
       "equivalents": [
         {
-          "brand": "Gunze Sangyo",
-          "code": "H28"
+          "brand": "ammo",
+          "code": "MIG-0095"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C78"
+          "brand": "ammo_atom",
+          "code": "ATOM-20162"
         },
         {
-          "brand": "RAL",
-          "code": "RAL 9065"
+          "brand": "ak",
+          "code": "AK11418"
         }
       ],
       "confidence": null
@@ -2133,7 +1708,20 @@
       "code": "208",
       "name": "",
       "hex": "#5CA831",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ammo",
+          "code": "MIG-0124"
+        },
+        {
+          "brand": "federal_standard",
+          "code": "FS34095"
+        },
+        {
+          "brand": "federal_standard",
+          "code": "FS34097"
+        }
+      ],
       "confidence": null
     },
     {
@@ -2142,8 +1730,16 @@
       "hex": "#C1181B",
       "equivalents": [
         {
-          "brand": "RAL",
-          "code": "RAL 3001"
+          "brand": "federal_standard",
+          "code": "FS22190"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL2002"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20035"
         }
       ],
       "confidence": null
@@ -2152,14 +1748,40 @@
       "code": "222",
       "name": "",
       "hex": "#1A408B",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ral",
+          "code": "RAL5013"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C65"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C110"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "224",
       "name": "",
       "hex": "#77776D",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20078"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C31"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C60"
+        }
+      ],
       "confidence": null
     },
     {
@@ -2168,24 +1790,16 @@
       "hex": "#113F4C",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF18"
+          "brand": "vallejo",
+          "code": "70.898"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H56"
+          "brand": "vallejo",
+          "code": "70.753"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C72"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 1415"
-        },
-        {
-          "brand": "RAL",
-          "code": "RAL 9230"
+          "brand": "ral",
+          "code": "RAL6004"
         }
       ],
       "confidence": null
@@ -2194,14 +1808,40 @@
       "code": "237",
       "name": "",
       "hex": "#B7A889",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ammo",
+          "code": "MIG-0009"
+        },
+        {
+          "brand": "tamiya",
+          "code": "XF78"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0057"
+        }
+      ],
       "confidence": null
     },
     {
       "code": "239",
       "name": "",
       "hex": "#003E3E",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "federal_standard",
+          "code": "FS34128"
+        },
+        {
+          "brand": "ammo_atom",
+          "code": "ATOM-20092"
+        },
+        {
+          "brand": "tamiya",
+          "code": "XF11"
+        }
+      ],
       "confidence": null
     },
     {
@@ -2210,12 +1850,16 @@
       "hex": "#86846D",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF22"
+          "brand": "ak",
+          "code": "AK11892"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C60"
+          "brand": "vallejo",
+          "code": "69.032"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL7048"
         }
       ],
       "confidence": null
@@ -2226,16 +1870,16 @@
       "hex": "#605F50",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF27"
+          "brand": "vallejo",
+          "code": "71.045"
         },
         {
-          "brand": "Gunze Sangyo",
-          "code": "H65"
+          "brand": "vallejo",
+          "code": "71.132"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C18"
+          "brand": "mr_hobby",
+          "code": "C25"
         }
       ],
       "confidence": null
@@ -2246,12 +1890,16 @@
       "hex": "#405028",
       "equivalents": [
         {
-          "brand": "Gunze Sangyo",
-          "code": "H64"
+          "brand": "ammo_atom",
+          "code": "ATOM-20077"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C17"
+          "brand": "ammo",
+          "code": "MIG-0002"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0004"
         }
       ],
       "confidence": null
@@ -2262,8 +1910,16 @@
       "hex": "#464A4C",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF26"
+          "brand": "gunze",
+          "code": "H317"
+        },
+        {
+          "brand": "hobby_color",
+          "code": "H317"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL7013"
         }
       ],
       "confidence": null
@@ -2274,8 +1930,16 @@
       "hex": "#4F5750",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF27"
+          "brand": "ral",
+          "code": "RAL7012"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0193"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.337"
         }
       ],
       "confidence": null
@@ -2286,8 +1950,16 @@
       "hex": "#DB0246",
       "equivalents": [
         {
-          "brand": "Mr. Hobby",
-          "code": "C37"
+          "brand": "federal_standard",
+          "code": "FS21310"
+        },
+        {
+          "brand": "federal_standard",
+          "code": "FS31302"
+        },
+        {
+          "brand": "federal_standard",
+          "code": "FS11136"
         }
       ],
       "confidence": null
@@ -2298,8 +1970,16 @@
       "hex": "#C5CAC5",
       "equivalents": [
         {
-          "brand": "Mr. Hobby",
-          "code": "C117"
+          "brand": "vallejo",
+          "code": "71.341"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.023"
+        },
+        {
+          "brand": "vallejo",
+          "code": "72.115"
         }
       ],
       "confidence": null
@@ -2310,8 +1990,16 @@
       "hex": "#96AAAC",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF23"
+          "brand": "mr_hobby",
+          "code": "C104"
+        },
+        {
+          "brand": "tamiya",
+          "code": "XF83"
+        },
+        {
+          "brand": "tamiya",
+          "code": "XF54"
         }
       ],
       "confidence": null
@@ -2322,12 +2010,16 @@
       "hex": "#A89546",
       "equivalents": [
         {
-          "brand": "Gunze Sangyo",
-          "code": "H66"
+          "brand": "ammo_atom",
+          "code": "ATOM-20172"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C119"
+          "brand": "vallejo",
+          "code": "70.792"
+        },
+        {
+          "brand": "mr_hobby",
+          "code": "C27"
         }
       ],
       "confidence": null
@@ -2338,8 +2030,16 @@
       "hex": "#534548",
       "equivalents": [
         {
-          "brand": "Mr. Hobby",
-          "code": "C121"
+          "brand": "ak",
+          "code": "AK11814"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.081"
+        },
+        {
+          "brand": "ammo",
+          "code": "MIG-0192"
         }
       ],
       "confidence": null
@@ -2350,12 +2050,16 @@
       "hex": "#53674A",
       "equivalents": [
         {
-          "brand": "Tamiya",
-          "code": "XF27"
+          "brand": "mr_hobby",
+          "code": "C122"
         },
         {
-          "brand": "Mr. Hobby",
-          "code": "C122"
+          "brand": "tamiya",
+          "code": "XF62"
+        },
+        {
+          "brand": "ral",
+          "code": "RAL6011"
         }
       ],
       "confidence": null
@@ -2364,7 +2068,20 @@
       "code": "83",
       "name": "",
       "hex": "#545243",
-      "equivalents": [],
+      "equivalents": [
+        {
+          "brand": "ak",
+          "code": "AK11849"
+        },
+        {
+          "brand": "ak",
+          "code": "AK11863"
+        },
+        {
+          "brand": "vallejo",
+          "code": "71.287"
+        }
+      ],
       "confidence": null
     }
   ]
