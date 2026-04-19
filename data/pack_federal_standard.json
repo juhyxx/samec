@@ -1,0 +1,1345 @@
+{
+  "brand": "Federal Standard",
+  "brand_id": "federal_standard",
+  "source": "data/pack_federal_standard.json",
+  "count": 191,
+  "colors": [
+    {
+      "code": "FS11136",
+      "name": "Insignia Red",
+      "hex": "#C41E3A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS11630",
+      "name": "Pink",
+      "hex": "#FFC0CB",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS12197",
+      "name": "International",
+      "hex": "#FF6600",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS13538",
+      "name": "Orange Yellow",
+      "hex": "#FFCC00",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS13655",
+      "name": "Blue Angels",
+      "hex": "#FFFF00",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS13670",
+      "name": "Lime Yellow",
+      "hex": "#BFEF45",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS14052",
+      "name": "Green",
+      "hex": "#00A651",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS14062",
+      "name": "Dark Green",
+      "hex": "#0B6623",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS14087",
+      "name": "Olive Drab",
+      "hex": "#556F2E",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS14115",
+      "name": "Green",
+      "hex": "#00A651",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS15042",
+      "name": "Sea Blue",
+      "hex": "#00205B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS15044",
+      "name": "Insignia Blue",
+      "hex": "#002F6C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS15050",
+      "name": "Federal Standard 15050",
+      "hex": "#001F3F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS15056",
+      "name": "Blue",
+      "hex": "#0033A0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS15102",
+      "name": "Dark Blue",
+      "hex": "#001A33",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS15200",
+      "name": "Sky Blue",
+      "hex": "#87CEEB",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS15450",
+      "name": "Air",
+      "hex": "#4A7BA7",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS16081",
+      "name": "Engine Gray",
+      "hex": "#36454F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS16440",
+      "name": "Light Gull",
+      "hex": "#A9A9A9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS16473",
+      "name": "Aircraft Gray",
+      "hex": "#5C5C5C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS16515",
+      "name": "Canadian",
+      "hex": "#555555",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS17038",
+      "name": "Black",
+      "hex": "#000000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS17043",
+      "name": "Gold",
+      "hex": "#FFD700",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS17100",
+      "name": "Purple",
+      "hex": "#800080",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS17178",
+      "name": "Aluminum /",
+      "hex": "#C0C0C0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS17875",
+      "name": "Insignia White",
+      "hex": "#F5F5F5",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS17925",
+      "name": "Insignia White",
+      "hex": "#F5F5F5",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS20061",
+      "name": "Maroon",
+      "hex": "#800000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS20062",
+      "name": "Brown",
+      "hex": "#8B7355",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS20100",
+      "name": "Brown Yellow",
+      "hex": "#8B6914",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS20109",
+      "name": "Red Brown",
+      "hex": "#A0522D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS20140",
+      "name": "Brown Special",
+      "hex": "#8B4513",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS20252",
+      "name": "Tan",
+      "hex": "#D2B48C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS20260",
+      "name": "Tan",
+      "hex": "#C19A6B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS20266",
+      "name": "Yellow Sand",
+      "hex": "#EDC4B3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS20400",
+      "name": "Tan",
+      "hex": "#C4A747",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS20450",
+      "name": "Night Tan",
+      "hex": "#5C4033",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS21105",
+      "name": "Red",
+      "hex": "#FF0000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS21310",
+      "name": "Red",
+      "hex": "#DC143C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS21400",
+      "name": "Red",
+      "hex": "#FF0000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS22190",
+      "name": "Red",
+      "hex": "#B31414",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS22516",
+      "name": "Tan",
+      "hex": "#DAA520",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS23578",
+      "name": "Cream",
+      "hex": "#FFFDD0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS23594",
+      "name": "Beige",
+      "hex": "#F5E6D3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS23655",
+      "name": "Yellow",
+      "hex": "#FFFF00",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS23697",
+      "name": "Yellow Sand",
+      "hex": "#EDC4B3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS23722",
+      "name": "Sand",
+      "hex": "#DEB887",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS24052",
+      "name": "Green",
+      "hex": "#00A651",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS24079",
+      "name": "Forest Green",
+      "hex": "#228B22",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS24272",
+      "name": "Green",
+      "hex": "#4CAF50",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS24410",
+      "name": "Green",
+      "hex": "#00A651",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS25352",
+      "name": "Blue",
+      "hex": "#0033A0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS25550",
+      "name": "Light Blue",
+      "hex": "#ADD8E6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS26008",
+      "name": "Dark Gray",
+      "hex": "#2F4A4A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS26044",
+      "name": "Gray",
+      "hex": "#A9A9A9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS26081",
+      "name": "Seaplane Gray",
+      "hex": "#696969",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS26152",
+      "name": "Gray",
+      "hex": "#808080",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS26270",
+      "name": "Medium Gray",
+      "hex": "#A9A9A9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS26440",
+      "name": "Light Gull",
+      "hex": "#D3D3D3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS27038",
+      "name": "Black",
+      "hex": "#000000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS27780",
+      "name": "White",
+      "hex": "#FFFFFF",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS27875",
+      "name": "Insignia White",
+      "hex": "#FFFFFF",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30045",
+      "name": "Brown",
+      "hex": "#A0522D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30051",
+      "name": "Leather Brown",
+      "hex": "#8B6F47",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30097",
+      "name": "Brown",
+      "hex": "#8B4513",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30099",
+      "name": "Brown",
+      "hex": "#A0522D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30108",
+      "name": "Red Brown",
+      "hex": "#A0522D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30111",
+      "name": "Brown",
+      "hex": "#8B4513",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30117",
+      "name": "Earth Red",
+      "hex": null,
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30118",
+      "name": "Field Drab",
+      "hex": "#556B2F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30140",
+      "name": "Brown Special",
+      "hex": "#8B4513",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30160",
+      "name": "Brown",
+      "hex": "#8B6F47",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30215",
+      "name": "Brown",
+      "hex": "#A0522D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30219",
+      "name": "Tan",
+      "hex": "#D2B48C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30227",
+      "name": "Tan",
+      "hex": "#C4A747",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30257",
+      "name": "Tan",
+      "hex": "#BDB76B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30266",
+      "name": "Yellow Sand",
+      "hex": "#EDC4B3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30277",
+      "name": "Sand Brown",
+      "hex": "#9B835C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30279",
+      "name": "Sand",
+      "hex": "#C2B280",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30372",
+      "name": "Sand",
+      "hex": "#C2B280",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS30400",
+      "name": "Yellow Sand",
+      "hex": "#EDC4B3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS31090",
+      "name": "Brown",
+      "hex": "#8B0000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS31136",
+      "name": "Insignia Red",
+      "hex": "#C41E3A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS31302",
+      "name": "Red",
+      "hex": "#DC143C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS31350",
+      "name": "Red",
+      "hex": "#FF0000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS31400",
+      "name": "Red",
+      "hex": "#FF0000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS32473",
+      "name": "Orange",
+      "hex": "#FF6600",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS32648",
+      "name": "Sand",
+      "hex": "#EDC4B3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS33105",
+      "name": "Brown",
+      "hex": "#8B4513",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS33245",
+      "name": "Tan",
+      "hex": "#D2B48C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS33303",
+      "name": "Sand",
+      "hex": "#C2B280",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS33434",
+      "name": "Ochre",
+      "hex": "#CC7000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS33440",
+      "name": "Tan",
+      "hex": "#C4A747",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS33446",
+      "name": "Dessert Tan",
+      "hex": "#CDAA7D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS33448",
+      "name": "Dark Yellow",
+      "hex": "#CCAA00",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS33531",
+      "name": "Middlestone",
+      "hex": "#8A8A5B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS33538",
+      "name": "Orange Yellow",
+      "hex": "#CCAA00",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS33613",
+      "name": "Radome Tan",
+      "hex": "#CDAA7D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS33617",
+      "name": "Sand",
+      "hex": "#C2B280",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS33690",
+      "name": "Sand",
+      "hex": null,
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS33695",
+      "name": "Yellow Sand",
+      "hex": "#EDC4B3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS33711",
+      "name": "Sand",
+      "hex": "#C2B280",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS33717",
+      "name": "Sand",
+      "hex": "#C2B280",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34031",
+      "name": "Dark Green",
+      "hex": "#2F5C3F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34052",
+      "name": "USMC Green",
+      "hex": "#355E3B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34058",
+      "name": "Sea Blue",
+      "hex": "#004B87",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34064",
+      "name": "Dark Green",
+      "hex": "#0B6623",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34077",
+      "name": "Green",
+      "hex": "#00A651",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34079",
+      "name": "Forest Green",
+      "hex": "#228B22",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34082",
+      "name": "Green",
+      "hex": "#008000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34083",
+      "name": "Green",
+      "hex": "#00A651",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34084",
+      "name": "Green",
+      "hex": "#4CAF50",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34086",
+      "name": "I",
+      "hex": null,
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34087",
+      "name": "Olive Drab",
+      "hex": "#556F2E",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34088",
+      "name": "Olive Drab",
+      "hex": "#807D00",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34092",
+      "name": "Dark Green",
+      "hex": "#0B5C46",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34094",
+      "name": "Green",
+      "hex": "#00A651",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34095",
+      "name": "Field Green",
+      "hex": "#6B8E23",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34096",
+      "name": "Dark Green",
+      "hex": "#0B6623",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34097",
+      "name": "Field Green",
+      "hex": "#6B8E23",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34098",
+      "name": "Green",
+      "hex": "#4CAF50",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34102",
+      "name": "Light Green",
+      "hex": "#90EE90",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34108",
+      "name": "Medium Green",
+      "hex": "#3EC413",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34127",
+      "name": "Green",
+      "hex": "#00A651",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34128",
+      "name": "Deep Green",
+      "hex": "#004D40",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34138",
+      "name": "Green",
+      "hex": "#4CAF50",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34151",
+      "name": "Interior Green",
+      "hex": "#556B2F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34159",
+      "name": "Green",
+      "hex": "#4CAF50",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34201",
+      "name": "Tan Green",
+      "hex": "#9ACD32",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34227",
+      "name": "Medium Gray",
+      "hex": "#7CFC00",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34230",
+      "name": "Green",
+      "hex": "#00A651",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34258",
+      "name": "Green",
+      "hex": "#4CAF50",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34259",
+      "name": "Yellow Green",
+      "hex": "#ADFF2F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34414",
+      "name": "Green",
+      "hex": "#4CAF50",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34424",
+      "name": "Light Gray",
+      "hex": "#A6D96A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34552",
+      "name": "Light Green",
+      "hex": "#90EE90",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34554",
+      "name": "Sky",
+      "hex": "#87CEEB",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS34666",
+      "name": "Green",
+      "hex": "#00A651",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35042",
+      "name": "Sea Blue",
+      "hex": "#00205B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35044",
+      "name": "Insignia Blue",
+      "hex": "#002F6C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35045",
+      "name": "Dark Blue",
+      "hex": "#00205B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35052",
+      "name": "Blue",
+      "hex": "#0033A0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35109",
+      "name": "Dark Blue",
+      "hex": "#001A33",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35164",
+      "name": "Intermediate",
+      "hex": "#4169E1",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35177",
+      "name": "Medium Blue",
+      "hex": "#708090",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35189",
+      "name": "Blue Gray",
+      "hex": "#536E8B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35190",
+      "name": "Dark Blue",
+      "hex": "#001A33",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35231",
+      "name": "Azure Blue",
+      "hex": "#007FFF",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35237",
+      "name": "Gray Blue",
+      "hex": "#708090",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35240",
+      "name": "Blue",
+      "hex": "#0033A0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35250",
+      "name": "Blue",
+      "hex": "#4169E1",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35352",
+      "name": "Blue",
+      "hex": "#0033A0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35414",
+      "name": "Blue",
+      "hex": "#0033A0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35450",
+      "name": "Air",
+      "hex": "#4A7BA7",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35526",
+      "name": "Light Sky Blue",
+      "hex": "#ADD8E6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS35622",
+      "name": "Light Blue",
+      "hex": "#ADD8E6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36076",
+      "name": "Gray",
+      "hex": "#696969",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36081",
+      "name": "Dark Gunship",
+      "hex": "#2F4A4A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36099",
+      "name": "Dark Gray",
+      "hex": "#404040",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36118",
+      "name": "Medium Gunship",
+      "hex": "#2F4A4A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36152",
+      "name": "Gray",
+      "hex": "#808080",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36173",
+      "name": "Neutral Gray",
+      "hex": "#808080",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36176",
+      "name": "Dark Gull Gray",
+      "hex": "#A9A9A9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36231",
+      "name": "Dark Gull Gray",
+      "hex": "#696969",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36251",
+      "name": "Gray",
+      "hex": "#A9A9A9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36270",
+      "name": "Medium Gray",
+      "hex": "#A9A9A9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36280",
+      "name": "Dark Gray",
+      "hex": "#2F4A4A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36300",
+      "name": "Aircraft",
+      "hex": "#5C5C5C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36307",
+      "name": "Gray",
+      "hex": "#696969",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36314",
+      "name": "Flint Gray",
+      "hex": "#778899",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36320",
+      "name": "Dark Compass",
+      "hex": "#696969",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36329",
+      "name": "Light Gray",
+      "hex": "#D3D3D3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36373",
+      "name": "Light Gray",
+      "hex": "#D3D3D3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36375",
+      "name": "Light Compass",
+      "hex": "#C0C0C0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36424",
+      "name": "Medium Gray",
+      "hex": "#A9A9A9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36440",
+      "name": "Light Gull",
+      "hex": "#D3D3D3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36463",
+      "name": "Gray",
+      "hex": "#808080",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36473",
+      "name": "Sky Gray",
+      "hex": "#B0C4DE",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36492",
+      "name": "Gray",
+      "hex": "#696969",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36495",
+      "name": "Light Gray",
+      "hex": "#D3D3D3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36521",
+      "name": "Tan",
+      "hex": "#D2B48C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36555",
+      "name": "Tan",
+      "hex": "#BDB76B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36559",
+      "name": "Gray",
+      "hex": null,
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36622",
+      "name": "Gray",
+      "hex": "#696969",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS36628",
+      "name": "Flat Aluminum",
+      "hex": "#E8E8E8",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS37031",
+      "name": "Black Gray",
+      "hex": "#36454F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS37038",
+      "name": "Black",
+      "hex": "#000000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS37100",
+      "name": "Purple",
+      "hex": "#800080",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS37855",
+      "name": "White",
+      "hex": "#FFFACD",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS37875",
+      "name": "Insignia White",
+      "hex": "#F5F5F5",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "FS37925",
+      "name": "Insignia",
+      "hex": "#F5F5F5",
+      "equivalents": [],
+      "confidence": null
+    }
+  ]
+}

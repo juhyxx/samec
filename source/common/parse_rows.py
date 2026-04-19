@@ -153,7 +153,7 @@ def split_concatenated_codes(code_string):
 
 def parse_definition_equivalents(definition):
     """Parse a concatenated definition string like 'FS34082-RAL 6003-RLM 03' into
-    separate equivalent entries for FS, RAL and RLM brands.
+    separate equivalent entries for FS, RAL, RLM and ANA brands.
 
     Returns a list of {brand, code} dicts (empty if nothing matched).
     """
@@ -177,6 +177,11 @@ def parse_definition_equivalents(definition):
         if code not in seen:
             seen.add(code)
             equivs.append({"brand": "RLM", "code": code})
+    for m in re.finditer(r"ANA[-\s]?(\d{3})", text):
+        code = f"ANA {m.group(1)}"
+        if code not in seen:
+            seen.add(code)
+            equivs.append({"brand": "ANA", "code": code})
     return equivs
 
 

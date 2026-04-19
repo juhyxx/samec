@@ -1,0 +1,1583 @@
+{
+  "brand": "RAL",
+  "brand_id": "ral",
+  "source": "data/pack_ral.json",
+  "count": 225,
+  "colors": [
+    {
+      "code": "RAL1000",
+      "name": "Grünbeige",
+      "hex": "#BEBD7F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1001",
+      "name": "Beige",
+      "hex": "#C2B078",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1002",
+      "name": "Sandgelb",
+      "hex": "#C6A664",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1003",
+      "name": "Signalgelb",
+      "hex": "#E5BE01",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1004",
+      "name": "Goldgelb",
+      "hex": "#CDA922",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1005",
+      "name": "Honiggelb",
+      "hex": "#CF8600",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1006",
+      "name": "Maisgelb",
+      "hex": "#E4A010",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1007",
+      "name": "Narzissengelb",
+      "hex": "#DC9D07",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1011",
+      "name": "Braunbeige",
+      "hex": "#8A7967",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1012",
+      "name": "Zitronengelb",
+      "hex": "#D3AE01",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1013",
+      "name": "Perlweiß",
+      "hex": "#EAE6CA",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1014",
+      "name": "Elfenbein",
+      "hex": "#E1CC4F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1015",
+      "name": "Hellelfenbein",
+      "hex": "#E6D690",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1016",
+      "name": "Schwefelgelb",
+      "hex": "#EDFF21",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1017",
+      "name": "Safrangelb",
+      "hex": "#F8F32B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1018",
+      "name": "Zinkgelb",
+      "hex": "#F8F32B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1019",
+      "name": "Graubeige",
+      "hex": "#9E9B85",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1020",
+      "name": "Olivgelb",
+      "hex": "#9B8B3D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1021",
+      "name": "Rapsgelb",
+      "hex": "#F3DA0B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1023",
+      "name": "Verkehrsgelb",
+      "hex": "#F0D030",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1024",
+      "name": "Ockergelb",
+      "hex": "#CEA135",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1026",
+      "name": "Leuchtgelb",
+      "hex": "#FFFF00",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1027",
+      "name": "Currygelb",
+      "hex": "#DAA520",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1028",
+      "name": "Melonengelb",
+      "hex": "#F0D000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1032",
+      "name": "Ginstergelb",
+      "hex": "#D6AE01",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1033",
+      "name": "Dahliengelb",
+      "hex": "#F0D000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1034",
+      "name": "Pastellgelb",
+      "hex": "#EDA83D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1035",
+      "name": "Perlbeige",
+      "hex": "#A29985",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1036",
+      "name": "Perlgold",
+      "hex": "#927549",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1037",
+      "name": "Sonnengelb",
+      "hex": "#EEA205",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1039",
+      "name": "Sandbeige",
+      "hex": "#CEC19E",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL1040",
+      "name": "Lehmbeige",
+      "hex": "#BBAC81",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL2000",
+      "name": "Gelborange",
+      "hex": "#EA7600",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL2001",
+      "name": "Rotorange",
+      "hex": "#BE2E26",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL2002",
+      "name": "Blutorange",
+      "hex": "#CB2821",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL2003",
+      "name": "Pastellorange",
+      "hex": "#FF7514",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL2004",
+      "name": "Reinorange",
+      "hex": "#F44611",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL2005",
+      "name": "Leuchtorange",
+      "hex": "#FF2301",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL2007",
+      "name": "Leuchthellorange",
+      "hex": "#FFA421",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL2008",
+      "name": "Hellrotorange",
+      "hex": "#F75E25",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL2009",
+      "name": "Verkehrsorange",
+      "hex": "#F54021",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL2010",
+      "name": "Signalorange",
+      "hex": "#D84B20",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL2011",
+      "name": "Tieforange",
+      "hex": "#EC8B3C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL2012",
+      "name": "Lachsorange",
+      "hex": "#E55C3F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL2013",
+      "name": "Perlorange",
+      "hex": "#922610",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL2017",
+      "name": "RAL 2017",
+      "hex": "#FA4402",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3000",
+      "name": "Feuerrot",
+      "hex": "#AC193D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3001",
+      "name": "Signalrot",
+      "hex": "#A52127",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3002",
+      "name": "Karminrot",
+      "hex": "#A2231D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3003",
+      "name": "Rubinrot",
+      "hex": "#9B111E",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3004",
+      "name": "Purpurrot",
+      "hex": "#75151E",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3005",
+      "name": "Weinrot",
+      "hex": "#5E2129",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3007",
+      "name": "Schwarzrot",
+      "hex": "#412227",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3009",
+      "name": "Oxidrot",
+      "hex": "#622E2A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3011",
+      "name": "Braunrot",
+      "hex": "#622E2A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3012",
+      "name": "Beigerot",
+      "hex": "#C1876B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3013",
+      "name": "Tomatenrot",
+      "hex": "#A4554D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3014",
+      "name": "Altrosa",
+      "hex": "#D16B76",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3015",
+      "name": "Hellrosa",
+      "hex": "#E1A6AD",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3016",
+      "name": "Korallenrot",
+      "hex": "#B24D49",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3017",
+      "name": "Rosé",
+      "hex": "#CB7582",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3018",
+      "name": "Erdbeerrot",
+      "hex": "#EC1C24",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3020",
+      "name": "Verkehrsrot",
+      "hex": "#CC0605",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3022",
+      "name": "Lachsrot",
+      "hex": "#D5534F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3024",
+      "name": "Leuchtrot",
+      "hex": "#FF0000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3026",
+      "name": "Leuchthellrot",
+      "hex": "#FF0000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3027",
+      "name": "Himbeerrot",
+      "hex": "#C51D34",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3028",
+      "name": "Reinrot",
+      "hex": "#cc2c24",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3031",
+      "name": "Orientrot",
+      "hex": "#B32428",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3032",
+      "name": "Perlrubinrot",
+      "hex": "#711521",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL3033",
+      "name": "Perlrosa",
+      "hex": "#B24C43",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL4001",
+      "name": "Rotlila",
+      "hex": "#6D3F47",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL4002",
+      "name": "Rotviolett",
+      "hex": "#933D50",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL4003",
+      "name": "Erikaviolett",
+      "hex": "#DE4C8A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL4004",
+      "name": "Bordeauxviolett",
+      "hex": "#641C34",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL4005",
+      "name": "Blaulila",
+      "hex": "#6E3F75",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL4006",
+      "name": "Verkehrspurpur",
+      "hex": "#A03472",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL4007",
+      "name": "Purpurviolett",
+      "hex": "#321E24",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL4008",
+      "name": "Signalviolett",
+      "hex": "#6F4C6D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL4009",
+      "name": "Pastellviolett",
+      "hex": "#A18594",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL4010",
+      "name": "Telemagenta",
+      "hex": "#CF3476",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL4011",
+      "name": "Perlviolett",
+      "hex": "#8673A1",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL4012",
+      "name": "Perlbrombeer",
+      "hex": "#6C7C98",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5000",
+      "name": "Violettblau",
+      "hex": "#354D73",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5001",
+      "name": "Grünblau",
+      "hex": "#1F3A70",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5002",
+      "name": "Ultramarinblau",
+      "hex": "#00247B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5003",
+      "name": "Saphirblau",
+      "hex": "#001E50",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5004",
+      "name": "Schwarzblau",
+      "hex": "#18184A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5005",
+      "name": "Signalblau",
+      "hex": "#003DA5",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5007",
+      "name": "Brillantblau",
+      "hex": "#3E5F8A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5008",
+      "name": "Graublau",
+      "hex": "#26252B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5009",
+      "name": "Azurblau",
+      "hex": "#025669",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5010",
+      "name": "Enzianblau",
+      "hex": "#004687",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5011",
+      "name": "Stahlblau",
+      "hex": "#231F20",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5012",
+      "name": "Lichtblau",
+      "hex": "#3E8CC0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5013",
+      "name": "Kobaltblau",
+      "hex": "#1E3A8F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5014",
+      "name": "Taubenblau",
+      "hex": "#606E8C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5015",
+      "name": "Himmelblau",
+      "hex": "#0E4C96",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5017",
+      "name": "Verkehrsblau",
+      "hex": "#004B87",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5018",
+      "name": "Türkisblau",
+      "hex": "#3F7F4C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5019",
+      "name": "Capriblau",
+      "hex": "#1B4D3E",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5020",
+      "name": "Ozeanblau",
+      "hex": "#1D3A3A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5021",
+      "name": "Wasserblau",
+      "hex": "#256D7B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5022",
+      "name": "Nachtblau",
+      "hex": "#20214F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5023",
+      "name": "Fernblau",
+      "hex": "#49678D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5024",
+      "name": "Pastellblau",
+      "hex": "#646E75",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5025",
+      "name": "Perlenzian",
+      "hex": "#296478",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL5026",
+      "name": "Perlnachtblau",
+      "hex": "#102C54",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6000",
+      "name": "Patinagrün",
+      "hex": "#316650",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6001",
+      "name": "Smaragdgrün",
+      "hex": "#287233",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6002",
+      "name": "Laubgrün",
+      "hex": "#23423D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6003",
+      "name": "Olivgrün",
+      "hex": "#424632",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6004",
+      "name": "Blaugrün",
+      "hex": "#1F3A3F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6005",
+      "name": "Moosgrün",
+      "hex": "#2F5233",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6006",
+      "name": "Grauoliv",
+      "hex": "#40403F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6007",
+      "name": "Flaschengrün",
+      "hex": "#343B29",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6008",
+      "name": "Braungrün",
+      "hex": "#39352A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6009",
+      "name": "Tannengrün",
+      "hex": "#1E3932",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6010",
+      "name": "Grasgrün",
+      "hex": "#35682D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6011",
+      "name": "Resedagrün",
+      "hex": "#587246",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6012",
+      "name": "Schwarzgrün",
+      "hex": "#343E40",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6013",
+      "name": "Schilfgrün",
+      "hex": "#6B5D54",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6014",
+      "name": "Gelboliv",
+      "hex": "#47402E",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6015",
+      "name": "Schwarzoliv",
+      "hex": "#3D4035",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6016",
+      "name": "Türkisgrün",
+      "hex": "#004F51",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6017",
+      "name": "Maigrün",
+      "hex": "#4C7C59",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6018",
+      "name": "Gelbgrün",
+      "hex": "#92C83E",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6019",
+      "name": "Weißgrün",
+      "hex": "#BDECB6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6020",
+      "name": "Chromoxidgrün",
+      "hex": "#2E5F3F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6021",
+      "name": "Blassgrün",
+      "hex": "#89AC76",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6022",
+      "name": "Braunoliv",
+      "hex": "#25221B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6024",
+      "name": "Verkehrsgrün",
+      "hex": "#308446",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6025",
+      "name": "Farngrün",
+      "hex": "#3D642D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6026",
+      "name": "Opalgrün",
+      "hex": "#003D14",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6027",
+      "name": "Lichtgrün",
+      "hex": "#84C5C1",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6028",
+      "name": "Kieferngrün",
+      "hex": "#2D5016",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6029",
+      "name": "Minzgrün",
+      "hex": "#20603D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6031",
+      "name": "Bronzegrün",
+      "hex": "#485746",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6032",
+      "name": "Signalgrün",
+      "hex": "#317F43",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6033",
+      "name": "Minttürkis",
+      "hex": "#497E76",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6034",
+      "name": "Pastelltürkis",
+      "hex": "#7FB069",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6035",
+      "name": "Perlgrün",
+      "hex": "#1B542D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6036",
+      "name": "Perlopalgrün",
+      "hex": "#193737",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6037",
+      "name": "Reingrün",
+      "hex": "#008941",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6038",
+      "name": "Leuchtgrün",
+      "hex": "#00BB2D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6039",
+      "name": "Fasergrün",
+      "hex": "#b3c53f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL6040",
+      "name": "Helloliv",
+      "hex": "#827E58",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7000",
+      "name": "Fehgrau",
+      "hex": "#78858B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7001",
+      "name": "Silbergrau",
+      "hex": "#8B8680",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7002",
+      "name": "Olivgrau",
+      "hex": "#7A7B7D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7003",
+      "name": "Moosgrau",
+      "hex": "#6E6E70",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7004",
+      "name": "Signalgrau",
+      "hex": "#969992",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7005",
+      "name": "Mausgrau",
+      "hex": "#595959",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7006",
+      "name": "Beigegrau",
+      "hex": "#6B5D52",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7008",
+      "name": "Khakigrau",
+      "hex": "#5B5B5B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7009",
+      "name": "Grüngrau",
+      "hex": "#4D5645",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7010",
+      "name": "Zeltgrau",
+      "hex": "#4C514A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7011",
+      "name": "Eisengrau",
+      "hex": "#434B4D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7012",
+      "name": "Basaltgrau",
+      "hex": "#4E5754",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7013",
+      "name": "Braungrau",
+      "hex": "#464B4E",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7015",
+      "name": "Schiefergrau",
+      "hex": "#70747E",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7016",
+      "name": "Anthrazitgrau",
+      "hex": "#293133",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7021",
+      "name": "Schwarzgrau",
+      "hex": "#23282D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7022",
+      "name": "Umbragrau",
+      "hex": "#332F2C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7023",
+      "name": "Betongrau",
+      "hex": "#686C70",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7024",
+      "name": "Graphitgrau",
+      "hex": "#474A51",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7026",
+      "name": "Granitgrau",
+      "hex": "#2F353B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7030",
+      "name": "Steingrau",
+      "hex": "#8B8B7A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7031",
+      "name": "Blaugrau",
+      "hex": "#474B4E",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7032",
+      "name": "Kieselgrau",
+      "hex": "#B8B6AA",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7033",
+      "name": "Zementgrau",
+      "hex": "#7B8578",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7034",
+      "name": "Gelbgrau",
+      "hex": "#999875",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7035",
+      "name": "Lichtgrau",
+      "hex": "#CBD5E0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7036",
+      "name": "Platingrau",
+      "hex": "#7B8B99",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7037",
+      "name": "Staubgrau",
+      "hex": "#585C66",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7038",
+      "name": "Achatgrau",
+      "hex": "#B5B3AA",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7039",
+      "name": "Quarzgrau",
+      "hex": "#6B6D70",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7040",
+      "name": "Fenstergrau",
+      "hex": "#9DA1AA",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7042",
+      "name": "Verkehrsgrau A",
+      "hex": "#8D9BA6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7043",
+      "name": "Verkehrsgrau B",
+      "hex": "#3D3D3D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7044",
+      "name": "Seidengrau",
+      "hex": "#CAC4B0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7045",
+      "name": "Telegrau 1",
+      "hex": "#909CA0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7046",
+      "name": "Telegrau 2",
+      "hex": "#82888F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7047",
+      "name": "Telegrau 4",
+      "hex": "#D0CFCC",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7048",
+      "name": "Perlmausgrau",
+      "hex": "#888175",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL7050",
+      "name": "Tarngrau",
+      "hex": "#82887A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8000",
+      "name": "Grünbraun",
+      "hex": "#8B6914",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8001",
+      "name": "Ockerbraun",
+      "hex": "#9B7653",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8002",
+      "name": "Signalbraun",
+      "hex": "#6C4F28",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8003",
+      "name": "Lehmbraun",
+      "hex": "#734222",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8004",
+      "name": "Kupferbraun",
+      "hex": "#8B4513",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8007",
+      "name": "Rehbraun",
+      "hex": "#59351F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8008",
+      "name": "Olivbraun",
+      "hex": "#6F4E37",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8011",
+      "name": "Nussbraun",
+      "hex": "#5B4423",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8012",
+      "name": "Rotbraun",
+      "hex": "#592321",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8014",
+      "name": "Sepiabraun",
+      "hex": "#472B1F",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8015",
+      "name": "Kastanienbraun",
+      "hex": "#3C352B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8016",
+      "name": "Mahagonibraun",
+      "hex": "#2E1F14",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8017",
+      "name": "Schokoladen­braun",
+      "hex": "#45342E",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8019",
+      "name": "Graubraun",
+      "hex": "#403C37",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8022",
+      "name": "Schwarzbraun",
+      "hex": "#1F1A17",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8023",
+      "name": "Orangebraun",
+      "hex": "#A65E56",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8024",
+      "name": "Beigebraun",
+      "hex": "#79553D",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8025",
+      "name": "Blassbraun",
+      "hex": "#755D48",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8027",
+      "name": "Lederbraun",
+      "hex": "#504938",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8028",
+      "name": "Terrabraun",
+      "hex": "#3F3B37",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8029",
+      "name": "Perlkupfer",
+      "hex": "#763D2E",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL8031",
+      "name": "Sandbraun",
+      "hex": "#B49D7B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9001",
+      "name": "Cremeweiß",
+      "hex": "#FDF4E6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9002",
+      "name": "Grauweiß",
+      "hex": "#E7EBEE",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9003",
+      "name": "Signalweiß",
+      "hex": "#F4F4EE",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9004",
+      "name": "Signalschwarz",
+      "hex": "#282828",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9005",
+      "name": "Tiefschwarz",
+      "hex": "#0A0E27",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9006",
+      "name": "Weißaluminium",
+      "hex": "#A5A5A5",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9007",
+      "name": "Graualuminium",
+      "hex": "#8A7D7B",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9010",
+      "name": "Reinweiß",
+      "hex": "#FFFFFF",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9011",
+      "name": "Graphitschwarz",
+      "hex": "#081017",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9012",
+      "name": "Reinraumweiß",
+      "hex": "#FFFDE6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9016",
+      "name": "Verkehrsweiß",
+      "hex": "#F8F8F8",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9017",
+      "name": "Verkehrsschwarz",
+      "hex": "#2A2A2A",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9018",
+      "name": "Papyrusweiß",
+      "hex": "#D7D8D7",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9020",
+      "name": "Seidenmatt–Weiß",
+      "hex": "#FDFDFD",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9021",
+      "name": "Teerschwarz",
+      "hex": "#01050E",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9022",
+      "name": "Perlhellgrau",
+      "hex": "#9C9C9C",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "RAL9023",
+      "name": "Perldunkelgrau",
+      "hex": "#7E8182",
+      "equivalents": [],
+      "confidence": null
+    }
+  ]
+}

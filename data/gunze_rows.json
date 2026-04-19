@@ -2,7 +2,7 @@
   {
     "image": "01.png",
     "raw_reference": "IGloss White HI X2 22 4 2720",
-    "reference": "H1",
+    "reference": "HI",
     "name": "Gloss White",
     "equivalents": [
       {
@@ -1337,7 +1337,7 @@
   {
     "image": "02.png",
     "raw_reference": "Semi Gloss Grey RLM-75 H6g",
-    "reference": "H6G",
+    "reference": "H69",
     "name": "Semi Gloss Grey RLM-75",
     "equivalents": [
       {
@@ -1684,7 +1684,7 @@
   {
     "image": "02.png",
     "raw_reference": "Metallic Green H8g 50 97",
-    "reference": "H8G",
+    "reference": "H89",
     "name": "Metallic Green",
     "equivalents": [
       {
@@ -1859,7 +1859,7 @@
   {
     "image": "02.png",
     "raw_reference": "Gloss Fluo Pink H9g 207",
-    "reference": "H9G",
+    "reference": "H99",
     "name": "Gloss Fluo Pink",
     "equivalents": [
       {
@@ -1873,7 +1873,7 @@
   {
     "image": "02.png",
     "raw_reference": "Gloss Fluo Green H1OO 203",
-    "reference": "H100",
+    "reference": "H10",
     "name": "Gloss Fluo Green",
     "equivalents": [
       {
@@ -1895,7 +1895,7 @@
         "code": "32"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 36081"
       }
     ],
@@ -1917,7 +1917,7 @@
         "code": "1764"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 34092"
       }
     ],
@@ -1939,7 +1939,7 @@
         "code": "1713"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 34102"
       }
     ],
@@ -1961,7 +1961,7 @@
         "code": "1711"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 34087"
       }
     ],
@@ -1979,7 +1979,7 @@
         "code": "125"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 36118"
       }
     ],
@@ -1997,7 +1997,7 @@
         "code": "126"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 36270"
       }
     ],
@@ -2019,7 +2019,7 @@
         "code": "1741"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 36320"
       }
     ],
@@ -2041,7 +2041,7 @@
         "code": "1728"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 36375"
       }
     ],
@@ -2063,7 +2063,7 @@
         "code": "1710"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 34079"
       }
     ],
@@ -2093,7 +2093,7 @@
         "code": "1742"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 30219"
       }
     ],
@@ -2111,7 +2111,7 @@
         "code": "28"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 36622"
       }
     ],
@@ -2137,7 +2137,7 @@
         "code": "1716"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 34227"
       }
     ],
@@ -2163,7 +2163,7 @@
         "code": "1706"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 33531"
       }
     ],
@@ -2185,7 +2185,7 @@
         "code": "122"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 35622"
       }
     ],
@@ -2211,7 +2211,7 @@
         "code": "1729"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 16440"
       }
     ],
@@ -2229,7 +2229,7 @@
         "code": "22"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 17875"
       }
     ],
@@ -2368,7 +2368,7 @@
         "code": "1730"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 26440"
       }
     ],
@@ -2390,7 +2390,7 @@
         "code": "1719"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 15044"
       }
     ],
@@ -2412,7 +2412,7 @@
         "code": "1705"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 11136"
       }
     ],
@@ -2438,7 +2438,7 @@
         "code": "1772"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 15050"
       }
     ],
@@ -2468,7 +2468,7 @@
         "code": "1708"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 13538"
       }
     ],
@@ -2600,7 +2600,7 @@
         "code": "1721"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 35237"
       }
     ],
@@ -2618,7 +2618,7 @@
         "code": "147"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 36495"
       }
     ],
@@ -2640,7 +2640,7 @@
         "code": "1592"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 16081"
       }
     ],
@@ -2662,7 +2662,7 @@
         "code": "1712"
       },
       {
-        "brand": "FS",
+        "brand": "Federal Standard",
         "code": "FS 34097"
       }
     ],

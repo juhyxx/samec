@@ -80,7 +80,7 @@ AK_EQUIVALENT_COLUMNS = [
     },
     {
         "key": "fs",
-        "brand": "FS",
+        "brand": "Federal Standard",
         "aliases": ["FS"],
         "fallback_ratio": 0.791,
     },
@@ -229,7 +229,14 @@ def normalize_equivalent_code(brand, text):
         match = re.match(r"^([HCSM])[- ]?(\d{1,4})$", code)
         if match:
             return f"{match.group(1)}{match.group(2)}"
-    if brand in {"Humbrol", "Vallejo", "Hataka", "Real Colors", "RAL", "FS"}:
+    if brand in {
+        "Humbrol",
+        "Vallejo",
+        "Hataka",
+        "Real Colors",
+        "RAL",
+        "Federal Standard",
+    }:
         return code
     if brand == "Lifecolor":
         match = re.match(r"^(UA)-?(\d+)$", code)

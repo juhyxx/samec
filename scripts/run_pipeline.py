@@ -8,7 +8,7 @@ Usage:
   python3 scripts/run_pipeline.py mr_hobby           # Run Mr. Hobby only
     python3 scripts/run_pipeline.py ammo               # Run Ammo by Mig only
   python3 scripts/run_pipeline.py ammo-atom          # Run Ammo-Atom only
-    python3 scripts/run_pipeline.py gunze              # Run Gunze Sangyo only
+    python3 scripts/run_pipeline.py hobby_color             # Run Aqueous Hobby color only
     python3 scripts/run_pipeline.py tamiya             # Run Tamiya only
   python3 scripts/run_pipeline.py ak                 # Run AK Interactive only
 """
@@ -18,6 +18,13 @@ import sys
 import argparse
 from pathlib import Path
 import importlib.util
+from collections import Counter
+from rich.console import Console
+from rich.table import Table
+from rich.panel import Panel
+
+# Rich console for colored output
+console = Console()
 
 # Add source to path
 SCRIPT_DIR = Path(__file__).parent.parent
@@ -49,8 +56,10 @@ parse_ammo_atom = load_module(
 )
 parse_ammo_atom_images = parse_ammo_atom.parse_ammo_atom_images
 
-parse_gunze = load_module("parse_gunze", SCRIPT_DIR / "source/gunze/__main__.py")
-parse_gunze_images = parse_gunze.parse_gunze_images
+parse_hobby_color = load_module(
+    "parse_hobby_color", SCRIPT_DIR / "source/hobby-color/__main__.py"
+)
+parse_hobby_color_images = parse_hobby_color.parse_gunze_images
 
 parse_tamiya = load_module("parse_tamiya", SCRIPT_DIR / "source/tamiya/__main__.py")
 parse_tamiya_images = parse_tamiya.parse_tamiya_images
@@ -66,6 +75,14 @@ parse_humbrol_images = parse_humbrol.parse_humbrol_images
 
 parse_vallejo = load_module("parse_vallejo", SCRIPT_DIR / "source/valejo/__main__.py")
 parse_vallejo_images = parse_vallejo.parse_vallejo_images
+
+parse_federal_standard = load_module(
+    "parse_federal_standard", SCRIPT_DIR / "source/federal_standard/__main__.py"
+)
+parse_federal_standard_colors = parse_federal_standard.FederalStandardScraper
+
+parse_ral = load_module("parse_ral", SCRIPT_DIR / "source/ral/__main__.py")
+parse_ral_colors = parse_ral.RALScraper
 
 
 def load_equivalents(equivalents_file):
@@ -114,9 +131,110 @@ def format_colors(colors, brand_name, brand_id):
     }
 
 
+def _run_federal_standard(output_path: Path):
+    """Wrapper for Federal Standard scraper to match parser interface."""
+    scraper = parse_federal_standard_colors()
+    scraper.run(output_path)
+    return scraper.colors
+
+
+def _run_ral(output_path: Path):
+    """Wrapper for RAL scraper to match parser interface."""
+    scraper = parse_ral_colors()
+    scraper.run(output_path)
+    return scraper.colors
+
+
+def get_parser_stats(brand_id):
+    """Get statistics for a parsed brand."""
+    output_file = f"data/pack_{brand_id}.json"
+    if not Path(output_file).exists():
+        return None
+
+    try:
+        with open(output_file, "r") as f:
+            data = json.load(f)
+
+        colors = data.get("colors", [])
+        codes = [color.get("code") for color in colors]
+        unique_codes = set(codes)
+        code_counts = Counter(codes)
+        duplicates = {code: count for code, count in code_counts.items() if count > 1}
+
+        return {
+            "total": len(colors),
+            "unique": len(unique_codes),
+            "duplicates": len(duplicates),
+            "duplicate_details": duplicates,
+        }
+    except Exception:
+        return None
+
+
+def display_parser_stats(stats_data):
+    """Display parser statistics in a formatted table using rich."""
+    if not stats_data:
+        return
+
+    table = Table(title="📊 Parser Statistics Summary")
+    table.add_column("Brand", style="cyan", no_wrap=True)
+    table.add_column("Total Items", justify="right", style="green")
+    table.add_column("Unique", justify="right", style="blue")
+    table.add_column("Duplicates", justify="right", style="yellow")
+
+    total_items = 0
+    total_unique = 0
+    total_duplicates = 0
+
+    for brand_id, stats in sorted(stats_data.items()):
+        if stats:
+            table.add_row(
+                brand_id,
+                str(stats["total"]),
+                str(stats["unique"]),
+                str(stats["duplicates"]),
+            )
+            total_items += stats["total"]
+            total_unique += stats["unique"]
+            total_duplicates += stats["duplicates"]
+
+    # Add totals row
+    table.add_row(
+        "[bold]TOTAL[/bold]",
+        f"[bold green]{total_items}[/bold green]",
+        f"[bold blue]{total_unique}[/bold blue]",
+        f"[bold yellow]{total_duplicates}[/bold yellow]",
+    )
+
+    console.print(table)
+
+    # Show duplicate details if any
+    duplicates_found = {
+        bid: stats["duplicate_details"]
+        for bid, stats in stats_data.items()
+        if stats and stats["duplicate_details"]
+    }
+
+    if duplicates_found:
+        console.print("\n[yellow]⚠️  Duplicate codes detected:[/yellow]")
+        for brand_id, duplicates in sorted(duplicates_found.items()):
+            if duplicates:
+                dup_str = ", ".join(
+                    [
+                        f"{code}×{count}"
+                        for code, count in sorted(
+                            duplicates.items(), key=lambda x: -x[1]
+                        )[:3]
+                    ]
+                )
+                if len(duplicates) > 3:
+                    dup_str += f", +{len(duplicates)-3} more"
+                console.print(f"  • [yellow]{brand_id}[/yellow]: {dup_str}")
+
+
 def run_parser(brand_id, parser_func, source_dir, output_file, brand_name):
     """Run a single parser and format results."""
-    print(f"\n{brand_id.upper()}: {brand_name}...")
+    console.print(f"[cyan]\n{brand_id.upper()}[/cyan]: {brand_name}...")
     try:
         colors = parser_func(Path(source_dir), Path(output_file))
         if colors:
@@ -138,13 +256,13 @@ def run_parser(brand_id, parser_func, source_dir, output_file, brand_name):
             with open(output_file, "w", encoding="utf-8") as f:
                 json.dump(formatted, f, indent=2, ensure_ascii=False)
 
-            print(f"   ✅ {len(colors)} colors extracted")
+            console.print(f"   [green]✅ {len(colors)} colors extracted[/green]")
             return True
         else:
-            print("   ⚠️  No colors extracted")
+            console.print("   [yellow]⚠️  No colors extracted[/yellow]")
             return False
     except Exception as err:
-        print(f"   ❌ Error: {err}")
+        console.print(f"   [red]❌ Error: {err}[/red]")
         import traceback
 
         traceback.print_exc()
@@ -156,17 +274,24 @@ def run_all_parsers():
     results_dir = Path("data/")
     results_dir.mkdir(parents=True, exist_ok=True)
 
-    print("🎨 Color Chart Parsing Pipeline")
-    print("=" * 50)
+    console.print("\n[cyan]🎨 Color Chart Parsing Pipeline[/cyan]")
+    console.print("[cyan]" + "=" * 50 + "[/cyan]")
 
     # Define all parsers
     parsers = [
         (
-            "mr_hobby",
-            parse_mr_hobby_images,
-            "source/mr_hobby",
-            "data/pack_mr_hobby.json",
-            "Mr. Hobby",
+            "federal_standard",
+            lambda p, o: _run_federal_standard(Path(o)),
+            "source/federal_standard",
+            "data/pack_federal_standard.json",
+            "Federal Standard",
+        ),
+        (
+            "ral",
+            lambda p, o: _run_ral(Path(o)),
+            "source/ral",
+            "data/pack_ral.json",
+            "RAL",
         ),
         (
             "ammo",
@@ -183,11 +308,18 @@ def run_all_parsers():
             "Ammo by Mig Atom",
         ),
         (
-            "gunze",
-            parse_gunze_images,
-            "source/gunze",
-            "data/pack_gunze.json",
-            "Gunze Sangyo",
+            "mr_hobby",
+            parse_mr_hobby_images,
+            "source/mr_hobby",
+            "data/pack_mr_hobby.json",
+            "Mr. Hobby",
+        ),
+        (
+            "hobby_color",
+            parse_hobby_color_images,
+            "source/hobby-color",
+            "data/pack_hobby_color.json",
+            "Aqueous Hobby color",
         ),
         (
             "tamiya",
@@ -232,10 +364,19 @@ def run_all_parsers():
         if run_parser(brand_id, parser_func, source_dir, output_file, brand_name):
             success_count += 1
 
-    print("\n" + "=" * 50)
+    console.print("\n[cyan]" + "=" * 50 + "[/cyan]")
     total = len(parsers)
-    print(f"✅ Pipeline complete! ({success_count}/{total} parsers succeeded)")
-    print("📁 Results saved to data/")
+    console.print(
+        f"[green]✅ Pipeline complete! ({success_count}/{total} parsers succeeded)[/green]"
+    )
+    console.print("[blue]📁 Results saved to data/[/blue]\n")
+
+    # Collect and display stats
+    stats_data = {}
+    for brand_id, _, _, _, _ in parsers:
+        stats_data[brand_id] = get_parser_stats(brand_id)
+
+    display_parser_stats(stats_data)
 
 
 def run_single_parser(brand):
@@ -283,19 +424,26 @@ def run_single_parser(brand):
             "data/pack_ammo_atom.json",
             "Ammo by Mig Atom",
         ),
-        "gunze": (
-            "gunze",
-            parse_gunze_images,
-            "source/gunze",
-            "data/pack_gunze.json",
-            "Gunze Sangyo",
+        "hobby_color": (
+            "hobby_color",
+            parse_hobby_color_images,
+            "source/hobby-color",
+            "data/pack_hobby_color.json",
+            "Aqueous Hobby color",
         ),
-        "gunze_sangyo": (
-            "gunze",
-            parse_gunze_images,
-            "source/gunze",
-            "data/pack_gunze.json",
-            "Gunze Sangyo",
+        "hobby-color": (
+            "hobby_color",
+            parse_hobby_color_images,
+            "source/hobby-color",
+            "data/pack_hobby_color.json",
+            "Aqueous Hobby color",
+        ),
+        "aqueous_hobby_color": (
+            "hobby_color",
+            parse_hobby_color_images,
+            "source/hobby-color",
+            "data/pack_hobby_color.json",
+            "Aqueous Hobby color",
         ),
         "tamiya": (
             "tamiya",
@@ -339,23 +487,58 @@ def run_single_parser(brand):
             "data/pack_vallejo.json",
             "Vallejo",
         ),
+        "federal_standard": (
+            "federal_standard",
+            lambda p, o: _run_federal_standard(Path(o)),
+            "source/federal_standard",
+            "data/pack_federal_standard.json",
+            "Federal Standard",
+        ),
+        "federal-standard": (
+            "federal_standard",
+            lambda p, o: _run_federal_standard(Path(o)),
+            "source/federal_standard",
+            "data/pack_federal_standard.json",
+            "Federal Standard",
+        ),
+        "ral": (
+            "ral",
+            lambda p, o: _run_ral(Path(o)),
+            "source/ral",
+            "data/pack_ral.json",
+            "RAL",
+        ),
+        "ral-classic": (
+            "ral",
+            lambda p, o: _run_ral(Path(o)),
+            "source/ral",
+            "data/pack_ral.json",
+            "RAL",
+        ),
     }
 
     if brand not in parsers:
-        print(f"❌ Unknown brand: {brand}")
+        console.print(f"[red]❌ Unknown brand: {brand}[/red]")
         available = [p for p in parsers.keys() if "_" in p or "-" in p]
         available = set(available)
-        print(f"Available: {', '.join(available)}")
+        console.print(f"Available: {', '.join(available)}")
         sys.exit(1)
 
-    print("\n🎨 Color Chart Parsing Pipeline")
-    print("=" * 50)
+    console.print("\n[cyan]🎨 Color Chart Parsing Pipeline[/cyan]")
+    console.print("[cyan]" + "=" * 50 + "[/cyan]")
 
     brand_id, parser_func, source_dir, output_file, brand_name = parsers[brand]
     if run_parser(brand_id, parser_func, source_dir, output_file, brand_name):
-        print(f"\n✅ Pipeline complete for {brand}")
+        console.print(f"\n[cyan]" + "=" * 50 + "[/cyan]")
+        console.print(f"[green]✅ Pipeline complete for {brand}[/green]\n")
+
+        # Display stats for this brand
+        stats = get_parser_stats(brand_id)
+        if stats:
+            stats_data = {brand_id: stats}
+            display_parser_stats(stats_data)
     else:
-        print(f"\n❌ Pipeline failed for {brand}")
+        console.print(f"\n[red]❌ Pipeline failed for {brand}[/red]")
         sys.exit(1)
 
 

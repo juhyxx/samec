@@ -7,6 +7,7 @@
     {
       "code": "AK11366",
       "name": "Mustard Yellow",
+      "type": "AFV",
       "hex": "#bf8d38",
       "equivalents": [
         {
@@ -14,7 +15,7 @@
           "code": "71033"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "33637"
         },
         {
@@ -27,6 +28,7 @@
     {
       "code": "AK11367",
       "name": "Base Green (Protective)",
+      "type": "AFV",
       "hex": "#302f21",
       "equivalents": [],
       "confidence": null
@@ -34,6 +36,7 @@
     {
       "code": "AK11368",
       "name": "Russian Green 4B0",
+      "type": "AFV",
       "hex": "#394227",
       "equivalents": [
         {
@@ -58,6 +61,7 @@
     {
       "code": "AK11369",
       "name": "Russian Dark Brown 6K",
+      "type": "AFV",
       "hex": "#322918",
       "equivalents": [
         {
@@ -82,6 +86,7 @@
     {
       "code": "AK11370",
       "name": "Russian Sand 7K",
+      "type": "AFV",
       "hex": "#79592d",
       "equivalents": [
         {
@@ -106,6 +111,7 @@
     {
       "code": "AK11371",
       "name": "Protective Green 1920s-1930s",
+      "type": "AFV",
       "hex": "#232e1f",
       "equivalents": [
         {
@@ -118,6 +124,7 @@
     {
       "code": "AK11372",
       "name": "Washable White Paint",
+      "type": "AFV",
       "hex": "#ffffff",
       "equivalents": [
         {
@@ -130,6 +137,7 @@
     {
       "code": "AK11373",
       "name": "Khaki green No.3",
+      "type": "AFV",
       "hex": "#473b2d",
       "equivalents": [
         {
@@ -154,6 +162,7 @@
     {
       "code": "AK11374",
       "name": "Silver Grey No.28",
+      "type": "AFV",
       "hex": "#908958",
       "equivalents": [
         {
@@ -178,6 +187,7 @@
     {
       "code": "AK11375",
       "name": "Slate No.34",
+      "type": "AFV",
       "hex": "#45432a",
       "equivalents": [
         {
@@ -206,6 +216,7 @@
     {
       "code": "AK11377",
       "name": "Light Stone No.61",
+      "type": "AFV",
       "hex": "#c69847",
       "equivalents": [
         {
@@ -230,6 +241,7 @@
     {
       "code": "AK11378",
       "name": "Portland Stone No.64",
+      "type": "AFV",
       "hex": "#e1bc85",
       "equivalents": [
         {
@@ -254,6 +266,7 @@
     {
       "code": "AK11381",
       "name": "British Dark Olive Green PFI",
+      "type": "AFV",
       "hex": "#413c2b",
       "equivalents": [
         {
@@ -270,6 +283,7 @@
     {
       "code": "AK11382",
       "name": "British Desert Pink ZI",
+      "type": "AFV",
       "hex": "#e9895b",
       "equivalents": [
         {
@@ -290,6 +304,7 @@
     {
       "code": "AK11383",
       "name": "British Light Mud",
+      "type": "AFV",
       "hex": "#787145",
       "equivalents": [
         {
@@ -306,6 +321,7 @@
     {
       "code": "AK11384",
       "name": "S.c.c_",
+      "type": "AFV",
       "hex": "#372920",
       "equivalents": [
         {
@@ -317,7 +333,7 @@
           "code": "UA274"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "30059"
         },
         {
@@ -334,6 +350,7 @@
     {
       "code": "AK11385",
       "name": "S.cC_",
+      "type": "AFV",
       "hex": "#71482a",
       "equivalents": [
         {
@@ -345,7 +362,7 @@
           "code": "UA273"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "30097"
         },
         {
@@ -362,6 +379,7 @@
     {
       "code": "AK11386",
       "name": "S.C.C. No.15 Olive Drab",
+      "type": "AFV",
       "hex": "#3a3826",
       "equivalents": [
         {
@@ -390,6 +408,7 @@
     {
       "code": "AK11387",
       "name": "3B AU/ZB AU",
+      "type": "AFV",
       "hex": "#1d1d15",
       "equivalents": [
         {
@@ -410,6 +429,7 @@
     {
       "code": "AK11401",
       "name": "Base Flesh",
+      "type": "FIG",
       "hex": "#74452d",
       "equivalents": [
         {
@@ -417,7 +437,7 @@
           "code": "70341"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "30233"
         },
         {
@@ -430,10 +450,11 @@
     {
       "code": "AK11402",
       "name": "Light Flesh",
+      "type": "FIG",
       "hex": "#c98c73",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "31433"
         },
         {
@@ -446,6 +467,7 @@
     {
       "code": "AK11403",
       "name": "Highlight Flesh",
+      "type": "FIG",
       "hex": "#f9ca9f",
       "equivalents": [
         {
@@ -462,10 +484,11 @@
     {
       "code": "AK11404",
       "name": "Shadow Flesh",
+      "type": "FIG",
       "hex": "#823f36",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "31136"
         },
         {
@@ -478,6 +501,7 @@
     {
       "code": "AK11405",
       "name": "Dark Shadow Flesh",
+      "type": "FIG",
       "hex": "#4f2923",
       "equivalents": [
         {
@@ -498,10 +522,11 @@
     {
       "code": "AK11406",
       "name": "Reddish Black",
+      "type": "FIG",
       "hex": "#33211f",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "10049"
         },
         {
@@ -514,6 +539,7 @@
     {
       "code": "AK11407",
       "name": "Black Uniform Base",
+      "type": "FIG",
       "hex": "#121211",
       "equivalents": [
         {
@@ -529,7 +555,7 @@
           "code": "UA733"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "26081"
         },
         {
@@ -542,6 +568,7 @@
     {
       "code": "AK11408",
       "name": "Dot44 Brown Base",
+      "type": "FIG",
       "hex": "#4a3d2d",
       "equivalents": [
         {
@@ -554,10 +581,11 @@
     {
       "code": "AK11409",
       "name": "Orange Tan",
+      "type": "FIG",
       "hex": "#bf8248",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "32516"
         },
         {
@@ -570,6 +598,7 @@
     {
       "code": "AK11410",
       "name": "Dark Green",
+      "type": "FIG",
       "hex": "#1f2820",
       "equivalents": [
         {
@@ -582,6 +611,7 @@
     {
       "code": "AK11411",
       "name": "Light Green",
+      "type": "FIG",
       "hex": "#6f8142",
       "equivalents": [
         {
@@ -594,6 +624,7 @@
     {
       "code": "AK11412",
       "name": "Medium Green",
+      "type": "FIG",
       "hex": "#27341f",
       "equivalents": [
         {
@@ -609,7 +640,7 @@
           "code": "UAQ02"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "34102"
         },
         {
@@ -622,6 +653,7 @@
     {
       "code": "AK11413",
       "name": "Denison Tan Base",
+      "type": "FIG",
       "hex": "#856241",
       "equivalents": [
         {
@@ -629,7 +661,7 @@
           "code": "70339"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "30227"
         },
         {
@@ -642,6 +674,7 @@
     {
       "code": "AK11414",
       "name": "Splittermuster Base",
+      "type": "FIG",
       "hex": "#695f40",
       "equivalents": [
         {
@@ -649,7 +682,7 @@
           "code": "70332"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "33303"
         },
         {
@@ -662,10 +695,11 @@
     {
       "code": "AK11415",
       "name": "Splittermuster Green Spots",
+      "type": "FIG",
       "hex": "#2c3424",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "34095"
         },
         {
@@ -678,6 +712,7 @@
     {
       "code": "AK11416",
       "name": "Waffen Brown Grey",
+      "type": "FIG",
       "hex": "#41332a",
       "equivalents": [
         {
@@ -690,6 +725,7 @@
     {
       "code": "AK11417",
       "name": "Waffen",
+      "type": "FIG",
       "hex": "#583c26",
       "equivalents": [
         {
@@ -697,7 +733,7 @@
           "code": "875"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "30045"
         },
         {
@@ -710,6 +746,7 @@
     {
       "code": "AK11418",
       "name": "Brown Black",
+      "type": "FIG",
       "hex": "#1e1712",
       "equivalents": [
         {
@@ -726,6 +763,7 @@
     {
       "code": "AK11419",
       "name": "Waffen Red Brown",
+      "type": "FIG",
       "hex": "#422a22",
       "equivalents": [
         {
@@ -741,7 +779,7 @@
           "code": "8011"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "30108"
         },
         {
@@ -754,6 +792,7 @@
     {
       "code": "AK11420",
       "name": "Waffen Green",
+      "type": "FIG",
       "hex": "#2f3822",
       "equivalents": [
         {
@@ -766,10 +805,11 @@
     {
       "code": "AK11421",
       "name": "Dark Olive Green",
+      "type": "FIG",
       "hex": "#282e1b",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "34094"
         },
         {
@@ -782,6 +822,7 @@
     {
       "code": "AK11422",
       "name": "Ocher Khaki",
+      "type": "FIG",
       "hex": "#987a3c",
       "equivalents": [
         {
@@ -793,7 +834,7 @@
           "code": "824"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "30266"
         },
         {
@@ -806,6 +847,7 @@
     {
       "code": "AK11423",
       "name": "Field Grey Base #2",
+      "type": "FIG",
       "hex": "#3a3b31",
       "equivalents": [
         {
@@ -821,7 +863,7 @@
           "code": "68"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "36099"
         },
         {
@@ -834,10 +876,11 @@
     {
       "code": "AK11424",
       "name": "Grey Green",
+      "type": "FIG",
       "hex": "#91854d",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "34424"
         },
         {
@@ -850,6 +893,7 @@
     {
       "code": "AK11425",
       "name": "Field Grey Base #1",
+      "type": "FIG",
       "hex": "#3a3623",
       "equivalents": [
         {
@@ -861,7 +905,7 @@
           "code": "897"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "34052"
         }
       ],
@@ -870,6 +914,7 @@
     {
       "code": "AK11426",
       "name": "Grey Blue",
+      "type": "FIG",
       "hex": "#696e6e",
       "equivalents": [
         {
@@ -886,6 +931,7 @@
     {
       "code": "AK11427",
       "name": "Green Uniform Base",
+      "type": "FIG",
       "hex": "#2b301e",
       "equivalents": [
         {
@@ -893,7 +939,7 @@
           "code": "70335"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "16165"
         },
         {
@@ -906,6 +952,7 @@
     {
       "code": "AK11428",
       "name": "Light Green Uniform",
+      "type": "FIG",
       "hex": "#4d542c",
       "equivalents": [
         {
@@ -922,10 +969,11 @@
     {
       "code": "AK11429",
       "name": "Russian Uniform Lights",
+      "type": "FIG",
       "hex": "#656729",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "34258"
         },
         {
@@ -938,6 +986,7 @@
     {
       "code": "AK11430",
       "name": "Russian Uniform Base",
+      "type": "FIG",
       "hex": "#505225",
       "equivalents": [
         {
@@ -945,7 +994,7 @@
           "code": "70327"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "34098"
         },
         {
@@ -958,6 +1007,7 @@
     {
       "code": "AK11431",
       "name": "Russian Blue Lights",
+      "type": "FIG",
       "hex": "#1f252f",
       "equivalents": [
         {
@@ -970,6 +1020,7 @@
     {
       "code": "AK11432",
       "name": "Russian Blue Base",
+      "type": "FIG",
       "hex": "#13161d",
       "equivalents": [
         {
@@ -986,6 +1037,7 @@
     {
       "code": "AK11433",
       "name": "US Olive Base Uniform",
+      "type": "FIG",
       "hex": "#494220",
       "equivalents": [],
       "confidence": null
@@ -993,6 +1045,7 @@
     {
       "code": "AK11434",
       "name": "Red Brown",
+      "type": "FIG",
       "hex": "#6c3c2e",
       "equivalents": [
         {
@@ -1009,6 +1062,7 @@
     {
       "code": "AK11435",
       "name": "Field Drab",
+      "type": "FIG",
       "hex": "#715035",
       "equivalents": [
         {
@@ -1025,6 +1079,7 @@
     {
       "code": "AK11436",
       "name": "Canvas Tone",
+      "type": "FIG",
       "hex": "#484027",
       "equivalents": [
         {
@@ -1041,6 +1096,7 @@
     {
       "code": "AK11437",
       "name": "British Uniform Base",
+      "type": "FIG",
       "hex": "#63492d",
       "equivalents": [
         {
@@ -1048,7 +1104,7 @@
           "code": "70317"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "16160"
         },
         {
@@ -1061,6 +1117,7 @@
     {
       "code": "AK11438",
       "name": "British Uniform Lights",
+      "type": "FIG",
       "hex": "#805f2e",
       "equivalents": [
         {
@@ -1068,7 +1125,7 @@
           "code": "70321"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "20475"
         },
         {
@@ -1081,10 +1138,11 @@
     {
       "code": "AK11439",
       "name": "French Greyish Blue",
+      "type": "FIG",
       "hex": "#3c464b",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "35109"
         },
         {
@@ -1097,6 +1155,7 @@
     {
       "code": "AK11440",
       "name": "Desert Uniform Base",
+      "type": "FIG",
       "hex": "#8e6122",
       "equivalents": [
         {
@@ -1109,10 +1168,11 @@
     {
       "code": "AK11801",
       "name": "WWI German Fokker",
+      "type": "AIR",
       "hex": "#718072",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS34159"
         },
         {
@@ -1125,6 +1185,7 @@
     {
       "code": "AK11802",
       "name": "WWI German Light Green",
+      "type": "AIR",
       "hex": "#6f8659",
       "equivalents": [
         {
@@ -1137,6 +1198,7 @@
     {
       "code": "AK11803",
       "name": "WWI German Dark Green",
+      "type": "AIR",
       "hex": "#303d2c",
       "equivalents": [
         {
@@ -1153,6 +1215,7 @@
     {
       "code": "AK11804",
       "name": "WWI German Mauve",
+      "type": "AIR",
       "hex": "#745f74",
       "equivalents": [
         {
@@ -1169,6 +1232,7 @@
     {
       "code": "AK11805",
       "name": "WWI German Red Brown",
+      "type": "AIR",
       "hex": "#593119",
       "equivalents": [
         {
@@ -1185,6 +1249,7 @@
     {
       "code": "AK11806",
       "name": "WWI German Light Blue",
+      "type": "AIR",
       "hex": "#c2d9e8",
       "equivalents": [
         {
@@ -1197,6 +1262,7 @@
     {
       "code": "AK11807",
       "name": "WWI German Lilac",
+      "type": "AIR",
       "hex": "#a48ba4",
       "equivalents": [
         {
@@ -1209,6 +1275,7 @@
     {
       "code": "AK11808",
       "name": "WWI German Grey-Green Primer",
+      "type": "AIR",
       "hex": "#b0bba2",
       "equivalents": [
         {
@@ -1225,6 +1292,7 @@
     {
       "code": "AK11809",
       "name": "PC1O Late",
+      "type": "AIR",
       "hex": "#363928",
       "equivalents": [
         {
@@ -1241,6 +1309,7 @@
     {
       "code": "AK11810",
       "name": "PC12",
+      "type": "AIR",
       "hex": "#383029",
       "equivalents": [
         {
@@ -1257,6 +1326,7 @@
     {
       "code": "AK11811",
       "name": "RLM 02 RLM-Grau (1938)",
+      "type": "AIR",
       "hex": "#8c8977",
       "equivalents": [
         {
@@ -1297,6 +1367,7 @@
     {
       "code": "AK11812",
       "name": "RLM 02 RLM-Grau (1941)",
+      "type": "AIR",
       "hex": "#757456",
       "equivalents": [
         {
@@ -1309,6 +1380,7 @@
     {
       "code": "AK11813",
       "name": "RLM 04",
+      "type": "AIR",
       "hex": "#eb9d2f",
       "equivalents": [
         {
@@ -1349,6 +1421,7 @@
     {
       "code": "AK11814",
       "name": "RLM 61",
+      "type": "AIR",
       "hex": "#4d4845",
       "equivalents": [
         {
@@ -1369,6 +1442,7 @@
     {
       "code": "AK11815",
       "name": "RLM 62",
+      "type": "AIR",
       "hex": "#5d5e48",
       "equivalents": [
         {
@@ -1389,6 +1463,7 @@
     {
       "code": "AK11816",
       "name": "RLM 63",
+      "type": "AIR",
       "hex": "#736f60",
       "equivalents": [
         {
@@ -1409,6 +1484,7 @@
     {
       "code": "AK11817",
       "name": "RLM 65 (1938)",
+      "type": "AIR",
       "hex": "#7d979a",
       "equivalents": [
         {
@@ -1425,6 +1501,7 @@
     {
       "code": "AK11818",
       "name": "RLM 65 (1941)",
+      "type": "AIR",
       "hex": "#8b968e",
       "equivalents": [
         {
@@ -1461,6 +1538,7 @@
     {
       "code": "AK11819",
       "name": "RLM 66 (1938)",
+      "type": "AIR",
       "hex": "#303638",
       "equivalents": [
         {
@@ -1493,6 +1571,7 @@
     {
       "code": "AK11820",
       "name": "RLM 66 (1941)",
+      "type": "AIR",
       "hex": "#494844",
       "equivalents": [
         {
@@ -1505,6 +1584,7 @@
     {
       "code": "AK11821",
       "name": "RLM 70",
+      "type": "AIR",
       "hex": "#3f4139",
       "equivalents": [
         {
@@ -1545,6 +1625,7 @@
     {
       "code": "AK11822",
       "name": "RLM 71",
+      "type": "AIR",
       "hex": "#48453c",
       "equivalents": [
         {
@@ -1581,6 +1662,7 @@
     {
       "code": "AK11823",
       "name": "RLM 72",
+      "type": "AIR",
       "hex": "#3e3e3a",
       "equivalents": [
         {
@@ -1605,6 +1687,7 @@
     {
       "code": "AK11824",
       "name": "RLM 73",
+      "type": "AIR",
       "hex": "#3b4039",
       "equivalents": [
         {
@@ -1629,6 +1712,7 @@
     {
       "code": "AK11825",
       "name": "RLM 74",
+      "type": "AIR",
       "hex": "#51504b",
       "equivalents": [
         {
@@ -1665,6 +1749,7 @@
     {
       "code": "AK11826",
       "name": "RLM 75",
+      "type": "AIR",
       "hex": "#656462",
       "equivalents": [
         {
@@ -1697,6 +1782,7 @@
     {
       "code": "AK11827",
       "name": "RLM 76 Version 1",
+      "type": "AIR",
       "hex": "#a1ac9c",
       "equivalents": [
         {
@@ -1709,6 +1795,7 @@
     {
       "code": "AK11828",
       "name": "RLM 76 Version 2",
+      "type": "AIR",
       "hex": "#a5b4b4",
       "equivalents": [
         {
@@ -1745,6 +1832,7 @@
     {
       "code": "AK11829",
       "name": "RLM 76 Late War Variation",
+      "type": "AIR",
       "hex": "#bab895",
       "equivalents": [
         {
@@ -1761,6 +1849,7 @@
     {
       "code": "AK11830",
       "name": "RLM 78 (1941)",
+      "type": "AIR",
       "hex": "#778c94",
       "equivalents": [
         {
@@ -1773,6 +1862,7 @@
     {
       "code": "AK11831",
       "name": "RLM 78 (1942)",
+      "type": "AIR",
       "hex": "#7f928d",
       "equivalents": [
         {
@@ -1809,6 +1899,7 @@
     {
       "code": "AK11832",
       "name": "RLM 79 (1941)",
+      "type": "AIR",
       "hex": "#e09959",
       "equivalents": [
         {
@@ -1825,6 +1916,7 @@
     {
       "code": "AK11833",
       "name": "RLM 79 (1942)",
+      "type": "AIR",
       "hex": "#8f6748",
       "equivalents": [
         {
@@ -1857,6 +1949,7 @@
     {
       "code": "AK11834",
       "name": "RLM 80",
+      "type": "AIR",
       "hex": "#4e4c3e",
       "equivalents": [
         {
@@ -1889,6 +1982,7 @@
     {
       "code": "AK11835",
       "name": "RLM 81 Version 1",
+      "type": "AIR",
       "hex": "#4e4c3e",
       "equivalents": [
         {
@@ -1925,6 +2019,7 @@
     {
       "code": "AK11836",
       "name": "RLM 81 Version 2",
+      "type": "AIR",
       "hex": "#3f4338",
       "equivalents": [
         {
@@ -1965,6 +2060,7 @@
     {
       "code": "AK11837",
       "name": "RLM 81 Version 3",
+      "type": "AIR",
       "hex": "#4f483e",
       "equivalents": [
         {
@@ -1977,6 +2073,7 @@
     {
       "code": "AK11838",
       "name": "RLM 82",
+      "type": "AIR",
       "hex": "#475143",
       "equivalents": [
         {
@@ -2013,6 +2110,7 @@
     {
       "code": "AK11839",
       "name": "RLM 83",
+      "type": "AIR",
       "hex": "#323d4a",
       "equivalents": [
         {
@@ -2025,6 +2123,7 @@
     {
       "code": "AK11840",
       "name": "RAF Dark Green",
+      "type": "AIR",
       "hex": "#4d4d44",
       "equivalents": [
         {
@@ -2073,6 +2172,7 @@
     {
       "code": "AK11841",
       "name": "RAF Dark Earth",
+      "type": "AIR",
       "hex": "#654d37",
       "equivalents": [
         {
@@ -2105,6 +2205,7 @@
     {
       "code": "AK11842",
       "name": "RAF Ocean Grey",
+      "type": "AIR",
       "hex": "#535d5f",
       "equivalents": [
         {
@@ -2141,6 +2242,7 @@
     {
       "code": "AK11843",
       "name": "RAF Medium Sea Grey BS381C/637",
+      "type": "AIR",
       "hex": "#778186",
       "equivalents": [
         {
@@ -2193,6 +2295,7 @@
     {
       "code": "AK11844",
       "name": "RAF Sky / FS 34424",
+      "type": "AIR",
       "hex": "#abad97",
       "equivalents": [
         {
@@ -2208,7 +2311,7 @@
           "code": "UA5S0"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS34424"
         },
         {
@@ -2225,6 +2328,7 @@
     {
       "code": "AK11845",
       "name": "RAF",
+      "type": "AIR",
       "hex": "#7393ba",
       "equivalents": [
         {
@@ -2257,6 +2361,7 @@
     {
       "code": "AK11846",
       "name": "RAF Middle Stone",
+      "type": "AIR",
       "hex": "#99733a",
       "equivalents": [
         {
@@ -2289,6 +2394,7 @@
     {
       "code": "AK11847",
       "name": "RAF Cockpit Grey-Green",
+      "type": "AIR",
       "hex": "#6a745f",
       "equivalents": [
         {
@@ -2325,6 +2431,7 @@
     {
       "code": "AK11848",
       "name": "RAF Sky",
+      "type": "AIR",
       "hex": "#979b9a",
       "equivalents": [
         {
@@ -2336,7 +2443,7 @@
           "code": "UA036"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS26373"
         },
         {
@@ -2353,6 +2460,7 @@
     {
       "code": "AK11849",
       "name": "RAF Dark Slate Grey",
+      "type": "AIR",
       "hex": "#555248",
       "equivalents": [
         {
@@ -2377,6 +2485,7 @@
     {
       "code": "AK11850",
       "name": "RAF Extra Dark Sea Grey BS381C/640",
+      "type": "AIR",
       "hex": "#464c53",
       "equivalents": [
         {
@@ -2425,6 +2534,7 @@
     {
       "code": "AK11851",
       "name": "RAF Dark Sea Grey BS381C/638",
+      "type": "AIR",
       "hex": "#5e6165",
       "equivalents": [
         {
@@ -2469,6 +2579,7 @@
     {
       "code": "AK11852",
       "name": "RAF PRU Blue BS381C/636",
+      "type": "AIR",
       "hex": "#4d606a",
       "equivalents": [
         {
@@ -2513,6 +2624,7 @@
     {
       "code": "AK11853",
       "name": "RAF Light Aircraft Grey BS381C/627",
+      "type": "AIR",
       "hex": "#a8a8a1",
       "equivalents": [
         {
@@ -2549,6 +2661,7 @@
     {
       "code": "AK11854",
       "name": "RAF Camouflage (Barley) Grey",
+      "type": "AIR",
       "hex": "#8d9292",
       "equivalents": [
         {
@@ -2593,6 +2706,7 @@
     {
       "code": "AK11855",
       "name": "RAF Dark Camouflage Grey",
+      "type": "AIR",
       "hex": "#676e73",
       "equivalents": [
         {
@@ -2617,6 +2731,7 @@
     {
       "code": "AK11856",
       "name": "RAF Camouflage Beige (Hemp)",
+      "type": "AIR",
       "hex": "#928a76",
       "equivalents": [
         {
@@ -2657,6 +2772,7 @@
     {
       "code": "AK11857",
       "name": "Bronze Green",
+      "type": "AIR",
       "hex": "#262f22",
       "equivalents": [
         {
@@ -2673,6 +2789,7 @@
     {
       "code": "AK11858",
       "name": "Zinc Chromate Yellow",
+      "type": "AIR",
       "hex": "#dfc737",
       "equivalents": [
         {
@@ -2697,6 +2814,7 @@
     {
       "code": "AK11859",
       "name": "US Interior Yellow Green",
+      "type": "AIR",
       "hex": "#79795e",
       "equivalents": [
         {
@@ -2713,6 +2831,7 @@
     {
       "code": "AK11860",
       "name": "Dark Olive Drab 41",
+      "type": "AIR",
       "hex": "#49463a",
       "equivalents": [
         {
@@ -2736,7 +2855,7 @@
           "code": "UA005"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS33070"
         },
         {
@@ -2753,6 +2872,7 @@
     {
       "code": "AK11861",
       "name": "Medium Green 42",
+      "type": "AIR",
       "hex": "#404838",
       "equivalents": [
         {
@@ -2773,6 +2893,7 @@
     {
       "code": "AK11862",
       "name": "Neutral Grey 43",
+      "type": "AIR",
       "hex": "#61625d",
       "equivalents": [
         {
@@ -2809,6 +2930,7 @@
     {
       "code": "AK11863",
       "name": "ANA 613 Olive Drab",
+      "type": "AIR",
       "hex": "#514e41",
       "equivalents": [
         {
@@ -2825,6 +2947,7 @@
     {
       "code": "AK11864",
       "name": "Deep Sea Blue",
+      "type": "AIR",
       "hex": "#313d43",
       "equivalents": [
         {
@@ -2844,7 +2967,7 @@
           "code": "UA047"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS35045"
         },
         {
@@ -2861,6 +2984,7 @@
     {
       "code": "AK11865",
       "name": "M-485 Blue-Grey",
+      "type": "AIR",
       "hex": "#68797f",
       "equivalents": [
         {
@@ -2876,7 +3000,7 @@
           "code": "UA038"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS35189"
         },
         {
@@ -2897,6 +3021,7 @@
     {
       "code": "AK11866",
       "name": "Light Gull",
+      "type": "AIR",
       "hex": "#a6a59c",
       "equivalents": [
         {
@@ -2920,7 +3045,7 @@
           "code": "UA025"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS16440"
         },
         {
@@ -2937,6 +3062,7 @@
     {
       "code": "AK11867",
       "name": "ADC Grey FS 16473",
+      "type": "AIR",
       "hex": "#96a09c",
       "equivalents": [
         {
@@ -2948,7 +3074,7 @@
           "code": "UA041"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS16473"
         },
         {
@@ -2969,6 +3095,7 @@
     {
       "code": "AK11868",
       "name": "Insignia White FS 17875",
+      "type": "AIR",
       "hex": "#e3e4d7",
       "equivalents": [
         {
@@ -2996,7 +3123,7 @@
           "code": "UA148"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS17875"
         },
         {
@@ -3017,6 +3144,7 @@
     {
       "code": "AK11869",
       "name": "Sand FS 33531",
+      "type": "AIR",
       "hex": "#beab96",
       "equivalents": [
         {
@@ -3040,7 +3168,7 @@
           "code": "H313"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS33531"
         },
         {
@@ -3061,6 +3189,7 @@
     {
       "code": "AK11870",
       "name": "Radome Tan FS 33613",
+      "type": "AIR",
       "hex": "#dfbf9a",
       "equivalents": [
         {
@@ -3080,7 +3209,7 @@
           "code": "H318"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS33613"
         },
         {
@@ -3097,6 +3226,7 @@
     {
       "code": "AK11871",
       "name": "USMC Sand FS 33711",
+      "type": "AIR",
       "hex": "#f6ca8f",
       "equivalents": [
         {
@@ -3104,7 +3234,7 @@
           "code": "UA090"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS33711"
         },
         {
@@ -3121,10 +3251,11 @@
     {
       "code": "AK11872",
       "name": "US Army Helo Drab FS 34031",
+      "type": "AIR",
       "hex": "#3e3f3b",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS34031"
         },
         {
@@ -3141,6 +3272,7 @@
     {
       "code": "AK11873",
       "name": "Dull Dark Green FS 34092",
+      "type": "AIR",
       "hex": "#424e49",
       "equivalents": [
         {
@@ -3168,7 +3300,7 @@
           "code": "UA008"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS34092"
         },
         {
@@ -3189,6 +3321,7 @@
     {
       "code": "AK11874",
       "name": "USMC Green FS 34095",
+      "type": "AIR",
       "hex": "#4f5023",
       "equivalents": [
         {
@@ -3200,7 +3333,7 @@
           "code": "RA1840HR"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS34095"
         },
         {
@@ -3217,6 +3350,7 @@
     {
       "code": "AK11875",
       "name": "Field Green FS 34097",
+      "type": "AIR",
       "hex": "#60612d",
       "equivalents": [
         {
@@ -3228,7 +3362,7 @@
           "code": "H340"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS34097"
         },
         {
@@ -3241,6 +3375,7 @@
     {
       "code": "AK11876",
       "name": "Green FS 34258",
+      "type": "AIR",
       "hex": "#767554",
       "equivalents": [
         {
@@ -3252,7 +3387,7 @@
           "code": "UA115"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS34258"
         },
         {
@@ -3273,6 +3408,7 @@
     {
       "code": "AK11877",
       "name": "Aggressor Blue FS 35109",
+      "type": "AIR",
       "hex": "#396064",
       "equivalents": [
         {
@@ -3284,7 +3420,7 @@
           "code": "UA404"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS35109"
         },
         {
@@ -3301,6 +3437,7 @@
     {
       "code": "AK11878",
       "name": "Blue FS 35190",
+      "type": "AIR",
       "hex": "#588b93",
       "equivalents": [
         {
@@ -3308,7 +3445,7 @@
           "code": "70901"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS35190"
         },
         {
@@ -3321,6 +3458,7 @@
     {
       "code": "AK11879",
       "name": "Air Superiority Blue FS 35450",
+      "type": "AIR",
       "hex": "#82a6b9",
       "equivalents": [
         {
@@ -3336,7 +3474,7 @@
           "code": "UA037"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS35450"
         },
         {
@@ -3357,6 +3495,7 @@
     {
       "code": "AK11880",
       "name": "Duck Egg Blue FS 35622",
+      "type": "AIR",
       "hex": "#bec9bf",
       "equivalents": [
         {
@@ -3380,7 +3519,7 @@
           "code": "UA139"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS35622"
         },
         {
@@ -3401,6 +3540,7 @@
     {
       "code": "AK11881",
       "name": "Medium Gunship Grey FS 36118",
+      "type": "AIR",
       "hex": "#54575f",
       "equivalents": [
         {
@@ -3428,7 +3568,7 @@
           "code": "UA022"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS36118"
         },
         {
@@ -3449,10 +3589,11 @@
     {
       "code": "AK11882",
       "name": "Have Glass Grey FS 36170",
+      "type": "AIR",
       "hex": "#656462",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS36170"
         },
         {
@@ -3469,6 +3610,7 @@
     {
       "code": "AK11883",
       "name": "F-15 Dark Grey (Mod Eagle)",
+      "type": "AIR",
       "hex": "#646e76",
       "equivalents": [
         {
@@ -3480,7 +3622,7 @@
           "code": "UA029"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS36176"
         },
         {
@@ -3501,6 +3643,7 @@
     {
       "code": "AK11884",
       "name": "Dark Gull Grey FS 36231",
+      "type": "AIR",
       "hex": "#75797b",
       "equivalents": [
         {
@@ -3524,7 +3667,7 @@
           "code": "UA033"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS36231"
         },
         {
@@ -3541,6 +3684,7 @@
     {
       "code": "AK11885",
       "name": "Aggressor Grey FS 36251",
+      "type": "AIR",
       "hex": "#77787a",
       "equivalents": [
         {
@@ -3552,7 +3696,7 @@
           "code": "UA034"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS36251"
         },
         {
@@ -3573,6 +3717,7 @@
     {
       "code": "AK11886",
       "name": "Medium Grey FS 36270",
+      "type": "AIR",
       "hex": "#797e80",
       "equivalents": [
         {
@@ -3596,7 +3741,7 @@
           "code": "UA028"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS36270"
         },
         {
@@ -3617,6 +3762,7 @@
     {
       "code": "AK11887",
       "name": "Dark Ghost Grey FS 36320",
+      "type": "AIR",
       "hex": "#7d8991",
       "equivalents": [
         {
@@ -3640,7 +3786,7 @@
           "code": "UA027"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS36320"
         },
         {
@@ -3657,6 +3803,7 @@
     {
       "code": "AK11888",
       "name": "Light Ghost Grey FS 36375",
+      "type": "AIR",
       "hex": "#939ca1",
       "equivalents": [
         {
@@ -3680,7 +3827,7 @@
           "code": "UA026"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS36375"
         },
         {
@@ -3697,6 +3844,7 @@
     {
       "code": "AK11889",
       "name": "Light",
+      "type": "AIR",
       "hex": "#bdc0bf",
       "equivalents": [
         {
@@ -3720,7 +3868,7 @@
           "code": "UA023"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS36495"
         },
         {
@@ -3737,6 +3885,7 @@
     {
       "code": "AK11890",
       "name": "Camouflage Grey FS 36622",
+      "type": "AIR",
       "hex": "#bab8ab",
       "equivalents": [
         {
@@ -3760,7 +3909,7 @@
           "code": "UA021"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS36622"
         },
         {
@@ -3781,6 +3930,7 @@
     {
       "code": "AK11891",
       "name": "IJN J3 Hai-iro (Grey)",
+      "type": "AIR",
       "hex": "#85877e",
       "equivalents": [
         {
@@ -3792,7 +3942,7 @@
           "code": "H61"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS36307"
         },
         {
@@ -3809,6 +3959,7 @@
     {
       "code": "AK11892",
       "name": "IJN J3 SP (Amber Grey)",
+      "type": "AIR",
       "hex": "#8a836c",
       "equivalents": [
         {
@@ -3829,6 +3980,7 @@
     {
       "code": "AK11893",
       "name": "IJN D1 Deep Green Black",
+      "type": "AIR",
       "hex": "#272f28",
       "equivalents": [
         {
@@ -3861,6 +4013,7 @@
     {
       "code": "AK11894",
       "name": "IJN D2 Green Black",
+      "type": "AIR",
       "hex": "#24302b",
       "equivalents": [
         {
@@ -3881,6 +4034,7 @@
     {
       "code": "AK11895",
       "name": "IJN Q1 Anti-Glare Blue-Black",
+      "type": "AIR",
       "hex": "#1a2021",
       "equivalents": [
         {
@@ -3897,6 +4051,7 @@
     {
       "code": "AK11896",
       "name": "IJN M3 (M) Mitsubishi Interior Green]",
+      "type": "AIR",
       "hex": "#5d5731",
       "equivalents": [
         {
@@ -3917,6 +4072,7 @@
     {
       "code": "AK11897",
       "name": "IJN M3 (N) Nakajima Interior Green",
+      "type": "AIR",
       "hex": "#474028",
       "equivalents": [
         {
@@ -3937,6 +4093,7 @@
     {
       "code": "AK11898",
       "name": "IJNJJA Aotake",
+      "type": "AIR",
       "hex": "#1a5366",
       "equivalents": [
         {
@@ -3957,6 +4114,7 @@
     {
       "code": "AK11899",
       "name": "IJA #1 Hairyokushoku (Grey-Green)",
+      "type": "AIR",
       "hex": "#9e9d8d",
       "equivalents": [
         {
@@ -3989,6 +4147,7 @@
     {
       "code": "AK11900",
       "name": "IJA #3 Hairanshoku (Grey Indigo)",
+      "type": "AIR",
       "hex": "#435251",
       "equivalents": [
         {
@@ -4009,6 +4168,7 @@
     {
       "code": "AK11901",
       "name": "IJA #7 Ohryuko Nana Go Shoku",
+      "type": "AIR",
       "hex": "#474028",
       "equivalents": [
         {
@@ -4029,6 +4189,7 @@
     {
       "code": "AK11902",
       "name": "IJA #21 Midori iro (Green)",
+      "type": "AIR",
       "hex": "#2d3a2a",
       "equivalents": [
         {
@@ -4045,6 +4206,7 @@
     {
       "code": "AK11903",
       "name": "IJA #27 Ao Midori iro (Blue-Green)",
+      "type": "AIR",
       "hex": "#142f28",
       "equivalents": [
         {
@@ -4061,6 +4223,7 @@
     {
       "code": "AK11904",
       "name": "IJA #29 Ki Midori iro (Yellow-Green)",
+      "type": "AIR",
       "hex": "#6d642a",
       "equivalents": [
         {
@@ -4077,6 +4240,7 @@
     {
       "code": "AK11905",
       "name": "IJA #30 Karekusa iro (Dry Grass)",
+      "type": "AIR",
       "hex": "#7a6d4f",
       "equivalents": [
         {
@@ -4093,6 +4257,7 @@
     {
       "code": "AK11906",
       "name": "IJA #31 Cha Kasshoku (Tea Colour)",
+      "type": "AIR",
       "hex": "#5c493f",
       "equivalents": [
         {
@@ -4109,6 +4274,7 @@
     {
       "code": "AK11907",
       "name": "Grey-Blue 1920s-1930s",
+      "type": "AIR",
       "hex": "#95a99d",
       "equivalents": [],
       "confidence": null
@@ -4116,6 +4282,7 @@
     {
       "code": "AK11908",
       "name": "AE-9/AII Light Grey",
+      "type": "AIR",
       "hex": "#cecfc7",
       "equivalents": [
         {
@@ -4123,7 +4290,7 @@
           "code": "71414"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "FS25630"
         },
         {
@@ -4144,6 +4311,7 @@
     {
       "code": "AK11909",
       "name": "AII Green",
+      "type": "AIR",
       "hex": "#2d361e",
       "equivalents": [
         {
@@ -4168,6 +4336,7 @@
     {
       "code": "AK11910",
       "name": "AII Light Blue",
+      "type": "AIR",
       "hex": "#7598a3",
       "equivalents": [
         {
@@ -4192,6 +4361,7 @@
     {
       "code": "AK11911",
       "name": "A-14 Interior Steel Grey",
+      "type": "AIR",
       "hex": "#5b676a",
       "equivalents": [
         {
@@ -4212,6 +4382,7 @@
     {
       "code": "AK11912",
       "name": "A-18f Light Grey-Blue",
+      "type": "AIR",
       "hex": "#7d9990",
       "equivalents": [
         {
@@ -4232,6 +4403,7 @@
     {
       "code": "AK11913",
       "name": "A-19f Grass Green",
+      "type": "AIR",
       "hex": "#4c5838",
       "equivalents": [
         {
@@ -4252,6 +4424,7 @@
     {
       "code": "AK11914",
       "name": "A-Z1m Light Yellowish Brown",
+      "type": "AIR",
       "hex": "#847b5a",
       "equivalents": [
         {
@@ -4284,6 +4457,7 @@
     {
       "code": "AK11915",
       "name": "AMT-4 (A-24m) Green",
+      "type": "AIR",
       "hex": "#3c4724",
       "equivalents": [
         {
@@ -4308,6 +4482,7 @@
     {
       "code": "AK11916",
       "name": "AMT-7 Light Blue",
+      "type": "AIR",
       "hex": "#5f8498",
       "equivalents": [
         {
@@ -4332,6 +4507,7 @@
     {
       "code": "AK11917",
       "name": "AMT-11 Blue-Grey",
+      "type": "AIR",
       "hex": "#404f56",
       "equivalents": [
         {
@@ -4356,6 +4532,7 @@
     {
       "code": "AK11918",
       "name": "AMT-12 Dark Grey",
+      "type": "AIR",
       "hex": "#272f31",
       "equivalents": [
         {
@@ -4380,6 +4557,7 @@
     {
       "code": "AK11919",
       "name": "Radome & Wheel Hub Green",
+      "type": "AIR",
       "hex": "#2f572d",
       "equivalents": [
         {
@@ -4400,6 +4578,7 @@
     {
       "code": "AK11920",
       "name": "Mig-25/Mig-31 Grey",
+      "type": "AIR",
       "hex": "#b6b7b2",
       "equivalents": [
         {
@@ -4412,6 +4591,7 @@
     {
       "code": "AK11301",
       "name": "WWI British Khaki Brown Base",
+      "type": "AFV",
       "hex": "#48392a",
       "equivalents": [
         {
@@ -4424,6 +4604,7 @@
     {
       "code": "AK11302",
       "name": "WWI French Milky Coffee",
+      "type": "AFV",
       "hex": "#8f724a",
       "equivalents": [
         {
@@ -4435,7 +4616,7 @@
           "code": "UA097"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "23448"
         },
         {
@@ -4448,6 +4629,7 @@
     {
       "code": "AK11303",
       "name": "WWI French Artillery Grey",
+      "type": "AFV",
       "hex": "#4a5360",
       "equivalents": [
         {
@@ -4455,7 +4637,7 @@
           "code": "71257"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "36176"
         },
         {
@@ -4468,10 +4650,11 @@
     {
       "code": "AK11304",
       "name": "WWI French Brown",
+      "type": "AFV",
       "hex": "#422619",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "31090"
         },
         {
@@ -4484,6 +4667,7 @@
     {
       "code": "AK11305",
       "name": "WWI French Green 1",
+      "type": "AFV",
       "hex": "#313728",
       "equivalents": [
         {
@@ -4491,7 +4675,7 @@
           "code": "71006"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "34097"
         },
         {
@@ -4504,6 +4688,7 @@
     {
       "code": "AK11306",
       "name": "WWI French Green 2",
+      "type": "AFV",
       "hex": "#26241a",
       "equivalents": [
         {
@@ -4516,6 +4701,7 @@
     {
       "code": "AK11307",
       "name": "RAL 7009 Hellgrau",
+      "type": "AFV",
       "hex": "#716132",
       "equivalents": [
         {
@@ -4536,6 +4722,7 @@
     {
       "code": "AK11308",
       "name": "RAL 6007 Grin",
+      "type": "AFV",
       "hex": "#3e5530",
       "equivalents": [
         {
@@ -4560,6 +4747,7 @@
     {
       "code": "AK11309",
       "name": "RAL 6003 Olivgriin opt: 1",
+      "type": "AFV",
       "hex": "#474924",
       "equivalents": [
         {
@@ -4592,6 +4780,7 @@
     {
       "code": "AK11310",
       "name": "RAL 6003 Olivgriin opt.2",
+      "type": "AFV",
       "hex": "#34301b",
       "equivalents": [
         {
@@ -4604,6 +4793,7 @@
     {
       "code": "AK11311",
       "name": "RAL 6011 Resedagrin",
+      "type": "AFV",
       "hex": "#59613a",
       "equivalents": [
         {
@@ -4620,6 +4810,7 @@
     {
       "code": "AK11312",
       "name": "RAL 6011B Resedagriin",
+      "type": "AFV",
       "hex": "#525832",
       "equivalents": [
         {
@@ -4632,6 +4823,7 @@
     {
       "code": "AK11313",
       "name": "RAL 7008 Graugriin",
+      "type": "AFV",
       "hex": "#776535",
       "equivalents": [
         {
@@ -4660,6 +4852,7 @@
     {
       "code": "AK11314",
       "name": "RAL 7008 Graugriin Opt.2",
+      "type": "AFV",
       "hex": "#646937",
       "equivalents": [],
       "confidence": null
@@ -4667,6 +4860,7 @@
     {
       "code": "AK11315",
       "name": "RAL 7017 Dunkelbraun",
+      "type": "AFV",
       "hex": "#453529",
       "equivalents": [
         {
@@ -4691,6 +4885,7 @@
     {
       "code": "AK11316",
       "name": "RAL 7021 Dunkelgrau",
+      "type": "AFV",
       "hex": "#1c1e1d",
       "equivalents": [
         {
@@ -4706,7 +4901,7 @@
           "code": "7021"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "34086"
         },
         {
@@ -4723,6 +4918,7 @@
     {
       "code": "AK11317",
       "name": "RAL 7027 Grau",
+      "type": "AFV",
       "hex": "#665a42",
       "equivalents": [
         {
@@ -4751,6 +4947,7 @@
     {
       "code": "AK11318",
       "name": "RAL 7028 Dunkelgelb (Initial)",
+      "type": "AFV",
       "hex": "#8f7d4e",
       "equivalents": [
         {
@@ -4770,7 +4967,7 @@
           "code": "7028"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "33434"
         },
         {
@@ -4787,6 +4984,7 @@
     {
       "code": "AK11319",
       "name": "Dunkelgelb Ausgabe 1944",
+      "type": "AFV",
       "hex": "#ad9770",
       "equivalents": [
         {
@@ -4807,6 +5005,7 @@
     {
       "code": "AK11320",
       "name": "RAL 7028 Dunkelgelb (Variant)",
+      "type": "AFV",
       "hex": "#ab8f55",
       "equivalents": [
         {
@@ -4819,6 +5018,7 @@
     {
       "code": "AK11323",
       "name": "RAL 6040 F9 Helloliv",
+      "type": "AFV",
       "hex": "#5c4d2e",
       "equivalents": [
         {
@@ -4843,6 +5043,7 @@
     {
       "code": "AK11325",
       "name": "RAL 1039 F9 Sandbeige",
+      "type": "AFV",
       "hex": "#b2915d",
       "equivalents": [
         {
@@ -4871,6 +5072,7 @@
     {
       "code": "AK11326",
       "name": "RAL 8031 F9 Sandbraun",
+      "type": "AFV",
       "hex": "#815c34",
       "equivalents": [
         {
@@ -4899,6 +5101,7 @@
     {
       "code": "AK11327",
       "name": "RAL 8000 Gelbbraun",
+      "type": "AFV",
       "hex": "#795f38",
       "equivalents": [
         {
@@ -4931,6 +5134,7 @@
     {
       "code": "AK11328",
       "name": "RAL 8012 Rotbraun",
+      "type": "AFV",
       "hex": "#5e2318",
       "equivalents": [
         {
@@ -4963,6 +5167,7 @@
     {
       "code": "AK11329",
       "name": "RAL 8013 Rotbraun",
+      "type": "AFV",
       "hex": "#461b15",
       "equivalents": [
         {
@@ -4983,6 +5188,7 @@
     {
       "code": "AK11330",
       "name": "RAL 8017 Rotbraun",
+      "type": "AFV",
       "hex": "#33241c",
       "equivalents": [
         {
@@ -5019,6 +5225,7 @@
     {
       "code": "AK11331",
       "name": "RAL 8020 Braun",
+      "type": "AFV",
       "hex": "#a17a51",
       "equivalents": [
         {
@@ -5051,6 +5258,7 @@
     {
       "code": "AK11333",
       "name": "Cremeweiss",
+      "type": "AFV",
       "hex": "#e5d8a8",
       "equivalents": [
         {
@@ -5062,7 +5270,7 @@
           "code": "1001"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "23717"
         },
         {
@@ -5083,10 +5291,11 @@
     {
       "code": "AK11334",
       "name": "Olive Drab Base",
+      "type": "AFV",
       "hex": "#4e4a2b",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "24098"
         },
         {
@@ -5099,6 +5308,7 @@
     {
       "code": "AK11335",
       "name": "N'1 Light Green (FS34151)",
+      "type": "AFV",
       "hex": "#555624",
       "equivalents": [
         {
@@ -5106,7 +5316,7 @@
           "code": "71137"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "34151"
         },
         {
@@ -5127,6 +5337,7 @@
     {
       "code": "AK11336",
       "name": "N'5 Earth Brown (FS30099)",
+      "type": "AFV",
       "hex": "#453325",
       "equivalents": [
         {
@@ -5138,7 +5349,7 @@
           "code": "UA087"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "30099"
         },
         {
@@ -5155,6 +5366,7 @@
     {
       "code": "AK11337",
       "name": "N'6 Earth Yellow (FS30257)",
+      "type": "AFV",
       "hex": "#996a36",
       "equivalents": [
         {
@@ -5162,7 +5374,7 @@
           "code": "71291"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "30257"
         },
         {
@@ -5183,6 +5395,7 @@
     {
       "code": "AK11338",
       "name": "N'8 Earth Red (FS30117)",
+      "type": "AFV",
       "hex": "#5f3724",
       "equivalents": [
         {
@@ -5190,7 +5403,7 @@
           "code": "71293"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "30117"
         },
         {
@@ -5203,10 +5416,11 @@
     {
       "code": "AK11339",
       "name": "N\"9 Olive Drab (FS33070)",
+      "type": "AFV",
       "hex": "#363723",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "33070"
         },
         {
@@ -5219,6 +5433,7 @@
     {
       "code": "AK11340",
       "name": "N913 Desert Sand (FS30279)",
+      "type": "AFV",
       "hex": "#9b7a5b",
       "equivalents": [
         {
@@ -5234,7 +5449,7 @@
           "code": "UA089"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "30279"
         },
         {
@@ -5251,10 +5466,11 @@
     {
       "code": "AK11341",
       "name": "Ocean Gray (FS35164)",
+      "type": "AFV",
       "hex": "#44525f",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "35164"
         },
         {
@@ -5267,6 +5483,7 @@
     {
       "code": "AK11342",
       "name": "Dark Green (FS34102)",
+      "type": "AFV",
       "hex": "#2f341e",
       "equivalents": [
         {
@@ -5278,7 +5495,7 @@
           "code": "UA002"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "34102"
         },
         {
@@ -5299,6 +5516,7 @@
     {
       "code": "AK11343",
       "name": "MERDC Sand (FS30277)",
+      "type": "AFV",
       "hex": "#7b6544",
       "equivalents": [
         {
@@ -5310,7 +5528,7 @@
           "code": "UA019"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "30277"
         },
         {
@@ -5331,6 +5549,7 @@
     {
       "code": "AK11344",
       "name": "Field Drab (FS30118)",
+      "type": "AFV",
       "hex": "#4e3a1f",
       "equivalents": [
         {
@@ -5342,7 +5561,7 @@
           "code": "UA016"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "30118"
         },
         {
@@ -5363,10 +5582,11 @@
     {
       "code": "AK11345",
       "name": "APC Interior Light Green",
+      "type": "AFV",
       "hex": "#c3c59d",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "24533"
         },
         {
@@ -5383,6 +5603,7 @@
     {
       "code": "AK11346",
       "name": "Forest Green (FS34079)",
+      "type": "AFV",
       "hex": "#282e1b",
       "equivalents": [
         {
@@ -5394,7 +5615,7 @@
           "code": "UA001"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "34079"
         },
         {
@@ -5411,10 +5632,11 @@
     {
       "code": "AK11347",
       "name": "Australian Camouflage Brown",
+      "type": "AFV",
       "hex": "#9e8153",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "30219"
         },
         {
@@ -5427,10 +5649,11 @@
     {
       "code": "AK11348",
       "name": "Australian Camouflage Green",
+      "type": "AFV",
       "hex": "#555624",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "34088"
         },
         {
@@ -5443,6 +5666,7 @@
     {
       "code": "AK11349",
       "name": "CARC Tan 686A (FS33446)",
+      "type": "AFV",
       "hex": "#ac885c",
       "equivalents": [
         {
@@ -5454,7 +5678,7 @@
           "code": "53"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "33446"
         },
         {
@@ -5471,6 +5695,7 @@
     {
       "code": "AK11350",
       "name": "Modern Spanish Green",
+      "type": "AFV",
       "hex": "#484c2b",
       "equivalents": [],
       "confidence": null
@@ -5478,10 +5703,11 @@
     {
       "code": "AK11351",
       "name": "Wood Base",
+      "type": "AFV",
       "hex": "#9a8962",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "23564"
         },
         {
@@ -5494,6 +5720,7 @@
     {
       "code": "AK11352",
       "name": "IDF Modern Grey",
+      "type": "AFV",
       "hex": "#614f2e",
       "equivalents": [
         {
@@ -5510,6 +5737,7 @@
     {
       "code": "AK11353",
       "name": "IDF Sand Grey 1970s-1980s",
+      "type": "AFV",
       "hex": "#695a38",
       "equivalents": [
         {
@@ -5534,6 +5762,7 @@
     {
       "code": "AK11354",
       "name": "IDF Early Sand Yellow",
+      "type": "AFV",
       "hex": "#867348",
       "equivalents": [
         {
@@ -5554,6 +5783,7 @@
     {
       "code": "AK11355",
       "name": "IDF Green",
+      "type": "AFV",
       "hex": "#2d2f1e",
       "equivalents": [],
       "confidence": null
@@ -5561,10 +5791,11 @@
     {
       "code": "AK11356",
       "name": "SLA Blue",
+      "type": "AFV",
       "hex": "#3f5553",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "34158"
         },
         {
@@ -5577,6 +5808,7 @@
     {
       "code": "AK11357",
       "name": "LAF Green",
+      "type": "AFV",
       "hex": "#2a2c21",
       "equivalents": [
         {
@@ -5589,6 +5821,7 @@
     {
       "code": "AK11358",
       "name": "NATO Green",
+      "type": "AFV",
       "hex": "#283524",
       "equivalents": [
         {
@@ -5621,6 +5854,7 @@
     {
       "code": "AK11359",
       "name": "NATO Brown",
+      "type": "AFV",
       "hex": "#3f2f23",
       "equivalents": [
         {
@@ -5653,6 +5887,7 @@
     {
       "code": "AK11360",
       "name": "NATO Black",
+      "type": "AFV",
       "hex": "#202021",
       "equivalents": [
         {
@@ -5685,10 +5920,11 @@
     {
       "code": "AK11361",
       "name": "New Iraqi Army Sand",
+      "type": "AFV",
       "hex": "#d3b47a",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "23531"
         },
         {
@@ -5701,10 +5937,11 @@
     {
       "code": "AK11362",
       "name": "British Sand Yellow",
+      "type": "AFV",
       "hex": "#d99a42",
       "equivalents": [
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "33695"
         },
         {
@@ -5717,6 +5954,7 @@
     {
       "code": "AK11363",
       "name": "French Army Desert Sand",
+      "type": "AFV",
       "hex": "#ca9e69",
       "equivalents": [
         {
@@ -5724,7 +5962,7 @@
           "code": "71064"
         },
         {
-          "brand": "FS",
+          "brand": "Federal Standard",
           "code": "17178"
         },
         {
@@ -5737,6 +5975,7 @@
     {
       "code": "AK11364",
       "name": "French",
+      "type": "AFV",
       "hex": "#454f45",
       "equivalents": [
         {
@@ -5749,6 +5988,7 @@
     {
       "code": "AK11365",
       "name": "French Army Grey-Blue",
+      "type": "AFV",
       "hex": "#878782",
       "equivalents": [
         {

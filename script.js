@@ -9,12 +9,14 @@ const BRANDS = [
     { id: 'ammo', label: 'Ammo by Mig' },
     { id: 'ammo_atom', label: 'ATOM' },
     { id: 'ak', label: 'AK Interactive' },
-    { id: 'gunze', label: 'Hobby color' },
+    { id: 'hobby_color', label: 'Hobby color' },
     { id: 'mr_hobby', label: 'Mr. Color' },
     { id: 'vallejo', label: 'Vallejo' },
     { id: 'tamiya', label: 'Tamiya' },
     { id: 'humbrol', label: 'Humbrol' },
     { id: 'rlm', label: 'RLM' },
+    { id: 'federal_standard', label: 'Federal Standard' },
+    { id: 'ral', label: 'RAL' },
 ];
 
 // Map brand display names to colors (used for equivalent badges and button backgrounds)
@@ -26,7 +28,8 @@ const BRAND_BADGE_COLORS = {
     'ATOM (Ammo)': '#0075C1',
     "Federal Standard": '#A6192E',
     "Tamiya": '#004B87',
-    "RAL": '#A6192E',
+    "RAL": '#E85D7B',
+    "Hobby Color": '#009DA5',
     "RLM": '#5C6B3A',
     "Humbrol": '#003087',
     "Vallejo": '#05E2E1',
@@ -40,9 +43,11 @@ const BRAND_LOGO_COLORS = {
     'ammo': '#FECC02',
     'ammo_atom': '#0075C1',
     'ak': '#E95A0E',
-    'gunze': '#009DA5',
+    'hobby_color': '#009DA5',
     'tamiya': '#004B87',
     'mr_hobby': '#045AAA',
+    'federal_standard': '#A6192E',
+    'ral': '#E85D7B',
     'rlm': '#5C6B3A',
     'humbrol': '#F04A40',
     'vallejo': '#05E2E1',
@@ -52,7 +57,7 @@ const BRAND_LOGO_COLORS = {
 const BRAND_LOGO_FILES = {
     'ammo_atom': 'ammo',  // ammo_atom uses ammo logo
     'mr_hobby': 'mrhobby',  // mr_hobby PNG is named mrhobby.png
-    "gunze": "mrhobby", // gunze uses mr_hobby logo
+    "hobby_color": "mrhobby", // hobby_color uses mr_hobby logo
 };
 
 // Map brand IDs to display names
@@ -60,7 +65,7 @@ const BRAND_NAME_MAP = {
     'ammo': 'Ammo by Mig',
     'ammo_atom': 'ATOM (Ammo)',
     'ak': 'AK Interactive',
-    'gunze': 'Aqueous Hobby color',
+    'hobby_color': 'Aqueous Hobby color',
     'federal_standard': 'Federal Standard',
     'tamiya': 'Tamiya',
     'mr_hobby': 'Mr. Color',
@@ -83,6 +88,7 @@ const EQUIVALENT_BRAND_MAP = {
     'MODEL COLOR': 'Vallejo Model Color',
     'AK INTERACTIVE': 'AK Interactive',
     'GUNZE SANGYO': 'Aqueous Hobby color ',
+    'GUNZE': 'Aqueous Hobby color ',
     'AMMO BY MIG': 'Ammo by Mig',
     'AMMO BY MIG ATOM': 'ATOM (Ammo)',
 };
@@ -138,13 +144,13 @@ function createColorCardTemplate(brand, color, inStackMap, reverseEquivalentInde
     div.innerHTML = `
         <div class="w-12 shadow-sm flex-shrink-0" style="background-color: ${hex}; box-shadow: 0 2px 6px rgba(0,0,0,0.12)"></div>
         <div class="flex items-center gap-2 flex-1 p-2 justify-start">
-            <div class="flex-1 min-w-0">
+            <div class="flex-1 min-w-0 relative">
                 <div class="font-semibold text-xl truncate mb-0">${escapeHtml(color.code)}</div>
                 <div class="font-semibold text-xs truncate mb-2">${escapeHtml(color.name || '')}</div>
                 <div class="text-xs text-gray-500 dark:text-gray-400"></div>
                 <div class="equivalents text-xs text-gray-500 dark:text-gray-400${showEquivalents ? '' : ' hidden'}"></div>
                 <div class="secondary-equivalents text-xs text-gray-500 dark:text-gray-400${showEquivalents ? '' : ' hidden'}"></div>
-                <button class="stack-btn px-2 py-0.5 rounded border text-xs whitespace-nowrap ${colorInStack ? 'bg-yellow-100 dark:bg-yellow-800 border-yellow-300 dark:border-yellow-600' : 'border-gray-300 dark:border-gray-600'}">${colorInStack ? '✓ Remove' : 'Add'}</button>
+                <button class="stack-btn px-2 py-0.5 rounded border  rounded-full absolute top-2 right-2 text-xl whitespace-nowrap ${colorInStack ? 'bg-yellow-100 dark:bg-yellow-800 border-yellow-300 dark:border-yellow-600' : 'border-gray-300 dark:border-gray-600'}">${colorInStack ? '╳' : '＋'}</button>
             </div>
         </div>
     `;
@@ -206,7 +212,7 @@ function createStackCardLargeTemplate(brandId, code, color, brandColor, brandLab
             <div class="text-sm text-gray-600 dark:text-gray-300 mt-1">${escapeHtml(name)}</div>
             <div class="mt-2"><span class="text-xs px-2 py-1 rounded text-white" style="background-color: ${brandColor}">${escapeHtml(brandLabel)}</span></div>
         </div>
-        <button class="remove-from-stack flex-shrink-0 flex items-center justify-center w-12 h-12 text-gray-300 dark:text-gray-500 hover:text-red-400 hover:bg-red-50 dark:hover:bg-red-900 text-2xl" title="Remove">×</button>
+        <button class="remove-from-stack flex-shrink-0 flex items-center justify-center w-12 h-12 text-gray-300 dark:text-gray-500 hover:text-red-400 hover:bg-red-50 dark:hover:bg-red-900 text-2xl" title="Remove">╳</button>
     `;
 
     const removeBtn = div.querySelector('.remove-from-stack');
@@ -240,7 +246,7 @@ function toggleColorInStack(brand, id, btn, inStackMap) {
 
     if (inStackMap[id]) {
         delete inStackMap[id];
-        btn.textContent = 'Add';
+        btn.textContent = '＋';
         btn.classList.remove('bg-yellow-100', 'dark:bg-yellow-800', 'border-yellow-300', 'dark:border-yellow-600');
         btn.classList.add('border-gray-300', 'dark:border-gray-600');
         // Remove highlight from card
@@ -250,7 +256,7 @@ function toggleColorInStack(brand, id, btn, inStackMap) {
         }
     } else {
         inStackMap[id] = true;
-        btn.textContent = '✓ Remove';
+        btn.textContent = '╳';
         btn.classList.remove('border-gray-300', 'dark:border-gray-600');
         btn.classList.add('bg-yellow-100', 'dark:bg-yellow-800', 'border-yellow-300', 'dark:border-yellow-600');
         // Add highlight to card
@@ -385,7 +391,7 @@ function normalizeBrandId(brand) {
 
     if (normalized === 'ammo_by_mig') return 'ammo';
     if (normalized === 'atom_ammo') return 'ammo_atom';
-    if (normalized === 'gunze_mr_hobby') return 'gunze';
+    if (normalized === 'gunze_mr_hobby') return 'hobby_color';
     if (normalized === 'federal_standard') return 'federal_standard';
     return normalized;
 }

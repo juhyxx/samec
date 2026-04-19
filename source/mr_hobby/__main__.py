@@ -76,32 +76,102 @@ def normalize_code(code):
 
 
 def extract_cell_code(image_array, cell, reader):
-    """Extract code number from the black square in the cell [21, 12] with size 44x44."""
+    """Extract code number from the black square in the cell.
+
+    Standard position: [21, 12] with size 44x44
+    For codes >= 340: position shifts to [30, 12] with size 44x44
+
+    Valid codes are C1-C400.
+    """
     cell_x = cell["x"]
     cell_y = cell["y"]
 
-    # Code square position and size within the cell
+    def extract_from_region(image_array, code_x, code_y, code_w, code_h):
+        """Extract code from a specific region with preprocessing."""
+        # Crop the code region
+        code_region = image_array[code_y : code_y + code_h, code_x : code_x + code_w]
+
+        # Preprocess: convert to grayscale and enhance contrast
+        if len(code_region.shape) == 3:  # RGB image
+            gray = cv2.cvtColor(code_region, cv2.COLOR_RGB2GRAY)
+        else:
+            gray = code_region
+
+        # Apply CLAHE (Contrast Limited Adaptive Histogram Equalization)
+        clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
+        enhanced = clahe.apply(gray)
+
+        # Upscale the region for better OCR
+        upscaled = cv2.resize(enhanced, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
+
+        # Convert back to RGB for OCR
+        upscaled_rgb = cv2.cvtColor(upscaled, cv2.COLOR_GRAY2RGB)
+
+        # Use OCR to extract text
+        results = reader.readtext(upscaled_rgb, detail=1)
+
+        candidates = []
+        for bbox, text, confidence in results:
+            text = text.strip().upper()
+
+            # Extract all digit sequences
+            all_digits = re.findall(r"\d+", text)
+
+            if all_digits:
+                # Use the longest digit sequence (most likely to be the complete code)
+                longest_digits = max(all_digits, key=len)
+                try:
+                    number = int(longest_digits)
+                    # Valid Mr. Hobby codes are C1-C400
+                    if 1 <= number <= 400:
+                        code_candidate = f"C{number}"
+                        candidates.append((code_candidate, confidence))
+                except (ValueError, IndexError):
+                    pass
+
+            # Also check if text contains C followed by digits
+            for c_match in re.finditer(r"C[^a-z]*?(\d{1,3})\b", text):
+                try:
+                    number = int(c_match.group(1))
+                    if 1 <= number <= 400:
+                        code_candidate = f"C{number}"
+                        candidates.append((code_candidate, confidence))
+                except (ValueError, IndexError):
+                    pass
+
+        # Return best candidate (highest confidence, unique)
+        if candidates:
+            unique_candidates = list({c[0]: c[1] for c in candidates}.items())
+            unique_candidates.sort(key=lambda x: x[1], reverse=True)
+            return unique_candidates[0][0]
+        return None
+
+    # Try standard position first
     code_x = cell_x + 21
     code_y = cell_y + 12
     code_w = 44
     code_h = 44
 
-    # Crop the code region
-    code_region = image_array[code_y : code_y + code_h, code_x : code_x + code_w]
+    code = extract_from_region(image_array, code_x, code_y, code_w, code_h)
 
-    # Use OCR to extract text
-    results = reader.readtext(code_region, detail=1)
-
-    code = None
-    for bbox, text, confidence in results:
-        # Clean and parse the text
-        text = text.strip()
-        # Try to extract just the number part
-        match = re.search(r"\d+", text)
-        if match:
-            number = match.group()
-            code = f"C{number}"
-            break
+    # If code >= 340, try alternate position x=30
+    if code:
+        try:
+            code_num = int(code[1:])
+            if code_num >= 340:
+                code_x_alt = cell_x + 30
+                code_alt = extract_from_region(
+                    image_array, code_x_alt, code_y, code_w, code_h
+                )
+                if code_alt:
+                    try:
+                        code_alt_num = int(code_alt[1:])
+                        if code_alt_num >= 340:
+                            code = code_alt
+                    except:
+                        pass
+        except:
+            pass
 
     # Normalize code (fix known OCR errors)
     if code:
@@ -346,6 +416,40 @@ def export_pack_files(colors, output_folder="data"):
     print(f"✓ Exported {len(colors)} colors to {csv_file}")
 
 
+def deduplicate_codes(colors):
+    """Remove duplicate codes by keeping only the first occurrence of each code.
+
+    This handles OCR errors where codes like C160, C260, C360 are misread as C60,
+    creating duplicates. By keeping first occurrence and removing subsequent ones,
+    we maintain data integrity while eliminating duplicates.
+
+    Returns the deduplicated list and a report of removed items.
+    """
+    seen_codes = set()
+    deduplicated = []
+    removed_count = {}
+
+    for color in colors:
+        code = color.get("code")
+        if code:
+            if code not in seen_codes:
+                deduplicated.append(color)
+                seen_codes.add(code)
+            else:
+                # Track which codes had duplicates removed
+                removed_count[code] = removed_count.get(code, 0) + 1
+
+    # Report on deduplication
+    if removed_count:
+        total_removed = sum(removed_count.values())
+        print(f"\n⚠️ Removed {total_removed} total duplicate entries:")
+        for code in sorted(removed_count.keys()):
+            count = removed_count[code]
+            print(f"  • {code}: removed {count} duplicate(s), keeping first occurrence")
+
+    return deduplicated
+
+
 def process_mr_hobby_images(folder_path, output_folder_or_file):
     """Process all Mr. Hobby images: detect cells, extract codes, and export previews and pack files.
 
@@ -388,9 +492,9 @@ def process_mr_hobby_images(folder_path, output_folder_or_file):
             hex_color, rgb = extract_cell_color(img_rgb, cell)
             name = extract_cell_name(img_rgb, cell, reader, code)
             code_str = code if code else "N/A"
-            print(
-                f"  {idx:<5} {code_str:<8} {hex_color:<10} {name:<30} {cell['x']:<6} {cell['y']:<6}"
-            )
+            # print(
+            #     f"  {idx:<5} {code_str:<8} {hex_color:<10} {name:<30} {cell['x']:<6} {cell['y']:<6}"
+            # )
 
             # Collect color data for pack file and preview naming
             if code:
@@ -419,6 +523,9 @@ def process_mr_hobby_images(folder_path, output_folder_or_file):
         print(f"  ✓ Exported {num_exported} preview files\n")
 
         total_cells += len(cells)
+
+    # Deduplicate codes before export
+    all_colors = deduplicate_codes(all_colors)
 
     # Export pack files (JSON and CSV) to data folder
     print(f"\n{'='*70}")
