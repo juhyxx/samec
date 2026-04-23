@@ -212,15 +212,11 @@ def parse_rlm_images(folder_path, output_json):
 
     reader = easyocr.Reader(["en"], gpu=False)
     all_colors = []
-    seen_codes: set[str] = set()
 
     for f in files:
         print(f"Processing {f.name}...")
         rows = parse_rlm_image(f, reader)
-        for r in rows:
-            if r["code"] not in seen_codes:
-                seen_codes.add(r["code"])
-                all_colors.append(r)
+        all_colors.extend(rows)
         print(f"  {len(rows)} colors found")
 
     pack = {

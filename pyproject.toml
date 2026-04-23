@@ -8,6 +8,7 @@ dependencies = [
     "numpy>=1.21.0",
     "pdfplumber>=0.7.6",
     "pillow>=9.0.0",
+    "pymupdf>=1.24.0",
     "rich>=14.3.4",
     "scikit-learn>=1.0.0",
 ]

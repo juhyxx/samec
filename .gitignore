@@ -30,3 +30,4 @@ wheels/
 .coverage
 htmlcov/
 .DS_Store
+.tmp/

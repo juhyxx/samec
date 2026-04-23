@@ -412,9 +412,6 @@ class RALScraper:
             # Apply known hex values
             self.apply_known_hex_values()
 
-        # Remove duplicates
-        self.deduplicate_colors()
-
         # Sort by code for consistent output
         self.colors.sort(key=lambda c: c["code"])
 

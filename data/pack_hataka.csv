@@ -1,0 +1,343 @@
+code,name,hex,equivalents
+HTK-_001,Dark Sea Blue,#51565e,"[{""brand"": ""Federal Standard"", ""code"": ""FS 15042""}, {""brand"": ""ANA"", ""code"": ""ANA 623""}, {""brand"": ""Humbrol"", ""code"": ""181""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H55""}, {""brand"": ""Tamiya"", ""code"": ""XF17""}, {""brand"": ""Testors"", ""code"": ""1717""}, {""brand"": ""Vallejo"", ""code"": ""71.300""}, {""brand"": ""Xtracolor"", ""code"": ""X121""}]"
+HTK-_003,Silver (Met),#bdc4c5,"[{""brand"": ""RLM"", ""code"": ""RLM-01""}, {""brand"": ""Humbrol"", ""code"": ""11""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H8""}, {""brand"": ""Tamiya"", ""code"": ""X11""}, {""brand"": ""Testors"", ""code"": ""1790""}, {""brand"": ""Vallejo"", ""code"": ""71.063""}, {""brand"": ""Xtracolor"", ""code"": ""X038""}]"
+HTK-_004,US Olive Drab 41 (Early),#736a5a,"[{""brand"": ""Vallejo"", ""code"": ""71.316""}]"
+HTK-_005,Sky Blue,#bedef3,"[{""brand"": ""Federal Standard"", ""code"": ""FS 35466""}]"
+HTK-_006,Semi-Gloss Sea Blue,#464b54,"[{""brand"": ""Federal Standard"", ""code"": ""FS 25042""}, {""brand"": ""ANA"", ""code"": ""ANA 606""}, {""brand"": ""Humbrol"", ""code"": ""181""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H55""}, {""brand"": ""Tamiya"", ""code"": ""XF17""}, {""brand"": ""Testors"", ""code"": ""1717""}, {""brand"": ""Vallejo"", ""code"": ""71.300""}, {""brand"": ""Xtracolor"", ""code"": ""X121""}]"
+HTK-_007,Grey-Violet,#757677,"[{""brand"": ""RLM"", ""code"": ""RLM-75""}, {""brand"": ""Humbrol"", ""code"": ""246""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H69""}, {""brand"": ""Testors"", ""code"": ""2085""}, {""brand"": ""Vallejo"", ""code"": ""71.259""}, {""brand"": ""Xtracolor"", ""code"": ""X207""}]"
+HTK-_008,Brown-Violet,#6d5a51,"[{""brand"": ""RLM"", ""code"": ""RLM-81""}, {""brand"": ""Humbrol"", ""code"": ""251""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H421""}, {""brand"": ""Testors"", ""code"": ""2090""}, {""brand"": ""Vallejo"", ""code"": ""71.264""}, {""brand"": ""Xtracolor"", ""code"": ""X210""}]"
+HTK-_009,Dark Earth,#938976,"[{""brand"": ""Humbrol"", ""code"": ""29""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H72""}, {""brand"": ""Tamiya"", ""code"": ""XF52""}, {""brand"": ""Vallejo"", ""code"": ""71.323""}, {""brand"": ""Xtracolor"", ""code"": ""X002""}]"
+HTK-_010,Dark Polish Khaki,#6b5d52,[]
+HTK-_011,Light Polish Khaki,#75684e,[]
+HTK-_012,Dark Tan,#9b8061,"[{""brand"": ""Federal Standard"", ""code"": ""FS 30219""}, {""brand"": ""ANA"", ""code"": ""ANA 628""}, {""brand"": ""Humbrol"", ""code"": ""118""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H310""}, {""brand"": ""Testors"", ""code"": ""1742""}, {""brand"": ""Vallejo"", ""code"": ""71.125""}, {""brand"": ""Xtracolor"", ""code"": ""X102""}]"
+HTK-_013,Mid Stone,#c0a978,"[{""brand"": ""Humbrol"", ""code"": ""84""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H71""}, {""brand"": ""Testors"", ""code"": ""2052""}, {""brand"": ""Vallejo"", ""code"": ""71.031""}, {""brand"": ""Xtracolor"", ""code"": ""X009""}]"
+HTK-_014,Sand-Yellow,#c5b283,"[{""brand"": ""Humbrol"", ""code"": ""249""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H66""}, {""brand"": ""Tamiya"", ""code"": ""XF60""}, {""brand"": ""Testors"", ""code"": ""2088""}, {""brand"": ""Vallejo"", ""code"": ""71.278""}, {""brand"": ""Xtracolor"", ""code"": ""X209""}, {""brand"": ""RLM"", ""code"": ""RLM-79""}]"
+HTK-_015,Black-Green,#42473f,"[{""brand"": ""RLM"", ""code"": ""RLM-70""}, {""brand"": ""Humbrol"", ""code"": ""241""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H65""}, {""brand"": ""Tamiya"", ""code"": ""XF27""}, {""brand"": ""Testors"", ""code"": ""2080""}, {""brand"": ""Vallejo"", ""code"": ""71.021""}, {""brand"": ""Xtracolor"", ""code"": ""X204""}]"
+HTK-_016,Dark Green,#5f6252,"[{""brand"": ""Federal Standard"", ""code"": ""FS 34079""}, {""brand"": ""ANA"", ""code"": ""ANA 631""}, {""brand"": ""Humbrol"", ""code"": ""116""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H309""}, {""brand"": ""Tamiya"", ""code"": ""XF81""}, {""brand"": ""Testors"", ""code"": ""1710""}, {""brand"": ""Vallejo"", ""code"": ""71.294""}, {""brand"": ""Xtracolor"", ""code"": ""X110""}]"
+HTK-_017,Dark Green,#747a6f,"[{""brand"": ""RLM"", ""code"": ""RLM-71""}, {""brand"": ""Humbrol"", ""code"": ""242""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H64""}, {""brand"": ""Tamiya"", ""code"": ""XF58""}, {""brand"": ""Testors"", ""code"": ""2081""}, {""brand"": ""Vallejo"", ""code"": ""71.015""}, {""brand"": ""Xtracolor"", ""code"": ""X205""}]"
+HTK-_018,US Olive Drab (Late),#797258,"[{""brand"": ""ANA"", ""code"": ""ANA 613""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H52""}, {""brand"": ""Testors"", ""code"": ""2050""}, {""brand"": ""Vallejo"", ""code"": ""71.016""}, {""brand"": ""Xtracolor"", ""code"": ""X112""}]"
+HTK-_019,Medium Green 42,#475d4f,"[{""brand"": ""Vallejo"", ""code"": ""71.124""}]"
+HTK-_020,Light Green,#7a8b61,"[{""brand"": ""RLM"", ""code"": ""RLM-82""}, {""brand"": ""Humbrol"", ""code"": ""252""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H422""}, {""brand"": ""Testors"", ""code"": ""2091""}, {""brand"": ""Vallejo"", ""code"": ""71.022""}, {""brand"": ""Xtracolor"", ""code"": ""X225""}]"
+HTK-_021,Medium Green,#848a75,"[{""brand"": ""Federal Standard"", ""code"": ""FS 34102""}, {""brand"": ""Humbrol"", ""code"": ""117""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H303""}, {""brand"": ""Tamiya"", ""code"": ""XF58""}, {""brand"": ""Testors"", ""code"": ""1713""}, {""brand"": ""Vallejo"", ""code"": ""71.289""}, {""brand"": ""Xtracolor"", ""code"": ""X116""}]"
+HTK-_022,Dark Green,#4c5446,"[{""brand"": ""RLM"", ""code"": ""RLM-83""}, {""brand"": ""Humbrol"", ""code"": ""253""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H423""}, {""brand"": ""Testors"", ""code"": ""2092""}, {""brand"": ""Vallejo"", ""code"": ""71.011""}, {""brand"": ""Xtracolor"", ""code"": ""X226""}]"
+HTK-_023,Grey,#737b72,"[{""brand"": ""RLM"", ""code"": ""RLM-02""}, {""brand"": ""Humbrol"", ""code"": ""240""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H70""}, {""brand"": ""Tamiya"", ""code"": ""XF22""}, {""brand"": ""Testors"", ""code"": ""2071""}, {""brand"": ""Vallejo"", ""code"": ""71.044""}, {""brand"": ""Xtracolor"", ""code"": ""X201""}]"
+HTK-_024,P.R. Pink,#f8ddd3,"[{""brand"": ""Vallejo"", ""code"": ""71.408""}, {""brand"": ""Xtracolor"", ""code"": ""X034""}]"
+HTK-_025,Interior Grey-Green,#9ba89b,"[{""brand"": ""Tamiya"", ""code"": ""XF76""}, {""brand"": ""Testors"", ""code"": ""2062""}, {""brand"": ""Vallejo"", ""code"": ""71.305""}, {""brand"": ""Xtracolor"", ""code"": ""X010""}]"
+HTK-_026,Sky „Type S”,#c5c5a9,"[{""brand"": ""Gunze Sangyo"", ""code"": ""H74""}, {""brand"": ""Tamiya"", ""code"": ""XF21""}, {""brand"": ""Testors"", ""code"": ""2049""}, {""brand"": ""Vallejo"", ""code"": ""71.302""}, {""brand"": ""Xtracolor"", ""code"": ""X007""}]"
+HTK-_027,Intermediate Blue,#6f7e88,"[{""brand"": ""Federal Standard"", ""code"": ""FS 35164""}, {""brand"": ""ANA"", ""code"": ""ANA 608""}, {""brand"": ""Humbrol"", ""code"": ""144""}, {""brand"": ""Testors"", ""code"": ""1720""}, {""brand"": ""Vallejo"", ""code"": ""71.299""}, {""brand"": ""Xtracolor"", ""code"": ""X125""}]"
+HTK-_028,Azure Blue,#7b92b5,"[{""brand"": ""Federal Standard"", ""code"": ""FS 35164""}, {""brand"": ""ANA"", ""code"": ""ANA 608""}, {""brand"": ""Humbrol"", ""code"": ""157""}, {""brand"": ""Testors"", ""code"": ""2048""}, {""brand"": ""Vallejo"", ""code"": ""71.108""}, {""brand"": ""Xtracolor"", ""code"": ""X026""}]"
+HTK-_029,Light Blue,#a8bbba,"[{""brand"": ""RLM"", ""code"": ""RLM-65""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H67""}, {""brand"": ""Testors"", ""code"": ""2078""}, {""brand"": ""Vallejo"", ""code"": ""71.255""}, {""brand"": ""Xtracolor"", ""code"": ""X202""}]"
+HTK-_030,European I Grey,#606364,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36081""}, {""brand"": ""Humbrol"", ""code"": ""32""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H301""}, {""brand"": ""Tamiya"", ""code"": ""XF24""}, {""brand"": ""Testors"", ""code"": ""1788""}, {""brand"": ""Vallejo"", ""code"": ""71.314""}, {""brand"": ""Xtracolor"", ""code"": ""X129""}]"
+HTK-_031,Gunship Grey,#666b75,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36118""}, {""brand"": ""ANA"", ""code"": ""ANA 603""}, {""brand"": ""Humbrol"", ""code"": ""125""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H305""}, {""brand"": ""Testors"", ""code"": ""1723""}, {""brand"": ""Vallejo"", ""code"": ""71.097""}, {""brand"": ""Xtracolor"", ""code"": ""X130""}]"
+HTK-_032,Ocean Grey,#72777e,"[{""brand"": ""Humbrol"", ""code"": ""106""}, {""brand"": ""Tamiya"", ""code"": ""XF82""}, {""brand"": ""Testors"", ""code"": ""2057""}, {""brand"": ""Vallejo"", ""code"": ""71.273""}, {""brand"": ""Xtracolor"", ""code"": ""X006""}]"
+HTK-_033,Neutral Grey 43,#979da3,"[{""brand"": ""Humbrol"", ""code"": ""176""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H53""}, {""brand"": ""Vallejo"", ""code"": ""71.051""}]"
+HTK-_034,Medium Sea Grey,#8a9096,"[{""brand"": ""Humbrol"", ""code"": ""165""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H335""}, {""brand"": ""Tamiya"", ""code"": ""XF83""}, {""brand"": ""Testors"", ""code"": ""2058""}, {""brand"": ""Vallejo"", ""code"": ""71.307""}, {""brand"": ""Xtracolor"", ""code"": ""X003""}]"
+HTK-_035,Dark Ghost Grey,#9ba4ac,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36320""}, {""brand"": ""Humbrol"", ""code"": ""128""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H307""}, {""brand"": ""Tamiya"", ""code"": ""XF53""}, {""brand"": ""Testors"", ""code"": ""1741""}, {""brand"": ""Vallejo"", ""code"": ""71.120""}, {""brand"": ""Xtracolor"", ""code"": ""X135""}]"
+HTK-_036,Light Blue-Grey,#95a5a6,[]
+HTK-_037,Light Ghost Grey,#bdc2c8,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36375""}, {""brand"": ""Humbrol"", ""code"": ""127""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H308""}, {""brand"": ""Tamiya"", ""code"": ""XF19""}, {""brand"": ""Testors"", ""code"": ""1728""}, {""brand"": ""Xtracolor"", ""code"": ""X136""}]"
+HTK-_038,Light Blue,#a4b0af,"[{""brand"": ""RLM"", ""code"": ""RLM-76""}, {""brand"": ""Humbrol"", ""code"": ""247""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H417""}, {""brand"": ""Testors"", ""code"": ""2086""}, {""brand"": ""Vallejo"", ""code"": ""71.257""}, {""brand"": ""Xtracolor"", ""code"": ""X208""}]"
+HTK-_039,Camouflage Grey,#d4d2c4,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36622""}, {""brand"": ""Humbrol"", ""code"": ""28""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H311""}, {""brand"": ""Testors"", ""code"": ""1733""}, {""brand"": ""Vallejo"", ""code"": ""71.296""}, {""brand"": ""Xtracolor"", ""code"": ""X140""}]"
+HTK-_040,Black-Grey,#3d3c42,"[{""brand"": ""RLM"", ""code"": ""RLM-66""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H416""}, {""brand"": ""Testors"", ""code"": ""2079""}, {""brand"": ""Vallejo"", ""code"": ""71.055""}, {""brand"": ""Xtracolor"", ""code"": ""X203""}]"
+HTK-_041,Night Black,#6c696b,"[{""brand"": ""Federal Standard"", ""code"": ""FS 37038""}, {""brand"": ""ANA"", ""code"": ""ANA 604""}, {""brand"": ""Humbrol"", ""code"": ""33""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H12""}, {""brand"": ""Tamiya"", ""code"": ""XF1""}, {""brand"": ""Testors"", ""code"": ""1749""}, {""brand"": ""Vallejo"", ""code"": ""71.057""}, {""brand"": ""Xtracolor"", ""code"": ""X404""}]"
+HTK-_042,P.R. Blue,#506b84,"[{""brand"": ""Testors"", ""code"": ""2061""}, {""brand"": ""Vallejo"", ""code"": ""71.109""}, {""brand"": ""Xtracolor"", ""code"": ""X008""}]"
+HTK-_043,Insignia White,#fefcee,"[{""brand"": ""Federal Standard"", ""code"": ""FS 37875""}, {""brand"": ""ANA"", ""code"": ""ANA 601""}, {""brand"": ""Humbrol"", ""code"": ""34""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H316""}, {""brand"": ""Tamiya"", ""code"": ""XF2""}, {""brand"": ""Testors"", ""code"": ""1768""}, {""brand"": ""Vallejo"", ""code"": ""71.279""}, {""brand"": ""Xtracolor"", ""code"": ""X141""}]"
+HTK-_044,Dark Gull Grey,#888b90,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36231""}, {""brand"": ""ANA"", ""code"": ""ANA 621""}, {""brand"": ""Humbrol"", ""code"": ""140""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H317""}, {""brand"": ""Testors"", ""code"": ""1740""}, {""brand"": ""Vallejo"", ""code"": ""71.277""}, {""brand"": ""Xtracolor"", ""code"": ""X131""}]"
+HTK-_045,Air Defence Grey,#bcc4c3,"[{""brand"": ""Federal Standard"", ""code"": ""FS 16473""}, {""brand"": ""ANA"", ""code"": ""ANA 512""}, {""brand"": ""Humbrol"", ""code"": ""140""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H317""}, {""brand"": ""Testors"", ""code"": ""1731""}, {""brand"": ""Vallejo"", ""code"": ""71.277""}, {""brand"": ""Xtracolor"", ""code"": ""X138""}]"
+HTK-_046,Medium Grey,#88949c,"[{""brand"": ""Federal Standard"", ""code"": ""FS 35237""}, {""brand"": ""ANA"", ""code"": ""ANA 620""}, {""brand"": ""Humbrol"", ""code"": ""145""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H337""}, {""brand"": ""Tamiya"", ""code"": ""XF20""}, {""brand"": ""Testors"", ""code"": ""1721""}, {""brand"": ""Vallejo"", ""code"": ""71.114""}, {""brand"": ""Xtracolor"", ""code"": ""X126""}]"
+HTK-_047,Soviet Cockpit Blue-Green,#6bc3b8,"[{""brand"": ""Federal Standard"", ""code"": ""FS 16440""}, {""brand"": ""ANA"", ""code"": ""ANA 620""}, {""brand"": ""Humbrol"", ""code"": ""129""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H315""}, {""brand"": ""Tamiya"", ""code"": ""XF20""}, {""brand"": ""Testors"", ""code"": ""2135""}, {""brand"": ""Vallejo"", ""code"": ""71.121""}, {""brand"": ""Xtracolor"", ""code"": ""X629""}]"
+HTK-_048,Light Gull Grey,#bbbcae,"[{""brand"": ""Federal Standard"", ""code"": ""FS 16440""}, {""brand"": ""ANA"", ""code"": ""ANA 620""}, {""brand"": ""Humbrol"", ""code"": ""129""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H325""}, {""brand"": ""Tamiya"", ""code"": ""XF20""}, {""brand"": ""Testors"", ""code"": ""1730""}, {""brand"": ""Vallejo"", ""code"": ""71.121""}, {""brand"": ""Xtracolor"", ""code"": ""X137""}, {""brand"": ""Federal Standard"", ""code"": ""FS 36440""}]"
+HTK-_049,Insignia White,#f8faf2,"[{""brand"": ""Federal Standard"", ""code"": ""FS 17875""}, {""brand"": ""ANA"", ""code"": ""ANA 511""}, {""brand"": ""Humbrol"", ""code"": ""34""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H316""}, {""brand"": ""Tamiya"", ""code"": ""XF2""}, {""brand"": ""Testors"", ""code"": ""1768""}, {""brand"": ""Vallejo"", ""code"": ""71.279""}, {""brand"": ""Xtracolor"", ""code"": ""X141""}]"
+HTK-_050,Light Grey,#d7dcda,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36495""}, {""brand"": ""ANA"", ""code"": ""ANA 511""}, {""brand"": ""Humbrol"", ""code"": ""34""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H338""}, {""brand"": ""Tamiya"", ""code"": ""XF2""}, {""brand"": ""Testors"", ""code"": ""1732""}, {""brand"": ""Vallejo"", ""code"": ""71.276""}, {""brand"": ""Xtracolor"", ""code"": ""X139""}]"
+HTK-_051,Camotint Green,#bccba2,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36495""}, {""brand"": ""ANA"", ""code"": ""ANA 511""}, {""brand"": ""Humbrol"", ""code"": ""34""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H338""}, {""brand"": ""Tamiya"", ""code"": ""XF2""}, {""brand"": ""Testors"", ""code"": ""1732""}, {""brand"": ""Vallejo"", ""code"": ""71.276""}, {""brand"": ""Xtracolor"", ""code"": ""X139""}]"
+HTK-_052,Green Drab,#656456,"[{""brand"": ""Federal Standard"", ""code"": ""FS 34086""}, {""brand"": ""RLM"", ""code"": ""RLM-80""}, {""brand"": ""Humbrol"", ""code"": ""126""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H420""}, {""brand"": ""Tamiya"", ""code"": ""XF53""}, {""brand"": ""Testors"", ""code"": ""1787""}, {""brand"": ""Vallejo"", ""code"": ""71.292""}, {""brand"": ""Xtracolor"", ""code"": ""X144""}]"
+HTK-_053,Olive-Green,#83877e,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36270""}, {""brand"": ""RLM"", ""code"": ""RLM-80""}, {""brand"": ""Humbrol"", ""code"": ""126""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H306""}, {""brand"": ""Tamiya"", ""code"": ""XF53""}, {""brand"": ""Testors"", ""code"": ""2089""}, {""brand"": ""Vallejo"", ""code"": ""71.265""}, {""brand"": ""Xtracolor"", ""code"": ""X215""}]"
+HTK-_054,Grey,#909399,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36270""}, {""brand"": ""RLM"", ""code"": ""RLM-80""}, {""brand"": ""Humbrol"", ""code"": ""126""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H306""}, {""brand"": ""Tamiya"", ""code"": ""XF53""}, {""brand"": ""Testors"", ""code"": ""1725""}, {""brand"": ""Vallejo"", ""code"": ""71.275""}, {""brand"": ""Xtracolor"", ""code"": ""X133""}]"
+HTK-_055,Royal Blue,#3f3f53,[]
+HTK-_056,European I Green,#4b5d50,"[{""brand"": ""Federal Standard"", ""code"": ""FS 34092""}, {""brand"": ""ANA"", ""code"": ""ANA 612""}, {""brand"": ""Humbrol"", ""code"": ""149""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H302""}, {""brand"": ""Tamiya"", ""code"": ""XF26""}, {""brand"": ""Testors"", ""code"": ""1764""}, {""brand"": ""Vallejo"", ""code"": ""71.124""}, {""brand"": ""Xtracolor"", ""code"": ""X114""}]"
+HTK-_057,Beige,#e2ddcf,[]
+HTK-_058,Have Glass Grey,#85817f,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36170""}, {""brand"": ""Vallejo"", ""code"": ""71.280""}]"
+HTK-_059,Field Green,#55614b,"[{""brand"": ""Federal Standard"", ""code"": ""FS 34095""}, {""brand"": ""ANA"", ""code"": ""ANA 627""}, {""brand"": ""RAL"", ""code"": ""RAL 6003""}, {""brand"": ""Testors"", ""code"": ""1786""}, {""brand"": ""Vallejo"", ""code"": ""71.022""}, {""brand"": ""Xtracolor"", ""code"": ""X261""}]"
+HTK-_060,USMC Sand,#eedfb2,"[{""brand"": ""Federal Standard"", ""code"": ""FS 26081""}, {""brand"": ""ANA"", ""code"": ""ANA 625""}, {""brand"": ""Humbrol"", ""code"": ""32""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H301""}, {""brand"": ""Tamiya"", ""code"": ""XF24""}, {""brand"": ""Testors"", ""code"": ""1788""}, {""brand"": ""Vallejo"", ""code"": ""71.075""}, {""brand"": ""Xtracolor"", ""code"": ""X129""}]"
+HTK-_061,Seaplane Grey,#828585,"[{""brand"": ""Federal Standard"", ""code"": ""FS 26081""}, {""brand"": ""ANA"", ""code"": ""ANA 625""}, {""brand"": ""Humbrol"", ""code"": ""32""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H301""}, {""brand"": ""Tamiya"", ""code"": ""XF24""}, {""brand"": ""Testors"", ""code"": ""1788""}, {""brand"": ""Vallejo"", ""code"": ""71.314""}, {""brand"": ""Xtracolor"", ""code"": ""X129""}]"
+HTK-_062,International Orange,#ce5038,"[{""brand"": ""Federal Standard"", ""code"": ""FS 12197""}, {""brand"": ""ANA"", ""code"": ""ANA 508""}, {""brand"": ""Testors"", ""code"": ""2022""}, {""brand"": ""Xtracolor"", ""code"": ""X104""}]"
+HTK-_063,Vert Foncé,#5f7964,[]
+HTK-_064,Khaki Green No. 3 (G3),#76785d,"[{""brand"": ""Vallejo"", ""code"": ""71.330""}]"
+HTK-_065,US Army Olive Drab,#89837c,"[{""brand"": ""Humbrol"", ""code"": ""155""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H304""}, {""brand"": ""Testors"", ""code"": ""1711""}, {""brand"": ""Vallejo"", ""code"": ""71.043""}, {""brand"": ""Xtracolor"", ""code"": ""X111""}]"
+HTK-_066,Insignia (Orange) Yellow,#f0bf21,"[{""brand"": ""Federal Standard"", ""code"": ""FS 13538""}, {""brand"": ""ANA"", ""code"": ""ANA 506""}, {""brand"": ""Humbrol"", ""code"": ""154""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H329""}, {""brand"": ""Testors"", ""code"": ""1707""}, {""brand"": ""Xtracolor"", ""code"": ""X106""}]"
+HTK-_067,US Army Helicopter Drab,#5d5652,"[{""brand"": ""Federal Standard"", ""code"": ""FS 34031""}, {""brand"": ""Testors"", ""code"": ""2024""}, {""brand"": ""Xtracolor"", ""code"": ""X153""}]"
+HTK-_068,US Army Desert Sand,#b79e87,"[{""brand"": ""Federal Standard"", ""code"": ""FS 30279""}, {""brand"": ""ANA"", ""code"": ""ANA 616""}, {""brand"": ""Humbrol"", ""code"": ""250""}, {""brand"": ""Vallejo"", ""code"": ""71.140""}, {""brand"": ""Xtracolor"", ""code"": ""X032""}]"
+HTK-_069,Woodland Desert Sage,#a8a28b,"[{""brand"": ""Federal Standard"", ""code"": ""FS 34201""}, {""brand"": ""Testors"", ""code"": ""1792""}, {""brand"": ""Vallejo"", ""code"": ""71.023""}, {""brand"": ""Xtracolor"", ""code"": ""X119""}]"
+HTK-_070,AMT-12 Dark Grey,#5b5e62,"[{""brand"": ""Vallejo"", ""code"": ""71.308""}]"
+HTK-_071,AMT-11 Blue-Grey,#87939a,"[{""brand"": ""Vallejo"", ""code"": ""71.304""}]"
+HTK-_072,AMT-7 Greyish Blue,#a5c0d9,"[{""brand"": ""Vallejo"", ""code"": ""71.318""}]"
+HTK-_073,AMT-4 Camouflage Green,#868a73,"[{""brand"": ""Vallejo"", ""code"": ""71.301""}]"
+HTK-_074,A-21m Light Greyish Brown,#b1af9a,"[{""brand"": ""Vallejo"", ""code"": ""71.415""}]"
+HTK-_075,Dark Green No. 4 (G4),#656558,"[{""brand"": ""Vallejo"", ""code"": ""71.415""}]"
+HTK-_076,S.C.C. No. 2 Khaki Brown,#8a6650,[]
+HTK-_077,S.C.C. No. 1A Dark Brown,#7c6f6b,[]
+HTK-_078,Aluminium,#c6c9cb,"[{""brand"": ""Humbrol"", ""code"": ""56""}, {""brand"": ""Tamiya"", ""code"": ""XF16""}, {""brand"": ""Testors"", ""code"": ""1781""}, {""brand"": ""Vallejo"", ""code"": ""71.062""}, {""brand"": ""Xtracolor"", ""code"": ""X142""}]"
+HTK-_079,Brun Foncé,#665144,"[{""brand"": ""Xtracolor"", ""code"": ""X382""}]"
+HTK-_080,Vert,#608e61,"[{""brand"": ""Xtracolor"", ""code"": ""X385""}]"
+HTK-_081,Terre de Sienne,#a58c7b,"[{""brand"": ""Xtracolor"", ""code"": ""X387""}]"
+HTK-_082,Gris Bleu Foncé,#9ca4ab,"[{""brand"": ""Xtracolor"", ""code"": ""X388""}]"
+HTK-_083,Gris Bleu Clair,#b0c7cc,"[{""brand"": ""Xtracolor"", ""code"": ""X389""}]"
+HTK-_084,Kaki Français,#928b6d,"[{""brand"": ""Xtracolor"", ""code"": ""X384""}]"
+HTK-_085,Polish AFV Khaki Green,#8b8c70,[]
+HTK-_086,Polish AFV Green Sand,#c4b281,[]
+HTK-_087,Polish AFV Dark Brown,#665145,[]
+HTK-_088,Polish AFV Green,#809180,"[{""brand"": ""Vallejo"", ""code"": ""71.248""}]"
+HTK-_089,German Camouflage Grey,#a39e94,"[{""brand"": ""Vallejo"", ""code"": ""71.248""}, {""brand"": ""RAL"", ""code"": ""RAL 7050""}]"
+HTK-_090,Sand,#d9c2ab,"[{""brand"": ""Federal Standard"", ""code"": ""FS 33531""}, {""brand"": ""Humbrol"", ""code"": ""121""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H313""}, {""brand"": ""Tamiya"", ""code"": ""XF59""}, {""brand"": ""Testors"", ""code"": ""1706""}, {""brand"": ""Vallejo"", ""code"": ""71.327""}, {""brand"": ""Xtracolor"", ""code"": ""X105""}]"
+HTK-_091,Pale Green,#7e9a74,"[{""brand"": ""Federal Standard"", ""code"": ""FS 34227""}, {""brand"": ""Humbrol"", ""code"": ""120""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H312""}, {""brand"": ""Testors"", ""code"": ""1716""}, {""brand"": ""Vallejo"", ""code"": ""71.126""}, {""brand"": ""Xtracolor"", ""code"": ""X148""}]"
+HTK-_092,Duck Egg Blue,#d9e3d9,"[{""brand"": ""Federal Standard"", ""code"": ""FS 35622""}, {""brand"": ""Humbrol"", ""code"": ""122""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H314""}, {""brand"": ""Testors"", ""code"": ""1722""}, {""brand"": ""Vallejo"", ""code"": ""71.328""}, {""brand"": ""Xtracolor"", ""code"": ""X149""}]"
+HTK-_093,Green,#a0a97d,"[{""brand"": ""Federal Standard"", ""code"": ""FS 34258""}, {""brand"": ""Testors"", ""code"": ""2029""}, {""brand"": ""Vallejo"", ""code"": ""71.094""}, {""brand"": ""Xtracolor"", ""code"": ""X120""}]"
+HTK-_094,Vert Olive,#8f8a64,[]
+HTK-_095,Gris Bleu Clair,#c1d7f0,[]
+HTK-_096,Gris Clair Neutre,#e2e4e6,[]
+HTK-_097,Jaune d’ocre,#eccb95,[]
+HTK-_098,Terre d’ombre,#906257,[]
+HTK-_099,Gris Vert,#73766d,[]
+HTK-_100,Jet Black,#42413e,"[{""brand"": ""RAL"", ""code"": ""RAL 9005""}, {""brand"": ""Humbrol"", ""code"": ""85""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H12""}, {""brand"": ""Tamiya"", ""code"": ""XF1""}, {""brand"": ""Testors"", ""code"": ""2040""}, {""brand"": ""Xtracolor"", ""code"": ""X012""}]"
+HTK-_101,Traffic White,#fcfdfd,"[{""brand"": ""RAL"", ""code"": ""RAL 9016""}, {""brand"": ""Humbrol"", ""code"": ""34""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H11""}, {""brand"": ""Tamiya"", ""code"": ""XF2""}, {""brand"": ""Vallejo"", ""code"": ""71.101""}, {""brand"": ""Xtracolor"", ""code"": ""X405""}]"
+HTK-_102,Signal Blue,#3f5280,"[{""brand"": ""RAL"", ""code"": ""RAL 5005""}, {""brand"": ""Humbrol"", ""code"": ""25""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H56""}, {""brand"": ""Tamiya"", ""code"": ""XF8""}]"
+HTK-_103,Traffic Red,#c03a39,"[{""brand"": ""RAL"", ""code"": ""RAL 3020""}, {""brand"": ""Humbrol"", ""code"": ""174""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H3""}, {""brand"": ""Tamiya"", ""code"": ""XF7""}]"
+HTK-_104,Traffic Yellow,#fbd822,"[{""brand"": ""RAL"", ""code"": ""RAL 1023""}, {""brand"": ""Humbrol"", ""code"": ""24""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H34""}, {""brand"": ""Tamiya"", ""code"": ""XF3""}, {""brand"": ""Testors"", ""code"": ""2118""}, {""brand"": ""Vallejo"", ""code"": ""71.002""}, {""brand"": ""Xtracolor"", ""code"": ""X011""}]"
+HTK-_105,Luminous Yellow,#f3ed62,"[{""brand"": ""RAL"", ""code"": ""RAL 1026""}]"
+HTK-_106,Gunmetal,#464f52,"[{""brand"": ""Humbrol"", ""code"": ""53""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H76""}, {""brand"": ""Tamiya"", ""code"": ""X10""}, {""brand"": ""Testors"", ""code"": ""1795""}, {""brand"": ""Vallejo"", ""code"": ""71.072""}, {""brand"": ""Xtracolor"", ""code"": ""X506""}]"
+HTK-_107,Signal Yellow,#f3c120,"[{""brand"": ""RAL"", ""code"": ""RAL 1003""}, {""brand"": ""Vallejo"", ""code"": ""71.135""}]"
+HTK-_108,Gold (Met),#e5c776,"[{""brand"": ""Humbrol"", ""code"": ""16""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H9""}, {""brand"": ""Tamiya"", ""code"": ""X12""}, {""brand"": ""Testors"", ""code"": ""1744""}, {""brand"": ""Vallejo"", ""code"": ""71.066""}, {""brand"": ""Xtracolor"", ""code"": ""X507""}]"
+HTK-_109,Copper (Met),#dc9f7f,"[{""brand"": ""Humbrol"", ""code"": ""12""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H10""}, {""brand"": ""Tamiya"", ""code"": ""XF6""}, {""brand"": ""Testors"", ""code"": ""2019""}, {""brand"": ""Vallejo"", ""code"": ""71.068""}]"
+HTK-_110,S.C.C. No. 15 Olive Drab,#67604f,[]
+HTK-_121,Jaune Sahara,#fcf1cd,[]
+HTK-_122,Vert IR OTAN (0211),#7e7b69,[]
+HTK-_123,Brun Terre IR,#8e7858,[]
+HTK-_124,Vert Foncé IR,#467648,[]
+HTK-_125,NATO Black,#6f6c6d,"[{""brand"": ""Federal Standard"", ""code"": ""FS 37030""}, {""brand"": ""Tamiya"", ""code"": ""XF69""}, {""brand"": ""Vallejo"", ""code"": ""71.251""}]"
+HTK-_126,Sable Desért IR,#d4b675,[]
+HTK-_127,AE-9 Light Grey,#e4e4ea,[]
+HTK-_128,A II Green (Protective),#55553c,"[{""brand"": ""Vallejo"", ""code"": ""71.410""}]"
+HTK-_129,A II Light Blue,#a9c1c6,"[{""brand"": ""Vallejo"", ""code"": ""71.317""}]"
+HTK-_130,Mahogany Brown,#694a3e,"[{""brand"": ""RAL"", ""code"": ""RAL 8016""}, {""brand"": ""Vallejo"", ""code"": ""71.036""}]"
+HTK-_131,Brown Red,#8d3f3d,"[{""brand"": ""RAL"", ""code"": ""RAL 3011""}]"
+HTK-_132,Flame Red,#b23e34,"[{""brand"": ""RAL"", ""code"": ""RAL 3000""}, {""brand"": ""Humbrol"", ""code"": ""19""}, {""brand"": ""Testors"", ""code"": ""1503""}, {""brand"": ""Vallejo"", ""code"": ""71.269""}]"
+HTK-_133,Signal Orange,#dd8b60,"[{""brand"": ""RAL"", ""code"": ""RAL 2010""}, {""brand"": ""Vallejo"", ""code"": ""71.130""}]"
+HTK-_134,Maize Yellow,#e1a129,"[{""brand"": ""RAL"", ""code"": ""RAL 1006""}, {""brand"": ""Vallejo"", ""code"": ""71.033""}]"
+HTK-_135,Yellow (light) rust,#f4b722,"[{""brand"": ""Vallejo"", ""code"": ""71.135""}]"
+HTK-_136,Pucara Pale Green,#b7c89c,[]
+HTK-_137,Pucara Light Tan,#d6c1b2,[]
+HTK-_138,Pucara Medium Blue,#85cbdc,"[{""brand"": ""Vallejo"", ""code"": ""77.716""}]"
+HTK-_139,Semi-matt Aluminium,#c5c9ca,"[{""brand"": ""Vallejo"", ""code"": ""77.716""}]"
+HTK-_140,BS Extra Dark Sea Grey,#676b6f,"[{""brand"": ""British Standard"", ""code"": ""BS381C:640""}, {""brand"": ""Humbrol"", ""code"": ""123""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H333""}, {""brand"": ""Tamiya"", ""code"": ""XF54""}, {""brand"": ""Vallejo"", ""code"": ""71.110""}, {""brand"": ""Xtracolor"", ""code"": ""X005""}]"
+HTK-_141,BS Medium Sea Grey,#b3b6b7,"[{""brand"": ""British Standard"", ""code"": ""BS381C:637""}, {""brand"": ""Humbrol"", ""code"": ""165""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H335""}, {""brand"": ""Vallejo"", ""code"": ""71.307""}, {""brand"": ""Xtracolor"", ""code"": ""X003""}]"
+HTK-_142,Camouflage (Barley) Grey,#acafaf,"[{""brand"": ""British Standard"", ""code"": ""BS381C:626""}, {""brand"": ""Humbrol"", ""code"": ""167""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H334""}, {""brand"": ""Xtracolor"", ""code"": ""X017""}]"
+HTK-_143,BS Dark Green,#696453,"[{""brand"": ""British Standard"", ""code"": ""BS381C:641""}, {""brand"": ""Humbrol"", ""code"": ""163""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H330""}, {""brand"": ""Testors"", ""code"": ""2060""}, {""brand"": ""Vallejo"", ""code"": ""71.324""}, {""brand"": ""Xtracolor"", ""code"": ""X001""}]"
+HTK-_144,BS Dark Sea Grey,#818187,"[{""brand"": ""British Standard"", ""code"": ""BS381C:638""}, {""brand"": ""Humbrol"", ""code"": ""164""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H331""}, {""brand"": ""Tamiya"", ""code"": ""XF24""}, {""brand"": ""Testors"", ""code"": ""2059""}, {""brand"": ""Vallejo"", ""code"": ""71.405""}, {""brand"": ""Xtracolor"", ""code"": ""X004""}]"
+HTK-_145,RAF Blue-Grey,#777b7f,"[{""brand"": ""British Standard"", ""code"": ""BS381C:633""}, {""brand"": ""Xtracolor"", ""code"": ""X013""}]"
+HTK-_146,BS Olive Drab,#6f695b,"[{""brand"": ""British Standard"", ""code"": ""BS381C:298""}, {""brand"": ""Xtracolor"", ""code"": ""X028""}]"
+HTK-_147,Chocolate Brown,#5a4a43,"[{""brand"": ""RAL"", ""code"": ""RAL 8017""}, {""brand"": ""Testors"", ""code"": ""2096""}, {""brand"": ""Vallejo"", ""code"": ""71.041""}, {""brand"": ""Xtracolor"", ""code"": ""X807""}]"
+HTK-_148,Vermilion,#c64b36,"[{""brand"": ""RAL"", ""code"": ""RAL 2002""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H467""}]"
+HTK-_149,Concrete Grey,#a9a9a1,"[{""brand"": ""RAL"", ""code"": ""RAL 7023""}, {""brand"": ""Xtracolor"", ""code"": ""X263""}]"
+HTK-_150,Blue-Green,#94b2ae,"[{""brand"": ""Federal Standard"", ""code"": ""FS 35414""}, {""brand"": ""Testors"", ""code"": ""2033""}, {""brand"": ""Vallejo"", ""code"": ""71.008""}, {""brand"": ""Xtracolor"", ""code"": ""X127""}]"
+HTK-_151,Grey Olive,#6e765d,"[{""brand"": ""RAL"", ""code"": ""RAL 6006""}, {""brand"": ""Testors"", ""code"": ""2148""}, {""brand"": ""Vallejo"", ""code"": ""71.268""}]"
+HTK-_152,NATO Green,#606956,"[{""brand"": ""Federal Standard"", ""code"": ""FS 34094""}, {""brand"": ""Testors"", ""code"": ""2173""}, {""brand"": ""Vallejo"", ""code"": ""71.093""}]"
+HTK-_153,MK-7 Temporary White,#fdfefd,[]
+HTK-_154,White Grey,#dee0d9,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36628""}]"
+HTK-_155,Air Superiority Blue,#a5bed8,"[{""brand"": ""Federal Standard"", ""code"": ""FS 35450""}]"
+HTK-_156,Aggressor Blue,#526b84,"[{""brand"": ""Federal Standard"", ""code"": ""FS 35109""}, {""brand"": ""Testors"", ""code"": ""2031""}, {""brand"": ""Vallejo"", ""code"": ""71.111""}, {""brand"": ""Xtracolor"", ""code"": ""X124""}]"
+HTK-_157,Aggressor Grey,#a5a9a6,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36251""}, {""brand"": ""Testors"", ""code"": ""1794""}, {""brand"": ""Vallejo"", ""code"": ""71.274""}, {""brand"": ""Xtracolor"", ""code"": ""X132""}]"
+HTK-_158,Mod Eagle Grey,#818892,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36176""}, {""brand"": ""Tamiya"", ""code"": ""XF69""}, {""brand"": ""Testors"", ""code"": ""2036""}, {""brand"": ""Vallejo"", ""code"": ""71.273""}, {""brand"": ""Xtracolor"", ""code"": ""X157""}]"
+HTK-_159,Camouflage Black,#514e4f,"[{""brand"": ""Federal Standard"", ""code"": ""FS 37030""}, {""brand"": ""Tamiya"", ""code"": ""XF69""}, {""brand"": ""Testors"", ""code"": ""2036""}, {""brand"": ""Vallejo"", ""code"": ""71.251""}, {""brand"": ""Xtracolor"", ""code"": ""X157""}]"
+HTK-_160,Pale Brown,#957763,"[{""brand"": ""Federal Standard"", ""code"": ""FS 30140""}, {""brand"": ""Tamiya"", ""code"": ""XF69""}, {""brand"": ""Testors"", ""code"": ""2036""}, {""brand"": ""Vallejo"", ""code"": ""71.035""}, {""brand"": ""Xtracolor"", ""code"": ""X157""}]"
+HTK-_161,Polizei / SS Grün Base,#759d9e,"[{""brand"": ""RLM"", ""code"": ""RLM-63""}, {""brand"": ""Humbrol"", ""code"": ""67""}, {""brand"": ""Tamiya"", ""code"": ""XF63""}, {""brand"": ""Testors"", ""code"": ""1592""}, {""brand"": ""Vallejo"", ""code"": ""71.056""}, {""brand"": ""Xtracolor"", ""code"": ""X800""}]"
+HTK-_164,Panzer Dunkelgrau Base,#5e6065,"[{""brand"": ""RLM"", ""code"": ""RLM-61""}, {""brand"": ""Humbrol"", ""code"": ""67""}, {""brand"": ""Tamiya"", ""code"": ""XF63""}, {""brand"": ""Testors"", ""code"": ""2077""}, {""brand"": ""Vallejo"", ""code"": ""71.260""}, {""brand"": ""Xtracolor"", ""code"": ""X221""}]"
+HTK-_167,Light Grey,#8e9286,"[{""brand"": ""RLM"", ""code"": ""RLM-61""}, {""brand"": ""Humbrol"", ""code"": ""67""}, {""brand"": ""Tamiya"", ""code"": ""XF63""}, {""brand"": ""Testors"", ""code"": ""2075""}, {""brand"": ""Vallejo"", ""code"": ""71.042""}, {""brand"": ""Xtracolor"", ""code"": ""X219""}, {""brand"": ""RLM"", ""code"": ""RLM-63""}]"
+HTK-_168,Dark Brown,#5e5652,"[{""brand"": ""RLM"", ""code"": ""RLM-61""}, {""brand"": ""Humbrol"", ""code"": ""67""}, {""brand"": ""Tamiya"", ""code"": ""XF63""}, {""brand"": ""Testors"", ""code"": ""2075""}, {""brand"": ""Vallejo"", ""code"": ""71.042""}, {""brand"": ""Xtracolor"", ""code"": ""X219""}]"
+HTK-_169,Green,#8b8c79,"[{""brand"": ""RAL"", ""code"": ""RAL 6013""}, {""brand"": ""RLM"", ""code"": ""RLM-62""}, {""brand"": ""Testors"", ""code"": ""2076""}, {""brand"": ""Vallejo"", ""code"": ""71.104""}, {""brand"": ""Xtracolor"", ""code"": ""X220""}]"
+HTK-_170,Reed Green,#928b6d,"[{""brand"": ""RAL"", ""code"": ""RAL 5008""}, {""brand"": ""RLM"", ""code"": ""RLM-62""}, {""brand"": ""Testors"", ""code"": ""2076""}, {""brand"": ""Vallejo"", ""code"": ""71.005""}, {""brand"": ""Xtracolor"", ""code"": ""X264""}, {""brand"": ""RAL"", ""code"": ""RAL 6013""}]"
+HTK-_171,Grey-Blue,#4d545c,"[{""brand"": ""RAL"", ""code"": ""RAL 5008""}, {""brand"": ""RLM"", ""code"": ""RLM-62""}, {""brand"": ""Testors"", ""code"": ""2076""}, {""brand"": ""Vallejo"", ""code"": ""71.005""}, {""brand"": ""Xtracolor"", ""code"": ""X264""}]"
+HTK-_172,Medium Brown,#987653,"[{""brand"": ""Federal Standard"", ""code"": ""FS 30215""}, {""brand"": ""Vallejo"", ""code"": ""71.026""}]"
+HTK-_173,Silk Grey,#d2cfc7,"[{""brand"": ""RAL"", ""code"": ""RAL 7044""}, {""brand"": ""Xtracolor"", ""code"": ""X266""}]"
+HTK-_175,Red Primer Base,#a25859,"[{""brand"": ""Humbrol"", ""code"": ""100""}]"
+HTK-_184,Interior Buff,#e8e3d7,"[{""brand"": ""Testors"", ""code"": ""2104""}]"
+HTK-_185,Gearbox Green,#6c904f,[]
+HTK-_186,Leather Brown,#9c7c6a,"[{""brand"": ""Humbrol"", ""code"": ""62""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H66""}, {""brand"": ""Testors"", ""code"": ""1736""}]"
+HTK-_187,Tan,#d1ab73,"[{""brand"": ""Federal Standard"", ""code"": ""FS 20400""}, {""brand"": ""Tamiya"", ""code"": ""XF68""}, {""brand"": ""Testors"", ""code"": ""2021""}, {""brand"": ""Vallejo"", ""code"": ""71.249""}, {""brand"": ""Xtracolor"", ""code"": ""X145""}]"
+HTK-_188,NATO Brown,#76645a,"[{""brand"": ""Federal Standard"", ""code"": ""FS 30051""}, {""brand"": ""Tamiya"", ""code"": ""XF68""}, {""brand"": ""Testors"", ""code"": ""2174""}, {""brand"": ""Vallejo"", ""code"": ""71.249""}, {""brand"": ""Xtracolor"", ""code"": ""X145""}]"
+HTK-_189,Silver Grey,#a9adb2,"[{""brand"": ""RAL"", ""code"": ""RAL 7001""}, {""brand"": ""Testors"", ""code"": ""2160""}, {""brand"": ""Vallejo"", ""code"": ""71.050""}, {""brand"": ""Xtracolor"", ""code"": ""X255""}]"
+HTK-_190,White Aluminium,#bfbfbe,"[{""brand"": ""RAL"", ""code"": ""RAL 9006""}, {""brand"": ""Vallejo"", ""code"": ""71.062""}, {""brand"": ""Xtracolor"", ""code"": ""X252""}]"
+HTK-_191,Light Grey,#d6d6d4,"[{""brand"": ""RAL"", ""code"": ""RAL 7035""}, {""brand"": ""Humbrol"", ""code"": ""196""}, {""brand"": ""Xtracolor"", ""code"": ""X260""}]"
+HTK-_192,Basalt Grey,#737474,"[{""brand"": ""RAL"", ""code"": ""RAL 7012""}, {""brand"": ""Humbrol"", ""code"": ""79""}, {""brand"": ""Xtracolor"", ""code"": ""X254""}]"
+HTK-_193,Yellow Olive,#645d50,"[{""brand"": ""RAL"", ""code"": ""RAL 6014""}, {""brand"": ""Testors"", ""code"": ""2175""}, {""brand"": ""Xtracolor"", ""code"": ""X251""}]"
+HTK-_194,Luminous Orange,#f08965,"[{""brand"": ""RAL"", ""code"": ""RAL 2005""}, {""brand"": ""Vallejo"", ""code"": ""71.082""}, {""brand"": ""Xtracolor"", ""code"": ""X253""}]"
+HTK-_201,Voodoo Grey,#c9cbc9,"[{""brand"": ""Federal Standard"", ""code"": ""FS 16515""}, {""brand"": ""Testors"", ""code"": ""2039""}, {""brand"": ""Xtracolor"", ""code"": ""X150""}]"
+HTK-_202,BS Dark Slate Grey,#7d7b6a,"[{""brand"": ""British Standard"", ""code"": ""BS381C:634""}, {""brand"": ""Humbrol"", ""code"": ""224""}, {""brand"": ""Testors"", ""code"": ""2056""}, {""brand"": ""Vallejo"", ""code"": ""71.309""}, {""brand"": ""Xtracolor"", ""code"": ""X025""}]"
+HTK-_203,Sky Grey,#c5c5c6,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36463""}, {""brand"": ""Vallejo"", ""code"": ""71.407""}, {""brand"": ""Xtracolor"", ""code"": ""X042""}]"
+HTK-_204,BS Deep Buff,#cea87d,"[{""brand"": ""British Standard"", ""code"": ""BS381C:360""}]"
+HTK-_205,BS Light Admiralty Grey,#bdcac8,"[{""brand"": ""British Standard"", ""code"": ""BS381C:697""}]"
+HTK-_206,BS Dark Earth,#8d765b,"[{""brand"": ""British Standard"", ""code"": ""BS381C:450""}, {""brand"": ""Humbrol"", ""code"": ""29""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H72""}, {""brand"": ""Tamiya"", ""code"": ""XF18""}, {""brand"": ""Testors"", ""code"": ""2061""}, {""brand"": ""Vallejo"", ""code"": ""71.323""}, {""brand"": ""Xtracolor"", ""code"": ""X002""}]"
+HTK-_207,BS PRU Blue,#70848d,"[{""brand"": ""British Standard"", ""code"": ""BS381C:636""}, {""brand"": ""Humbrol"", ""code"": ""230""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H56""}, {""brand"": ""Tamiya"", ""code"": ""XF18""}, {""brand"": ""Testors"", ""code"": ""2061""}, {""brand"": ""Vallejo"", ""code"": ""71.109""}, {""brand"": ""Xtracolor"", ""code"": ""X008""}]"
+HTK-_208,Desert Beige,#dcc8a9,"[{""brand"": ""Federal Standard"", ""code"": ""FS 30118""}, {""brand"": ""ANA"", ""code"": ""ANA 617""}, {""brand"": ""RAL"", ""code"": ""RAL 1001""}, {""brand"": ""Testors"", ""code"": ""1702""}, {""brand"": ""Vallejo"", ""code"": ""71.075""}, {""brand"": ""Xtracolor"", ""code"": ""X101""}]"
+HTK-_209,Field Drab,#7f6f50,"[{""brand"": ""Federal Standard"", ""code"": ""FS 30118""}, {""brand"": ""ANA"", ""code"": ""ANA 617""}, {""brand"": ""RAL"", ""code"": ""RAL 1001""}, {""brand"": ""Testors"", ""code"": ""1702""}, {""brand"": ""Vallejo"", ""code"": ""71.139""}, {""brand"": ""Xtracolor"", ""code"": ""X101""}]"
+HTK-_210,Sand Brown,#aa9d7d,"[{""brand"": ""Federal Standard"", ""code"": ""FS 30277""}, {""brand"": ""Testors"", ""code"": ""1704""}, {""brand"": ""Vallejo"", ""code"": ""71.138""}]"
+HTK-_211,Interior Green,#6f7a44,"[{""brand"": ""Federal Standard"", ""code"": ""FS 34151""}, {""brand"": ""ANA"", ""code"": ""ANA 611""}, {""brand"": ""Testors"", ""code"": ""1715""}, {""brand"": ""Vallejo"", ""code"": ""71.137""}, {""brand"": ""Xtracolor"", ""code"": ""X117""}]"
+HTK-_212,Earth Yellow,#cdb184,"[{""brand"": ""Federal Standard"", ""code"": ""FS 30257""}, {""brand"": ""Vallejo"", ""code"": ""71.291""}]"
+HTK-_213,Earth Red,#896b58,"[{""brand"": ""Federal Standard"", ""code"": ""FS 30117""}, {""brand"": ""Humbrol"", ""code"": ""186""}, {""brand"": ""Testors"", ""code"": ""1701""}, {""brand"": ""Vallejo"", ""code"": ""71.293""}]"
+HTK-_214,BS Dark Camouflage Grey,#8b8d93,"[{""brand"": ""British Standard"", ""code"": ""BS381C:629""}, {""brand"": ""Vallejo"", ""code"": ""71.273""}, {""brand"": ""Xtracolor"", ""code"": ""X036""}]"
+HTK-_215,BS NATO (IRR) Green,#736f61,"[{""brand"": ""British Standard"", ""code"": ""BS381C:285""}, {""brand"": ""Xtracolor"", ""code"": ""X018""}]"
+HTK-_216,BS Lichen Green,#9d9b8d,"[{""brand"": ""British Standard"", ""code"": ""BS4800""}, {""brand"": ""British Standard"", ""code"": ""12B.25""}, {""brand"": ""Xtracolor"", ""code"": ""X024""}, {""brand"": ""British Standard"", ""code"": ""BS4800/12B.25""}]"
+HTK-_217,BS Light Aircraft Grey,#c2c1ba,"[{""brand"": ""British Standard"", ""code"": ""BS381C:627""}, {""brand"": ""Humbrol"", ""code"": ""166""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H332""}, {""brand"": ""Xtracolor"", ""code"": ""X015""}]"
+HTK-_218,Blue Grey,#819098,"[{""brand"": ""Federal Standard"", ""code"": ""FS 35189""}, {""brand"": ""ANA"", ""code"": ""ANA 509""}, {""brand"": ""Humbrol"", ""code"": ""153""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H327""}, {""brand"": ""Testors"", ""code"": ""2055""}, {""brand"": ""Vallejo"", ""code"": ""71.109""}, {""brand"": ""Xtracolor"", ""code"": ""X162""}]"
+HTK-_219,Insignia Red,#a03833,"[{""brand"": ""Federal Standard"", ""code"": ""FS 11136""}, {""brand"": ""ANA"", ""code"": ""ANA 509""}, {""brand"": ""Humbrol"", ""code"": ""153""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H327""}, {""brand"": ""Testors"", ""code"": ""1705""}, {""brand"": ""Vallejo"", ""code"": ""71.109""}, {""brand"": ""Xtracolor"", ""code"": ""X103""}]"
+HTK-_220,True Blue,#5f7ca2,"[{""brand"": ""Federal Standard"", ""code"": ""FS 15102""}, {""brand"": ""ANA"", ""code"": ""ANA 501""}, {""brand"": ""Testors"", ""code"": ""2030""}, {""brand"": ""Xtracolor"", ""code"": ""X152""}]"
+HTK-_221,Willow Green,#50874c,"[{""brand"": ""Federal Standard"", ""code"": ""FS 14187""}, {""brand"": ""ANA"", ""code"": ""ANA 503""}, {""brand"": ""Testors"", ""code"": ""2028""}, {""brand"": ""Vallejo"", ""code"": ""71.135""}, {""brand"": ""Xtracolor"", ""code"": ""X151""}]"
+HTK-_222,Lemon Yellow,#f2d022,"[{""brand"": ""Federal Standard"", ""code"": ""FS 13655""}, {""brand"": ""ANA"", ""code"": ""ANA 505""}, {""brand"": ""Testors"", ""code"": ""2023""}, {""brand"": ""Vallejo"", ""code"": ""71.135""}, {""brand"": ""Xtracolor"", ""code"": ""X108""}]"
+HTK-_223,Pigeon Blue,#808fa7,"[{""brand"": ""RAL"", ""code"": ""RAL 5014""}]"
+HTK-_224,Black Grey,#777575,"[{""brand"": ""RAL"", ""code"": ""RAL 7021""}, {""brand"": ""Vallejo"", ""code"": ""71.056""}, {""brand"": ""Xtracolor"", ""code"": ""X262""}]"
+HTK-_225,Green Grey,#807f77,"[{""brand"": ""RAL"", ""code"": ""RAL 7009""}, {""brand"": ""Vallejo"", ""code"": ""71.020""}, {""brand"": ""Xtracolor"", ""code"": ""X256""}]"
+HTK-_226,Black Green,#5c6460,"[{""brand"": ""RAL"", ""code"": ""RAL 6012""}, {""brand"": ""Vallejo"", ""code"": ""71.018""}]"
+HTK-_227,Dark Green-Blue,#2f90a4,[]
+HTK-_228,Medium Green-Blue,#6bc6d7,[]
+HTK-_229,Light Green-Blue,#8dd3ec,[]
+HTK-_230,Dark Grey,#6f6f78,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36076""}, {""brand"": ""Testors"", ""code"": ""2034""}, {""brand"": ""Vallejo"", ""code"": ""71.048""}, {""brand"": ""Xtracolor"", ""code"": ""X128""}]"
+HTK-_231,Fog Grey,#a5a7a7,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36293""}, {""brand"": ""Testors"", ""code"": ""2034""}, {""brand"": ""Vallejo"", ""code"": ""71.048""}, {""brand"": ""Xtracolor"", ""code"": ""X128""}]"
+HTK-_232,Extra Dark Green,#8d8b83,"[{""brand"": ""Federal Standard"", ""code"": ""FS 34064""}]"
+HTK-_233,Stone Grey,#aaa69d,"[{""brand"": ""RAL"", ""code"": ""RAL 7030""}, {""brand"": ""Xtracolor"", ""code"": ""X257""}]"
+HTK-_234,Sky Grey-Green,#b5bda5,"[{""brand"": ""Federal Standard"", ""code"": ""FS 34424""}, {""brand"": ""ANA"", ""code"": ""ANA 610""}, {""brand"": ""Vallejo"", ""code"": ""71.321""}, {""brand"": ""Xtracolor"", ""code"": ""X166""}]"
+HTK-_235,Dark Blue-Grey,#5f646b,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36099""}, {""brand"": ""Vallejo"", ""code"": ""71.053""}]"
+HTK-_236,BS Olive Green,#8f917d,"[{""brand"": ""British Standard"", ""code"": ""BS381C:220""}, {""brand"": ""Xtracolor"", ""code"": ""X027""}]"
+HTK-_237,BS Light Stone,#d1b58b,"[{""brand"": ""British Standard"", ""code"": ""BS381C:361""}, {""brand"": ""Vallejo"", ""code"": ""71.143""}, {""brand"": ""Xtracolor"", ""code"": ""X029""}]"
+HTK-_238,Desert Tan,#c5b58f,"[{""brand"": ""Federal Standard"", ""code"": ""FS 33446""}, {""brand"": ""Vallejo"", ""code"": ""71.122""}, {""brand"": ""Xtracolor"", ""code"": ""X812""}]"
+HTK-_239,Seafoam Green,#bdcba0,"[{""brand"": ""Federal Standard"", ""code"": ""FS 24533""}]"
+HTK-_240,IJA Khaki (Khaki-iro),#c5ab76,"[{""brand"": ""Vallejo"", ""code"": ""71.287""}]"
+HTK-_241,IJA Tea Brown (Cha-iro),#8b6948,"[{""brand"": ""Vallejo"", ""code"": ""71.035""}]"
+HTK-_242,IJA Olive Green (Midori-iro),#53633f,"[{""brand"": ""Vallejo"", ""code"": ""71.134""}]"
+HTK-_243,IJA Parched Grass (Karekusa-iro)Dunkelgelb,#ada15d,"[{""brand"": ""Vallejo"", ""code"": ""73.610""}]"
+HTK-_244,,#c2b8a3,"[{""brand"": ""Gunze Sangyo"", ""code"": ""H403""}, {""brand"": ""Tamiya"", ""code"": ""XF60""}, {""brand"": ""Testors"", ""code"": ""2095""}, {""brand"": ""Vallejo"", ""code"": ""71.025""}, {""brand"": ""Xtracolor"", ""code"": ""X805""}, {""brand"": ""RAL"", ""code"": ""RAL 840""}]"
+HTK-_245,Kenttävihreä,#606a56,[]
+HTK-_246,Dark Moss Green,#535c50,"[{""brand"": ""Federal Standard"", ""code"": ""FS 14077""}]"
+HTK-_247,Vaaleanvihreä,#636a51,[]
+HTK-_248,Quartz Grey,#a29c95,"[{""brand"": ""RAL"", ""code"": ""RAL 7039""}, {""brand"": ""Xtracolor"", ""code"": ""X259""}]"
+HTK-_249,Dusty Grey,#989694,"[{""brand"": ""RAL"", ""code"": ""RAL 7037""}, {""brand"": ""Xtracolor"", ""code"": ""X258""}]"
+HTK-_250,Dunkelgelb,#b2a361,"[{""brand"": ""RAL"", ""code"": ""RAL 840""}]"
+HTK-_251,4BO Protective Green,#666846,"[{""brand"": ""Testors"", ""code"": ""2129""}, {""brand"": ""Vallejo"", ""code"": ""71.017""}, {""brand"": ""Xtracolor"", ""code"": ""X811""}]"
+HTK-_252,Military Dark Earth,#ad9a8a,[]
+HTK-_253,MRG Stone,#cdbe96,[]
+HTK-_254,Buffalo Green,#726d57,[]
+HTK-_255,Bright Blue,#4379af,"[{""brand"": ""Federal Standard"", ""code"": ""FS 25183""}, {""brand"": ""Testors"", ""code"": ""2032""}, {""brand"": ""Xtracolor"", ""code"": ""X146""}]"
+HTK-_256,Earth Brown,#95887c,"[{""brand"": ""Federal Standard"", ""code"": ""FS 30099""}, {""brand"": ""Vallejo"", ""code"": ""71.290""}]"
+HTK-_257,Uniform Brown,#8e7958,"[{""brand"": ""Federal Standard"", ""code"": ""FS 30145""}]"
+HTK-_258,Stone Yellow,#c5b384,"[{""brand"": ""Federal Standard"", ""code"": ""FS 33448""}]"
+HTK-_259,Yellow Ochre,#d1ae3b,"[{""brand"": ""Federal Standard"", ""code"": ""FS 33434""}]"
+HTK-_260,Greyish Green,#90978f,"[{""brand"": ""Federal Standard"", ""code"": ""FS 24112""}]"
+HTK-_261,Greyish Sand,#ad9888,"[{""brand"": ""Federal Standard"", ""code"": ""FS 20227""}, {""brand"": ""British Standard"", ""code"": ""BS381C:389""}, {""brand"": ""Humbrol"", ""code"": ""168""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H336""}, {""brand"": ""Tamiya"", ""code"": ""XF57""}, {""brand"": ""Xtracolor"", ""code"": ""X016""}]"
+HTK-_262,BS Camouflage Beige,#d4c8ad,"[{""brand"": ""Federal Standard"", ""code"": ""FS 20227""}, {""brand"": ""British Standard"", ""code"": ""BS381C:389""}, {""brand"": ""Humbrol"", ""code"": ""168""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H336""}, {""brand"": ""Tamiya"", ""code"": ""XF57""}, {""brand"": ""Xtracolor"", ""code"": ""X016""}]"
+HTK-_263,Atlantic Grey,#7f8886,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36187""}]"
+HTK-_264,Pearl Grey,#cfd4ce,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36493""}]"
+HTK-_265,Neutral Grey,#7d838c,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36173""}, {""brand"": ""Testors"", ""code"": ""2035""}, {""brand"": ""Vallejo"", ""code"": ""71.051""}, {""brand"": ""Xtracolor"", ""code"": ""X158""}]"
+HTK-_266,Bulkhead Grey,#a3a69b,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36307""}, {""brand"": ""Humbrol"", ""code"": ""141""}, {""brand"": ""Testors"", ""code"": ""1726""}, {""brand"": ""Xtracolor"", ""code"": ""X134""}]"
+HTK-_267,Cloud Grey,#999997,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36280""}]"
+HTK-_268,Luminous Red,#ed6b68,"[{""brand"": ""RAL"", ""code"": ""RAL 3024""}]"
+HTK-_269,Sulphur Yellow,#eee236,"[{""brand"": ""RAL"", ""code"": ""RAL 1016""}, {""brand"": ""Vallejo"", ""code"": ""71.240""}]"
+HTK-_270,Pearl Opal Green,#2d6e62,"[{""brand"": ""RAL"", ""code"": ""RAL 6036""}]"
+HTK-_271,BS Deep Bronze Green,#646559,"[{""brand"": ""British Standard"", ""code"": ""BS381C:224""}, {""brand"": ""Xtracolor"", ""code"": ""X814""}]"
+HTK-_272,Ultramarine Blue,#6877a1,"[{""brand"": ""RAL"", ""code"": ""RAL 5002""}, {""brand"": ""Vallejo"", ""code"": ""71.004""}]"
+HTK-_273,Graphite Grey,#686b70,"[{""brand"": ""RAL"", ""code"": ""RAL 7024""}, {""brand"": ""Vallejo"", ""code"": ""71.054""}]"
+HTK-_274,Cobalt Blue,#4f5670,"[{""brand"": ""RAL"", ""code"": ""RAL 5013""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H465""}, {""brand"": ""Vallejo"", ""code"": ""71.090""}]"
+HTK-_275,BS Golden Yellow,#f3b82f,"[{""brand"": ""British Standard"", ""code"": ""BS381C:356""}, {""brand"": ""Vallejo"", ""code"": ""71.078""}, {""brand"": ""Xtracolor"", ""code"": ""X019""}]"
+HTK-_276,BS Signal Red,#d27d78,"[{""brand"": ""British Standard"", ""code"": ""BS381C:537""}, {""brand"": ""Humbrol"", ""code"": ""238""}, {""brand"": ""Xtracolor"", ""code"": ""X014""}]"
+HTK-_277,BS Roundel Blue,#5c5f83,"[{""brand"": ""British Standard"", ""code"": ""BS381C:110""}, {""brand"": ""Xtracolor"", ""code"": ""X030""}]"
+HTK-_278,Sand Beige,#b9a883,"[{""brand"": ""Vallejo"", ""code"": ""71.244""}, {""brand"": ""RAL"", ""code"": ""RAL 1039""}]"
+HTK-_279,Grey Beige,#ad9763,"[{""brand"": ""Vallejo"", ""code"": ""71.245""}, {""brand"": ""RAL"", ""code"": ""RAL 1040""}]"
+HTK-_280,Sand Brown,#b59f8a,"[{""brand"": ""Vallejo"", ""code"": ""71.246""}, {""brand"": ""RAL"", ""code"": ""RAL 8031""}]"
+HTK-_281,Light Olive,#79785b,"[{""brand"": ""Vallejo"", ""code"": ""71.247""}, {""brand"": ""RAL"", ""code"": ""RAL 6040""}]"
+HTK-_282,Dutch Demo Orange (light),#eb8a26,"[{""brand"": ""Vallejo"", ""code"": ""71.247""}]"
+HTK-_283,Dark Grey-Blue,#506a84,"[{""brand"": ""Federal Standard"", ""code"": ""FS 35250""}]"
+HTK-_284,UN Blue,#8cbfdd,"[{""brand"": ""Federal Standard"", ""code"": ""FS 25530""}, {""brand"": ""Federal Standard"", ""code"": ""FS 35250""}]"
+HTK-_285,Faded Blue-Grey,#c9d2d1,"[{""brand"": ""Federal Standard"", ""code"": ""FS 25530""}]"
+HTK-_286,Danish Green,#727952,"[{""brand"": ""Federal Standard"", ""code"": ""FS 25530""}]"
+HTK-_287,Grey Beige,#b6a38e,"[{""brand"": ""RAL"", ""code"": ""RAL 1019""}, {""brand"": ""Vallejo"", ""code"": ""71.028""}]"
+HTK-_288,Fawn Brown,#a2846e,"[{""brand"": ""RAL"", ""code"": ""RAL 8007""}, {""brand"": ""Vallejo"", ""code"": ""71.007""}]"
+HTK-_289,Fir Green,#4b5448,"[{""brand"": ""RAL"", ""code"": ""RAL 6009""}, {""brand"": ""Vallejo"", ""code"": ""71.007""}]"
+HTK-_290,BS Lemon Yellow,#efbe21,"[{""brand"": ""British Standard"", ""code"": ""BS381C:355""}]"
+HTK-_291,BS Cherry Red,#ae4e4e,"[{""brand"": ""British Standard"", ""code"": ""BS381C:538""}, {""brand"": ""Xtracolor"", ""code"": ""X031""}]"
+HTK-_292,BS Oxford Blue,#57596e,"[{""brand"": ""British Standard"", ""code"": ""BS381C:105""}, {""brand"": ""Humbrol"", ""code"": ""104""}, {""brand"": ""Xtracolor"", ""code"": ""X023""}]"
+HTK-_293,Extra Light Blue,#d6e2e5,"[{""brand"": ""Federal Standard"", ""code"": ""FS 25550""}]"
+HTK-_294,Mustard,#89744f,[]
+HTK-_295,Medium Tan,#d2c1a8,"[{""brand"": ""Federal Standard"", ""code"": ""FS 33522""}]"
+HTK-_296,Faded Eggplant Grey,#b0b3bc,"[{""brand"": ""Testors"", ""code"": ""2100""}, {""brand"": ""Vallejo"", ""code"": ""71.420""}, {""brand"": ""Xtracolor"", ""code"": ""X801""}]"
+HTK-_297,Erdgelb,#c38254,"[{""brand"": ""Testors"", ""code"": ""2100""}, {""brand"": ""Vallejo"", ""code"": ""71.420""}, {""brand"": ""Xtracolor"", ""code"": ""X801""}, {""brand"": ""RAL"", ""code"": ""RAL 840""}]"
+HTK-_298,Grün,#5f644e,"[{""brand"": ""Vallejo"", ""code"": ""71.019""}, {""brand"": ""RAL"", ""code"": ""RAL 840""}]"
+HTK-_299,Braun,#7f6d58,"[{""brand"": ""Vallejo"", ""code"": ""71.038""}, {""brand"": ""RAL"", ""code"": ""RAL 840""}]"
+HTK-_300,Anthracite Grey,#7b7d7f,"[{""brand"": ""RAL"", ""code"": ""RAL 7016""}, {""brand"": ""Testors"", ""code"": ""2101""}, {""brand"": ""Vallejo"", ""code"": ""71.115""}, {""brand"": ""Xtracolor"", ""code"": ""X802""}]"
+HTK-_301,Dark Olive Green,#5f6352,"[{""brand"": ""Federal Standard"", ""code"": ""FS 34096""}, {""brand"": ""Testors"", ""code"": ""2027""}, {""brand"": ""Vallejo"", ""code"": ""71.092""}]"
+HTK-_302,Gripen Grey,#aaaeae,"[{""brand"": ""Federal Standard"", ""code"": ""FS 36373""}]"
+HTK-_303,Green Brown,#9d8051,"[{""brand"": ""Testors"", ""code"": ""2099""}, {""brand"": ""Vallejo"", ""code"": ""71.272""}, {""brand"": ""Xtracolor"", ""code"": ""X803""}, {""brand"": ""RAL"", ""code"": ""RAL 8000""}]"
+HTK-_304,Khaki Grey,#a49377,"[{""brand"": ""Testors"", ""code"": ""2098""}, {""brand"": ""Vallejo"", ""code"": ""71.116""}, {""brand"": ""Xtracolor"", ""code"": ""X804""}, {""brand"": ""RAL"", ""code"": ""RAL 7008""}]"
+HTK-_305,Afrika Braun,#c7a077,"[{""brand"": ""Testors"", ""code"": ""2102""}, {""brand"": ""Vallejo"", ""code"": ""71.117""}, {""brand"": ""Xtracolor"", ""code"": ""X808""}, {""brand"": ""RAL"", ""code"": ""RAL 840""}]"
+HTK-_306,Afrika Grau,#ba9c74,"[{""brand"": ""Testors"", ""code"": ""2103""}, {""brand"": ""Vallejo"", ""code"": ""71.118""}, {""brand"": ""Xtracolor"", ""code"": ""X809""}, {""brand"": ""RAL"", ""code"": ""RAL 840""}]"
+HTK-_307,Cream,#efe9de,"[{""brand"": ""RAL"", ""code"": ""RAL 9001""}, {""brand"": ""Testors"", ""code"": ""2104""}, {""brand"": ""Vallejo"", ""code"": ""71.270""}, {""brand"": ""Xtracolor"", ""code"": ""X818""}]"
+HTK-_308,BS Middle Brown,#a58b7a,"[{""brand"": ""British Standard"", ""code"": ""BS381C:411""}]"
+HTK-_309,Grass Green,#62824c,"[{""brand"": ""RAL"", ""code"": ""RAL 6010""}]"
+HTK-_310,Dunkelgelb nach Muster,#c8ae43,"[{""brand"": ""RAL"", ""code"": ""RAL 6010""}]"
+HTK-_311,Green,#4d4f3c,"[{""brand"": ""RLM"", ""code"": ""RLM-72""}, {""brand"": ""Humbrol"", ""code"": ""243""}, {""brand"": ""Testors"", ""code"": ""2082""}, {""brand"": ""Vallejo"", ""code"": ""71.263""}, {""brand"": ""Xtracolor"", ""code"": ""X222""}]"
+HTK-_312,Green,#616a61,"[{""brand"": ""RLM"", ""code"": ""RLM-73""}, {""brand"": ""Humbrol"", ""code"": ""244""}, {""brand"": ""Testors"", ""code"": ""2083""}, {""brand"": ""Vallejo"", ""code"": ""71.256""}, {""brand"": ""Xtracolor"", ""code"": ""X223""}]"
+HTK-_313,Grey-Green,#585a52,"[{""brand"": ""RLM"", ""code"": ""RLM-74""}, {""brand"": ""Humbrol"", ""code"": ""245""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H68""}, {""brand"": ""Testors"", ""code"": ""2084""}, {""brand"": ""Vallejo"", ""code"": ""71.258""}, {""brand"": ""Xtracolor"", ""code"": ""X206""}]"
+HTK-_314,Light Blue,#9eb2b4,"[{""brand"": ""RLM"", ""code"": ""RLM-78""}, {""brand"": ""Humbrol"", ""code"": ""248""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H418""}, {""brand"": ""Testors"", ""code"": ""2087""}, {""brand"": ""Vallejo"", ""code"": ""71.101""}, {""brand"": ""Xtracolor"", ""code"": ""X214""}]"
+HTK-_315,Forest Green,#6a6c46,"[{""brand"": ""Federal Standard"", ""code"": ""FS 34127""}, {""brand"": ""Humbrol"", ""code"": ""150""}, {""brand"": ""Testors"", ""code"": ""1714""}]"
+HTK-_316,ZO Protective Green,#9d9078,[]
+HTK-_317,Dark Brown 6K,#825e50,"[{""brand"": ""Vallejo"", ""code"": ""71.282""}]"
+HTK-_318,Sand 7K,#b18d54,"[{""brand"": ""Vallejo"", ""code"": ""71.283""}]"
+HTK-_319,Light Sea Blue,#77c1d6,"[{""brand"": ""Federal Standard"", ""code"": ""FS 25200""}]"
+HTK-_320,Medium Sea Blue,#79bad7,[]
+HTK-_321,Extra Light Sea Blue,#d4e9f6,[]
+HTK-_322,RAF Anti-Flash White,#f8f8f3,[]
+HTK-_323,Sand Grey,#bfb29b,"[{""brand"": ""Federal Standard"", ""code"": ""FS 30372""}, {""brand"": ""Vallejo"", ""code"": ""71.122""}]"
+HTK-_324,Swedish Dk Green,#5a6053,[]
+HTK-_325,Swedish Lt Green,#6b795e,[]
+HTK-_326,BS Mid Bronze Green,#5e5e46,"[{""brand"": ""British Standard"", ""code"": ""BS381C:223""}, {""brand"": ""Xtracolor"", ""code"": ""X815""}]"
+HTK-_327,Radome Green,#2a7951,[]
+HTK-_328,Pale Blue,#c0dfe8,"[{""brand"": ""Vallejo"", ""code"": ""71.334""}]"
+HTK-_329,Radome Tan,#f1d3aa,"[{""brand"": ""Federal Standard"", ""code"": ""FS 33613""}, {""brand"": ""Humbrol"", ""code"": ""148""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H318""}, {""brand"": ""Testors"", ""code"": ""1709""}, {""brand"": ""Vallejo"", ""code"": ""71.074""}, {""brand"": ""Xtracolor"", ""code"": ""X107""}]"
+HTK-_330,Zinc Chromate Primer,#e1e262,"[{""brand"": ""Xtracolor"", ""code"": ""X408""}]"
+HTK-_331,Flesh,#fbd5af,"[{""brand"": ""Humbrol"", ""code"": ""61""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H44""}, {""brand"": ""Tamiya"", ""code"": ""XF15""}, {""brand"": ""Vallejo"", ""code"": ""71.076""}, {""brand"": ""Xtracolor"", ""code"": ""X406""}]"
+HTK-_501,507A RN Dark Grey,#5c656f,"[{""brand"": ""Testors"", ""code"": ""2169""}]"
+HTK-_502,507B RN Medium Grey,#849099,"[{""brand"": ""Tamiya"", ""code"": ""XF80""}, {""brand"": ""Testors"", ""code"": ""2171""}]"
+HTK-_503,507C RN Light Grey,#cfd1d6,"[{""brand"": ""Tamiya"", ""code"": ""XF80""}, {""brand"": ""Testors"", ""code"": ""2170""}]"
+HTK-_504,B5 RN Dark Blue-Grey,#838f98,[]
+HTK-_505,B6 RN Medium Blue,#aec7d6,[]
+HTK-_506,MS1 RN Blue-Black,#454d56,[]
+HTK-_507,MS2 RN Dark Grey,#7a7b7d,[]
+HTK-_508,MS3 RN Medium Green-Grey,#abbab6,[]
+HTK-_509,MS4 RN Light Grey (Warm),#bdbeb0,[]
+HTK-_510,MS4A RN Light Grey-Green,#c2cec3,[]
+HTK-_511,RN Western Approaches Blue,#d7e5e8,[]
+HTK-_512,RN Western Approaches Green,#70b696,[]
+HTK-_513,G5 RN Extra Dark Grey,#55565d,[]
+HTK-_514,G10 RN Dark Grey,#73777f,[]
+HTK-_515,G20 RN Medium Green-Grey,#87866f,[]
+HTK-_516,G45 RN Light Grey (Warm),#c4c1b2,[]
+HTK-_517,B15 RN Dark Grey-Blue,#556d7d,[]
+HTK-_518,B20 RN Medium Grey-Blue,#6e7e83,[]
+HTK-_519,B30 RN Medium Green-Blue,#a9aa9c,[]
+HTK-_520,B55 RN Light Green-Blue,#cbc6bd,[]
+HTK-_521,PB10 RN Deep Blue,#3b4e71,[]
+HTK-_522,Semtex (early WW2),#ecead9,[]
+HTK-_523,Semtex (late WW2),#3e6c50,[]
+HTK-_524,Corticene,#a47154,[]
+HTK-_525,RN Antifouling Red,#b05a55,[]
+HTK-_526,RN Light Mountbatten Pink,#8d7778,[]
+HTK-_527,RN Dark Mountbatten Pink,#7c6c6f,[]
+HTK-_528,RN White,#fdfcf8,[]
+HTK-_701,,,"[{""brand"": ""RAL"", ""code"": ""RAL 7031""}, {""brand"": ""Humbrol"", ""code"": ""27""}]"
+HTK-_702,,,"[{""brand"": ""RAL"", ""code"": ""RAL 6018""}]"
+HTK-_703,,,"[{""brand"": ""RAL"", ""code"": ""RAL 6029""}]"
+HTK-_704,,,"[{""brand"": ""RAL"", ""code"": ""RAL 2004""}, {""brand"": ""Humbrol"", ""code"": ""18""}, {""brand"": ""Gunze Sangyo"", ""code"": ""H14""}, {""brand"": ""Tamiya"", ""code"": ""X6""}, {""brand"": ""Testors"", ""code"": ""1527""}]"
+HTK-_705,,,"[{""brand"": ""RAL"", ""code"": ""RAL 2008""}]"
+HTK-_706,,,"[{""brand"": ""RAL"", ""code"": ""RAL 6019""}]"
+HTK-_707,,,"[{""brand"": ""RAL"", ""code"": ""RAL 1021""}]"
+HTK-_708,,,"[{""brand"": ""RAL"", ""code"": ""RAL 6005""}]"
+HTK-_709,,,"[{""brand"": ""RAL"", ""code"": ""RAL 6027""}]"
+HTK-_710,,,"[{""brand"": ""RAL"", ""code"": ""RAL 5010""}, {""brand"": ""Vallejo"", ""code"": ""71.088""}]"
+HTK-_711,,,[]
+HTK-_712,,,[]
+HTK-_713,,,"[{""brand"": ""RAL"", ""code"": ""RAL 7042""}]"

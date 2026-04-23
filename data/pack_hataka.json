@@ -1,0 +1,6545 @@
+{
+  "brand": "Hataka",
+  "brand_id": "hataka",
+  "source": "data/pack_hataka.json",
+  "count": 342,
+  "colors": [
+    {
+      "code": "HTK-_001",
+      "name": "Dark Sea Blue",
+      "hex": "#51565e",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 15042"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 623"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "181"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H55"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF17"
+        },
+        {
+          "brand": "Testors",
+          "code": "1717"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.300"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X121"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_003",
+      "name": "Silver (Met)",
+      "hex": "#bdc4c5",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-01"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "11"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H8"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "X11"
+        },
+        {
+          "brand": "Testors",
+          "code": "1790"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.063"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X038"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_004",
+      "name": "US Olive Drab 41 (Early)",
+      "hex": "#736a5a",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.316"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_005",
+      "name": "Sky Blue",
+      "hex": "#bedef3",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35466"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_006",
+      "name": "Semi-Gloss Sea Blue",
+      "hex": "#464b54",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 25042"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 606"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "181"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H55"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF17"
+        },
+        {
+          "brand": "Testors",
+          "code": "1717"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.300"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X121"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_007",
+      "name": "Grey-Violet",
+      "hex": "#757677",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-75"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "246"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H69"
+        },
+        {
+          "brand": "Testors",
+          "code": "2085"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.259"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X207"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_008",
+      "name": "Brown-Violet",
+      "hex": "#6d5a51",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-81"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "251"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H421"
+        },
+        {
+          "brand": "Testors",
+          "code": "2090"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.264"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X210"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_009",
+      "name": "Dark Earth",
+      "hex": "#938976",
+      "equivalents": [
+        {
+          "brand": "Humbrol",
+          "code": "29"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H72"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF52"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.323"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X002"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_010",
+      "name": "Dark Polish Khaki",
+      "hex": "#6b5d52",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_011",
+      "name": "Light Polish Khaki",
+      "hex": "#75684e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_012",
+      "name": "Dark Tan",
+      "hex": "#9b8061",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30219"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 628"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "118"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H310"
+        },
+        {
+          "brand": "Testors",
+          "code": "1742"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.125"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X102"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_013",
+      "name": "Mid Stone",
+      "hex": "#c0a978",
+      "equivalents": [
+        {
+          "brand": "Humbrol",
+          "code": "84"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H71"
+        },
+        {
+          "brand": "Testors",
+          "code": "2052"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.031"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X009"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_014",
+      "name": "Sand-Yellow",
+      "hex": "#c5b283",
+      "equivalents": [
+        {
+          "brand": "Humbrol",
+          "code": "249"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H66"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF60"
+        },
+        {
+          "brand": "Testors",
+          "code": "2088"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.278"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X209"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-79"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_015",
+      "name": "Black-Green",
+      "hex": "#42473f",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-70"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "241"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H65"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF27"
+        },
+        {
+          "brand": "Testors",
+          "code": "2080"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.021"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X204"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_016",
+      "name": "Dark Green",
+      "hex": "#5f6252",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34079"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 631"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "116"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H309"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF81"
+        },
+        {
+          "brand": "Testors",
+          "code": "1710"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.294"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X110"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_017",
+      "name": "Dark Green",
+      "hex": "#747a6f",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-71"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "242"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H64"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF58"
+        },
+        {
+          "brand": "Testors",
+          "code": "2081"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.015"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X205"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_018",
+      "name": "US Olive Drab (Late)",
+      "hex": "#797258",
+      "equivalents": [
+        {
+          "brand": "ANA",
+          "code": "ANA 613"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H52"
+        },
+        {
+          "brand": "Testors",
+          "code": "2050"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.016"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X112"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_019",
+      "name": "Medium Green 42",
+      "hex": "#475d4f",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.124"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_020",
+      "name": "Light Green",
+      "hex": "#7a8b61",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-82"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "252"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H422"
+        },
+        {
+          "brand": "Testors",
+          "code": "2091"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.022"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X225"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_021",
+      "name": "Medium Green",
+      "hex": "#848a75",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34102"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "117"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H303"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF58"
+        },
+        {
+          "brand": "Testors",
+          "code": "1713"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.289"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X116"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_022",
+      "name": "Dark Green",
+      "hex": "#4c5446",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-83"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "253"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H423"
+        },
+        {
+          "brand": "Testors",
+          "code": "2092"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.011"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X226"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_023",
+      "name": "Grey",
+      "hex": "#737b72",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-02"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "240"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H70"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF22"
+        },
+        {
+          "brand": "Testors",
+          "code": "2071"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.044"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X201"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_024",
+      "name": "P.R. Pink",
+      "hex": "#f8ddd3",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.408"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X034"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_025",
+      "name": "Interior Grey-Green",
+      "hex": "#9ba89b",
+      "equivalents": [
+        {
+          "brand": "Tamiya",
+          "code": "XF76"
+        },
+        {
+          "brand": "Testors",
+          "code": "2062"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.305"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X010"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_026",
+      "name": "Sky „Type S”",
+      "hex": "#c5c5a9",
+      "equivalents": [
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H74"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF21"
+        },
+        {
+          "brand": "Testors",
+          "code": "2049"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.302"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X007"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_027",
+      "name": "Intermediate Blue",
+      "hex": "#6f7e88",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35164"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 608"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "144"
+        },
+        {
+          "brand": "Testors",
+          "code": "1720"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.299"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X125"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_028",
+      "name": "Azure Blue",
+      "hex": "#7b92b5",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35164"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 608"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "157"
+        },
+        {
+          "brand": "Testors",
+          "code": "2048"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.108"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X026"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_029",
+      "name": "Light Blue",
+      "hex": "#a8bbba",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-65"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H67"
+        },
+        {
+          "brand": "Testors",
+          "code": "2078"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.255"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X202"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_030",
+      "name": "European I Grey",
+      "hex": "#606364",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36081"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "32"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H301"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF24"
+        },
+        {
+          "brand": "Testors",
+          "code": "1788"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.314"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X129"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_031",
+      "name": "Gunship Grey",
+      "hex": "#666b75",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36118"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 603"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "125"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H305"
+        },
+        {
+          "brand": "Testors",
+          "code": "1723"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.097"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X130"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_032",
+      "name": "Ocean Grey",
+      "hex": "#72777e",
+      "equivalents": [
+        {
+          "brand": "Humbrol",
+          "code": "106"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF82"
+        },
+        {
+          "brand": "Testors",
+          "code": "2057"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.273"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X006"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_033",
+      "name": "Neutral Grey 43",
+      "hex": "#979da3",
+      "equivalents": [
+        {
+          "brand": "Humbrol",
+          "code": "176"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H53"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.051"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_034",
+      "name": "Medium Sea Grey",
+      "hex": "#8a9096",
+      "equivalents": [
+        {
+          "brand": "Humbrol",
+          "code": "165"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H335"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF83"
+        },
+        {
+          "brand": "Testors",
+          "code": "2058"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.307"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X003"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_035",
+      "name": "Dark Ghost Grey",
+      "hex": "#9ba4ac",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36320"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "128"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H307"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF53"
+        },
+        {
+          "brand": "Testors",
+          "code": "1741"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.120"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X135"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_036",
+      "name": "Light Blue-Grey",
+      "hex": "#95a5a6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_037",
+      "name": "Light Ghost Grey",
+      "hex": "#bdc2c8",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36375"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "127"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H308"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF19"
+        },
+        {
+          "brand": "Testors",
+          "code": "1728"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X136"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_038",
+      "name": "Light Blue",
+      "hex": "#a4b0af",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-76"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "247"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H417"
+        },
+        {
+          "brand": "Testors",
+          "code": "2086"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.257"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X208"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_039",
+      "name": "Camouflage Grey",
+      "hex": "#d4d2c4",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36622"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "28"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H311"
+        },
+        {
+          "brand": "Testors",
+          "code": "1733"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.296"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X140"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_040",
+      "name": "Black-Grey",
+      "hex": "#3d3c42",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-66"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H416"
+        },
+        {
+          "brand": "Testors",
+          "code": "2079"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.055"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X203"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_041",
+      "name": "Night Black",
+      "hex": "#6c696b",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 37038"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 604"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "33"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H12"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF1"
+        },
+        {
+          "brand": "Testors",
+          "code": "1749"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.057"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X404"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_042",
+      "name": "P.R. Blue",
+      "hex": "#506b84",
+      "equivalents": [
+        {
+          "brand": "Testors",
+          "code": "2061"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.109"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X008"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_043",
+      "name": "Insignia White",
+      "hex": "#fefcee",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 37875"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 601"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "34"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H316"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF2"
+        },
+        {
+          "brand": "Testors",
+          "code": "1768"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.279"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X141"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_044",
+      "name": "Dark Gull Grey",
+      "hex": "#888b90",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36231"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 621"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "140"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H317"
+        },
+        {
+          "brand": "Testors",
+          "code": "1740"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.277"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X131"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_045",
+      "name": "Air Defence Grey",
+      "hex": "#bcc4c3",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 16473"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 512"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "140"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H317"
+        },
+        {
+          "brand": "Testors",
+          "code": "1731"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.277"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X138"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_046",
+      "name": "Medium Grey",
+      "hex": "#88949c",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35237"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 620"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "145"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H337"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF20"
+        },
+        {
+          "brand": "Testors",
+          "code": "1721"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.114"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X126"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_047",
+      "name": "Soviet Cockpit Blue-Green",
+      "hex": "#6bc3b8",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 16440"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 620"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "129"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H315"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF20"
+        },
+        {
+          "brand": "Testors",
+          "code": "2135"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.121"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X629"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_048",
+      "name": "Light Gull Grey",
+      "hex": "#bbbcae",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 16440"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 620"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "129"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H325"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF20"
+        },
+        {
+          "brand": "Testors",
+          "code": "1730"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.121"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X137"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36440"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_049",
+      "name": "Insignia White",
+      "hex": "#f8faf2",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 17875"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 511"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "34"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H316"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF2"
+        },
+        {
+          "brand": "Testors",
+          "code": "1768"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.279"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X141"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_050",
+      "name": "Light Grey",
+      "hex": "#d7dcda",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36495"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 511"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "34"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H338"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF2"
+        },
+        {
+          "brand": "Testors",
+          "code": "1732"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.276"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X139"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_051",
+      "name": "Camotint Green",
+      "hex": "#bccba2",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36495"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 511"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "34"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H338"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF2"
+        },
+        {
+          "brand": "Testors",
+          "code": "1732"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.276"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X139"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_052",
+      "name": "Green Drab",
+      "hex": "#656456",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34086"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-80"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "126"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H420"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF53"
+        },
+        {
+          "brand": "Testors",
+          "code": "1787"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.292"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X144"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_053",
+      "name": "Olive-Green",
+      "hex": "#83877e",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36270"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-80"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "126"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H306"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF53"
+        },
+        {
+          "brand": "Testors",
+          "code": "2089"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.265"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X215"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_054",
+      "name": "Grey",
+      "hex": "#909399",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36270"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-80"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "126"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H306"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF53"
+        },
+        {
+          "brand": "Testors",
+          "code": "1725"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.275"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X133"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_055",
+      "name": "Royal Blue",
+      "hex": "#3f3f53",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_056",
+      "name": "European I Green",
+      "hex": "#4b5d50",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34092"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 612"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "149"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H302"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF26"
+        },
+        {
+          "brand": "Testors",
+          "code": "1764"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.124"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X114"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_057",
+      "name": "Beige",
+      "hex": "#e2ddcf",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_058",
+      "name": "Have Glass Grey",
+      "hex": "#85817f",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36170"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.280"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_059",
+      "name": "Field Green",
+      "hex": "#55614b",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34095"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 627"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 6003"
+        },
+        {
+          "brand": "Testors",
+          "code": "1786"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.022"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X261"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_060",
+      "name": "USMC Sand",
+      "hex": "#eedfb2",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 26081"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 625"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "32"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H301"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF24"
+        },
+        {
+          "brand": "Testors",
+          "code": "1788"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.075"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X129"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_061",
+      "name": "Seaplane Grey",
+      "hex": "#828585",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 26081"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 625"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "32"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H301"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF24"
+        },
+        {
+          "brand": "Testors",
+          "code": "1788"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.314"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X129"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_062",
+      "name": "International Orange",
+      "hex": "#ce5038",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 12197"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 508"
+        },
+        {
+          "brand": "Testors",
+          "code": "2022"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X104"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_063",
+      "name": "Vert Foncé",
+      "hex": "#5f7964",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_064",
+      "name": "Khaki Green No. 3 (G3)",
+      "hex": "#76785d",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.330"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_065",
+      "name": "US Army Olive Drab",
+      "hex": "#89837c",
+      "equivalents": [
+        {
+          "brand": "Humbrol",
+          "code": "155"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H304"
+        },
+        {
+          "brand": "Testors",
+          "code": "1711"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.043"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X111"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_066",
+      "name": "Insignia (Orange) Yellow",
+      "hex": "#f0bf21",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 13538"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 506"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "154"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H329"
+        },
+        {
+          "brand": "Testors",
+          "code": "1707"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X106"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_067",
+      "name": "US Army Helicopter Drab",
+      "hex": "#5d5652",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34031"
+        },
+        {
+          "brand": "Testors",
+          "code": "2024"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X153"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_068",
+      "name": "US Army Desert Sand",
+      "hex": "#b79e87",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30279"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 616"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "250"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.140"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X032"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_069",
+      "name": "Woodland Desert Sage",
+      "hex": "#a8a28b",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34201"
+        },
+        {
+          "brand": "Testors",
+          "code": "1792"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.023"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X119"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_070",
+      "name": "AMT-12 Dark Grey",
+      "hex": "#5b5e62",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.308"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_071",
+      "name": "AMT-11 Blue-Grey",
+      "hex": "#87939a",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.304"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_072",
+      "name": "AMT-7 Greyish Blue",
+      "hex": "#a5c0d9",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.318"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_073",
+      "name": "AMT-4 Camouflage Green",
+      "hex": "#868a73",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.301"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_074",
+      "name": "A-21m Light Greyish Brown",
+      "hex": "#b1af9a",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.415"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_075",
+      "name": "Dark Green No. 4 (G4)",
+      "hex": "#656558",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.415"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_076",
+      "name": "S.C.C. No. 2 Khaki Brown",
+      "hex": "#8a6650",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_077",
+      "name": "S.C.C. No. 1A Dark Brown",
+      "hex": "#7c6f6b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_078",
+      "name": "Aluminium",
+      "hex": "#c6c9cb",
+      "equivalents": [
+        {
+          "brand": "Humbrol",
+          "code": "56"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF16"
+        },
+        {
+          "brand": "Testors",
+          "code": "1781"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.062"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X142"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_079",
+      "name": "Brun Foncé",
+      "hex": "#665144",
+      "equivalents": [
+        {
+          "brand": "Xtracolor",
+          "code": "X382"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_080",
+      "name": "Vert",
+      "hex": "#608e61",
+      "equivalents": [
+        {
+          "brand": "Xtracolor",
+          "code": "X385"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_081",
+      "name": "Terre de Sienne",
+      "hex": "#a58c7b",
+      "equivalents": [
+        {
+          "brand": "Xtracolor",
+          "code": "X387"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_082",
+      "name": "Gris Bleu Foncé",
+      "hex": "#9ca4ab",
+      "equivalents": [
+        {
+          "brand": "Xtracolor",
+          "code": "X388"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_083",
+      "name": "Gris Bleu Clair",
+      "hex": "#b0c7cc",
+      "equivalents": [
+        {
+          "brand": "Xtracolor",
+          "code": "X389"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_084",
+      "name": "Kaki Français",
+      "hex": "#928b6d",
+      "equivalents": [
+        {
+          "brand": "Xtracolor",
+          "code": "X384"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_085",
+      "name": "Polish AFV Khaki Green",
+      "hex": "#8b8c70",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_086",
+      "name": "Polish AFV Green Sand",
+      "hex": "#c4b281",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_087",
+      "name": "Polish AFV Dark Brown",
+      "hex": "#665145",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_088",
+      "name": "Polish AFV Green",
+      "hex": "#809180",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.248"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_089",
+      "name": "German Camouflage Grey",
+      "hex": "#a39e94",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.248"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 7050"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_090",
+      "name": "Sand",
+      "hex": "#d9c2ab",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 33531"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "121"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H313"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF59"
+        },
+        {
+          "brand": "Testors",
+          "code": "1706"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.327"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X105"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_091",
+      "name": "Pale Green",
+      "hex": "#7e9a74",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34227"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "120"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H312"
+        },
+        {
+          "brand": "Testors",
+          "code": "1716"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.126"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X148"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_092",
+      "name": "Duck Egg Blue",
+      "hex": "#d9e3d9",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35622"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "122"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H314"
+        },
+        {
+          "brand": "Testors",
+          "code": "1722"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.328"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X149"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_093",
+      "name": "Green",
+      "hex": "#a0a97d",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34258"
+        },
+        {
+          "brand": "Testors",
+          "code": "2029"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.094"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X120"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_094",
+      "name": "Vert Olive",
+      "hex": "#8f8a64",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_095",
+      "name": "Gris Bleu Clair",
+      "hex": "#c1d7f0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_096",
+      "name": "Gris Clair Neutre",
+      "hex": "#e2e4e6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_097",
+      "name": "Jaune d’ocre",
+      "hex": "#eccb95",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_098",
+      "name": "Terre d’ombre",
+      "hex": "#906257",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_099",
+      "name": "Gris Vert",
+      "hex": "#73766d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_100",
+      "name": "Jet Black",
+      "hex": "#42413e",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 9005"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "85"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H12"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF1"
+        },
+        {
+          "brand": "Testors",
+          "code": "2040"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X012"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_101",
+      "name": "Traffic White",
+      "hex": "#fcfdfd",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 9016"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "34"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H11"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF2"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.101"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X405"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_102",
+      "name": "Signal Blue",
+      "hex": "#3f5280",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 5005"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "25"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H56"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF8"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_103",
+      "name": "Traffic Red",
+      "hex": "#c03a39",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 3020"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "174"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H3"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF7"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_104",
+      "name": "Traffic Yellow",
+      "hex": "#fbd822",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 1023"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "24"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H34"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF3"
+        },
+        {
+          "brand": "Testors",
+          "code": "2118"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.002"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X011"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_105",
+      "name": "Luminous Yellow",
+      "hex": "#f3ed62",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 1026"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_106",
+      "name": "Gunmetal",
+      "hex": "#464f52",
+      "equivalents": [
+        {
+          "brand": "Humbrol",
+          "code": "53"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H76"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "X10"
+        },
+        {
+          "brand": "Testors",
+          "code": "1795"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.072"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X506"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_107",
+      "name": "Signal Yellow",
+      "hex": "#f3c120",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 1003"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.135"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_108",
+      "name": "Gold (Met)",
+      "hex": "#e5c776",
+      "equivalents": [
+        {
+          "brand": "Humbrol",
+          "code": "16"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H9"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "X12"
+        },
+        {
+          "brand": "Testors",
+          "code": "1744"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.066"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X507"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_109",
+      "name": "Copper (Met)",
+      "hex": "#dc9f7f",
+      "equivalents": [
+        {
+          "brand": "Humbrol",
+          "code": "12"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H10"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF6"
+        },
+        {
+          "brand": "Testors",
+          "code": "2019"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.068"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_110",
+      "name": "S.C.C. No. 15 Olive Drab",
+      "hex": "#67604f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_121",
+      "name": "Jaune Sahara",
+      "hex": "#fcf1cd",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_122",
+      "name": "Vert IR OTAN (0211)",
+      "hex": "#7e7b69",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_123",
+      "name": "Brun Terre IR",
+      "hex": "#8e7858",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_124",
+      "name": "Vert Foncé IR",
+      "hex": "#467648",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_125",
+      "name": "NATO Black",
+      "hex": "#6f6c6d",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 37030"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF69"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.251"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_126",
+      "name": "Sable Desért IR",
+      "hex": "#d4b675",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_127",
+      "name": "AE-9 Light Grey",
+      "hex": "#e4e4ea",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_128",
+      "name": "A II Green (Protective)",
+      "hex": "#55553c",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.410"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_129",
+      "name": "A II Light Blue",
+      "hex": "#a9c1c6",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.317"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_130",
+      "name": "Mahogany Brown",
+      "hex": "#694a3e",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 8016"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.036"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_131",
+      "name": "Brown Red",
+      "hex": "#8d3f3d",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 3011"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_132",
+      "name": "Flame Red",
+      "hex": "#b23e34",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 3000"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "19"
+        },
+        {
+          "brand": "Testors",
+          "code": "1503"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.269"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_133",
+      "name": "Signal Orange",
+      "hex": "#dd8b60",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 2010"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.130"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_134",
+      "name": "Maize Yellow",
+      "hex": "#e1a129",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 1006"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.033"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_135",
+      "name": "Yellow (light) rust",
+      "hex": "#f4b722",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.135"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_136",
+      "name": "Pucara Pale Green",
+      "hex": "#b7c89c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_137",
+      "name": "Pucara Light Tan",
+      "hex": "#d6c1b2",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_138",
+      "name": "Pucara Medium Blue",
+      "hex": "#85cbdc",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "77.716"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_139",
+      "name": "Semi-matt Aluminium",
+      "hex": "#c5c9ca",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "77.716"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_140",
+      "name": "BS Extra Dark Sea Grey",
+      "hex": "#676b6f",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:640"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "123"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H333"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF54"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.110"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X005"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_141",
+      "name": "BS Medium Sea Grey",
+      "hex": "#b3b6b7",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:637"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "165"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H335"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.307"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X003"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_142",
+      "name": "Camouflage (Barley) Grey",
+      "hex": "#acafaf",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:626"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "167"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H334"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X017"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_143",
+      "name": "BS Dark Green",
+      "hex": "#696453",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:641"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "163"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H330"
+        },
+        {
+          "brand": "Testors",
+          "code": "2060"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.324"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X001"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_144",
+      "name": "BS Dark Sea Grey",
+      "hex": "#818187",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:638"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "164"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H331"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF24"
+        },
+        {
+          "brand": "Testors",
+          "code": "2059"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.405"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X004"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_145",
+      "name": "RAF Blue-Grey",
+      "hex": "#777b7f",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:633"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X013"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_146",
+      "name": "BS Olive Drab",
+      "hex": "#6f695b",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:298"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X028"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_147",
+      "name": "Chocolate Brown",
+      "hex": "#5a4a43",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 8017"
+        },
+        {
+          "brand": "Testors",
+          "code": "2096"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.041"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X807"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_148",
+      "name": "Vermilion",
+      "hex": "#c64b36",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 2002"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H467"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_149",
+      "name": "Concrete Grey",
+      "hex": "#a9a9a1",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7023"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X263"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_150",
+      "name": "Blue-Green",
+      "hex": "#94b2ae",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35414"
+        },
+        {
+          "brand": "Testors",
+          "code": "2033"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.008"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X127"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_151",
+      "name": "Grey Olive",
+      "hex": "#6e765d",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 6006"
+        },
+        {
+          "brand": "Testors",
+          "code": "2148"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.268"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_152",
+      "name": "NATO Green",
+      "hex": "#606956",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34094"
+        },
+        {
+          "brand": "Testors",
+          "code": "2173"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.093"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_153",
+      "name": "MK-7 Temporary White",
+      "hex": "#fdfefd",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_154",
+      "name": "White Grey",
+      "hex": "#dee0d9",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36628"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_155",
+      "name": "Air Superiority Blue",
+      "hex": "#a5bed8",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35450"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_156",
+      "name": "Aggressor Blue",
+      "hex": "#526b84",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35109"
+        },
+        {
+          "brand": "Testors",
+          "code": "2031"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.111"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X124"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_157",
+      "name": "Aggressor Grey",
+      "hex": "#a5a9a6",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36251"
+        },
+        {
+          "brand": "Testors",
+          "code": "1794"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.274"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X132"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_158",
+      "name": "Mod Eagle Grey",
+      "hex": "#818892",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36176"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF69"
+        },
+        {
+          "brand": "Testors",
+          "code": "2036"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.273"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X157"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_159",
+      "name": "Camouflage Black",
+      "hex": "#514e4f",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 37030"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF69"
+        },
+        {
+          "brand": "Testors",
+          "code": "2036"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.251"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X157"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_160",
+      "name": "Pale Brown",
+      "hex": "#957763",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30140"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF69"
+        },
+        {
+          "brand": "Testors",
+          "code": "2036"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.035"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X157"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_161",
+      "name": "Polizei / SS Grün Base",
+      "hex": "#759d9e",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-63"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "67"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF63"
+        },
+        {
+          "brand": "Testors",
+          "code": "1592"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.056"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X800"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_164",
+      "name": "Panzer Dunkelgrau Base",
+      "hex": "#5e6065",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-61"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "67"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF63"
+        },
+        {
+          "brand": "Testors",
+          "code": "2077"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.260"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X221"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_167",
+      "name": "Light Grey",
+      "hex": "#8e9286",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-61"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "67"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF63"
+        },
+        {
+          "brand": "Testors",
+          "code": "2075"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.042"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X219"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-63"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_168",
+      "name": "Dark Brown",
+      "hex": "#5e5652",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-61"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "67"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF63"
+        },
+        {
+          "brand": "Testors",
+          "code": "2075"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.042"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X219"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_169",
+      "name": "Green",
+      "hex": "#8b8c79",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 6013"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-62"
+        },
+        {
+          "brand": "Testors",
+          "code": "2076"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.104"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X220"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_170",
+      "name": "Reed Green",
+      "hex": "#928b6d",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 5008"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-62"
+        },
+        {
+          "brand": "Testors",
+          "code": "2076"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.005"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X264"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 6013"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_171",
+      "name": "Grey-Blue",
+      "hex": "#4d545c",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 5008"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-62"
+        },
+        {
+          "brand": "Testors",
+          "code": "2076"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.005"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X264"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_172",
+      "name": "Medium Brown",
+      "hex": "#987653",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30215"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.026"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_173",
+      "name": "Silk Grey",
+      "hex": "#d2cfc7",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7044"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X266"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_175",
+      "name": "Red Primer Base",
+      "hex": "#a25859",
+      "equivalents": [
+        {
+          "brand": "Humbrol",
+          "code": "100"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_184",
+      "name": "Interior Buff",
+      "hex": "#e8e3d7",
+      "equivalents": [
+        {
+          "brand": "Testors",
+          "code": "2104"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_185",
+      "name": "Gearbox Green",
+      "hex": "#6c904f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_186",
+      "name": "Leather Brown",
+      "hex": "#9c7c6a",
+      "equivalents": [
+        {
+          "brand": "Humbrol",
+          "code": "62"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H66"
+        },
+        {
+          "brand": "Testors",
+          "code": "1736"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_187",
+      "name": "Tan",
+      "hex": "#d1ab73",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 20400"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF68"
+        },
+        {
+          "brand": "Testors",
+          "code": "2021"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.249"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X145"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_188",
+      "name": "NATO Brown",
+      "hex": "#76645a",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30051"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF68"
+        },
+        {
+          "brand": "Testors",
+          "code": "2174"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.249"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X145"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_189",
+      "name": "Silver Grey",
+      "hex": "#a9adb2",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7001"
+        },
+        {
+          "brand": "Testors",
+          "code": "2160"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.050"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X255"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_190",
+      "name": "White Aluminium",
+      "hex": "#bfbfbe",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 9006"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.062"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X252"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_191",
+      "name": "Light Grey",
+      "hex": "#d6d6d4",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7035"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "196"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X260"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_192",
+      "name": "Basalt Grey",
+      "hex": "#737474",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7012"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "79"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X254"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_193",
+      "name": "Yellow Olive",
+      "hex": "#645d50",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 6014"
+        },
+        {
+          "brand": "Testors",
+          "code": "2175"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X251"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_194",
+      "name": "Luminous Orange",
+      "hex": "#f08965",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 2005"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.082"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X253"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_201",
+      "name": "Voodoo Grey",
+      "hex": "#c9cbc9",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 16515"
+        },
+        {
+          "brand": "Testors",
+          "code": "2039"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X150"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_202",
+      "name": "BS Dark Slate Grey",
+      "hex": "#7d7b6a",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:634"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "224"
+        },
+        {
+          "brand": "Testors",
+          "code": "2056"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.309"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X025"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_203",
+      "name": "Sky Grey",
+      "hex": "#c5c5c6",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36463"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.407"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X042"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_204",
+      "name": "BS Deep Buff",
+      "hex": "#cea87d",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:360"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_205",
+      "name": "BS Light Admiralty Grey",
+      "hex": "#bdcac8",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:697"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_206",
+      "name": "BS Dark Earth",
+      "hex": "#8d765b",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:450"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "29"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H72"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF18"
+        },
+        {
+          "brand": "Testors",
+          "code": "2061"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.323"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X002"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_207",
+      "name": "BS PRU Blue",
+      "hex": "#70848d",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:636"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "230"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H56"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF18"
+        },
+        {
+          "brand": "Testors",
+          "code": "2061"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.109"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X008"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_208",
+      "name": "Desert Beige",
+      "hex": "#dcc8a9",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30118"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 617"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 1001"
+        },
+        {
+          "brand": "Testors",
+          "code": "1702"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.075"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X101"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_209",
+      "name": "Field Drab",
+      "hex": "#7f6f50",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30118"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 617"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 1001"
+        },
+        {
+          "brand": "Testors",
+          "code": "1702"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.139"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X101"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_210",
+      "name": "Sand Brown",
+      "hex": "#aa9d7d",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30277"
+        },
+        {
+          "brand": "Testors",
+          "code": "1704"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.138"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_211",
+      "name": "Interior Green",
+      "hex": "#6f7a44",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34151"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 611"
+        },
+        {
+          "brand": "Testors",
+          "code": "1715"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.137"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X117"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_212",
+      "name": "Earth Yellow",
+      "hex": "#cdb184",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30257"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.291"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_213",
+      "name": "Earth Red",
+      "hex": "#896b58",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30117"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "186"
+        },
+        {
+          "brand": "Testors",
+          "code": "1701"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.293"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_214",
+      "name": "BS Dark Camouflage Grey",
+      "hex": "#8b8d93",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:629"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.273"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X036"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_215",
+      "name": "BS NATO (IRR) Green",
+      "hex": "#736f61",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:285"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X018"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_216",
+      "name": "BS Lichen Green",
+      "hex": "#9d9b8d",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS4800"
+        },
+        {
+          "brand": "British Standard",
+          "code": "12B.25"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X024"
+        },
+        {
+          "brand": "British Standard",
+          "code": "BS4800/12B.25"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_217",
+      "name": "BS Light Aircraft Grey",
+      "hex": "#c2c1ba",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:627"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "166"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H332"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X015"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_218",
+      "name": "Blue Grey",
+      "hex": "#819098",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35189"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 509"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "153"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H327"
+        },
+        {
+          "brand": "Testors",
+          "code": "2055"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.109"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X162"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_219",
+      "name": "Insignia Red",
+      "hex": "#a03833",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 11136"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 509"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "153"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H327"
+        },
+        {
+          "brand": "Testors",
+          "code": "1705"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.109"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X103"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_220",
+      "name": "True Blue",
+      "hex": "#5f7ca2",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 15102"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 501"
+        },
+        {
+          "brand": "Testors",
+          "code": "2030"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X152"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_221",
+      "name": "Willow Green",
+      "hex": "#50874c",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 14187"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 503"
+        },
+        {
+          "brand": "Testors",
+          "code": "2028"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.135"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X151"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_222",
+      "name": "Lemon Yellow",
+      "hex": "#f2d022",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 13655"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 505"
+        },
+        {
+          "brand": "Testors",
+          "code": "2023"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.135"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X108"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_223",
+      "name": "Pigeon Blue",
+      "hex": "#808fa7",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 5014"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_224",
+      "name": "Black Grey",
+      "hex": "#777575",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7021"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.056"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X262"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_225",
+      "name": "Green Grey",
+      "hex": "#807f77",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7009"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.020"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X256"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_226",
+      "name": "Black Green",
+      "hex": "#5c6460",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 6012"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.018"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_227",
+      "name": "Dark Green-Blue",
+      "hex": "#2f90a4",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_228",
+      "name": "Medium Green-Blue",
+      "hex": "#6bc6d7",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_229",
+      "name": "Light Green-Blue",
+      "hex": "#8dd3ec",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_230",
+      "name": "Dark Grey",
+      "hex": "#6f6f78",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36076"
+        },
+        {
+          "brand": "Testors",
+          "code": "2034"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.048"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X128"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_231",
+      "name": "Fog Grey",
+      "hex": "#a5a7a7",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36293"
+        },
+        {
+          "brand": "Testors",
+          "code": "2034"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.048"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X128"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_232",
+      "name": "Extra Dark Green",
+      "hex": "#8d8b83",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34064"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_233",
+      "name": "Stone Grey",
+      "hex": "#aaa69d",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7030"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X257"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_234",
+      "name": "Sky Grey-Green",
+      "hex": "#b5bda5",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34424"
+        },
+        {
+          "brand": "ANA",
+          "code": "ANA 610"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.321"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X166"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_235",
+      "name": "Dark Blue-Grey",
+      "hex": "#5f646b",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36099"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.053"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_236",
+      "name": "BS Olive Green",
+      "hex": "#8f917d",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:220"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X027"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_237",
+      "name": "BS Light Stone",
+      "hex": "#d1b58b",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:361"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.143"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X029"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_238",
+      "name": "Desert Tan",
+      "hex": "#c5b58f",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 33446"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.122"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X812"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_239",
+      "name": "Seafoam Green",
+      "hex": "#bdcba0",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 24533"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_240",
+      "name": "IJA Khaki (Khaki-iro)",
+      "hex": "#c5ab76",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.287"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_241",
+      "name": "IJA Tea Brown (Cha-iro)",
+      "hex": "#8b6948",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.035"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_242",
+      "name": "IJA Olive Green (Midori-iro)",
+      "hex": "#53633f",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.134"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_243",
+      "name": "IJA Parched Grass (Karekusa-iro)Dunkelgelb",
+      "hex": "#ada15d",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "73.610"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_244",
+      "name": "",
+      "hex": "#c2b8a3",
+      "equivalents": [
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H403"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF60"
+        },
+        {
+          "brand": "Testors",
+          "code": "2095"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.025"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X805"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 840"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_245",
+      "name": "Kenttävihreä",
+      "hex": "#606a56",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_246",
+      "name": "Dark Moss Green",
+      "hex": "#535c50",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 14077"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_247",
+      "name": "Vaaleanvihreä",
+      "hex": "#636a51",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_248",
+      "name": "Quartz Grey",
+      "hex": "#a29c95",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7039"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X259"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_249",
+      "name": "Dusty Grey",
+      "hex": "#989694",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7037"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X258"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_250",
+      "name": "Dunkelgelb",
+      "hex": "#b2a361",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 840"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_251",
+      "name": "4BO Protective Green",
+      "hex": "#666846",
+      "equivalents": [
+        {
+          "brand": "Testors",
+          "code": "2129"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.017"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X811"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_252",
+      "name": "Military Dark Earth",
+      "hex": "#ad9a8a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_253",
+      "name": "MRG Stone",
+      "hex": "#cdbe96",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_254",
+      "name": "Buffalo Green",
+      "hex": "#726d57",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_255",
+      "name": "Bright Blue",
+      "hex": "#4379af",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 25183"
+        },
+        {
+          "brand": "Testors",
+          "code": "2032"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X146"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_256",
+      "name": "Earth Brown",
+      "hex": "#95887c",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30099"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.290"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_257",
+      "name": "Uniform Brown",
+      "hex": "#8e7958",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30145"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_258",
+      "name": "Stone Yellow",
+      "hex": "#c5b384",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 33448"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_259",
+      "name": "Yellow Ochre",
+      "hex": "#d1ae3b",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 33434"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_260",
+      "name": "Greyish Green",
+      "hex": "#90978f",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 24112"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_261",
+      "name": "Greyish Sand",
+      "hex": "#ad9888",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 20227"
+        },
+        {
+          "brand": "British Standard",
+          "code": "BS381C:389"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "168"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H336"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF57"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X016"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_262",
+      "name": "BS Camouflage Beige",
+      "hex": "#d4c8ad",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 20227"
+        },
+        {
+          "brand": "British Standard",
+          "code": "BS381C:389"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "168"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H336"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF57"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X016"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_263",
+      "name": "Atlantic Grey",
+      "hex": "#7f8886",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36187"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_264",
+      "name": "Pearl Grey",
+      "hex": "#cfd4ce",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36493"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_265",
+      "name": "Neutral Grey",
+      "hex": "#7d838c",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36173"
+        },
+        {
+          "brand": "Testors",
+          "code": "2035"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.051"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X158"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_266",
+      "name": "Bulkhead Grey",
+      "hex": "#a3a69b",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36307"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "141"
+        },
+        {
+          "brand": "Testors",
+          "code": "1726"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X134"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_267",
+      "name": "Cloud Grey",
+      "hex": "#999997",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36280"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_268",
+      "name": "Luminous Red",
+      "hex": "#ed6b68",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 3024"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_269",
+      "name": "Sulphur Yellow",
+      "hex": "#eee236",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 1016"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.240"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_270",
+      "name": "Pearl Opal Green",
+      "hex": "#2d6e62",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 6036"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_271",
+      "name": "BS Deep Bronze Green",
+      "hex": "#646559",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:224"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X814"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_272",
+      "name": "Ultramarine Blue",
+      "hex": "#6877a1",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 5002"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.004"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_273",
+      "name": "Graphite Grey",
+      "hex": "#686b70",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7024"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.054"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_274",
+      "name": "Cobalt Blue",
+      "hex": "#4f5670",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 5013"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H465"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.090"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_275",
+      "name": "BS Golden Yellow",
+      "hex": "#f3b82f",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:356"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.078"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X019"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_276",
+      "name": "BS Signal Red",
+      "hex": "#d27d78",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:537"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "238"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X014"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_277",
+      "name": "BS Roundel Blue",
+      "hex": "#5c5f83",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:110"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X030"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_278",
+      "name": "Sand Beige",
+      "hex": "#b9a883",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.244"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 1039"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_279",
+      "name": "Grey Beige",
+      "hex": "#ad9763",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.245"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 1040"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_280",
+      "name": "Sand Brown",
+      "hex": "#b59f8a",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.246"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 8031"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_281",
+      "name": "Light Olive",
+      "hex": "#79785b",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.247"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 6040"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_282",
+      "name": "Dutch Demo Orange (light)",
+      "hex": "#eb8a26",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.247"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_283",
+      "name": "Dark Grey-Blue",
+      "hex": "#506a84",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35250"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_284",
+      "name": "UN Blue",
+      "hex": "#8cbfdd",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 25530"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35250"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_285",
+      "name": "Faded Blue-Grey",
+      "hex": "#c9d2d1",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 25530"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_286",
+      "name": "Danish Green",
+      "hex": "#727952",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 25530"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_287",
+      "name": "Grey Beige",
+      "hex": "#b6a38e",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 1019"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.028"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_288",
+      "name": "Fawn Brown",
+      "hex": "#a2846e",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 8007"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.007"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_289",
+      "name": "Fir Green",
+      "hex": "#4b5448",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 6009"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.007"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_290",
+      "name": "BS Lemon Yellow",
+      "hex": "#efbe21",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:355"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_291",
+      "name": "BS Cherry Red",
+      "hex": "#ae4e4e",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:538"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X031"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_292",
+      "name": "BS Oxford Blue",
+      "hex": "#57596e",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:105"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "104"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X023"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_293",
+      "name": "Extra Light Blue",
+      "hex": "#d6e2e5",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 25550"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_294",
+      "name": "Mustard",
+      "hex": "#89744f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_295",
+      "name": "Medium Tan",
+      "hex": "#d2c1a8",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 33522"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_296",
+      "name": "Faded Eggplant Grey",
+      "hex": "#b0b3bc",
+      "equivalents": [
+        {
+          "brand": "Testors",
+          "code": "2100"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.420"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X801"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_297",
+      "name": "Erdgelb",
+      "hex": "#c38254",
+      "equivalents": [
+        {
+          "brand": "Testors",
+          "code": "2100"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.420"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X801"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 840"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_298",
+      "name": "Grün",
+      "hex": "#5f644e",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.019"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 840"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_299",
+      "name": "Braun",
+      "hex": "#7f6d58",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.038"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 840"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_300",
+      "name": "Anthracite Grey",
+      "hex": "#7b7d7f",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7016"
+        },
+        {
+          "brand": "Testors",
+          "code": "2101"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.115"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X802"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_301",
+      "name": "Dark Olive Green",
+      "hex": "#5f6352",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34096"
+        },
+        {
+          "brand": "Testors",
+          "code": "2027"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.092"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_302",
+      "name": "Gripen Grey",
+      "hex": "#aaaeae",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36373"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_303",
+      "name": "Green Brown",
+      "hex": "#9d8051",
+      "equivalents": [
+        {
+          "brand": "Testors",
+          "code": "2099"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.272"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X803"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 8000"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_304",
+      "name": "Khaki Grey",
+      "hex": "#a49377",
+      "equivalents": [
+        {
+          "brand": "Testors",
+          "code": "2098"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.116"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X804"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 7008"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_305",
+      "name": "Afrika Braun",
+      "hex": "#c7a077",
+      "equivalents": [
+        {
+          "brand": "Testors",
+          "code": "2102"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.117"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X808"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 840"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_306",
+      "name": "Afrika Grau",
+      "hex": "#ba9c74",
+      "equivalents": [
+        {
+          "brand": "Testors",
+          "code": "2103"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.118"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X809"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 840"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_307",
+      "name": "Cream",
+      "hex": "#efe9de",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 9001"
+        },
+        {
+          "brand": "Testors",
+          "code": "2104"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.270"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X818"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_308",
+      "name": "BS Middle Brown",
+      "hex": "#a58b7a",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:411"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_309",
+      "name": "Grass Green",
+      "hex": "#62824c",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 6010"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_310",
+      "name": "Dunkelgelb nach Muster",
+      "hex": "#c8ae43",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 6010"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_311",
+      "name": "Green",
+      "hex": "#4d4f3c",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-72"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "243"
+        },
+        {
+          "brand": "Testors",
+          "code": "2082"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.263"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X222"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_312",
+      "name": "Green",
+      "hex": "#616a61",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-73"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "244"
+        },
+        {
+          "brand": "Testors",
+          "code": "2083"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.256"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X223"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_313",
+      "name": "Grey-Green",
+      "hex": "#585a52",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-74"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "245"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H68"
+        },
+        {
+          "brand": "Testors",
+          "code": "2084"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.258"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X206"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_314",
+      "name": "Light Blue",
+      "hex": "#9eb2b4",
+      "equivalents": [
+        {
+          "brand": "RLM",
+          "code": "RLM-78"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "248"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H418"
+        },
+        {
+          "brand": "Testors",
+          "code": "2087"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.101"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X214"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_315",
+      "name": "Forest Green",
+      "hex": "#6a6c46",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34127"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "150"
+        },
+        {
+          "brand": "Testors",
+          "code": "1714"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_316",
+      "name": "ZO Protective Green",
+      "hex": "#9d9078",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_317",
+      "name": "Dark Brown 6K",
+      "hex": "#825e50",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.282"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_318",
+      "name": "Sand 7K",
+      "hex": "#b18d54",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.283"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_319",
+      "name": "Light Sea Blue",
+      "hex": "#77c1d6",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 25200"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_320",
+      "name": "Medium Sea Blue",
+      "hex": "#79bad7",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_321",
+      "name": "Extra Light Sea Blue",
+      "hex": "#d4e9f6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_322",
+      "name": "RAF Anti-Flash White",
+      "hex": "#f8f8f3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_323",
+      "name": "Sand Grey",
+      "hex": "#bfb29b",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30372"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.122"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_324",
+      "name": "Swedish Dk Green",
+      "hex": "#5a6053",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_325",
+      "name": "Swedish Lt Green",
+      "hex": "#6b795e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_326",
+      "name": "BS Mid Bronze Green",
+      "hex": "#5e5e46",
+      "equivalents": [
+        {
+          "brand": "British Standard",
+          "code": "BS381C:223"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X815"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_327",
+      "name": "Radome Green",
+      "hex": "#2a7951",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_328",
+      "name": "Pale Blue",
+      "hex": "#c0dfe8",
+      "equivalents": [
+        {
+          "brand": "Vallejo",
+          "code": "71.334"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_329",
+      "name": "Radome Tan",
+      "hex": "#f1d3aa",
+      "equivalents": [
+        {
+          "brand": "Federal Standard",
+          "code": "FS 33613"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "148"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H318"
+        },
+        {
+          "brand": "Testors",
+          "code": "1709"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.074"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X107"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_330",
+      "name": "Zinc Chromate Primer",
+      "hex": "#e1e262",
+      "equivalents": [
+        {
+          "brand": "Xtracolor",
+          "code": "X408"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_331",
+      "name": "Flesh",
+      "hex": "#fbd5af",
+      "equivalents": [
+        {
+          "brand": "Humbrol",
+          "code": "61"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H44"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "XF15"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.076"
+        },
+        {
+          "brand": "Xtracolor",
+          "code": "X406"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_501",
+      "name": "507A RN Dark Grey",
+      "hex": "#5c656f",
+      "equivalents": [
+        {
+          "brand": "Testors",
+          "code": "2169"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_502",
+      "name": "507B RN Medium Grey",
+      "hex": "#849099",
+      "equivalents": [
+        {
+          "brand": "Tamiya",
+          "code": "XF80"
+        },
+        {
+          "brand": "Testors",
+          "code": "2171"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_503",
+      "name": "507C RN Light Grey",
+      "hex": "#cfd1d6",
+      "equivalents": [
+        {
+          "brand": "Tamiya",
+          "code": "XF80"
+        },
+        {
+          "brand": "Testors",
+          "code": "2170"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_504",
+      "name": "B5 RN Dark Blue-Grey",
+      "hex": "#838f98",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_505",
+      "name": "B6 RN Medium Blue",
+      "hex": "#aec7d6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_506",
+      "name": "MS1 RN Blue-Black",
+      "hex": "#454d56",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_507",
+      "name": "MS2 RN Dark Grey",
+      "hex": "#7a7b7d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_508",
+      "name": "MS3 RN Medium Green-Grey",
+      "hex": "#abbab6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_509",
+      "name": "MS4 RN Light Grey (Warm)",
+      "hex": "#bdbeb0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_510",
+      "name": "MS4A RN Light Grey-Green",
+      "hex": "#c2cec3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_511",
+      "name": "RN Western Approaches Blue",
+      "hex": "#d7e5e8",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_512",
+      "name": "RN Western Approaches Green",
+      "hex": "#70b696",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_513",
+      "name": "G5 RN Extra Dark Grey",
+      "hex": "#55565d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_514",
+      "name": "G10 RN Dark Grey",
+      "hex": "#73777f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_515",
+      "name": "G20 RN Medium Green-Grey",
+      "hex": "#87866f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_516",
+      "name": "G45 RN Light Grey (Warm)",
+      "hex": "#c4c1b2",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_517",
+      "name": "B15 RN Dark Grey-Blue",
+      "hex": "#556d7d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_518",
+      "name": "B20 RN Medium Grey-Blue",
+      "hex": "#6e7e83",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_519",
+      "name": "B30 RN Medium Green-Blue",
+      "hex": "#a9aa9c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_520",
+      "name": "B55 RN Light Green-Blue",
+      "hex": "#cbc6bd",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_521",
+      "name": "PB10 RN Deep Blue",
+      "hex": "#3b4e71",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_522",
+      "name": "Semtex (early WW2)",
+      "hex": "#ecead9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_523",
+      "name": "Semtex (late WW2)",
+      "hex": "#3e6c50",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_524",
+      "name": "Corticene",
+      "hex": "#a47154",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_525",
+      "name": "RN Antifouling Red",
+      "hex": "#b05a55",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_526",
+      "name": "RN Light Mountbatten Pink",
+      "hex": "#8d7778",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_527",
+      "name": "RN Dark Mountbatten Pink",
+      "hex": "#7c6c6f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_528",
+      "name": "RN White",
+      "hex": "#fdfcf8",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_701",
+      "name": "",
+      "hex": "",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7031"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "27"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_702",
+      "name": "",
+      "hex": "",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 6018"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_703",
+      "name": "",
+      "hex": "",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 6029"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_704",
+      "name": "",
+      "hex": "",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 2004"
+        },
+        {
+          "brand": "Humbrol",
+          "code": "18"
+        },
+        {
+          "brand": "Gunze Sangyo",
+          "code": "H14"
+        },
+        {
+          "brand": "Tamiya",
+          "code": "X6"
+        },
+        {
+          "brand": "Testors",
+          "code": "1527"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_705",
+      "name": "",
+      "hex": "",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 2008"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_706",
+      "name": "",
+      "hex": "",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 6019"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_707",
+      "name": "",
+      "hex": "",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 1021"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_708",
+      "name": "",
+      "hex": "",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 6005"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_709",
+      "name": "",
+      "hex": "",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 6027"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_710",
+      "name": "",
+      "hex": "",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 5010"
+        },
+        {
+          "brand": "Vallejo",
+          "code": "71.088"
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_711",
+      "name": "",
+      "hex": "",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_712",
+      "name": "",
+      "hex": "",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "HTK-_713",
+      "name": "",
+      "hex": "",
+      "equivalents": [
+        {
+          "brand": "RAL",
+          "code": "RAL 7042"
+        }
+      ],
+      "confidence": null
+    }
+  ]
+}

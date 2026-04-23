@@ -157,8 +157,8 @@ def normalize_atom_equiv_code(code):
     """Normalize an equivalent code: strip dashes/spaces/dots, uppercase, O→0, I→1 when digits present.
 
     Special post-fixes:
-    - AM1G\d{4} → MIG-\d{4}  (AMIG OCR corruption; normalises to ammo pack format)
-    - AMM0F\d+  → AMMOF\d+   (AMMO filter codes; O→0 corruption)
+    - AM1GddDD -> MIG-ddDD  (AMIG OCR corruption; normalises to ammo pack format)
+    - AMM0Fnn  -> AMMOFnn   (AMMO filter codes; O->0 corruption)
     """
     if not code:
         return None
@@ -193,7 +193,7 @@ def build_atom_equivalents(brand, raw_code):
         if re.match(r"^H\d", code):
             effective_brand = "Gunze Sangyo"
         elif re.match(r"^C\d", code):
-            effective_brand = "Mr. Hobby"
+            effective_brand = "Mr. Color"
         key = (effective_brand, code)
         if key not in seen:
             seen.add(key)
@@ -280,7 +280,7 @@ def load_equivalent_candidates():
         "pack_ammo.json",
         "pack_gunze.json",
         "pack_ak.json",
-        "pack_mr_hobby.json",
+        "pack_mr_color.json",
     ]:
         pack_path = DATA_DIR / file_name
         if not pack_path.exists():
@@ -354,7 +354,7 @@ def parse_ammo_atom_images(folder_path, output_json):
                 for equiv_key, brand_name in [
                     ("AMMO", "Ammo by Mig"),
                     ("HOBBY COLOR", "Gunze Sangyo"),
-                    ("MR.COLOR", "Mr. Hobby"),
+                    ("MR.COLOR", "Mr. Color"),
                     ("TAMIYA", "Tamiya"),
                     ("MODEL COLOR", "Vallejo Model Color"),
                     ("MODEL AIR", "Vallejo Model Air"),
@@ -383,28 +383,19 @@ def parse_ammo_atom_images(folder_path, output_json):
             )} colors so far"
         )
 
-    # Deduplicate
-    seen = set()
-    unique_colors = []
-    for c in all_colors:
-        key = c["code"]
-        if key not in seen:
-            seen.add(key)
-            unique_colors.append(c)
-
     # Build output in standard format
     output_data = {
         "brand": "Ammo by Mig Atom",
         "brand_id": "ammo_atom",
         "source": str(output_json),
-        "count": len(unique_colors),
-        "colors": unique_colors,
+        "count": len(all_colors),
+        "colors": all_colors,
     }
 
     # Write results
     output_json.parent.mkdir(parents=True, exist_ok=True)
     output_json.write_text(json.dumps(output_data, indent=2, ensure_ascii=False))
-    print(f"Wrote {len(unique_colors)} unique colors to {output_json}")
+    print(f"Wrote {len(all_colors)} colors to {output_json}")
 
     # Generate CSV
     csv_path = output_json.parent / "pack_ammo_atom.csv"
@@ -414,7 +405,7 @@ def parse_ammo_atom_images(folder_path, output_json):
             fieldnames=["code", "name", "hex", "equivalents", "confidence"],
         )
         writer.writeheader()
-        for c in unique_colors:
+        for c in all_colors:
             writer.writerow(
                 {
                     "code": c.get("code", ""),
@@ -428,7 +419,7 @@ def parse_ammo_atom_images(folder_path, output_json):
                 }
             )
     print(f"Wrote CSV to {csv_path}")
-    return unique_colors
+    return all_colors
 
 
 if __name__ == "__main__":

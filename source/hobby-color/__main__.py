@@ -22,7 +22,7 @@ TABLE_LEFT_POS = 846
 GUNZE_EQUIVALENT_COLUMNS = [
     {
         "key": "gunze",
-        "brand": "Gunze / Mr. Hobby",
+        "brand": "Gunze / Mr. Color",
         "aliases": ["GUNZE"],
         "fallback_ratio": 0.54,
     },
@@ -214,14 +214,17 @@ def normalize_gunze_equivalent_code(brand, text):
         if match:
             return f"{match.group(1)}{match.group(2)}"
 
-    if brand == "Gunze / Mr. Hobby":
+    if brand == "Gunze / Mr. Color":
+        # Pre-correct common OCR misreads (O→0, I→1) before pattern matching,
+        # so e.g. "H1O0" is found as "H100" instead of being truncated to "H10".
+        code_pre = code.replace("I", "1").replace("O", "0")
         # Try: find ALL codes that start with H/C/S/M, then pick the longest (most complete) one
-        code_matches = list(re.finditer(r"[HCSM]\d+[GO]?", code))
+        code_matches = list(re.finditer(r"[HCSM]\d+[GO]?", code_pre))
         if code_matches:
             # Pick the last (rightmost) match, as it's likely the actual code
             code_pattern = code_matches[-1].group(0)
         else:
-            code_pattern = code
+            code_pattern = code_pre
 
         # Now do the cleanup on the extracted pattern only
         code_clean = (
@@ -415,7 +418,9 @@ def parse_image(img_path, reader):
                 )
             mfs = re.search(r"\bFS[-\s]?(\d{5})\b", display_name.upper())
             if mfs:
-                equivalents.append({"brand": "Federal Standard", "code": f"FS {mfs.group(1)}"})
+                equivalents.append(
+                    {"brand": "Federal Standard", "code": f"FS {mfs.group(1)}"}
+                )
 
         # Always sample a pixel at sample_header_x (or TABLE_LEFT_POS) — no K-means needed.
         h, w, _ = arr.shape

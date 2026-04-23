@@ -8,15 +8,16 @@ const BRANDS = [
     { id: 'my-stack', label: 'My Stack' },
     { id: 'ammo', label: 'Ammo by Mig' },
     { id: 'ammo_atom', label: 'ATOM' },
-    { id: 'ak', label: 'AK Interactive' },
+    // { id: 'ak', label: 'AK Interactive' },
     { id: 'hobby_color', label: 'Hobby color' },
-    { id: 'mr_hobby', label: 'Mr. Color' },
-    { id: 'vallejo', label: 'Vallejo' },
+    { id: 'mr_color', label: 'Mr. Color' },
+    // { id: 'vallejo', label: 'Vallejo' },
     { id: 'tamiya', label: 'Tamiya' },
     { id: 'humbrol', label: 'Humbrol' },
     { id: 'rlm', label: 'RLM' },
     { id: 'federal_standard', label: 'Federal Standard' },
     { id: 'ral', label: 'RAL' },
+    // { id: 'hataka', label: 'Hataka' },
 ];
 
 // Map brand display names to colors (used for equivalent badges and button backgrounds)
@@ -35,6 +36,7 @@ const BRAND_BADGE_COLORS = {
     "Vallejo": '#05E2E1',
     "Vallejo Model Air": '#05E2E1',
     "Vallejo Model Color": '#05E2E1',
+    "Hataka": '#E31E24',
 };
 
 // Map brand ID to logo color (for fallback)
@@ -45,19 +47,20 @@ const BRAND_LOGO_COLORS = {
     'ak': '#E95A0E',
     'hobby_color': '#009DA5',
     'tamiya': '#004B87',
-    'mr_hobby': '#045AAA',
+    'mr_color': '#045AAA',
     'federal_standard': '#A6192E',
     'ral': '#E85D7B',
     'rlm': '#5C6B3A',
     'humbrol': '#F04A40',
     'vallejo': '#05E2E1',
+    'hataka': '#E31E24',
 };
 
 // Map brand IDs to logo filenames (for special cases)
 const BRAND_LOGO_FILES = {
     'ammo_atom': 'ammo',  // ammo_atom uses ammo logo
-    'mr_hobby': 'mrhobby',  // mr_hobby PNG is named mrhobby.png
-    "hobby_color": "mrhobby", // hobby_color uses mr_hobby logo
+    'mr_color': 'mrhobby',  // mr_color PNG is named mrhobby.png
+    "hobby_color": "mrhobby", // hobby_color uses mr_color logo
 };
 
 // Map brand IDs to display names
@@ -68,13 +71,14 @@ const BRAND_NAME_MAP = {
     'hobby_color': 'Aqueous Hobby color',
     'federal_standard': 'Federal Standard',
     'tamiya': 'Tamiya',
-    'mr_hobby': 'Mr. Color',
+    'mr_color': 'Mr. Color',
     'ral': 'RAL',
     'rlm': 'RLM',
     'humbrol': 'Humbrol',
     'vallejo': 'Vallejo',
     "model_air": 'Vallejo Model Air',
     "model_color": 'Vallejo Model Color',
+    'hataka': 'Hataka',
 };
 
 const EQUIVALENT_BRAND_MAP = {
@@ -90,6 +94,7 @@ const EQUIVALENT_BRAND_MAP = {
     'GUNZE SANGYO': 'Aqueous Hobby color ',
     'GUNZE': 'Aqueous Hobby color ',
     'AMMO BY MIG': 'Ammo by Mig',
+    'HATAKA': 'Hataka',
     'AMMO BY MIG ATOM': 'ATOM (Ammo)',
 };
 
@@ -150,7 +155,11 @@ function createColorCardTemplate(brand, color, inStackMap, reverseEquivalentInde
                 <div class="text-xs text-gray-500 dark:text-gray-400"></div>
                 <div class="equivalents text-xs text-gray-500 dark:text-gray-400${showEquivalents ? '' : ' hidden'}"></div>
                 <div class="secondary-equivalents text-xs text-gray-500 dark:text-gray-400${showEquivalents ? '' : ' hidden'}"></div>
-                <button class="stack-btn px-2 py-0.5 rounded border  rounded-full absolute top-2 right-2 text-xl whitespace-nowrap ${colorInStack ? 'bg-yellow-100 dark:bg-yellow-800 border-yellow-300 dark:border-yellow-600' : 'border-gray-300 dark:border-gray-600'}">${colorInStack ? '╳' : '＋'}</button>
+                <button class="stack-btn absolute top-2 right-2 w-7 h-7 flex items-center justify-center rounded-full border text-base transition-colors
+                    ${colorInStack
+            ? 'bg-yellow-400 dark:bg-yellow-500 border-yellow-500 dark:border-yellow-400 text-white hover:bg-red-400 hover:border-red-400'
+            : 'bg-white dark:bg-gray-700 border-gray-300 dark:border-gray-500 text-gray-400 dark:text-gray-400 hover:bg-green-100 hover:border-green-400 hover:text-green-600'
+        }">${colorInStack ? '✕' : '+'}</button>
             </div>
         </div>
     `;
@@ -246,9 +255,9 @@ function toggleColorInStack(brand, id, btn, inStackMap) {
 
     if (inStackMap[id]) {
         delete inStackMap[id];
-        btn.textContent = '＋';
-        btn.classList.remove('bg-yellow-100', 'dark:bg-yellow-800', 'border-yellow-300', 'dark:border-yellow-600');
-        btn.classList.add('border-gray-300', 'dark:border-gray-600');
+        btn.textContent = '+';
+        btn.classList.remove('bg-yellow-400', 'dark:bg-yellow-500', 'border-yellow-500', 'dark:border-yellow-400', 'text-white', 'hover:bg-red-400', 'hover:border-red-400');
+        btn.classList.add('bg-white', 'dark:bg-gray-700', 'border-gray-300', 'dark:border-gray-500', 'text-gray-400', 'dark:text-gray-400', 'hover:bg-green-100', 'hover:border-green-400', 'hover:text-green-600');
         // Remove highlight from card
         if (mainCard) {
             mainCard.classList.remove('bg-yellow-100', 'dark:bg-yellow-900');
@@ -256,9 +265,9 @@ function toggleColorInStack(brand, id, btn, inStackMap) {
         }
     } else {
         inStackMap[id] = true;
-        btn.textContent = '╳';
-        btn.classList.remove('border-gray-300', 'dark:border-gray-600');
-        btn.classList.add('bg-yellow-100', 'dark:bg-yellow-800', 'border-yellow-300', 'dark:border-yellow-600');
+        btn.textContent = '✕';
+        btn.classList.remove('bg-white', 'dark:bg-gray-700', 'border-gray-300', 'dark:border-gray-500', 'text-gray-400', 'dark:text-gray-400', 'hover:bg-green-100', 'hover:border-green-400', 'hover:text-green-600');
+        btn.classList.add('bg-yellow-400', 'dark:bg-yellow-500', 'border-yellow-500', 'dark:border-yellow-400', 'text-white', 'hover:bg-red-400', 'hover:border-red-400');
         // Add highlight to card
         if (mainCard) {
             mainCard.classList.remove('bg-white', 'dark:bg-gray-800');
@@ -391,7 +400,7 @@ function normalizeBrandId(brand) {
 
     if (normalized === 'ammo_by_mig') return 'ammo';
     if (normalized === 'atom_ammo') return 'ammo_atom';
-    if (normalized === 'gunze_mr_hobby') return 'hobby_color';
+    if (normalized === 'gunze_mr_color') return 'hobby_color';
     if (normalized === 'federal_standard') return 'federal_standard';
     return normalized;
 }
@@ -426,10 +435,24 @@ function renderEquivalentBadge(item, tone) {
     return `<div class="m-1 rounded px-2 py-0.5 text-xs font-medium text-white cursor-default ${badgeClass}" style="background-color: ${badgeColor}" title="${displayName}${inStack ? ' (in stack)' : ''}" data-eq-brand="${eqBrandId}" data-eq-code="${eqCode}">${label}${checkIcon}</div>`;
 }
 
+// Brand IDs that are visible in the UI — only show equivalents for these.
+// Matches the active entries in the BRANDS array (excluding hidden ones and my-stack).
+const VISIBLE_BRAND_IDS = new Set([
+    'ammo', 'ammo_atom', 'ak', 'hobby_color', 'mr_color', 'tamiya',
+    // 'ral', 'rlm', 'federal_standard' — reference systems, no direct manufacturer equivalents
+    // 'vallejo', 'humbrol', 'hataka' — hidden temporarily
+]);
+
 function renderEquivalentSection(container, title, items, tone) {
     if (!container) return;
 
-    if (!items.length || !showEquivalents) {
+    // For Direct Equivalents: only show brands visible in the UI.
+    // This hides Vallejo, Humbrol, Hataka, Federal Standard etc.
+    const filteredItems = tone === 'primary'
+        ? items.filter(item => VISIBLE_BRAND_IDS.has(normalizeBrandId(item.brand)))
+        : items;
+
+    if (!filteredItems.length || !showEquivalents) {
         container.innerHTML = '';
         container.classList.add('hidden');
         return;
@@ -439,7 +462,7 @@ function renderEquivalentSection(container, title, items, tone) {
     container.innerHTML = `
         <div class="mt-2">
             <div class="mb-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-gray-500 dark:text-gray-400">${title}</div>
-            <div class="flex flex-wrap">${items.map(item => renderEquivalentBadge(item, tone)).join('')}</div>
+            <div class="flex flex-wrap">${filteredItems.map(item => renderEquivalentBadge(item, tone)).join('')}</div>
         </div>
     `;
 }

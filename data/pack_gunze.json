@@ -54,12 +54,12 @@
           "code": "H3"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C7"
+          "brand": "hataka",
+          "code": "HTK-_132"
         },
         {
-          "brand": "ral",
-          "code": "RAL3033"
+          "brand": "mr_color",
+          "code": "C7"
         }
       ],
       "confidence": 0.954891919422784
@@ -78,8 +78,8 @@
           "code": "H91"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-27"
+          "brand": "hataka",
+          "code": "HTK-_105"
         }
       ],
       "confidence": 0.964758809172449
@@ -134,12 +134,12 @@
           "code": "H7"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20032"
+          "brand": "hataka",
+          "code": "HTK-_132"
         },
         {
           "brand": "ammo_atom",
-          "code": "ATOM-20170"
+          "code": "ATOM-20032"
         }
       ],
       "confidence": 0.9389629744805414
@@ -154,12 +154,12 @@
           "code": "H8"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0209"
+          "brand": "hataka",
+          "code": "HTK-_217"
         },
         {
-          "brand": "tamiya",
-          "code": "XF12"
+          "brand": "ammo",
+          "code": "MIG-0209"
         }
       ],
       "confidence": 0.9395590003261868
@@ -191,15 +191,15 @@
       "equivalents": [
         {
           "brand": "hobby_color",
-          "code": "H10"
+          "code": "H100"
         },
         {
           "brand": "tamiya",
           "code": "XF73"
         },
         {
-          "brand": "tamiya",
-          "code": "XF26"
+          "brand": "hataka",
+          "code": "HTK-_523"
         }
       ],
       "confidence": 0.8534464369421138
@@ -318,8 +318,8 @@
           "code": "XF73"
         },
         {
-          "brand": "tamiya",
-          "code": "XF67"
+          "brand": "mr_color",
+          "code": "C604"
         }
       ],
       "confidence": 0.9453954793294315
@@ -374,12 +374,12 @@
           "code": "H19"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C63"
+          "brand": "hataka",
+          "code": "HTK-_268"
         },
         {
-          "brand": "ral",
-          "code": "RAL3014"
+          "brand": "mr_color",
+          "code": "C63"
         }
       ],
       "confidence": 0.8745150525520711
@@ -414,12 +414,12 @@
           "code": "H21"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-21"
+          "brand": "hataka",
+          "code": "HTK-_043"
         },
         {
-          "brand": "ral",
-          "code": "RAL9012"
+          "brand": "hataka",
+          "code": "HTK-_049"
         }
       ],
       "confidence": 0.9350283092350262
@@ -438,8 +438,8 @@
           "code": "MIG-0907"
         },
         {
-          "brand": "hobby_color",
-          "code": "H53"
+          "brand": "hataka",
+          "code": "HTK-_055"
         }
       ],
       "confidence": 0.9469549406685496
@@ -458,8 +458,8 @@
           "code": "H90"
         },
         {
-          "brand": "humbrol",
-          "code": "132"
+          "brand": "mr_color",
+          "code": "C59"
         }
       ],
       "confidence": 0.854867467541968
@@ -618,7 +618,7 @@
           "code": "H311"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C107"
         }
       ],
@@ -654,7 +654,7 @@
           "code": "H33"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C81"
         },
         {
@@ -854,7 +854,7 @@
           "code": "H43"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C108"
         },
         {
@@ -914,12 +914,12 @@
           "code": "H46"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C312"
+          "brand": "hataka",
+          "code": "HTK-_270"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0223"
+          "brand": "mr_color",
+          "code": "C312"
         }
       ],
       "confidence": 0.9589439933739337
@@ -954,8 +954,8 @@
           "code": "H48"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C181"
+          "brand": "mr_color",
+          "code": "C18"
         },
         {
           "brand": "hobby_color",
@@ -1014,12 +1014,12 @@
           "code": "H51"
         },
         {
-          "brand": "ral",
-          "code": "RAL9006"
+          "brand": "hataka",
+          "code": "HTK-_157"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0075"
+          "brand": "hataka",
+          "code": "HTK-_231"
         }
       ],
       "confidence": 0.8519068560999552
@@ -1078,7 +1078,7 @@
           "code": "AK11839"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C333"
         }
       ],
@@ -1174,12 +1174,12 @@
           "code": "H59"
         },
         {
-          "brand": "vallejo",
-          "code": "71.092"
+          "brand": "mr_color",
+          "code": "C375"
         },
         {
-          "brand": "ak",
-          "code": "AK11431"
+          "brand": "vallejo",
+          "code": "71.092"
         }
       ],
       "confidence": 0.8910174214804661
@@ -1234,12 +1234,12 @@
           "code": "H62"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0082"
+          "brand": "hataka",
+          "code": "HTK-_088"
         },
         {
-          "brand": "ak",
-          "code": "AK11831"
+          "brand": "hataka",
+          "code": "HTK-_263"
         }
       ],
       "confidence": 0.9216793361547106
@@ -1258,8 +1258,8 @@
           "code": "72.022"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-25"
+          "brand": "humbrol",
+          "code": "67"
         }
       ],
       "confidence": 0.8362089592324333
@@ -1274,12 +1274,12 @@
           "code": "H64"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C101"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-82"
+          "brand": "mr_color",
+          "code": "C518"
         }
       ],
       "confidence": 0.909279704005426
@@ -1338,8 +1338,8 @@
           "code": "XF65"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C374"
+          "brand": "hataka",
+          "code": "HTK-_042"
         }
       ],
       "confidence": 0.8169515941296749
@@ -1374,12 +1374,12 @@
           "code": "H69"
         },
         {
-          "brand": "ak",
-          "code": "AK11839"
+          "brand": "mr_color",
+          "code": "C513"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0204"
+          "brand": "ak",
+          "code": "AK11839"
         }
       ],
       "confidence": 0.6971008921515797
@@ -1398,8 +1398,8 @@
           "code": "MIG-0927"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0066"
+          "brand": "hataka",
+          "code": "HTK-_110"
         }
       ],
       "confidence": 0.6438521897522935
@@ -1558,8 +1558,8 @@
           "code": "MIG-0905"
         },
         {
-          "brand": "ral",
-          "code": "RAL9017"
+          "brand": "mr_color",
+          "code": "C361"
         }
       ],
       "confidence": 0.9178350287955853
@@ -1634,7 +1634,7 @@
           "code": "H82"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C52"
         },
         {
@@ -1698,8 +1698,8 @@
           "code": "MIG-0037"
         },
         {
-          "brand": "vallejo",
-          "code": "70.978"
+          "brand": "hataka",
+          "code": "HTK-_279"
         }
       ],
       "confidence": 0.9019385135700514
@@ -1758,7 +1758,7 @@
           "code": "RAL5001"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C65"
         }
       ],
@@ -1834,7 +1834,7 @@
           "code": "H92"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C49"
         },
         {
@@ -1858,7 +1858,7 @@
           "code": "H45"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C34"
         }
       ],
@@ -1898,8 +1898,8 @@
           "code": "AK11868"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C314"
+          "brand": "hataka",
+          "code": "HTK-_154"
         }
       ],
       "confidence": 0.8116963051882208
@@ -1914,12 +1914,12 @@
           "code": "H96"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20122"
+          "brand": "hataka",
+          "code": "HTK-_005"
         },
         {
-          "brand": "ak",
-          "code": "AK11806"
+          "brand": "hataka",
+          "code": "HTK-_328"
         }
       ],
       "confidence": 0.9211949504137269
@@ -1934,12 +1934,12 @@
           "code": "H97"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-27"
+          "brand": "hataka",
+          "code": "HTK-_105"
         },
         {
-          "brand": "hobby_color",
-          "code": "H4"
+          "brand": "rlm",
+          "code": "RLM-27"
         }
       ],
       "confidence": 0.8271704082954806
@@ -1991,15 +1991,15 @@
       "equivalents": [
         {
           "brand": "hobby_color",
-          "code": "H10"
+          "code": "H100"
         },
         {
           "brand": "tamiya",
           "code": "XF73"
         },
         {
-          "brand": "tamiya",
-          "code": "XF26"
+          "brand": "hataka",
+          "code": "HTK-_523"
         }
       ],
       "confidence": 0.8930746411846286
@@ -2054,11 +2054,11 @@
           "code": "H303"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C54"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C70"
         }
       ],
@@ -2094,7 +2094,7 @@
           "code": "H305"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C32"
         },
         {
@@ -2218,7 +2218,7 @@
           "code": "H31"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C107"
         }
       ],
@@ -2274,12 +2274,12 @@
           "code": "H314"
         },
         {
-          "brand": "ral",
-          "code": "RAL9002"
+          "brand": "hataka",
+          "code": "HTK-_321"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS36628"
+          "brand": "hataka",
+          "code": "HTK-_511"
         }
       ],
       "confidence": 0.7417444360102969
@@ -2294,7 +2294,7 @@
           "code": "H315"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C376"
         },
         {
@@ -2314,12 +2314,12 @@
           "code": "H316"
         },
         {
-          "brand": "ral",
-          "code": "RAL9020"
+          "brand": "hataka",
+          "code": "HTK-_153"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C1"
+          "brand": "hataka",
+          "code": "HTK-_528"
         }
       ],
       "confidence": 0.9859647361828864
@@ -2338,7 +2338,7 @@
           "code": "243"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C331"
         }
       ],
@@ -2378,8 +2378,8 @@
           "code": "H48"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C181"
+          "brand": "mr_color",
+          "code": "C18"
         }
       ],
       "confidence": 0.8874919396190499
@@ -2414,12 +2414,12 @@
           "code": "H321"
         },
         {
-          "brand": "ak",
-          "code": "AK11859"
+          "brand": "hataka",
+          "code": "HTK-_064"
         },
         {
-          "brand": "vallejo",
-          "code": "69.030"
+          "brand": "hataka",
+          "code": "HTK-_151"
         }
       ],
       "confidence": 0.993535579469498
@@ -2498,8 +2498,8 @@
           "code": "AK11827"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C97"
+          "brand": "hataka",
+          "code": "HTK-_025"
         }
       ],
       "confidence": 0.7799911370574526
@@ -2534,12 +2534,12 @@
           "code": "H327"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0913"
+          "brand": "hataka",
+          "code": "HTK-_131"
         },
         {
           "brand": "ammo",
-          "code": "MIG-0109"
+          "code": "MIG-0913"
         }
       ],
       "confidence": 0.7951029528323322
@@ -2718,8 +2718,8 @@
           "code": "ATOM-20080"
         },
         {
-          "brand": "humbrol",
-          "code": "76"
+          "brand": "mr_color",
+          "code": "C364"
         }
       ],
       "confidence": 0.9655285904354579
@@ -2758,8 +2758,8 @@
           "code": "71.307"
         },
         {
-          "brand": "tamiya",
-          "code": "XF19"
+          "brand": "hataka",
+          "code": "HTK-_205"
         }
       ],
       "confidence": 0.949716625432322
@@ -2774,11 +2774,11 @@
           "code": "H339"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C322"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "mr_color",
           "code": "C328"
         }
       ],
@@ -2914,12 +2914,12 @@
           "code": "H346"
         },
         {
-          "brand": "hobby_color",
-          "code": "H345"
+          "brand": "hataka",
+          "code": "HTK-_190"
         },
         {
-          "brand": "ak",
-          "code": "AK11889"
+          "brand": "hobby_color",
+          "code": "H345"
         }
       ],
       "confidence": 0.7422060897187783

@@ -231,14 +231,11 @@ def write_catalog(all_results, folder_path, catalog_file):
 def build_colors_from_rows(rows):
     """Convert parsed Ammo rows into the shared color list shape."""
     colors = []
-    seen_codes = set()
 
     for row in rows:
         code = row.get("reference")
-        if not code or code in seen_codes:
+        if not code:
             continue
-
-        seen_codes.add(code)
         hex_color = row.get("resolved_hex") or row.get("hex") or "#cccccc"
         if hex_color and not hex_color.startswith("#"):
             hex_color = f"#{hex_color}"

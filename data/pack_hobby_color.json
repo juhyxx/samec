@@ -10,16 +10,20 @@
       "hex": "#ffffff",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11372"
+          "brand": "Tamiya",
+          "code": "X2"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0024"
+          "brand": "Humbrol",
+          "code": "22"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0047"
+          "brand": "Revell",
+          "code": "4"
+        },
+        {
+          "brand": "Testors",
+          "code": "2720"
         }
       ],
       "confidence": 0.8714669204891528
@@ -30,16 +34,20 @@
       "hex": "#000000",
       "equivalents": [
         {
-          "brand": "ammo",
-          "code": "MIG-0104"
+          "brand": "Tamiya",
+          "code": "X1"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS17038"
+          "brand": "Humbrol",
+          "code": "21"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS27038"
+          "brand": "Revell",
+          "code": "7"
+        },
+        {
+          "brand": "Testors",
+          "code": "1747"
         }
       ],
       "confidence": 0.8509100057970157
@@ -50,16 +58,20 @@
       "hex": "#b33f3c",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H3"
+          "brand": "Tamiya",
+          "code": "X7"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C7"
+          "brand": "Humbrol",
+          "code": "19"
         },
         {
-          "brand": "ral",
-          "code": "RAL3033"
+          "brand": "Revell",
+          "code": "31"
+        },
+        {
+          "brand": "Testors",
+          "code": "2718"
         }
       ],
       "confidence": 0.954891919422784
@@ -70,16 +82,20 @@
       "hex": "#fbe55d",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H4"
+          "brand": "Tamiya",
+          "code": "X8"
         },
         {
-          "brand": "gunze",
-          "code": "H91"
+          "brand": "Humbrol",
+          "code": "69"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-27"
+          "brand": "Revell",
+          "code": "12"
+        },
+        {
+          "brand": "Testors",
+          "code": "2717"
         }
       ],
       "confidence": 0.964758809172449
@@ -90,16 +106,16 @@
       "hex": "#0e1543",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H5"
+          "brand": "Tamiya",
+          "code": "X3"
         },
         {
-          "brand": "gunze",
-          "code": "H35"
+          "brand": "Humbrol",
+          "code": "15"
         },
         {
-          "brand": "ral",
-          "code": "RAL5004"
+          "brand": "Revell",
+          "code": "52"
         }
       ],
       "confidence": 0.9380175838002837
@@ -110,16 +126,12 @@
       "hex": "#081b11",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H6"
+          "brand": "Humbrol",
+          "code": "3"
         },
         {
-          "brand": "ral",
-          "code": "RAL9011"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11407"
+          "brand": "Revell",
+          "code": "62"
         }
       ],
       "confidence": 0.8712887030933207
@@ -130,16 +142,16 @@
       "hex": "#b24126",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H7"
+          "brand": "Tamiya",
+          "code": "X9"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20032"
+          "brand": "Humbrol",
+          "code": "10"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20170"
+          "brand": "Revell",
+          "code": "80"
         }
       ],
       "confidence": 0.9389629744805414
@@ -150,16 +162,20 @@
       "hex": "#c3c4b9",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H8"
+          "brand": "Tamiya",
+          "code": "X11"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0209"
+          "brand": "Humbrol",
+          "code": "11"
         },
         {
-          "brand": "tamiya",
-          "code": "XF12"
+          "brand": "Revell",
+          "code": "90"
+        },
+        {
+          "brand": "Testors",
+          "code": "1546"
         }
       ],
       "confidence": 0.9395590003261868
@@ -170,16 +186,20 @@
       "hex": "#ba9e5b",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H9"
+          "brand": "Tamiya",
+          "code": "X12"
         },
         {
-          "brand": "vallejo",
-          "code": "70.978"
+          "brand": "Humbrol",
+          "code": "16"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0138"
+          "brand": "Revell",
+          "code": "94"
+        },
+        {
+          "brand": "Testors",
+          "code": "1744"
         }
       ],
       "confidence": 0.9094035929783536
@@ -190,16 +210,20 @@
       "hex": "#ac5a3b",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H10"
+          "brand": "Tamiya",
+          "code": "XF6"
         },
         {
-          "brand": "tamiya",
-          "code": "XF73"
+          "brand": "Humbrol",
+          "code": "12"
         },
         {
-          "brand": "tamiya",
-          "code": "XF26"
+          "brand": "Revell",
+          "code": "93"
+        },
+        {
+          "brand": "Testors",
+          "code": "1551"
         }
       ],
       "confidence": 0.8534464369421138
@@ -210,16 +234,20 @@
       "hex": "#ffffff",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11372"
+          "brand": "Tamiya",
+          "code": "XF2"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0024"
+          "brand": "Humbrol",
+          "code": "33"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0047"
+          "brand": "Revell",
+          "code": "301/5"
+        },
+        {
+          "brand": "Testors",
+          "code": "1768"
         }
       ],
       "confidence": 0.7557764612497655
@@ -230,16 +258,20 @@
       "hex": "#000000",
       "equivalents": [
         {
-          "brand": "ammo",
-          "code": "MIG-0104"
+          "brand": "Tamiya",
+          "code": "XF1"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS17038"
+          "brand": "Humbrol",
+          "code": "34"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS27038"
+          "brand": "Revell",
+          "code": "302/8"
+        },
+        {
+          "brand": "Testors",
+          "code": "1749"
         }
       ],
       "confidence": 0.8789590293593545
@@ -250,16 +282,16 @@
       "hex": "#c23925",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H13"
+          "brand": "Tamiya",
+          "code": "XF7"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-23"
+          "brand": "Humbrol",
+          "code": "60"
         },
         {
-          "brand": "gunze",
-          "code": "H86"
+          "brand": "Testors",
+          "code": "1550"
         }
       ],
       "confidence": 0.8732593563027424
@@ -270,16 +302,20 @@
       "hex": "#da4727",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H14"
+          "brand": "Tamiya",
+          "code": "X6"
         },
         {
-          "brand": "gunze",
-          "code": "H98"
+          "brand": "Humbrol",
+          "code": "18"
         },
         {
-          "brand": "gunze",
-          "code": "H90"
+          "brand": "Revell",
+          "code": "30"
+        },
+        {
+          "brand": "Testors",
+          "code": "1595"
         }
       ],
       "confidence": 0.912161610829243
@@ -290,16 +326,20 @@
       "hex": "#0e1c62",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H15"
+          "brand": "Tamiya",
+          "code": "X4"
         },
         {
-          "brand": "gunze",
-          "code": "H39"
+          "brand": "Humbrol",
+          "code": "14"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS15042"
+          "brand": "Revell",
+          "code": "51"
+        },
+        {
+          "brand": "Testors",
+          "code": "1510"
         }
       ],
       "confidence": 0.8931509204219978
@@ -310,16 +350,16 @@
       "hex": "#3c6740",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H16"
+          "brand": "Tamiya",
+          "code": "X15"
         },
         {
-          "brand": "tamiya",
-          "code": "XF73"
+          "brand": "Humbrol",
+          "code": "38"
         },
         {
-          "brand": "tamiya",
-          "code": "XF67"
+          "brand": "Revell",
+          "code": "60"
         }
       ],
       "confidence": 0.9453954793294315
@@ -330,16 +370,16 @@
       "hex": "#201720",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H17"
+          "brand": "Tamiya",
+          "code": "XF10"
         },
         {
-          "brand": "gunze",
-          "code": "H38"
+          "brand": "Humbrol",
+          "code": "10"
         },
         {
-          "brand": "vallejo",
-          "code": "72.016"
+          "brand": "Testors",
+          "code": "1533"
         }
       ],
       "confidence": 0.9739341882460252
@@ -350,16 +390,20 @@
       "hex": "#06070a",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H18"
+          "brand": "Tamiya",
+          "code": "X10"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20168"
+          "brand": "Humbrol",
+          "code": "53"
         },
         {
-          "brand": "gunze",
-          "code": "H55"
+          "brand": "Revell",
+          "code": "91"
+        },
+        {
+          "brand": "Testors",
+          "code": "1780"
         }
       ],
       "confidence": 0.9325344227869685
@@ -370,16 +414,12 @@
       "hex": "#e46975",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H19"
+          "brand": "Tamiya",
+          "code": "X17"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C63"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL3014"
+          "brand": "Humbrol",
+          "code": "200"
         }
       ],
       "confidence": 0.8745150525520711
@@ -390,16 +430,16 @@
       "hex": "#ffffff",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11372"
+          "brand": "Humbrol",
+          "code": "49"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0024"
+          "brand": "Revell",
+          "code": "2"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0047"
+          "brand": "Testors",
+          "code": "1560"
         }
       ],
       "confidence": 0.8183460964176309
@@ -410,16 +450,12 @@
       "hex": "#fcfdef",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H21"
+          "brand": "Revell",
+          "code": "10"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-21"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL9012"
+          "brand": "Testors",
+          "code": "1745"
         }
       ],
       "confidence": 0.9350283092350262
@@ -430,16 +466,12 @@
       "hex": "#3d3d4d",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H22"
+          "brand": "Tamiya",
+          "code": "XF53"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0907"
-        },
-        {
-          "brand": "gunze",
-          "code": "H53"
+          "brand": "Humbrol",
+          "code": "5"
         }
       ],
       "confidence": 0.9469549406685496
@@ -450,16 +482,12 @@
       "hex": "#d4452b",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H23"
+          "brand": "Humbrol",
+          "code": "60"
         },
         {
-          "brand": "gunze",
-          "code": "H90"
-        },
-        {
-          "brand": "humbrol",
-          "code": "132"
+          "brand": "Testors",
+          "code": "1590"
         }
       ],
       "confidence": 0.854867467541968
@@ -470,16 +498,12 @@
       "hex": "#e37b40",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H24"
+          "brand": "Humbrol",
+          "code": "197"
         },
         {
-          "brand": "vallejo",
-          "code": "72.008"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.007"
+          "brand": "Revell",
+          "code": "310"
         }
       ],
       "confidence": 0.8396955961566706
@@ -490,16 +514,12 @@
       "hex": "#1457af",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H25"
+          "brand": "Tamiya",
+          "code": "X14"
         },
         {
-          "brand": "ral",
-          "code": "RAL5015"
-        },
-        {
-          "brand": "humbrol",
-          "code": "14"
+          "brand": "Revell",
+          "code": "50"
         }
       ],
       "confidence": 0.9603220230487715
@@ -510,16 +530,16 @@
       "hex": "#225d3e",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H26"
+          "brand": "Humbrol",
+          "code": "2"
         },
         {
-          "brand": "ral",
-          "code": "RAL6029"
+          "brand": "Revell",
+          "code": "61"
         },
         {
-          "brand": "vallejo",
-          "code": "72.025"
+          "brand": "Testors",
+          "code": "1524"
         }
       ],
       "confidence": 0.877561860287364
@@ -530,16 +550,12 @@
       "hex": "#a78b51",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H27"
+          "brand": "Humbrol",
+          "code": "9"
         },
         {
-          "brand": "ak",
-          "code": "AK11320"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20178"
+          "brand": "Revell",
+          "code": "11"
         }
       ],
       "confidence": 0.9651942569557734
@@ -550,16 +566,12 @@
       "hex": "#141a22",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H28"
+          "brand": "Humbrol",
+          "code": "201"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-22"
-        },
-        {
-          "brand": "vallejo",
-          "code": "76.116"
+          "brand": "Testors",
+          "code": "2713"
         }
       ],
       "confidence": 0.8914687659888069
@@ -568,20 +580,7 @@
       "code": "H29",
       "name": "Gloss Salmon Pink",
       "hex": "#de5e3e",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H29"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL2012"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.008"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.7427978363374996
     },
     {
@@ -590,16 +589,16 @@
       "hex": "#ffffff",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11372"
+          "brand": "Tamiya",
+          "code": "X22"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0024"
+          "brand": "Humbrol",
+          "code": "35"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0047"
+          "brand": "Testors",
+          "code": "1561"
         }
       ],
       "confidence": 0.8160351118712131
@@ -610,16 +609,8 @@
       "hex": "#eaf7e5",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H31"
-        },
-        {
-          "brand": "gunze",
-          "code": "H311"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C107"
+          "brand": "Humbrol",
+          "code": "90"
         }
       ],
       "confidence": 0.936439900844155
@@ -630,16 +621,12 @@
       "hex": "#131b29",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H32"
+          "brand": "Tamiya",
+          "code": "XF63"
         },
         {
-          "brand": "gunze",
-          "code": "H68"
-        },
-        {
-          "brand": "gunze",
-          "code": "H80"
+          "brand": "Humbrol",
+          "code": "67"
         }
       ],
       "confidence": 0.8293069971696377
@@ -650,16 +637,16 @@
       "hex": "#573030",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H33"
+          "brand": "Humbrol",
+          "code": "107"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C81"
+          "brand": "Revell",
+          "code": "383"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20062"
+          "brand": "Testors",
+          "code": "1501"
         }
       ],
       "confidence": 0.9668004899873546
@@ -670,16 +657,12 @@
       "hex": "#efc151",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H34"
+          "brand": "Humbrol",
+          "code": "24"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20017"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.952"
+          "brand": "Revell",
+          "code": "311"
         }
       ],
       "confidence": 0.9094051935806542
@@ -690,16 +673,12 @@
       "hex": "#111a49",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H35"
+          "brand": "Humbrol",
+          "code": "25"
         },
         {
-          "brand": "ral",
-          "code": "RAL5004"
-        },
-        {
-          "brand": "gunze",
-          "code": "H5"
+          "brand": "Revell",
+          "code": "56"
         }
       ],
       "confidence": 0.9730888353456523
@@ -710,16 +689,8 @@
       "hex": "#ffffff",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11372"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0024"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0047"
+          "brand": "Humbrol",
+          "code": "75"
         }
       ],
       "confidence": 0.9391171338673178
@@ -730,16 +701,16 @@
       "hex": "#432d24",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H37"
+          "brand": "Humbrol",
+          "code": "9"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0108"
+          "brand": "Revell",
+          "code": "85"
         },
         {
-          "brand": "ak",
-          "code": "AK11419"
+          "brand": "Testors",
+          "code": "1735"
         }
       ],
       "confidence": 0.9289715715004508
@@ -748,20 +719,7 @@
       "code": "H38",
       "name": "Metallic Steel Red",
       "hex": "#1c1921",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H38"
-        },
-        {
-          "brand": "gunze",
-          "code": "H17"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.016"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9011629941808867
     },
     {
@@ -770,16 +728,16 @@
       "hex": "#151f56",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H39"
+          "brand": "Tamiya",
+          "code": "X16"
         },
         {
-          "brand": "ral",
-          "code": "RAL5022"
+          "brand": "Humbrol",
+          "code": "68"
         },
         {
-          "brand": "ral",
-          "code": "RAL5026"
+          "brand": "Revell",
+          "code": "353"
         }
       ],
       "confidence": 0.8720103080130542
@@ -790,16 +748,12 @@
       "hex": "#ffffff",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11372"
+          "brand": "Tamiya",
+          "code": "X21"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0024"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0047"
+          "brand": "Humbrol",
+          "code": "206"
         }
       ],
       "confidence": 0.7916561263731235
@@ -808,20 +762,7 @@
       "code": "H41",
       "name": "Gloss Pale Green",
       "hex": "#a7c8bd",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H41"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20130"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20129"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.8785712021875549
     },
     {
@@ -830,16 +771,16 @@
       "hex": "#142335",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H42"
+          "brand": "Tamiya",
+          "code": "XF8"
         },
         {
-          "brand": "gunze",
-          "code": "H340"
+          "brand": "Humbrol",
+          "code": "144"
         },
         {
-          "brand": "gunze",
-          "code": "H56"
+          "brand": "Revell",
+          "code": "79"
         }
       ],
       "confidence": 0.9221174952046535
@@ -850,16 +791,8 @@
       "hex": "#a33427",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H43"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C108"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.037"
+          "brand": "Humbrol",
+          "code": "20"
         }
       ],
       "confidence": 0.9200517886507321
@@ -870,16 +803,20 @@
       "hex": "#eece8b",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H44"
+          "brand": "Tamiya",
+          "code": "XF15"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20015"
+          "brand": "Humbrol",
+          "code": "61"
         },
         {
-          "brand": "ak",
-          "code": "AK11871"
+          "brand": "Revell",
+          "code": "35"
+        },
+        {
+          "brand": "Testors",
+          "code": "35"
         }
       ],
       "confidence": 0.9151589904607748
@@ -890,16 +827,12 @@
       "hex": "#2d6ebd",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H45"
+          "brand": "Humbrol",
+          "code": "47"
         },
         {
-          "brand": "gunze",
-          "code": "H93"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20176"
+          "brand": "Testors",
+          "code": "1508"
         }
       ],
       "confidence": 0.8571188450827122
@@ -910,16 +843,8 @@
       "hex": "#387162",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H46"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C312"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0223"
+          "brand": "Humbrol",
+          "code": "2"
         }
       ],
       "confidence": 0.9589439933739337
@@ -930,16 +855,20 @@
       "hex": "#2b1e26",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H47"
+          "brand": "Tamiya",
+          "code": "XF9"
         },
         {
-          "brand": "gunze",
-          "code": "H84"
+          "brand": "Humbrol",
+          "code": "73"
         },
         {
-          "brand": "ral",
-          "code": "RAL4007"
+          "brand": "Revell",
+          "code": "32/38"
+        },
+        {
+          "brand": "Testors",
+          "code": "1736"
         }
       ],
       "confidence": 0.8894924171281782
@@ -950,16 +879,8 @@
       "hex": "#21303a",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H48"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C181"
-        },
-        {
-          "brand": "gunze",
-          "code": "H331"
+          "brand": "Tamiya",
+          "code": "XF65"
         }
       ],
       "confidence": 0.9658505240183528
@@ -968,20 +889,7 @@
       "code": "H49",
       "name": "Gloss Violet",
       "hex": "#3b59a3",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H49"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL5007"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20107"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9500696212408974
     },
     {
@@ -990,16 +898,12 @@
       "hex": "#355f4c",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H50"
+          "brand": "Tamiya",
+          "code": "X15"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0018"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL6000"
+          "brand": "Humbrol",
+          "code": "38"
         }
       ],
       "confidence": 0.7727194646811532
@@ -1010,16 +914,12 @@
       "hex": "#a2a8a5",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H51"
+          "brand": "Tamiya",
+          "code": "XF-12/XF19"
         },
         {
-          "brand": "ral",
-          "code": "RAL9006"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0075"
+          "brand": "Humbrol",
+          "code": "64"
         }
       ],
       "confidence": 0.8519068560999552
@@ -1030,16 +930,20 @@
       "hex": "#1e2427",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H52"
+          "brand": "Tamiya",
+          "code": "XF62"
         },
         {
-          "brand": "gunze",
-          "code": "H65"
+          "brand": "Humbrol",
+          "code": "155"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0218"
+          "brand": "Revell",
+          "code": "66"
+        },
+        {
+          "brand": "Testors",
+          "code": "1591"
         }
       ],
       "confidence": 0.8243822224126379
@@ -1050,16 +954,12 @@
       "hex": "#353d4b",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H53"
+          "brand": "Tamiya",
+          "code": "XF66"
         },
         {
-          "brand": "ak",
-          "code": "AK11839"
-        },
-        {
-          "brand": "gunze",
-          "code": "H69"
+          "brand": "Humbrol",
+          "code": "128"
         }
       ],
       "confidence": 0.8245034224360104
@@ -1070,16 +970,12 @@
       "hex": "#2e3a4a",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H54"
+          "brand": "Tamiya",
+          "code": "XF17"
         },
         {
-          "brand": "ak",
-          "code": "AK11839"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C333"
+          "brand": "Humbrol",
+          "code": "104"
         }
       ],
       "confidence": 0.9799323475925045
@@ -1090,16 +986,8 @@
       "hex": "#0b0a07",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H55"
-        },
-        {
-          "brand": "gunze",
-          "code": "H18"
-        },
-        {
-          "brand": "gunze",
-          "code": "H77"
+          "brand": "Humbrol",
+          "code": "181"
         }
       ],
       "confidence": 0.973462689504684
@@ -1110,16 +998,16 @@
       "hex": "#1a2834",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H56"
+          "brand": "Tamiya",
+          "code": "XF18"
         },
         {
-          "brand": "gunze",
-          "code": "H302"
+          "brand": "Humbrol",
+          "code": "144"
         },
         {
-          "brand": "gunze",
-          "code": "H340"
+          "brand": "Testors",
+          "code": "1720"
         }
       ],
       "confidence": 0.9483159933737236
@@ -1130,16 +1018,12 @@
       "hex": "#557682",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H57"
+          "brand": "Humbrol",
+          "code": "147"
         },
         {
-          "brand": "gunze",
-          "code": "H67"
-        },
-        {
-          "brand": "gunze",
-          "code": "H332"
+          "brand": "Testors",
+          "code": "1731"
         }
       ],
       "confidence": 0.905027468479052
@@ -1150,16 +1034,8 @@
       "hex": "#968b43",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H58"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF49"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL1020"
+          "brand": "Humbrol",
+          "code": "151"
         }
       ],
       "confidence": 0.8982239251664885
@@ -1170,16 +1046,12 @@
       "hex": "#20232c",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H59"
+          "brand": "Tamiya",
+          "code": "XF11"
         },
         {
-          "brand": "vallejo",
-          "code": "71.092"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11431"
+          "brand": "Humbrol",
+          "code": "75"
         }
       ],
       "confidence": 0.8910174214804661
@@ -1190,16 +1062,20 @@
       "hex": "#17272a",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H60"
+          "brand": "Tamiya",
+          "code": "XF13"
         },
         {
-          "brand": "gunze",
-          "code": "H320"
+          "brand": "Humbrol",
+          "code": "195"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0053"
+          "brand": "Revell",
+          "code": "363"
+        },
+        {
+          "brand": "Testors",
+          "code": "1571"
         }
       ],
       "confidence": 0.7942594253378296
@@ -1210,16 +1086,12 @@
       "hex": "#778588",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H61"
+          "brand": "Humbrol",
+          "code": "146"
         },
         {
-          "brand": "ral",
-          "code": "RAL7000"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11843"
+          "brand": "Revell",
+          "code": "70"
         }
       ],
       "confidence": 0.7299044112970314
@@ -1230,16 +1102,12 @@
       "hex": "#7f8f84",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H62"
+          "brand": "Tamiya",
+          "code": "XF14"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0082"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11831"
+          "brand": "Humbrol",
+          "code": "147"
         }
       ],
       "confidence": 0.9216793361547106
@@ -1248,20 +1116,7 @@
       "code": "H63",
       "name": "Metallic Blue-Green",
       "hex": "#314c5a",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H63"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.022"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-25"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.8362089592324333
     },
     {
@@ -1270,16 +1125,12 @@
       "hex": "#2b2623",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H64"
+          "brand": "Humbrol",
+          "code": "116"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C101"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-82"
+          "brand": "RLM",
+          "code": "RLM-071"
         }
       ],
       "confidence": 0.909279704005426
@@ -1290,16 +1141,8 @@
       "hex": "#1e1f28",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H65"
-        },
-        {
-          "brand": "gunze",
-          "code": "H326"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0227"
+          "brand": "RLM",
+          "code": "RLM-070"
         }
       ],
       "confidence": 0.6640488980201733
@@ -1310,16 +1153,20 @@
       "hex": "#51392a",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H66"
+          "brand": "Tamiya",
+          "code": "XF57"
         },
         {
-          "brand": "tamiya",
-          "code": "XF64"
+          "brand": "Humbrol",
+          "code": "63"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0187"
+          "brand": "Revell",
+          "code": "88"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-079"
         }
       ],
       "confidence": 0.9537809645916628
@@ -1330,16 +1177,12 @@
       "hex": "#4d7180",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H67"
+          "brand": "Humbrol",
+          "code": "65"
         },
         {
-          "brand": "tamiya",
-          "code": "XF65"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C374"
+          "brand": "RLM",
+          "code": "RLM-065"
         }
       ],
       "confidence": 0.8169515941296749
@@ -1350,16 +1193,12 @@
       "hex": "#171a28",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H68"
+          "brand": "Humbrol",
+          "code": "27"
         },
         {
-          "brand": "gunze",
-          "code": "H32"
-        },
-        {
-          "brand": "gunze",
-          "code": "H326"
+          "brand": "RLM",
+          "code": "RLM-074"
         }
       ],
       "confidence": 0.7341754056161524
@@ -1370,16 +1209,8 @@
       "hex": "#333f47",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H69"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11839"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0204"
+          "brand": "RLM",
+          "code": "RLM-075"
         }
       ],
       "confidence": 0.6971008921515797
@@ -1390,16 +1221,8 @@
       "hex": "#69644d",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H70"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0927"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0066"
+          "brand": "RLM",
+          "code": "RLM-002"
         }
       ],
       "confidence": 0.6438521897522935
@@ -1410,16 +1233,8 @@
       "hex": "#4c3d2f",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H71"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11408"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0007"
+          "brand": "Humbrol",
+          "code": "94"
         }
       ],
       "confidence": 0.9857346437943095
@@ -1430,16 +1245,12 @@
       "hex": "#312927",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H72"
+          "brand": "Humbrol",
+          "code": "29"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-75"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20161"
+          "brand": "Revell",
+          "code": "86380"
         }
       ],
       "confidence": 0.9039304734908405
@@ -1450,16 +1261,12 @@
       "hex": "#193030",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H73"
+          "brand": "Tamiya",
+          "code": "XF61"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0053"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.120"
+          "brand": "Humbrol",
+          "code": "30"
         }
       ],
       "confidence": 0.7806955702028328
@@ -1470,16 +1277,8 @@
       "hex": "#a9ba71",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H74"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0256"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS30257"
+          "brand": "Humbrol",
+          "code": "23"
         }
       ],
       "confidence": 0.9344235745206103
@@ -1490,16 +1289,12 @@
       "hex": "#b8b9b0",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H75"
+          "brand": "Tamiya",
+          "code": "XF54"
         },
         {
-          "brand": "vallejo",
-          "code": "69.003"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11920"
+          "brand": "Humbrol",
+          "code": "27"
         }
       ],
       "confidence": 0.9412418678705701
@@ -1510,16 +1305,12 @@
       "hex": "#242a33",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H76"
+          "brand": "Humbrol",
+          "code": "53"
         },
         {
-          "brand": "gunze",
-          "code": "H309"
-        },
-        {
-          "brand": "gunze",
-          "code": "H330"
+          "brand": "Testors",
+          "code": "1795"
         }
       ],
       "confidence": 0.9905355002570317
@@ -1530,16 +1321,16 @@
       "hex": "#110d0a",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H77"
+          "brand": "Tamiya",
+          "code": "X18"
         },
         {
-          "brand": "gunze",
-          "code": "H55"
+          "brand": "Humbrol",
+          "code": "85"
         },
         {
-          "brand": "ak",
-          "code": "AK11407"
+          "brand": "Testors",
+          "code": "1583"
         }
       ],
       "confidence": 0.8968863823169743
@@ -1550,16 +1341,12 @@
       "hex": "#2a2e2c",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H78"
+          "brand": "Tamiya",
+          "code": "XF58"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0905"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL9017"
+          "brand": "Humbrol",
+          "code": "66"
         }
       ],
       "confidence": 0.9178350287955853
@@ -1570,16 +1357,16 @@
       "hex": "#b28f59",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H79"
+          "brand": "Tamiya",
+          "code": "XF59"
         },
         {
-          "brand": "vallejo",
-          "code": "71.108"
+          "brand": "Humbrol",
+          "code": "93"
         },
         {
-          "brand": "ak",
-          "code": "AK11325"
+          "brand": "Revell",
+          "code": "16"
         }
       ],
       "confidence": 0.9070723891076032
@@ -1590,16 +1377,8 @@
       "hex": "#162026",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H80"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0227"
-        },
-        {
-          "brand": "gunze",
-          "code": "H326"
+          "brand": "Tamiya",
+          "code": "XF51"
         }
       ],
       "confidence": 0.9429789838647831
@@ -1610,16 +1389,12 @@
       "hex": "#443529",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H81"
+          "brand": "Tamiya",
+          "code": "XF49"
         },
         {
-          "brand": "ak",
-          "code": "AK11315"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0255"
+          "brand": "Humbrol",
+          "code": "26"
         }
       ],
       "confidence": 0.9755602889650504
@@ -1630,16 +1405,16 @@
       "hex": "#364343",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H82"
+          "brand": "Tamiya",
+          "code": "XF20"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C52"
+          "brand": "Humbrol",
+          "code": "126"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-42"
+          "brand": "Revell",
+          "code": "47"
         }
       ],
       "confidence": 0.8380409475262427
@@ -1650,16 +1425,16 @@
       "hex": "#212432",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H83"
+          "brand": "Tamiya",
+          "code": "XF24"
         },
         {
-          "brand": "gunze",
-          "code": "H301"
+          "brand": "Humbrol",
+          "code": "112"
         },
         {
-          "brand": "ak",
-          "code": "AK11431"
+          "brand": "Revell",
+          "code": "57/378"
         }
       ],
       "confidence": 0.9019304721785697
@@ -1668,20 +1443,7 @@
       "code": "H84",
       "name": "Semi Gloss Mahogany",
       "hex": "#251f27",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H84"
-        },
-        {
-          "brand": "gunze",
-          "code": "H304"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-82"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9900655326355797
     },
     {
@@ -1690,16 +1452,8 @@
       "hex": "#b29c67",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H85"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0037"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.978"
+          "brand": "Testors",
+          "code": "2709"
         }
       ],
       "confidence": 0.9019385135700514
@@ -1710,16 +1464,12 @@
       "hex": "#c73e26",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H86"
+          "brand": "Revell",
+          "code": "34"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20031"
-        },
-        {
-          "brand": "gunze",
-          "code": "H13"
+          "brand": "Testors",
+          "code": "2719"
         }
       ],
       "confidence": 0.8144298729813135
@@ -1730,16 +1480,12 @@
       "hex": "#94332d",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H87"
+          "brand": "Humbrol",
+          "code": "51"
         },
         {
-          "brand": "vallejo",
-          "code": "70.957"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.010"
+          "brand": "Revell",
+          "code": "96"
         }
       ],
       "confidence": 0.9851859946233068
@@ -1750,16 +1496,16 @@
       "hex": "#172f77",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H88"
+          "brand": "Tamiya",
+          "code": "X13"
         },
         {
-          "brand": "ral",
-          "code": "RAL5001"
+          "brand": "Humbrol",
+          "code": "52"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C65"
+          "brand": "Revell",
+          "code": "98"
         }
       ],
       "confidence": 0.97594298389838
@@ -1770,16 +1516,12 @@
       "hex": "#20513d",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H89"
+          "brand": "Humbrol",
+          "code": "50"
         },
         {
-          "brand": "ral",
-          "code": "RAL5019"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.025"
+          "brand": "Revell",
+          "code": "97"
         }
       ],
       "confidence": 0.8955595148819857
@@ -1790,16 +1532,16 @@
       "hex": "#d6442b",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H90"
+          "brand": "Tamiya",
+          "code": "X27"
         },
         {
-          "brand": "gunze",
-          "code": "H23"
+          "brand": "Humbrol",
+          "code": "1321"
         },
         {
-          "brand": "gunze",
-          "code": "H14"
+          "brand": "Revell",
+          "code": "531"
         }
       ],
       "confidence": 0.7683678053627585
@@ -1810,16 +1552,12 @@
       "hex": "#f9dd5f",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H91"
+          "brand": "Tamiya",
+          "code": "X24"
         },
         {
-          "brand": "gunze",
-          "code": "H4"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-27"
+          "brand": "Revell",
+          "code": "512"
         }
       ],
       "confidence": 0.9628576456104986
@@ -1830,16 +1568,16 @@
       "hex": "#d75c2f",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H92"
+          "brand": "Tamiya",
+          "code": "X26"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C49"
+          "brand": "Humbrol",
+          "code": "1322"
         },
         {
-          "brand": "vallejo",
-          "code": "69.056"
+          "brand": "Revell",
+          "code": "530"
         }
       ],
       "confidence": 0.7964541956718649
@@ -1850,16 +1588,12 @@
       "hex": "#1a70ca",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H93"
+          "brand": "Tamiya",
+          "code": "X23"
         },
         {
-          "brand": "gunze",
-          "code": "H45"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C34"
+          "brand": "Revell",
+          "code": "552"
         }
       ],
       "confidence": 0.8867321447474941
@@ -1870,16 +1604,16 @@
       "hex": "#2b6648",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H94"
+          "brand": "Tamiya",
+          "code": "X26"
         },
         {
-          "brand": "tamiya",
-          "code": "XF26"
+          "brand": "Humbrol",
+          "code": "1325"
         },
         {
-          "brand": "ral",
-          "code": "RAL6000"
+          "brand": "Revell",
+          "code": "561"
         }
       ],
       "confidence": 0.939574629541495
@@ -1890,16 +1624,8 @@
       "hex": "#e0e7da",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H95"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11868"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C314"
+          "brand": "Tamiya",
+          "code": "X19"
         }
       ],
       "confidence": 0.8116963051882208
@@ -1908,20 +1634,7 @@
       "code": "H96",
       "name": "Gloss Blue Smoke",
       "hex": "#b7eaf0",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H96"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20122"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11806"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9211949504137269
     },
     {
@@ -1930,16 +1643,12 @@
       "hex": "#f5f270",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H97"
+          "brand": "Humbrol",
+          "code": "194"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-27"
-        },
-        {
-          "brand": "gunze",
-          "code": "H4"
+          "brand": "Revell",
+          "code": "312"
         }
       ],
       "confidence": 0.8271704082954806
@@ -1950,16 +1659,8 @@
       "hex": "#db4a2a",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H98"
-        },
-        {
-          "brand": "gunze",
-          "code": "H14"
-        },
-        {
-          "brand": "gunze",
-          "code": "H90"
+          "brand": "Humbrol",
+          "code": "209"
         }
       ],
       "confidence": 0.9603417751158203
@@ -1970,36 +1671,20 @@
       "hex": "#d8454f",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H99"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL3022"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.083"
+          "brand": "Humbrol",
+          "code": "207"
         }
       ],
       "confidence": 0.5964807966081138
     },
     {
-      "code": "H10",
+      "code": "H100",
       "name": "Gloss Fluo Green",
       "hex": "#377048",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H10"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF73"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF26"
+          "brand": "Humbrol",
+          "code": "203"
         }
       ],
       "confidence": 0.8930746411846286
@@ -2010,16 +1695,12 @@
       "hex": "#1f2632",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H301"
+          "brand": "Humbrol",
+          "code": "32"
         },
         {
-          "brand": "gunze",
-          "code": "H83"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11431"
+          "brand": "Federal Standard",
+          "code": "FS 36081"
         }
       ],
       "confidence": 0.767440490822846
@@ -2030,16 +1711,16 @@
       "hex": "#1b2831",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H302"
+          "brand": "Humbrol",
+          "code": "149"
         },
         {
-          "brand": "gunze",
-          "code": "H56"
+          "brand": "Testors",
+          "code": "1764"
         },
         {
-          "brand": "gunze",
-          "code": "H320"
+          "brand": "Federal Standard",
+          "code": "FS 34092"
         }
       ],
       "confidence": 0.8301248737013345
@@ -2050,16 +1731,16 @@
       "hex": "#2f3735",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H303"
+          "brand": "Humbrol",
+          "code": "151"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C54"
+          "brand": "Testors",
+          "code": "1713"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C70"
+          "brand": "Federal Standard",
+          "code": "FS 34102"
         }
       ],
       "confidence": 0.9846797794527731
@@ -2070,16 +1751,16 @@
       "hex": "#242324",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H304"
+          "brand": "Humbrol",
+          "code": "155"
         },
         {
-          "brand": "humbrol",
-          "code": "21"
+          "brand": "Testors",
+          "code": "1711"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-82"
+          "brand": "Federal Standard",
+          "code": "FS 34087"
         }
       ],
       "confidence": 0.8245046657363825
@@ -2090,16 +1771,12 @@
       "hex": "#3a484f",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H305"
+          "brand": "Humbrol",
+          "code": "125"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C32"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11439"
+          "brand": "Federal Standard",
+          "code": "FS 36118"
         }
       ],
       "confidence": 0.9270873566917476
@@ -2110,16 +1787,12 @@
       "hex": "#686f73",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H306"
+          "brand": "Humbrol",
+          "code": "126"
         },
         {
-          "brand": "ak",
-          "code": "AK11855"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL7023"
+          "brand": "Federal Standard",
+          "code": "FS 36270"
         }
       ],
       "confidence": 0.6183256255368569
@@ -2130,16 +1803,16 @@
       "hex": "#49657d",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H307"
+          "brand": "Humbrol",
+          "code": "128"
         },
         {
-          "brand": "tamiya",
-          "code": "XF66"
+          "brand": "Testors",
+          "code": "1741"
         },
         {
-          "brand": "tamiya",
-          "code": "XF24"
+          "brand": "Federal Standard",
+          "code": "FS 36320"
         }
       ],
       "confidence": 0.9208099861904259
@@ -2150,16 +1823,16 @@
       "hex": "#598199",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H308"
+          "brand": "Humbrol",
+          "code": "127"
         },
         {
-          "brand": "ak",
-          "code": "AK11916"
+          "brand": "Testors",
+          "code": "1728"
         },
         {
-          "brand": "humbrol",
-          "code": "157"
+          "brand": "Federal Standard",
+          "code": "FS 36375"
         }
       ],
       "confidence": 0.9014365476324535
@@ -2170,16 +1843,16 @@
       "hex": "#202b32",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H309"
+          "brand": "Humbrol",
+          "code": "116"
         },
         {
-          "brand": "gunze",
-          "code": "H330"
+          "brand": "Testors",
+          "code": "1710"
         },
         {
-          "brand": "gunze",
-          "code": "H76"
+          "brand": "Federal Standard",
+          "code": "FS 34079"
         }
       ],
       "confidence": 0.9106773384428539
@@ -2190,16 +1863,24 @@
       "hex": "#3a3734",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H310"
+          "brand": "Tamiya",
+          "code": "XF52"
         },
         {
-          "brand": "vallejo",
-          "code": "71.021"
+          "brand": "Humbrol",
+          "code": "119"
         },
         {
-          "brand": "ak",
-          "code": "AK11423"
+          "brand": "Revell",
+          "code": "85"
+        },
+        {
+          "brand": "Testors",
+          "code": "1742"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30219"
         }
       ],
       "confidence": 0.9030333632431075
@@ -2210,16 +1891,12 @@
       "hex": "#ebf7e7",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H311"
+          "brand": "Humbrol",
+          "code": "28"
         },
         {
-          "brand": "gunze",
-          "code": "H31"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C107"
+          "brand": "Federal Standard",
+          "code": "FS 36622"
         }
       ],
       "confidence": 0.866671226054246
@@ -2230,16 +1907,20 @@
       "hex": "#3d6150",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H312"
+          "brand": "Tamiya",
+          "code": "XF26"
         },
         {
-          "brand": "gunze",
-          "code": "H50"
+          "brand": "Humbrol",
+          "code": "120"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0018"
+          "brand": "Testors",
+          "code": "1716"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34227"
         }
       ],
       "confidence": 0.8637889547596483
@@ -2250,16 +1931,20 @@
       "hex": "#d7c36d",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H313"
+          "brand": "Tamiya",
+          "code": "XF60"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20087"
+          "brand": "Humbrol",
+          "code": "121"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0016"
+          "brand": "Testors",
+          "code": "1706"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 33531"
         }
       ],
       "confidence": 0.961802334502493
@@ -2270,16 +1955,16 @@
       "hex": "#daeeee",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H314"
+          "brand": "Tamiya",
+          "code": "XF21"
         },
         {
-          "brand": "ral",
-          "code": "RAL9002"
+          "brand": "Humbrol",
+          "code": "122"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS36628"
+          "brand": "Federal Standard",
+          "code": "FS 35622"
         }
       ],
       "confidence": 0.7417444360102969
@@ -2290,16 +1975,20 @@
       "hex": "#a3b3a7",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H315"
+          "brand": "Tamiya",
+          "code": "XF54"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C376"
+          "brand": "Humbrol",
+          "code": "183"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20140"
+          "brand": "Testors",
+          "code": "1729"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 16440"
         }
       ],
       "confidence": 0.9527067543946754
@@ -2310,16 +1999,12 @@
       "hex": "#fefffa",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H316"
+          "brand": "Humbrol",
+          "code": "22"
         },
         {
-          "brand": "ral",
-          "code": "RAL9020"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C1"
+          "brand": "Federal Standard",
+          "code": "FS 17875"
         }
       ],
       "confidence": 0.9859647361828864
@@ -2330,16 +2015,12 @@
       "hex": "#45494d",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H317"
+          "brand": "Humbrol",
+          "code": "140"
         },
         {
-          "brand": "humbrol",
-          "code": "243"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C331"
+          "brand": "Testors",
+          "code": "1740"
         }
       ],
       "confidence": 0.9417956014743559
@@ -2350,16 +2031,12 @@
       "hex": "#feea8d",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H318"
+          "brand": "Humbrol",
+          "code": "148"
         },
         {
-          "brand": "ral",
-          "code": "RAL1015"
-        },
-        {
-          "brand": "gunze",
-          "code": "H97"
+          "brand": "Testors",
+          "code": "1709"
         }
       ],
       "confidence": 0.9351796533953964
@@ -2368,20 +2045,7 @@
       "code": "H319",
       "name": "Semi Gloss Light Green",
       "hex": "#1f3136",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H319"
-        },
-        {
-          "brand": "gunze",
-          "code": "H48"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C181"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.8874919396190499
     },
     {
@@ -2390,16 +2054,16 @@
       "hex": "#1a282d",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H320"
+          "brand": "Tamiya",
+          "code": "XF27"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0053"
+          "brand": "Humbrol",
+          "code": "30"
         },
         {
-          "brand": "gunze",
-          "code": "H302"
+          "brand": "Revell",
+          "code": "360"
         }
       ],
       "confidence": 0.924513037451394
@@ -2408,20 +2072,7 @@
       "code": "H321",
       "name": "Semi Gloss Light Brown",
       "hex": "#727964",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H321"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11859"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.030"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.993535579469498
     },
     {
@@ -2430,16 +2081,12 @@
       "hex": "#182044",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H322"
+          "brand": "Revell",
+          "code": "53"
         },
         {
-          "brand": "ral",
-          "code": "RAL5004"
-        },
-        {
-          "brand": "gunze",
-          "code": "H35"
+          "brand": "Testors",
+          "code": "1594"
         }
       ],
       "confidence": 0.9176674087391645
@@ -2450,16 +2097,8 @@
       "hex": "#3a85d0",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H323"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20176"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL5012"
+          "brand": "Tamiya",
+          "code": "XF23"
         }
       ],
       "confidence": 0.837752303704796
@@ -2468,20 +2107,7 @@
       "code": "H324",
       "name": "Flat Light Grey",
       "hex": "#8a9c9e",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H324"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.329"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.338"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9453722845455044
     },
     {
@@ -2490,16 +2116,16 @@
       "hex": "#9fab9e",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H325"
+          "brand": "Humbrol",
+          "code": "129"
         },
         {
-          "brand": "ak",
-          "code": "AK11827"
+          "brand": "Testors",
+          "code": "1730"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C97"
+          "brand": "Federal Standard",
+          "code": "FS 26440"
         }
       ],
       "confidence": 0.7799911370574526
@@ -2510,16 +2136,16 @@
       "hex": "#1b1e26",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H326"
+          "brand": "Humbrol",
+          "code": "189"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0227"
+          "brand": "Testors",
+          "code": "1719"
         },
         {
-          "brand": "gunze",
-          "code": "H65"
+          "brand": "Federal Standard",
+          "code": "FS 15044"
         }
       ],
       "confidence": 0.8230312015541648
@@ -2530,16 +2156,16 @@
       "hex": "#8e4337",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H327"
+          "brand": "Humbrol",
+          "code": "153"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0913"
+          "brand": "Testors",
+          "code": "1705"
         },
         {
-          "brand": "ammo",
-          "code": "MIG-0109"
+          "brand": "Federal Standard",
+          "code": "FS 11136"
         }
       ],
       "confidence": 0.7951029528323322
@@ -2550,16 +2176,20 @@
       "hex": "#1d2133",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H328"
+          "brand": "Humbrol",
+          "code": "190"
         },
         {
-          "brand": "gunze",
-          "code": "H83"
+          "brand": "Revell",
+          "code": "350"
         },
         {
-          "brand": "gunze",
-          "code": "H340"
+          "brand": "Testors",
+          "code": "1772"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 15050"
         }
       ],
       "confidence": 0.9077150842515462
@@ -2570,16 +2200,24 @@
       "hex": "#ebad56",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H329"
+          "brand": "Tamiya",
+          "code": "XF3"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20021"
+          "brand": "Humbrol",
+          "code": "154/188"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20022"
+          "brand": "Revell",
+          "code": "310"
+        },
+        {
+          "brand": "Testors",
+          "code": "1708"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 13538"
         }
       ],
       "confidence": 0.8138623714580625
@@ -2590,16 +2228,8 @@
       "hex": "#202a35",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H330"
-        },
-        {
-          "brand": "gunze",
-          "code": "H333"
-        },
-        {
-          "brand": "gunze",
-          "code": "H309"
+          "brand": "Humbrol",
+          "code": "163"
         }
       ],
       "confidence": 0.8959326920547798
@@ -2610,16 +2240,8 @@
       "hex": "#1f2c3a",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H331"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.091"
-        },
-        {
-          "brand": "gunze",
-          "code": "H48"
+          "brand": "Humbrol",
+          "code": "164"
         }
       ],
       "confidence": 0.882720575082152
@@ -2630,16 +2252,12 @@
       "hex": "#5f7783",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H332"
+          "brand": "Tamiya",
+          "code": "XF25"
         },
         {
-          "brand": "tamiya",
-          "code": "XF53"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.016"
+          "brand": "Humbrol",
+          "code": "166"
         }
       ],
       "confidence": 0.8118676361845464
@@ -2650,16 +2268,12 @@
       "hex": "#1e2836",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H333"
+          "brand": "Humbrol",
+          "code": "123"
         },
         {
-          "brand": "gunze",
-          "code": "H330"
-        },
-        {
-          "brand": "gunze",
-          "code": "H56"
+          "brand": "Revell",
+          "code": "351"
         }
       ],
       "confidence": 0.9097878345893817
@@ -2670,16 +2284,8 @@
       "hex": "#678198",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H334"
-        },
-        {
-          "brand": "humbrol",
-          "code": "157"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL4012"
+          "brand": "Humbrol",
+          "code": "167"
         }
       ],
       "confidence": 0.8536179339053753
@@ -2690,16 +2296,8 @@
       "hex": "#3a4449",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H335"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.048"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11439"
+          "brand": "Humbrol",
+          "code": "123"
         }
       ],
       "confidence": 0.7994186311090801
@@ -2710,16 +2308,8 @@
       "hex": "#5a7059",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H336"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20080"
-        },
-        {
-          "brand": "humbrol",
-          "code": "76"
+          "brand": "Humbrol",
+          "code": "168"
         }
       ],
       "confidence": 0.9655285904354579
@@ -2730,16 +2320,20 @@
       "hex": "#375355",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H337"
+          "brand": "Humbrol",
+          "code": "145"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-25"
+          "brand": "Revell",
+          "code": "79"
         },
         {
-          "brand": "ak",
-          "code": "AK11356"
+          "brand": "Testors",
+          "code": "1721"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 35237"
         }
       ],
       "confidence": 0.8574017431311424
@@ -2750,16 +2344,12 @@
       "hex": "#b7c8c6",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H338"
+          "brand": "Humbrol",
+          "code": "147"
         },
         {
-          "brand": "vallejo",
-          "code": "71.307"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF19"
+          "brand": "Federal Standard",
+          "code": "FS 36495"
         }
       ],
       "confidence": 0.949716625432322
@@ -2770,16 +2360,16 @@
       "hex": "#273140",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H339"
+          "brand": "Humbrol",
+          "code": "123"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C322"
+          "brand": "Testors",
+          "code": "1592"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C328"
+          "brand": "Federal Standard",
+          "code": "FS 16081"
         }
       ],
       "confidence": 0.8395176966381962
@@ -2790,16 +2380,16 @@
       "hex": "#1a2535",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H340"
+          "brand": "Revell",
+          "code": "362"
         },
         {
-          "brand": "gunze",
-          "code": "H56"
+          "brand": "Testors",
+          "code": "1712"
         },
         {
-          "brand": "gunze",
-          "code": "H302"
+          "brand": "Federal Standard",
+          "code": "FS 34097"
         }
       ],
       "confidence": 0.8896450824534378
@@ -2808,40 +2398,14 @@
       "code": "H341",
       "name": "FFlat Mud",
       "hex": "#b8b8b8",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H341"
-        },
-        {
-          "brand": "gunze",
-          "code": "H343"
-        },
-        {
-          "brand": "gunze",
-          "code": "H344"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9171458584187677
     },
     {
       "code": "H342",
       "name": "Gloss Oil Black",
       "hex": "#b9b9b9",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H342"
-        },
-        {
-          "brand": "gunze",
-          "code": "H341"
-        },
-        {
-          "brand": "gunze",
-          "code": "H343"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9986927289207587
     },
     {
@@ -2850,16 +2414,12 @@
       "hex": "#b8b8b8",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H341"
+          "brand": "Humbrol",
+          "code": "33"
         },
         {
-          "brand": "gunze",
-          "code": "H343"
-        },
-        {
-          "brand": "gunze",
-          "code": "H344"
+          "brand": "Testors",
+          "code": "1785"
         }
       ],
       "confidence": 0.818254814037278
@@ -2870,16 +2430,12 @@
       "hex": "#b8b8b8",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H341"
+          "brand": "Humbrol",
+          "code": "113"
         },
         {
-          "brand": "gunze",
-          "code": "H343"
-        },
-        {
-          "brand": "gunze",
-          "code": "H344"
+          "brand": "Revell",
+          "code": "83"
         }
       ],
       "confidence": 0.9752376960903005
@@ -2888,20 +2444,7 @@
       "code": "H345",
       "name": "Flat Rough Gray",
       "hex": "#bbbbbb",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H345"
-        },
-        {
-          "brand": "gunze",
-          "code": "H342"
-        },
-        {
-          "brand": "gunze",
-          "code": "H346"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9340247927760271
     },
     {
@@ -2910,16 +2453,8 @@
       "hex": "#bdbdbd",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H346"
-        },
-        {
-          "brand": "gunze",
-          "code": "H345"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11889"
+          "brand": "Humbrol",
+          "code": "93"
         }
       ],
       "confidence": 0.7422060897187783

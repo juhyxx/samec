@@ -13,8 +13,8 @@ def format_for_frontend(colors, brand_name, brand_id, source_file=None):
 
     Args:
         colors: List of {code, name, hex, equivalents?, confidence?}
-        brand_name: Display name (e.g., "Mr. Hobby")
-        brand_id: Short ID for data (e.g., "mr_hobby")
+        brand_name: Display name (e.g., "Mr. Color")
+        brand_id: Short ID for data (e.g., "mr_color")
         source_file: Optional source file reference
 
     Returns:
@@ -46,18 +46,18 @@ def format_for_frontend(colors, brand_name, brand_id, source_file=None):
     }
 
 
-def process_mr_hobby(raw_colors_file, output_file):
-    """Process Mr. Hobby colors."""
+def process_mr_color(raw_colors_file, output_file):
+    """Process Mr. Color colors."""
     with open(raw_colors_file) as f:
         colors = json.load(f)
 
-    formatted = format_for_frontend(colors, brand_name="Mr. Hobby", brand_id="mr_hobby")
+    formatted = format_for_frontend(colors, brand_name="Mr. Color", brand_id="mr_color")
 
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, "w") as f:
         json.dump(formatted, f, indent=2, ensure_ascii=False)
 
-    print(f"Wrote {len(colors)} Mr. Hobby colors to {output_file}")
+    print(f"Wrote {len(colors)} Mr. Color colors to {output_file}")
 
 
 def process_ammo_atom(raw_colors_file, output_file):
@@ -95,10 +95,10 @@ if __name__ == "__main__":
     results_dir = Path("data/")
 
     # Process each brand
-    # Mr. Hobby
-    mr_hobby_raw = results_dir / "pack_mr_hobby.json"
-    if mr_hobby_raw.exists():
-        process_mr_hobby(mr_hobby_raw, results_dir / "pack_mr_hobby.json")
+    # Mr. Color
+    mr_color_raw = results_dir / "pack_mr_color.json"
+    if mr_color_raw.exists():
+        process_mr_color(mr_color_raw, results_dir / "pack_mr_color.json")
 
     # Ammo-Atom
     atom_raw = results_dir / "pack_ammo_atom.json"

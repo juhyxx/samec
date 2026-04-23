@@ -56,7 +56,7 @@ AK_EQUIVALENT_COLUMNS = [
     },
     {
         "key": "gunze",
-        "brand": "Gunze / Mr. Hobby",
+        "brand": "Gunze / Mr. Color",
         "aliases": ["GUNZE", "HOBBY"],
         "fallback_ratio": 0.556,
     },
@@ -225,7 +225,7 @@ def normalize_equivalent_code(brand, text):
         match = re.match(r"^(XF|X|LP)-?(\d+)$", code)
         if match:
             return f"{match.group(1)}{match.group(2)}"
-    if brand == "Gunze / Mr. Hobby":
+    if brand == "Gunze / Mr. Color":
         match = re.match(r"^([HCSM])[- ]?(\d{1,4})$", code)
         if match:
             return f"{match.group(1)}{match.group(2)}"
@@ -261,8 +261,8 @@ def build_equivalent(brand, text):
 def build_equivalents(brand, text):
     """Convert raw OCR cell text (possibly 'C314/H314') into one or more equivalents.
 
-    When the Gunze / Mr. Hobby column contains a slash-separated pair, the first
-    code (C-prefix) maps to Mr. Hobby and the second (H-prefix) to Gunze Sangyo.
+    When the Gunze / Mr. Color column contains a slash-separated pair, the first
+    code (C-prefix) maps to Mr. Color and the second (H-prefix) to Gunze Sangyo.
     For all other brands, a single equivalent is returned.
     """
     if not text or text.strip() in {"-", "--"}:
@@ -276,11 +276,11 @@ def build_equivalents(brand, text):
     results = []
     seen = set()
     for part in parts:
-        # Infer brand from code prefix for the Gunze/Mr. Hobby column
+        # Infer brand from code prefix for the Gunze/Mr. Color column
         effective_brand = brand
         part_upper = part.strip().upper().replace("-", "")
         if re.match(r"^C\d", part_upper):
-            effective_brand = "Mr. Hobby"
+            effective_brand = "Mr. Color"
         elif re.match(r"^H\d", part_upper):
             effective_brand = "Gunze Sangyo"
 

@@ -29,7 +29,7 @@ class TestParserData(unittest.TestCase):
             "brand": "Aqueous Hobby color",
         },
         "humbrol": {"file": "pack_humbrol.json", "brand": "Humbrol"},
-        "mr_hobby": {"file": "pack_mr_hobby.json", "brand": "Mr. Hobby"},
+        "mr_color": {"file": "pack_mr_color.json", "brand": "Mr. Color"},
         "ral": {"file": "pack_ral.json", "brand": "RAL"},
         "rlm": {"file": "pack_rlm.json", "brand": "RLM"},
         "tamiya": {"file": "pack_tamiya.json", "brand": "Tamiya"},
@@ -83,9 +83,9 @@ class TestParserData(unittest.TestCase):
         """Test Humbrol parser."""
         self._test_parser_data("humbrol")
 
-    def test_mr_hobby_parser(self):
-        """Test Mr. Hobby parser."""
-        self._test_parser_data("mr_hobby")
+    def test_mr_color_parser(self):
+        """Test Mr. Color parser."""
+        self._test_parser_data("mr_color")
 
     def test_rlm_parser(self):
         """Test RLM parser."""
@@ -168,7 +168,7 @@ class TestParserComparison(unittest.TestCase):
         "ammo_atom": "pack_ammo_atom.json",
         "hobby_color": "pack_hobby_color.json",
         "humbrol": "pack_humbrol.json",
-        "mr_hobby": "pack_mr_hobby.json",
+        "mr_color": "pack_mr_color.json",
         "ral": "pack_ral.json",
         "rlm": "pack_rlm.json",
         "tamiya": "pack_tamiya.json",

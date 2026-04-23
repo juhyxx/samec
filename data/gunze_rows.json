@@ -2,7 +2,7 @@
   {
     "image": "01.png",
     "raw_reference": "IGloss White HI X2 22 4 2720",
-    "reference": "HI",
+    "reference": "H1",
     "name": "Gloss White",
     "equivalents": [
       {
@@ -1873,7 +1873,7 @@
   {
     "image": "02.png",
     "raw_reference": "Gloss Fluo Green H1OO 203",
-    "reference": "H10",
+    "reference": "H100",
     "name": "Gloss Fluo Green",
     "equivalents": [
       {

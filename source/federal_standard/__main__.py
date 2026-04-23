@@ -57,8 +57,6 @@ class FederalStandardScraper:
         # Split by newlines and process
         lines = text.split("\n")
 
-        seen_codes = set()
-
         for line in lines:
             # Look for "Federal Standard" entries
             match = re.search(r"Federal Standard\s+(\d+)\s+(.*?)$", line.strip())
@@ -67,11 +65,6 @@ class FederalStandardScraper:
 
             code = match.group(1).strip()
             name = match.group(2).strip()
-
-            # Skip duplicates
-            if code in seen_codes:
-                continue
-            seen_codes.add(code)
 
             # Clean up the name
             name = re.sub(r"\s+", " ", name).strip()
@@ -354,9 +347,6 @@ class FederalStandardScraper:
 
         # Attempt to fetch actual color values
         self.fetch_color_values()
-
-        # Remove duplicates
-        self.deduplicate_colors()
 
         # Save results
         self.save_json(output_path)

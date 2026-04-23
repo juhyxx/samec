@@ -8,4500 +8,1575 @@
       "code": "RAL1000",
       "name": "Grünbeige",
       "hex": "#BEBD7F",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS30279"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS30372"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS33303"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1001",
       "name": "Beige",
       "hex": "#C2B078",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0011"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS30279"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS30372"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1002",
       "name": "Sandgelb",
       "hex": "#C6A664",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11363"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0061"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0029"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1003",
       "name": "Signalgelb",
       "hex": "#E5BE01",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "154"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS13538"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS33448"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1004",
       "name": "Goldgelb",
       "hex": "#CDA922",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS22516"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0125"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0048"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1005",
       "name": "Honiggelb",
       "hex": "#CF8600",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "54"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS33434"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0129"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1006",
       "name": "Maisgelb",
       "hex": "#E4A010",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS22516"
-        },
-        {
-          "brand": "humbrol",
-          "code": "54"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0125"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1007",
       "name": "Narzissengelb",
       "hex": "#DC9D07",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "54"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS33448"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS33538"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1011",
       "name": "Braunbeige",
       "hex": "#8A7967",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.141"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0072"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0114"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1012",
       "name": "Zitronengelb",
       "hex": "#D3AE01",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS33448"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS33538"
-        },
-        {
-          "brand": "humbrol",
-          "code": "54"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1013",
       "name": "Perlweiß",
       "hex": "#EAE6CA",
-      "equivalents": [
-        {
-          "brand": "tamiya",
-          "code": "XF14"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.820"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.918"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1014",
       "name": "Elfenbein",
       "hex": "#E1CC4F",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.915"
-        },
-        {
-          "brand": "gunze",
-          "code": "H34"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H34"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1015",
       "name": "Hellelfenbein",
       "hex": "#E6D690",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H44"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H44"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20015"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1016",
       "name": "Schwefelgelb",
       "hex": "#EDFF21",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "148"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS13655"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS23655"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1017",
       "name": "Safrangelb",
       "hex": "#F8F32B",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C172"
-        },
-        {
-          "brand": "humbrol",
-          "code": "148"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20019"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1018",
       "name": "Zinkgelb",
       "hex": "#F8F32B",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C172"
-        },
-        {
-          "brand": "humbrol",
-          "code": "148"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20019"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1019",
       "name": "Graubeige",
       "hex": "#9E9B85",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.279"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.288"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.280"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1020",
       "name": "Olivgelb",
       "hex": "#9B8B3D",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C27"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C352"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF49"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1021",
       "name": "Rapsgelb",
       "hex": "#F3DA0B",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "69"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF3"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS17043"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1023",
       "name": "Verkehrsgelb",
       "hex": "#F0D030",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20018"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C48"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C4"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1024",
       "name": "Ockergelb",
       "hex": "#CEA135",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C9"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20024"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.006"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1026",
       "name": "Leuchtgelb",
       "hex": "#FFFF00",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS13655"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS23655"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF3"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1027",
       "name": "Currygelb",
       "hex": "#DAA520",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS22516"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0125"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11813"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1028",
       "name": "Melonengelb",
       "hex": "#F0D000",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS13538"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS17043"
-        },
-        {
-          "brand": "humbrol",
-          "code": "69"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1032",
       "name": "Ginstergelb",
       "hex": "#D6AE01",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS33448"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS33538"
-        },
-        {
-          "brand": "humbrol",
-          "code": "54"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1033",
       "name": "Dahliengelb",
       "hex": "#F0D000",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS13538"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS17043"
-        },
-        {
-          "brand": "humbrol",
-          "code": "69"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1034",
       "name": "Pastellgelb",
       "hex": "#EDA83D",
-      "equivalents": [
-        {
-          "brand": "rlm",
-          "code": "RLM-04"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.006"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11813"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1035",
       "name": "Perlbeige",
       "hex": "#A29985",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.279"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.288"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.328"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1036",
       "name": "Perlgold",
       "hex": "#927549",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C21"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11302"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS30051"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1037",
       "name": "Sonnengelb",
       "hex": "#EEA205",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "154"
-        },
-        {
-          "brand": "humbrol",
-          "code": "54"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS22516"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1039",
       "name": "Sandbeige",
       "hex": "#CEC19E",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0012"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20010"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11345"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL1040",
       "name": "Lehmbeige",
       "hex": "#BBAC81",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0057"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0011"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF78"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL2000",
       "name": "Gelborange",
       "hex": "#EA7600",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "18"
-        },
-        {
-          "brand": "humbrol",
-          "code": "46"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS12197"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL2001",
       "name": "Rotorange",
       "hex": "#BE2E26",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20035"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C68"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C158"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL2002",
       "name": "Blutorange",
       "hex": "#CB2821",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20035"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C3"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C47"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL2003",
       "name": "Pastellorange",
       "hex": "#FF7514",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS12197"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS32473"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20027"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL2004",
       "name": "Reinorange",
       "hex": "#F44611",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20029"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20028"
-        },
-        {
-          "brand": "humbrol",
-          "code": "18"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL2005",
       "name": "Leuchtorange",
       "hex": "#FF2301",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS21105"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS21400"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS31350"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL2007",
       "name": "Leuchthellorange",
       "hex": "#FFA421",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20023"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11813"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-04"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL2008",
       "name": "Hellrotorange",
       "hex": "#F75E25",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "18"
-        },
-        {
-          "brand": "humbrol",
-          "code": "46"
-        },
-        {
-          "brand": "gunze",
-          "code": "H92"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL2009",
       "name": "Verkehrsorange",
       "hex": "#F54021",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20029"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20028"
-        },
-        {
-          "brand": "gunze",
-          "code": "H14"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL2010",
       "name": "Signalorange",
       "hex": "#D84B20",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H14"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H14"
-        },
-        {
-          "brand": "gunze",
-          "code": "H98"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL2011",
       "name": "Tieforange",
       "hex": "#EC8B3C",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C329"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.629"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.632"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL2012",
       "name": "Lachsorange",
       "hex": "#E55C3F",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H29"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H29"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.008"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL2013",
       "name": "Perlorange",
       "hex": "#922610",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20047"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0121"
-        },
-        {
-          "brand": "humbrol",
-          "code": "20"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL2017",
       "name": "RAL 2017",
       "hex": "#FA4402",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20029"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS12197"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS32473"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3000",
       "name": "Feuerrot",
       "hex": "#AC193D",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C114"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS11136"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS31136"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3001",
       "name": "Signalrot",
       "hex": "#A52127",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0049"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C108"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0121"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3002",
       "name": "Karminrot",
       "hex": "#A2231D",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0049"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0121"
-        },
-        {
-          "brand": "humbrol",
-          "code": "20"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3003",
       "name": "Rubinrot",
       "hex": "#9B111E",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "20"
-        },
-        {
-          "brand": "humbrol",
-          "code": "38"
-        },
-        {
-          "brand": "humbrol",
-          "code": "133"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3004",
       "name": "Purpurrot",
       "hex": "#75151E",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "133"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.083"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.926"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3005",
       "name": "Weinrot",
       "hex": "#5E2129",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C81"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.012"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0912"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3007",
       "name": "Schwarzrot",
       "hex": "#412227",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11419"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0085"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0042"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3009",
       "name": "Oxidrot",
       "hex": "#622E2A",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.085"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20062"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C81"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3011",
       "name": "Braunrot",
       "hex": "#622E2A",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.085"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20062"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C81"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3012",
       "name": "Beigerot",
       "hex": "#C1876B",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0188"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.007"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11402"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3013",
       "name": "Tomatenrot",
       "hex": "#A4554D",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.829"
-        },
-        {
-          "brand": "humbrol",
-          "code": "49"
-        },
-        {
-          "brand": "humbrol",
-          "code": "56"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3014",
       "name": "Altrosa",
       "hex": "#D16B76",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C63"
-        },
-        {
-          "brand": "gunze",
-          "code": "H19"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H19"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3015",
       "name": "Hellrosa",
       "hex": "#E1A6AD",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C112"
-        },
-        {
-          "brand": "humbrol",
-          "code": "57"
-        },
-        {
-          "brand": "humbrol",
-          "code": "200"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3016",
       "name": "Korallenrot",
       "hex": "#B24D49",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H3"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H3"
-        },
-        {
-          "brand": "humbrol",
-          "code": "49"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3017",
       "name": "Rosé",
       "hex": "#CB7582",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.958"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C63"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.057"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3018",
       "name": "Erdbeerrot",
       "hex": "#EC1C24",
-      "equivalents": [
-        {
-          "brand": "tamiya",
-          "code": "XF7"
-        },
-        {
-          "brand": "humbrol",
-          "code": "19"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS21310"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3020",
       "name": "Verkehrsrot",
       "hex": "#CC0605",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "220"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS22190"
-        },
-        {
-          "brand": "humbrol",
-          "code": "19"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3022",
       "name": "Lachsrot",
       "hex": "#D5534F",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.083"
-        },
-        {
-          "brand": "gunze",
-          "code": "H99"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H99"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3024",
       "name": "Leuchtrot",
       "hex": "#FF0000",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS21105"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS21400"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS31350"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3026",
       "name": "Leuchthellrot",
       "hex": "#FF0000",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS21105"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS21400"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS31350"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3027",
       "name": "Himbeerrot",
       "hex": "#C51D34",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS11136"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS31136"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C3"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3028",
       "name": "Reinrot",
       "hex": "#cc2c24",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C3"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C47"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C79"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3031",
       "name": "Orientrot",
       "hex": "#B32428",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C68"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C158"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20035"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3032",
       "name": "Perlrubinrot",
       "hex": "#711521",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "133"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.083"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.926"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL3033",
       "name": "Perlrosa",
       "hex": "#B24C43",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H3"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H3"
-        },
-        {
-          "brand": "gunze",
-          "code": "H10"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL4001",
       "name": "Rotlila",
       "hex": "#6D3F47",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.745"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.845"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.919"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL4002",
       "name": "Rotviolett",
       "hex": "#933D50",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "73"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.812"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.009"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL4003",
       "name": "Erikaviolett",
       "hex": "#DE4C8A",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20034"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.057"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C63"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL4004",
       "name": "Bordeauxviolett",
       "hex": "#641C34",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "69.012"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C81"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF9"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL4005",
       "name": "Blaulila",
       "hex": "#6E3F75",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "72.076"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.747"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.802"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL4006",
       "name": "Verkehrspurpur",
       "hex": "#A03472",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "69.011"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.067"
-        },
-        {
-          "brand": "humbrol",
-          "code": "73"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL4007",
       "name": "Purpurviolett",
       "hex": "#321E24",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11406"
-        },
-        {
-          "brand": "gunze",
-          "code": "H47"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H47"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL4008",
       "name": "Signalviolett",
       "hex": "#6F4C6D",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "72.076"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.747"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.802"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL4009",
       "name": "Pastellviolett",
       "hex": "#A18594",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20156"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20149"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11807"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL4010",
       "name": "Telemagenta",
       "hex": "#CF3476",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C174"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20034"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.057"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL4011",
       "name": "Perlviolett",
       "hex": "#8673A1",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.750"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS36314"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20155"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL4012",
       "name": "Perlbrombeer",
       "hex": "#6C7C98",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H334"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H334"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-78-1"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5000",
       "name": "Violettblau",
       "hex": "#354D73",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "69.020"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.054"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.064"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5001",
       "name": "Grünblau",
       "hex": "#1F3A70",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "25"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C65"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C110"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5002",
       "name": "Ultramarinblau",
       "hex": "#00247B",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS15044"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS35044"
-        },
-        {
-          "brand": "gunze",
-          "code": "H88"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5003",
       "name": "Saphirblau",
       "hex": "#001E50",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0229"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS15042"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS35042"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5004",
       "name": "Schwarzblau",
       "hex": "#18184A",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H35"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H35"
-        },
-        {
-          "brand": "gunze",
-          "code": "H322"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5005",
       "name": "Signalblau",
       "hex": "#003DA5",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS15056"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS25352"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS35052"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5007",
       "name": "Brillantblau",
       "hex": "#3E5F8A",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C374"
-        },
-        {
-          "brand": "gunze",
-          "code": "H307"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H307"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5008",
       "name": "Graublau",
       "hex": "#26252B",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0218"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-82"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0008"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5009",
       "name": "Azurblau",
       "hex": "#025669",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0086"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20105"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11898"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5010",
       "name": "Enzianblau",
       "hex": "#004687",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0196"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS34058"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C5"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5011",
       "name": "Stahlblau",
       "hex": "#231F20",
-      "equivalents": [
-        {
-          "brand": "tamiya",
-          "code": "XF69"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF85"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11360"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5012",
       "name": "Lichtblau",
       "hex": "#3E8CC0",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "48"
-        },
-        {
-          "brand": "gunze",
-          "code": "H323"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H323"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5013",
       "name": "Kobaltblau",
       "hex": "#1E3A8F",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "222"
-        },
-        {
-          "brand": "humbrol",
-          "code": "14"
-        },
-        {
-          "brand": "humbrol",
-          "code": "25"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5014",
       "name": "Taubenblau",
       "hex": "#606E8C",
-      "equivalents": [
-        {
-          "brand": "tamiya",
-          "code": "XF53"
-        },
-        {
-          "brand": "gunze",
-          "code": "H332"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H332"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5015",
       "name": "Himmelblau",
       "hex": "#0E4C96",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "14"
-        },
-        {
-          "brand": "humbrol",
-          "code": "222"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS34058"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5017",
       "name": "Verkehrsblau",
       "hex": "#004B87",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS34058"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0196"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C5"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5018",
       "name": "Türkisblau",
       "hex": "#3F7F4C",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C135"
-        },
-        {
-          "brand": "gunze",
-          "code": "H10"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H10"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5019",
       "name": "Capriblau",
       "hex": "#1B4D3E",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H89"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H89"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20099"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5020",
       "name": "Ozeanblau",
       "hex": "#1D3A3A",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H319"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H319"
-        },
-        {
-          "brand": "gunze",
-          "code": "H48"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5021",
       "name": "Wasserblau",
       "hex": "#256D7B",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.840"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20105"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0251"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5022",
       "name": "Nachtblau",
       "hex": "#20214F",
-      "equivalents": [
-        {
-          "brand": "rlm",
-          "code": "RLM-24"
-        },
-        {
-          "brand": "gunze",
-          "code": "H39"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H39"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5023",
       "name": "Fernblau",
       "hex": "#49678D",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C374"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS35189"
-        },
-        {
-          "brand": "gunze",
-          "code": "H307"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5024",
       "name": "Pastellblau",
       "hex": "#646E75",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11883"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11855"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0205"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5025",
       "name": "Perlenzian",
       "hex": "#296478",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.840"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0251"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF63"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL5026",
       "name": "Perlnachtblau",
       "hex": "#102C54",
-      "equivalents": [
-        {
-          "brand": "rlm",
-          "code": "RLM-24"
-        },
-        {
-          "brand": "gunze",
-          "code": "H39"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H39"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6000",
       "name": "Patinagrün",
       "hex": "#316650",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H50"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H50"
-        },
-        {
-          "brand": "gunze",
-          "code": "H94"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6001",
       "name": "Smaragdgrün",
       "hex": "#287233",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "131"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0096"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF26"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6002",
       "name": "Laubgrün",
       "hex": "#23423D",
-      "equivalents": [
-        {
-          "brand": "tamiya",
-          "code": "XF70"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20099"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C16"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6003",
       "name": "Olivgrün",
       "hex": "#424632",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20066"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C55"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.893"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6004",
       "name": "Blaugrün",
       "hex": "#1F3A3F",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.898"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C14"
-        },
-        {
-          "brand": "gunze",
-          "code": "H48"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6005",
       "name": "Moosgrün",
       "hex": "#2F5233",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11919"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF58"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.123"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6006",
       "name": "Grauoliv",
       "hex": "#40403F",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS36099"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.042"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11872"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6007",
       "name": "Flaschengrün",
       "hex": "#343B29",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11809"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0248"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20067"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6008",
       "name": "Braungrün",
       "hex": "#39352A",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.016"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.317"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-81"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6009",
       "name": "Tannengrün",
       "hex": "#1E3932",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.980"
-        },
-        {
-          "brand": "gunze",
-          "code": "H319"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H319"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6010",
       "name": "Grasgrün",
       "hex": "#35682D",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "131"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS34052"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11919"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6011",
       "name": "Resedagrün",
       "hex": "#587246",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0003"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.891"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C122"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6012",
       "name": "Schwarzgrün",
       "hex": "#343E40",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C330"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-42"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11864"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6013",
       "name": "Schilfgrün",
       "hex": "#6B5D54",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0066"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.988"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.760"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6014",
       "name": "Gelboliv",
       "hex": "#47402E",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0111"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11408"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0083"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6015",
       "name": "Schwarzoliv",
       "hex": "#3D4035",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11824"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11821"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.886"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6016",
       "name": "Türkisgrün",
       "hex": "#004F51",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS34128"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS34092"
-        },
-        {
-          "brand": "humbrol",
-          "code": "230"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6017",
       "name": "Maigrün",
       "hex": "#4C7C59",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20076"
-        },
-        {
-          "brand": "gunze",
-          "code": "H336"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H336"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6018",
       "name": "Gelbgrün",
       "hex": "#92C83E",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS34201"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF4"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20082"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6019",
       "name": "Weißgrün",
       "hex": "#BDECB6",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "36"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11880"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF12"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6020",
       "name": "Chromoxidgrün",
       "hex": "#2E5F3F",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS34031"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS34052"
-        },
-        {
-          "brand": "gunze",
-          "code": "H94"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6021",
       "name": "Blassgrün",
       "hex": "#89AC76",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0916"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C127"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0244"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6022",
       "name": "Braunoliv",
       "hex": "#25221B",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11306"
-        },
-        {
-          "brand": "humbrol",
-          "code": "163"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF69"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6024",
       "name": "Verkehrsgrün",
       "hex": "#308446",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C66"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C138"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C175"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6025",
       "name": "Farngrün",
       "hex": "#3D642D",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20074"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20075"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11308"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6026",
       "name": "Opalgrün",
       "hex": "#003D14",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0054"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0052"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0092"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6027",
       "name": "Lichtgrün",
       "hex": "#84C5C1",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "128"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11879"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.095"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6028",
       "name": "Kieferngrün",
       "hex": "#2D5016",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0230"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0060"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11915"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6029",
       "name": "Minzgrün",
       "hex": "#20603D",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H26"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H26"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.025"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6031",
       "name": "Bronzegrün",
       "hex": "#485746",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C129"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.097"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11838"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6032",
       "name": "Signalgrün",
       "hex": "#317F43",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C66"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C138"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C175"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6033",
       "name": "Minttürkis",
       "hex": "#497E76",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.332"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0023"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF65"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6034",
       "name": "Pastelltürkis",
       "hex": "#7FB069",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0916"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20082"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C127"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6035",
       "name": "Perlgrün",
       "hex": "#1B542D",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C6"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF61"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF27"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6036",
       "name": "Perlopalgrün",
       "hex": "#193737",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H319"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H319"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.088"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6037",
       "name": "Reingrün",
       "hex": "#008941",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20090"
-        },
-        {
-          "brand": "humbrol",
-          "code": "2"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS14052"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6038",
       "name": "Leuchtgrün",
       "hex": "#00BB2D",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS14052"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS14115"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS24052"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6039",
       "name": "Fasergrün",
       "hex": "#b3c53f",
-      "equivalents": [
-        {
-          "brand": "tamiya",
-          "code": "XF4"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0221"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS34201"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL6040",
       "name": "Helloliv",
       "hex": "#827E58",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11914"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0928"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0933"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7000",
       "name": "Fehgrau",
       "hex": "#78858B",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H61"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H61"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11843"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7001",
       "name": "Silbergrau",
       "hex": "#8B8680",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11365"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.030"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11891"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7002",
       "name": "Olivgrau",
       "hex": "#7A7B7D",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20145"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11886"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-01"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7003",
       "name": "Moosgrau",
       "hex": "#6E6E70",
-      "equivalents": [
-        {
-          "brand": "tamiya",
-          "code": "XF56"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0254"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11426"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7004",
       "name": "Signalgrau",
       "hex": "#969992",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "72.145"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C128"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0194"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7005",
       "name": "Mausgrau",
       "hex": "#595959",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.818"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.856"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.981"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7006",
       "name": "Beigegrau",
       "hex": "#6B5D52",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0066"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.760"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.821"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7008",
       "name": "Khakigrau",
       "hex": "#5B5B5B",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.826"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.888"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS16473"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7009",
       "name": "Grüngrau",
       "hex": "#4D5645",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "69.062"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.097"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11838"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7010",
       "name": "Zeltgrau",
       "hex": "#4C514A",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.758"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.897"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.097"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7011",
       "name": "Eisengrau",
       "hex": "#434B4D",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C331"
-        },
-        {
-          "brand": "gunze",
-          "code": "H317"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H317"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7012",
       "name": "Basaltgrau",
       "hex": "#4E5754",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.337"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C36"
-        },
-        {
-          "brand": "humbrol",
-          "code": "244"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7013",
       "name": "Braungrau",
       "hex": "#464B4E",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C331"
-        },
-        {
-          "brand": "humbrol",
-          "code": "243"
-        },
-        {
-          "brand": "gunze",
-          "code": "H317"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7015",
       "name": "Schiefergrau",
       "hex": "#70747E",
-      "equivalents": [
-        {
-          "brand": "tamiya",
-          "code": "XF87"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0909"
-        },
-        {
-          "brand": "humbrol",
-          "code": "5"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7016",
       "name": "Anthrazitgrau",
       "hex": "#293133",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "72.148"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C361"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-41"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7021",
       "name": "Schwarzgrau",
       "hex": "#23282D",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0008"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11431"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.092"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7022",
       "name": "Umbragrau",
       "hex": "#332F2C",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "69.036"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C42"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-67"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7023",
       "name": "Betongrau",
       "hex": "#686C70",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11426"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11855"
-        },
-        {
-          "brand": "gunze",
-          "code": "H306"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7024",
       "name": "Graphitgrau",
       "hex": "#474A51",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.049"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11850"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.101"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7026",
       "name": "Granitgrau",
       "hex": "#2F353B",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C301"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11819"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C71"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7030",
       "name": "Steingrau",
       "hex": "#8B8B7A",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11811"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.030"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.142"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7031",
       "name": "Blaugrau",
       "hex": "#474B4E",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C331"
-        },
-        {
-          "brand": "humbrol",
-          "code": "243"
-        },
-        {
-          "brand": "gunze",
-          "code": "H317"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7032",
       "name": "Kieselgrau",
       "hex": "#B8B6AA",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11890"
-        },
-        {
-          "brand": "vallejo",
-          "code": "76.031"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.003"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7033",
       "name": "Zementgrau",
       "hex": "#7B8578",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C332"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.312"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.313"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7034",
       "name": "Gelbgrau",
       "hex": "#999875",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.054"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.067"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20143"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7035",
       "name": "Lichtgrau",
       "hex": "#CBD5E0",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0231"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20127"
-        },
-        {
-          "brand": "humbrol",
-          "code": "65"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7036",
       "name": "Platingrau",
       "hex": "#7B8B99",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS36314"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11830"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11887"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7037",
       "name": "Staubgrau",
       "hex": "#585C66",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.062"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.071"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0908"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7038",
       "name": "Achatgrau",
       "hex": "#B5B3AA",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "76.031"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11890"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.025"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7039",
       "name": "Quarzgrau",
       "hex": "#6B6D70",
-      "equivalents": [
-        {
-          "brand": "tamiya",
-          "code": "XF56"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11426"
-        },
-        {
-          "brand": "gunze",
-          "code": "H306"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7040",
       "name": "Fenstergrau",
       "hex": "#9DA1AA",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.051"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.064"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF54"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7042",
       "name": "Verkehrsgrau A",
       "hex": "#8D9BA6",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.925"
-        },
-        {
-          "brand": "vallejo",
-          "code": "76.021"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.329"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7043",
       "name": "Verkehrsgrau B",
       "hex": "#3D3D3D",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11872"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.042"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11823"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7044",
       "name": "Seidengrau",
       "hex": "#CAC4B0",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "72.056"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.136"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.107"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7045",
       "name": "Telegrau 1",
       "hex": "#909CA0",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11888"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.925"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.329"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7046",
       "name": "Telegrau 2",
       "hex": "#82888F",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11887"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0246"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0207"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7047",
       "name": "Telegrau 4",
       "hex": "#D0CFCC",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.796"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.861"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.950"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7048",
       "name": "Perlmausgrau",
       "hex": "#888175",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "69.032"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.312"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.313"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL7050",
       "name": "Tarngrau",
       "hex": "#82887A",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11891"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.312"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.313"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8000",
       "name": "Grünbraun",
       "hex": "#8B6914",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS20100"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11440"
-        },
-        {
-          "brand": "humbrol",
-          "code": "26"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8001",
       "name": "Ockerbraun",
       "hex": "#9B7653",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11331"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0102"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11340"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8002",
       "name": "Signalbraun",
       "hex": "#6C4F28",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0190"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11385"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0071"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8003",
       "name": "Lehmbraun",
       "hex": "#734222",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0064"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0190"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11385"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8004",
       "name": "Kupferbraun",
       "hex": "#8B4513",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS20140"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS30097"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS30111"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8007",
       "name": "Rehbraun",
       "hex": "#59351F",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0079"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11805"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11338"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8008",
       "name": "Olivbraun",
       "hex": "#6F4E37",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11435"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF68"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0073"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8011",
       "name": "Nussbraun",
       "hex": "#5B4423",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11417"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0133"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0187"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8012",
       "name": "Rotbraun",
       "hex": "#592321",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11328"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0912"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11405"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8014",
       "name": "Sepiabraun",
       "hex": "#472B1F",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0108"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11419"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20058"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8015",
       "name": "Kastanienbraun",
       "hex": "#3C352B",
-      "equivalents": [
-        {
-          "brand": "rlm",
-          "code": "RLM-81"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.016"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.317"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8016",
       "name": "Mahagonibraun",
       "hex": "#2E1F14",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0110"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0034"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C131"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8017",
       "name": "Schokoladen­braun",
       "hex": "#45342E",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.271"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.272"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.606"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8019",
       "name": "Graubraun",
       "hex": "#403C37",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.250"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.044"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11823"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8022",
       "name": "Schwarzbraun",
       "hex": "#1F1A17",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "72.094"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11387"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11418"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8023",
       "name": "Orangebraun",
       "hex": "#A65E56",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "56"
-        },
-        {
-          "brand": "humbrol",
-          "code": "49"
-        },
-        {
-          "brand": "humbrol",
-          "code": "64"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8024",
       "name": "Beigebraun",
       "hex": "#79553D",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20050"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.746"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0202"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8025",
       "name": "Blassbraun",
       "hex": "#755D48",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C119"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.026"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11343"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8027",
       "name": "Lederbraun",
       "hex": "#504938",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.140"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.001"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.010"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8028",
       "name": "Terrabraun",
       "hex": "#3F3B37",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.250"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11823"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.886"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8029",
       "name": "Perlkupfer",
       "hex": "#763D2E",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.797"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11401"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0064"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL8031",
       "name": "Sandbraun",
       "hex": "#B49D7B",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0038"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0025"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0067"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9001",
       "name": "Cremeweiß",
       "hex": "#FDF4E6",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C69"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0122"
-        },
-        {
-          "brand": "gunze",
-          "code": "H21"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9002",
       "name": "Grauweiß",
       "hex": "#E7EBEE",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS36628"
-        },
-        {
-          "brand": "humbrol",
-          "code": "191"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C183"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9003",
       "name": "Signalweiß",
       "hex": "#F4F4EE",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C69"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS17875"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS17925"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9004",
       "name": "Signalschwarz",
       "hex": "#282828",
-      "equivalents": [
-        {
-          "brand": "rlm",
-          "code": "RLM-82"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.892"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.896"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9005",
       "name": "Tiefschwarz",
       "hex": "#0A0E27",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "72.096"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0099"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11432"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9006",
       "name": "Weißaluminium",
       "hex": "#A5A5A5",
-      "equivalents": [
-        {
-          "brand": "ammo",
-          "code": "MIG-0075"
-        },
-        {
-          "brand": "gunze",
-          "code": "H51"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H51"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9007",
       "name": "Graualuminium",
       "hex": "#8A7D7B",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11891"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS26152"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS36152"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9010",
       "name": "Reinweiß",
       "hex": "#FFFFFF",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11372"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0024"
-        },
-        {
-          "brand": "ammo",
-          "code": "MIG-0047"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9011",
       "name": "Graphitschwarz",
       "hex": "#081017",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C125"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11407"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.096"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9012",
       "name": "Reinraumweiß",
       "hex": "#FFFDE6",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H21"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H21"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-21"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9016",
       "name": "Verkehrsweiß",
       "hex": "#F8F8F8",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS17875"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS17925"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS37875"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9017",
       "name": "Verkehrsschwarz",
       "hex": "#2A2A2A",
-      "equivalents": [
-        {
-          "brand": "rlm",
-          "code": "RLM-75"
-        },
-        {
-          "brand": "gunze",
-          "code": "H78"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H78"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9018",
       "name": "Papyrusweiß",
       "hex": "#D7D8D7",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "76.042"
-        },
-        {
-          "brand": "vallejo",
-          "code": "76.115"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.810"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9020",
       "name": "Seidenmatt–Weiß",
       "hex": "#FDFDFD",
-      "equivalents": [
-        {
-          "brand": "tamiya",
-          "code": "XF2"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF86"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C1"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9021",
       "name": "Teerschwarz",
       "hex": "#01050E",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C125"
-        },
-        {
-          "brand": "gunze",
-          "code": "H18"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H18"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9022",
       "name": "Perlhellgrau",
       "hex": "#9C9C9C",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11848"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20131"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11867"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     },
     {
       "code": "RAL9023",
       "name": "Perldunkelgrau",
       "hex": "#7E8182",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS26152"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS36152"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS36173"
-        }
-      ],
+      "equivalents": [],
       "confidence": null
     }
   ]

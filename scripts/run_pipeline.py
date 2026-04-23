@@ -5,7 +5,7 @@ Supports running all parsers or individual ones via CLI arguments.
 
 Usage:
   python3 scripts/run_pipeline.py                    # Run all
-  python3 scripts/run_pipeline.py mr_hobby           # Run Mr. Hobby only
+  python3 scripts/run_pipeline.py mr_color           # Run Mr. Color only
     python3 scripts/run_pipeline.py ammo               # Run Ammo by Mig only
   python3 scripts/run_pipeline.py ammo-atom          # Run Ammo-Atom only
     python3 scripts/run_pipeline.py hobby_color             # Run Aqueous Hobby color only
@@ -16,6 +16,7 @@ Usage:
 import json
 import sys
 import argparse
+import time
 from pathlib import Path
 import importlib.util
 from collections import Counter
@@ -43,10 +44,10 @@ def load_module(module_name, file_path):
 
 
 # Import modules - handle hyphenated folder names
-parse_mr_hobby = load_module(
-    "parse_mr_hobby", SCRIPT_DIR / "source/mr_hobby/__main__.py"
+parse_mr_color = load_module(
+    "parse_mr_color", SCRIPT_DIR / "source/mr_color/__main__.py"
 )
-parse_mr_hobby_images = parse_mr_hobby.process_mr_hobby_images
+parse_mr_color_images = parse_mr_color.process_mr_color_images
 
 parse_ammo = load_module("parse_ammo", SCRIPT_DIR / "source/ammo/__main__.py")
 parse_ammo_images = parse_ammo.parse_ammo_images
@@ -76,6 +77,9 @@ parse_humbrol_images = parse_humbrol.parse_humbrol_images
 parse_vallejo = load_module("parse_vallejo", SCRIPT_DIR / "source/valejo/__main__.py")
 parse_vallejo_images = parse_vallejo.parse_vallejo_images
 
+parse_hataka = load_module("parse_hataka", SCRIPT_DIR / "source/hataka/__main__.py")
+parse_hataka_images = parse_hataka.parse_hataka_images
+
 parse_federal_standard = load_module(
     "parse_federal_standard", SCRIPT_DIR / "source/federal_standard/__main__.py"
 )
@@ -83,24 +87,6 @@ parse_federal_standard_colors = parse_federal_standard.FederalStandardScraper
 
 parse_ral = load_module("parse_ral", SCRIPT_DIR / "source/ral/__main__.py")
 parse_ral_colors = parse_ral.RALScraper
-
-
-def load_equivalents(equivalents_file):
-    """Load equivalents mapping from JSON file."""
-    with open(equivalents_file, encoding="utf-8") as f:
-        return json.load(f)
-
-
-def merge_equivalents(colors, equivalents_map, brand_id):
-    """Merge equivalents from mapping into colors."""
-    brand_equivs = equivalents_map.get(brand_id, {})
-
-    for color in colors:
-        code = color.get("code")
-        if code and code in brand_equivs:
-            color["equivalents"] = brand_equivs[code]
-
-    return colors
 
 
 def format_colors(colors, brand_name, brand_id):
@@ -171,39 +157,49 @@ def get_parser_stats(brand_id):
         return None
 
 
-def display_parser_stats(stats_data):
+def display_parser_stats(stats_data, timings=None):
     """Display parser statistics in a formatted table using rich."""
     if not stats_data:
         return
+
+    if timings is None:
+        timings = {}
 
     table = Table(title="📊 Parser Statistics Summary")
     table.add_column("Brand", style="cyan", no_wrap=True)
     table.add_column("Total Items", justify="right", style="green")
     table.add_column("Unique", justify="right", style="blue")
     table.add_column("Duplicates", justify="right", style="yellow")
+    table.add_column("Time (s)", justify="right", style="magenta")
 
     total_items = 0
     total_unique = 0
     total_duplicates = 0
+    total_time = sum(timings.values())
 
     for brand_id, stats in sorted(stats_data.items()):
         if stats:
+            t = timings.get(brand_id)
+            time_str = f"{t:.1f}" if t is not None else "-"
             table.add_row(
                 brand_id,
                 str(stats["total"]),
                 str(stats["unique"]),
                 str(stats["duplicates"]),
+                time_str,
             )
             total_items += stats["total"]
             total_unique += stats["unique"]
             total_duplicates += stats["duplicates"]
 
     # Add totals row
+    total_time_str = f"{total_time:.1f}" if timings else "-"
     table.add_row(
         "[bold]TOTAL[/bold]",
         f"[bold green]{total_items}[/bold green]",
         f"[bold blue]{total_unique}[/bold blue]",
         f"[bold yellow]{total_duplicates}[/bold yellow]",
+        f"[bold magenta]{total_time_str}[/bold magenta]",
     )
 
     console.print(table)
@@ -233,21 +229,12 @@ def display_parser_stats(stats_data):
 
 
 def run_parser(brand_id, parser_func, source_dir, output_file, brand_name):
-    """Run a single parser and format results."""
+    """Run a single parser and format results. Returns (success, elapsed_seconds)."""
     console.print(f"[cyan]\n{brand_id.upper()}[/cyan]: {brand_name}...")
+    t_start = time.monotonic()
     try:
         colors = parser_func(Path(source_dir), Path(output_file))
         if colors:
-            # Load equivalents
-            equiv_file = Path("data/equivalents.json")
-            equivalents = {}
-            if equiv_file.exists():
-                with open(equiv_file, encoding="utf-8") as f:
-                    equivalents = json.load(f)
-
-            # Merge equivalents into colors
-            colors = merge_equivalents(colors, equivalents, brand_id)
-
             # Format for frontend
             formatted = format_colors(colors, brand_name, brand_id)
 
@@ -256,17 +243,22 @@ def run_parser(brand_id, parser_func, source_dir, output_file, brand_name):
             with open(output_file, "w", encoding="utf-8") as f:
                 json.dump(formatted, f, indent=2, ensure_ascii=False)
 
-            console.print(f"   [green]✅ {len(colors)} colors extracted[/green]")
-            return True
+            elapsed = time.monotonic() - t_start
+            console.print(
+                f"   [green]✅ {len(colors)} colors extracted[/green] [dim]({elapsed:.1f}s)[/dim]"
+            )
+            return True, elapsed
         else:
+            elapsed = time.monotonic() - t_start
             console.print("   [yellow]⚠️  No colors extracted[/yellow]")
-            return False
+            return False, elapsed
     except Exception as err:
+        elapsed = time.monotonic() - t_start
         console.print(f"   [red]❌ Error: {err}[/red]")
         import traceback
 
         traceback.print_exc()
-        return False
+        return False, elapsed
 
 
 def run_all_parsers():
@@ -308,11 +300,11 @@ def run_all_parsers():
             "Ammo by Mig Atom",
         ),
         (
-            "mr_hobby",
-            parse_mr_hobby_images,
-            "source/mr_hobby",
-            "data/pack_mr_hobby.json",
-            "Mr. Hobby",
+            "mr_color",
+            parse_mr_color_images,
+            "source/mr_color",
+            "data/pack_mr_color.json",
+            "Mr. Color",
         ),
         (
             "hobby_color",
@@ -356,19 +348,34 @@ def run_all_parsers():
             "data/pack_vallejo.json",
             "Vallejo",
         ),
+        (
+            "hataka",
+            parse_hataka_images,
+            "source/hataka",
+            "data/pack_hataka.json",
+            "Hataka",
+        ),
     ]
 
     # Run selected or all parsers
     success_count = 0
+    timings = {}
+    pipeline_start = time.monotonic()
     for brand_id, parser_func, source_dir, output_file, brand_name in parsers:
-        if run_parser(brand_id, parser_func, source_dir, output_file, brand_name):
+        success, elapsed = run_parser(
+            brand_id, parser_func, source_dir, output_file, brand_name
+        )
+        timings[brand_id] = elapsed
+        if success:
             success_count += 1
 
+    total_elapsed = time.monotonic() - pipeline_start
     console.print("\n[cyan]" + "=" * 50 + "[/cyan]")
     total = len(parsers)
     console.print(
         f"[green]✅ Pipeline complete! ({success_count}/{total} parsers succeeded)[/green]"
     )
+    console.print(f"[blue]⏱  Total time: {total_elapsed:.1f}s[/blue]")
     console.print("[blue]📁 Results saved to data/[/blue]\n")
 
     # Collect and display stats
@@ -376,25 +383,25 @@ def run_all_parsers():
     for brand_id, _, _, _, _ in parsers:
         stats_data[brand_id] = get_parser_stats(brand_id)
 
-    display_parser_stats(stats_data)
+    display_parser_stats(stats_data, timings)
 
 
 def run_single_parser(brand):
     """Run a single parser by brand name."""
     parsers = {
-        "mr_hobby": (
-            "mr_hobby",
-            parse_mr_hobby_images,
-            "source/mr_hobby",
-            "data/pack_mr_hobby.json",
-            "Mr. Hobby",
+        "mr_color": (
+            "mr_color",
+            parse_mr_color_images,
+            "source/mr_color",
+            "data/pack_mr_color.json",
+            "Mr. Color",
         ),
-        "mr-hobby": (
-            "mr_hobby",
-            parse_mr_hobby_images,
-            "source/mr_hobby",
-            "data/pack_mr_hobby.json",
-            "Mr. Hobby",
+        "mr-color": (
+            "mr_color",
+            parse_mr_color_images,
+            "source/mr_color",
+            "data/pack_mr_color.json",
+            "Mr. Color",
         ),
         "ammo": (
             "ammo",
@@ -487,6 +494,13 @@ def run_single_parser(brand):
             "data/pack_vallejo.json",
             "Vallejo",
         ),
+        "hataka": (
+            "hataka",
+            parse_hataka_images,
+            "source/hataka",
+            "data/pack_hataka.json",
+            "Hataka",
+        ),
         "federal_standard": (
             "federal_standard",
             lambda p, o: _run_federal_standard(Path(o)),
@@ -528,15 +542,19 @@ def run_single_parser(brand):
     console.print("[cyan]" + "=" * 50 + "[/cyan]")
 
     brand_id, parser_func, source_dir, output_file, brand_name = parsers[brand]
-    if run_parser(brand_id, parser_func, source_dir, output_file, brand_name):
+    success, elapsed = run_parser(
+        brand_id, parser_func, source_dir, output_file, brand_name
+    )
+    if success:
         console.print(f"\n[cyan]" + "=" * 50 + "[/cyan]")
-        console.print(f"[green]✅ Pipeline complete for {brand}[/green]\n")
+        console.print(f"[green]✅ Pipeline complete for {brand}[/green]")
+        console.print(f"[blue]⏱  Time: {elapsed:.1f}s[/blue]\n")
 
         # Display stats for this brand
         stats = get_parser_stats(brand_id)
         if stats:
             stats_data = {brand_id: stats}
-            display_parser_stats(stats_data)
+            display_parser_stats(stats_data, {brand_id: elapsed})
     else:
         console.print(f"\n[red]❌ Pipeline failed for {brand}[/red]")
         sys.exit(1)
@@ -552,7 +570,7 @@ if __name__ == "__main__":
         default=None,
         help=(
             "Brand to parse "
-            "(mr_hobby, ammo, ammo-atom, gunze, tamiya, ak, rlm, humbrol, vallejo) - omit to run all"
+            "(mr_color, ammo, ammo-atom, gunze, tamiya, ak, rlm, humbrol, vallejo) - omit to run all"
         ),
     )
 

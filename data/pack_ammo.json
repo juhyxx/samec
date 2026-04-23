@@ -10,16 +10,16 @@
       "hex": "#2e3425",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11415"
+          "brand": "TAMIYA",
+          "code": "XF61"
         },
         {
-          "brand": "ak",
-          "code": "AK11420"
+          "brand": "MODEL COLOR",
+          "code": "70.888"
         },
         {
-          "brand": "ak",
-          "code": "AK11305"
+          "brand": "RAL",
+          "code": "RAL 6003"
         }
       ],
       "confidence": 0.8177809291930267
@@ -30,16 +30,32 @@
       "hex": "#47512a",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20077"
+          "brand": "HOBBY COLOR",
+          "code": "H48"
         },
         {
-          "brand": "ak",
-          "code": "AK11350"
+          "brand": "MR.COLOR",
+          "code": "C52"
         },
         {
-          "brand": "ak",
-          "code": "AK11428"
+          "brand": "TAMIYA",
+          "code": "XF65"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.890"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.092"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34082"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 6003"
         }
       ],
       "confidence": 0.8039895164911844
@@ -50,16 +66,28 @@
       "hex": "#5c6e44",
       "equivalents": [
         {
-          "brand": "vallejo",
+          "brand": "HOBBY COLOR",
+          "code": "H312"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C312"
+        },
+        {
+          "brand": "MODEL COLOR",
           "code": "70.891"
         },
         {
-          "brand": "ral",
-          "code": "RAL6011"
+          "brand": "MODEL AIR",
+          "code": "71.126"
         },
         {
-          "brand": "vallejo",
-          "code": "71.096"
+          "brand": "Federal Standard",
+          "code": "FS 34227"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 6011"
         }
       ],
       "confidence": 0.8947584006661146
@@ -70,16 +98,16 @@
       "hex": "#47512a",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20077"
+          "brand": "HOBBY COLOR",
+          "code": "H340"
         },
         {
-          "brand": "ak",
-          "code": "AK11350"
+          "brand": "MR.COLOR",
+          "code": "C340"
         },
         {
-          "brand": "ak",
-          "code": "AK11428"
+          "brand": "RAL",
+          "code": "RAL 6011"
         }
       ],
       "confidence": 0.9856195091800695
@@ -90,16 +118,12 @@
       "hex": "#564e36",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C12"
+          "brand": "MODEL AIR",
+          "code": "71.116"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C132"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.762"
+          "brand": "RAL",
+          "code": "RAL 7008"
         }
       ],
       "confidence": 0.8003193650396019
@@ -110,16 +134,8 @@
       "hex": "#7b7648",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11383"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11354"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11905"
+          "brand": "RAL",
+          "code": "RAL 7008"
         }
       ],
       "confidence": 0.7670371401430021
@@ -130,16 +146,16 @@
       "hex": "#493a2d",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11373"
+          "brand": "MODEL COLOR",
+          "code": "70.347"
         },
         {
-          "brand": "ak",
-          "code": "AK11408"
+          "brand": "MODEL AIR",
+          "code": "71.248"
         },
         {
-          "brand": "ak",
-          "code": "AK11301"
+          "brand": "RAL",
+          "code": "RAL 7017"
         }
       ],
       "confidence": 0.7917988360441458
@@ -150,16 +166,20 @@
       "hex": "#21272e",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL7021"
+          "brand": "HOBBY COLOR",
+          "code": "H401"
         },
         {
-          "brand": "ak",
-          "code": "AK11431"
+          "brand": "MODEL COLOR",
+          "code": "70.862"
         },
         {
-          "brand": "vallejo",
-          "code": "71.092"
+          "brand": "MODEL AIR",
+          "code": "71.056"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 7021"
         }
       ],
       "confidence": 0.8499897063847718
@@ -170,16 +190,16 @@
       "hex": "#b6a48a",
       "equivalents": [
         {
-          "brand": "humbrol",
-          "code": "237"
+          "brand": "HOBBY COLOR",
+          "code": "H321"
         },
         {
-          "brand": "tamiya",
-          "code": "XF78"
+          "brand": "MR.COLOR",
+          "code": "C321"
         },
         {
-          "brand": "ral",
-          "code": "RAL1040"
+          "brand": "RAL",
+          "code": "RAL 7027"
         }
       ],
       "confidence": 0.8349307573567286
@@ -190,16 +210,20 @@
       "hex": "#948440",
       "equivalents": [
         {
-          "brand": "tamiya",
-          "code": "XF49"
+          "brand": "HOBBY COLOR",
+          "code": "H403"
         },
         {
-          "brand": "gunze",
-          "code": "H58"
+          "brand": "TAMIYA",
+          "code": "XF60"
         },
         {
-          "brand": "hobby_color",
-          "code": "H58"
+          "brand": "MODEL AIR",
+          "code": "71.025"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 7028"
         }
       ],
       "confidence": 0.8168112119803048
@@ -210,16 +234,16 @@
       "hex": "#beb17e",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS30279"
+          "brand": "MODEL COLOR",
+          "code": "70.978"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS30372"
+          "brand": "Federal Standard",
+          "code": "FS 33440"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS33303"
+          "brand": "RAL",
+          "code": "RAL 7028"
         }
       ],
       "confidence": 0.8339979683199066
@@ -230,16 +254,8 @@
       "hex": "#d1c49d",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL1039"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20010"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11345"
+          "brand": "RAL",
+          "code": "RAL 7028"
         }
       ],
       "confidence": 0.7657345843303225
@@ -250,16 +266,28 @@
       "hex": "#a0886d",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "71.134"
+          "brand": "HOBBY COLOR",
+          "code": "H27"
         },
         {
-          "brand": "vallejo",
-          "code": "71.143"
+          "brand": "MR.COLOR",
+          "code": "C44"
         },
         {
-          "brand": "vallejo",
-          "code": "71.053"
+          "brand": "TAMIYA",
+          "code": "XF57"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.879"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.272"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 8000"
         }
       ],
       "confidence": 0.8872687640316922
@@ -270,16 +298,32 @@
       "hex": "#722e19",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20048"
+          "brand": "HOBBY COLOR",
+          "code": "H47"
         },
         {
-          "brand": "vallejo",
-          "code": "70.926"
+          "brand": "HOBBY COLOR",
+          "code": "H460"
         },
         {
-          "brand": "vallejo",
-          "code": "76.012"
+          "brand": "MR.COLOR",
+          "code": "C41"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF64"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.814"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.271"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 8012"
         }
       ],
       "confidence": 0.8992119208345375
@@ -290,16 +334,28 @@
       "hex": "#442d28",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H37"
+          "brand": "HOBBY COLOR",
+          "code": "H406"
         },
         {
-          "brand": "hobby_color",
-          "code": "H37"
+          "brand": "TAMIYA",
+          "code": "XF10"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20061"
+          "brand": "MODEL COLOR",
+          "code": "70.985"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.041"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 30059"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 8017"
         }
       ],
       "confidence": 0.9348090516885534
@@ -310,16 +366,8 @@
       "hex": "#dabb75",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "72.055"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11361"
-        },
-        {
-          "brand": "gunze",
-          "code": "H313"
+          "brand": "RAL",
+          "code": "RAL 8020"
         }
       ],
       "confidence": 0.9993808796690595
@@ -330,16 +378,16 @@
       "hex": "#eee7bb",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL1013"
+          "brand": "MODEL COLOR",
+          "code": "70.918"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C311"
+          "brand": "MODEL AIR",
+          "code": "71.270"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20002"
+          "brand": "RAL",
+          "code": "RAL 9001"
         }
       ],
       "confidence": 0.8029262908088419
@@ -348,20 +396,7 @@
       "code": "MIG-0018",
       "name": "POLIZEI GRUN",
       "hex": "#38594f",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H50"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H50"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-25"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9511629782158229
     },
     {
@@ -370,16 +405,12 @@
       "hex": "#474727",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11309"
+          "brand": "MODEL COLOR",
+          "code": "70.924"
         },
         {
-          "brand": "ak",
-          "code": "AK11375"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11350"
+          "brand": "MODEL AIR",
+          "code": "71.017"
         }
       ],
       "confidence": 0.8321812082584463
@@ -390,16 +421,12 @@
       "hex": "#352b25",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H72"
+          "brand": "MODEL COLOR",
+          "code": "70.941"
         },
         {
-          "brand": "hobby_color",
-          "code": "H72"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.036"
+          "brand": "MODEL AIR",
+          "code": "71.282"
         }
       ],
       "confidence": 0.7137058847217022
@@ -410,16 +437,12 @@
       "hex": "#635438",
       "equivalents": [
         {
-          "brand": "tamiya",
-          "code": "XF79"
+          "brand": "MODEL COLOR",
+          "code": "70.310"
         },
         {
-          "brand": "vallejo",
-          "code": "76.063"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.026"
+          "brand": "MODEL AIR",
+          "code": "71.283"
         }
       ],
       "confidence": 0.7629879281522803
@@ -430,16 +453,12 @@
       "hex": "#362c18",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11369"
+          "brand": "MODEL COLOR",
+          "code": "70.337"
         },
         {
-          "brand": "ak",
-          "code": "AK11310"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.040"
+          "brand": "MODEL AIR",
+          "code": "71.281"
         }
       ],
       "confidence": 0.8987457852144007
@@ -450,16 +469,20 @@
       "hex": "#547b70",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C306"
+          "brand": "HOBBY COLOR",
+          "code": "H312"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C307"
+          "brand": "MR.COLOR",
+          "code": "C312"
         },
         {
-          "brand": "ral",
-          "code": "RAL6033"
+          "brand": "TAMIYA",
+          "code": "XF71"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34227"
         }
       ],
       "confidence": 0.9196678210854866
@@ -468,20 +491,7 @@
       "code": "MIG-0024",
       "name": "WASHABLE WHITE CAMO",
       "hex": "#ffffff",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11372"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20000"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20001"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9052755254606667
     },
     {
@@ -490,16 +500,16 @@
       "hex": "#bd9b76",
       "equivalents": [
         {
-          "brand": "tamiya",
-          "code": "XF57"
+          "brand": "MODEL COLOR",
+          "code": "70.819"
         },
         {
-          "brand": "ral",
-          "code": "RAL8031"
+          "brand": "MODEL AIR",
+          "code": "71.140"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20173"
+          "brand": "Federal Standard",
+          "code": "FS 33446"
         }
       ],
       "confidence": 0.8692486542406496
@@ -510,16 +520,24 @@
       "hex": "#bd9882",
       "equivalents": [
         {
-          "brand": "tamiya",
-          "code": "XF57"
+          "brand": "HOBBY COLOR",
+          "code": "H44"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20043"
+          "brand": "MR.COLOR",
+          "code": "C51"
         },
         {
-          "brand": "ral",
-          "code": "RAL8031"
+          "brand": "MODEL COLOR",
+          "code": "70.977"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.117"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 8031"
         }
       ],
       "confidence": 0.9164332207636301
@@ -530,16 +548,16 @@
       "hex": "#baa36d",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS20260"
+          "brand": "MODEL COLOR",
+          "code": "70.917"
         },
         {
-          "brand": "gunze",
-          "code": "H85"
+          "brand": "MODEL AIR",
+          "code": "71.244"
         },
         {
-          "brand": "hobby_color",
-          "code": "H85"
+          "brand": "RAL",
+          "code": "RAL 1039"
         }
       ],
       "confidence": 0.8798570935583429
@@ -550,16 +568,16 @@
       "hex": "#716a5b",
       "equivalents": [
         {
-          "brand": "rlm",
-          "code": "RLM-02-1"
+          "brand": "MODEL COLOR",
+          "code": "70.821"
         },
         {
-          "brand": "vallejo",
-          "code": "70.884"
+          "brand": "MODEL AIR",
+          "code": "71.131"
         },
         {
-          "brand": "vallejo",
-          "code": "70.987"
+          "brand": "RAL",
+          "code": "RAL 1039"
         }
       ],
       "confidence": 0.8090848617483088
@@ -568,20 +586,7 @@
       "code": "MIG-0029",
       "name": "DESERT SAND",
       "hex": "#bca36e",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS20260"
-        },
-        {
-          "brand": "gunze",
-          "code": "H85"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H85"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.787442521611621
     },
     {
@@ -590,16 +595,12 @@
       "hex": "#c6964f",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11377"
+          "brand": "HOBBY COLOR",
+          "code": "H459"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20013"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-79"
+          "brand": "MODEL AIR",
+          "code": "71.143"
         }
       ],
       "confidence": 0.9324596726683503
@@ -610,16 +611,12 @@
       "hex": "#463f26",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11436"
+          "brand": "MODEL COLOR",
+          "code": "70.314"
         },
         {
-          "brand": "ak",
-          "code": "AK11897"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11901"
+          "brand": "MODEL AIR",
+          "code": "71.247"
         }
       ],
       "confidence": 0.8459947472041995
@@ -630,16 +627,20 @@
       "hex": "#0c0100",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20168"
+          "brand": "HOBBY COLOR",
+          "code": "H2"
         },
         {
-          "brand": "gunze",
-          "code": "H55"
+          "brand": "MR.COLOR",
+          "code": "C2"
         },
         {
-          "brand": "hobby_color",
-          "code": "H55"
+          "brand": "MR.COLOR",
+          "code": "C92"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.861"
         }
       ],
       "confidence": 0.8917614400012452
@@ -650,16 +651,20 @@
       "hex": "#343234",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "76.051"
+          "brand": "HOBBY COLOR",
+          "code": "H77"
         },
         {
-          "brand": "vallejo",
-          "code": "71.264"
+          "brand": "MR.COLOR",
+          "code": "C137"
         },
         {
-          "brand": "vallejo",
-          "code": "71.316"
+          "brand": "MODEL COLOR",
+          "code": "70.306"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.315"
         }
       ],
       "confidence": 0.836836936323343
@@ -670,16 +675,16 @@
       "hex": "#2f1f18",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C131"
+          "brand": "MODEL COLOR",
+          "code": "70.343"
         },
         {
-          "brand": "ral",
-          "code": "RAL8016"
+          "brand": "MODEL AIR",
+          "code": "71.080"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20063"
+          "brand": "Federal Standard",
+          "code": "FS 30111"
         }
       ],
       "confidence": 0.7435102949166156
@@ -690,16 +695,20 @@
       "hex": "#030101",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS17038"
+          "brand": "HOBBY COLOR",
+          "code": "H84"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS27038"
+          "brand": "MR.COLOR",
+          "code": "C42"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS37038"
+          "brand": "MODEL COLOR",
+          "code": "70.302"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.039"
         }
       ],
       "confidence": 0.8973972933351481
@@ -710,16 +719,8 @@
       "hex": "#b09466",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C44"
-        },
-        {
-          "brand": "gunze",
-          "code": "H85"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H85"
+          "brand": "MODEL AIR",
+          "code": "71.075"
         }
       ],
       "confidence": 0.809361553813807
@@ -730,16 +731,8 @@
       "hex": "#b49e6a",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H85"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H85"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20173"
+          "brand": "MODEL COLOR",
+          "code": "70.321"
         }
       ],
       "confidence": 0.863479496649831
@@ -750,16 +743,20 @@
       "hex": "#ad9d77",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C45"
+          "brand": "HOBBY COLOR",
+          "code": "H79"
         },
         {
-          "brand": "ral",
-          "code": "RAL8031"
+          "brand": "MR.COLOR",
+          "code": "C39"
         },
         {
-          "brand": "ak",
-          "code": "AK11319"
+          "brand": "TAMIYA",
+          "code": "XF78"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.028"
         }
       ],
       "confidence": 0.9427238757825807
@@ -770,16 +767,20 @@
       "hex": "#d3842a",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "76.007"
+          "brand": "HOBBY COLOR",
+          "code": "H24"
         },
         {
-          "brand": "vallejo",
-          "code": "69.033"
+          "brand": "MR.COLOR",
+          "code": "C58"
         },
         {
-          "brand": "vallejo",
-          "code": "72.086"
+          "brand": "MODEL COLOR",
+          "code": "70.911"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.130"
         }
       ],
       "confidence": 0.9282607019975198
@@ -790,16 +791,16 @@
       "hex": "#a14e31",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS20109"
+          "brand": "HOBBY COLOR",
+          "code": "H453"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS30045"
+          "brand": "MODEL COLOR",
+          "code": "70.981"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS30099"
+          "brand": "MODEL AIR",
+          "code": "71.129"
         }
       ],
       "confidence": 0.8954606846917166
@@ -810,16 +811,8 @@
       "hex": "#773823",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20048"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL8003"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-26"
+          "brand": "MODEL COLOR",
+          "code": "70.818"
         }
       ],
       "confidence": 0.8499781332422497
@@ -830,16 +823,12 @@
       "hex": "#392320",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "70.748"
-        },
-        {
-          "brand": "vallejo",
+          "brand": "MODEL COLOR",
           "code": "70.859"
         },
         {
-          "brand": "ak",
-          "code": "AK11384"
+          "brand": "MODEL AIR",
+          "code": "71.040"
         }
       ],
       "confidence": 0.8789476818943736
@@ -850,16 +839,8 @@
       "hex": "#2b1716",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "72.085"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.045"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C131"
+          "brand": "MODEL COLOR",
+          "code": "70.307"
         }
       ],
       "confidence": 0.9205747100613538
@@ -870,16 +851,8 @@
       "hex": "#030101",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS17038"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS27038"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS37038"
+          "brand": "MODEL COLOR",
+          "code": "70.304"
         }
       ],
       "confidence": 0.8498092133883416
@@ -890,16 +863,24 @@
       "hex": "#67666a",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20167"
+          "brand": "MODEL COLOR",
+          "code": "70.863"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS26081"
+          "brand": "MODEL AIR",
+          "code": "71.072"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS36076"
+          "brand": "Federal Standard",
+          "code": "FS 37200"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 9007"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-03"
         }
       ],
       "confidence": 0.8737723453154455
@@ -910,16 +891,36 @@
       "hex": "#1a130f",
       "equivalents": [
         {
-          "brand": "humbrol",
-          "code": "201"
+          "brand": "HOBBY COLOR",
+          "code": "H12"
         },
         {
-          "brand": "ak",
-          "code": "AK11418"
+          "brand": "MR.COLOR",
+          "code": "C33"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20163"
+          "brand": "TAMIYA",
+          "code": "XF1"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.950"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.057"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 37038"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 9005"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-22"
         }
       ],
       "confidence": 0.8570865947864038
@@ -930,16 +931,16 @@
       "hex": "#ffffff",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11372"
+          "brand": "HOBBY COLOR",
+          "code": "H1"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20000"
+          "brand": "MR.COLOR",
+          "code": "C1"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20001"
+          "brand": "MODEL COLOR",
+          "code": "70.842"
         }
       ],
       "confidence": 0.8672637126562037
@@ -950,16 +951,28 @@
       "hex": "#dcb235",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "72.006"
+          "brand": "HOBBY COLOR",
+          "code": "H4"
         },
         {
-          "brand": "vallejo",
-          "code": "70.953"
+          "brand": "MR.COLOR",
+          "code": "C4"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-04"
+          "brand": "TAMIYA",
+          "code": "XF3"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.915"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.002"
+        },
+        {
+          "brand": "RAL",
+          "code": "RAL 1023"
         }
       ],
       "confidence": 0.934655640927621
@@ -970,16 +983,40 @@
       "hex": "#a32a1d",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL3002"
+          "brand": "Federal Standard",
+          "code": "FS 31302"
         },
         {
-          "brand": "ral",
-          "code": "RAL3001"
+          "brand": "RAL",
+          "code": "RAL 3020"
         },
         {
-          "brand": "gunze",
-          "code": "H43"
+          "brand": "RLM",
+          "code": "RLM 23"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C3"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C79"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C114"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF7"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.909"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.003"
         }
       ],
       "confidence": 0.8014277567061185
@@ -990,16 +1027,32 @@
       "hex": "#ffffff",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11372"
+          "brand": "Federal Standard",
+          "code": "FS 37925"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20000"
+          "brand": "RAL",
+          "code": "RAL 9016"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20001"
+          "brand": "RLM",
+          "code": "RLM 21"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C62"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF2"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.951"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.001"
         }
       ],
       "confidence": 0.8372847648043484
@@ -1010,16 +1063,8 @@
       "hex": "#6f8c6c",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "69.028"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11801"
-        },
-        {
-          "brand": "vallejo",
-          "code": "69.027"
+          "brand": "MODEL COLOR",
+          "code": "70.336"
         }
       ],
       "confidence": 0.8281505122645617
@@ -1030,16 +1075,12 @@
       "hex": "#003724",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20092"
+          "brand": "MODEL COLOR",
+          "code": "70.970"
         },
         {
-          "brand": "ral",
-          "code": "RAL6026"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11903"
+          "brand": "MODEL AIR",
+          "code": "71.007"
         }
       ],
       "confidence": 0.9964637124611926
@@ -1050,16 +1091,8 @@
       "hex": "#1b2c2d",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H320"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H320"
-        },
-        {
-          "brand": "gunze",
-          "code": "H73"
+          "brand": "TAMIYA",
+          "code": "XF70"
         }
       ],
       "confidence": 0.9726537949618328
@@ -1070,16 +1103,12 @@
       "hex": "#004920",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20091"
+          "brand": "HOBBY COLOR",
+          "code": "H26"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20092"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL6026"
+          "brand": "MR.COLOR",
+          "code": "C66"
         }
       ],
       "confidence": 0.9847203618978193
@@ -1090,16 +1119,12 @@
       "hex": "#c09f50",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20013"
+          "brand": "MODEL COLOR",
+          "code": "70.916"
         },
         {
-          "brand": "tamiya",
-          "code": "XF88"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF60"
+          "brand": "MODEL AIR",
+          "code": "71.033"
         }
       ],
       "confidence": 0.930895596587857
@@ -1110,16 +1135,24 @@
       "hex": "#4a4732",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C55"
+          "brand": "RLM",
+          "code": "RLM 83"
         },
         {
-          "brand": "vallejo",
-          "code": "71.001"
+          "brand": "MR.COLOR",
+          "code": "C123"
         },
         {
-          "brand": "vallejo",
-          "code": "71.010"
+          "brand": "TAMIYA",
+          "code": "XF51"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.318"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.011"
         }
       ],
       "confidence": 0.9608122313778981
@@ -1130,16 +1163,12 @@
       "hex": "#bda985",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL1040"
+          "brand": "HOBBY COLOR",
+          "code": "PKHV4"
         },
         {
-          "brand": "humbrol",
-          "code": "237"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF78"
+          "brand": "MODEL AIR",
+          "code": "71.326"
         }
       ],
       "confidence": 0.9775998938721474
@@ -1150,16 +1179,8 @@
       "hex": "#6f6b46",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C38"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11383"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.026"
+          "brand": "HOBBY COLOR",
+          "code": "PKHV512"
         }
       ],
       "confidence": 0.9871109260765161
@@ -1170,16 +1191,12 @@
       "hex": "#757a83",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11886"
+          "brand": "Federal Standard",
+          "code": "FS 36251"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-01"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-03"
+          "brand": "MODEL AIR",
+          "code": "71.050"
         }
       ],
       "confidence": 0.9411111966537143
@@ -1190,16 +1207,16 @@
       "hex": "#365629",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11919"
+          "brand": "TAMIYA",
+          "code": "XF5"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20074"
+          "brand": "MODEL COLOR",
+          "code": "70.967"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20075"
+          "brand": "MODEL AIR",
+          "code": "71.006"
         }
       ],
       "confidence": 0.9467085868352917
@@ -1210,16 +1227,8 @@
       "hex": "#c7a558",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL1002"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.005"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.034"
+          "brand": "MODEL AIR",
+          "code": "71.074"
         }
       ],
       "confidence": 0.8463997462383033
@@ -1230,16 +1239,24 @@
       "hex": "#315663",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C74"
+          "brand": "HOBBY COLOR",
+          "code": "H42"
         },
         {
-          "brand": "ak",
-          "code": "AK11877"
+          "brand": "MR.COLOR",
+          "code": "C72"
         },
         {
-          "brand": "vallejo",
-          "code": "69.064"
+          "brand": "TAMIYA",
+          "code": "XF18"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.900"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.113"
         }
       ],
       "confidence": 0.9184653049139424
@@ -1250,16 +1267,28 @@
       "hex": "#91b3a7",
       "equivalents": [
         {
-          "brand": "rlm",
-          "code": "RLM-76-1"
+          "brand": "Federal Standard",
+          "code": "FS 36480"
         },
         {
-          "brand": "tamiya",
-          "code": "XF83"
+          "brand": "RLM",
+          "code": "RLM 76"
         },
         {
-          "brand": "humbrol",
-          "code": "248"
+          "brand": "MR.COLOR",
+          "code": "C117"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF23"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.907"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.257"
         }
       ],
       "confidence": 0.8658123838614128
@@ -1270,16 +1299,12 @@
       "hex": "#703e28",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11434"
+          "brand": "MODEL COLOR",
+          "code": "70.303"
         },
         {
-          "brand": "ral",
-          "code": "RAL8003"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL8029"
+          "brand": "MODEL AIR",
+          "code": "71.037"
         }
       ],
       "confidence": 0.9837365180695232
@@ -1290,16 +1315,24 @@
       "hex": "#313a23",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11420"
+          "brand": "Federal Standard",
+          "code": "FS 34102"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20067"
+          "brand": "RLM",
+          "code": "RLM 62"
         },
         {
-          "brand": "ak",
-          "code": "AK11305"
+          "brand": "MR.COLOR",
+          "code": "C303"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF58"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.348"
         }
       ],
       "confidence": 0.9356953779100797
@@ -1310,16 +1343,8 @@
       "hex": "#686152",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "70.988"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL7006"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL6013"
+          "brand": "MODEL AIR",
+          "code": "71.142"
         }
       ],
       "confidence": 0.8278991200893875
@@ -1328,40 +1353,14 @@
       "code": "MIG-0067",
       "name": "LIGHT SAND GREY",
       "hex": "#aa9977",
-      "equivalents": [
-        {
-          "brand": "mr_hobby",
-          "code": "C45"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.076"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11319"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9974240365736942
     },
     {
       "code": "MIG-0068",
       "name": "IDF GREEN",
       "hex": "#3c4732",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.968"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL6003"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20066"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9922431025664218
     },
     {
@@ -1370,16 +1369,20 @@
       "hex": "#253322",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11412"
+          "brand": "HOBBY COLOR",
+          "code": "H36"
         },
         {
-          "brand": "ak",
-          "code": "AK11857"
+          "brand": "HOBBY COLOR",
+          "code": "H5g"
         },
         {
-          "brand": "ak",
-          "code": "AK11358"
+          "brand": "MR.COLOR",
+          "code": "C15"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF11"
         }
       ],
       "confidence": 0.9262027553657098
@@ -1390,16 +1393,16 @@
       "hex": "#463023",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11336"
+          "brand": "British Standard",
+          "code": "BS 450"
         },
         {
-          "brand": "gunze",
-          "code": "H37"
+          "brand": "MODEL COLOR",
+          "code": "70.312"
         },
         {
-          "brand": "hobby_color",
-          "code": "H37"
+          "brand": "MODEL AIR",
+          "code": "71.035"
         }
       ],
       "confidence": 0.8615730033744174
@@ -1410,16 +1413,20 @@
       "hex": "#654b30",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11437"
+          "brand": "HOBBY COLOR",
+          "code": "H404"
         },
         {
-          "brand": "ak",
-          "code": "AK11352"
+          "brand": "TAMIYA",
+          "code": "XF49"
         },
         {
-          "brand": "vallejo",
-          "code": "72.062"
+          "brand": "MODEL COLOR",
+          "code": "70.339"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.136"
         }
       ],
       "confidence": 0.97767656569203
@@ -1430,16 +1437,12 @@
       "hex": "#897e65",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL1011"
+          "brand": "TAMIYA",
+          "code": "XF55"
         },
         {
-          "brand": "vallejo",
-          "code": "71.141"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11892"
+          "brand": "MODEL COLOR",
+          "code": "70.315"
         }
       ],
       "confidence": 0.9995478281374524
@@ -1450,16 +1453,20 @@
       "hex": "#684e35",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11841"
+          "brand": "HOBBY COLOR",
+          "code": "H457"
         },
         {
-          "brand": "tamiya",
-          "code": "XF79"
+          "brand": "TAMIYA",
+          "code": "XF52"
         },
         {
-          "brand": "ral",
-          "code": "RAL8008"
+          "brand": "MODEL COLOR",
+          "code": "70.874"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.024"
         }
       ],
       "confidence": 0.8492684078181832
@@ -1470,16 +1477,12 @@
       "hex": "#5d5b33",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11896"
+          "brand": "MODEL COLOR",
+          "code": "70.328"
         },
         {
-          "brand": "vallejo",
-          "code": "76.063"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.026"
+          "brand": "MODEL AIR",
+          "code": "71.010"
         }
       ],
       "confidence": 0.9338919846243201
@@ -1490,16 +1493,8 @@
       "hex": "#a7a7a7",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS16440"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS26044"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS26270"
+          "brand": "TAMIYA",
+          "code": "XF80"
         }
       ],
       "confidence": 0.9932639853106073
@@ -1510,16 +1505,8 @@
       "hex": "#5e4132",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS20450"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.044"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20060"
+          "brand": "HOBBY COLOR",
+          "code": "H456"
         }
       ],
       "confidence": 0.8541788854679364
@@ -1530,16 +1517,8 @@
       "hex": "#374d44",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C123"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C309"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20094"
+          "brand": "MODEL AIR",
+          "code": "71.267"
         }
       ],
       "confidence": 0.9285093489893438
@@ -1550,16 +1529,8 @@
       "hex": "#b18156",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11349"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20178"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.108"
+          "brand": "MODEL COLOR",
+          "code": "70.927"
         }
       ],
       "confidence": 0.9613027556858031
@@ -1570,16 +1541,16 @@
       "hex": "#5a3722",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL8007"
+          "brand": "HOBBY COLOR",
+          "code": "H37"
         },
         {
-          "brand": "ak",
-          "code": "AK11338"
+          "brand": "MR.COLOR",
+          "code": "C43"
         },
         {
-          "brand": "ak",
-          "code": "AK11417"
+          "brand": "MODEL AIR",
+          "code": "71.034"
         }
       ],
       "confidence": 0.7882887497994469
@@ -1590,16 +1561,8 @@
       "hex": "#566d37",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20095"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS30118"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS34151"
+          "brand": "MODEL AIR",
+          "code": "71.301"
         }
       ],
       "confidence": 0.861669516463427
@@ -1610,16 +1573,24 @@
       "hex": "#393f2f",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "70.850"
+          "brand": "HOBBY COLOR",
+          "code": "H304"
         },
         {
-          "brand": "ak",
-          "code": "AK11423"
+          "brand": "HOBBY COLOR",
+          "code": "H405"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C381"
+          "brand": "MR.COLOR",
+          "code": "C304"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF73"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.289"
         }
       ],
       "confidence": 0.8028652609619911
@@ -1630,16 +1601,8 @@
       "hex": "#81917b",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL7050"
-        },
-        {
-          "brand": "gunze",
-          "code": "H62"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H62"
+          "brand": "MODEL COLOR",
+          "code": "70.331"
         }
       ],
       "confidence": 0.9571110150340097
@@ -1650,16 +1613,20 @@
       "hex": "#44432c",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11375"
+          "brand": "HOBBY COLOR",
+          "code": "XB 518"
         },
         {
-          "brand": "ral",
-          "code": "RAL6014"
+          "brand": "MR.COLOR",
+          "code": "C320"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-62"
+          "brand": "MODEL COLOR",
+          "code": "70.326"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.285"
         }
       ],
       "confidence": 0.8958494608123064
@@ -1670,16 +1637,20 @@
       "hex": "#3a3d2e",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11423"
+          "brand": "HOBBY COLOR",
+          "code": "H80"
         },
         {
-          "brand": "vallejo",
-          "code": "70.850"
+          "brand": "MR.COLOR",
+          "code": "C54"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-81"
+          "brand": "TAMIYA",
+          "code": "XF67"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.093"
         }
       ],
       "confidence": 0.8327220718523675
@@ -1690,16 +1661,24 @@
       "hex": "#392723",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "70.748"
+          "brand": "Federal Standard",
+          "code": "FS 30051"
         },
         {
-          "brand": "vallejo",
-          "code": "70.859"
+          "brand": "RAL",
+          "code": "RAL 8027"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20169"
+          "brand": "TAMIYA",
+          "code": "XF68"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.871"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.249"
         }
       ],
       "confidence": 0.8702370321461032
@@ -1710,16 +1689,20 @@
       "hex": "#004f79",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C5"
+          "brand": "RAL",
+          "code": "RAL 5019"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C76"
+          "brand": "MR.COLOR",
+          "code": "C323"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS34058"
+          "brand": "MODEL COLOR",
+          "code": "70.844"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.089"
         }
       ],
       "confidence": 0.8615796211153134
@@ -1730,16 +1713,16 @@
       "hex": "#3a3c2b",
       "equivalents": [
         {
-          "brand": "rlm",
-          "code": "RLM-81"
+          "brand": "RAL",
+          "code": "RAL 6014"
         },
         {
-          "brand": "vallejo",
-          "code": "71.016"
+          "brand": "MODEL COLOR",
+          "code": "70.877"
         },
         {
-          "brand": "vallejo",
-          "code": "71.317"
+          "brand": "MODEL AIR",
+          "code": "71.012"
         }
       ],
       "confidence": 0.99059904339648
@@ -1750,16 +1733,12 @@
       "hex": "#a78661",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11349"
+          "brand": "MODEL COLOR",
+          "code": "70.860"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C391"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.340"
+          "brand": "MODEL AIR",
+          "code": "71.077"
         }
       ],
       "confidence": 0.883840711691383
@@ -1770,16 +1749,16 @@
       "hex": "#ffffff",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11372"
+          "brand": "HOBBY COLOR",
+          "code": "H20"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20000"
+          "brand": "MR.COLOR",
+          "code": "C182"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20001"
+          "brand": "MODEL COLOR",
+          "code": "70.520"
         }
       ],
       "confidence": 0.9365932900930533
@@ -1790,16 +1769,8 @@
       "hex": "#ffffff",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11372"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20000"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20001"
+          "brand": "MODEL COLOR",
+          "code": "70.522"
         }
       ],
       "confidence": 0.8767596569238972
@@ -1810,16 +1781,16 @@
       "hex": "#ffffff",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11372"
+          "brand": "HOBBY COLOR",
+          "code": "H30"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20000"
+          "brand": "MR.COLOR",
+          "code": "C46"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20001"
+          "brand": "MODEL COLOR",
+          "code": "70.510"
         }
       ],
       "confidence": 0.9742067443344173
@@ -1830,16 +1801,12 @@
       "hex": "#003228",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20092"
+          "brand": "HOBBY COLOR",
+          "code": "H94"
         },
         {
-          "brand": "ak",
-          "code": "AK11903"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20098"
+          "brand": "MR.COLOR",
+          "code": "C138"
         }
       ],
       "confidence": 0.6984088858454973
@@ -1850,16 +1817,16 @@
       "hex": "#773823",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20048"
+          "brand": "HOBBY COLOR",
+          "code": "H90"
         },
         {
-          "brand": "ral",
-          "code": "RAL8003"
+          "brand": "MR.COLOR",
+          "code": "C47"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-26"
+          "brand": "MODEL COLOR",
+          "code": "70.934"
         }
       ],
       "confidence": 0.9205328346016644
@@ -1868,20 +1835,7 @@
       "code": "MIG-0094",
       "name": "CRYSTAL GLASS",
       "hex": "#ffffff",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11372"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20000"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20001"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9727945589774374
     },
     {
@@ -1890,16 +1844,12 @@
       "hex": "#1a1310",
       "equivalents": [
         {
-          "brand": "humbrol",
-          "code": "201"
+          "brand": "HOBBY COLOR",
+          "code": "H95"
         },
         {
-          "brand": "ak",
-          "code": "AK11418"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20163"
+          "brand": "MR.COLOR",
+          "code": "C101"
         }
       ],
       "confidence": 0.8906064053655613
@@ -1910,16 +1860,8 @@
       "hex": "#19642f",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL6029"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL6035"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS14062"
+          "brand": "MODEL COLOR",
+          "code": "70.936"
         }
       ],
       "confidence": 0.7589436776439763
@@ -1930,16 +1872,16 @@
       "hex": "#e47e2c",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "76.007"
+          "brand": "HOBBY COLOR",
+          "code": "H92"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C109"
+          "brand": "MR.COLOR",
+          "code": "C49"
         },
         {
-          "brand": "vallejo",
-          "code": "72.007"
+          "brand": "MODEL COLOR",
+          "code": "70.935"
         }
       ],
       "confidence": 0.7497995829692808
@@ -1950,16 +1892,12 @@
       "hex": "#0070a4",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20117"
+          "brand": "HOBBY COLOR",
+          "code": "H93"
         },
         {
-          "brand": "tamiya",
-          "code": "XF8"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.963"
+          "brand": "MR.COLOR",
+          "code": "C50"
         }
       ],
       "confidence": 0.8297718755438612
@@ -1970,16 +1908,8 @@
       "hex": "#001929",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS15102"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS35109"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS35190"
+          "brand": "MODEL COLOR",
+          "code": "70.938"
         }
       ],
       "confidence": 0.8152706936419881
@@ -1990,16 +1920,8 @@
       "hex": "#987d50",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20011"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11347"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL8001"
+          "brand": "MODEL COLOR",
+          "code": "70.856"
         }
       ],
       "confidence": 0.8471426397304338
@@ -2010,16 +1932,16 @@
       "hex": "#00315e",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20103"
+          "brand": "HOBBY COLOR",
+          "code": "H15"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS15044"
+          "brand": "MR.COLOR",
+          "code": "C65"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS35044"
+          "brand": "MODEL COLOR",
+          "code": "70.839"
         }
       ],
       "confidence": 0.8944438151718564
@@ -2028,20 +1950,7 @@
       "code": "MIG-0104",
       "name": "WASHABLE BLACK",
       "hex": "#000000",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS17038"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS27038"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS37038"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9987781031677035
     },
     {
@@ -2050,16 +1959,8 @@
       "hex": "#9c8c71",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "71.053"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.066"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.054"
+          "brand": "RAL",
+          "code": "RAL 8000"
         }
       ],
       "confidence": 0.8728225982112743
@@ -2070,16 +1971,8 @@
       "hex": "#d4a760",
       "equivalents": [
         {
-          "brand": "rlm",
-          "code": "RLM-69"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL1002"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11363"
+          "brand": "RAL",
+          "code": "RAL 8020"
         }
       ],
       "confidence": 0.8594621429713374
@@ -2088,60 +1981,21 @@
       "code": "MIG-0107",
       "name": "WASHABLE EARTH",
       "hex": "#5c472f",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "72.062"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11323"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11437"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.8412225718317116
     },
     {
       "code": "MIG-0108",
       "name": "WASHABLE MUD",
       "hex": "#442e22",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H37"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H37"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11419"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9135881818148004
     },
     {
       "code": "MIG-0109",
       "name": "WASHABLE RUST",
       "hex": "#8e452c",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H327"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H327"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.110"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.7064259965514421
     },
     {
@@ -2150,16 +2004,12 @@
       "hex": "#2c1e15",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL8016"
+          "brand": "RLM",
+          "code": "RLM 61"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C131"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.085"
+          "brand": "MODEL AIR",
+          "code": "71.042"
         }
       ],
       "confidence": 0.8642437433324729
@@ -2170,16 +2020,24 @@
       "hex": "#483f2d",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL6014"
+          "brand": "HOBBY COLOR",
+          "code": "SCC 2"
         },
         {
-          "brand": "ak",
-          "code": "AK11408"
+          "brand": "MR.COLOR",
+          "code": "C22"
         },
         {
-          "brand": "ak",
-          "code": "AK11373"
+          "brand": "TAMIYA",
+          "code": "XF72"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.921"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.290"
         }
       ],
       "confidence": 0.8853752217853302
@@ -2190,16 +2048,16 @@
       "hex": "#2e3217",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11342"
+          "brand": "HOBBY COLOR",
+          "code": "SCC 15"
         },
         {
-          "brand": "ak",
-          "code": "AK11310"
+          "brand": "MODEL COLOR",
+          "code": "70.892"
         },
         {
-          "brand": "ak",
-          "code": "AK11355"
+          "brand": "MODEL AIR",
+          "code": "71.250"
         }
       ],
       "confidence": 0.8598696417109728
@@ -2210,16 +2068,12 @@
       "hex": "#61543d",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "69.063"
+          "brand": "MODEL COLOR",
+          "code": "70.988"
         },
         {
-          "brand": "vallejo",
-          "code": "72.026"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.031"
+          "brand": "MODEL AIR",
+          "code": "71.023"
         }
       ],
       "confidence": 0.7746512463445405
@@ -2230,16 +2084,8 @@
       "hex": "#8d7e6a",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11892"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL1011"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.141"
+          "brand": "MODEL AIR",
+          "code": "71.246"
         }
       ],
       "confidence": 0.7696331119278986
@@ -2250,16 +2096,16 @@
       "hex": "#eccdab",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS20266"
+          "brand": "TAMIYA",
+          "code": "XF15"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS23697"
+          "brand": "MODEL COLOR",
+          "code": "70.837"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS30266"
+          "brand": "MODEL AIR",
+          "code": "71.076"
         }
       ],
       "confidence": 0.8592625028047671
@@ -2270,16 +2116,12 @@
       "hex": "#deb4a2",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11870"
+          "brand": "Federal Standard",
+          "code": "FS 31670"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C112"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.099"
+          "brand": "MODEL COLOR",
+          "code": "70.928"
         }
       ],
       "confidence": 0.9066342955354658
@@ -2290,16 +2132,8 @@
       "hex": "#b3846a",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "72.003"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C44"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL3012"
+          "brand": "MODEL COLOR",
+          "code": "70.815"
         }
       ],
       "confidence": 0.9041523134829693
@@ -2308,20 +2142,7 @@
       "code": "MIG-0118",
       "name": "BURNT SAND",
       "hex": "#735533",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11435"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF68"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20050"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.7982697142038759
     },
     {
@@ -2330,16 +2151,16 @@
       "hex": "#cbcccc",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "70.946"
+          "brand": "Federal Standard",
+          "code": "FS 17865"
         },
         {
-          "brand": "vallejo",
-          "code": "70.969"
+          "brand": "MODEL COLOR",
+          "code": "70.993"
         },
         {
-          "brand": "vallejo",
-          "code": "71.089"
+          "brand": "MODEL AIR",
+          "code": "71.279"
         }
       ],
       "confidence": 0.793385404494725
@@ -2348,20 +2169,7 @@
       "code": "MIG-0120",
       "name": "LIGHT BROWN-GRAY",
       "hex": "#d8d7d3",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "70.794"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.612"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.608"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.775983582977249
     },
     {
@@ -2370,16 +2178,20 @@
       "hex": "#9b2b1d",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL3002"
+          "brand": "RAL",
+          "code": "RAL 3002"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20047"
+          "brand": "MR.COLOR",
+          "code": "C327"
         },
         {
-          "brand": "gunze",
-          "code": "H43"
+          "brand": "MODEL COLOR",
+          "code": "70.908"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.084"
         }
       ],
       "confidence": 0.8211672627628939
@@ -2390,16 +2202,12 @@
       "hex": "#f2f2e2",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C107"
+          "brand": "MODEL COLOR",
+          "code": "70.847"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C69"
-        },
-        {
-          "brand": "gunze",
-          "code": "H31"
+          "brand": "MODEL AIR",
+          "code": "71.288"
         }
       ],
       "confidence": 0.8858280846803659
@@ -2410,16 +2218,16 @@
       "hex": "#003b67",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS15044"
+          "brand": "TAMIYA",
+          "code": "XF8"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS35044"
+          "brand": "MODEL COLOR",
+          "code": "70.930"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20103"
+          "brand": "MODEL AIR",
+          "code": "71.004"
         }
       ],
       "confidence": 0.8908087042943987
@@ -2430,16 +2238,8 @@
       "hex": "#719b30",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS34095"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS34097"
-        },
-        {
-          "brand": "humbrol",
-          "code": "37"
+          "brand": "MODEL AIR",
+          "code": "71.094"
         }
       ],
       "confidence": 0.8920375959542528
@@ -2450,16 +2250,28 @@
       "hex": "#e0ad28",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS22516"
+          "brand": "Federal Standard",
+          "code": "FS 33655"
         },
         {
-          "brand": "ral",
-          "code": "RAL1027"
+          "brand": "RAL",
+          "code": "RAL 1003"
         },
         {
-          "brand": "ral",
-          "code": "RAL1004"
+          "brand": "RLM",
+          "code": "RLM 04"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C113"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.953"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.078"
         }
       ],
       "confidence": 0.8955866957620541
@@ -2470,16 +2282,12 @@
       "hex": "#45498b",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL5007"
+          "brand": "HOBBY COLOR",
+          "code": "H49"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20150"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL5000"
+          "brand": "MODEL COLOR",
+          "code": "70.960"
         }
       ],
       "confidence": 0.8267237128837679
@@ -2490,16 +2298,20 @@
       "hex": "#7e5b93",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "76.076"
+          "brand": "Federal Standard",
+          "code": "FS 37142"
         },
         {
-          "brand": "ral",
-          "code": "RAL4011"
+          "brand": "RAL",
+          "code": "RAL 4008"
         },
         {
-          "brand": "ak",
-          "code": "AK11804"
+          "brand": "MR.COLOR",
+          "code": "C67"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.959"
         }
       ],
       "confidence": 0.9422239885343666
@@ -2508,20 +2320,7 @@
       "code": "MIG-0128",
       "name": "CYAN",
       "hex": "#0091d3",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20110"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20109"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C50"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9882341386151849
     },
     {
@@ -2530,16 +2329,20 @@
       "hex": "#d7721c",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C58"
+          "brand": "Federal Standard",
+          "code": "FS 32246"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C109"
+          "brand": "MR.COLOR",
+          "code": "C59"
         },
         {
-          "brand": "humbrol",
-          "code": "18"
+          "brand": "MODEL COLOR",
+          "code": "70.956"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.083"
         }
       ],
       "confidence": 0.9685904865858688
@@ -2550,16 +2353,12 @@
       "hex": "#decd73",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20087"
+          "brand": "HOBBY COLOR",
+          "code": "H318"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20016"
-        },
-        {
-          "brand": "gunze",
-          "code": "H313"
+          "brand": "MR.COLOR",
+          "code": "C318"
         }
       ],
       "confidence": 0.8937694973027386
@@ -2570,16 +2369,8 @@
       "hex": "#4d4723",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11309"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11433"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11334"
+          "brand": "MODEL AIR",
+          "code": "71.142"
         }
       ],
       "confidence": 0.7867125935783406
@@ -2590,16 +2381,16 @@
       "hex": "#7d7045",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11383"
+          "brand": "HOBBY COLOR",
+          "code": "H85"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C19"
+          "brand": "MR.COLOR",
+          "code": "C45"
         },
         {
-          "brand": "ak",
-          "code": "AK11354"
+          "brand": "MODEL AIR",
+          "code": "71.141"
         }
       ],
       "confidence": 0.8228814962443571
@@ -2610,16 +2401,12 @@
       "hex": "#5b3b24",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11417"
+          "brand": "MODEL COLOR",
+          "code": "70.301"
         },
         {
-          "brand": "ak",
-          "code": "AK11338"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20057"
+          "brand": "MODEL AIR",
+          "code": "71.105"
         }
       ],
       "confidence": 0.727240725895424
@@ -2630,16 +2417,12 @@
       "hex": "#2e2109",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL8016"
+          "brand": "MODEL COLOR",
+          "code": "70.984"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-28"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20063"
+          "brand": "MODEL AIR",
+          "code": "71.036"
         }
       ],
       "confidence": 0.7427338750900795
@@ -2650,16 +2433,8 @@
       "hex": "#b7927e",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL8031"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20173"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.835"
+          "brand": "MODEL AIR",
+          "code": "71.112"
         }
       ],
       "confidence": 0.9251571571278215
@@ -2670,16 +2445,16 @@
       "hex": "#bc9a64",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS20260"
+          "brand": "Federal Standard",
+          "code": "FS 20400"
         },
         {
-          "brand": "gunze",
-          "code": "H9"
+          "brand": "MODEL COLOR",
+          "code": "70.912"
         },
         {
-          "brand": "hobby_color",
-          "code": "H9"
+          "brand": "MODEL AIR",
+          "code": "71.291"
         }
       ],
       "confidence": 0.8865730794144966
@@ -2690,16 +2465,12 @@
       "hex": "#815241",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20055"
+          "brand": "HOBBY COLOR",
+          "code": "H463"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20059"
-        },
-        {
-          "brand": "humbrol",
-          "code": "86"
+          "brand": "MODEL AIR",
+          "code": "71.293"
         }
       ],
       "confidence": 0.8180035648783133
@@ -2710,16 +2481,20 @@
       "hex": "#573c27",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11417"
+          "brand": "HOBBY COLOR",
+          "code": "H76"
         },
         {
-          "brand": "tamiya",
-          "code": "XF64"
+          "brand": "MR.COLOR",
+          "code": "C61"
         },
         {
-          "brand": "gunze",
-          "code": "H66"
+          "brand": "TAMIYA",
+          "code": "XF84"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.073"
         }
       ],
       "confidence": 0.8575878891904916
@@ -2730,16 +2505,16 @@
       "hex": "#c88070",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "69.007"
+          "brand": "HOBBY COLOR",
+          "code": "H87"
         },
         {
-          "brand": "ral",
-          "code": "RAL3012"
+          "brand": "MR.COLOR",
+          "code": "C75"
         },
         {
-          "brand": "ak",
-          "code": "AK11402"
+          "brand": "MODEL AIR",
+          "code": "71.070"
         }
       ],
       "confidence": 0.891549839123146
@@ -2748,20 +2523,7 @@
       "code": "MIG-0189",
       "name": "METALLIC ORANGE",
       "hex": "#d39958",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11832"
-        },
-        {
-          "brand": "humbrol",
-          "code": "63"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-79"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9287659170307836
     },
     {
@@ -2770,16 +2532,8 @@
       "hex": "#6d4a21",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL8002"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11385"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL8003"
+          "brand": "MODEL COLOR",
+          "code": "70.801"
         }
       ],
       "confidence": 0.9907250528069831
@@ -2790,16 +2544,20 @@
       "hex": "#959084",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "71.123"
+          "brand": "RAL",
+          "code": "RAL 9006"
         },
         {
-          "brand": "vallejo",
-          "code": "71.106"
+          "brand": "MR.COLOR",
+          "code": "C28"
         },
         {
-          "brand": "vallejo",
-          "code": "70.611"
+          "brand": "MODEL COLOR",
+          "code": "70.864"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.065"
         }
       ],
       "confidence": 0.9274483912075923
@@ -2810,16 +2568,12 @@
       "hex": "#4f4d46",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "71.249"
+          "brand": "TAMIYA",
+          "code": "XF56"
         },
         {
-          "brand": "ak",
-          "code": "AK11840"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.003"
+          "brand": "MODEL COLOR",
+          "code": "70.865"
         }
       ],
       "confidence": 0.9990058724560956
@@ -2828,20 +2582,7 @@
       "code": "MIG-0193",
       "name": "BLUISH TITANIUM",
       "hex": "#4b5450",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "71.260"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.758"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.897"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.7928819966822164
     },
     {
@@ -2850,16 +2591,12 @@
       "hex": "#9c9a95",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL7004"
+          "brand": "TAMIYA",
+          "code": "XF16"
         },
         {
-          "brand": "ak",
-          "code": "AK11848"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL9022"
+          "brand": "MODEL AIR",
+          "code": "71.062"
         }
       ],
       "confidence": 0.894011613325767
@@ -2870,16 +2607,28 @@
       "hex": "#a19d94",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "71.122"
+          "brand": "Federal Standard",
+          "code": "FS 17178"
         },
         {
-          "brand": "vallejo",
-          "code": "71.126"
+          "brand": "RLM",
+          "code": "RLM 01"
         },
         {
-          "brand": "ak",
-          "code": "AK11899"
+          "brand": "MR.COLOR",
+          "code": "C8"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C90"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.997"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.063"
         }
       ],
       "confidence": 0.7902175857543879
@@ -2890,16 +2639,12 @@
       "hex": "#004984",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C5"
+          "brand": "HOBBY COLOR",
+          "code": "H88"
         },
         {
-          "brand": "mr_hobby",
+          "brand": "MR.COLOR",
           "code": "C76"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS34058"
         }
       ],
       "confidence": 0.9197162954207065
@@ -2910,16 +2655,8 @@
       "hex": "#9f6f2b",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20049"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11337"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11846"
+          "brand": "MODEL AIR",
+          "code": "71.067"
         }
       ],
       "confidence": 0.9534540055081072
@@ -2930,16 +2667,20 @@
       "hex": "#997a2c",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20049"
+          "brand": "Federal Standard",
+          "code": "FS 17043"
         },
         {
-          "brand": "ak",
-          "code": "AK11846"
+          "brand": "MR.COLOR",
+          "code": "C9"
         },
         {
-          "brand": "ak",
-          "code": "AK11422"
+          "brand": "MODEL COLOR",
+          "code": "70.996"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.066"
         }
       ],
       "confidence": 0.92688923187814
@@ -2950,16 +2691,24 @@
       "hex": "#8b3628",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "72.010"
+          "brand": "HOBBY COLOR",
+          "code": "H10"
         },
         {
-          "brand": "gunze",
-          "code": "H87"
+          "brand": "MR.COLOR",
+          "code": "C10"
         },
         {
-          "brand": "hobby_color",
-          "code": "H87"
+          "brand": "TAMIYA",
+          "code": "XF6"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.999"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.068"
         }
       ],
       "confidence": 0.8237058073199752
@@ -2970,16 +2719,12 @@
       "hex": "#cfbdaa",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "70.837"
+          "brand": "Federal Standard",
+          "code": "FS 33531"
         },
         {
-          "brand": "vallejo",
-          "code": "71.107"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.136"
+          "brand": "MR.COLOR",
+          "code": "C313"
         }
       ],
       "confidence": 0.9193693684197886
@@ -2990,16 +2735,12 @@
       "hex": "#a6bb9f",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20140"
+          "brand": "Federal Standard",
+          "code": "FS 34424"
         },
         {
-          "brand": "tamiya",
-          "code": "XF76"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11808"
+          "brand": "MODEL COLOR",
+          "code": "70.885"
         }
       ],
       "confidence": 0.9008848593269944
@@ -3010,16 +2751,24 @@
       "hex": "#715539",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20050"
+          "brand": "Federal Standard",
+          "code": "FS 30219"
         },
         {
-          "brand": "tamiya",
-          "code": "XF68"
+          "brand": "MR.COLOR",
+          "code": "C310"
         },
         {
-          "brand": "ak",
-          "code": "AK11435"
+          "brand": "TAMIYA",
+          "code": "XF59"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.843"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.125"
         }
       ],
       "confidence": 0.8800032423890085
@@ -3030,16 +2779,16 @@
       "hex": "#9fb2b4",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11828"
+          "brand": "Federal Standard",
+          "code": "FS 36375"
         },
         {
-          "brand": "tamiya",
-          "code": "XF83"
+          "brand": "MR.COLOR",
+          "code": "C308"
         },
         {
-          "brand": "tamiya",
-          "code": "XF20"
+          "brand": "MODEL COLOR",
+          "code": "70.990"
         }
       ],
       "confidence": 0.8390081379903065
@@ -3050,16 +2799,24 @@
       "hex": "#373d46",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H69"
+          "brand": "Federal Standard",
+          "code": "FS 36118"
         },
         {
-          "brand": "hobby_color",
-          "code": "H69"
+          "brand": "MR.COLOR",
+          "code": "C305"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-42"
+          "brand": "TAMIYA",
+          "code": "XF77"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.868"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.047"
         }
       ],
       "confidence": 0.8934437391383656
@@ -3070,16 +2827,24 @@
       "hex": "#607074",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL5024"
+          "brand": "Federal Standard",
+          "code": "FS 26231"
         },
         {
-          "brand": "ak",
-          "code": "AK11883"
+          "brand": "MR.COLOR",
+          "code": "C317"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C306"
+          "brand": "MR.COLOR",
+          "code": "C331"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.991"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.051"
         }
       ],
       "confidence": 0.8725405118474789
@@ -3090,16 +2855,24 @@
       "hex": "#3d4528",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11915"
+          "brand": "Federal Standard",
+          "code": "FS 34079"
         },
         {
-          "brand": "ak",
-          "code": "AK11368"
+          "brand": "RLM",
+          "code": "RLM 81"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20068"
+          "brand": "MR.COLOR",
+          "code": "C309"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.893"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.294"
         }
       ],
       "confidence": 0.798460380724997
@@ -3110,16 +2883,24 @@
       "hex": "#8a8d8d",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11854"
+          "brand": "Federal Standard",
+          "code": "FS 36314"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20147"
+          "brand": "MR.COLOR",
+          "code": "C334"
         },
         {
-          "brand": "ak",
-          "code": "AK11818"
+          "brand": "TAMIYA",
+          "code": "XF19"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.989"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.046"
         }
       ],
       "confidence": 0.867600244541856
@@ -3130,16 +2911,16 @@
       "hex": "#6a6d6a",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11426"
+          "brand": "Federal Standard",
+          "code": "FS 36320"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20167"
+          "brand": "MR.COLOR",
+          "code": "C307"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS26081"
+          "brand": "MODEL AIR",
+          "code": "71.120"
         }
       ],
       "confidence": 0.8366784338147509
@@ -3150,16 +2931,24 @@
       "hex": "#c2c0be",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS17178"
+          "brand": "HOBBY COLOR",
+          "code": "H51"
         },
         {
-          "brand": "federal_standard",
-          "code": "FS36375"
+          "brand": "HOBBY COLOR",
+          "code": "H338"
         },
         {
-          "brand": "ak",
-          "code": "AK11889"
+          "brand": "MR.COLOR",
+          "code": "C11"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C338"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.276"
         }
       ],
       "confidence": 0.8778009060973544
@@ -3170,16 +2959,20 @@
       "hex": "#61707a",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11883"
+          "brand": "Federal Standard",
+          "code": "FS 35237"
         },
         {
-          "brand": "ral",
-          "code": "RAL5024"
+          "brand": "MR.COLOR",
+          "code": "C337"
         },
         {
-          "brand": "tamiya",
-          "code": "XF75"
+          "brand": "MODEL COLOR",
+          "code": "70.905"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.304"
         }
       ],
       "confidence": 0.8946457075381994
@@ -3190,16 +2983,16 @@
       "hex": "#8f8f91",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20147"
+          "brand": "Federal Standard",
+          "code": "FS 36270"
         },
         {
-          "brand": "ak",
-          "code": "AK11854"
+          "brand": "MR.COLOR",
+          "code": "C306"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20135"
+          "brand": "MODEL AIR",
+          "code": "71.275"
         }
       ],
       "confidence": 0.8529820277835607
@@ -3210,16 +3003,20 @@
       "hex": "#979799",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11848"
+          "brand": "Federal Standard",
+          "code": "FS 26373"
         },
         {
-          "brand": "ral",
-          "code": "RAL7004"
+          "brand": "British Standard",
+          "code": "BS 627"
         },
         {
-          "brand": "ral",
-          "code": "RAL9022"
+          "brand": "MR.COLOR",
+          "code": "C332"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.119"
         }
       ],
       "confidence": 0.9033397148616233
@@ -3230,16 +3027,12 @@
       "hex": "#62786b",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C306"
+          "brand": "Federal Standard",
+          "code": "FS 24277"
         },
         {
-          "brand": "tamiya",
-          "code": "XF89"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF5"
+          "brand": "MODEL AIR",
+          "code": "71.305"
         }
       ],
       "confidence": 0.8868396725036539
@@ -3250,16 +3043,28 @@
       "hex": "#343c32",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C381"
+          "brand": "RAL",
+          "code": "RAL 7002"
         },
         {
-          "brand": "vallejo",
-          "code": "71.021"
+          "brand": "RLM",
+          "code": "RLM 02"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-68"
+          "brand": "MR.COLOR",
+          "code": "C60"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF22"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.886"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.044"
         }
       ],
       "confidence": 0.9281674748099877
@@ -3270,16 +3075,24 @@
       "hex": "#232528",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL5008"
+          "brand": "RLM",
+          "code": "RLM 66"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-82"
+          "brand": "MR.COLOR",
+          "code": "C116"
         },
         {
-          "brand": "gunze",
-          "code": "H304"
+          "brand": "TAMIYA",
+          "code": "XF63"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.866"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.055"
         }
       ],
       "confidence": 0.8628795342849195
@@ -3290,16 +3103,8 @@
       "hex": "#698275",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11801"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C334"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C73"
+          "brand": "Federal Standard",
+          "code": "FS 34226"
         }
       ],
       "confidence": 0.9816150393351395
@@ -3310,16 +3115,16 @@
       "hex": "#5b6140",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20101"
+          "brand": "Federal Standard",
+          "code": "FS 34151"
         },
         {
-          "brand": "ak",
-          "code": "AK11311"
+          "brand": "MODEL COLOR",
+          "code": "70.850"
         },
         {
-          "brand": "ak",
-          "code": "AK11815"
+          "brand": "MODEL AIR",
+          "code": "71.137"
         }
       ],
       "confidence": 0.886428097137454
@@ -3330,16 +3135,20 @@
       "hex": "#bab855",
       "equivalents": [
         {
-          "brand": "tamiya",
-          "code": "XF60"
+          "brand": "Federal Standard",
+          "code": "FS 33481"
         },
         {
-          "brand": "tamiya",
+          "brand": "MR.COLOR",
+          "code": "C27"
+        },
+        {
+          "brand": "TAMIYA",
           "code": "XF4"
         },
         {
-          "brand": "tamiya",
-          "code": "XF88"
+          "brand": "MODEL AIR",
+          "code": "71.107"
         }
       ],
       "confidence": 0.9076233760177331
@@ -3350,16 +3159,20 @@
       "hex": "#bd9146",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11377"
+          "brand": "RLM",
+          "code": "RLM 79"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20013"
+          "brand": "MR.COLOR",
+          "code": "C119"
         },
         {
-          "brand": "ak",
-          "code": "AK11366"
+          "brand": "MODEL COLOR",
+          "code": "70.876"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.278"
         }
       ],
       "confidence": 0.8857738543171263
@@ -3370,16 +3183,12 @@
       "hex": "#2b7059",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL6000"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C77"
-        },
-        {
-          "brand": "gunze",
+          "brand": "HOBBY COLOR",
           "code": "H46"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.838"
         }
       ],
       "confidence": 0.7962923251570936
@@ -3390,16 +3199,16 @@
       "hex": "#3fafe1",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C323"
+          "brand": "Federal Standard",
+          "code": "FS 35260"
         },
         {
-          "brand": "humbrol",
-          "code": "47"
+          "brand": "MODEL COLOR",
+          "code": "70.961"
         },
         {
-          "brand": "vallejo",
-          "code": "69.017"
+          "brand": "MODEL AIR",
+          "code": "71.317"
         }
       ],
       "confidence": 0.895024946615834
@@ -3410,16 +3219,20 @@
       "hex": "#cdc9ba",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "70.948"
+          "brand": "Federal Standard",
+          "code": "FS 36622"
         },
         {
-          "brand": "humbrol",
-          "code": "28"
+          "brand": "MR.COLOR",
+          "code": "C311"
         },
         {
-          "brand": "gunze",
-          "code": "H8"
+          "brand": "MODEL COLOR",
+          "code": "70.883"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.296"
         }
       ],
       "confidence": 0.868659702645936
@@ -3430,16 +3243,24 @@
       "hex": "#1b1f25",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H326"
+          "brand": "Federal Standard",
+          "code": "FS 25042"
         },
         {
-          "brand": "hobby_color",
-          "code": "H326"
+          "brand": "MR.COLOR",
+          "code": "C14"
         },
         {
-          "brand": "ak",
-          "code": "AK11895"
+          "brand": "TAMIYA",
+          "code": "XF50"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.898"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.005"
         }
       ],
       "confidence": 0.9313813768303291
@@ -3450,16 +3271,24 @@
       "hex": "#4f565e",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11881"
+          "brand": "Federal Standard",
+          "code": "FS 35164"
         },
         {
-          "brand": "vallejo",
-          "code": "71.050"
+          "brand": "RAL",
+          "code": "RAL 7031"
         },
         {
-          "brand": "tamiya",
-          "code": "XF77"
+          "brand": "TAMIYA",
+          "code": "XF66"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.903"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.299"
         }
       ],
       "confidence": 0.8663839018430063
@@ -3470,16 +3299,8 @@
       "hex": "#002650",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL5003"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS15042"
-        },
-        {
-          "brand": "federal_standard",
-          "code": "FS35042"
+          "brand": "Federal Standard",
+          "code": "FS 15102"
         }
       ],
       "confidence": 0.852233831567699
@@ -3490,16 +3311,28 @@
       "hex": "#39471d",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11915"
+          "brand": "Federal Standard",
+          "code": "FS 34095"
         },
         {
-          "brand": "ak",
-          "code": "AK11368"
+          "brand": "RAL",
+          "code": "RAL 6020"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20067"
+          "brand": "RLM",
+          "code": "RLM 82"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C122"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.823"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.022"
         }
       ],
       "confidence": 0.9141218922171743
@@ -3510,16 +3343,28 @@
       "hex": "#c3d8de",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL7035"
+          "brand": "Federal Standard",
+          "code": "FS 35352"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20127"
+          "brand": "RLM",
+          "code": "RLM 65"
         },
         {
-          "brand": "ak",
-          "code": "AK11806"
+          "brand": "MR.COLOR",
+          "code": "C115"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF25"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.906"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.255"
         }
       ],
       "confidence": 0.8927021811461511
@@ -3530,16 +3375,32 @@
       "hex": "#4b4d37",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "71.001"
+          "brand": "Federal Standard",
+          "code": "FS 34052"
         },
         {
-          "brand": "vallejo",
-          "code": "71.010"
+          "brand": "RAL",
+          "code": "RAL 7022"
         },
         {
-          "brand": "ral",
-          "code": "RAL8027"
+          "brand": "RLM",
+          "code": "RLM 70"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C18"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF27"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.897"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.021"
         }
       ],
       "confidence": 0.9048616336408191
@@ -3550,16 +3411,16 @@
       "hex": "#2f3522",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11420"
+          "brand": "RLM",
+          "code": "RLM 71"
         },
         {
-          "brand": "ak",
-          "code": "AK11415"
+          "brand": "MR.COLOR",
+          "code": "C17"
         },
         {
-          "brand": "ak",
-          "code": "AK11342"
+          "brand": "MODEL AIR",
+          "code": "71.015"
         }
       ],
       "confidence": 0.8912640077824654
@@ -3570,16 +3431,24 @@
       "hex": "#4f5559",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "71.304"
+          "brand": "Federal Standard",
+          "code": "FS 36152"
         },
         {
-          "brand": "vallejo",
-          "code": "71.050"
+          "brand": "RAL",
+          "code": "RAL 7012"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C36"
+          "brand": "MR.COLOR",
+          "code": "C32"
+        },
+        {
+          "brand": "TAMIYA",
+          "code": "XF75"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.308"
         }
       ],
       "confidence": 0.8680218291948723
@@ -3590,16 +3459,16 @@
       "hex": "#717879",
       "equivalents": [
         {
-          "brand": "mr_hobby",
+          "brand": "HOBBY COLOR",
+          "code": "H82"
+        },
+        {
+          "brand": "MR.COLOR",
           "code": "C31"
         },
         {
-          "brand": "ak",
-          "code": "AK11884"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11885"
+          "brand": "Federal Standard",
+          "code": "FS 36293"
         }
       ],
       "confidence": 0.8598243337552997
@@ -3610,16 +3479,20 @@
       "hex": "#595738",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "72.026"
+          "brand": "Federal Standard",
+          "code": "FS 23070"
         },
         {
-          "brand": "vallejo",
-          "code": "72.031"
+          "brand": "MR.COLOR",
+          "code": "C12"
         },
         {
-          "brand": "ak",
-          "code": "AK11896"
+          "brand": "TAMIYA",
+          "code": "XF62"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.016"
         }
       ],
       "confidence": 0.8557264116717185
@@ -3630,16 +3503,24 @@
       "hex": "#334431",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "72.123"
+          "brand": "Federal Standard",
+          "code": "FS 34092"
         },
         {
-          "brand": "vallejo",
-          "code": "70.968"
+          "brand": "MR.COLOR",
+          "code": "C302"
         },
         {
-          "brand": "vallejo",
-          "code": "70.850"
+          "brand": "TAMIYA",
+          "code": "XF26"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.895"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.124"
         }
       ],
       "confidence": 0.8083728341002254
@@ -3650,16 +3531,16 @@
       "hex": "#575c5e",
       "equivalents": [
         {
-          "brand": "humbrol",
-          "code": "77"
+          "brand": "Federal Standard",
+          "code": "FS 36122"
         },
         {
-          "brand": "vallejo",
-          "code": "69.059"
+          "brand": "MR.COLOR",
+          "code": "C13"
         },
         {
-          "brand": "ak",
-          "code": "AK11842"
+          "brand": "MODEL AIR",
+          "code": "71.274"
         }
       ],
       "confidence": 0.857601127969972
@@ -3670,16 +3551,24 @@
       "hex": "#242613",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11306"
+          "brand": "Federal Standard",
+          "code": "FS 34086"
         },
         {
-          "brand": "ral",
-          "code": "RAL6022"
+          "brand": "RAL",
+          "code": "RAL 7009"
         },
         {
-          "brand": "humbrol",
-          "code": "163"
+          "brand": "MODEL COLOR",
+          "code": "70.830"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.325"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 34086"
         }
       ],
       "confidence": 0.8399688910102552
@@ -3690,16 +3579,32 @@
       "hex": "#93928b",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "71.123"
+          "brand": "Federal Standard",
+          "code": "FS 36440"
         },
         {
-          "brand": "vallejo",
-          "code": "70.611"
+          "brand": "RAL",
+          "code": "RAL 7038"
         },
         {
-          "brand": "vallejo",
-          "code": "72.145"
+          "brand": "MR.COLOR",
+          "code": "C315"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "C325"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.986"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.121"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 36440"
         }
       ],
       "confidence": 0.7485331617193154
@@ -3710,16 +3615,8 @@
       "hex": "#f1f3df",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C107"
-        },
-        {
-          "brand": "gunze",
-          "code": "H31"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H31"
+          "brand": "Federal Standard",
+          "code": "FS 37886"
         }
       ],
       "confidence": 0.8329136118612882
@@ -3730,16 +3627,16 @@
       "hex": "#9eac94",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11827"
+          "brand": "British Standard",
+          "code": "BS 210"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C97"
+          "brand": "TAMIYA",
+          "code": "XF21"
         },
         {
-          "brand": "gunze",
-          "code": "H325"
+          "brand": "MODEL AIR",
+          "code": "71.302"
         }
       ],
       "confidence": 0.8404760131043758
@@ -3750,16 +3647,16 @@
       "hex": "#95a06e",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C127"
+          "brand": "British Standard",
+          "code": "BS 216"
         },
         {
-          "brand": "ral",
-          "code": "RAL7034"
+          "brand": "MR.COLOR",
+          "code": "C26"
         },
         {
-          "brand": "vallejo",
-          "code": "71.054"
+          "brand": "MODEL AIR",
+          "code": "71.009"
         }
       ],
       "confidence": 0.9352971859683431
@@ -3770,16 +3667,16 @@
       "hex": "#5f656b",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11911"
+          "brand": "British Standard",
+          "code": "BS 629"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20146"
+          "brand": "TAMIYA",
+          "code": "XF82"
         },
         {
-          "brand": "vallejo",
-          "code": "71.052"
+          "brand": "MODEL AIR",
+          "code": "71.273"
         }
       ],
       "confidence": 0.8056788906949448
@@ -3790,16 +3687,24 @@
       "hex": "#888f91",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "70.961"
+          "brand": "British Standard",
+          "code": "BS 637"
         },
         {
-          "brand": "ak",
-          "code": "AK11854"
+          "brand": "MR.COLOR",
+          "code": "C335"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20135"
+          "brand": "TAMIYA",
+          "code": "XF83"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.870"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.307"
         }
       ],
       "confidence": 0.924763437768302
@@ -3810,16 +3715,20 @@
       "hex": "#7a8f8f",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C324"
+          "brand": "RLM",
+          "code": "RLM 78"
         },
         {
-          "brand": "ak",
-          "code": "AK11831"
+          "brand": "MR.COLOR",
+          "code": "C118"
         },
         {
-          "brand": "ak",
-          "code": "AK11830"
+          "brand": "MODEL COLOR",
+          "code": "70.972"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.101"
         }
       ],
       "confidence": 0.8983691804931845
@@ -3830,16 +3739,24 @@
       "hex": "#333d27",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20067"
+          "brand": "Federal Standard",
+          "code": "FS 34083"
         },
         {
-          "brand": "ral",
-          "code": "RAL6007"
+          "brand": "RLM",
+          "code": "RLM 80"
         },
         {
-          "brand": "ak",
-          "code": "AK11809"
+          "brand": "MR.COLOR",
+          "code": "C120"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.894"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.265"
         }
       ],
       "confidence": 0.7965294175992109
@@ -3850,16 +3767,12 @@
       "hex": "#afcad6",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS36473"
+          "brand": "MODEL AIR",
+          "code": "71.306"
         },
         {
-          "brand": "vallejo",
-          "code": "70.841"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.965"
+          "brand": "Federal Standard",
+          "code": "FS 35550"
         }
       ],
       "confidence": 0.7803487301618899
@@ -3870,16 +3783,8 @@
       "hex": "#454b54",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11850"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.049"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL7024"
+          "brand": "MODEL COLOR",
+          "code": "70.964"
         }
       ],
       "confidence": 0.8741815638103215
@@ -3890,16 +3795,8 @@
       "hex": "#38676f",
       "equivalents": [
         {
-          "brand": "tamiya",
-          "code": "XF63"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11877"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C337"
+          "brand": "MODEL AIR",
+          "code": "71.318"
         }
       ],
       "confidence": 0.7555936403249037
@@ -3910,16 +3807,8 @@
       "hex": "#736d65",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11816"
-        },
-        {
-          "brand": "vallejo",
-          "code": "71.139"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20167"
+          "brand": "MODEL AIR",
+          "code": "71.320"
         }
       ],
       "confidence": 0.9090732888864995
@@ -3930,16 +3819,24 @@
       "hex": "#3a423a",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "71.015"
+          "brand": "HOBBY COLOR",
+          "code": "H68"
         },
         {
-          "brand": "ak",
-          "code": "AK11824"
+          "brand": "MR.COLOR",
+          "code": "C36"
         },
         {
-          "brand": "vallejo",
-          "code": "70.613"
+          "brand": "MODEL COLOR",
+          "code": "70.867"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.258"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-74"
         }
       ],
       "confidence": 0.8834400853569574
@@ -3950,16 +3847,24 @@
       "hex": "#6e716e",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL7003"
+          "brand": "HOBBY COLOR",
+          "code": "H69"
         },
         {
-          "brand": "ral",
-          "code": "RAL7039"
+          "brand": "MR.COLOR",
+          "code": "C37"
         },
         {
-          "brand": "tamiya",
-          "code": "XF56"
+          "brand": "MODEL COLOR",
+          "code": "70.869"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.259"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-75"
         }
       ],
       "confidence": 0.9106443045157963
@@ -3970,16 +3875,20 @@
       "hex": "#46342b",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11315"
+          "brand": "HOBBY COLOR",
+          "code": "H421"
         },
         {
-          "brand": "gunze",
-          "code": "H81"
+          "brand": "MR.COLOR",
+          "code": "C121"
         },
         {
-          "brand": "hobby_color",
-          "code": "H81"
+          "brand": "MODEL AIR",
+          "code": "71.264"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-81"
         }
       ],
       "confidence": 0.7499521337361823
@@ -3990,16 +3899,12 @@
       "hex": "#b1b078",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL1040"
+          "brand": "MODEL AIR",
+          "code": "71.103"
         },
         {
-          "brand": "gunze",
-          "code": "H74"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H74"
+          "brand": "RLM",
+          "code": "RLM-84"
         }
       ],
       "confidence": 0.9268932208399017
@@ -4010,16 +3915,16 @@
       "hex": "#61769e",
       "equivalents": [
         {
-          "brand": "rlm",
-          "code": "RLM-78-1"
+          "brand": "MR.COLOR",
+          "code": "C370"
         },
         {
-          "brand": "humbrol",
-          "code": "157"
+          "brand": "MODEL COLOR",
+          "code": "70.902"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20106"
+          "brand": "MODEL AIR",
+          "code": "71.108"
         }
       ],
       "confidence": 0.9471973522157665
@@ -4028,20 +3933,7 @@
       "code": "MIG-0900",
       "name": "DUNKELGELB SHADOW",
       "hex": "#6c5d34",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11353"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.795"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11307"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.7272282981594806
     },
     {
@@ -4050,16 +3942,8 @@
       "hex": "#817446",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11354"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11383"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C19"
+          "brand": "MODEL AIR",
+          "code": "71.030"
         }
       ],
       "confidence": 0.9062280939234656
@@ -4070,16 +3954,16 @@
       "hex": "#9d8d55",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H27"
+          "brand": "HOBBY COLOR",
+          "code": "H71"
         },
         {
-          "brand": "hobby_color",
-          "code": "H27"
+          "brand": "MR.COLOR",
+          "code": "C21"
         },
         {
-          "brand": "mr_hobby",
-          "code": "C391"
+          "brand": "MODEL COLOR",
+          "code": "70.882"
         }
       ],
       "confidence": 0.8220302426462638
@@ -4090,16 +3974,8 @@
       "hex": "#c6c18b",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "76.013"
-        },
-        {
-          "brand": "vallejo",
-          "code": "76.109"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20010"
+          "brand": "MODEL COLOR",
+          "code": "70.976"
         }
       ],
       "confidence": 0.8428702147141084
@@ -4108,20 +3984,7 @@
       "code": "MIG-0904",
       "name": "DUNKELGELB HIGH LIGHT",
       "hex": "#dcd7be",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "69.004"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C311"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11908"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.8485521254820276
     },
     {
@@ -4130,16 +3993,12 @@
       "hex": "#292d2e",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H78"
+          "brand": "MODEL COLOR",
+          "code": "70.344"
         },
         {
-          "brand": "hobby_color",
-          "code": "H78"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11918"
+          "brand": "MODEL AIR",
+          "code": "71.132"
         }
       ],
       "confidence": 0.8780883184609205
@@ -4150,16 +4009,12 @@
       "hex": "#2b2d37",
       "equivalents": [
         {
-          "brand": "mr_hobby",
-          "code": "C326"
+          "brand": "HOBBY COLOR",
+          "code": "H333"
         },
         {
-          "brand": "rlm",
-          "code": "RLM-41"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL7016"
+          "brand": "MR.COLOR",
+          "code": "C333"
         }
       ],
       "confidence": 0.8745041402208195
@@ -4170,16 +4025,16 @@
       "hex": "#3e414d",
       "equivalents": [
         {
-          "brand": "gunze",
-          "code": "H22"
+          "brand": "TAMIYA",
+          "code": "XF69"
         },
         {
-          "brand": "hobby_color",
-          "code": "H22"
+          "brand": "MODEL COLOR",
+          "code": "70.333"
         },
         {
-          "brand": "ak",
-          "code": "AK11439"
+          "brand": "MODEL AIR",
+          "code": "71.049"
         }
       ],
       "confidence": 0.949921652111673
@@ -4190,16 +4045,28 @@
       "hex": "#5c6067",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11851"
+          "brand": "HOBBY COLOR",
+          "code": "H301"
         },
         {
-          "brand": "vallejo",
-          "code": "71.052"
+          "brand": "HOBBY COLOR",
+          "code": "H339"
         },
         {
-          "brand": "vallejo",
-          "code": "71.074"
+          "brand": "MR.COLOR",
+          "code": "C301"
+        },
+        {
+          "brand": "MR.COLOR",
+          "code": "€339"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.995"
+        },
+        {
+          "brand": "Federal Standard",
+          "code": "FS 26081"
         }
       ],
       "confidence": 0.8633515246946015
@@ -4210,16 +4077,12 @@
       "hex": "#71737b",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL7015"
+          "brand": "HOBBY COLOR",
+          "code": "H458"
         },
         {
-          "brand": "humbrol",
-          "code": "5"
-        },
-        {
-          "brand": "tamiya",
-          "code": "XF87"
+          "brand": "TAMIYA",
+          "code": "XF24"
         }
       ],
       "confidence": 0.8222477669505035
@@ -4230,16 +4093,24 @@
       "hex": "#979aa4",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "71.051"
+          "brand": "HOBBY COLOR",
+          "code": "H75"
         },
         {
-          "brand": "vallejo",
-          "code": "71.064"
+          "brand": "MR.COLOR",
+          "code": "C25"
         },
         {
-          "brand": "ak",
-          "code": "AK11888"
+          "brand": "TAMIYA",
+          "code": "XF54"
+        },
+        {
+          "brand": "MODEL COLOR",
+          "code": "70.836"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.277"
         }
       ],
       "confidence": 0.8539030310453084
@@ -4248,20 +4119,7 @@
       "code": "MIG-0911",
       "name": "GREY SHINE",
       "hex": "#341913",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20063"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C131"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL8016"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.7576044998619913
     },
     {
@@ -4270,16 +4128,20 @@
       "hex": "#5b2d1e",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11805"
+          "brand": "HOBBY COLOR",
+          "code": "H17"
         },
         {
-          "brand": "ral",
-          "code": "RAL8007"
+          "brand": "MR.COLOR",
+          "code": "C29"
         },
         {
-          "brand": "ral",
-          "code": "RAL8012"
+          "brand": "TAMIYA",
+          "code": "XF9"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.038"
         }
       ],
       "confidence": 0.8178093371136871
@@ -4290,16 +4152,16 @@
       "hex": "#894b3a",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20054"
+          "brand": "HOBBY COLOR",
+          "code": "H7"
         },
         {
-          "brand": "gunze",
-          "code": "H327"
+          "brand": "MR.COLOR",
+          "code": "C7"
         },
         {
-          "brand": "hobby_color",
-          "code": "H327"
+          "brand": "TAMIYA",
+          "code": "XF79"
         }
       ],
       "confidence": 0.8590788955439629
@@ -4308,20 +4170,7 @@
       "code": "MIG-0914",
       "name": "RED BROWN LIGHT",
       "hex": "#222a15",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11306"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11421"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11346"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.699103321093624
     },
     {
@@ -4330,16 +4179,8 @@
       "hex": "#465535",
       "equivalents": [
         {
-          "brand": "tamiya",
+          "brand": "TAMIYA",
           "code": "XF81"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.922"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11913"
         }
       ],
       "confidence": 0.8150263227019304
@@ -4350,16 +4191,8 @@
       "hex": "#89ab72",
       "equivalents": [
         {
-          "brand": "ral",
-          "code": "RAL6021"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL6034"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C127"
+          "brand": "MODEL COLOR",
+          "code": "70.827"
         }
       ],
       "confidence": 0.9048715180969291
@@ -4368,20 +4201,7 @@
       "code": "MIG-0917",
       "name": "LIGHT GREEN",
       "hex": "#271617",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "72.045"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.085"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL8022"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.7111308670651891
     },
     {
@@ -4390,16 +4210,8 @@
       "hex": "#260e07",
       "equivalents": [
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20064"
-        },
-        {
-          "brand": "rlm",
-          "code": "RLM-28"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11418"
+          "brand": "MODEL COLOR",
+          "code": "70.822"
         }
       ],
       "confidence": 0.8534386974176416
@@ -4408,80 +4220,28 @@
       "code": "MIG-0919",
       "name": "RED PRIMER DARK BASE",
       "hex": "#2f0d09",
-      "equivalents": [
-        {
-          "brand": "rlm",
-          "code": "RLM-28"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20064"
-        },
-        {
-          "brand": "vallejo",
-          "code": "72.045"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.8467759867291498
     },
     {
       "code": "MIG-0920",
       "name": "RED PRIMER",
       "hex": "#541f11",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11328"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11329"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL8012"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.9949858112779257
     },
     {
       "code": "MIG-0921",
       "name": "RED PRIMER LIGHT BASE",
       "hex": "#6d381c",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20048"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL8003"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11338"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.7298524827258333
     },
     {
       "code": "MIG-0922",
       "name": "RED PRIMER HIGH LIGHTS",
       "hex": "#8c4f25",
-      "equivalents": [
-        {
-          "brand": "vallejo",
-          "code": "72.110"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20052"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11440"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.5868953056006352
     },
     {
@@ -4490,16 +4250,12 @@
       "hex": "#211f11",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11387"
+          "brand": "MODEL COLOR",
+          "code": "70.341"
         },
         {
-          "brand": "vallejo",
-          "code": "72.094"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL8022"
+          "brand": "MODEL AIR",
+          "code": "71.026"
         }
       ],
       "confidence": 0.9113780705914201
@@ -4508,20 +4264,7 @@
       "code": "MIG-0924",
       "name": "OLIVE DRAB SHADOW",
       "hex": "#37341d",
-      "equivalents": [
-        {
-          "brand": "humbrol",
-          "code": "53"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11310"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11339"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.817856968386717
     },
     {
@@ -4530,16 +4273,24 @@
       "hex": "#45452a",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11375"
+          "brand": "HOBBY COLOR",
+          "code": "H78"
         },
         {
-          "brand": "ak",
-          "code": "AK11897"
+          "brand": "MR.COLOR",
+          "code": "C38"
         },
         {
-          "brand": "ak",
-          "code": "AK11901"
+          "brand": "MODEL COLOR",
+          "code": "70.889"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.043"
+        },
+        {
+          "brand": "RLM",
+          "code": "RLM-83"
         }
       ],
       "confidence": 0.93528645036541
@@ -4550,16 +4301,16 @@
       "hex": "#5d593d",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "72.026"
+          "brand": "HOBBY COLOR",
+          "code": "H304"
         },
         {
-          "brand": "vallejo",
-          "code": "72.031"
+          "brand": "MR.COLOR",
+          "code": "C304"
         },
         {
-          "brand": "ammo_atom",
-          "code": "ATOM-20101"
+          "brand": "MODEL AIR",
+          "code": "71.286"
         }
       ],
       "confidence": 0.6900440853719834
@@ -4568,20 +4319,7 @@
       "code": "MIG-0927",
       "name": "OLIVE DRAB LIGHT BASE",
       "hex": "#65634d",
-      "equivalents": [
-        {
-          "brand": "gunze",
-          "code": "H70"
-        },
-        {
-          "brand": "hobby_color",
-          "code": "H70"
-        },
-        {
-          "brand": "vallejo",
-          "code": "70.760"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.6839416052540065
     },
     {
@@ -4590,16 +4328,8 @@
       "hex": "#7b785a",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11859"
-        },
-        {
-          "brand": "vallejo",
+          "brand": "MODEL AIR",
           "code": "71.139"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11812"
         }
       ],
       "confidence": 0.7922575503100266
@@ -4610,16 +4340,12 @@
       "hex": "#292912",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11306"
+          "brand": "MODEL COLOR",
+          "code": "70.332"
         },
         {
-          "brand": "ak",
-          "code": "AK11421"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11346"
+          "brand": "MODEL AIR",
+          "code": "71.138"
         }
       ],
       "confidence": 0.8705124360683892
@@ -4628,20 +4354,7 @@
       "code": "MIG-0930",
       "name": "RUSSIAN SHADOW",
       "hex": "#413f1a",
-      "equivalents": [
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20065"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11433"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11915"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.6086305720533189
     },
     {
@@ -4650,16 +4363,12 @@
       "hex": "#555320",
       "equivalents": [
         {
-          "brand": "ak",
-          "code": "AK11335"
+          "brand": "TAMIYA",
+          "code": "XF74"
         },
         {
-          "brand": "ak",
-          "code": "AK11348"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11430"
+          "brand": "MODEL AIR",
+          "code": "71.020"
         }
       ],
       "confidence": 0.8904515833877904
@@ -4670,16 +4379,8 @@
       "hex": "#6f663f",
       "equivalents": [
         {
-          "brand": "vallejo",
-          "code": "72.035"
-        },
-        {
-          "brand": "mr_hobby",
-          "code": "C38"
-        },
-        {
-          "brand": "ammo_atom",
-          "code": "ATOM-20070"
+          "brand": "MODEL AIR",
+          "code": "71.303"
         }
       ],
       "confidence": 0.8893380124932111
@@ -4688,40 +4389,14 @@
       "code": "MIG-0933",
       "name": "RUSSIAN LIGHT BASE",
       "hex": "#7f7751",
-      "equivalents": [
-        {
-          "brand": "ak",
-          "code": "AK11876"
-        },
-        {
-          "brand": "ral",
-          "code": "RAL6040"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11914"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.7769954922393281
     },
     {
       "code": "MIG-0934",
       "name": "RUSSIAN HIGH LIGHT",
       "hex": "#908762",
-      "equivalents": [
-        {
-          "brand": "federal_standard",
-          "code": "FS33531"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11374"
-        },
-        {
-          "brand": "ak",
-          "code": "AK11351"
-        }
-      ],
+      "equivalents": [],
       "confidence": 0.841087432505913
     },
     {
@@ -4730,16 +4405,20 @@
       "hex": "#908762",
       "equivalents": [
         {
-          "brand": "federal_standard",
-          "code": "FS33531"
+          "brand": "HOBBY COLOR",
+          "code": "H62"
         },
         {
-          "brand": "ak",
-          "code": "AK11374"
+          "brand": "MR.COLOR",
+          "code": "C56"
         },
         {
-          "brand": "ak",
-          "code": "AK11351"
+          "brand": "TAMIYA",
+          "code": "XF14"
+        },
+        {
+          "brand": "MODEL AIR",
+          "code": "71.321"
         }
       ],
       "confidence": 0.8928458356622903

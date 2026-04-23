@@ -59,17 +59,23 @@ code,name,hex
 70.400,Unknown,#d2d2d1
 70.470,Unknown,#616160
 70.510,Unknown,#cecece
+70.510,Gloss Varnish Barniz Brillante,#cfcfce
 70.520,Unknown,#5d5d5d
+70.520,Barniz Mate Matt Varnish,#d2d2d1
 70.521,Unknown,#616160
 70.522,Unknown,#cecece
+70.522,Satin Varnish Barniz Satinado,#cecfce
 70.523,Unknown,#cacaca
+70.523,Liquid Mask Mascara Liquida Diluyente Aerografo   Flow Improver,#d5d5d4
 70.524,Unknown,#d0d0cf
 70.540,Unknown,#616160
 70.596,Unknown,#626262
 70.597,Unknown,#cacaca
 70.600,White Blanco Grey,#dadad9
+70.600,Unknown,#cccdcc
 70.601,Gris Negro,#dadad9
 70.602,Black,#dcdcdb
+70.602,Unknown,#d7d7d7
 70.603,Dunkelgrau RAL7O21   Dunkelgelb RAL7028 German Panzer Grey,#dcdcdb
 70.604,German Dark Yellow,#7f7060
 70.605,German Red Brown Rotbraun RAL8O,#b0a89f
@@ -450,7 +456,11 @@ code,name,hex
 71.259,RLM75 Grauviolett Violet RLM,#c8c9c8
 71.260,RLM63 Hellgrau Light Grey RLM,#4e5150
 71.261,Unknown,#d0d0cf
+71.261,Airbrush Thinner,#d2d2d1
+71.261,Diluyente Aerografo Airbrush Thinner,#d5d6d5
 71.262,Unknown,#d0d0cf
+71.262,Flow Improver,#cacbca
+71.262,Airbrush Flow Improver,#d8d8d8
 71.263,Green RLMT2 RLM72 Grin,#565b51
 71.264,RLM81 Braunviolett   RLM8O Olivgriin Brown Violet RLM81   Olive Green RLM8O,#333531
 71.265,Unknown,#474c44
@@ -639,8 +649,11 @@ code,name,hex
 72.148,Warm Grey 75 Stonewall,#282f32
 72.155,Charcoal,#976d56
 73.212,Unknown,#cccccc
+73.212,Decal Softener Ablandador Calcas,#dbdcdb
 73.213,Unknown,#cecece
+73.213,Fijador Calcas Decal Fix,#d4d5d4
 73.214,Unknown,#cecece
+73.214,Medium Desgaste Chipping Medium,#dadad9
 76.001,Dead White Blanco Calavera,#d6d7d6
 76.003,Pale Flesh Carne Palida Rosy,#d4d4d4
 76.004,Elf Skin Tone Piel de Elfos,#d5d6d5

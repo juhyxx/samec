@@ -162,7 +162,6 @@ def extract_vallejo_codes_and_names(text_entries):
     Look for code patterns followed by color names.
     """
     colors = []
-    seen_codes = set()
 
     # Sort by y position to process top to bottom
     sorted_entries = sorted(
@@ -210,10 +209,8 @@ def extract_vallejo_codes_and_names(text_entries):
             # Normalize to NN.NNN format
             code = re.sub(r"[\s\-]", ".", raw_code)
 
-            if not re.match(r"^\d{2}\.\d{3}$", code) or code in seen_codes:
+            if not re.match(r"^\d{2}\.\d{3}$", code):
                 continue
-
-            seen_codes.add(code)
 
             # Extract text between this code and the next code
             code_end = match.end()
@@ -318,7 +315,7 @@ def parse_vallejo_images(folder_path, output_json):
     print("Loading OCR reader...")
     reader = easyocr.Reader(["en"], gpu=False)
 
-    all_colors = {}  # code -> {name, hex}
+    all_colors = []  # list of color dicts
 
     for image_path in image_files:
         try:
@@ -332,18 +329,16 @@ def parse_vallejo_images(folder_path, output_json):
                 colors, result["swatches"], result["text_entries"]
             )
 
-            # Add to collection (deduplicate by code)
+            # Add to collection
             for color in colors:
-                code = color["code"]
-                if code not in all_colors:
-                    all_colors[code] = color
+                all_colors.append(color)
         except Exception as err:
             print(f"  Error: {err}")
 
     # Convert to list and sort
-    colors_list = sorted(all_colors.values(), key=lambda c: c["code"])
+    colors_list = sorted(all_colors, key=lambda c: c["code"])
 
-    print(f"\nExtracted {len(colors_list)} unique colors")
+    print(f"\nExtracted {len(colors_list)} colors")
 
     # Build pack structure
     pack = {

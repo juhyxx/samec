@@ -1,105 +1,167 @@
-code,name,hex,equivalents
-540,,#575E58,RAL:RAL 9108
-2,,#067F36,Tamiya:X5; Federal Standard:FS 14110; Gunze Sangyo:H46; Mr. Hobby:C66; RAL:RAL 6029
-3,,#213C20,Tamiya:X5; Federal Standard:FS 11146; Federal Standard:FS 14062; Gunze Sangyo:H6; Mr. Hobby:C6; RAL:RAL 6005; RAL:RAL 1111
-5,,#6F7179,Tamiya:XF66; Federal Standard:FS 36187; Gunze Sangyo:H22; Mr. Hobby:C13; RAL:RAL 7000
-913,,#AA0076,Federal Standard:FS 33531; RAL:RAL 1121
-80,,#AE5519,Federal Standard:FS 11101; Federal Standard:FS 10115; Gunze Sangyo:H27; Mr. Hobby:C44; RAL:RAL 8003; RAL:RAL 1127
-10,,#433425,Tamiya:X9; Federal Standard:FS 30108; Gunze Sangyo:H7; Mr. Hobby:C7; RAL:RAL 8017; RAL:RAL 1425
-90,,#DBDBDA,Federal Standard:FS 11209; Federal Standard:FS 17178; Gunze Sangyo:H8; Mr. Hobby:C8; RAL:RAL 9006; RAL:RAL 1129
-12,,#A36319,Tamiya:XF6; Federal Standard:FS 11197; Mr. Hobby:C10
-14,,#144792,Tamiya:X4; Federal Standard:FS 11182; Federal Standard:FS 15052; Gunze Sangyo:H15; Mr. Hobby:C65; RAL:RAL 5005; RAL:RAL 1429; RAL:RAL 9117
-15,,#24305D,Tamiya:X3; Federal Standard:FS 11189; Federal Standard:FS 15050; Gunze Sangyo:H5; Mr. Hobby:C5; RAL:RAL 5022
-16,,#AD6016,Tamiya:X12; Mr. Hobby:C9; RAL:RAL 1132
-18,,#E5630D,Tamiya:X6; Federal Standard:FS 11080; Federal Standard:FS 12246; Gunze Sangyo:H14; RAL:RAL 2004; RAL:RAL 1442
-19,,#D81420,Tamiya:X7; Federal Standard:FS 11091; Federal Standard:FS 11302; Gunze Sangyo:H3; Mr. Hobby:C3; RAL:RAL 3000; RAL:RAL 1142; RAL:RAL 9279
-20,,#93191D,Federal Standard:FS 11095; Federal Standard:FS 10076; Gunze Sangyo:H43; RAL:RAL 3004; RAL:RAL 1460; RAL:RAL 9002
-21,,#242222,Tamiya:X1; Federal Standard:FS 17038; Gunze Sangyo:H27; Mr. Hobby:C2; RAL:RAL 9005
-22,,#FFFFFF,Tamiya:X2; Federal Standard:FS 17875; Gunze Sangyo:H1; Mr. Hobby:C1; RAL:RAL 9010
-23,,#DB0023,Federal Standard:FS 34424; Gunze Sangyo:H74; Mr. Hobby:C26; RAL:RAL 1109; RAL:RAL 9036
-24,,#F8BF29,Federal Standard:FS 33538; Gunze Sangyo:H34; Mr. Hobby:C113; RAL:RAL 1017
-25,,#223A7D,Tamiya:XF8; Federal Standard:FS 11181; Federal Standard:FS 35052; Gunze Sangyo:H56; Mr. Hobby:C80; RAL:RAL 5019; RAL:RAL 1415
-26,,#9B681C,Tamiya:XF49; Federal Standard:FS 11126; Federal Standard:FS 30277; Gunze Sangyo:H81; Mr. Hobby:C55; RAL:RAL 7008; RAL:RAL 9160
-27,,#585456,Tamiya:XF54; Federal Standard:FS 11018; Federal Standard:FS 36231; Gunze Sangyo:H68; Mr. Hobby:C36; RAL:RAL 7031
-28,,#CDC1C1,Tamiya:XF55; Federal Standard:FS 11006; Federal Standard:FS 36622; Gunze Sangyo:H311; Mr. Hobby:C311
-29,,#85664D,Tamiya:XF52; Federal Standard:FS 11127; Federal Standard:FS 30219; Gunze Sangyo:H72; Mr. Hobby:C22; RAL:RAL 7006; RAL:RAL 1120
-30,,#1E6846,Tamiya:XF58; Federal Standard:FS 11150; Federal Standard:FS 34096; Gunze Sangyo:H320; Mr. Hobby:C320
-31,,#63615D,Tamiya:XF25; Federal Standard:FS 34159; RAL:RAL 7005
-32,,#41464E,Tamiya:XF24; Federal Standard:FS 36081; Mr. Hobby:C301; RAL:RAL 1118; RAL:RAL 9083
-33,,#1E1E1C,Federal Standard:FS 11029; Federal Standard:FS 37038; Gunze Sangyo:H12; Mr. Hobby:C33; RAL:RAL 9011; RAL:RAL 1101; RAL:RAL 9065
-34,,#FFFFFF,Tamiya:XF2; Federal Standard:FS 11001; Federal Standard:FS 37875; Gunze Sangyo:H11; Mr. Hobby:C62; RAL:RAL 9001; RAL:RAL 1102; RAL:RAL 9039
-35,,#AD6035,Tamiya:X22; Mr. Hobby:C46
-36,,#D4E3A9,
-37,,#5CA831,RAL:RAL 9012
-38,,#AA0415,Tamiya:X15; Federal Standard:FS 11137; Gunze Sangyo:H16; Mr. Hobby:C64
-40,,#DB0040,Federal Standard:FS 16492; Gunze Sangyo:H317; Mr. Hobby:C317; RAL:RAL 7032; RAL:RAL 1481; RAL:RAL 9086
-42,,#CEA1CF,RAL:RAL 9023
-44,,#DB0044,RAL:RAL 1452; RAL:RAL 9267
-46,,#E5630D,RAL:RAL 1211
-47,,#63AFDD,Federal Standard:FS 11175; Federal Standard:FS 35450; Gunze Sangyo:H45; Mr. Hobby:C20; RAL:RAL 5012; RAL:RAL 1113; RAL:RAL 9018
-48,,#368AB1,Tamiya:X14; Gunze Sangyo:H25; Mr. Hobby:C34; RAL:RAL 5002; RAL:RAL 1452
-49,,#AD6049,Tamiya:X21
-52,,#166249,Tamiya:X13; Federal Standard:FS 11184; Gunze Sangyo:H88; Mr. Hobby:C76; RAL:RAL 9116
-53,,#363120,Tamiya:X10; Federal Standard:FS 11212; Federal Standard:FS 17200; Gunze Sangyo:H76; Mr. Hobby:C61
-54,,#DE9301,Federal Standard:FS 11194
-55,,#B35919,Federal Standard:FS 11196; RAL:RAL 1133
-56,,#AD6056,Tamiya:XF56; Federal Standard:FS 11210; Gunze Sangyo:H18; Mr. Hobby:C28; RAL:RAL 9006; RAL:RAL 1130
-57,,#EDAEB3,RAL:RAL 1408
-58,,#BC4B95,RAL:RAL 9027
-60,,#B91B1B,Tamiya:XF7; Federal Standard:FS 11090; Gunze Sangyo:H13; RAL:RAL 3000; RAL:RAL 9005
-61,,#EB8D54,Federal Standard:FS 11056; Gunze Sangyo:H44; Mr. Hobby:C51; RAL:RAL 1126; RAL:RAL 9032
-62,,#AD5527,Federal Standard:FS 11119; Federal Standard:FS 33275; Gunze Sangyo:H66; RAL:RAL 8023; RAL:RAL 9043
-63,,#D69846,Tamiya:XF59; Federal Standard:FS 11118; Federal Standard:FS 30257; RAL:RAL 9032
-64,,#AD6064,Tamiya:XF12; Federal Standard:FS 36496; Gunze Sangyo:H335; Mr. Hobby:C335; RAL:RAL 7001; RAL:RAL 9038
-65,,#CADAD5,Federal Standard:FS 11132; Gunze Sangyo:H67; RAL:RAL 6027; RAL:RAL 9288
-66,,#414345,Tamiya:XF65; Federal Standard:FS 34087; Gunze Sangyo:H78; Mr. Hobby:C38; RAL:RAL 7010; RAL:RAL 9083
-67,,#2E3B40,Tamiya:XF63; Federal Standard:FS 11025; Gunze Sangyo:H32; RAL:RAL 7024; RAL:RAL 9226
-68,,#2B1D46,Tamiya:X16; Federal Standard:FS 11073; Federal Standard:FS 17100; Mr. Hobby:C67; RAL:RAL 9027
-69,,#FFD902,Tamiya:X8; Federal Standard:FS 11044; Federal Standard:FS 13591; Gunze Sangyo:H4; Mr. Hobby:C4; RAL:RAL 1018; RAL:RAL 1107; RAL:RAL 9008
-70,,#985435,Tamiya:XF68; RAL:RAL 3009; RAL:RAL 1464; RAL:RAL 9071
-72,,#DB0072,Tamiya:XF49; Federal Standard:FS 34201; Gunze Sangyo:H81; RAL:RAL 9148
-73,,#90484D,Tamiya:XF9; Gunze Sangyo:H13; RAL:RAL 1105; RAL:RAL 9071
-74,,#FFD740,Federal Standard:FS 11033
-75,,#5E5AAD,Federal Standard:FS 34077; Gunze Sangyo:H59; Mr. Hobby:C15; RAL:RAL 6031; RAL:RAL 9269
-76,,#546C51,Tamiya:XF26; Federal Standard:FS 11036; Federal Standard:FS 34115
-79,,#585F6F,Gunze Sangyo:H54; Mr. Hobby:C14
-77,,#595C5E,Federal Standard:FS 36118; Gunze Sangyo:H305; Mr. Hobby:C305; RAL:RAL 7012
-128,,#9AB3C4,Tamiya:XF53; Federal Standard:FS 11114; Federal Standard:FS 26320; Mr. Hobby:C307; RAL:RAL 1455
-01,,#FFFFFF,Federal Standard:FS 27875; RAL:RAL 9010
-131,,#337330,Federal Standard:FS 11085; RAL:RAL 6001; RAL:RAL 1111
-132,,#D24225,Federal Standard:FS 20109; RAL:RAL 2010
-133,,#84171E,Federal Standard:FS 30076; Gunze Sangyo:H333; RAL:RAL 9135
-135,,#AD6135,
-147,,#DBDBDA,Tamiya:XF14; Federal Standard:FS 36495; Gunze Sangyo:H338; Mr. Hobby:C338; RAL:RAL 7035; RAL:RAL 1117; RAL:RAL 9090
-148,,#FDDE1E,Tamiya:XF15; Federal Standard:FS 33613; Gunze Sangyo:H318; Mr. Hobby:C318; RAL:RAL 1125; RAL:RAL 9143
-150,,#5E5E22,Federal Standard:FS 34127; RAL:RAL 6003
-154,,#F6B203,Federal Standard:FS 33538; Gunze Sangyo:H413; Mr. Hobby:C113; RAL:RAL 1017; RAL:RAL 1107; RAL:RAL 9008
-156,,#DB0156,Tamiya:XF53; Federal Standard:FS 36173; Mr. Hobby:C37; RAL:RAL 7031
-157,,#637E97,Federal Standard:FS 11164; Federal Standard:FS 35189; Mr. Hobby:C367; RAL:RAL 5014
-159,,#4CAF26,Mr. Hobby:C54; RAL:RAL 1461; RAL:RAL 9291
-163,,#28241B,Federal Standard:FS 34079; Gunze Sangyo:H330; Mr. Hobby:C330; British Standard:BS641
-872,,#A06845,
-86,,#87563B,Tamiya:XF52; Federal Standard:FS 30117; Mr. Hobby:C43; RAL:RAL 1120; RAL:RAL 9246
-191,,#EBEFF3,Tamiya:X11; Federal Standard:FS 17178; Gunze Sangyo:H8; Mr. Hobby:C8; RAL:RAL 1129
-196,,#E2E3E3,Tamiya:XF66; Federal Standard:FS 11012; RAL:RAL 7035; RAL:RAL 1455; RAL:RAL 9090
-200,,#EDAEB3,Tamiya:X17; Federal Standard:FS 11062; RAL:RAL 4502; RAL:RAL 1447; RAL:RAL 9281
-201,,#1A1514,Gunze Sangyo:H28; Mr. Hobby:C78; RAL:RAL 9065
-208,,#5CA831,
-220,,#C1181B,RAL:RAL 3001
-222,,#1A408B,
-224,,#77776D,
-230,,#113F4C,Tamiya:XF18; Gunze Sangyo:H56; Mr. Hobby:C72; RAL:RAL 1415; RAL:RAL 9230
-237,,#B7A889,
-239,,#003E3E,
-240,,#86846D,Tamiya:XF22; Mr. Hobby:C60
-241,,#605F50,Tamiya:XF27; Gunze Sangyo:H65; Mr. Hobby:C18
-39,,#405028,Gunze Sangyo:H64; Mr. Hobby:C17
-243,,#464A4C,Tamiya:XF26
-244,,#4F5750,Tamiya:XF27
-246,,#DB0246,Mr. Hobby:C37
-247,,#C5CAC5,Mr. Hobby:C117
-248,,#96AAAC,Tamiya:XF23
-249,,#A89546,Gunze Sangyo:H66; Mr. Hobby:C119
-251,,#534548,Mr. Hobby:C121
-252,,#53674A,Tamiya:XF27; Mr. Hobby:C122
-83,,#545243,
+code,name,finish,hex
+1,Primer Grey,,#4e5854
+2,Emerald Green,,#067F36
+3,Brunswick Green,,#213C20
+5,Dark Admiralty Grey,,#6F7179
+7,Light Buff,,#f8bd3d
+9,Tan,,#AE5519
+10,Service Brown,,#433425
+11,Silver,,#ced0d1
+12,Copper,,#A36319
+13,,,#AE6956
+14,French Blue,,#144792
+15,Midnight Blue,,#24305D
+16,Gold,,#AD6016
+18,Orange,,#E5630D
+19,Red,,#D81420
+20,Crimson,,#93191D
+21,Black,,#242222
+22,White,,#FFFFFF
+23,Duck Egg Blue,,#D6EAE1
+24,Trainer Yellow,,#F5BF29
+25,Blue,,#223A7D
+26,Khaki,,#9B681C
+27,Sea Grey,,#585456
+28,Camouflage Grey,,#CDC1C1
+29,Dark Earth,,#85664D
+30,Dark Green,,#1E6846
+31,Slate Grey,,#63615D
+32,Dark Grey,,#41464E
+33,Black,,#1E1E1C
+34,White,,#FFFFFF
+35,Enamel Varnish,,#AD6035
+36,Pastel Green,,#D4E3A9
+37,Bright Green,,#5CA831
+38,Lime,,#AA0415
+40,Pale Grey,,#969CA1
+41,Ivory,,#f4efbc
+42,Pastel Violet,,#CEA1CF
+44,Pastel Blue,,#DB0044
+45,,,#6F727A
+46,Orange,,#E5630D
+47,Sea Blue,,#63AFDD
+48,Mediterranean Blue,,#368AB1
+49,Enamel Varnish,,#AD6049
+52,Baltic Blue,,#166249
+53,Gunmetal,,#363120
+54,Brass,,#DE9301
+55,Bronze,,#B35919
+56,Aluminium,,#C1D1D9
+57,Pink,,#EDAEB3
+58,Magenta,,#BC4B95
+60,Scarlet,,#B91B1B
+61,Flesh,,#EB8D54
+62,Leather,,#AD5527
+63,Sand,,#D69846
+64,Light Grey,,#AD6064
+65,Aircraft Blue,,#CADAD5
+66,Olive Drab,,#414345
+67,Tank Grey,,#2E3B40
+68,Purple,,#2B1D46
+69,Yellow,,#FFD902
+70,Brick Red,,#985435
+71,Oak,,#A06845
+72,Khaki Drill,,#DB0072
+73,Wine,,#9D484D
+74,Linen,,#FFD740
+75,Bronze Green,,#5E5AAD
+76,Uniform Green,,#546051
+77,Navy Blue,,#525c6b
+78,Cockpit Green,,#34533c
+79,Blue Grey,,#585F6F
+80,Grass Green,,#6F7344
+81,Pale Yellow,,#DEBE14
+82,Orange Lining,,#DA5826
+83,Ochre,,#BA981D
+85,Black,,#171311
+86,Olive Green,,#71613F
+87,Steel Grey,,#89969C
+88,Deck Green,,#5C6C28
+89,Middle Blue,,#4897BF
+90,Beige Green_,,#D8DBDA
+91,Black Green,,#181E1B
+93,Desert Yellow,,#C59847
+94,Brown Yellow,,#AA1047
+96,RAF Blue,,#66728E
+98,Chocolate,,#7A523B
+99,Lemon,,#FCE009
+100,Red Brown,,#c04b33
+101,Mid Green,,#4a785a
+102,Army Green,,#6B7451
+103,Cream,,#EDD688
+104,Oxford Blue,,#1FBE5D
+105,Marine Green,,#6C7352
+106,Ocean Grey,,#686d6e
+109,WWI Blue,,#5a7eab
+110,Natural Wood,,#906246
+113,Rust,,#a66757
+116,US Dark Green,,#365546
+117,US Light Green_,,#4f6246
+118,US Tan,,#a7795b
+119,Light Earth,,#a96d51
+120,Light Green,,#0B6032
+121,Pale Stone,,#E3D09F
+123,Extra Dark Sea Grey,,#646971
+125,US Dark Grey,,#595C5E
+126,US Medium Grey,,#888a89
+127,US Ghost Grey,,#B9C6D1
+128,US Compass Grey,,#8eacbc
+129,US Gull Grey,,#999fa0
+130,White,,#FFFFFF
+131,Mid Green,,#337330
+132,Red,,#D24225
+133,Brown,,#84171E
+135,Enamel Varnish,,#AD6135
+140,Gull Grey,,#8a9499
+145,Medium Grey,,#666c75
+147,Light Grey,,#D8D8DA
+148,Radome Tan,,#FDDE1E
+149,Dark Green,,#054b3a
+150,Forest Green,,#5E5E22
+153,Insignia Red,,#B11C1A
+154,Insignia Yellow,,#F6B203
+155,Olive Drab,,#565325
+156,Dark Camouflage Grey,,#DB0156
+157,Azure Blue,,#637E97
+159,Khaki Drab,,#4CAF26
+160,German Camouflage Red,,#582e18
+163,Dark Green,,#28241B
+164,Dark Sea Grey,,#75787F
+165,Medium Sea Grey,,#DB0165
+166,Light Aircraft Grey,,#9ea2a7
+167,Barley/Camouflage Grey,,#899598
+168,Hemp/Camouflage Beige,,#A19A85
+171,Antique Bronze,,#976448
+173,Track,,#433535
+174,Signal Red,,#D23018
+186,Brown,,#7d523c
+191,Chrome Silver,,#EBEFF3
+196,Light Grey,,#DB0196
+200,Pink,,#EDAEB3
+201,Black,,#1A1514
+208,Fluorescent Signal Green,,#5CA831
+209,Fluorescent Fire Orange,,#DF1F1F
+220,Italian Red,,#C1181B
+222,Moonlight Blue,,#1A408B
+224,Dark Slate Grey,,#77776D
+225,Middle Stone,,#C38E54
+226,Interior Green,,#7F754B
+230,PRU Blue,,#113F4C
+237,Desert Tan,,#B7A889
+238,Red Arrow,,#DB0238
+239,Racing Green,,#003E3E
+240,RLM 02: Grau,,#86846D
+241,RLM 70: Schwartzgrun,,#605F50
+242,RLM 71: Dunkelgrun,,#405028
+243,RLM 72: Grun,,#464A4C
+244,RLM 73: Grun,,#4F5750
+245,RLM 74: Graugrun,,#344756
+246,RLM 75: Grauviolett,,#DB0246
+247,RLM 76: Lichtblau,,#C5CAC5
+248,RLM 78: Himmelblau,,#96AAAC
+249,RLM 79: Sandgelb,,#A89546
+251,RLM 81: Dunkelbraun,,#534548
+252,RLM 82: Olivgrun,,#53674A
+253,RLM 83: Dunkel-Grun,,#545243
+818,,,#C24328
+913,,,#AA0076
