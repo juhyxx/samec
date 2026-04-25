@@ -49,16 +49,23 @@ parse_mr_color = load_module(
 )
 parse_mr_color_images = parse_mr_color.process_mr_color_images
 
-parse_ammo = load_module("parse_ammo", SCRIPT_DIR / "source/ammo/__main__.py")
+parse_ammo = load_module(
+    "parse_ammo", SCRIPT_DIR / "source/ammo/acrylic_paint/__main__.py"
+)
 parse_ammo_images = parse_ammo.parse_ammo_images
 
 parse_ammo_atom = load_module(
-    "parse_ammo_atom", SCRIPT_DIR / "source/ammo-atom/__main__.py"
+    "parse_ammo_atom", SCRIPT_DIR / "source/ammo/ammo-atom/__main__.py"
 )
 parse_ammo_atom_images = parse_ammo_atom.parse_ammo_atom_images
 
+parse_ammo_figures = load_module(
+    "parse_ammo_figures", SCRIPT_DIR / "source/ammo/figures/__main__.py"
+)
+parse_ammo_figures_colors = parse_ammo_figures.parse_ammo_figures
+
 parse_hobby_color = load_module(
-    "parse_hobby_color", SCRIPT_DIR / "source/hobby-color/__main__.py"
+    "parse_hobby_color", SCRIPT_DIR / "source/mr_hobby/hobby-color/__main__.py"
 )
 parse_hobby_color_images = parse_hobby_color.parse_gunze_images
 
@@ -74,8 +81,36 @@ parse_rlm_images = parse_rlm.parse_rlm_images
 parse_humbrol = load_module("parse_humbrol", SCRIPT_DIR / "source/humbrol/__main__.py")
 parse_humbrol_images = parse_humbrol.parse_humbrol_images
 
-parse_vallejo = load_module("parse_vallejo", SCRIPT_DIR / "source/valejo/__main__.py")
-parse_vallejo_images = parse_vallejo.parse_vallejo_images
+parse_vallejo_model_color = load_module(
+    "parse_vallejo_model_color", SCRIPT_DIR / "source/valejo/model_color/__main__.py"
+)
+parse_vallejo_model_color_images = (
+    parse_vallejo_model_color.parse_vallejo_model_color_images
+)
+
+parse_vallejo_model_air = load_module(
+    "parse_vallejo_model_air", SCRIPT_DIR / "source/valejo/model_air/__main__.py"
+)
+parse_vallejo_model_air_images = parse_vallejo_model_air.parse_vallejo_model_air_images
+
+parse_vallejo_game_color = load_module(
+    "parse_vallejo_game_color", SCRIPT_DIR / "source/valejo/game_color/__main__.py"
+)
+parse_vallejo_game_color_images = (
+    parse_vallejo_game_color.parse_vallejo_game_color_images
+)
+
+parse_vallejo_game_air = load_module(
+    "parse_vallejo_game_air", SCRIPT_DIR / "source/valejo/game_air/__main__.py"
+)
+parse_vallejo_game_air_images = parse_vallejo_game_air.parse_vallejo_game_air_images
+
+parse_vallejo_mecha_color = load_module(
+    "parse_vallejo_mecha_color", SCRIPT_DIR / "source/valejo/mecha_color/__main__.py"
+)
+parse_vallejo_mecha_color_images = (
+    parse_vallejo_mecha_color.parse_vallejo_mecha_color_images
+)
 
 parse_hataka = load_module("parse_hataka", SCRIPT_DIR / "source/hataka/__main__.py")
 parse_hataka_images = parse_hataka.parse_hataka_images
@@ -288,16 +323,23 @@ def run_all_parsers():
         (
             "ammo",
             parse_ammo_images,
-            "source/ammo",
+            "source/ammo/acrylic_paint",
             "data/pack_ammo.json",
             "Ammo by Mig",
         ),
         (
             "ammo_atom",
             parse_ammo_atom_images,
-            "source/ammo-atom",
+            "source/ammo/ammo-atom",
             "data/pack_ammo_atom.json",
             "Ammo by Mig Atom",
+        ),
+        (
+            "ammo_figures",
+            parse_ammo_figures_colors,
+            "source/ammo/figures",
+            "data/pack_ammo_figures.json",
+            "Ammo by Mig Figures",
         ),
         (
             "mr_color",
@@ -309,7 +351,7 @@ def run_all_parsers():
         (
             "hobby_color",
             parse_hobby_color_images,
-            "source/hobby-color",
+            "source/mr_hobby/hobby-color",
             "data/pack_hobby_color.json",
             "Aqueous Hobby color",
         ),
@@ -342,11 +384,39 @@ def run_all_parsers():
             "Humbrol",
         ),
         (
-            "vallejo",
-            parse_vallejo_images,
-            "source/valejo",
-            "data/pack_vallejo.json",
-            "Vallejo",
+            "vallejo_model_color",
+            parse_vallejo_model_color_images,
+            "source/valejo/model_color",
+            "data/pack_vallejo_model_color.json",
+            "Vallejo Model Color",
+        ),
+        (
+            "vallejo_model_air",
+            parse_vallejo_model_air_images,
+            "source/valejo/model_air",
+            "data/pack_vallejo_model_air.json",
+            "Vallejo Model Air",
+        ),
+        (
+            "vallejo_game_color",
+            parse_vallejo_game_color_images,
+            "source/valejo/game_color",
+            "data/pack_vallejo_game_color.json",
+            "Vallejo Game Color",
+        ),
+        (
+            "vallejo_game_air",
+            parse_vallejo_game_air_images,
+            "source/valejo/game_air",
+            "data/pack_vallejo_game_air.json",
+            "Vallejo Game Air",
+        ),
+        (
+            "vallejo_mecha_color",
+            parse_vallejo_mecha_color_images,
+            "source/valejo/mecha_color",
+            "data/pack_vallejo_mecha_color.json",
+            "Vallejo Mecha Color",
         ),
         (
             "hataka",
@@ -406,49 +476,63 @@ def run_single_parser(brand):
         "ammo": (
             "ammo",
             parse_ammo_images,
-            "source/ammo",
+            "source/ammo/acrylic_paint",
             "data/pack_ammo.json",
             "Ammo by Mig",
         ),
         "ammo-by-mig": (
             "ammo",
             parse_ammo_images,
-            "source/ammo",
+            "source/ammo/acrylic_paint",
             "data/pack_ammo.json",
             "Ammo by Mig",
         ),
         "ammo-atom": (
             "ammo_atom",
             parse_ammo_atom_images,
-            "source/ammo-atom",
+            "source/ammo/ammo-atom",
             "data/pack_ammo_atom.json",
             "Ammo by Mig Atom",
         ),
         "ammo_atom": (
             "ammo_atom",
             parse_ammo_atom_images,
-            "source/ammo-atom",
+            "source/ammo/ammo-atom",
             "data/pack_ammo_atom.json",
             "Ammo by Mig Atom",
+        ),
+        "ammo_figures": (
+            "ammo_figures",
+            parse_ammo_figures_colors,
+            "source/ammo/figures",
+            "data/pack_ammo_figures.json",
+            "Ammo by Mig Figures",
+        ),
+        "ammo-figures": (
+            "ammo_figures",
+            parse_ammo_figures_colors,
+            "source/ammo/figures",
+            "data/pack_ammo_figures.json",
+            "Ammo by Mig Figures",
         ),
         "hobby_color": (
             "hobby_color",
             parse_hobby_color_images,
-            "source/hobby-color",
+            "source/mr_hobby/hobby-color",
             "data/pack_hobby_color.json",
             "Aqueous Hobby color",
         ),
         "hobby-color": (
             "hobby_color",
             parse_hobby_color_images,
-            "source/hobby-color",
+            "source/mr_hobby/hobby-color",
             "data/pack_hobby_color.json",
             "Aqueous Hobby color",
         ),
         "aqueous_hobby_color": (
             "hobby_color",
             parse_hobby_color_images,
-            "source/hobby-color",
+            "source/mr_hobby/hobby-color",
             "data/pack_hobby_color.json",
             "Aqueous Hobby color",
         ),
@@ -487,12 +571,48 @@ def run_single_parser(brand):
             "data/pack_humbrol.json",
             "Humbrol",
         ),
+        "vallejo_model_color": (
+            "vallejo_model_color",
+            parse_vallejo_model_color_images,
+            "source/valejo/model_color",
+            "data/pack_vallejo_model_color.json",
+            "Vallejo Model Color",
+        ),
+        "vallejo_model_air": (
+            "vallejo_model_air",
+            parse_vallejo_model_air_images,
+            "source/valejo/model_air",
+            "data/pack_vallejo_model_air.json",
+            "Vallejo Model Air",
+        ),
+        "vallejo_game_color": (
+            "vallejo_game_color",
+            parse_vallejo_game_color_images,
+            "source/valejo/game_color",
+            "data/pack_vallejo_game_color.json",
+            "Vallejo Game Color",
+        ),
+        "vallejo_game_air": (
+            "vallejo_game_air",
+            parse_vallejo_game_air_images,
+            "source/valejo/game_air",
+            "data/pack_vallejo_game_air.json",
+            "Vallejo Game Air",
+        ),
+        "vallejo_mecha_color": (
+            "vallejo_mecha_color",
+            parse_vallejo_mecha_color_images,
+            "source/valejo/mecha_color",
+            "data/pack_vallejo_mecha_color.json",
+            "Vallejo Mecha Color",
+        ),
+        # Legacy alias
         "vallejo": (
-            "vallejo",
-            parse_vallejo_images,
-            "source/valejo",
-            "data/pack_vallejo.json",
-            "Vallejo",
+            "vallejo_model_color",
+            parse_vallejo_model_color_images,
+            "source/valejo/model_color",
+            "data/pack_vallejo_model_color.json",
+            "Vallejo Model Color",
         ),
         "hataka": (
             "hataka",

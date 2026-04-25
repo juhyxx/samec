@@ -1,0 +1,190 @@
+panel,cell_index,code,name,hex
+panel_01.png,0,71.001,White Blanco,#f9fbf9
+panel_01.png,1,71.010,Interior Green Verde Interior,#686042
+panel_01.png,2,71.019,Camou: Dark Green,#4f514b
+panel_01.png,3,71.028,Sand Yellow Amarillo Arena,#a38d73
+panel_01.png,4,71.037,Mud Marron Lodo Brown,#8e664c
+panel_01.png,5,71.046,Pale Blue Azul Gris Claro Grey,#979ca0
+panel_01.png,6,71.055,Black Grey RLM66 RLM66 Schwarzgrau,#515657
+panel_01.png,7,71.068,Copper (Metallic) Cobre (Metalizado),#9b705f
+panel_01.png,8,71.077,Wood Madera,#a9743b
+panel_01.png,9,71.086,Light Red Rojo Claro,#e2431f
+panel_01.png,10,71.002,Medium Yellow Amarillo Medio,#f9b000
+panel_01.png,11,71.011,Dark Green RLM83 RLM83 Dunkelgrin,#525147
+panel_01.png,12,71.020,Green Verde Pardo Brown,#4e4d43
+panel_01.png,13,71.029,Dark Earth Oscura Tierra,#625745
+panel_01.png,14,71.038,Cam: Med: Brown Cam. Pardo Medio,#635142
+panel_01.png,15,71.047,Gris IGrey,#575b62
+panel_01.png,16,71.056,Panzer Dark RALZ02I Dunkelgrau Grey,#47484a
+panel_01.png,17,71.069,Rust (Metallic) Oxido (Metalizado),#846555
+panel_01.png,18,71.078,Yellow RLMO4 RLMO4 Gelb,#e9a023
+panel_01.png,19,71.087,Steel Blue Azul Acero,#1c4056
+panel_01.png,20,71.003,Red RLM23 RLM23 Rot,#c82517
+panel_01.png,21,71.012,Dark Green Verde Oscuro,#575743
+panel_01.png,22,71.021,Black Green RLMZO RLM7O Schwarzgrin,#454c48
+panel_01.png,23,71.030,Brown Green Marron Verdoso,#92714a
+panel_01.png,24,71.039,Hull Red Marron Rojizo,#483733
+panel_01.png,25,71.048,Engine Gris Motor Gray,#545c68
+panel_01.png,26,71.057,Black Negro,#323132
+panel_01.png,27,71.070,Signal Red (Metal.) Rojo Senal (Metal ),#d37485
+panel_01.png,28,71.079,Tan Earth Tierra,#a8816d
+panel_01.png,29,71.088,French Blue Azul Frances,#294671
+panel_01.png,30,71.004,Blue Azul,#354268
+panel_01.png,31,71.013,Yellow Olive Oliva Amarillo,#474944
+panel_01.png,32,71.022,Light Green RLM82 RLM82 Hellgrin,#4d5241
+panel_01.png,33,71.031,Middle Stone Piedra Medio,#9a7e51
+panel_01.png,34,71.040,Burnt Umber Sombra Tostada,#40332c
+panel_01.png,35,71.049,Sea Gris Mar Grey,#666a72
+panel_01.png,36,71.062,Aluminium (Metal. Aluminio (Metal:),#b4b6c0
+panel_01.png,37,71.071,Arctic Blue (Metal ) Azul Artico (Metal ),#4d4c5e
+panel_01.png,38,71.080,Rust Oxido,#765850
+panel_01.png,39,71.089,Light Sea Blue Azul Mar Claro,#08a4d9
+panel_01.png,40,71.005,Blue Azul Gris Grey,#474c59
+panel_01.png,41,71.014,Gunship Green Verde Acorazado,#4d5947
+panel_01.png,42,71.023,Hemp Tan Green,#857b5d
+panel_01.png,43,71.032,Golden Brown Marron Dorado,#876541
+panel_01.png,44,71.041,Armour Brown RAL8O17 Rotbraun,#453c39
+panel_01.png,45,71.050,Light Gris Claro Gray,#8e9398
+panel_01.png,46,71.063,Silver RLMOI (Met:) RLMOI Silber (Met,#b9b9c5
+panel_01.png,47,71.072,Gunmetal (Metal) Fusil (Metalizado),#8f8d94
+panel_01.png,48,71.081,Ochre Ocre,#7a6b3c
+panel_01.png,49,71.090,Deep Sky Azul Oscuro,#263956
+panel_01.png,50,71.006,Light Green Chrom_ Verde Claro Cromo,#616946
+panel_01.png,51,71.015,Dark Green RLMZI RLM71 Dunkelgrin,#524a30
+panel_01.png,52,71.024,Khaki Marron Caqui Brown,#937a5c
+panel_01.png,53,71.033,Yellow Ochre RAL1OO6 Gelb,#da932f
+panel_01.png,54,71.042,Dark Brown RLM61 RLM61 Dunkelbraun,#4b403b
+panel_01.png,55,71.051,Neutral Gris Neutral Gray,#72797e
+panel_01.png,56,71.064,Chrome (Metallic) Cromo (Metalizado),#b2b1bd
+panel_01.png,57,71.073,Black (Metallic) Negro (Metalizado),#75707d
+panel_01.png,58,71.082,Fluorescent Red Rojo Fluorescente,#ec614e
+panel_01.png,59,71.091,Signal Blue Azul Senal,#293441
+panel_01.png,60,71.007,Olive Green Verde Oliva,#373b3a
+panel_01.png,61,71.016,USAF Olive Drab USAF Verde Oliva,#665e4a
+panel_01.png,62,71.025,Dark Yellow RAL7028 Dunkelgelb,#967b4a
+panel_01.png,63,71.034,Sand Brown Marron Arena,#976b55
+panel_01.png,64,71.043,US Olive Drab US Verde Oliva,#5c5347
+panel_01.png,65,71.052,Anthracite Gris Antracita Grey,#515356
+panel_01.png,66,71.065,Steel (Metallic) Acero (Metalizado),#c4c5d2
+panel_01.png,67,71.074,Beige Beige,#e7c680
+panel_01.png,68,71.083,Orange Naranja,#e44920
+panel_01.png,69,71.092,Medium Olive Ral60o3 Olivgrin,#545646
+panel_01.png,70,71.008,Pale Blue Azul Claro,#75949a
+panel_01.png,71,71.017,Russian Green 4BO Verde Ruso 4BO,#575546
+panel_01.png,72,71.026,USA Flat Brown Marron USA,#8a6848
+panel_01.png,73,71.035,Camou: Pale Brown Camuf Pardo Claro,#705948
+panel_01.png,74,71.044,Grey RLMO2 RLMO2 Grau,#767563
+panel_01.png,75,71.053,Dark Sea Gris Mar Oscuro Gray,#52575c
+panel_01.png,76,71.066,Gold (Metallic) Oro (Metalizado),#aa916b
+panel_01.png,77,71.075,Ivory RALIOO1 Elfenbein,#c1ae8a
+panel_01.png,78,71.084,Fire Red Rojo Fuego,#873f32
+panel_01.png,79,71.093,NATO Green Verde OTAN,#555b50
+panel_01.png,80,71.009,"Eau de Nil ""D.E.G"" Verde Huevo Pato",#aaba82
+panel_01.png,81,71.018,Black Green Verde Negro,#494f51
+panel_01.png,82,71.027,Light Marron Claro Brown,#b29269
+panel_01.png,83,71.036,Mahogany Caoba,#4d3d37
+panel_01.png,84,71.045,Cement Gris Cemento Grey,#919583
+panel_01.png,85,71.054,Dark Grey Blue Gris Azul Oscuro,#4b4e55
+panel_01.png,86,71.067,Bright Brass (Met ) Laton (Metalizado),#ae9e74
+panel_01.png,87,71.076,Skin Tone Color Piel,#f9c492
+panel_01.png,88,71.085,Ferrari Red Rojo Ferrari,#b0372c
+panel_01.png,89,71.094,Green Zinc Chrom_ Verde Zinc,#58623c
+panel_02.png,0,71.095,Pale Green Verde Palido,#728455
+panel_02.png,1,71.107,US Interior Yellow US Amarillo Inter:,#cca554
+panel_02.png,2,71.116,Camou: Grey Green RAL7008 Graugrin,#7e6c50
+panel_02.png,3,71.125,USAF Brown Marron USAF,#8c7361
+panel_02.png,4,71.135,IJA Chrome Yellow IJA Amarillo Crom_,#f4a800
+panel_02.png,5,71.244,Sand Beige Sandbeige,#b8a07e
+panel_02.png,6,71.256,Green RLM73 RLM73 Grin,#474e48
+panel_02.png,7,71.267,Light Green RLM25 RLM2S Hellgrin,#4a7a6e
+panel_02.png,8,71.276,USAF Light Gray Gris Claro,#c2c5c1
+panel_02.png,9,71.285,IJA Dark Green IJA Verde Oscuro,#575546
+panel_02.png,10,71.294,US Forest Green US Verde Bosque,#565648
+panel_02.png,11,71.096,Olive Grey Verde Oliva Gris.,#626859
+panel_02.png,12,71.108,UK Azure Blue UK Azul Azure,#718cb0
+panel_02.png,13,71.117,Camouflage Brown RAL8O2O Braun,#b09070
+panel_02.png,14,71.126,IDFIIAF Green Verde IDFIIAF,#798971
+panel_02.png,15,71.136,IJA Earth Brown IJA Marron Tierra,#7c664f
+panel_02.png,16,71.245,Loam Beige Lehmbeige,#988966
+panel_02.png,17,71.257,Light Blue RLM76 RLM76 Lichtblau,#98aba8
+panel_02.png,18,71.268,German Grey RAL6OO6 Feldgrau,#494c45
+panel_02.png,19,71.277,Dark Gull Gris Gaviota Osc Gray,#828383
+panel_02.png,20,71.286,IJA Olive Green IJA Verde Oliva,#524a30
+panel_02.png,21,71.295,USN Sea Blue USN Azul Marino,#45474e
+panel_02.png,22,71.097,Med. Gunship Gray Gris Medio USAF,#5d6068
+panel_02.png,23,71.109,Faded PRU: Blue M-485 Blue Gray,#556f78
+panel_02.png,24,71.118,Camouflage Grey RAL7027 Grau,#88765b
+panel_02.png,25,71.128,Gray Violet Gris Violeta,#686561
+panel_02.png,26,71.137,US Light Green US Verde Claro,#6a6743
+panel_02.png,27,71.246,Yellow Brown Sandbraun,#99866a
+panel_02.png,28,71.258,Grey Green RLM74 RLM74 Graugrin,#545652
+panel_02.png,29,71.269,Red RAL3OOO Rot,#a03e35
+panel_02.png,30,71.278,Sand Yellow RLM79 RLM79 Sandgelb,#977751
+panel_02.png,31,71.287,IJA Khaki Brown IJA Marron Caqui,#6d5c45
+panel_02.png,32,71.296,USAAF Light Curtiss Grey Gray,#bebcad
+panel_02.png,33,71.101,Light Blue RLM78 RLM78 Hellblau,#819697
+panel_02.png,34,71.110,Dark Gris Oscuro Gray,#575b5e
+panel_02.png,35,71.119,White Grey RAL9OO2 Grauweiss,#dad8cd
+panel_02.png,36,71.129,Light Rust Oxido Claro,#926045
+panel_02.png,37,71.138,US Sand US Arena,#97876a
+panel_02.png,38,71.247,Light Olive Helloliv,#6a624b
+panel_02.png,39,71.259,Violet RLM7S RLM75 Grauviolett,#656667
+panel_02.png,40,71.270,Off-White RAL9O01 Weiss,#e7dabf
+panel_02.png,41,71.279,Insignia White Blanco Insignia,#e3e3d5
+panel_02.png,42,71.288,UK BSC 64 Port. Stone UK BSC 64 Piedra Port_,#ccbe95
+panel_02.png,43,71.297,JGSD Brown 3606 IGSD Marron 3606,#6b6159
+panel_02.png,44,71.102,Red Rojo,#b32d32
+panel_02.png,45,71.111,USAF Light Blue USAF Azul Claro,#556978
+panel_02.png,46,71.120,Dark Ghost Gray Gris Oscuro USAF,#8c98a0
+panel_02.png,47,71.130,Orange Rust Oxido Anaranjado,#c86732
+panel_02.png,48,71.139,US Field Drab US Marron Verdoso,#6d5c45
+panel_02.png,49,71.248,Brown Grey Gris Marron,#68635a
+panel_02.png,50,71.260,Light Grey RLM63 RLM63 Hellgrau,#6c7164
+panel_02.png,51,71.271,German Red Brown RAL8O12 Rotbraun,#68433a
+panel_02.png,52,71.280,Camouflage Gray Gris Camuflaje,#6d6e6c
+panel_02.png,53,71.289,US Dark Green US Verde Oscuro,#5a5a49
+panel_02.png,54,71.298,M495 Light M495 Gris Claro Gray,#9d9989
+panel_02.png,55,71.103,Grey Blue RLM84 RLM84 Graublau,#a2a49b
+panel_02.png,56,71.112,Sand Arena,#9f877d
+panel_02.png,57,71.121,Light Gull Gray Gris Gaviota USN,#a9aba6
+panel_02.png,58,71.131,Concrete Cemento,#797165
+panel_02.png,59,71.140,US Desert Sand US Arena Desierto,#aa8e7d
+panel_02.png,60,71.249,NATO Brown Lederbraun,#5f5047
+panel_02.png,61,71.263,Green RLM72 RLM72 Grin,#484742
+panel_02.png,62,71.272,Ger Yellow Brown RAL8OOO Gelbbraun,#86704d
+panel_02.png,63,71.281,3B Russian Green 3B Verde Ruso,#484946
+panel_02.png,64,71.290,US Earth Brown US Tierra Marron,#60554b
+panel_02.png,65,71.299,Intermediate Blue Azul Intermedio,#5e6b77
+panel_02.png,66,71.104,Green RLM62 RLM62 Grin,#5d6046
+panel_02.png,67,71.113,IDF Blue Azul IDF,#537689
+panel_02.png,68,71.122,US Desert Arm. 686 US Cam Moder 686,#af9b81
+panel_02.png,69,71.132,Aged White Blanco Envejecido,#e4d3b3
+panel_02.png,70,71.141,IDF Sand Grey 73 IDF Gris Arena 73,#ac9f88
+panel_02.png,71,71.250,Bronze Green Bronzegrin,#57594d
+panel_02.png,72,71.264,Brown Violet RLM81 RLM81 Braunviolett,#685d4d
+panel_02.png,73,71.273,Ocean Gray Gris Oceano,#6e7783
+panel_02.png,74,71.282,6K Russian 6K Marron Ruso Brown,#4d4642
+panel_02.png,75,71.291,US Earth Yellow US Tierra Amarilla,#b98f5f
+panel_02.png,76,71.300,Glossy Sea Blue Azul Mar Brillante,#272e35
+panel_02.png,77,71.105,Brown RLM26 RLM26 Braun,#884338
+panel_02.png,78,71.114,Medium Gris Medio Gray,#6b8084
+panel_02.png,79,71.123,Dark RLM42 RLM42 Dunkelgrau Grey,#555658
+panel_02.png,80,71.133,Dirt Suciedad,#7b6343
+panel_02.png,81,71.142,IDF Sinai 82 IDF Gris Sinai 82 Grey,#7b7468
+panel_02.png,82,71.251,NATO Black Teerschwarz,#333234
+panel_02.png,83,71.265,Olive Green RLM8O RLM8O Olivgrin,#4c5141
+panel_02.png,84,71.274,Aggressor Gris Aggressor Gray,#7c7e83
+panel_02.png,85,71.283,7K Russian Tan 7K Tierra Rusa,#7c735c
+panel_02.png,86,71.292,US Loam US Marron Barro,#54564d
+panel_02.png,87,71.301,AMT-4 Cam: Green AMT-4 Cam: Verde,#686042
+panel_02.png,88,71.106,Ivory RLMOS RLMOS Elfenbein,#c7b46c
+panel_02.png,89,71.115,Blue Grey RAL7016 Blaugrau,#484c54
+panel_02.png,90,71.124,USAF Green Verde USAF,#505d5d
+panel_02.png,91,71.134,IJA Midouri Green IJA Verde Midouri,#424c3f
+panel_02.png,92,71.143,UK Light Stone UK Piedra Clara,#b39b6a
+panel_02.png,93,71.255,Light Blue RLM65 RLM65 Hellblau,#8aa09c
+panel_02.png,94,71.266,Dark Blue RLM24 RLM24 Dunkelblau,#364a63
+panel_02.png,95,71.275,USAF Medium USAF Gris Medio Gray,#83858c
+panel_02.png,96,71.284,UK Light Mud UK Marron Claro,#857f71
+panel_02.png,97,71.293,US Earth Red US Tierra Roja,#7e6251
+panel_02.png,98,71.302,Sky Type $ Verde Cielo,#a3a590

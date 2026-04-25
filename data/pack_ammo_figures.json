@@ -1,0 +1,190 @@
+{
+  "brand": "Ammo by Mig Figures",
+  "brand_id": "ammo_figures",
+  "source": "data/pack_ammo_figures.json",
+  "count": 26,
+  "colors": [
+    {
+      "code": "AMMO.F-501",
+      "name": "WHIE FOR FIGURES",
+      "hex": "#dcddde",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-502",
+      "name": "OUTLINING BLACK",
+      "hex": "#454a4c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-503",
+      "name": "DARK OLIVE GREEN FS-34130",
+      "hex": "#607455",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-504",
+      "name": "YELLOW GREEMFS 34259",
+      "hex": "#89904f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-505",
+      "name": "PIULE YELLOW GREEN FS -33481",
+      "hex": "#9f9363",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-506",
+      "name": "MEDUM RUSSUU GREEN $ 3092",
+      "hex": "#41574e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-507",
+      "name": "MATT EARTHFs 34088",
+      "hex": "#544b43",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-508",
+      "name": "BROWN BASE FS 30108",
+      "hex": "#564338",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-509",
+      "name": "UNIFORM GREEN BASE FS 34128 UMIFORM SAND YELLOM FS 32555",
+      "hex": "#907f62",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-511",
+      "name": "LIGHT SAND FS-33727",
+      "hex": "#b4a395",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-512",
+      "name": "FIELD GREY FS-34159",
+      "hex": "#617969",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-513",
+      "name": "FIELD GREY HIGHUGHI FS-34414",
+      "hex": "#6e8d78",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-514",
+      "name": "FIELD GREY SHADOW FS-34085",
+      "hex": "#536055",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-515",
+      "name": "MIDGREY FS-36357",
+      "hex": "#939d96",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-517",
+      "name": "MARINE BLUE PALE GOLD YELLOW",
+      "hex": "#758472",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-519",
+      "name": "SAPPHIRE BLUE",
+      "hex": "#a0c1df",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-520",
+      "name": "DEEP COBALT BLUE",
+      "hex": "#6d93bb",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-521",
+      "name": "GREY LIGHT BROWN",
+      "hex": "#858684",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-522",
+      "name": "SLATE GREY",
+      "hex": "#52646f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-523",
+      "name": "UNIFORM BLUE LIGHT SKY BLUE MEDIM BLUE",
+      "hex": "#599ac5",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-526",
+      "name": "CYAN",
+      "hex": "#5f8ba8",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-527",
+      "name": "PURE RED",
+      "hex": "#e65e44",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-528",
+      "name": "PURE GREEN",
+      "hex": "#85bf64",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-529",
+      "name": "PURE YELLOW",
+      "hex": "#e4b556",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-530",
+      "name": "BLUISH GREY",
+      "hex": "#607270",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-531",
+      "name": "MGH BROMN",
+      "hex": "#9e8c74",
+      "equivalents": [],
+      "confidence": null
+    }
+  ]
+}

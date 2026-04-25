@@ -37,7 +37,8 @@
           "brand": "Vallejo Model Air",
           "code": "71001"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20001",
@@ -60,7 +61,8 @@
           "brand": "Vallejo Model Color",
           "code": "70842"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20002",
@@ -79,7 +81,8 @@
           "brand": "Vallejo Model Air",
           "code": "71270"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20003",
@@ -90,7 +93,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF515"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20004",
@@ -105,7 +109,8 @@
           "brand": "Vallejo Model Air",
           "code": "71075"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20005",
@@ -116,7 +121,8 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0012"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20006",
@@ -127,7 +133,8 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0027"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20007",
@@ -138,7 +145,8 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0029"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20008",
@@ -149,7 +157,8 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0067"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20009",
@@ -168,7 +177,8 @@
           "brand": "Vallejo Model Air",
           "code": "71140"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20010",
@@ -183,7 +193,8 @@
           "brand": "Vallejo Model Color",
           "code": "70978"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20011",
@@ -206,7 +217,8 @@
           "brand": "Vallejo Model Air",
           "code": "71141"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20012",
@@ -229,7 +241,8 @@
           "brand": "Vallejo Model Air",
           "code": "71025"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20013",
@@ -256,7 +269,8 @@
           "brand": "Vallejo Model Air",
           "code": "71107"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20014",
@@ -267,7 +281,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF562"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20015",
@@ -278,7 +293,8 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0016"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20016",
@@ -297,13 +313,15 @@
           "brand": "Mr. Color",
           "code": "C318"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20017",
       "name": "LEMON YELLOW",
       "hex": "#fac64c",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20018",
@@ -334,19 +352,22 @@
           "brand": "Vallejo Model Air",
           "code": "71002"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20019",
       "name": "SUNNY YELLOW",
       "hex": "#ffdb3b",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20020",
       "name": "GOLD YELLOW",
       "hex": "#ffc329",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20021",
@@ -365,7 +386,8 @@
           "brand": "Vallejo Model Air",
           "code": "71143"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20022",
@@ -392,7 +414,8 @@
           "brand": "Vallejo Model Air",
           "code": "71078"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20023",
@@ -419,7 +442,8 @@
           "brand": "Vallejo Model Air",
           "code": "71130"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20024",
@@ -450,7 +474,8 @@
           "brand": "RLM",
           "code": "RLM-79"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20025",
@@ -461,13 +486,15 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF554"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20026",
       "name": "BRIGHT ORANGE",
       "hex": "#ffa040",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20027",
@@ -494,7 +521,8 @@
           "brand": "Vallejo Model Air",
           "code": "71083"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20028",
@@ -505,7 +533,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF527"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20029",
@@ -548,13 +577,15 @@
           "brand": "Vallejo Model Air",
           "code": "71003"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20030",
       "name": "IMPERIAL RED",
       "hex": "#e46153",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20031",
@@ -581,13 +612,15 @@
           "brand": "Vallejo Model Air",
           "code": "71084"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20032",
       "name": "CARMINE",
       "hex": "#b53321",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20033",
@@ -598,49 +631,57 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF540"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20034",
       "name": "FUCSIA",
       "hex": "#e0408b",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20035",
       "name": "CORAL PINK",
       "hex": "#c02c22",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20036",
       "name": "VINTAGE PINK",
       "hex": "#c26166",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20037",
       "name": "DARK NUDE PINK",
       "hex": "#c28d8e",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20038",
       "name": "GLACIER PINK",
       "hex": "#e5c7c1",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20039",
       "name": "PINK FLESH",
       "hex": "#ffcbc9",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20040",
       "name": "LIGHT PINK FLESH",
       "hex": "#ffe2d9",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20041",
@@ -651,7 +692,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF549"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20042",
@@ -662,7 +704,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF548"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20043",
@@ -673,7 +716,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF550"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20044",
@@ -684,7 +728,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF558"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20045",
@@ -707,7 +752,8 @@
           "brand": "Vallejo Model Air",
           "code": "71129"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20046",
@@ -742,7 +788,8 @@
           "brand": "Vallejo Model Air",
           "code": "71271"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20047",
@@ -769,7 +816,8 @@
           "brand": "Vallejo Model Color",
           "code": "70818"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20048",
@@ -792,7 +840,8 @@
           "brand": "Vallejo Model Air",
           "code": "71034"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20049",
@@ -803,7 +852,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF545"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20050",
@@ -814,7 +864,8 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0923"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20051",
@@ -841,7 +892,8 @@
           "brand": "Vallejo Model Air",
           "code": "71024"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20052",
@@ -860,7 +912,8 @@
           "brand": "Vallejo Model Air",
           "code": "71037"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20053",
@@ -871,7 +924,8 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0922"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20054",
@@ -882,7 +936,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF532"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20055",
@@ -905,7 +960,8 @@
           "brand": "Vallejo Model Air",
           "code": "71080"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20056",
@@ -916,7 +972,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF553"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20057",
@@ -939,7 +996,8 @@
           "brand": "Vallejo Model Air",
           "code": "71035"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20058",
@@ -970,7 +1028,8 @@
           "brand": "Vallejo Model Air",
           "code": "71040"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20059",
@@ -997,13 +1056,15 @@
           "brand": "RLM",
           "code": "RLM-81"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20060",
       "name": "COFFEE BROWN",
       "hex": "#5f3d37",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20061",
@@ -1026,7 +1087,8 @@
           "brand": "Vallejo Model Air",
           "code": "71249"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20062",
@@ -1053,7 +1115,8 @@
           "brand": "Vallejo Model Air",
           "code": "71041"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20063",
@@ -1064,7 +1127,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF533"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20064",
@@ -1091,7 +1155,8 @@
           "brand": "Vallejo Model Air",
           "code": "71039"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20065",
@@ -1118,7 +1183,8 @@
           "brand": "Vallejo Model Air",
           "code": "71043"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20066",
@@ -1145,7 +1211,8 @@
           "brand": "Vallejo Model Air",
           "code": "71093"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20067",
@@ -1168,7 +1235,8 @@
           "brand": "RLM",
           "code": "RLM-71"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20068",
@@ -1191,7 +1259,8 @@
           "brand": "Vallejo Model Air",
           "code": "71287"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20069",
@@ -1218,7 +1287,8 @@
           "brand": "Vallejo Model Air",
           "code": "71286"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20070",
@@ -1233,7 +1303,8 @@
           "brand": "Vallejo Model Air",
           "code": "71142"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20071",
@@ -1260,7 +1331,8 @@
           "brand": "Vallejo Model Air",
           "code": "71017"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20072",
@@ -1275,7 +1347,8 @@
           "brand": "Vallejo Model Air",
           "code": "71303"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20073",
@@ -1286,7 +1359,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF504"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20074",
@@ -1317,7 +1391,8 @@
           "brand": "Vallejo Model Air",
           "code": "7113T"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20075",
@@ -1344,7 +1419,8 @@
           "brand": "Vallejo Model Air",
           "code": "71022"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20076",
@@ -1387,7 +1463,8 @@
           "brand": "Vallejo Model Air",
           "code": "71285"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20077",
@@ -1422,7 +1499,8 @@
           "brand": "RLM",
           "code": "RLM-81"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20078",
@@ -1457,7 +1535,8 @@
           "brand": "RLM",
           "code": "RLM-02"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20079",
@@ -1488,7 +1567,8 @@
           "brand": "Vallejo Model Air",
           "code": "71092"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20080",
@@ -1499,7 +1579,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF512"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20081",
@@ -1526,7 +1607,8 @@
           "brand": "Vallejo Model Air",
           "code": "71126"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20082",
@@ -1537,7 +1619,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF544"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20083",
@@ -1552,7 +1635,8 @@
           "brand": "Vallejo Model Color",
           "code": "70827"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20084",
@@ -1567,13 +1651,15 @@
           "brand": "Vallejo Model Air",
           "code": "71301"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20085",
       "name": "FADED GREEN",
       "hex": "#b0c586",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20086",
@@ -1596,13 +1682,15 @@
           "brand": "Vallejo Model Air",
           "code": "71009"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20087",
       "name": "BILE GREEN",
       "hex": "#d8ce6e",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20089",
@@ -1613,13 +1701,15 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF555"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20090",
       "name": "TROLL GREEN",
       "hex": "#008641",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20091",
@@ -1638,7 +1728,8 @@
           "brand": "Mr. Color",
           "code": "C66"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20092",
@@ -1657,13 +1748,15 @@
           "brand": "Vallejo Model Air",
           "code": "71007"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20093",
       "name": "FOREST GREEN",
       "hex": "#005133",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20094",
@@ -1674,7 +1767,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF542"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20095",
@@ -1697,7 +1791,8 @@
           "brand": "Vallejo Model Air",
           "code": "71310"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20096",
@@ -1708,13 +1803,15 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0069"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20097",
       "name": "ATLANTIC GREEN",
       "hex": "#626f62",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20098",
@@ -1725,7 +1822,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF506"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20099",
@@ -1736,7 +1834,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF506"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20100",
@@ -1747,7 +1846,8 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0018"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20101",
@@ -1782,7 +1882,8 @@
           "brand": "RLM",
           "code": "RLM-70"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20102",
@@ -1813,7 +1914,8 @@
           "brand": "Vallejo Model Air",
           "code": "71005"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20103",
@@ -1824,7 +1926,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF518"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20104",
@@ -1839,7 +1942,8 @@
           "brand": "Vallejo Model Color",
           "code": "70964"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20105",
@@ -1870,7 +1974,8 @@
           "brand": "Vallejo Model Air",
           "code": "71113"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20106",
@@ -1881,7 +1986,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF525"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20107",
@@ -1892,7 +1998,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF523"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20108",
@@ -1915,7 +2022,8 @@
           "brand": "Vallejo Model Color",
           "code": "70839"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20109",
@@ -1926,7 +2034,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF526"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20110",
@@ -1953,7 +2062,8 @@
           "brand": "Vallejo Model Air",
           "code": "71089"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20111",
@@ -1964,7 +2074,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF524"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20112",
@@ -1987,7 +2098,8 @@
           "brand": "Vallejo Model Air",
           "code": "71317"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20113",
@@ -1998,7 +2110,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF543"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20114",
@@ -2009,25 +2122,29 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0223"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20115",
       "name": "JADE GREEN",
       "hex": "#00b0a8",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20116",
       "name": "AQUAMARINE",
       "hex": "#00c7c4",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20117",
       "name": "DUCK BLUE",
       "hex": "#007593",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20118",
@@ -2038,7 +2155,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF519"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20119",
@@ -2061,7 +2179,8 @@
           "brand": "Vallejo Model Air",
           "code": "71108"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20120",
@@ -2076,7 +2195,8 @@
           "brand": "Vallejo Model Air",
           "code": "71318"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20121",
@@ -2091,7 +2211,8 @@
           "brand": "Vallejo Model Air",
           "code": "71332"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20122",
@@ -2106,7 +2227,8 @@
           "brand": "Vallejo Model Air",
           "code": "71306"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20123",
@@ -2117,7 +2239,8 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0119"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20124",
@@ -2148,7 +2271,8 @@
           "brand": "Vallejo Model Air",
           "code": "71276"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20125",
@@ -2167,7 +2291,8 @@
           "brand": "Vallejo Model Color",
           "code": "70885"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20126",
@@ -2198,7 +2323,8 @@
           "brand": "RLM",
           "code": "RLM-78"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20127",
@@ -2229,7 +2355,8 @@
           "brand": "RLM",
           "code": "RLM-65"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20128",
@@ -2244,7 +2371,8 @@
           "brand": "Vallejo Model Color",
           "code": "70331"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20129",
@@ -2267,7 +2395,8 @@
           "brand": "Vallejo Model Color",
           "code": "70990"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20130",
@@ -2294,7 +2423,8 @@
           "brand": "RLM",
           "code": "RLM-76"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20131",
@@ -2321,7 +2451,8 @@
           "brand": "Vallejo Model Air",
           "code": "71046"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20132",
@@ -2336,7 +2467,8 @@
           "brand": "Tamiya",
           "code": "XF80"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20133",
@@ -2359,7 +2491,8 @@
           "brand": "Vallejo Model Air",
           "code": "71120"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20134",
@@ -2386,7 +2519,8 @@
           "brand": "Vallejo Model Air",
           "code": "71304"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20135",
@@ -2405,7 +2539,8 @@
           "brand": "Vallejo Model Air",
           "code": "71050"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20136",
@@ -2432,7 +2567,8 @@
           "brand": "Vallejo Model Air",
           "code": "71299"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20137",
@@ -2451,7 +2587,8 @@
           "brand": "Vallejo Model Air",
           "code": "71273"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20138",
@@ -2478,7 +2615,8 @@
           "brand": "Vallejo Model Air",
           "code": "71296"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20139",
@@ -2489,7 +2627,8 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0269"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20140",
@@ -2508,7 +2647,8 @@
           "brand": "Vallejo Model Air",
           "code": "71302"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20141",
@@ -2527,7 +2667,8 @@
           "brand": "Vallejo Model Air",
           "code": "71311"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20142",
@@ -2558,7 +2699,8 @@
           "brand": "Vallejo Model Air",
           "code": "71121"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20143",
@@ -2577,7 +2719,8 @@
           "brand": "Vallejo Model Color",
           "code": "70315"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20144",
@@ -2588,7 +2731,8 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0114"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20145",
@@ -2611,7 +2755,8 @@
           "brand": "Vallejo Model Air",
           "code": "71274"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20146",
@@ -2634,7 +2779,8 @@
           "brand": "Vallejo Model Air",
           "code": "71308"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20147",
@@ -2665,7 +2811,8 @@
           "brand": "RLM",
           "code": "RLM-75"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20148",
@@ -2692,7 +2839,8 @@
           "brand": "Vallejo Model Air",
           "code": "71047"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20149",
@@ -2703,7 +2851,8 @@
           "brand": "Ammo by Mig",
           "code": "AMMOF521"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20150",
@@ -2722,7 +2871,8 @@
           "brand": "Vallejo Model Color",
           "code": "70960"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20151",
@@ -2745,37 +2895,43 @@
           "brand": "Vallejo Model Color",
           "code": "70959"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20152",
       "name": "AMETHYST",
       "hex": "#c158bd",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20153",
       "name": "ORCHID",
       "hex": "#b06094",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20154",
       "name": "LIGHT PLUM",
       "hex": "#e286e0",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20155",
       "name": "MAUVE",
       "hex": "#9389ad",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20156",
       "name": "PUTRID FLESH",
       "hex": "#9a8d90",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20157",
@@ -2806,7 +2962,8 @@
           "brand": "RLM",
           "code": "RLM-74"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20158",
@@ -2837,7 +2994,8 @@
           "brand": "RLM",
           "code": "RLM-66"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20159",
@@ -2864,7 +3022,8 @@
           "brand": "Vallejo Model Air",
           "code": "71315"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20160",
@@ -2895,7 +3054,8 @@
           "brand": "Vallejo Model Air",
           "code": "71056"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20161",
@@ -2906,7 +3066,8 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0278"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20162",
@@ -2933,7 +3094,8 @@
           "brand": "Vallejo Model Color",
           "code": "70861"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20163",
@@ -2960,7 +3122,8 @@
           "brand": "Vallejo Model Air",
           "code": "71057"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20164",
@@ -2975,13 +3138,15 @@
           "brand": "Vallejo Model Air",
           "code": "71062"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20165",
       "name": "ALUMINUM",
       "hex": "#d1d1d1",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     },
     {
       "code": "ATOM-20166",
@@ -3008,7 +3173,8 @@
           "brand": "Vallejo Model Air",
           "code": "71063"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20167",
@@ -3031,7 +3197,8 @@
           "brand": "Vallejo Model Air",
           "code": "71065"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20168",
@@ -3046,7 +3213,8 @@
           "brand": "Vallejo Model Air",
           "code": "71072"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20169",
@@ -3065,7 +3233,8 @@
           "brand": "Vallejo Model Air",
           "code": "71073"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20170",
@@ -3088,7 +3257,8 @@
           "brand": "Vallejo Model Air",
           "code": "71068"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20171",
@@ -3107,7 +3277,8 @@
           "brand": "Vallejo Model Air",
           "code": "71066"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20172",
@@ -3126,7 +3297,8 @@
           "brand": "Vallejo Model Color",
           "code": "70801"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20173",
@@ -3137,7 +3309,8 @@
           "brand": "Vallejo Model Air",
           "code": "71070"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20174",
@@ -3156,7 +3329,8 @@
           "brand": "Vallejo Model Air",
           "code": "71417"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20175",
@@ -3167,7 +3341,8 @@
           "brand": "Vallejo Model Air",
           "code": "71419"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20176",
@@ -3182,7 +3357,8 @@
           "brand": "Mr. Color",
           "code": "C57"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20177",
@@ -3193,7 +3369,8 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0024"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20178",
@@ -3204,7 +3381,8 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0105"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20179",
@@ -3215,13 +3393,15 @@
           "brand": "Ammo by Mig",
           "code": "MIG-0106"
         }
-      ]
+      ],
+      "confidence": null
     },
     {
       "code": "ATOM-20500",
       "name": "THINNER AND   CLEANER",
       "hex": "#ffffff",
-      "equivalents": []
+      "equivalents": [],
+      "confidence": null
     }
   ]
 }

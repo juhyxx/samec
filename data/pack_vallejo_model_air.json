@@ -1,0 +1,1331 @@
+{
+  "brand": "Vallejo Model Air",
+  "brand_id": "vallejo_model_air",
+  "source": "data/pack_vallejo_model_air.json",
+  "count": 189,
+  "colors": [
+    {
+      "code": "71.001",
+      "name": "White Blanco",
+      "hex": "#f9fbf9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.010",
+      "name": "Interior Green Verde Interior",
+      "hex": "#686042",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.019",
+      "name": "Camou: Dark Green",
+      "hex": "#4f514b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.028",
+      "name": "Sand Yellow Amarillo Arena",
+      "hex": "#a38d73",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.037",
+      "name": "Mud Marron Lodo Brown",
+      "hex": "#8e664c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.046",
+      "name": "Pale Blue Azul Gris Claro Grey",
+      "hex": "#979ca0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.055",
+      "name": "Black Grey RLM66 RLM66 Schwarzgrau",
+      "hex": "#515657",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.068",
+      "name": "Copper (Metallic) Cobre (Metalizado)",
+      "hex": "#9b705f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.077",
+      "name": "Wood Madera",
+      "hex": "#a9743b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.086",
+      "name": "Light Red Rojo Claro",
+      "hex": "#e2431f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.002",
+      "name": "Medium Yellow Amarillo Medio",
+      "hex": "#f9b000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.011",
+      "name": "Dark Green RLM83 RLM83 Dunkelgrin",
+      "hex": "#525147",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.020",
+      "name": "Green Verde Pardo Brown",
+      "hex": "#4e4d43",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.029",
+      "name": "Dark Earth Oscura Tierra",
+      "hex": "#625745",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.038",
+      "name": "Cam: Med: Brown Cam. Pardo Medio",
+      "hex": "#635142",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.047",
+      "name": "Gris IGrey",
+      "hex": "#575b62",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.056",
+      "name": "Panzer Dark RALZ02I Dunkelgrau Grey",
+      "hex": "#47484a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.069",
+      "name": "Rust (Metallic) Oxido (Metalizado)",
+      "hex": "#846555",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.078",
+      "name": "Yellow RLMO4 RLMO4 Gelb",
+      "hex": "#e9a023",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.087",
+      "name": "Steel Blue Azul Acero",
+      "hex": "#1c4056",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.003",
+      "name": "Red RLM23 RLM23 Rot",
+      "hex": "#c82517",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.012",
+      "name": "Dark Green Verde Oscuro",
+      "hex": "#575743",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.021",
+      "name": "Black Green RLMZO RLM7O Schwarzgrin",
+      "hex": "#454c48",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.030",
+      "name": "Brown Green Marron Verdoso",
+      "hex": "#92714a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.039",
+      "name": "Hull Red Marron Rojizo",
+      "hex": "#483733",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.048",
+      "name": "Engine Gris Motor Gray",
+      "hex": "#545c68",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.057",
+      "name": "Black Negro",
+      "hex": "#323132",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.070",
+      "name": "Signal Red (Metal.) Rojo Senal (Metal )",
+      "hex": "#d37485",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.079",
+      "name": "Tan Earth Tierra",
+      "hex": "#a8816d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.088",
+      "name": "French Blue Azul Frances",
+      "hex": "#294671",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.004",
+      "name": "Blue Azul",
+      "hex": "#354268",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.013",
+      "name": "Yellow Olive Oliva Amarillo",
+      "hex": "#474944",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.022",
+      "name": "Light Green RLM82 RLM82 Hellgrin",
+      "hex": "#4d5241",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.031",
+      "name": "Middle Stone Piedra Medio",
+      "hex": "#9a7e51",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.040",
+      "name": "Burnt Umber Sombra Tostada",
+      "hex": "#40332c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.049",
+      "name": "Sea Gris Mar Grey",
+      "hex": "#666a72",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.062",
+      "name": "Aluminium (Metal. Aluminio (Metal:)",
+      "hex": "#b4b6c0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.071",
+      "name": "Arctic Blue (Metal ) Azul Artico (Metal )",
+      "hex": "#4d4c5e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.080",
+      "name": "Rust Oxido",
+      "hex": "#765850",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.089",
+      "name": "Light Sea Blue Azul Mar Claro",
+      "hex": "#08a4d9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.005",
+      "name": "Blue Azul Gris Grey",
+      "hex": "#474c59",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.014",
+      "name": "Gunship Green Verde Acorazado",
+      "hex": "#4d5947",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.023",
+      "name": "Hemp Tan Green",
+      "hex": "#857b5d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.032",
+      "name": "Golden Brown Marron Dorado",
+      "hex": "#876541",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.041",
+      "name": "Armour Brown RAL8O17 Rotbraun",
+      "hex": "#453c39",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.050",
+      "name": "Light Gris Claro Gray",
+      "hex": "#8e9398",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.063",
+      "name": "Silver RLMOI (Met:) RLMOI Silber (Met",
+      "hex": "#b9b9c5",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.072",
+      "name": "Gunmetal (Metal) Fusil (Metalizado)",
+      "hex": "#8f8d94",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.081",
+      "name": "Ochre Ocre",
+      "hex": "#7a6b3c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.090",
+      "name": "Deep Sky Azul Oscuro",
+      "hex": "#263956",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.006",
+      "name": "Light Green Chrom_ Verde Claro Cromo",
+      "hex": "#616946",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.015",
+      "name": "Dark Green RLMZI RLM71 Dunkelgrin",
+      "hex": "#524a30",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.024",
+      "name": "Khaki Marron Caqui Brown",
+      "hex": "#937a5c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.033",
+      "name": "Yellow Ochre RAL1OO6 Gelb",
+      "hex": "#da932f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.042",
+      "name": "Dark Brown RLM61 RLM61 Dunkelbraun",
+      "hex": "#4b403b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.051",
+      "name": "Neutral Gris Neutral Gray",
+      "hex": "#72797e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.064",
+      "name": "Chrome (Metallic) Cromo (Metalizado)",
+      "hex": "#b2b1bd",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.073",
+      "name": "Black (Metallic) Negro (Metalizado)",
+      "hex": "#75707d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.082",
+      "name": "Fluorescent Red Rojo Fluorescente",
+      "hex": "#ec614e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.091",
+      "name": "Signal Blue Azul Senal",
+      "hex": "#293441",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.007",
+      "name": "Olive Green Verde Oliva",
+      "hex": "#373b3a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.016",
+      "name": "USAF Olive Drab USAF Verde Oliva",
+      "hex": "#665e4a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.025",
+      "name": "Dark Yellow RAL7028 Dunkelgelb",
+      "hex": "#967b4a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.034",
+      "name": "Sand Brown Marron Arena",
+      "hex": "#976b55",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.043",
+      "name": "US Olive Drab US Verde Oliva",
+      "hex": "#5c5347",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.052",
+      "name": "Anthracite Gris Antracita Grey",
+      "hex": "#515356",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.065",
+      "name": "Steel (Metallic) Acero (Metalizado)",
+      "hex": "#c4c5d2",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.074",
+      "name": "Beige Beige",
+      "hex": "#e7c680",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.083",
+      "name": "Orange Naranja",
+      "hex": "#e44920",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.092",
+      "name": "Medium Olive Ral60o3 Olivgrin",
+      "hex": "#545646",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.008",
+      "name": "Pale Blue Azul Claro",
+      "hex": "#75949a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.017",
+      "name": "Russian Green 4BO Verde Ruso 4BO",
+      "hex": "#575546",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.026",
+      "name": "USA Flat Brown Marron USA",
+      "hex": "#8a6848",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.035",
+      "name": "Camou: Pale Brown Camuf Pardo Claro",
+      "hex": "#705948",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.044",
+      "name": "Grey RLMO2 RLMO2 Grau",
+      "hex": "#767563",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.053",
+      "name": "Dark Sea Gris Mar Oscuro Gray",
+      "hex": "#52575c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.066",
+      "name": "Gold (Metallic) Oro (Metalizado)",
+      "hex": "#aa916b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.075",
+      "name": "Ivory RALIOO1 Elfenbein",
+      "hex": "#c1ae8a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.084",
+      "name": "Fire Red Rojo Fuego",
+      "hex": "#873f32",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.093",
+      "name": "NATO Green Verde OTAN",
+      "hex": "#555b50",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.009",
+      "name": "Eau de Nil \"D.E.G\" Verde Huevo Pato",
+      "hex": "#aaba82",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.018",
+      "name": "Black Green Verde Negro",
+      "hex": "#494f51",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.027",
+      "name": "Light Marron Claro Brown",
+      "hex": "#b29269",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.036",
+      "name": "Mahogany Caoba",
+      "hex": "#4d3d37",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.045",
+      "name": "Cement Gris Cemento Grey",
+      "hex": "#919583",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.054",
+      "name": "Dark Grey Blue Gris Azul Oscuro",
+      "hex": "#4b4e55",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.067",
+      "name": "Bright Brass (Met ) Laton (Metalizado)",
+      "hex": "#ae9e74",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.076",
+      "name": "Skin Tone Color Piel",
+      "hex": "#f9c492",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.085",
+      "name": "Ferrari Red Rojo Ferrari",
+      "hex": "#b0372c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.094",
+      "name": "Green Zinc Chrom_ Verde Zinc",
+      "hex": "#58623c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.095",
+      "name": "Pale Green Verde Palido",
+      "hex": "#728455",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.107",
+      "name": "US Interior Yellow US Amarillo Inter:",
+      "hex": "#cca554",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.116",
+      "name": "Camou: Grey Green RAL7008 Graugrin",
+      "hex": "#7e6c50",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.125",
+      "name": "USAF Brown Marron USAF",
+      "hex": "#8c7361",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.135",
+      "name": "IJA Chrome Yellow IJA Amarillo Crom_",
+      "hex": "#f4a800",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.244",
+      "name": "Sand Beige Sandbeige",
+      "hex": "#b8a07e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.256",
+      "name": "Green RLM73 RLM73 Grin",
+      "hex": "#474e48",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.267",
+      "name": "Light Green RLM25 RLM2S Hellgrin",
+      "hex": "#4a7a6e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.276",
+      "name": "USAF Light Gray Gris Claro",
+      "hex": "#c2c5c1",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.285",
+      "name": "IJA Dark Green IJA Verde Oscuro",
+      "hex": "#575546",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.294",
+      "name": "US Forest Green US Verde Bosque",
+      "hex": "#565648",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.096",
+      "name": "Olive Grey Verde Oliva Gris.",
+      "hex": "#626859",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.108",
+      "name": "UK Azure Blue UK Azul Azure",
+      "hex": "#718cb0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.117",
+      "name": "Camouflage Brown RAL8O2O Braun",
+      "hex": "#b09070",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.126",
+      "name": "IDFIIAF Green Verde IDFIIAF",
+      "hex": "#798971",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.136",
+      "name": "IJA Earth Brown IJA Marron Tierra",
+      "hex": "#7c664f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.245",
+      "name": "Loam Beige Lehmbeige",
+      "hex": "#988966",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.257",
+      "name": "Light Blue RLM76 RLM76 Lichtblau",
+      "hex": "#98aba8",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.268",
+      "name": "German Grey RAL6OO6 Feldgrau",
+      "hex": "#494c45",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.277",
+      "name": "Dark Gull Gris Gaviota Osc Gray",
+      "hex": "#828383",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.286",
+      "name": "IJA Olive Green IJA Verde Oliva",
+      "hex": "#524a30",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.295",
+      "name": "USN Sea Blue USN Azul Marino",
+      "hex": "#45474e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.097",
+      "name": "Med. Gunship Gray Gris Medio USAF",
+      "hex": "#5d6068",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.109",
+      "name": "Faded PRU: Blue M-485 Blue Gray",
+      "hex": "#556f78",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.118",
+      "name": "Camouflage Grey RAL7027 Grau",
+      "hex": "#88765b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.128",
+      "name": "Gray Violet Gris Violeta",
+      "hex": "#686561",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.137",
+      "name": "US Light Green US Verde Claro",
+      "hex": "#6a6743",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.246",
+      "name": "Yellow Brown Sandbraun",
+      "hex": "#99866a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.258",
+      "name": "Grey Green RLM74 RLM74 Graugrin",
+      "hex": "#545652",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.269",
+      "name": "Red RAL3OOO Rot",
+      "hex": "#a03e35",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.278",
+      "name": "Sand Yellow RLM79 RLM79 Sandgelb",
+      "hex": "#977751",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.287",
+      "name": "IJA Khaki Brown IJA Marron Caqui",
+      "hex": "#6d5c45",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.296",
+      "name": "USAAF Light Curtiss Grey Gray",
+      "hex": "#bebcad",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.101",
+      "name": "Light Blue RLM78 RLM78 Hellblau",
+      "hex": "#819697",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.110",
+      "name": "Dark Gris Oscuro Gray",
+      "hex": "#575b5e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.119",
+      "name": "White Grey RAL9OO2 Grauweiss",
+      "hex": "#dad8cd",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.129",
+      "name": "Light Rust Oxido Claro",
+      "hex": "#926045",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.138",
+      "name": "US Sand US Arena",
+      "hex": "#97876a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.247",
+      "name": "Light Olive Helloliv",
+      "hex": "#6a624b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.259",
+      "name": "Violet RLM7S RLM75 Grauviolett",
+      "hex": "#656667",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.270",
+      "name": "Off-White RAL9O01 Weiss",
+      "hex": "#e7dabf",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.279",
+      "name": "Insignia White Blanco Insignia",
+      "hex": "#e3e3d5",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.288",
+      "name": "UK BSC 64 Port. Stone UK BSC 64 Piedra Port_",
+      "hex": "#ccbe95",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.297",
+      "name": "JGSD Brown 3606 IGSD Marron 3606",
+      "hex": "#6b6159",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.102",
+      "name": "Red Rojo",
+      "hex": "#b32d32",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.111",
+      "name": "USAF Light Blue USAF Azul Claro",
+      "hex": "#556978",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.120",
+      "name": "Dark Ghost Gray Gris Oscuro USAF",
+      "hex": "#8c98a0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.130",
+      "name": "Orange Rust Oxido Anaranjado",
+      "hex": "#c86732",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.139",
+      "name": "US Field Drab US Marron Verdoso",
+      "hex": "#6d5c45",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.248",
+      "name": "Brown Grey Gris Marron",
+      "hex": "#68635a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.260",
+      "name": "Light Grey RLM63 RLM63 Hellgrau",
+      "hex": "#6c7164",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.271",
+      "name": "German Red Brown RAL8O12 Rotbraun",
+      "hex": "#68433a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.280",
+      "name": "Camouflage Gray Gris Camuflaje",
+      "hex": "#6d6e6c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.289",
+      "name": "US Dark Green US Verde Oscuro",
+      "hex": "#5a5a49",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.298",
+      "name": "M495 Light M495 Gris Claro Gray",
+      "hex": "#9d9989",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.103",
+      "name": "Grey Blue RLM84 RLM84 Graublau",
+      "hex": "#a2a49b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.112",
+      "name": "Sand Arena",
+      "hex": "#9f877d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.121",
+      "name": "Light Gull Gray Gris Gaviota USN",
+      "hex": "#a9aba6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.131",
+      "name": "Concrete Cemento",
+      "hex": "#797165",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.140",
+      "name": "US Desert Sand US Arena Desierto",
+      "hex": "#aa8e7d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.249",
+      "name": "NATO Brown Lederbraun",
+      "hex": "#5f5047",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.263",
+      "name": "Green RLM72 RLM72 Grin",
+      "hex": "#484742",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.272",
+      "name": "Ger Yellow Brown RAL8OOO Gelbbraun",
+      "hex": "#86704d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.281",
+      "name": "3B Russian Green 3B Verde Ruso",
+      "hex": "#484946",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.290",
+      "name": "US Earth Brown US Tierra Marron",
+      "hex": "#60554b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.299",
+      "name": "Intermediate Blue Azul Intermedio",
+      "hex": "#5e6b77",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.104",
+      "name": "Green RLM62 RLM62 Grin",
+      "hex": "#5d6046",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.113",
+      "name": "IDF Blue Azul IDF",
+      "hex": "#537689",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.122",
+      "name": "US Desert Arm. 686 US Cam Moder 686",
+      "hex": "#af9b81",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.132",
+      "name": "Aged White Blanco Envejecido",
+      "hex": "#e4d3b3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.141",
+      "name": "IDF Sand Grey 73 IDF Gris Arena 73",
+      "hex": "#ac9f88",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.250",
+      "name": "Bronze Green Bronzegrin",
+      "hex": "#57594d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.264",
+      "name": "Brown Violet RLM81 RLM81 Braunviolett",
+      "hex": "#685d4d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.273",
+      "name": "Ocean Gray Gris Oceano",
+      "hex": "#6e7783",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.282",
+      "name": "6K Russian 6K Marron Ruso Brown",
+      "hex": "#4d4642",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.291",
+      "name": "US Earth Yellow US Tierra Amarilla",
+      "hex": "#b98f5f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.300",
+      "name": "Glossy Sea Blue Azul Mar Brillante",
+      "hex": "#272e35",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.105",
+      "name": "Brown RLM26 RLM26 Braun",
+      "hex": "#884338",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.114",
+      "name": "Medium Gris Medio Gray",
+      "hex": "#6b8084",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.123",
+      "name": "Dark RLM42 RLM42 Dunkelgrau Grey",
+      "hex": "#555658",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.133",
+      "name": "Dirt Suciedad",
+      "hex": "#7b6343",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.142",
+      "name": "IDF Sinai 82 IDF Gris Sinai 82 Grey",
+      "hex": "#7b7468",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.251",
+      "name": "NATO Black Teerschwarz",
+      "hex": "#333234",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.265",
+      "name": "Olive Green RLM8O RLM8O Olivgrin",
+      "hex": "#4c5141",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.274",
+      "name": "Aggressor Gris Aggressor Gray",
+      "hex": "#7c7e83",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.283",
+      "name": "7K Russian Tan 7K Tierra Rusa",
+      "hex": "#7c735c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.292",
+      "name": "US Loam US Marron Barro",
+      "hex": "#54564d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.301",
+      "name": "AMT-4 Cam: Green AMT-4 Cam: Verde",
+      "hex": "#686042",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.106",
+      "name": "Ivory RLMOS RLMOS Elfenbein",
+      "hex": "#c7b46c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.115",
+      "name": "Blue Grey RAL7016 Blaugrau",
+      "hex": "#484c54",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.124",
+      "name": "USAF Green Verde USAF",
+      "hex": "#505d5d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.134",
+      "name": "IJA Midouri Green IJA Verde Midouri",
+      "hex": "#424c3f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.143",
+      "name": "UK Light Stone UK Piedra Clara",
+      "hex": "#b39b6a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.255",
+      "name": "Light Blue RLM65 RLM65 Hellblau",
+      "hex": "#8aa09c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.266",
+      "name": "Dark Blue RLM24 RLM24 Dunkelblau",
+      "hex": "#364a63",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.275",
+      "name": "USAF Medium USAF Gris Medio Gray",
+      "hex": "#83858c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.284",
+      "name": "UK Light Mud UK Marron Claro",
+      "hex": "#857f71",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.293",
+      "name": "US Earth Red US Tierra Roja",
+      "hex": "#7e6251",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.302",
+      "name": "Sky Type $ Verde Cielo",
+      "hex": "#a3a590",
+      "equivalents": [],
+      "confidence": null
+    }
+  ]
+}

@@ -8,9 +8,15 @@ const BRANDS = [
     { id: 'my-stack', label: 'My Stack' },
     { id: 'ammo', label: 'Ammo by Mig' },
     { id: 'ammo_atom', label: 'ATOM' },
+    { id: 'ammo_figures', label: 'Figures' },
     // { id: 'ak', label: 'AK Interactive' },
     { id: 'hobby_color', label: 'Hobby color' },
     { id: 'mr_color', label: 'Mr. Color' },
+    { id: 'vallejo_model_color', label: 'Vallejo Model Color' },
+    { id: 'vallejo_model_air', label: 'Vallejo Model Air' },
+    { id: 'vallejo_game_color', label: 'Vallejo Game Color' },
+    { id: 'vallejo_game_air', label: 'Vallejo Game Air' },
+    { id: 'vallejo_mecha_color', label: 'Vallejo Mecha Color' },
     // { id: 'vallejo', label: 'Vallejo' },
     { id: 'tamiya', label: 'Tamiya' },
     { id: 'humbrol', label: 'Humbrol' },
@@ -22,11 +28,13 @@ const BRANDS = [
 
 // Map brand display names to colors (used for equivalent badges and button backgrounds)
 const BRAND_BADGE_COLORS = {
-    'Ammo by Mig': '#FECC02',
+    'Ammo by Mig': '#d9ae00',
     'Mr. Color': '#045AAA',
     'AK Interactive': '#E95A0E',
     'Aqueous Hobby color': '#009DA5',
     'ATOM (Ammo)': '#0075C1',
+    'Ammo Figures': '#d9ae00',
+    'Ammo by Mig Figures': '#d9ae00',
     "Federal Standard": '#A6192E',
     "Tamiya": '#004B87',
     "RAL": '#E85D7B',
@@ -36,6 +44,9 @@ const BRAND_BADGE_COLORS = {
     "Vallejo": '#05E2E1',
     "Vallejo Model Air": '#05E2E1',
     "Vallejo Model Color": '#05E2E1',
+    "Vallejo Game Color": '#05E2E1',
+    "Vallejo Game Air": '#05E2E1',
+    "Vallejo Mecha Color": '#05E2E1',
     "Hataka": '#E31E24',
 };
 
@@ -44,6 +55,7 @@ const BRAND_LOGO_COLORS = {
     'my-stack': '#ec4899',
     'ammo': '#FECC02',
     'ammo_atom': '#0075C1',
+    'ammo_figures': '#d9ae00',
     'ak': '#E95A0E',
     'hobby_color': '#009DA5',
     'tamiya': '#004B87',
@@ -53,20 +65,33 @@ const BRAND_LOGO_COLORS = {
     'rlm': '#5C6B3A',
     'humbrol': '#F04A40',
     'vallejo': '#05E2E1',
+    'vallejo_model_color': '#05E2E1',
+    'vallejo_model_air': '#05E2E1',
+    'vallejo_game_color': '#05E2E1',
+    'vallejo_game_air': '#05E2E1',
+    'vallejo_mecha_color': '#05E2E1',
     'hataka': '#E31E24',
 };
 
 // Map brand IDs to logo filenames (for special cases)
 const BRAND_LOGO_FILES = {
     'ammo_atom': 'ammo',  // ammo_atom uses ammo logo
+    'ammo_figures': 'ammo',  // ammo_figures uses ammo logo
     'mr_color': 'mrhobby',  // mr_color PNG is named mrhobby.png
     "hobby_color": "mrhobby", // hobby_color uses mr_color logo
+    'vallejo_model_color': 'vallejo',
+    'vallejo_model_air': 'vallejo',
+    'vallejo_game_color': 'vallejo',
+    'vallejo_game_air': 'vallejo',
+    'vallejo_mecha_color': 'vallejo',
 };
 
 // Map brand IDs to display names
 const BRAND_NAME_MAP = {
     'ammo': 'Ammo by Mig',
     'ammo_atom': 'ATOM (Ammo)',
+    'ammo_figures': 'Ammo Figures',
+
     'ak': 'AK Interactive',
     'hobby_color': 'Aqueous Hobby color',
     'federal_standard': 'Federal Standard',
@@ -76,6 +101,11 @@ const BRAND_NAME_MAP = {
     'rlm': 'RLM',
     'humbrol': 'Humbrol',
     'vallejo': 'Vallejo',
+    'vallejo_model_color': 'Vallejo Model Color',
+    'vallejo_model_air': 'Vallejo Model Air',
+    'vallejo_game_color': 'Vallejo Game Color',
+    'vallejo_game_air': 'Vallejo Game Air',
+    'vallejo_mecha_color': 'Vallejo Mecha Color',
     "model_air": 'Vallejo Model Air',
     "model_color": 'Vallejo Model Color',
     'hataka': 'Hataka',
@@ -432,15 +462,17 @@ function renderEquivalentBadge(item, tone) {
     const badgeClass = inStack ? 'ring-2 ring-offset-1 ring-yellow-300 dark:ring-yellow-500' : '';
     const checkIcon = inStack ? ' ✓' : '';
 
-    return `<div class="m-1 rounded px-2 py-0.5 text-xs font-medium text-white cursor-default ${badgeClass}" style="background-color: ${badgeColor}" title="${displayName}${inStack ? ' (in stack)' : ''}" data-eq-brand="${eqBrandId}" data-eq-code="${eqCode}">${label}${checkIcon}</div>`;
+    return `<div class="m-1 rounded px-2 py-0.5 text-xs font-medium text-white cursor-default ${badgeClass}" style="background-color: ${badgeColor}; text-shadow: -0 -1px 0px rgba(0,0,0,0.3)" title="${displayName}${inStack ? ' (in stack)' : ''}" data-eq-brand="${eqBrandId}" data-eq-code="${eqCode}">${label}${checkIcon}</div>`;
 }
 
 // Brand IDs that are visible in the UI — only show equivalents for these.
 // Matches the active entries in the BRANDS array (excluding hidden ones and my-stack).
 const VISIBLE_BRAND_IDS = new Set([
-    'ammo', 'ammo_atom', 'ak', 'hobby_color', 'mr_color', 'tamiya',
+    'ammo', 'ammo_atom', 'ammo_figures', 'ak', 'hobby_color', 'mr_color', 'tamiya',
+    'vallejo_model_color', 'vallejo_model_air',
+    'vallejo_game_color', 'vallejo_game_air', 'vallejo_mecha_color',
     // 'ral', 'rlm', 'federal_standard' — reference systems, no direct manufacturer equivalents
-    // 'vallejo', 'humbrol', 'hataka' — hidden temporarily
+    // 'humbrol', 'hataka' — hidden temporarily
 ]);
 
 function renderEquivalentSection(container, title, items, tone) {

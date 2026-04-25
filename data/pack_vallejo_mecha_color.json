@@ -1,0 +1,368 @@
+{
+  "brand": "Vallejo Mecha Color",
+  "brand_id": "vallejo_mecha_color",
+  "source": "/Users/miroslavjuhos/projects/samec/data/pack_vallejo_mecha_color.json",
+  "count": 72,
+  "colors": [
+    {
+      "code": "69.001",
+      "name": "70.313",
+      "hex": "#c1c1c1"
+    },
+    {
+      "code": "69.002",
+      "name": "70.820",
+      "hex": "#bfbfbf"
+    },
+    {
+      "code": "69.003",
+      "name": "Pure White",
+      "hex": "#cddcd3"
+    },
+    {
+      "code": "69.004",
+      "name": "Pure White",
+      "hex": "#cddcd4"
+    },
+    {
+      "code": "69.005",
+      "name": "70.805",
+      "hex": "#cdcdcd"
+    },
+    {
+      "code": "69.006",
+      "name": "70.851",
+      "hex": "#d0d0d0"
+    },
+    {
+      "code": "69.007",
+      "name": "70.817",
+      "hex": "#d3d3d2"
+    },
+    {
+      "code": "69.008",
+      "name": "Light Flesh",
+      "hex": "#d9c9bc"
+    },
+    {
+      "code": "69.009",
+      "name": "72.054",
+      "hex": "#d6d6d6"
+    },
+    {
+      "code": "69.010",
+      "name": "Dark Red",
+      "hex": "#d7d7d7"
+    },
+    {
+      "code": "69.011",
+      "name": "UGO8",
+      "hex": "#d9d9d9"
+    },
+    {
+      "code": "69.012",
+      "name": "Titan Blue",
+      "hex": "#dadada"
+    },
+    {
+      "code": "69.013",
+      "name": "70.904",
+      "hex": "#dbdbdb"
+    },
+    {
+      "code": "69.014",
+      "name": "C74",
+      "hex": "#dcdcdc"
+    },
+    {
+      "code": "69.015",
+      "name": "70.902",
+      "hex": "#dddddd"
+    },
+    {
+      "code": "69.016",
+      "name": "70.961",
+      "hex": "#dededd"
+    },
+    {
+      "code": "69.017",
+      "name": "70.841",
+      "hex": "#dedede"
+    },
+    {
+      "code": "69.018",
+      "name": "70.962",
+      "hex": "#dfdfdf"
+    },
+    {
+      "code": "69.019",
+      "name": "70.736",
+      "hex": "#e0e0e0"
+    },
+    {
+      "code": "69.020",
+      "name": "70.965",
+      "hex": "#e0e0e0"
+    },
+    {
+      "code": "69.021",
+      "name": "70.898",
+      "hex": "#e1e1e1"
+    },
+    {
+      "code": "69.022",
+      "name": "70.966",
+      "hex": "#e1e1e1"
+    },
+    {
+      "code": "69.023",
+      "name": "70.973",
+      "hex": "#e2e2e2"
+    },
+    {
+      "code": "69.024",
+      "name": "70.832",
+      "hex": "#e2e2e2"
+    },
+    {
+      "code": "69.025",
+      "name": "70.885",
+      "hex": "#e2e2e2"
+    },
+    {
+      "code": "69.026",
+      "name": "70.974",
+      "hex": "#e2e2e2"
+    },
+    {
+      "code": "69.027",
+      "name": "70.967",
+      "hex": "#e2e2e2"
+    },
+    {
+      "code": "69.028",
+      "name": "70.330",
+      "hex": "#e3e3e3"
+    },
+    {
+      "code": "69.029",
+      "name": "70.894",
+      "hex": "#e3e3e3"
+    },
+    {
+      "code": "69.030",
+      "name": "Grey",
+      "hex": "#e3e3e3"
+    },
+    {
+      "code": "69.031",
+      "name": "70.834",
+      "hex": "#e3e3e3"
+    },
+    {
+      "code": "69.032",
+      "name": "70.916",
+      "hex": "#e4e4e3"
+    },
+    {
+      "code": "69.033",
+      "name": "Sand Yellow",
+      "hex": "#a7b6b3"
+    },
+    {
+      "code": "69.034",
+      "name": "Sand Yellow",
+      "hex": "#a7b6b3"
+    },
+    {
+      "code": "69.035",
+      "name": "Sand Yellow",
+      "hex": "#a7b6b3"
+    },
+    {
+      "code": "69.036",
+      "name": "Sand Yellow",
+      "hex": "#a7b6b3"
+    },
+    {
+      "code": "69.037",
+      "name": "Grey",
+      "hex": "#a7b1b0"
+    },
+    {
+      "code": "69.038",
+      "name": "70.313",
+      "hex": "#c1c1c1"
+    },
+    {
+      "code": "69.039",
+      "name": "70.820",
+      "hex": "#bfbfbf"
+    },
+    {
+      "code": "69.040",
+      "name": "UG0?",
+      "hex": "#c5c5c5"
+    },
+    {
+      "code": "69.041",
+      "name": "70.928",
+      "hex": "#cacaca"
+    },
+    {
+      "code": "69.042",
+      "name": "70.805",
+      "hex": "#cececd"
+    },
+    {
+      "code": "69.054",
+      "name": "70.851",
+      "hex": "#d0d0d0"
+    },
+    {
+      "code": "69.055",
+      "name": "70.817",
+      "hex": "#d3d3d2"
+    },
+    {
+      "code": "69.056",
+      "name": "70.947",
+      "hex": "#d4d4d4"
+    },
+    {
+      "code": "69.057",
+      "name": "72.054",
+      "hex": "#d6d6d6"
+    },
+    {
+      "code": "69.058",
+      "name": "Dark Red",
+      "hex": "#d7d7d7"
+    },
+    {
+      "code": "69.059",
+      "name": "UGO8",
+      "hex": "#d9d9d9"
+    },
+    {
+      "code": "69.060",
+      "name": "Titan Blue",
+      "hex": "#dadada"
+    },
+    {
+      "code": "69.061",
+      "name": "70.904",
+      "hex": "#dbdbdb"
+    },
+    {
+      "code": "69.062",
+      "name": "C74",
+      "hex": "#dcdcdc"
+    },
+    {
+      "code": "69.063",
+      "name": "70.902",
+      "hex": "#dddddd"
+    },
+    {
+      "code": "69.064",
+      "name": "70.961",
+      "hex": "#dededd"
+    },
+    {
+      "code": "69.065",
+      "name": "70.841",
+      "hex": "#dedede"
+    },
+    {
+      "code": "69.066",
+      "name": "70.962",
+      "hex": "#dfdfdf"
+    },
+    {
+      "code": "69.067",
+      "name": "70.736",
+      "hex": "#e0e0e0"
+    },
+    {
+      "code": "69.068",
+      "name": "70.965",
+      "hex": "#e0e0e0"
+    },
+    {
+      "code": "69.505",
+      "name": "Light Rust Wash",
+      "hex": "#dbcdbb"
+    },
+    {
+      "code": "69.507",
+      "name": "Light Rust Wash",
+      "hex": "#dbccba"
+    },
+    {
+      "code": "69.515",
+      "name": "Light Rust Wash",
+      "hex": "#dbccba"
+    },
+    {
+      "code": "69.518",
+      "name": "Light Rust Wash",
+      "hex": "#dbccba"
+    },
+    {
+      "code": "69.521",
+      "name": "Oiled Earth Wash",
+      "hex": "#d8c6b2"
+    },
+    {
+      "code": "69.522",
+      "name": "Oiled Earth Wash",
+      "hex": "#d7c6b1"
+    },
+    {
+      "code": "69.527",
+      "name": "70.885",
+      "hex": "#e2e2e2"
+    },
+    {
+      "code": "69.701",
+      "name": "Mecha Gloss Varnish",
+      "hex": "#cabaa9"
+    },
+    {
+      "code": "69.702",
+      "name": "Mecha Gloss Varnish",
+      "hex": "#cabaa9"
+    },
+    {
+      "code": "69.703",
+      "name": "Mecha Gloss Varnish",
+      "hex": "#cabaa9"
+    },
+    {
+      "code": "69.813",
+      "name": "Oiled Earth Wash",
+      "hex": "#d8c6b2"
+    },
+    {
+      "code": "69.814",
+      "name": "Oiled Earth Wash",
+      "hex": "#d8c6b2"
+    },
+    {
+      "code": "69.817",
+      "name": "Petrol Spills (Gloss)",
+      "hex": "#d2c0ab"
+    },
+    {
+      "code": "69.818",
+      "name": "Petrol Spills (Gloss)",
+      "hex": "#d2c0ab"
+    },
+    {
+      "code": "69.821",
+      "name": "Petrol Spills (Gloss)",
+      "hex": "#d2c0ab"
+    }
+  ]
+}
