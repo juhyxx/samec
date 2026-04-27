@@ -2,8 +2,15 @@
   "brand": "Ammo by Mig Figures",
   "brand_id": "ammo_figures",
   "source": "data/pack_ammo_figures.json",
-  "count": 26,
+  "count": 32,
   "colors": [
+    {
+      "code": "AMMO.F-500",
+      "name": "RETARDER",
+      "hex": "#ffffff",
+      "equivalents": [],
+      "confidence": null
+    },
     {
       "code": "AMMO.F-501",
       "name": "WHIE FOR FIGURES",
@@ -62,8 +69,15 @@
     },
     {
       "code": "AMMO.F-509",
-      "name": "UNIFORM GREEN BASE FS 34128 UMIFORM SAND YELLOM FS 32555",
-      "hex": "#907f62",
+      "name": "UNIFORM GREEN BASE FS 34128",
+      "hex": "#4b664f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-510",
+      "name": "UMIFORM SAND YELLOM FS 32555",
+      "hex": "#c79474",
       "equivalents": [],
       "confidence": null
     },
@@ -103,9 +117,23 @@
       "confidence": null
     },
     {
+      "code": "AMMO.F-516",
+      "name": "VGHTGREY FS-35630",
+      "hex": "#ccceb9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
       "code": "AMMO.F-517",
-      "name": "MARINE BLUE PALE GOLD YELLOW",
-      "hex": "#758472",
+      "name": "PALE GOLD YELLOW",
+      "hex": "#bdb46b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-518",
+      "name": "MARINE BLUE",
+      "hex": "#3f617d",
       "equivalents": [],
       "confidence": null
     },
@@ -139,8 +167,22 @@
     },
     {
       "code": "AMMO.F-523",
-      "name": "UNIFORM BLUE LIGHT SKY BLUE MEDIM BLUE",
-      "hex": "#599ac5",
+      "name": "UNIFORM BLUE",
+      "hex": "#4383b5",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-524",
+      "name": "LIGHT SKY BLUE",
+      "hex": "#75bcda",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "AMMO.F-525",
+      "name": "MEDIM BLUE",
+      "hex": "#528bbe",
       "equivalents": [],
       "confidence": null
     },

@@ -32,7 +32,7 @@ IMG_HALF_X = 463  # horizontal midpoint separating left / right table
 SWATCH_INSET = 18  # px from the right edge of each half to sample swatch
 SWATCH_WIDTH = 45  # width of swatch sample strip
 
-CODE_RE = re.compile(r"AMMO\.?F[-.]?(\d{3})", re.IGNORECASE)
+CODE_RE = re.compile(r"AMM[O0]F[-]?(\d{3})", re.IGNORECASE)
 
 
 def rgb_to_hex(r, g, b):
@@ -99,8 +99,13 @@ def parse_ammo_figures(image_path=None, output_json=None, output_csv=None):
 
     # ── find code entries ─────────────────────────────────────────────────────
     code_entries = []
+    # normalize OCR text to handle common misreads (O→0, I/L→1) and flexible separators
+    trans = str.maketrans({"O": "0", "o": "0", "I": "1", "l": "1", "i": "1"})
     for t in texts:
-        m = CODE_RE.search(t["text"])
+        txt = t["text"].translate(trans)
+        # remove non-alphanumeric except dash to allow matches like 'AMMO F-500' or 'AMMO.F-500'
+        cleaned = re.sub(r"[^A-Za-z0-9-]", "", txt)
+        m = CODE_RE.search(cleaned)
         if m:
             num = int(m.group(1))
             half = 0 if t["x1"] < IMG_HALF_X else 1
@@ -169,6 +174,7 @@ def parse_ammo_figures(image_path=None, output_json=None, output_csv=None):
                     "hex": hex_color,
                 }
             )
+            print("code:", entry["code"], "name:", name, "color:", hex_color)
 
     colors.sort(key=lambda c: int(c["code"].split("-")[1]))
 

@@ -2,15 +2,8 @@
   "brand": "Vallejo Mecha Color",
   "brand_id": "vallejo_mecha_color",
   "source": "data/pack_vallejo_mecha_color.json",
-  "count": 38,
+  "count": 23,
   "colors": [
-    {
-      "code": "",
-      "name": "",
-      "hex": "#5ac5f1",
-      "equivalents": [],
-      "confidence": null
-    },
     {
       "code": "71.001",
       "name": "Pure White",
@@ -21,126 +14,119 @@
     {
       "code": "71.005",
       "name": "Light Flesh",
-      "hex": "#f8cfa6",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.009",
       "name": "SZ Red",
-      "hex": "#b9353c",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.013",
       "name": "Titan Blue",
-      "hex": "#334563",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.017",
       "name": "Sky Blue",
-      "hex": "#70c4e9",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.021",
       "name": "Dark Blue",
-      "hex": "#3c5a75",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.025",
       "name": "Light Green",
-      "hex": "#c7cebf",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "",
-      "name": "",
-      "hex": "#5ac5f1",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.002",
       "name": "White Grey",
-      "hex": "#cfcfc5",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.006",
       "name": "Pink",
-      "hex": "#e3927b",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.010",
       "name": "Magenta",
-      "hex": "#ae3b7a",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.014",
-      "name": "Grey Green",
-      "hex": "#6a8388",
+      "name": "Green IGrey \"",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.018",
       "name": "Deep Blue",
-      "hex": "#1397c7",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.022",
       "name": "Titan Dark Blue",
-      "hex": "#40484d",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.026",
       "name": "Green",
-      "hex": "#949d85",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.642",
       "name": "Black",
-      "hex": "#010202",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.515",
-      "name": "Light Wash Grey",
-      "hex": "#c8c7c5",
+      "name": "Light Grey Wash",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.813",
       "name": "Oil Stains (Gloss)",
-      "hex": "#745418",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.821",
       "name": "Rust Texture (Matt)",
-      "hex": "#693328",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
@@ -152,120 +138,29 @@
       "confidence": null
     },
     {
-      "code": "",
-      "name": "60 ml 200 ml",
-      "hex": "#c6c6c5",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
       "code": "71.643",
       "name": "Ivory",
-      "hex": "#efecd4",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.171",
-      "name": "",
-      "hex": "#f39200",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.518",
       "name": "Black Wash",
-      "hex": "#1c1c1b",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.814",
       "name": "Fuel Stains (Gloss)",
-      "hex": "#9f6214",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "",
-      "name": "60 ml 200 ml",
-      "hex": "#1c1c1b",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.261",
       "name": "Airbrush Thinner",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "",
-      "name": "",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "",
-      "name": "Ref: 69.001 69.002 69.003 69.004 69.005 69.006 69.007 69.008 69.009",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.010",
-      "name": "69.011",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.012",
-      "name": "69.013 69.014 69.015 69.016",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.017",
-      "name": "69.018 69.019 69.020 69.021",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.022",
-      "name": "69.023 69.024 69.025 69.026 69.027",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.028",
-      "name": "0oo",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.030",
-      "name": "69.031 69.032",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.033",
-      "name": "",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.035",
-      "name": "69.036 69.037",
       "hex": "#ffffff",
       "equivalents": [],
       "confidence": null

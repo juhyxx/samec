@@ -1,39 +1,24 @@
 panel,cell_index,code,name,hex
-panel_01.png,8,,,#5ac5f1
-panel_01.png,9,71.001,Pure White,#ffffff
-panel_01.png,10,71.005,Light Flesh,#f8cfa6
-panel_01.png,11,71.009,SZ Red,#b9353c
-panel_01.png,12,71.013,Titan Blue,#334563
-panel_01.png,13,71.017,Sky Blue,#70c4e9
-panel_01.png,14,71.021,Dark Blue,#3c5a75
-panel_01.png,15,71.025,Light Green,#c7cebf
-panel_01.png,16,,,#5ac5f1
-panel_01.png,17,71.002,White Grey,#cfcfc5
-panel_01.png,18,71.006,Pink,#e3927b
-panel_01.png,19,71.010,Magenta,#ae3b7a
-panel_01.png,20,71.014,Grey Green,#6a8388
-panel_01.png,21,71.018,Deep Blue,#1397c7
-panel_01.png,22,71.022,Titan Dark Blue,#40484d
-panel_01.png,23,71.026,Green,#949d85
-panel_04.png,1,71.642,Black,#010202
-panel_04.png,3,71.515,Light Wash Grey,#c8c7c5
-panel_04.png,4,71.813,Oil Stains (Gloss),#745418
-panel_04.png,5,71.821,Rust Texture (Matt),#693328
-panel_04.png,8,71.703,Mecha Satin Varnish,#ffffff
-panel_04.png,10,,60 ml 200 ml,#c6c6c5
-panel_04.png,11,71.643,Ivory,#efecd4
-panel_04.png,12,71.171,,#f39200
-panel_04.png,13,71.518,Black Wash,#1c1c1b
-panel_04.png,14,71.814,Fuel Stains (Gloss),#9f6214
-panel_04.png,16,,60 ml 200 ml,#1c1c1b
-panel_04.png,18,71.261,Airbrush Thinner,#ffffff
-panel_04.png,20,,,#ffffff
-panel_04.png,21,,Ref: 69.001 69.002 69.003 69.004 69.005 69.006 69.007 69.008 69.009,#ffffff
-panel_04.png,22,71.010,69.011,#ffffff
-panel_04.png,23,71.012,69.013 69.014 69.015 69.016,#ffffff
-panel_04.png,24,71.017,69.018 69.019 69.020 69.021,#ffffff
-panel_04.png,25,71.022,69.023 69.024 69.025 69.026 69.027,#ffffff
-panel_04.png,26,71.028,0oo,#ffffff
-panel_04.png,27,71.030,69.031 69.032,#ffffff
-panel_04.png,28,71.033,,#ffffff
-panel_04.png,29,71.035,69.036 69.037,#ffffff
+panel_01.png,1,71.001,Pure White,#ffffff
+panel_01.png,3,71.005,Light Flesh,#ffffff
+panel_01.png,5,71.009,SZ Red,#ffffff
+panel_01.png,7,71.013,Titan Blue,#ffffff
+panel_01.png,9,71.017,Sky Blue,#ffffff
+panel_01.png,11,71.021,Dark Blue,#ffffff
+panel_01.png,13,71.025,Light Green,#ffffff
+panel_01.png,16,71.002,White Grey,#ffffff
+panel_01.png,18,71.006,Pink,#ffffff
+panel_01.png,20,71.010,Magenta,#ffffff
+panel_01.png,22,71.014,"Green IGrey """,#ffffff
+panel_01.png,24,71.018,Deep Blue,#ffffff
+panel_01.png,26,71.022,Titan Dark Blue,#ffffff
+panel_01.png,28,71.026,Green,#ffffff
+panel_04.png,1,71.642,Black,#ffffff
+panel_04.png,3,71.515,Light Grey Wash,#ffffff
+panel_04.png,5,71.813,Oil Stains (Gloss),#ffffff
+panel_04.png,7,71.821,Rust Texture (Matt),#ffffff
+panel_04.png,9,71.703,Mecha Satin Varnish,#ffffff
+panel_04.png,12,71.643,Ivory,#ffffff
+panel_04.png,14,71.518,Black Wash,#ffffff
+panel_04.png,16,71.814,Fuel Stains (Gloss),#ffffff
+panel_04.png,20,71.261,Airbrush Thinner,#ffffff
