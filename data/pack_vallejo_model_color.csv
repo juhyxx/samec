@@ -1,1 +1,101 @@
 panel,cell_index,code,name,hex
+panel_01.png,0,71.881,Verde Amarillo,#6f653d
+panel_01.png,1,71.917,Beige,#e0bf6e
+panel_01.png,2,71.874,Tierra Oscura,#987658
+panel_01.png,3,71.983,Flat Earth,#684529
+panel_01.png,4,71.818,Red Leather,#965439
+panel_01.png,5,71.772,Azul Gris Medio,#769c94
+panel_01.png,6,71.870,Medium Sea Grey,#7d7c7b
+panel_01.png,7,71.950,Black,#231d1d
+panel_01.png,9,71.998,Bronze,#e8e8e8
+panel_01.png,11,71.596,Medium Veladuras,#eaeaea
+panel_01.png,12,71.887,US Olive Drab,#58523c
+panel_01.png,13,71.914,Green Ochre,#a17f37
+panel_01.png,14,71.873,US Field Drab,#816745
+panel_01.png,15,71.825,Pale Brown,#a08374
+panel_01.png,16,71.982,Cavalry Brown,#864438
+panel_01.png,17,71.943,Grey Blue,#5a6e84
+panel_01.png,18,71.991,Dark Sea Grey,#6c6b6a
+panel_01.png,19,71.861,Gloss Black,#241e20
+panel_01.png,21,71.801,Brass,#efeeee
+panel_01.png,23,71.597,Retardante Secado,#efefef
+panel_01.png,24,71.976,Buff,#d6b04e
+panel_01.png,25,71.824,Orange Ochre,#ab8237
+panel_01.png,26,71.768,BC Dark Brown,#76583d
+panel_01.png,27,71.940,Saddle Brown,#8b655c
+panel_01.png,28,71.814,Burnt Red,#763c3b
+panel_01.png,29,71.964,Field Blue,#4d5358
+panel_01.png,30,71.773,Violet Grey,#5b5a59
+panel_01.png,31,71.828,Mahogany Ink,#674641
+panel_01.png,33,71.999,Copper,#fbfbfa
+panel_01.png,35,71.523,Mascara Liquida,#f6f6f6
+panel_01.png,36,71.882,Middle Stone,#937f40
+panel_01.png,37,71.880,Khaki,#7c6339
+panel_01.png,38,71.871,Leather Brown,#594436
+panel_01.png,39,71.846,Mahogany Brown,#77524b
+panel_01.png,40,71.985,Hull Red,#5e3938
+panel_01.png,41,71.816,Luftwaffe Uniform,#45414d
+panel_01.png,42,71.866,Grey Green,#42403e
+panel_01.png,43,71.939,Smoke Ink,#5d4945
+panel_01.png,45,71.800,Gunmetal Blue,#fcfcfc
+panel_01.png,47,71.400,Masilla Plastica,#fafaf9
+panel_01.png,48,71.764,Military Yellow,#937726
+panel_01.png,49,71.872,Chocolate Brown,#5a433d
+panel_01.png,50,71.822,Cam Black Brown,#413435
+panel_01.png,51,71.984,Flat Brown,#6f4037
+panel_01.png,52,71.993,White Grey,#e5e1e0
+panel_01.png,53,71.994,Dark Grey,#322f34
+panel_01.png,54,71.862,Black Grey,#302722
+panel_01.png,55,71.997,Silver,#939291
+panel_01.png,57,71.540,Base Mate,#ffffff
+panel_01.png,59,71.524,Diluyente,#fafafa
+panel_01.png,60,71.923,lapan: Unif; WWII,#9f812a
+panel_01.png,61,71.847,Dark Sand,#cba766
+panel_01.png,62,71.916,Sand Yellow,#ebc055
+panel_01.png,63,71.771,Dark Rust,#3d2525
+panel_01.png,64,71.883,Silver Grey,#d8d0c7
+panel_01.png,65,71.989,Sky Grey,#a8aaac
+panel_01.png,66,71.836,London Grey,#696362
+panel_01.png,67,71.865,Oily Steel,#494146
+panel_01.png,69,71.470,Medium Brillante,#ffffff
+panel_01.png,71,71.261,Diluyente Aerografo,#fefefe
+panel_01.png,72,71.879,Green Brown,#816c31
+panel_01.png,73,71.819,Iraqi Sand,#b5935e
+panel_01.png,74,71.977,Desert Yellow,#b58547
+panel_01.png,75,71.913,Yellow Ochre,#deaa46
+panel_01.png,76,71.971,Light Green Grey,#b4b5ab
+panel_01.png,77,71.990,Gris Palido,#8f9394
+panel_01.png,78,71.869,Basalt Grey,#5b595d
+panel_01.png,79,71.864,Natural Steel,#545359
+panel_01.png,81,71.521,Medium Metalico,#ffffff
+panel_01.png,83,71.262,Flow Improver,#ffffff
+panel_01.png,84,71.921,English Uniform,#6f532c
+panel_01.png,85,71.767,Desert Brown,#ad8455
+panel_01.png,86,71.769,Mustard Brown,#9e734a
+panel_01.png,87,71.877,Gold Brown,#bf873d
+panel_01.png,88,71.907,Pale Grey Blue,#a8b5b5
+panel_01.png,89,71.905,Blue Grey Pale,#818587
+panel_01.png,90,71.868,Dark Sea Green,#4b4546
+panel_01.png,91,71.863,Gunmetal,#322a2e
+panel_01.png,93,71.520,Barniz Mate,#ffffff
+panel_01.png,95,71.212,Ablandador Calcas,#ffffff
+panel_01.png,96,71.826,Medium Brown,#5b473c
+panel_01.png,97,71.761,Old Wood,#816d54
+panel_01.png,98,71.770,New Wood,#8a613b
+panel_01.png,99,71.856,Ochre Brown,#aa793f
+panel_01.png,100,71.906,Pale Blue,#90a4a8
+panel_01.png,101,71.992,Neutral Grey,#616160
+panel_01.png,102,71.995,German Grey,#2e2e2c
+panel_01.png,103,71.996,Gold,#996828
+panel_01.png,105,71.510,Barniz Brillante,#ffffff
+panel_01.png,107,71.213,Fijador de Calcas,#ffffff
+panel_01.png,108,71.889,Olive Brown,#403228
+panel_01.png,109,71.765,Desert Tan,#b5a387
+panel_01.png,110,71.875,Beige Brown,#816043
+panel_01.png,111,71.981,Orange Brown,#ad633b
+panel_01.png,112,71.972,Light Green Blue,#86968e
+panel_01.png,113,71.867,Dark Blue Grey,#424446
+panel_01.png,114,71.774,Lavender Grey,#7f6f6f
+panel_01.png,115,71.878,Old Gold,#54381c
+panel_01.png,117,71.522,Barniz Satinado,#ffffff
+panel_01.png,119,71.214,Medium Desgaste,#ffffff

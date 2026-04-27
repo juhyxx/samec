@@ -1,263 +1,64 @@
 {
   "brand": "Vallejo Game Air",
   "brand_id": "vallejo_game_air",
-  "source": "/Users/miroslavjuhos/projects/samec/data/pack_vallejo_game_air.json",
-  "count": 51,
+  "source": "data/pack_vallejo_game_air.json",
+  "count": 8,
   "colors": [
     {
-      "code": "76.001",
-      "name": "",
-      "hex": "#934745"
+      "code": "71.001",
+      "name": "Dead White Blanco Calavera 76.005 Moon Yellow Amarillo lunar",
+      "hex": "#d8d8d8",
+      "equivalents": [],
+      "confidence": null
     },
     {
-      "code": "76.003",
-      "name": "",
-      "hex": "#dea780"
+      "code": "71.014",
+      "name": "Warlord Purple Pirpura",
+      "hex": "#9b9b9a",
+      "equivalents": [],
+      "confidence": null
     },
     {
-      "code": "76.004",
-      "name": "",
-      "hex": "#d0915b"
+      "code": "71.023",
+      "name": "Electric Blue Azul Electrico",
+      "hex": "#a4a4a4",
+      "equivalents": [],
+      "confidence": null
     },
     {
-      "code": "76.005",
-      "name": "",
-      "hex": "#f0ad2f"
+      "code": "71.122",
+      "name": "Bile Green Verde Bilioso",
+      "hex": "#a4a4a4",
+      "equivalents": [],
+      "confidence": null
     },
     {
-      "code": "76.006",
-      "name": "",
-      "hex": "#eb7d49"
+      "code": "71.034",
+      "name": "Bone White Blanco Hueso 76.006 Sun Yellow Amarillo Soleado",
+      "hex": "#dcdbdb",
+      "equivalents": [],
+      "confidence": null
     },
     {
-      "code": "76.007",
-      "name": "",
-      "hex": "#bd655a"
+      "code": "71.114",
+      "name": "Lustful Purple Purpura Lujurioso",
+      "hex": "#7c7c7b",
+      "equivalents": [],
+      "confidence": null
     },
     {
-      "code": "76.008",
-      "name": "",
-      "hex": "#bd655a"
+      "code": "71.021",
+      "name": "Magic Blue Azul Magico",
+      "hex": "#878786",
+      "equivalents": [],
+      "confidence": null
     },
     {
-      "code": "76.010",
-      "name": "",
-      "hex": "#675154"
-    },
-    {
-      "code": "76.012",
-      "name": "",
-      "hex": "#675154"
-    },
-    {
-      "code": "76.013",
-      "name": "",
-      "hex": "#aa6690"
-    },
-    {
-      "code": "76.014",
-      "name": "",
-      "hex": "#6b3c51"
-    },
-    {
-      "code": "76.016",
-      "name": "",
-      "hex": "#4c434e"
-    },
-    {
-      "code": "76.019",
-      "name": "",
-      "hex": "#535f6b"
-    },
-    {
-      "code": "76.020",
-      "name": "",
-      "hex": "#505e71"
-    },
-    {
-      "code": "76.021",
-      "name": "",
-      "hex": "#405685"
-    },
-    {
-      "code": "76.022",
-      "name": "",
-      "hex": "#6295ad"
-    },
-    {
-      "code": "76.023",
-      "name": "",
-      "hex": "#3a7583"
-    },
-    {
-      "code": "76.024",
-      "name": "",
-      "hex": "#3a7583"
-    },
-    {
-      "code": "76.026",
-      "name": "",
-      "hex": "#60af8d"
-    },
-    {
-      "code": "76.027",
-      "name": "",
-      "hex": "#496e66"
-    },
-    {
-      "code": "76.028",
-      "name": "",
-      "hex": "#525a50"
-    },
-    {
-      "code": "76.031",
-      "name": "",
-      "hex": "#aa9962"
-    },
-    {
-      "code": "76.032",
-      "name": "",
-      "hex": "#d4d4d4"
-    },
-    {
-      "code": "76.034",
-      "name": "",
-      "hex": "#aa9572"
-    },
-    {
-      "code": "76.035",
-      "name": "",
-      "hex": "#ab9662"
-    },
-    {
-      "code": "76.036",
-      "name": "",
-      "hex": "#867156"
-    },
-    {
-      "code": "76.040",
-      "name": "",
-      "hex": "#867156"
-    },
-    {
-      "code": "76.042",
-      "name": "",
-      "hex": "#815c3f"
-    },
-    {
-      "code": "76.043",
-      "name": "",
-      "hex": "#a48668"
-    },
-    {
-      "code": "76.045",
-      "name": "",
-      "hex": "#5c4941"
-    },
-    {
-      "code": "76.047",
-      "name": "",
-      "hex": "#9ca9ac"
-    },
-    {
-      "code": "76.048",
-      "name": "",
-      "hex": "#3f4041"
-    },
-    {
-      "code": "76.049",
-      "name": "",
-      "hex": "#817e7a"
-    },
-    {
-      "code": "76.050",
-      "name": "",
-      "hex": "#d4d4d4"
-    },
-    {
-      "code": "76.051",
-      "name": "",
-      "hex": "#434343"
-    },
-    {
-      "code": "76.062",
-      "name": "",
-      "hex": "#8f7151"
-    },
-    {
-      "code": "76.063",
-      "name": "",
-      "hex": "#ab9662"
-    },
-    {
-      "code": "76.071",
-      "name": "",
-      "hex": "#8f7151"
-    },
-    {
-      "code": "76.076",
-      "name": "",
-      "hex": "#65577e"
-    },
-    {
-      "code": "76.100",
-      "name": "",
-      "hex": "#d67d6b"
-    },
-    {
-      "code": "76.107",
-      "name": "",
-      "hex": "#f0ae3f"
-    },
-    {
-      "code": "76.109",
-      "name": "",
-      "hex": "#eec349"
-    },
-    {
-      "code": "76.111",
-      "name": "",
-      "hex": "#5d6a53"
-    },
-    {
-      "code": "76.114",
-      "name": "",
-      "hex": "#8c74a7"
-    },
-    {
-      "code": "76.115",
-      "name": "",
-      "hex": "#645147"
-    },
-    {
-      "code": "76.116",
-      "name": "",
-      "hex": "#4a434f"
-    },
-    {
-      "code": "76.118",
-      "name": "",
-      "hex": "#d2e6ed"
-    },
-    {
-      "code": "76.120",
-      "name": "",
-      "hex": "#336268"
-    },
-    {
-      "code": "76.121",
-      "name": "",
-      "hex": "#60af8d"
-    },
-    {
-      "code": "76.122",
-      "name": "",
-      "hex": "#bdc943"
-    },
-    {
-      "code": "76.123",
-      "name": "",
-      "hex": "#d4d4d4"
+      "code": "71.032",
+      "name": "Scorpy Green Verde Escorpena",
+      "hex": "#7d7c7c",
+      "equivalents": [],
+      "confidence": null
     }
   ]
 }

@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import cv2
-from shapely import snap
 
 _HERE = Path(__file__).resolve().parent
 _ROOT = _HERE.parents[2]
@@ -12,7 +11,7 @@ import easyocr
 import numpy as np
 
 CONFIG = {
-    "pdf_path": str(_HERE / "ModelAir.pdf"),
+    "pdf_path": str(_HERE / "ModelColor.pdf"),
     "render_dpi": 300,
     "tmp_dir": str(_ROOT / ".tmp" / "vallejo_model_color"),
     "composite_page_index": 1,
@@ -27,7 +26,7 @@ CONFIG = {
     "swatch_inset": 0.08,
     "output_json": str(_ROOT / "data" / "pack_vallejo_model_color.json"),
     "output_csv": str(_ROOT / "data" / "pack_vallejo_model_color.csv"),
-    "brand_label": "Vallejo Model Air",
+    "brand_label": "Vallejo Model Color",
     "brand_id": "vallejo_model_color",
     "debug": False,
     "debug_show_cells": True,
@@ -70,12 +69,13 @@ def parse_vallejo_model_color_images(
             panels = sorted(tmp_dir.glob("*.png"))
 
     reader = easyocr.Reader(["en"], gpu=False)
+
     trans_map = str.maketrans(
         {"O": "0", "o": "0", "I": "1", "l": "1", "i": "1", "S": "5", "s": "5"}
     )
     results: list[dict] = []
 
-    panels = [panels[4]]
+    panels = [panels[1], panels[4]]
 
     for panel_path in panels:
         print(f"Processing panel: {panel_path}")
@@ -86,13 +86,14 @@ def parse_vallejo_model_color_images(
             print(f"Failed to open {panel_path}: {e}")
             continue
 
-        cells = get_cells_from_image(img)
+        cells = get_grid(img, panel_path.stem)
         for ci, cell in enumerate(cells):
             parsed = parse_cell(cell, img, reader)
-            code_raw = parsed.get("code")
-            name = parsed.get("name")
-            hexcol = parsed.get("color")
-
+            if parsed is None:
+                continue
+            code_raw = parsed.get("code").strip() if parsed.get("code") else None
+            if code_raw is None:
+                continue
             code_norm = None
             if code_raw:
                 t = str(code_raw).translate(trans_map)
@@ -105,8 +106,8 @@ def parse_vallejo_model_color_images(
                 "panel": panel_path.name,
                 "cell_index": ci,
                 "code": code_norm or "",
-                "name": name or "",
-                "hex": hexcol or "#cccccc",
+                "name": parsed.get("name") or "",
+                "hex": parsed.get("color") or "#cccccc",
             }
             results.append(entry)
 
@@ -146,82 +147,126 @@ def parse_vallejo_model_color_images(
 def parse_cell(cell, img, reader):
     x, y, w, h = cell
 
-    roi_color = img[y + 10 : y + 13, x + 10 : x + 13]
-    mean_color = roi_color.mean(axis=(0, 1))
+    # clip coordinates to image bounds to avoid empty ROIs
+    h_img, w_img = img.shape[:2]
+    x = max(0, int(x))
+    y = max(0, int(y))
+    w = int(w)
+    h = int(h)
+    x2 = min(w_img, x + max(1, w))
+    y2 = min(h_img, y + max(1, h))
 
-    # ocr text from cell
-    roi = img[y : y + h, x : x + w]
+    if x >= x2 or y >= y2:
+        # invalid cell, return placeholder values
+        parsed = {"code": None, "name": None, "color": "#cccccc"}
+        print("Invalid cell bounds, skipping OCR", cell)
+        return parsed
 
-    result = reader.readtext(roi)
-    result = [r[1] for r in result if r[2] > 0.4]
+    # safe color ROI (ensure we don't go out of bounds)
+    roi_color = img[y + 10 : min(y + 13, y2), x + 10 : min(x + 13, x2)]
+    if roi_color.size == 0:
+        mean_color = np.array([204, 204, 204])
+    else:
+        mean_color = roi_color.mean(axis=(0, 1))
+
+    # OCR text from cell (safe ROI)
+    roi = img[y:y2, x:x2]
+
+    try:
+        result = reader.readtext(roi)
+        result = [r[1] for r in result if r[2] > 0.4]
+    except Exception as e:
+        print(f"OCR failed for cell {cell}: {e}")
+        result = []
 
     parsed = {
         "code": result[0] if len(result) > 0 else None,
-        "name": " ".join(result[1:]) if len(result) > 1 else None,
+        "name": result[2] if len(result) > 1 else None,
         "color": rgb_to_hex(mean_color),
     }
+    if parsed["code"] is None:
+        return None
     print("code:", parsed["code"], "name:", parsed["name"], "color:", parsed["color"])
     return parsed
 
 
-def get_cells_from_image(img):
+def get_grid(img, panel_name=""):
 
-    gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
-    # adjusted = cv2.convertScaleAbs(gray, alpha=1.5, beta=1)
-    thresh = cv2.adaptiveThreshold(
-        gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 15, 3
-    )
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    clahe = cv2.createCLAHE(2.0, (8, 8))
+    gray = clahe.apply(gray)
 
-    contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    edges = cv2.Canny(gray, 10, 80)
+    kernel_h = cv2.getStructuringElement(cv2.MORPH_RECT, (100, 1))
+    horiz = cv2.morphologyEx(edges, cv2.MORPH_OPEN, kernel_h)
 
-    MIN_W, MIN_H = 100, 100
-    filtered_contours = []
-    for cnt in contours:
-        approx = cv2.approxPolyDP(cnt, 0.02 * cv2.arcLength(cnt, True), True)
-        if len(approx) == 4 and cv2.isContourConvex(approx):
+    kernel_v = cv2.getStructuringElement(cv2.MORPH_RECT, (1, 80))
+    vert = cv2.morphologyEx(edges, cv2.MORPH_OPEN, kernel_v, iterations=1)
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
 
-            x, y, w, h = cv2.boundingRect(approx)
-            if w >= MIN_W and h >= MIN_H:
-                filtered_contours.append(approx)
+    cv2.imwrite(CONFIG["tmp_dir"] + f"/{panel_name}_debug_horiz.png", horiz.copy())
+    cv2.imwrite(CONFIG["tmp_dir"] + f"/{panel_name}_debug_vert.png", vert.copy())
+
+    grid = cv2.bitwise_or(horiz, vert)
+    # grid = cv2.morphologyEx(grid, cv2.MORPH_CLOSE, kernel, iterations=2)
+
+    cv2.imwrite(CONFIG["tmp_dir"] + f"/{panel_name}_debug_grid.png", grid.copy())
+
+    col_sum = np.sum(vert, axis=0)
+    row_sum = np.sum(horiz, axis=1)
+
+    col_sum = np.where(col_sum >= 30_000, col_sum, 0)
+    row_sum = np.where(row_sum >= 100_000, row_sum, 0)
+
+    def find_lines(proj, threshold):
+        lines = []
+        active = False
+        start = 0
+
+        for i, v in enumerate(proj):
+            if v > threshold and not active:
+                active = True
+                start = i
+            elif v <= threshold and active:
+                active = False
+                lines.append((start + i) // 2)
+
+        return lines
+
+    xs = find_lines(col_sum, threshold=1000)
+    ys = find_lines(row_sum, threshold=1000)
+
+    out = img.copy()
+
+    # svislé čáry (x pozice)
+    for x in xs:
+        cv2.line(out, (x, 0), (x, out.shape[0]), (0, 0, 255), 2)
+
+    # vodorovné čáry (y pozice)
+    for y in ys:
+        cv2.line(out, (0, y), (out.shape[1], y), (255, 0, 0), 2)
+
+    cv2.imwrite(CONFIG["tmp_dir"] + f"/{panel_name}_debug_lines_out.png", out)
+
+    ys = ys[0::2]  # vynech sude
 
     rectangles = []
 
-    for cnt in filtered_contours:
-        x, y, w, h = cv2.boundingRect(cnt)
-        rectangles.append((x, y, w, h))
+    for i in range(len(xs) - 1):
+        for j in range(len(ys) - 1):
+            x1, x2 = xs[i], xs[i + 1]
+            y1, y2 = ys[j], ys[j + 1]
 
-    def snap(v, step=5):
-        return round(v / step) * step
+            w = x2 - x1
+            h = y2 - y1
 
-    rectangles = map(
-        lambda r: (snap(r[0]), snap(r[1]), snap(r[2]), snap(r[3])), rectangles
-    )
-    rectangles = sorted(rectangles, key=lambda r: (r[1], r[0]))
+            if w > 100 and h > 50:  # filtr velikosti
+                rectangles.append((x1, y1, w, h))
 
-    grid = (set(), set(), set(), set())
+    out = img.copy()
+    for x, y, w, h in rectangles:
+        cv2.rectangle(out, (x, y), (x + w, y + h), (0, 0, 255), 2)
 
-    for i, (x, y, w, h) in enumerate(rectangles):
-        grid[0].add(x)
-        grid[1].add(y)
-        grid[2].add(w)
-        grid[3].add(h)
+    cv2.imwrite(CONFIG["tmp_dir"] + f"/{panel_name}_debug_grid_out.png", out)
 
-    grid = (sorted(grid[0]), sorted(grid[1]), sorted(grid[2]), sorted(grid[3]))
-
-    cells = []
-    try:
-        h = grid[1][1] - grid[1][0]
-
-        for x in grid[0]:
-            for y in grid[1]:
-                cells.append((x, y, grid[2][0], h - 3))
-    except Exception as e:
-        print("Error constructing cells from grid:", e)
-
-    # out = img.copy()
-    # for x, y, w, h in cells:
-    #     cv2.rectangle(out, (x, y), (x + w, y + h), (0, 0, 255), 2)
-    # cv2.imshow("image", out)
-    # cv2.waitKey(0)
-
-    return cells
+    return rectangles

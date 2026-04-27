@@ -1,1 +1,708 @@
-[]
+{
+  "brand": "Vallejo Model Color",
+  "brand_id": "vallejo_model_color",
+  "source": "data/pack_vallejo_model_color.json",
+  "count": 100,
+  "colors": [
+    {
+      "code": "71.881",
+      "name": "Verde Amarillo",
+      "hex": "#6f653d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.917",
+      "name": "Beige",
+      "hex": "#e0bf6e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.874",
+      "name": "Tierra Oscura",
+      "hex": "#987658",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.983",
+      "name": "Flat Earth",
+      "hex": "#684529",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.818",
+      "name": "Red Leather",
+      "hex": "#965439",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.772",
+      "name": "Azul Gris Medio",
+      "hex": "#769c94",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.870",
+      "name": "Medium Sea Grey",
+      "hex": "#7d7c7b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.950",
+      "name": "Black",
+      "hex": "#231d1d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.998",
+      "name": "Bronze",
+      "hex": "#e8e8e8",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.596",
+      "name": "Medium Veladuras",
+      "hex": "#eaeaea",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.887",
+      "name": "US Olive Drab",
+      "hex": "#58523c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.914",
+      "name": "Green Ochre",
+      "hex": "#a17f37",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.873",
+      "name": "US Field Drab",
+      "hex": "#816745",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.825",
+      "name": "Pale Brown",
+      "hex": "#a08374",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.982",
+      "name": "Cavalry Brown",
+      "hex": "#864438",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.943",
+      "name": "Grey Blue",
+      "hex": "#5a6e84",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.991",
+      "name": "Dark Sea Grey",
+      "hex": "#6c6b6a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.861",
+      "name": "Gloss Black",
+      "hex": "#241e20",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.801",
+      "name": "Brass",
+      "hex": "#efeeee",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.597",
+      "name": "Retardante Secado",
+      "hex": "#efefef",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.976",
+      "name": "Buff",
+      "hex": "#d6b04e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.824",
+      "name": "Orange Ochre",
+      "hex": "#ab8237",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.768",
+      "name": "BC Dark Brown",
+      "hex": "#76583d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.940",
+      "name": "Saddle Brown",
+      "hex": "#8b655c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.814",
+      "name": "Burnt Red",
+      "hex": "#763c3b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.964",
+      "name": "Field Blue",
+      "hex": "#4d5358",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.773",
+      "name": "Violet Grey",
+      "hex": "#5b5a59",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.828",
+      "name": "Mahogany Ink",
+      "hex": "#674641",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.999",
+      "name": "Copper",
+      "hex": "#fbfbfa",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.523",
+      "name": "Mascara Liquida",
+      "hex": "#f6f6f6",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.882",
+      "name": "Middle Stone",
+      "hex": "#937f40",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.880",
+      "name": "Khaki",
+      "hex": "#7c6339",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.871",
+      "name": "Leather Brown",
+      "hex": "#594436",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.846",
+      "name": "Mahogany Brown",
+      "hex": "#77524b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.985",
+      "name": "Hull Red",
+      "hex": "#5e3938",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.816",
+      "name": "Luftwaffe Uniform",
+      "hex": "#45414d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.866",
+      "name": "Grey Green",
+      "hex": "#42403e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.939",
+      "name": "Smoke Ink",
+      "hex": "#5d4945",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.800",
+      "name": "Gunmetal Blue",
+      "hex": "#fcfcfc",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.400",
+      "name": "Masilla Plastica",
+      "hex": "#fafaf9",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.764",
+      "name": "Military Yellow",
+      "hex": "#937726",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.872",
+      "name": "Chocolate Brown",
+      "hex": "#5a433d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.822",
+      "name": "Cam Black Brown",
+      "hex": "#413435",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.984",
+      "name": "Flat Brown",
+      "hex": "#6f4037",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.993",
+      "name": "White Grey",
+      "hex": "#e5e1e0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.994",
+      "name": "Dark Grey",
+      "hex": "#322f34",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.862",
+      "name": "Black Grey",
+      "hex": "#302722",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.997",
+      "name": "Silver",
+      "hex": "#939291",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.540",
+      "name": "Base Mate",
+      "hex": "#ffffff",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.524",
+      "name": "Diluyente",
+      "hex": "#fafafa",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.923",
+      "name": "lapan: Unif; WWII",
+      "hex": "#9f812a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.847",
+      "name": "Dark Sand",
+      "hex": "#cba766",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.916",
+      "name": "Sand Yellow",
+      "hex": "#ebc055",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.771",
+      "name": "Dark Rust",
+      "hex": "#3d2525",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.883",
+      "name": "Silver Grey",
+      "hex": "#d8d0c7",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.989",
+      "name": "Sky Grey",
+      "hex": "#a8aaac",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.836",
+      "name": "London Grey",
+      "hex": "#696362",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.865",
+      "name": "Oily Steel",
+      "hex": "#494146",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.470",
+      "name": "Medium Brillante",
+      "hex": "#ffffff",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.261",
+      "name": "Diluyente Aerografo",
+      "hex": "#fefefe",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.879",
+      "name": "Green Brown",
+      "hex": "#816c31",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.819",
+      "name": "Iraqi Sand",
+      "hex": "#b5935e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.977",
+      "name": "Desert Yellow",
+      "hex": "#b58547",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.913",
+      "name": "Yellow Ochre",
+      "hex": "#deaa46",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.971",
+      "name": "Light Green Grey",
+      "hex": "#b4b5ab",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.990",
+      "name": "Gris Palido",
+      "hex": "#8f9394",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.869",
+      "name": "Basalt Grey",
+      "hex": "#5b595d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.864",
+      "name": "Natural Steel",
+      "hex": "#545359",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.521",
+      "name": "Medium Metalico",
+      "hex": "#ffffff",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.262",
+      "name": "Flow Improver",
+      "hex": "#ffffff",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.921",
+      "name": "English Uniform",
+      "hex": "#6f532c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.767",
+      "name": "Desert Brown",
+      "hex": "#ad8455",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.769",
+      "name": "Mustard Brown",
+      "hex": "#9e734a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.877",
+      "name": "Gold Brown",
+      "hex": "#bf873d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.907",
+      "name": "Pale Grey Blue",
+      "hex": "#a8b5b5",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.905",
+      "name": "Blue Grey Pale",
+      "hex": "#818587",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.868",
+      "name": "Dark Sea Green",
+      "hex": "#4b4546",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.863",
+      "name": "Gunmetal",
+      "hex": "#322a2e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.520",
+      "name": "Barniz Mate",
+      "hex": "#ffffff",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.212",
+      "name": "Ablandador Calcas",
+      "hex": "#ffffff",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.826",
+      "name": "Medium Brown",
+      "hex": "#5b473c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.761",
+      "name": "Old Wood",
+      "hex": "#816d54",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.770",
+      "name": "New Wood",
+      "hex": "#8a613b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.856",
+      "name": "Ochre Brown",
+      "hex": "#aa793f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.906",
+      "name": "Pale Blue",
+      "hex": "#90a4a8",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.992",
+      "name": "Neutral Grey",
+      "hex": "#616160",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.995",
+      "name": "German Grey",
+      "hex": "#2e2e2c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.996",
+      "name": "Gold",
+      "hex": "#996828",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.510",
+      "name": "Barniz Brillante",
+      "hex": "#ffffff",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.213",
+      "name": "Fijador de Calcas",
+      "hex": "#ffffff",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.889",
+      "name": "Olive Brown",
+      "hex": "#403228",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.765",
+      "name": "Desert Tan",
+      "hex": "#b5a387",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.875",
+      "name": "Beige Brown",
+      "hex": "#816043",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.981",
+      "name": "Orange Brown",
+      "hex": "#ad633b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.972",
+      "name": "Light Green Blue",
+      "hex": "#86968e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.867",
+      "name": "Dark Blue Grey",
+      "hex": "#424446",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.774",
+      "name": "Lavender Grey",
+      "hex": "#7f6f6f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.878",
+      "name": "Old Gold",
+      "hex": "#54381c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.522",
+      "name": "Barniz Satinado",
+      "hex": "#ffffff",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.214",
+      "name": "Medium Desgaste",
+      "hex": "#ffffff",
+      "equivalents": [],
+      "confidence": null
+    }
+  ]
+}

@@ -112,6 +112,17 @@ parse_vallejo_mecha_color_images = (
     parse_vallejo_mecha_color.parse_vallejo_mecha_color_images
 )
 
+# Utility: load shared Vallejo PDF parser (render + split panels)
+try:
+    vallejo_pdf = load_module(
+        "vallejo_pdf_parser", SCRIPT_DIR / "source/valejo/_pdf_parser.py"
+    )
+    render_vallejo_pages = vallejo_pdf.render_pdf_pages
+    split_into_panels = vallejo_pdf.split_into_panels
+except Exception:
+    render_vallejo_pages = None
+    split_into_panels = None
+
 parse_hataka = load_module("parse_hataka", SCRIPT_DIR / "source/hataka/__main__.py")
 parse_hataka_images = parse_hataka.parse_hataka_images
 
@@ -255,17 +266,77 @@ def display_parser_stats(stats_data, timings=None):
                         f"{code}×{count}"
                         for code, count in sorted(
                             duplicates.items(), key=lambda x: -x[1]
-                        )[:3]
+                        )
                     ]
                 )
-                if len(duplicates) > 3:
-                    dup_str += f", +{len(duplicates)-3} more"
+
                 console.print(f"  • [yellow]{brand_id}[/yellow]: {dup_str}")
 
 
 def run_parser(brand_id, parser_func, source_dir, output_file, brand_name):
     """Run a single parser and format results. Returns (success, elapsed_seconds)."""
     console.print(f"[cyan]\n{brand_id.upper()}[/cyan]: {brand_name}...")
+    # For Vallejo parsers, ensure PDF pages are rendered and split into panels
+    try:
+        if render_vallejo_pages:
+            # Map brand_id -> module variable loaded above (if present)
+            module_var = f"parse_{brand_id}"
+            module = globals().get(module_var)
+            # Attempt to read CONFIG from module to get PDF path / tmp dir / composite settings
+            cfg = None
+            if module and hasattr(module, "CONFIG"):
+                try:
+                    cfg = getattr(module, "CONFIG")
+                except Exception:
+                    cfg = None
+
+            # Fallback defaults per-brand
+            if cfg:
+                pdfp = Path(cfg.get("pdf_path"))
+                tmpd = Path(cfg.get("tmp_dir"))
+                dpi = cfg.get("render_dpi", 300)
+                comp_idx = cfg.get("composite_page_index", 0)
+                cols = cfg.get("composite_cols", 6)
+                rows_n = cfg.get("composite_rows", 1)
+            else:
+                # Derive paths from brand_id like `vallejo_game_color` ->
+                # folder `source/valejo/game_color` and PDF `GameColor.pdf`.
+                parts = brand_id.split("vallejo_")[-1]
+                folder = parts
+                pdf_name = "".join([p.capitalize() for p in folder.split("_")]) + ".pdf"
+                pdfp = SCRIPT_DIR / "source" / "valejo" / folder / pdf_name
+                tmpd = SCRIPT_DIR / ".tmp" / folder
+                dpi = 300
+                comp_idx = 0
+                cols = 6
+                rows_n = 1
+
+            # For Vallejo Model Color, prefer rendering only the composite page (page 1)
+            if brand_id == "vallejo_model_color":
+                comp_idx = 1
+
+            # Render pages (cached)
+            rendered = render_vallejo_pages(str(pdfp), dpi, str(tmpd), False)
+
+            # Split every rendered page into panels and save sequentially as panel_00.png...
+            if split_into_panels and rendered:
+                try:
+                    tmpd.mkdir(parents=True, exist_ok=True)
+                    global_idx = 0
+                    for page_idx, page_path in enumerate(rendered):
+                        try:
+                            panels = split_into_panels(page_path, cols, rows_n)
+                        except Exception:
+                            continue
+                        for i, panel in enumerate(panels):
+                            panel.save(str(tmpd / f"panel_{global_idx:02d}.png"))
+                            global_idx += 1
+                except Exception:
+                    # non-fatal; parser may handle page PNGs directly
+                    pass
+    except Exception:
+        # non-fatal: parser will still try to use any existing panels
+        pass
     t_start = time.monotonic()
     try:
         colors = parser_func(Path(source_dir), Path(output_file))

@@ -219,10 +219,10 @@ def get_cells_from_image(img):
     except Exception as e:
         print("Error constructing cells from grid:", e)
 
-    return cells
-
-    #  out = img.copy()
+    # out = img.copy()
     # for x, y, w, h in cells:
     #     cv2.rectangle(out, (x, y), (x + w, y + h), (0, 0, 255), 2)
     # cv2.imshow("image", out)
     # cv2.waitKey(0)
+
+    return cells
