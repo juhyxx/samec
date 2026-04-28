@@ -71,9 +71,6 @@ def parse_vallejo_game_air_images(
 
     reader = easyocr.Reader(["en"], gpu=False)
 
-    trans_map = str.maketrans(
-        {"O": "0", "o": "0", "I": "1", "l": "1", "i": "1", "S": "5", "s": "5"}
-    )
     results: list[dict] = []
 
     panels = [panels[3]]
@@ -95,13 +92,7 @@ def parse_vallejo_game_air_images(
             code_raw = parsed.get("code").strip() if parsed.get("code") else None
             if code_raw is None:
                 continue
-            code_norm = None
-            if code_raw:
-                t = str(code_raw).translate(trans_map)
-                digits = "".join(ch for ch in t if ch.isdigit())
-                if len(digits) >= 3:
-                    digits = digits[-3:]
-                    code_norm = f"{CONFIG.get('code_prefix')}.{digits}"
+            code_norm = code_raw
 
             entry = {
                 "panel": panel_path.name,

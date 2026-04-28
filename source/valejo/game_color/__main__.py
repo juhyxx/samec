@@ -24,7 +24,6 @@ CONFIG = {
     "color_panels": [1, 2, 3],
     "equiv_panels": [4, 5],
     "grid_cols": 9,
-    "code_prefix": "71",
     "row_cluster_threshold": 80,
     "swatch_inset": 0.08,
     "output_json": str(_ROOT / "data" / f"pack_{name}.json"),
