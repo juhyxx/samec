@@ -2,7 +2,7 @@
   "brand": "Vallejo Mecha Color",
   "brand_id": "vallejo_mecha_color",
   "source": "data/pack_vallejo_mecha_color.json",
-  "count": 23,
+  "count": 65,
   "colors": [
     {
       "code": "71.001",
@@ -14,154 +14,448 @@
     {
       "code": "71.005",
       "name": "Light Flesh",
-      "hex": "#ffffff",
+      "hex": "#f8cfa6",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.009",
       "name": "SZ Red",
-      "hex": "#ffffff",
+      "hex": "#b9353c",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.013",
       "name": "Titan Blue",
-      "hex": "#ffffff",
+      "hex": "#334563",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.017",
       "name": "Sky Blue",
-      "hex": "#ffffff",
+      "hex": "#70c4e9",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.021",
       "name": "Dark Blue",
-      "hex": "#ffffff",
+      "hex": "#3c5a75",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.025",
       "name": "Light Green",
-      "hex": "#ffffff",
+      "hex": "#c7cebf",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.002",
       "name": "White Grey",
-      "hex": "#ffffff",
+      "hex": "#cfcfc5",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.006",
       "name": "Pink",
-      "hex": "#ffffff",
+      "hex": "#e3927b",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.010",
       "name": "Magenta",
-      "hex": "#ffffff",
+      "hex": "#ae3b7a",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.014",
-      "name": "Green IGrey \"",
-      "hex": "#ffffff",
+      "name": "Grey Green",
+      "hex": "#6a8388",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.018",
       "name": "Deep Blue",
-      "hex": "#ffffff",
+      "hex": "#1397c7",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.022",
       "name": "Titan Dark Blue",
-      "hex": "#ffffff",
+      "hex": "#40484d",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.026",
       "name": "Green",
+      "hex": "#949d85",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.003",
+      "name": "Off-White",
+      "hex": "#e8e4d7",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.007",
+      "name": "Orange",
+      "hex": "#eb6425",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.011",
+      "name": "Dark Red",
+      "hex": "#8d2c3d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.015",
+      "name": "Blue Grey",
+      "hex": "#7491a7",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.019",
+      "name": "Blue",
+      "hex": "#285187",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.023",
+      "name": "Turquoise",
+      "hex": "#00a0a2",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.027",
+      "name": "Green Blue",
+      "hex": "#879f7c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.004",
+      "name": "Yellow",
+      "hex": "#e5a111",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.008",
+      "name": "Red",
+      "hex": "#c62025",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.012",
+      "name": "Purple",
+      "hex": "#a89ecd",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.016",
+      "name": "Light Blue",
+      "hex": "#6a8ebc",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.020",
+      "name": "Electric Blue",
+      "hex": "#285489",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.024",
+      "name": "Stone Grey",
+      "hex": "#9eaeae",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.028",
+      "name": "Olive Green",
+      "hex": "#616c49",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.033",
+      "name": "Sand Yellow",
+      "hex": "#f2c372",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.037",
+      "name": "Grey",
+      "hex": "#8a99a3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.041",
+      "name": "Dark Grey Green",
+      "hex": "#505354",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.054",
+      "name": "Yellow Fluorescent",
+      "hex": "#efe63f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.058",
+      "name": "Gunmetal",
+      "hex": "#6e7277",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.062",
+      "name": "Bronze",
+      "hex": "#7d6a43",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.034",
+      "name": "Brown",
+      "hex": "#81684d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.038",
+      "name": "Medium Grey",
+      "hex": "#797f85",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.042",
+      "name": "Pure Black",
+      "hex": "#1c1c1b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.055",
+      "name": "Orange Fluorescent",
+      "hex": "#e95c0e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.059",
+      "name": "Gold",
+      "hex": "#b7995f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.063",
+      "name": "Steel",
+      "hex": "#8d8b8c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.035",
+      "name": "Chipping Brown",
+      "hex": "#4a423e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.039",
+      "name": "IGrey",
+      "hex": "#797c7e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.056",
+      "name": "Magenta Fluorescent",
+      "hex": "#e74190",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.060",
+      "name": "Old Gold",
+      "hex": "#967c50",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.064",
+      "name": "Light Steel",
+      "hex": "#a5a9ad",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.036",
+      "name": "Light Grey",
+      "hex": "#94a1a5",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.040",
+      "name": "Phantom Grey",
+      "hex": "#555a62",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.057",
+      "name": "Green Fluorescent",
+      "hex": "#a6c958",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.061",
+      "name": "Copper",
+      "hex": "#9d6651",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.065",
+      "name": "Dark Steel",
+      "hex": "#737171",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.640",
+      "name": "White 70.644 Sand",
       "hex": "#ffffff",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.505",
+      "name": "Light Rust Wash",
+      "hex": "#eb7716",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.521",
+      "name": "Oiled Earth Wash",
+      "hex": "#6c5a4f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.817",
+      "name": "Petrol Spills (Gloss)",
+      "hex": "#191c1f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.641",
+      "name": "Grey",
+      "hex": "#c4c7c8",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.507",
+      "name": "Dark Rust Wash",
+      "hex": "#e15809",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.522",
+      "name": "Desert Dust Wash",
+      "hex": "#d8bc7f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "71.818",
+      "name": "Brown Eng: Soot (Matt)",
+      "hex": "#5f351c",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.642",
       "name": "Black",
-      "hex": "#ffffff",
+      "hex": "#010202",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.515",
-      "name": "Light Grey Wash",
-      "hex": "#ffffff",
+      "name": "Light Wash Grey",
+      "hex": "#c8c7c5",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.813",
       "name": "Oil Stains (Gloss)",
-      "hex": "#ffffff",
+      "hex": "#745418",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.821",
       "name": "Rust Texture (Matt)",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.703",
-      "name": "Mecha Satin Varnish",
-      "hex": "#ffffff",
+      "hex": "#693328",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.643",
       "name": "Ivory",
-      "hex": "#ffffff",
+      "hex": "#efecd4",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.518",
       "name": "Black Wash",
-      "hex": "#ffffff",
+      "hex": "#1c1c1b",
       "equivalents": [],
       "confidence": null
     },
     {
       "code": "71.814",
       "name": "Fuel Stains (Gloss)",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.261",
-      "name": "Airbrush Thinner",
-      "hex": "#ffffff",
+      "hex": "#9f6214",
       "equivalents": [],
       "confidence": null
     }

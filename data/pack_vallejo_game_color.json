@@ -2,810 +2,712 @@
   "brand": "Vallejo Game Color",
   "brand_id": "vallejo_game_color",
   "source": "data/pack_vallejo_game_color.json",
-  "count": 115,
+  "count": 101,
   "colors": [
     {
-      "code": "71.208",
-      "name": "81 Yellow Game Color Fluo",
-      "hex": "#f9f3b3",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.103",
-      "name": "101 Fluorescent Yellow Game Color Spee 72.600 89 Vomit 72.609 98 Rust Auxiliary Produc",
-      "hex": "#faeb3d",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.521",
-      "name": "Metal Medium",
-      "hex": "#f6f6f6",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "",
-      "name": "72.401 137 Templar White 72.410 146 Gloomy Violet",
-      "hex": "#ea672f",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.419",
-      "name": "155 Plague Green 72.452 164 Rotten Flesh",
-      "hex": "#eaeaea",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.204",
-      "name": "Flesh",
-      "hex": "#d2bdb3",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.156",
-      "name": "102 Fluorescent Orange cial FX 72.601 90 Fresh Blood 72.610 99 Galvanic Corrosion ts",
-      "hex": "#e63c11",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.596",
-      "name": "Glaze Medium",
-      "hex": "#f8f8f7",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "",
-      "name": "72.402 138 Dwarf Skin 72.411 147 Mystic Blue",
-      "hex": "#eb7a46",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.420",
-      "name": "156 Wasteland Brown 72.453 165 Military Yellow",
-      "hex": "#f1f1f1",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.206",
-      "name": "Red",
-      "hex": "#e1ab9a",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.157",
-      "name": "103 Fluorescent Red 72.602 Thick Blood 72.611 100 Moss and Lichen",
-      "hex": "#e42e3f",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.261",
-      "name": "Airbrush Thinner",
-      "hex": "#f7f7f7",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.403",
-      "name": "139 Imperial Yellow 72.412 148 Storm Blue",
-      "hex": "#ef9467",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.421",
-      "name": "157 Copper Brown 72.454 166 Desert Ochre",
-      "hex": "#fbfbfb",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.209",
-      "name": "Violet",
-      "hex": "#c3abcd",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.158",
-      "name": "Fluoresc: Mage 72.603 Demon Blood",
-      "hex": "#e8348b",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.650",
-      "name": "Gloss Poly: Var",
-      "hex": "#fefefe",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.404",
-      "name": "Nuclear Yellom 72.413 Omega Blue",
-      "hex": "#f3b391",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.422",
-      "name": "Space 72.455 Chameleon Or Grey",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.207",
-      "name": "Blue",
-      "hex": "#e6ebf5",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.159",
-      "name": "Fluorescent Vic 72.604 Frost",
-      "hex": "#cdb5d1",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.651",
-      "name": "Matt Poly: Varr",
-      "hex": "#fefefe",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.405",
-      "name": "Martian Orang = 72.414 Caribbean Turc",
-      "hex": "#f5d1bb",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.423",
-      "name": "Black Lotus 72.456 Wicked Purple",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.203",
-      "name": "Umber",
-      "hex": "#c1b5ac",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.160",
-      "name": "106 Fluorescent Blue 72.605 94 Green Rust",
-      "hex": "#007ab9",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.652",
-      "name": "Satin Poly: Varnish",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.406",
-      "name": "142 Plasma Red 72.415 151 Orc Skin",
-      "hex": "#fdf8f5",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.448",
-      "name": "160 Xpress Medium 72.457 169 Fairy Skin",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.200",
-      "name": "Sepia",
-      "hex": "#c1b19d",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.104",
-      "name": "107 Fluorescent Green 72.606 95 Bile",
-      "hex": "#5ab030",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.653",
-      "name": "Ultra Matt Pol. Varn",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.407",
-      "name": "143 Velvet Red 72.416 152 Troll Green",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.449",
-      "name": "161 Mummy White 72.458 170 Demonic Skin",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.201",
-      "name": "Black",
-      "hex": "#a8a3a6",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.161",
-      "name": "108 Fluo. Cold Green 72.607 96 Acid",
-      "hex": "#00604e",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.408",
-      "name": "144 Cardinal Purple 72.417 153 Snake Green",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.450",
-      "name": "162 Bag of Bones 72.459 Fluid Pink",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.608",
-      "name": "Corrosion",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.409",
-      "name": "Deep Purple 72.418 Lizard Green",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.451",
-      "name": "Khaki Drill 72.460 Twilight Rose",
-      "hex": "#ffffff",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "",
-      "name": "",
-      "hex": "#de2f40",
-      "equivalents": [],
-      "confidence": null
-    },
-    {
-      "code": "71.001",
+      "code": "72.001",
       "name": "Dead White",
       "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.004",
-      "name": "10 Elf Skin Tone",
+      "code": "72.004",
+      "name": "Elf Skin Tone",
       "hex": "#c57f53",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.009",
-      "name": "19 Hot Orange",
-      "hex": "#d2d2d2",
+      "code": "72.009",
+      "name": "Hot Orange",
+      "hex": "#d8321e",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.113",
-      "name": "28 Deep Magenta 72.118 Sunrise Blue",
-      "hex": "#d5d5d5",
+      "code": "72.113",
+      "name": "Deep Magenta",
+      "hex": "#4b2036",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.025",
-      "name": "46 Foul Green",
-      "hex": "#f1f1f1",
+      "code": "72.118",
+      "name": "Sunrise Blue",
+      "hex": "#5cb0d1",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.035",
-      "name": "54 Dead Flesh 72.040 Leather Brown",
-      "hex": "#fcfcfb",
+      "code": "72.025",
+      "name": "Foul Green",
+      "hex": "#156e53",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.095",
-      "name": "Glacier Blue Game Color Me",
+      "code": "72.035",
+      "name": "Dead Flesh",
+      "hex": "#94803b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.040",
+      "name": "Leather Brown",
+      "hex": "#4f3513",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.095",
+      "name": "Glacier Blue Game Color",
       "hex": "#b7d0ec",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.052",
-      "name": "Silver Game Color Ink 72.082 109 White",
+      "code": "72.052",
+      "name": "Silver Game Color",
       "hex": "#b3babb",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.010",
-      "name": "",
-      "hex": "#de4851",
+      "code": "72.082",
+      "name": "White",
+      "hex": "#ffffff",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.101",
+      "code": "72.090",
+      "name": "Black Green",
+      "hex": "#253b2c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.101",
       "name": "Off-White",
-      "hex": "#ece7d6",
+      "hex": "#fef0b8",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.071",
+      "code": "72.071",
       "name": "Barbarian Skin",
-      "hex": "#b9b0a8",
+      "hex": "#775a40",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.106",
-      "name": "20 Scarlet Blood",
-      "hex": "#dcdcdc",
+      "code": "72.106",
+      "name": "Scarlet Blood",
+      "hex": "#ac201d",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.114",
-      "name": "29 Lustful Purple 72.023 38 Electric Blue",
-      "hex": "#d6d6d5",
+      "code": "72.114",
+      "name": "Lustful Purple",
+      "hex": "#7e6093",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.026",
+      "code": "72.023",
+      "name": "Electric Blue",
+      "hex": "#016d89",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.026",
       "name": "Jade Green",
-      "hex": "#e8e8e8",
+      "hex": "#024938",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.031",
-      "name": "55 Camouflage Green 72.043 Beasty Brown",
-      "hex": "#ebebeb",
+      "code": "72.031",
+      "name": "Camouflage Gre",
+      "hex": "#6e6229",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.102",
-      "name": "Steel tallic Grey",
-      "hex": "#b9bec1",
+      "code": "72.043",
+      "name": "Beasty Brown",
+      "hex": "#55381d",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.053",
-      "name": "122 Chainmail 72.093 110 Skin",
-      "hex": "#d9dbdd",
+      "code": "72.102",
+      "name": "Steel allic Grey",
+      "hex": "#4a5b63",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.098",
+      "code": "72.053",
+      "name": "Chainmail",
+      "hex": "#979da3",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.093",
+      "name": "Skin",
+      "hex": "#452119",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.091",
+      "name": "Sepia",
+      "hex": "#342613",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.098",
       "name": "Elfic Flesh",
       "hex": "#f1d6a3",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.109",
+      "code": "72.109",
       "name": "Toxic Yellow",
       "hex": "#e2c33a",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.010",
+      "code": "72.010",
       "name": "Bloody Red",
-      "hex": "#c9c9c9",
+      "hex": "#a42d2c",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.076",
-      "name": "30 Alien Purple 72.021 39 Magic Blue",
-      "hex": "#c8c8c8",
+      "code": "72.076",
+      "name": "Alien Purple",
+      "hex": "#54417c",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.027",
+      "code": "72.021",
+      "name": "Magic Blue",
+      "hex": "#103d7e",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.027",
       "name": "Scurvy Green",
-      "hex": "#dfdfdf",
+      "hex": "#023526",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.145",
-      "name": "56 Dirty Grey 72.042 Parasite Brown",
-      "hex": "#e5e5e5",
+      "code": "72.145",
+      "name": "Grey Dirty \"",
+      "hex": "#4a3e20",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.048",
+      "code": "72.042",
+      "name": "Parasite Brown",
+      "hex": "#703c1a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.048",
       "name": "Sombre Grey",
       "hex": "#373f46",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.054",
-      "name": "123 Dark Gunmetal 72.085 Yellow",
+      "code": "72.054",
+      "name": "Dark Gunmetal",
       "hex": "#6f7075",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.034",
+      "code": "72.085",
+      "name": "Yellow",
+      "hex": "#ea9c13",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.094",
+      "name": "Black",
+      "hex": "#010000",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.034",
       "name": "Bone White",
       "hex": "#d4cbaa",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.005",
-      "name": "13 Moon Yellow",
+      "code": "72.005",
+      "name": "Moon Yellow",
       "hex": "#efb806",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.012",
-      "name": "22 Scarlet Red",
-      "hex": "#cacaca",
+      "code": "72.012",
+      "name": "Scarlet Red",
+      "hex": "#581a22",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.015",
-      "name": "31 Hexed Lichen 72.020 40 Imperial Blue",
-      "hex": "#d1d1d1",
+      "code": "72.015",
+      "name": "Hexed Lichen",
+      "hex": "#341939",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.122",
-      "name": "49 Bile Green",
-      "hex": "#e6e6e6",
+      "code": "72.020",
+      "name": "Imperial Blue",
+      "hex": "#122133",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.067",
-      "name": "Cayman Green 72.115 Grunge Brown",
-      "hex": "#e6e6e6",
+      "code": "72.122",
+      "name": "Bile Green",
+      "hex": "#d5d90f",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.148",
+      "code": "72.067",
+      "name": "Cayman Green",
+      "hex": "#41391a",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.115",
+      "name": "Grunge Brown",
+      "hex": "#69361c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.148",
       "name": "Warm Grey",
       "hex": "#81655f",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.055",
-      "name": "124 Polished Gold 72.086 112 Red",
+      "code": "72.055",
+      "name": "Polished Gold",
       "hex": "#e8b820",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.003",
+      "code": "72.086",
+      "name": "Red",
+      "hex": "#a71522",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.003",
       "name": "Pale Flesh",
       "hex": "#ce9a7b",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.006",
-      "name": "14 Sun Yellow",
+      "code": "72.006",
+      "name": "Sun Yellow",
       "hex": "#f4950c",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.011",
-      "name": "23 Gory Red",
-      "hex": "#cdcdcd",
+      "code": "72.011",
+      "name": "Gory Red",
+      "hex": "#621716",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.016",
-      "name": "32 Royal Purple 72.096 Verdigris",
-      "hex": "#cdcdcc",
+      "code": "72.016",
+      "name": "Royal Purple",
+      "hex": "#251930",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.032",
-      "name": "50 Scorpy Green",
-      "hex": "#e0e0e0",
+      "code": "72.096",
+      "name": "Verdigris",
+      "hex": "#86c8aa",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.061",
-      "name": "58 Khaki 72.124 Gorgon Brown",
-      "hex": "#e6e6e6",
+      "code": "72.032",
+      "name": "Scorpy Green",
+      "hex": "#417b33",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.049",
-      "name": "76 Stonewall Grey",
+      "code": "72.061",
+      "name": "Khaki",
+      "hex": "#786348",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.124",
+      "name": "Gorgon Brown",
+      "hex": "#3e2317",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.049",
+      "name": "Stonewall Grey",
       "hex": "#615e5c",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.056",
-      "name": "125 Glorious Gold 72.083 113 Magenta",
+      "code": "72.056",
+      "name": "Glorious Gold",
       "hex": "#d68727",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.100",
+      "code": "72.083",
+      "name": "Magenta",
+      "hex": "#9c2242",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.100",
       "name": "Rosy Flesh",
       "hex": "#e27262",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.007",
-      "name": "15 Gold Yellow",
+      "code": "72.007",
+      "name": "Gold Yellow",
       "hex": "#e77810",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.111",
-      "name": "24 Nocturnal Red",
-      "hex": "#cecdcd",
+      "code": "72.111",
+      "name": "Nocturnal Red",
+      "hex": "#3a1d23",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.116",
-      "name": "33 Midnight Purple 72.119 Aquamarine",
-      "hex": "#cacaca",
+      "code": "72.116",
+      "name": "Midnight Purple",
+      "hex": "#251532",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.030",
-      "name": "51 Goblin Green",
-      "hex": "#ebebeb",
+      "code": "72.119",
+      "name": "Aquamarine",
+      "hex": "#007977",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.063",
-      "name": "59 Desert Yellow 72.066 Tan",
-      "hex": "#e5e5e5",
+      "code": "72.030",
+      "name": "Goblin Green",
+      "hex": "#43502a",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.050",
+      "code": "72.063",
+      "name": "Desert Yellow",
+      "hex": "#7c5b2c",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.066",
+      "name": "Tan",
+      "hex": "#7e4c3f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.050",
       "name": "Neutral Grey",
       "hex": "#484844",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.057",
-      "name": "126 Bright Bronze 72.087 114 Violet",
+      "code": "72.057",
+      "name": "Bright Bronze",
       "hex": "#a55c0c",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.107",
+      "code": "72.087",
+      "name": "Violet",
+      "hex": "#49325f",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.107",
       "name": "Athena Skin",
       "hex": "#d5bbb6",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.038",
-      "name": "16 Scrofulous Brown",
+      "code": "72.038",
+      "name": "Scrofulous Browr",
       "hex": "#cfb79e",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.112",
-      "name": "25 Evil Red",
-      "hex": "#dfdfde",
+      "code": "72.112",
+      "name": "Evil Red",
+      "hex": "#a8a1a5",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.117",
-      "name": "34 Elfic Blue 72.024 43 Turquoise",
-      "hex": "#d9d9d9",
+      "code": "72.117",
+      "name": "Elfic Blue",
+      "hex": "#acb4be",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.029",
-      "name": "51 Sick Green",
-      "hex": "#e4e4e4",
+      "code": "72.024",
+      "name": "Turquoise",
+      "hex": "#94aaab",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.062",
-      "name": "60 Earth 72.044 69 Dark Flesh Tone",
-      "hex": "#e9e9e9",
+      "code": "72.029",
+      "name": "Sick Green",
+      "hex": "#afbaad",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.155",
-      "name": "78 Charcoal",
+      "code": "72.062",
+      "name": "Earth",
+      "hex": "#bbb3ab",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.044",
+      "name": "Dark Flesh Tone",
+      "hex": "#afa4a0",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.155",
+      "name": "Charcoal",
       "hex": "#a7a6a4",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.058",
-      "name": "127 Brassy Brass 72.088 115 Blue",
+      "code": "72.058",
+      "name": "Brassy Brass",
       "hex": "#d7bfb1",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.108",
+      "code": "72.088",
+      "name": "Blue",
+      "hex": "#a8b2c2",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.108",
       "name": "Succubus Skin",
       "hex": "#74423c",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.110",
+      "code": "72.110",
       "name": "Sunset Orange",
       "hex": "#f18332",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.013",
-      "name": "26 Squid Pink",
-      "hex": "#d6d5d5",
+      "code": "72.013",
+      "name": "Squid Pink",
+      "hex": "#cb709f",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.022",
-      "name": "35 Ultramarine Blue 72.120 Abyssal Turquoise",
-      "hex": "#d4d3d3",
+      "code": "72.022",
+      "name": "Ultramarine Blue",
+      "hex": "#1a234c",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.123",
-      "name": "52 Angel Green",
-      "hex": "#e8e8e8",
+      "code": "72.120",
+      "name": "Abyssal Turquois",
+      "hex": "#122433",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.036",
-      "name": "Bronze Brown 72.045 70 Charred Brown",
-      "hex": "#eae9e9",
+      "code": "72.123",
+      "name": "Angel Green",
+      "hex": "#243822",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.051",
-      "name": "79 Black",
+      "code": "72.036",
+      "name": "Bronze Brown",
+      "hex": "#995b1b",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.045",
+      "name": "Charred Brown",
+      "hex": "#281b15",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.051",
+      "name": "Black",
       "hex": "#010000",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.059",
-      "name": "128 Hammered Copper 72.084 116 Dark Turquoise",
+      "code": "72.059",
+      "name": "Hammered Copp",
       "hex": "#764d33",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.099",
+      "code": "72.084",
+      "name": "Dark Turquoise",
+      "hex": "#093f3d",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.099",
       "name": "Skin Tone",
       "hex": "#f3a97f",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.008",
+      "code": "72.008",
       "name": "Orange Fire",
       "hex": "#ea541e",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.014",
-      "name": "27 Warlord Purple",
-      "hex": "#e1e1e1",
+      "code": "72.014",
+      "name": "Warlord Purple",
+      "hex": "#7e223f",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.019",
-      "name": "36 Night Blue 72.121 Ghost Green",
-      "hex": "#dadada",
+      "code": "72.019",
+      "name": "Night Blue",
+      "hex": "#0f0f1d",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.028",
-      "name": "53 Dark Green",
-      "hex": "#f2f2f1",
+      "code": "72.121",
+      "name": "Ghost Green",
+      "hex": "#5bb889",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.039",
-      "name": "Plague Brown 72.047 Wolf Grey",
-      "hex": "#eeeeee",
+      "code": "72.028",
+      "name": "Dark Green",
+      "hex": "#112418",
       "equivalents": [],
       "confidence": null
     },
     {
-      "code": "71.060",
-      "name": "129 Tinny Tin 72.089 Green",
+      "code": "72.039",
+      "name": "Plague Brown",
+      "hex": "#8f5e25",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.047",
+      "name": "Wolf Grey",
+      "hex": "#96b4bc",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.060",
+      "name": "Tinny Tin",
       "hex": "#542e18",
+      "equivalents": [],
+      "confidence": null
+    },
+    {
+      "code": "72.089",
+      "name": "Green",
+      "hex": "#077133",
       "equivalents": [],
       "confidence": null
     }

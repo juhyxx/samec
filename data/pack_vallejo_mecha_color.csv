@@ -1,24 +1,66 @@
 panel,cell_index,code,name,hex
-panel_01.png,1,71.001,Pure White,#ffffff
-panel_01.png,3,71.005,Light Flesh,#ffffff
-panel_01.png,5,71.009,SZ Red,#ffffff
-panel_01.png,7,71.013,Titan Blue,#ffffff
-panel_01.png,9,71.017,Sky Blue,#ffffff
-panel_01.png,11,71.021,Dark Blue,#ffffff
-panel_01.png,13,71.025,Light Green,#ffffff
-panel_01.png,16,71.002,White Grey,#ffffff
-panel_01.png,18,71.006,Pink,#ffffff
-panel_01.png,20,71.010,Magenta,#ffffff
-panel_01.png,22,71.014,"Green IGrey """,#ffffff
-panel_01.png,24,71.018,Deep Blue,#ffffff
-panel_01.png,26,71.022,Titan Dark Blue,#ffffff
-panel_01.png,28,71.026,Green,#ffffff
-panel_04.png,1,71.642,Black,#ffffff
-panel_04.png,3,71.515,Light Grey Wash,#ffffff
-panel_04.png,5,71.813,Oil Stains (Gloss),#ffffff
-panel_04.png,7,71.821,Rust Texture (Matt),#ffffff
-panel_04.png,9,71.703,Mecha Satin Varnish,#ffffff
-panel_04.png,12,71.643,Ivory,#ffffff
-panel_04.png,14,71.518,Black Wash,#ffffff
-panel_04.png,16,71.814,Fuel Stains (Gloss),#ffffff
-panel_04.png,20,71.261,Airbrush Thinner,#ffffff
+panel_01.png,0,71.001,Pure White,#ffffff
+panel_01.png,1,71.005,Light Flesh,#f8cfa6
+panel_01.png,2,71.009,SZ Red,#b9353c
+panel_01.png,3,71.013,Titan Blue,#334563
+panel_01.png,4,71.017,Sky Blue,#70c4e9
+panel_01.png,5,71.021,Dark Blue,#3c5a75
+panel_01.png,6,71.025,Light Green,#c7cebf
+panel_01.png,7,71.002,White Grey,#cfcfc5
+panel_01.png,8,71.006,Pink,#e3927b
+panel_01.png,9,71.010,Magenta,#ae3b7a
+panel_01.png,10,71.014,Grey Green,#6a8388
+panel_01.png,11,71.018,Deep Blue,#1397c7
+panel_01.png,12,71.022,Titan Dark Blue,#40484d
+panel_01.png,13,71.026,Green,#949d85
+panel_01.png,14,71.003,Off-White,#e8e4d7
+panel_01.png,15,71.007,Orange,#eb6425
+panel_01.png,16,71.011,Dark Red,#8d2c3d
+panel_01.png,17,71.015,Blue Grey,#7491a7
+panel_01.png,18,71.019,Blue,#285187
+panel_01.png,19,71.023,Turquoise,#00a0a2
+panel_01.png,20,71.027,Green Blue,#879f7c
+panel_01.png,21,71.004,Yellow,#e5a111
+panel_01.png,22,71.008,Red,#c62025
+panel_01.png,23,71.012,Purple,#a89ecd
+panel_01.png,24,71.016,Light Blue,#6a8ebc
+panel_01.png,25,71.020,Electric Blue,#285489
+panel_01.png,26,71.024,Stone Grey,#9eaeae
+panel_01.png,27,71.028,Olive Green,#616c49
+panel_02.png,0,71.033,Sand Yellow,#f2c372
+panel_02.png,1,71.037,Grey,#8a99a3
+panel_02.png,2,71.041,Dark Grey Green,#505354
+panel_02.png,3,71.054,Yellow Fluorescent,#efe63f
+panel_02.png,4,71.058,Gunmetal,#6e7277
+panel_02.png,5,71.062,Bronze,#7d6a43
+panel_02.png,6,71.034,Brown,#81684d
+panel_02.png,7,71.038,Medium Grey,#797f85
+panel_02.png,8,71.042,Pure Black,#1c1c1b
+panel_02.png,9,71.055,Orange Fluorescent,#e95c0e
+panel_02.png,10,71.059,Gold,#b7995f
+panel_02.png,11,71.063,Steel,#8d8b8c
+panel_02.png,12,71.035,Chipping Brown,#4a423e
+panel_02.png,13,71.039,IGrey,#797c7e
+panel_02.png,15,71.056,Magenta Fluorescent,#e74190
+panel_02.png,16,71.060,Old Gold,#967c50
+panel_02.png,17,71.064,Light Steel,#a5a9ad
+panel_02.png,18,71.036,Light Grey,#94a1a5
+panel_02.png,19,71.040,Phantom Grey,#555a62
+panel_02.png,21,71.057,Green Fluorescent,#a6c958
+panel_02.png,22,71.061,Copper,#9d6651
+panel_02.png,23,71.065,Dark Steel,#737171
+panel_03.png,0,71.640,White 70.644 Sand,#ffffff
+panel_03.png,1,71.505,Light Rust Wash,#eb7716
+panel_03.png,2,71.521,Oiled Earth Wash,#6c5a4f
+panel_03.png,3,71.817,Petrol Spills (Gloss),#191c1f
+panel_03.png,4,71.641,Grey,#c4c7c8
+panel_03.png,5,71.507,Dark Rust Wash,#e15809
+panel_03.png,6,71.522,Desert Dust Wash,#d8bc7f
+panel_03.png,7,71.818,Brown Eng: Soot (Matt),#5f351c
+panel_03.png,8,71.642,Black,#010202
+panel_03.png,9,71.515,Light Wash Grey,#c8c7c5
+panel_03.png,10,71.813,Oil Stains (Gloss),#745418
+panel_03.png,11,71.821,Rust Texture (Matt),#693328
+panel_03.png,12,71.643,Ivory,#efecd4
+panel_03.png,13,71.518,Black Wash,#1c1c1b
+panel_03.png,14,71.814,Fuel Stains (Gloss),#9f6214

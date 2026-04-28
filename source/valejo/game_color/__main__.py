@@ -9,11 +9,14 @@ import cv2
 from PIL import Image
 import easyocr
 import numpy as np
+import os
+
+name = "vallejo_game_color"
 
 CONFIG = {
     "pdf_path": str(_HERE / "GameColor.pdf"),
     "render_dpi": 300,
-    "tmp_dir": str(_ROOT / ".tmp" / "vallejo_game_color"),
+    "tmp_dir": str(_ROOT / ".tmp" / name),
     "composite_page_index": 1,
     "composite_cols": 6,
     "composite_rows": 1,
@@ -24,8 +27,8 @@ CONFIG = {
     "code_prefix": "71",
     "row_cluster_threshold": 80,
     "swatch_inset": 0.08,
-    "output_json": str(_ROOT / "data" / "pack_vallejo_game_color.json"),
-    "output_csv": str(_ROOT / "data" / "pack_vallejo_game_color.csv"),
+    "output_json": str(_ROOT / "data" / f"pack_{name}.json"),
+    "output_csv": str(_ROOT / "data" / f"pack_{name}.csv"),
     "brand_label": "Vallejo Game Color",
     "brand_id": "vallejo_game_color",
     "debug": False,
@@ -34,7 +37,7 @@ CONFIG = {
     "debug_show_code_area": True,
     "debug_show_name_area": True,
     "debug_panel": None,
-    "debug_output_dir": str(_ROOT / ".tmp" / "vallejo_game_color" / "debug"),
+    "debug_output_dir": str(_ROOT / ".tmp" / name / "debug"),
 }
 
 
@@ -45,37 +48,18 @@ def rgb_to_hex(arr):
 def parse_vallejo_game_color_images(
     folder_path: Path | None = None, output_json: Path | None = None
 ):
-    """Pipeline entrypoint using the in-file per-image parser.
-
-    - If `folder_path` contains `panel_01.png`, it will be used; otherwise the repo
-      `source/valejo/game_color/panel_01.png` is used.
-    - If `output_json` is provided the resulting list will be written there.
-    Returns: list of color dicts (may be empty).
-    """
-    # collect panel images (support multiple panels)
     panels: list[Path] = []
     print(folder_path)
     tmp_dir = Path(CONFIG.get("tmp_dir"))
-    # if folder_path:
-    #     p = Path(folder_path)
-    #     panels = sorted(p.glob("panel_*.png"))
-    #     if not panels:
-    #         panels = sorted(p.glob("*.png"))
-    # else:
-    # Prefer pre-rendered panels in the configured tmp dir
     if tmp_dir.exists():
         panels = sorted(tmp_dir.glob("panel_*.png"))
-        if not panels:
-            panels = sorted(tmp_dir.glob("*.png"))
 
     reader = easyocr.Reader(["en"], gpu=False)
 
-    trans_map = str.maketrans(
-        {"O": "0", "o": "0", "I": "1", "l": "1", "i": "1", "S": "5", "s": "5"}
-    )
+    trans_map = str.maketrans({})
     results: list[dict] = []
 
-    panels = [panels[1], panels[4]]
+    panels = [panels[4]]
 
     for panel_path in panels:
         print(f"Processing panel: {panel_path}")
@@ -94,13 +78,7 @@ def parse_vallejo_game_color_images(
             code_raw = parsed.get("code").strip() if parsed.get("code") else None
             if code_raw is None:
                 continue
-            code_norm = None
-            if code_raw:
-                t = str(code_raw).translate(trans_map)
-                digits = "".join(ch for ch in t if ch.isdigit())
-                if len(digits) >= 3:
-                    digits = digits[-3:]
-                    code_norm = f"{CONFIG.get('code_prefix')}.{digits}"
+            code_norm = code_raw
 
             entry = {
                 "panel": panel_path.name,
@@ -170,7 +148,7 @@ def parse_cell(cell, img, reader):
         mean_color = roi_color.mean(axis=(0, 1))
 
     # OCR text from cell (safe ROI)
-    roi = img[y:y2, x:x2]
+    roi = img[y:y2, x - 5 : x2 - 30]
 
     try:
         result = reader.readtext(roi)
@@ -192,17 +170,25 @@ def parse_cell(cell, img, reader):
 
 def get_grid(img, panel_name=""):
 
+    top_padding = 150
+
+    os.makedirs(CONFIG["debug_output_dir"], exist_ok=True)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     clahe = cv2.createCLAHE(2.0, (8, 8))
     gray = clahe.apply(gray)
 
     edges = cv2.Canny(gray, 10, 80)
-    kernel_h = cv2.getStructuringElement(cv2.MORPH_RECT, (100, 1))
+
+    edges[0:top_padding, :] = 0
+
+    kernel_h = cv2.getStructuringElement(cv2.MORPH_RECT, (10, 1))
     horiz = cv2.morphologyEx(edges, cv2.MORPH_OPEN, kernel_h)
+
+    horiz = cv2.erode(edges, kernel_h)
+    horiz = cv2.dilate(horiz, kernel_h)
 
     kernel_v = cv2.getStructuringElement(cv2.MORPH_RECT, (1, 80))
     vert = cv2.morphologyEx(edges, cv2.MORPH_OPEN, kernel_v, iterations=1)
-    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
 
     cv2.imwrite(
         CONFIG["tmp_dir"] + f"/debug/{panel_name}_debug_horiz.png", horiz.copy()
@@ -210,15 +196,14 @@ def get_grid(img, panel_name=""):
     cv2.imwrite(CONFIG["tmp_dir"] + f"/debug/{panel_name}_debug_vert.png", vert.copy())
 
     grid = cv2.bitwise_or(horiz, vert)
-    # grid = cv2.morphologyEx(grid, cv2.MORPH_CLOSE, kernel, iterations=2)
 
     cv2.imwrite(CONFIG["tmp_dir"] + f"/debug/{panel_name}_debug_grid.png", grid.copy())
 
     col_sum = np.sum(vert, axis=0)
     row_sum = np.sum(horiz, axis=1)
 
-    col_sum = np.where(col_sum >= 30_000, col_sum, 0)
-    row_sum = np.where(row_sum >= 100_000, row_sum, 0)
+    col_sum = np.where(col_sum >= 10_000, col_sum, 0)
+    row_sum = np.where(row_sum >= 100_150, row_sum, 0)
 
     def find_lines(proj, threshold):
         lines = []
@@ -237,6 +222,8 @@ def get_grid(img, panel_name=""):
 
     xs = find_lines(col_sum, threshold=1000)
     ys = find_lines(row_sum, threshold=1000)
+
+    ys.append(len(row_sum) - 50)
 
     out = img.copy()
 
@@ -262,7 +249,7 @@ def get_grid(img, panel_name=""):
             w = x2 - x1
             h = y2 - y1
 
-            if w > 100 and h > 50:  # filtr velikosti
+            if w > 100 and h > 140:  # filtr velikosti
                 rectangles.append((x1, y1, w, h))
 
     out = img.copy()

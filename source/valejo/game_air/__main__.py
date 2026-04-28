@@ -9,13 +9,14 @@ import cv2
 from PIL import Image
 import easyocr
 import numpy as np
+import os
 
 CONFIG = {
     "pdf_path": str(_HERE / "GameAir.pdf"),
     "render_dpi": 300,
     "tmp_dir": str(_ROOT / ".tmp" / "vallejo_game_air"),
     "composite_page_index": 1,
-    "composite_cols": 6,
+    "composite_cols": 4,
     "composite_rows": 1,
     "panels_to_skip": [0],
     "color_panels": [1, 2, 3],
@@ -75,7 +76,7 @@ def parse_vallejo_game_air_images(
     )
     results: list[dict] = []
 
-    panels = [panels[1], panels[4]]
+    panels = [panels[3]]
 
     for panel_path in panels:
         print(f"Processing panel: {panel_path}")
@@ -170,7 +171,7 @@ def parse_cell(cell, img, reader):
         mean_color = roi_color.mean(axis=(0, 1))
 
     # OCR text from cell (safe ROI)
-    roi = img[y:y2, x:x2]
+    roi = img[y:y2, x - 5 : x2 - 30]
 
     try:
         result = reader.readtext(roi)
@@ -181,7 +182,7 @@ def parse_cell(cell, img, reader):
 
     parsed = {
         "code": result[0] if len(result) > 0 else None,
-        "name": " ".join(result[1:]) if len(result) > 1 else None,
+        "name": result[1] if len(result) > 1 else None,
         "color": rgb_to_hex(mean_color),
     }
     if parsed["code"] is None:
@@ -192,13 +193,22 @@ def parse_cell(cell, img, reader):
 
 def get_grid(img, panel_name=""):
 
+    top_padding = 180
+
+    os.makedirs(CONFIG["debug_output_dir"], exist_ok=True)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     clahe = cv2.createCLAHE(2.0, (8, 8))
     gray = clahe.apply(gray)
 
     edges = cv2.Canny(gray, 10, 80)
-    kernel_h = cv2.getStructuringElement(cv2.MORPH_RECT, (100, 1))
+
+    edges[0:top_padding, :] = 0
+
+    kernel_h = cv2.getStructuringElement(cv2.MORPH_RECT, (10, 1))
     horiz = cv2.morphologyEx(edges, cv2.MORPH_OPEN, kernel_h)
+
+    horiz = cv2.erode(edges, kernel_h)
+    horiz = cv2.dilate(horiz, kernel_h)
 
     kernel_v = cv2.getStructuringElement(cv2.MORPH_RECT, (1, 80))
     vert = cv2.morphologyEx(edges, cv2.MORPH_OPEN, kernel_v, iterations=1)
@@ -217,8 +227,8 @@ def get_grid(img, panel_name=""):
     col_sum = np.sum(vert, axis=0)
     row_sum = np.sum(horiz, axis=1)
 
-    col_sum = np.where(col_sum >= 30_000, col_sum, 0)
-    row_sum = np.where(row_sum >= 100_000, row_sum, 0)
+    col_sum = np.where(col_sum >= 10_000, col_sum, 0)
+    row_sum = np.where(row_sum >= 100_150, row_sum, 0)
 
     def find_lines(proj, threshold):
         lines = []
@@ -237,6 +247,8 @@ def get_grid(img, panel_name=""):
 
     xs = find_lines(col_sum, threshold=1000)
     ys = find_lines(row_sum, threshold=1000)
+
+    ys.append(len(row_sum) - 250)
 
     out = img.copy()
 
@@ -262,7 +274,7 @@ def get_grid(img, panel_name=""):
             w = x2 - x1
             h = y2 - y1
 
-            if w > 100 and h > 50:  # filtr velikosti
+            if w > 100 and h > 140:  # filtr velikosti
                 rectangles.append((x1, y1, w, h))
 
     out = img.copy()

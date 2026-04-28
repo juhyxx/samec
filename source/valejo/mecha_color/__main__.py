@@ -15,7 +15,7 @@ CONFIG = {
     "render_dpi": 300,
     "tmp_dir": str(_ROOT / ".tmp" / "vallejo_mecha_color"),
     "composite_page_index": 1,
-    "composite_cols": 6,
+    "composite_cols": 5,
     "composite_rows": 1,
     "panels_to_skip": [0],
     "color_panels": [1, 2, 3],
@@ -75,7 +75,7 @@ def parse_vallejo_mecha_color_images(
     )
     results: list[dict] = []
 
-    panels = [panels[1], panels[4]]
+    panels = [panels[1], panels[2], panels[3]]  # only color panels
 
     for panel_path in panels:
         print(f"Processing panel: {panel_path}")
@@ -262,7 +262,7 @@ def get_grid(img, panel_name=""):
             w = x2 - x1
             h = y2 - y1
 
-            if w > 100 and h > 50:  # filtr velikosti
+            if w > 100 and h > 180:  # filtr velikosti
                 rectangles.append((x1, y1, w, h))
 
     out = img.copy()

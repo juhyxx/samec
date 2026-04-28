@@ -1,116 +1,102 @@
 panel,cell_index,code,name,hex
-panel_01.png,0,71.208,81 Yellow Game Color Fluo,#f9f3b3
-panel_01.png,1,71.103,101 Fluorescent Yellow Game Color Spee 72.600 89 Vomit 72.609 98 Rust Auxiliary Produc,#faeb3d
-panel_01.png,3,71.521,Metal Medium,#f6f6f6
-panel_01.png,4,,72.401 137 Templar White 72.410 146 Gloomy Violet,#ea672f
-panel_01.png,5,71.419,155 Plague Green 72.452 164 Rotten Flesh,#eaeaea
-panel_01.png,6,71.204,Flesh,#d2bdb3
-panel_01.png,7,71.156,102 Fluorescent Orange cial FX 72.601 90 Fresh Blood 72.610 99 Galvanic Corrosion ts,#e63c11
-panel_01.png,9,71.596,Glaze Medium,#f8f8f7
-panel_01.png,10,,72.402 138 Dwarf Skin 72.411 147 Mystic Blue,#eb7a46
-panel_01.png,11,71.420,156 Wasteland Brown 72.453 165 Military Yellow,#f1f1f1
-panel_01.png,12,71.206,Red,#e1ab9a
-panel_01.png,13,71.157,103 Fluorescent Red 72.602 Thick Blood 72.611 100 Moss and Lichen,#e42e3f
-panel_01.png,15,71.261,Airbrush Thinner,#f7f7f7
-panel_01.png,16,71.403,139 Imperial Yellow 72.412 148 Storm Blue,#ef9467
-panel_01.png,17,71.421,157 Copper Brown 72.454 166 Desert Ochre,#fbfbfb
-panel_01.png,18,71.209,Violet,#c3abcd
-panel_01.png,19,71.158,Fluoresc: Mage 72.603 Demon Blood,#e8348b
-panel_01.png,21,71.650,Gloss Poly: Var,#fefefe
-panel_01.png,22,71.404,Nuclear Yellom 72.413 Omega Blue,#f3b391
-panel_01.png,23,71.422,Space 72.455 Chameleon Or Grey,#ffffff
-panel_01.png,24,71.207,Blue,#e6ebf5
-panel_01.png,25,71.159,Fluorescent Vic 72.604 Frost,#cdb5d1
-panel_01.png,27,71.651,Matt Poly: Varr,#fefefe
-panel_01.png,28,71.405,Martian Orang = 72.414 Caribbean Turc,#f5d1bb
-panel_01.png,29,71.423,Black Lotus 72.456 Wicked Purple,#ffffff
-panel_01.png,30,71.203,Umber,#c1b5ac
-panel_01.png,31,71.160,106 Fluorescent Blue 72.605 94 Green Rust,#007ab9
-panel_01.png,33,71.652,Satin Poly: Varnish,#ffffff
-panel_01.png,34,71.406,142 Plasma Red 72.415 151 Orc Skin,#fdf8f5
-panel_01.png,35,71.448,160 Xpress Medium 72.457 169 Fairy Skin,#ffffff
-panel_01.png,36,71.200,Sepia,#c1b19d
-panel_01.png,37,71.104,107 Fluorescent Green 72.606 95 Bile,#5ab030
-panel_01.png,39,71.653,Ultra Matt Pol. Varn,#ffffff
-panel_01.png,40,71.407,143 Velvet Red 72.416 152 Troll Green,#ffffff
-panel_01.png,41,71.449,161 Mummy White 72.458 170 Demonic Skin,#ffffff
-panel_01.png,42,71.201,Black,#a8a3a6
-panel_01.png,43,71.161,108 Fluo. Cold Green 72.607 96 Acid,#00604e
-panel_01.png,46,71.408,144 Cardinal Purple 72.417 153 Snake Green,#ffffff
-panel_01.png,47,71.450,162 Bag of Bones 72.459 Fluid Pink,#ffffff
-panel_01.png,49,71.608,Corrosion,#ffffff
-panel_01.png,52,71.409,Deep Purple 72.418 Lizard Green,#ffffff
-panel_01.png,53,71.451,Khaki Drill 72.460 Twilight Rose,#ffffff
-panel_04.png,0,,,#de2f40
-panel_04.png,1,71.001,Dead White,#ffffff
-panel_04.png,2,71.004,10 Elf Skin Tone,#c57f53
-panel_04.png,3,71.009,19 Hot Orange,#d2d2d2
-panel_04.png,4,71.113,28 Deep Magenta 72.118 Sunrise Blue,#d5d5d5
-panel_04.png,5,71.025,46 Foul Green,#f1f1f1
-panel_04.png,6,71.035,54 Dead Flesh 72.040 Leather Brown,#fcfcfb
-panel_04.png,7,71.095,Glacier Blue Game Color Me,#b7d0ec
-panel_04.png,8,71.052,Silver Game Color Ink 72.082 109 White,#b3babb
-panel_04.png,9,71.010,,#de4851
-panel_04.png,10,71.101,Off-White,#ece7d6
-panel_04.png,11,71.071,Barbarian Skin,#b9b0a8
-panel_04.png,12,71.106,20 Scarlet Blood,#dcdcdc
-panel_04.png,13,71.114,29 Lustful Purple 72.023 38 Electric Blue,#d6d6d5
-panel_04.png,14,71.026,Jade Green,#e8e8e8
-panel_04.png,15,71.031,55 Camouflage Green 72.043 Beasty Brown,#ebebeb
-panel_04.png,16,71.102,Steel tallic Grey,#b9bec1
-panel_04.png,17,71.053,122 Chainmail 72.093 110 Skin,#d9dbdd
-panel_04.png,19,71.098,Elfic Flesh,#f1d6a3
-panel_04.png,20,71.109,Toxic Yellow,#e2c33a
-panel_04.png,21,71.010,Bloody Red,#c9c9c9
-panel_04.png,22,71.076,30 Alien Purple 72.021 39 Magic Blue,#c8c8c8
-panel_04.png,23,71.027,Scurvy Green,#dfdfdf
-panel_04.png,24,71.145,56 Dirty Grey 72.042 Parasite Brown,#e5e5e5
-panel_04.png,25,71.048,Sombre Grey,#373f46
-panel_04.png,26,71.054,123 Dark Gunmetal 72.085 Yellow,#6f7075
-panel_04.png,28,71.034,Bone White,#d4cbaa
-panel_04.png,29,71.005,13 Moon Yellow,#efb806
-panel_04.png,30,71.012,22 Scarlet Red,#cacaca
-panel_04.png,31,71.015,31 Hexed Lichen 72.020 40 Imperial Blue,#d1d1d1
-panel_04.png,32,71.122,49 Bile Green,#e6e6e6
-panel_04.png,33,71.067,Cayman Green 72.115 Grunge Brown,#e6e6e6
-panel_04.png,34,71.148,Warm Grey,#81655f
-panel_04.png,35,71.055,124 Polished Gold 72.086 112 Red,#e8b820
-panel_04.png,37,71.003,Pale Flesh,#ce9a7b
-panel_04.png,38,71.006,14 Sun Yellow,#f4950c
-panel_04.png,39,71.011,23 Gory Red,#cdcdcd
-panel_04.png,40,71.016,32 Royal Purple 72.096 Verdigris,#cdcdcc
-panel_04.png,41,71.032,50 Scorpy Green,#e0e0e0
-panel_04.png,42,71.061,58 Khaki 72.124 Gorgon Brown,#e6e6e6
-panel_04.png,43,71.049,76 Stonewall Grey,#615e5c
-panel_04.png,44,71.056,125 Glorious Gold 72.083 113 Magenta,#d68727
-panel_04.png,46,71.100,Rosy Flesh,#e27262
-panel_04.png,47,71.007,15 Gold Yellow,#e77810
-panel_04.png,48,71.111,24 Nocturnal Red,#cecdcd
-panel_04.png,49,71.116,33 Midnight Purple 72.119 Aquamarine,#cacaca
-panel_04.png,50,71.030,51 Goblin Green,#ebebeb
-panel_04.png,51,71.063,59 Desert Yellow 72.066 Tan,#e5e5e5
-panel_04.png,52,71.050,Neutral Grey,#484844
-panel_04.png,53,71.057,126 Bright Bronze 72.087 114 Violet,#a55c0c
-panel_04.png,55,71.107,Athena Skin,#d5bbb6
-panel_04.png,56,71.038,16 Scrofulous Brown,#cfb79e
-panel_04.png,57,71.112,25 Evil Red,#dfdfde
-panel_04.png,58,71.117,34 Elfic Blue 72.024 43 Turquoise,#d9d9d9
-panel_04.png,59,71.029,51 Sick Green,#e4e4e4
-panel_04.png,60,71.062,60 Earth 72.044 69 Dark Flesh Tone,#e9e9e9
-panel_04.png,61,71.155,78 Charcoal,#a7a6a4
-panel_04.png,62,71.058,127 Brassy Brass 72.088 115 Blue,#d7bfb1
-panel_04.png,64,71.108,Succubus Skin,#74423c
-panel_04.png,65,71.110,Sunset Orange,#f18332
-panel_04.png,66,71.013,26 Squid Pink,#d6d5d5
-panel_04.png,67,71.022,35 Ultramarine Blue 72.120 Abyssal Turquoise,#d4d3d3
-panel_04.png,68,71.123,52 Angel Green,#e8e8e8
-panel_04.png,69,71.036,Bronze Brown 72.045 70 Charred Brown,#eae9e9
-panel_04.png,70,71.051,79 Black,#010000
-panel_04.png,71,71.059,128 Hammered Copper 72.084 116 Dark Turquoise,#764d33
-panel_04.png,73,71.099,Skin Tone,#f3a97f
-panel_04.png,74,71.008,Orange Fire,#ea541e
-panel_04.png,75,71.014,27 Warlord Purple,#e1e1e1
-panel_04.png,76,71.019,36 Night Blue 72.121 Ghost Green,#dadada
-panel_04.png,77,71.028,53 Dark Green,#f2f2f1
-panel_04.png,78,71.039,Plague Brown 72.047 Wolf Grey,#eeeeee
-panel_04.png,80,71.060,129 Tinny Tin 72.089 Green,#542e18
+panel_04.png,0,72.001,Dead White,#ffffff
+panel_04.png,1,72.004,Elf Skin Tone,#c57f53
+panel_04.png,2,72.009,Hot Orange,#d8321e
+panel_04.png,3,72.113,Deep Magenta,#4b2036
+panel_04.png,4,72.118,Sunrise Blue,#5cb0d1
+panel_04.png,5,72.025,Foul Green,#156e53
+panel_04.png,6,72.035,Dead Flesh,#94803b
+panel_04.png,7,72.040,Leather Brown,#4f3513
+panel_04.png,8,72.095,Glacier Blue Game Color,#b7d0ec
+panel_04.png,9,72.052,Silver Game Color,#b3babb
+panel_04.png,10,72.082,White,#ffffff
+panel_04.png,11,72.090,Black Green,#253b2c
+panel_04.png,12,72.101,Off-White,#fef0b8
+panel_04.png,13,72.071,Barbarian Skin,#775a40
+panel_04.png,14,72.106,Scarlet Blood,#ac201d
+panel_04.png,15,72.114,Lustful Purple,#7e6093
+panel_04.png,16,72.023,Electric Blue,#016d89
+panel_04.png,17,72.026,Jade Green,#024938
+panel_04.png,18,72.031,Camouflage Gre,#6e6229
+panel_04.png,19,72.043,Beasty Brown,#55381d
+panel_04.png,20,72.102,Steel allic Grey,#4a5b63
+panel_04.png,21,72.053,Chainmail,#979da3
+panel_04.png,22,72.093,Skin,#452119
+panel_04.png,23,72.091,Sepia,#342613
+panel_04.png,24,72.098,Elfic Flesh,#f1d6a3
+panel_04.png,25,72.109,Toxic Yellow,#e2c33a
+panel_04.png,26,72.010,Bloody Red,#a42d2c
+panel_04.png,27,72.076,Alien Purple,#54417c
+panel_04.png,28,72.021,Magic Blue,#103d7e
+panel_04.png,29,72.027,Scurvy Green,#023526
+panel_04.png,30,72.145,"Grey Dirty """,#4a3e20
+panel_04.png,31,72.042,Parasite Brown,#703c1a
+panel_04.png,32,72.048,Sombre Grey,#373f46
+panel_04.png,33,72.054,Dark Gunmetal,#6f7075
+panel_04.png,34,72.085,Yellow,#ea9c13
+panel_04.png,35,72.094,Black,#010000
+panel_04.png,36,72.034,Bone White,#d4cbaa
+panel_04.png,37,72.005,Moon Yellow,#efb806
+panel_04.png,38,72.012,Scarlet Red,#581a22
+panel_04.png,39,72.015,Hexed Lichen,#341939
+panel_04.png,40,72.020,Imperial Blue,#122133
+panel_04.png,41,72.122,Bile Green,#d5d90f
+panel_04.png,42,72.067,Cayman Green,#41391a
+panel_04.png,43,72.115,Grunge Brown,#69361c
+panel_04.png,44,72.148,Warm Grey,#81655f
+panel_04.png,45,72.055,Polished Gold,#e8b820
+panel_04.png,46,72.086,Red,#a71522
+panel_04.png,48,72.003,Pale Flesh,#ce9a7b
+panel_04.png,49,72.006,Sun Yellow,#f4950c
+panel_04.png,50,72.011,Gory Red,#621716
+panel_04.png,51,72.016,Royal Purple,#251930
+panel_04.png,52,72.096,Verdigris,#86c8aa
+panel_04.png,53,72.032,Scorpy Green,#417b33
+panel_04.png,54,72.061,Khaki,#786348
+panel_04.png,55,72.124,Gorgon Brown,#3e2317
+panel_04.png,56,72.049,Stonewall Grey,#615e5c
+panel_04.png,57,72.056,Glorious Gold,#d68727
+panel_04.png,58,72.083,Magenta,#9c2242
+panel_04.png,60,72.100,Rosy Flesh,#e27262
+panel_04.png,61,72.007,Gold Yellow,#e77810
+panel_04.png,62,72.111,Nocturnal Red,#3a1d23
+panel_04.png,63,72.116,Midnight Purple,#251532
+panel_04.png,64,72.119,Aquamarine,#007977
+panel_04.png,65,72.030,Goblin Green,#43502a
+panel_04.png,66,72.063,Desert Yellow,#7c5b2c
+panel_04.png,67,72.066,Tan,#7e4c3f
+panel_04.png,68,72.050,Neutral Grey,#484844
+panel_04.png,69,72.057,Bright Bronze,#a55c0c
+panel_04.png,70,72.087,Violet,#49325f
+panel_04.png,72,72.107,Athena Skin,#d5bbb6
+panel_04.png,73,72.038,Scrofulous Browr,#cfb79e
+panel_04.png,74,72.112,Evil Red,#a8a1a5
+panel_04.png,75,72.117,Elfic Blue,#acb4be
+panel_04.png,76,72.024,Turquoise,#94aaab
+panel_04.png,77,72.029,Sick Green,#afbaad
+panel_04.png,78,72.062,Earth,#bbb3ab
+panel_04.png,79,72.044,Dark Flesh Tone,#afa4a0
+panel_04.png,80,72.155,Charcoal,#a7a6a4
+panel_04.png,81,72.058,Brassy Brass,#d7bfb1
+panel_04.png,82,72.088,Blue,#a8b2c2
+panel_04.png,84,72.108,Succubus Skin,#74423c
+panel_04.png,85,72.110,Sunset Orange,#f18332
+panel_04.png,86,72.013,Squid Pink,#cb709f
+panel_04.png,87,72.022,Ultramarine Blue,#1a234c
+panel_04.png,88,72.120,Abyssal Turquois,#122433
+panel_04.png,89,72.123,Angel Green,#243822
+panel_04.png,90,72.036,Bronze Brown,#995b1b
+panel_04.png,91,72.045,Charred Brown,#281b15
+panel_04.png,92,72.051,Black,#010000
+panel_04.png,93,72.059,Hammered Copp,#764d33
+panel_04.png,94,72.084,Dark Turquoise,#093f3d
+panel_04.png,96,72.099,Skin Tone,#f3a97f
+panel_04.png,97,72.008,Orange Fire,#ea541e
+panel_04.png,98,72.014,Warlord Purple,#7e223f
+panel_04.png,99,72.019,Night Blue,#0f0f1d
+panel_04.png,100,72.121,Ghost Green,#5bb889
+panel_04.png,101,72.028,Dark Green,#112418
+panel_04.png,102,72.039,Plague Brown,#8f5e25
+panel_04.png,103,72.047,Wolf Grey,#96b4bc
+panel_04.png,105,72.060,Tinny Tin,#542e18
+panel_04.png,106,72.089,Green,#077133
